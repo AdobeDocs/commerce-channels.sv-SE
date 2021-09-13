@@ -11,7 +11,7 @@ ht-degree: 0%
 
 # Loggar och butiksrapporter
 
-Tillägget för Amazon-försäljningskanalen innehåller värdefulla loggar och butiksrapporter som gör att du kan se ändringarna som påverkar dina Amazon listor och beställningar. Du kan använda de här rapporterna för att se vad som händer i din butik och för att förstå olika liststatusar.
+Tillägget för Amazon-försäljningskanalen innehåller värdefulla loggar och butiksrapporter som gör att du kan visa ändringar som påverkar dina Amazon listor och beställningar. Du kan använda de här rapporterna för att se vad som händer i din butik och för att förstå olika liststatusar.
 
 Inga åtgärder är tillgängliga för loggarna eller butiksrapporterna, eftersom de bara är granskningsfunktioner.
 

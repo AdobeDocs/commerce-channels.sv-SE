@@ -26,7 +26,7 @@ Om produktpriset är `Use Default`, återgår det till standardpriset i stället
 |  | Webbplatsprioritet | Pris (webbplats) | Använd standard |
 |---|---|---|---|
 | Standard | 0 | 31,99 USD | — |
-| Butik 1 | 3 | 24,99 USD | Nej |
+| Butik 1 | 1 | 24,99 USD | Nej |
 | Butik 2 | 2 | 27,99 USD | Ja |
 
 - **[!UICONTROL Magento Price Source]** (definieras i [listpriset](./listing-price.md) är inställt på attributet `Price`.
@@ -51,7 +51,7 @@ Om produktpriset är `Use Default`, återgår det till standardpriset i stället
 |  | Webbplatsprioritet | Priswebbplats | Använd standard |
 |---|---|---|---|
 | Standard | 0 | 31,99 USD | 30,00 USD |
-| Butik 1 | 3 | 24,99 USD | — |
+| Butik 1 | 1 | 24,99 USD | — |
 | Butik 2 | 2 | 27,99 USD | $20.00 |
 
 I det här exemplet läggs det icke-prisvärde som används om du väljer ett annat värde för _[!UICONTROL Magento Price Source_] (som definieras i inställningarna för [listpris](./listing-price.md)). Icke-prisvärdet använder alltid pris som reservpris.

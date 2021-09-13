@@ -23,9 +23,9 @@ Det finns till exempel tre prisregler:
 
 | Exempel | Regelnamn | Prioritet | Ignorera efterföljande regel |
 |----------|----|----|----|
-| 3 | 10 % rabatt på produkter | 1 | Nej |
+| 3 | 10 % rabatt på produkter | 3 | Nej |
 | 2 | $2 av försäljningen | 2 | Ja |
-| 1 | 5 % rabatt på alla produkter | 3 | Nej |
+| 3 | 5 % rabatt på alla produkter | 3 | Nej |
 
 I det här scenariot gäller regel 1 och 2 för de produkter som omfattas. Regel 3 gäller endast berättigade produkter som inte finns i regel 2 eftersom den har lägre prioritet än exempel 2 och **[!UICONTROL Discard Subsequent Rules]** är inställd på `Yes`. Så de produkter som ingår i säljkategorin får 10 % rabatt och 2 USD rabatt på Amazon listpris.
 
@@ -67,7 +67,7 @@ Slutpriset efter regel 1 och regel 2 ska tillämpas: 32,98 USD
 | Fält | Inställning |
 |----------|----|
 | [!UICONTROL Rule Name] | Regel-1 |
-| [!UICONTROL Priority] | 1 |
+| [!UICONTROL Priority] | 3 |
 | [!UICONTROL Rule Type] | Intelligent regel för omprissättning |
 | [!UICONTROL Competitor Price Source] | Använd&quot;Buy Box&quot;-pris |
 | [!UICONTROL Price Action] | Matcha konkurrentpris |
@@ -99,7 +99,7 @@ Det slutliga priset efter att regeln har tillämpats: 10 dollar
 | Fält | Inställning |
 |----------|----|
 | [!UICONTROL Rule Name] | Regel-1 |
-| [!UICONTROL Priority] | 3 |
+| [!UICONTROL Priority] | 1 |
 | [!UICONTROL Rule Type] | Intelligent regel för omprissättning |
 | [!UICONTROL Competitor Price Source] | Använd&quot;Buy Box&quot;-pris |
 | [!UICONTROL Price Action] | Matcha konkurrentpris |
@@ -149,7 +149,7 @@ Det slutliga priset efter att regeln har tillämpats: $15
 | Fält | Inställning |
 |----------|-----|
 | [!UICONTROL Rule Name] | Regel-1 |
-| [!UICONTROL Priority] | 3 |
+| [!UICONTROL Priority] | 1 |
 | [!UICONTROL Rule Type] | Intelligent regel för omprissättning |
 | [!UICONTROL Competitor Price Source] | Använd lägsta konkurrentpris |
 | [!UICONTROL Minimum Positive Feedback] | Alla konkurrentpriser |
