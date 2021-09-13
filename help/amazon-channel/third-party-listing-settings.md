@@ -1,11 +1,11 @@
 ---
 title: Tredjepartslistor
 description: Uppdatera inställningarna för tredjepartslistan avgör om din Commerce-katalog importerar produkter från dina befintliga Amazon Seller Central-listor.
-redirect_from: /sales-channels/asc/ob-third-party-listings.html: 
+redirect_from: /sales-channels/asc/ob-third-party-listings.html
 exl-id: bc82775a-6f29-49b5-a80b-20e171eaf8f4
-source-git-commit: 2c753ec5f6f4cd509e61b4875e09e9a1a2577ee7
+source-git-commit: 632157839130461869345724bdfc03b306a4f613
 workflow-type: tm+mt
-source-wordcount: 519
+source-wordcount: '519'
 ht-degree: 0%
 
 ---

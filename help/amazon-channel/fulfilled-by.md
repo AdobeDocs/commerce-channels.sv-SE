@@ -1,11 +1,11 @@
 ---
 title: Fullgjord av
 description: Använd inställningarna för Fulifyllt av för att bestämma hur beställningarna från Amazon-listorna uppfylls (skickas).
-redirect_from: /sales-channels/asc/ob-fulfilled-by.html: 
+redirect_from: /sales-channels/asc/ob-fulfilled-by.html
 exl-id: 240c2198-e23d-40e7-be39-b9a4f78565d2
-source-git-commit: 2c753ec5f6f4cd509e61b4875e09e9a1a2577ee7
+source-git-commit: 632157839130461869345724bdfc03b306a4f613
 workflow-type: tm+mt
-source-wordcount: 618
+source-wordcount: '618'
 ht-degree: 0%
 
 ---

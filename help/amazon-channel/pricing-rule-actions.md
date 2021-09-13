@@ -1,11 +1,11 @@
 ---
 title: Prisregelåtgärder
 description: Använd prisregelåtgärderna för att definiera justeringsberäkningarna som tillämpas på priskällan för att fastställa Amazon listpris.
-redirect_from: /sales-channels/asc/ob-pricing-rules-actions.html: 
+redirect_from: /sales-channels/asc/ob-pricing-rules-actions.html
 exl-id: c46bd5c2-7994-45b4-ae0c-9e473372c73a
-source-git-commit: 2c753ec5f6f4cd509e61b4875e09e9a1a2577ee7
+source-git-commit: 632157839130461869345724bdfc03b306a4f613
 workflow-type: tm+mt
-source-wordcount: 211
+source-wordcount: '211'
 ht-degree: 0%
 
 ---

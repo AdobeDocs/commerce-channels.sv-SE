@@ -1,11 +1,11 @@
 ---
 title: Visa listinställningar
-description: 'Använd listinställningarna för att definiera hur dina  [!DNL Commerce] katalogprodukter visas på [!DNL Amazon Marketplace].'
-redirect_from: /sales-channels/asc/ob-listing-settings.html: 
+description: Använd listinställningarna för att definiera hur dina  [!DNL Commerce] katalogprodukter visas på [!DNL Amazon Marketplace].
+redirect_from: /sales-channels/asc/ob-listing-settings.html
 exl-id: 939babd0-8e6d-40b8-a42a-fc5c7dc3f98b
-source-git-commit: 2c753ec5f6f4cd509e61b4875e09e9a1a2577ee7
+source-git-commit: 632157839130461869345724bdfc03b306a4f613
 workflow-type: tm+mt
-source-wordcount: 246
+source-wordcount: '246'
 ht-degree: 0%
 
 ---
