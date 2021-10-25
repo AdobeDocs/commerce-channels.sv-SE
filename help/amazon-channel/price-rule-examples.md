@@ -15,19 +15,19 @@ ht-degree: 2%
 
 ### Ignorera efterföljande regler
 
-Möjligheten att ignorera efterföljande regler är en bra funktion i prissättningsreglerna som förhindrar att flera olika prisregler staplas och ger oönskade ytterligare rabatter. Om du vill ta bort efterföljande regler måste en prisregel använda de prioriteter som anges i _[!UICONTROL Priority]_-avsnittet i [Allmänna inställningar för prisregel](./pricing-rule-general-settings.md).
+Möjligheten att ignorera efterföljande regler är en bra funktion i prissättningsreglerna som förhindrar att flera olika prisregler staplas och ger oönskade ytterligare rabatter. Om du vill ignorera efterföljande regler måste en prisregel använda de prioriteter som anges i _[!UICONTROL Priority]_avsnitt i [Allmänna inställningar för prisregel](./pricing-rule-general-settings.md).
 
-Om **[!UICONTROL Discard Subsequent Rules]** är `Yes` gäller reglerna med lägre prioritet (högre nummer) inte för de produkter som omfattas.
+If **[!UICONTROL Discard Subsequent Rules]** är inställd på `Yes`gäller dock inte reglerna med lägre prioritet (högre nummer) för de produkter som omfattas.
 
 Det finns till exempel tre prisregler:
 
 | Exempel | Regelnamn | Prioritet | Ignorera efterföljande regel |
 |----------|----|----|----|
-| 3 | 10 % rabatt på produkter | 3 | Nej |
+| 1 | 10 % rabatt på produkter | 1 | Nej |
 | 2 | $2 av försäljningen | 2 | Ja |
 | 3 | 5 % rabatt på alla produkter | 3 | Nej |
 
-I det här scenariot gäller regel 1 och 2 för de produkter som omfattas. Regel 3 gäller endast berättigade produkter som inte finns i regel 2 eftersom den har lägre prioritet än exempel 2 och **[!UICONTROL Discard Subsequent Rules]** är inställd på `Yes`. Så de produkter som ingår i säljkategorin får 10 % rabatt och 2 USD rabatt på Amazon listpris.
+I det här scenariot gäller regel 1 och 2 för de produkter som omfattas. Regel nr 3 gäller endast berättigade produkter som inte finns i regel nr 2 eftersom den har lägre prioritet än exempel nr 2 och **[!UICONTROL Discard Subsequent Rules]** är inställd på `Yes`. Så de produkter som ingår i säljkategorin får 10 % rabatt och 2 USD rabatt på Amazon listpris.
 
 ### Använda två standardprisregler
 
@@ -67,7 +67,7 @@ Slutpriset efter regel 1 och regel 2 ska tillämpas: 32,98 USD
 | Fält | Inställning |
 |----------|----|
 | [!UICONTROL Rule Name] | Regel-1 |
-| [!UICONTROL Priority] | 3 |
+| [!UICONTROL Priority] | 1 |
 | [!UICONTROL Rule Type] | Intelligent regel för omprissättning |
 | [!UICONTROL Competitor Price Source] | Använd&quot;Buy Box&quot;-pris |
 | [!UICONTROL Price Action] | Matcha konkurrentpris |
@@ -78,9 +78,9 @@ Slutpriset efter regel 1 och regel 2 ska tillämpas: 32,98 USD
 
 Pris: $15
 
-[Köp ](./buy-box-competitor-pricing.md) Boxprice från Amazon: 10 dollar
+[Buy Box](./buy-box-competitor-pricing.md) pris från Amazon: 10 dollar
 
-Eftersom priset på [Buy Boxen](./buy-box-competitor-pricing.md) är lägre än det ursprungliga priset anges produkten till det ursprungliga priset.
+På grund av [Buy Box](./buy-box-competitor-pricing.md) priset är lägre än det ursprungliga priset, produkten anges till det ursprungliga priset.
 
 Det slutliga priset efter att regeln har tillämpats: $15
 
@@ -88,9 +88,9 @@ Det slutliga priset efter att regeln har tillämpats: $15
 
 Pris: $5
 
-[Köp ](./buy-box-competitor-pricing.md) Boxprice från Amazon: 10 dollar
+[Buy Box](./buy-box-competitor-pricing.md) pris från Amazon: 10 dollar
 
-Eftersom priset på [Buy Boxen](./buy-box-competitor-pricing.md) är högre än det ursprungliga priset anges produkten till priset [Buy Box](./buy-box-competitor-pricing.md).
+På grund av [Buy Box](./buy-box-competitor-pricing.md) priset är högre än det ursprungliga priset, produkten anges på [Buy Box](./buy-box-competitor-pricing.md) pris.
 
 Det slutliga priset efter att regeln har tillämpats: 10 dollar
 
@@ -114,9 +114,9 @@ Pris: $20
 
 Beräknat golvpris: $16
 
-[Köp ](./buy-box-competitor-pricing.md) Boxprice från Amazon: $15
+[Buy Box](./buy-box-competitor-pricing.md) pris från Amazon: $15
 
-Eftersom priset [Buy Box](./buy-box-competitor-pricing.md) är lägre än det beräknade [priset](./floor-price.md), anges produkten på det beräknade [priset](./floor-price.md).
+På grund av [Buy Box](./buy-box-competitor-pricing.md) priset är lägre än beräknat [Baspris](./floor-price.md)finns produkten på Beräknad [Baspris](./floor-price.md).
 
 Det slutliga priset efter att regeln har tillämpats: $16
 
@@ -124,11 +124,11 @@ Det slutliga priset efter att regeln har tillämpats: $16
 
 Pris: $15
 
-Beräknat [pris](./floor-price.md): $12
+Beräknat [Baspris](./floor-price.md): $12
 
-[Köp ](./buy-box-competitor-pricing.md) Boxprice från Amazon: $15
+[Buy Box](./buy-box-competitor-pricing.md) pris från Amazon: $15
 
-Eftersom priset på [Buy Boxen](./buy-box-competitor-pricing.md) är större än det beräknade [priset](./floor-price.md) anges produkten till priset [Buy Box](./buy-box-competitor-pricing.md).
+På grund av [Buy Box](./buy-box-competitor-pricing.md) priset är större än beräknat [Baspris](./floor-price.md), visas produkten på [Buy Box](./buy-box-competitor-pricing.md) pris.
 
 Det slutliga priset efter att regeln har tillämpats: $15
 
@@ -138,9 +138,9 @@ Pris: $17
 
 Beräknat golvpris: 13,60 USD
 
-[Köp ](./buy-box-competitor-pricing.md) Boxprice från Amazon: $15
+[Buy Box](./buy-box-competitor-pricing.md) pris från Amazon: $15
 
-Eftersom priset på [Buy Boxen](./buy-box-competitor-pricing.md) är större än det beräknade [priset](./floor-price.md) anges produkten till priset [Buy Box](./buy-box-competitor-pricing.md).
+På grund av [Buy Box](./buy-box-competitor-pricing.md) priset är större än beräknat [Baspris](./floor-price.md), visas produkten på [Buy Box](./buy-box-competitor-pricing.md) pris.
 
 Det slutliga priset efter att regeln har tillämpats: $15
 
@@ -181,7 +181,7 @@ Pris: 10 dollar
 
 Villkor: Används. Godtagbart
 
-Eftersom [lägsta konkurrentpris](./lowest-competitor-pricing.md) för villkoret Använt är $13, anges produkten till $13.
+På grund av [lägsta konkurrentpris](./lowest-competitor-pricing.md) för villkoret Använt är 13 USD anges produkten till 13 USD.
 
 Det slutliga priset efter att regeln har tillämpats: $13
 
@@ -193,9 +193,9 @@ Det slutliga priset efter att regeln har tillämpats: $13
 | [!UICONTROL Ceiling price source] | 10 dollar |
 | [!UICONTROL Currency conversion] | 1,25 euro:1 USD |
 
-[Takpriser ](./optional-ceiling-price.md) på den europeiska marknaden (moms): $10 x 1.25 = $12.50
+[Takpris](./optional-ceiling-price.md) På den europeiska (moms) marknaden: $10 x 1.25 = $12.50
 
-När man träffar det [högsta priset](./optional-ceiling-price.md) på den europeiska marknaden (moms) beräknas och läggs momsen till.
+När [tak](./optional-ceiling-price.md) på den europeiska marknaden (moms) beräknas och läggs momsen till.
 
 Slutpris efter moms: $12.50 x (1.1) = $13.75
 
@@ -205,12 +205,12 @@ Slutpris efter moms: $12.50 x (1.1) = $13.75
 
 | Fält | Inställning |
 |----------|----|
-| Prioritet | 3 |
+| Prioritet | 1 |
 | moms | 10 % |
 | Tak priskälla | 10 dollar |
 | Valutakonvertering | 1,25 euro:1 USD |
 
-[Takpriser ](./optional-ceiling-price.md) på den europeiska marknaden (moms): $10 x 1.25 = $12.50
+[Takpris](./optional-ceiling-price.md) På den europeiska (moms) marknaden: $10 x 1.25 = $12.50
 
 Slutpris efter moms: $12.50 x (1.1) = $13.75
 
@@ -223,23 +223,23 @@ Slutpris efter moms: $12.50 x (1.1) = $13.75
 | [!UICONTROL Apply] | Använd som fast belopp |
 | [!UICONTROL Adjustment Amount] | 5,00 USD |
 
-När [takpriset](./optional-ceiling-price.md) nås tillämpas standardprisregeln ovanpå den intelligenta prisregeln.
+När [tak](./optional-ceiling-price.md) är träffad tillämpas standardprisregeln ovanpå regeln om intelligent prissättning.
 
 Slutpris efter att standardprisregeln har tillämpats: $13.75 + $5.00 = $18.75
 
 ### Prisjustering
 
-I det här exemplet definieras det mest konkurrenskraftiga priset genom att titta på Amazon [konkurrents lägsta pris](./lowest-competitor-pricing.md) med 95 % positiv feedback och ett minsta antal feedback-recensioner på 1 000 handlare.
+I det här exemplet definieras det mest konkurrenskraftiga priset genom att titta på Amazon [konkurrentens lägsta pris](./lowest-competitor-pricing.md) med 95 % positiv feedback och minst 1 000 feedback-granskningar.
 
 ![Exempel på prisjustering](assets/amazon-price-adjustment-example.png)
 
 När sökningen har utförts baserat på de här parametrarna återgår priset till 25 dollar.
 
-Härifrån finns det tre olika [prisregelåtgärder](./pricing-rule-actions.md)-val som baseras på det lägsta priset.
+Här är tre olika [prisregelåtgärd](./pricing-rule-actions.md) baserat på det lägsta priset.
 
 | Fält | Beskrivning |
 |--- |--- |
-| [!UICONTROL Price Action] | Alternativ:<ul><li>**[!UICONTROL Decrease By]** - Det här alternativet minskar ditt listpris i förhållande till det  [lägsta konkurrentpriset](./lowest-competitor-pricing.md).</li><li>**[!UICONTROL Increase By]** - Det här alternativet ökar ditt listpris i förhållande till det  [lägsta konkurrentpriset](./lowest-competitor-pricing.md).</li><li>**[!UICONTROL Match Competitor Price]** - Det här alternativet ändrar ditt Amazon-pris så att det matchar det lägsta priset baserat på parametrarna. I exemplet är Amazon listpris 25 dollar.</li></ul> |
+| [!UICONTROL Price Action] | Alternativ:<ul><li>**[!UICONTROL Decrease By]** - Det här alternativet minskar ditt listpris i förhållande till [lägsta konkurrentpris](./lowest-competitor-pricing.md).</li><li>**[!UICONTROL Increase By]** - Det här alternativet ökar ditt listpris i förhållande till [lägsta konkurrentpris](./lowest-competitor-pricing.md).</li><li>**[!UICONTROL Match Competitor Price]** - Det här alternativet ändrar ditt Amazon-pris så att det matchar det lägsta priset baserat på parametrarna. I exemplet är Amazon listpris 25 dollar.</li></ul> |
 | [!UICONTROL Apply] | Alternativ: Använd som procentsats / Använd som fast belopp |
 | [!UICONTROL Adjustment Amount] | Numeriskt värde för att definiera procentandelen eller det fasta beloppet för den rabatt som ska tillämpas. <br>Dessa val resulterar i att det lägsta priset sätts till 0,01 USD lägre. |
 
@@ -252,6 +252,6 @@ Härifrån finns det tre olika [prisregelåtgärder](./pricing-rule-actions.md)-
 | [!UICONTROL Apply] | Använd som procentsats |
 | [!UICONTROL Floor Adjustment Amount] | 5 |
 
-[Beräkning ](./floor-price.md) av golvpris = Källa till golvpris  `$5` x Justeringsbelopp för golv  `5%` = $5,25
+[Golvpris](./floor-price.md) beräkning = rörlig priskälla `$5` x Justeringsbelopp för golv `5%` = $5,25
 
 När regeln om intelligent prissättning tillämpas, tillåter den att listpriset är lägre än 5,25 USD för den här specifika produkten när kostnaden är 5 USD.

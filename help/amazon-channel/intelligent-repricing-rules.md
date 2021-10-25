@@ -13,7 +13,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Regler för intelligent omprisering fungerar inte korrekt om Amazon-regionen är inställd på `Inactive`-status, vilket är fallet vid introduktionen. Prisberäkningarna beror på fraktkostnaderna och regionen måste ha statusen `Active` för att fraktsatserna ska kunna synkroniseras från Amazon.<br><br>
+>Regler för intelligent omprisering fungerar inte korrekt om Amazon är inställt på `Inactive` som vid introduktionen. Prisberäkningarna beror på fraktkostnaderna och regionen måste vara `Active` status för dina fraktpriser att synkronisera från Amazon.<br><br>
 >
 >Om du vill uppdatera regionens status i ditt Amazon-konto går du till Inställningar > Kontoinformation > Semesterinställningar. Se [Amazon: Liststatus för semester](https://sellercentral.amazon.com/gp/help/help.html?itemID=200135620/&quot;target=&quot;_blank)
 
@@ -29,17 +29,17 @@ Avsnitt i en intelligent regel för återprissättning omfattar:
 
 ## Konfigurera regeltypen
 
-Definiera regeltypen i avsnittet _[!UICONTROL Select Rule Type]_.
+Definiera regeltypen i _[!UICONTROL Select Rule Type]_-avsnitt.
 
-1. Välj `Intelligent repricing rule` för **[!UICONTROL Rule Type]**.
+1. För **[!UICONTROL Rule Type]**, välja `Intelligent repricing rule`.
 
-   Den här inställningen aktiverar fältet _[!UICONTROL Competitor Price Source]_och avsnitten [_[!UICONTROL Competitor Conditional Variances]_](./competitor-conditional-variances.md), [_[!UICONTROL Floor Price]_](./floor-price.md) och [_[!UICONTROL Optional Ceiling Price]_](./optional-ceiling-price.md).
+   Den här inställningen aktiverar _[!UICONTROL Competitor Price Source]_fält och [_[!UICONTROL Competitor Conditional Variances]_](./competitor-conditional-variances.md), [_[!UICONTROL Floor Price]_](./floor-price.md)och [_[!UICONTROL Optional Ceiling Price]_](./optional-ceiling-price.md) -avsnitt.
 
-1. Välj ett alternativ för **[!UICONTROL Competitor Price Source]**:
+1. För **[!UICONTROL Competitor Price Source]** väljer du ett alternativ:
 
-   - **[!UICONTROL Use "Buy Box" Price]** - Välj när du vill justera ditt Amazon-pris baserat på Amazon  [[!DNL Buy Box]](./buy-box-competitor-pricing.md) försäljningspris. Ett [!DNL Buy Box]-pris gäller när flera säljare på Amazon erbjuder samma produkt. Amazon definierar säljaren [!DNL Buy Box] baserat på prestandakrav. Marknadsförare försöker vinna säljarstatusen [!DNL Buy Box] och erbjuder maximal synlighet för sina produktlistor.
+   - **[!UICONTROL Use "Buy Box" Price]** - Välj när du vill justera Amazon priser baserat på Amazon [[!DNL Buy Box]](./buy-box-competitor-pricing.md) försäljningspris. A [!DNL Buy Box] priset gäller när flera säljare på Amazon erbjuder samma produkt. Amazon definierar [!DNL Buy Box] säljare baserat på prestandakrav. Handlare vill vinna [!DNL Buy Box] säljarens status och ger maximal synlighet för sina produktlistor.
 
-   - **[!UICONTROL Use Lowest Competitor Price]** - Välj när du vill jämföra och justera ditt listpris till konkurrentpriser för samma produkt. När du väljer det här alternativet aktiveras fälten _[!UICONTROL Minimum Positive Feedback]_och_[!UICONTROL Minimum Feedback Count]_.
+   - **[!UICONTROL Use Lowest Competitor Price]** - Välj när du vill jämföra och justera ditt listpris till konkurrentpriser för samma produkt. När du väljer det här alternativet visas _[!UICONTROL Minimum Positive Feedback]_och_[!UICONTROL Minimum Feedback Count]_ fält är aktiverade.
 
 1. Om den är aktiverad väljer du ett alternativ för **[!UICONTROL Minimum Positive Feedback]**.
 
@@ -49,7 +49,7 @@ Definiera regeltypen i avsnittet _[!UICONTROL Select Rule Type]_.
 
 1. Om den är aktiverad anger du ett numeriskt värde för **[!UICONTROL Minimum Feedback Count]**.
 
-   Detta valfria numeriska värde minskar det konkurrenskraftiga priset ytterligare. Om en handlare till exempel har en 95-procentig positiv feedback men bara har ett antal kommentarer på `20`, är det inte säkert att det är en konkurrent som du vill ändra priset mot. Om du anger värdet `1000` måste handlaren dock ha 95 % positiv feedback och minst 1 000 handlarrecensioner.
+   Detta valfria numeriska värde minskar det konkurrenskraftiga priset ytterligare. Om en handlare till exempel har en 95-procentig positiv feedback, men bara har en feedback på `20`kanske det inte är en konkurrent som du vill ändra priset mot. Om du anger värdet `1000`måste handlaren ha 95 % positiv feedback och minst 1 000 recensioner.
 
 >[!NOTE]
 >
@@ -59,7 +59,7 @@ Definiera regeltypen i avsnittet _[!UICONTROL Select Rule Type]_.
 
 | Fält | Beskrivning |
 |--- |--- |
-| [!UICONTROL Rule Type] | Välj en regeltyp. Alternativ:<ul><li>**[!UICONTROL Standard price rule]** - Med den här regeltypen kan du öka eller minska Amazon listpris med en viss procentandel eller ett fast belopp i förhållande till  _[!UICONTROL Magento Price Source]_. </li><li>**[!UICONTROL Intelligent repricing rule]** - Med den här regeltypen kan du justera ditt Amazon-pris baserat på konkurrentens priser. När du väljer det här alternativet aktiveras fälten _[!UICONTROL Minimum Positive Feedback]_och_[!UICONTROL Minimum Feedback Count]_.</li></ul> |
-| [!UICONTROL Competitor Price Source] | Välj önskad priskälla. Alternativ:<ul><li>**[!UICONTROL Use "Buy Box" Price]** - Välj det här alternativet om du vill justera ditt Amazon-pris baserat på Amazon  [[!DNL Buy Box]](./buy-box-competitor-pricing.md) försäljningspris. Ett [!DNL Buy Box]-pris gäller när flera säljare på Amazon erbjuder samma produkt. Amazon definierar säljaren [!DNL Buy Box] baserat på prestandakrav. Marknadsförare försöker vinna säljarstatusen [!DNL Buy Box] och erbjuder maximal synlighet för sina produktlistor.</li><li>**[!UICONTROL Use Lowest Competitor Price]** - Välj det här alternativet när du vill jämföra och justera ditt listpris till det  [lägsta ](./lowest-competitor-pricing.md) konkurrentpriset för samma produkt. När du väljer det här alternativet aktiveras fälten _[!UICONTROL Minimum Positive Feedback]_och_[!UICONTROL Minimum Feedback Count]_.</li></ul> |
-| [!UICONTROL Minimum Positive Feedback] | Endast aktiv om `Use Lowest Competitor Price` har valts. Alternativ:<ul><li>**[!UICONTROL All Competitor's Prices]** - Välj när du vill jämföra och justera priserna baserat på alla konkurrentpriser för samma produkt.</li><li>**[!UICONTROL Minimum 80/90/95/98% positive feedback]** - Välj när du vill begränsa konkurrenterna till vilka du jämför och justera priset. Denna inställning begränsar dina konkurrenter ytterligare genom att kräva att deras notering ska ha minst den valda procentandelen positiv feedback och sedan använda det lägsta priset för den delmängden av konkurrenter.</li></ul> |
-| [!UICONTROL Minimum Feedback Count] | Endast aktiv om `Use Lowest Competitor Price` har valts. Detta valfria numeriska värde ger ytterligare en konkurrensjämförelse. Om en handlare till exempel har en 95-procentig positiv feedback men bara har ett antal kommentarer på `20`, är det inte säkert att det är en konkurrent som du vill ändra priset mot. Om du anger värdet `1000` måste handlaren dock ha 95 % positiv feedback och minst 1 000 handlarrecensioner. |
+| [!UICONTROL Rule Type] | Välj en regeltyp. Alternativ:<ul><li>**[!UICONTROL Standard price rule]** - Med den här regeltypen kan du öka eller minska Amazon listpris med en viss procentandel eller ett fast belopp i förhållande till _[!UICONTROL Magento Price Source]_. </li><li>**[!UICONTROL Intelligent repricing rule]** - Med den här regeltypen kan du justera ditt Amazon-pris baserat på konkurrentens priser. När du väljer det här alternativet visas _[!UICONTROL Minimum Positive Feedback]_och_[!UICONTROL Minimum Feedback Count]_ fält är aktiverade.</li></ul> |
+| [!UICONTROL Competitor Price Source] | Välj önskad priskälla. Alternativ:<ul><li>**[!UICONTROL Use "Buy Box" Price]** - Välj det här alternativet om du vill justera Amazon-priset baserat på Amazon [[!DNL Buy Box]](./buy-box-competitor-pricing.md) försäljningspris. A [!DNL Buy Box] priset gäller när flera säljare på Amazon erbjuder samma produkt. Amazon definierar [!DNL Buy Box] säljare baserat på prestandakrav. Handlare vill vinna [!DNL Buy Box] säljarens status och ger maximal synlighet för sina produktlistor.</li><li>**[!UICONTROL Use Lowest Competitor Price]** - Välj det här alternativet när du vill jämföra och justera ditt listpris till [lägsta konkurrentpris](./lowest-competitor-pricing.md) för samma produkt. När du väljer det här alternativet visas _[!UICONTROL Minimum Positive Feedback]_och_[!UICONTROL Minimum Feedback Count]_ fält är aktiverade.</li></ul> |
+| [!UICONTROL Minimum Positive Feedback] | Endast aktiv om `Use Lowest Competitor Price` väljs. Alternativ:<ul><li>**[!UICONTROL All Competitor's Prices]** - Välj när du vill jämföra och justera priserna baserat på alla konkurrentpriser för samma produkt.</li><li>**[!UICONTROL Minimum 80/90/95/98% positive feedback]** - Välj när du vill begränsa konkurrenterna till vilka du jämför och justera priset. Denna inställning begränsar dina konkurrenter ytterligare genom att kräva att deras notering ska ha minst den valda procentandelen positiv feedback och sedan använda det lägsta priset för den delmängden av konkurrenter.</li></ul> |
+| [!UICONTROL Minimum Feedback Count] | Endast aktiv om `Use Lowest Competitor Price` väljs. Detta valfria numeriska värde ger ytterligare en konkurrensjämförelse. Om en handlare till exempel har en 95-procentig positiv feedback men bara har en feedback på `20`kanske det inte är en konkurrent som du vill ändra priset mot. Om du anger värdet `1000`måste handlaren ha 95 % positiv feedback och minst 1 000 recensioner. |

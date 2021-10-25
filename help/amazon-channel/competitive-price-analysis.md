@@ -11,7 +11,7 @@ ht-degree: 0%
 
 # Konkurrenskraftprisanalys
 
-Prisanalysrapporten visar dina Amazon-listor per marknadsplats med respektive [Buy Box](./buy-box-competitor-pricing.md) pris och [lägsta konkurrent](./lowest-competitor-pricing.md) prisvärde. Inga åtgärder är tillgängliga för loggen. Det är en funktion som bara är till för granskning.
+Prisanalysrapporten visar dina Amazon-listor per marknadsplats med respektive [Buy Box](./buy-box-competitor-pricing.md) pris och [lägsta konkurrent](./lowest-competitor-pricing.md) Prisvärden. Inga åtgärder är tillgängliga för loggen. Det är en funktion som bara är till för granskning.
 
 ![Analysrapport för konkurrentpris](assets/amazon-competitive-price-analysis.png)
 
@@ -25,6 +25,6 @@ Prisanalysrapporten visar dina Amazon-listor per marknadsplats med respektive [B
 | [!UICONTROL Your Landed Price] | Produktens listpris plus dess fraktpris. |
 | [!UICONTROL Lowest Landed Price] | Det lägsta landade priset (listpris plus frakt) från dina Amazon konkurrenter. |
 | [!UICONTROL Condition (lowest price)] | Villkoret för den produkt som anges till det lägsta priset. |
-| [!UICONTROL Buy Box Landed Price] | Det landade priset (listpris plus frakt) för positionslistan [Buy Box](./buy-box-competitor-pricing.md). |
+| [!UICONTROL Buy Box Landed Price] | Det landade priset (listpris plus frakt) på [Buy Box](./buy-box-competitor-pricing.md) positionslista. |
 | [!UICONTROL Is Seller (Buy Box)] | Anger om du har vunnit Buy Box för noteringen (NA innebär att det inte finns något Buy Box för noteringen). |
 | Villkor (Buy Box) | Villkoret för Buy Boxens positionslista. |

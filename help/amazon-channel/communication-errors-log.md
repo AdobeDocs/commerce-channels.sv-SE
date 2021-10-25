@@ -15,7 +15,7 @@ I loggen för kommunikationsfel visas alla rapporterade kommunikationsfel med Am
 
 Inga åtgärder är tillgängliga för loggen. Det är en funktion som bara är till för granskning.
 
-Amazon hemsidor för försäljningskanaler har gemensamma [kontroller för arbetsytan](./workspace-controls.md) som gör att du kan anpassa de data som visas.
+Amazon hemsidor för försäljningskanaler delar några vanliga sidor [arbetsytekontroller](./workspace-controls.md) som gör att du kan anpassa de data som visas.
 
 ![Logg för kommunikationsfel](assets/amazon-comm-errors-log.png)
 
@@ -23,7 +23,7 @@ Amazon hemsidor för försäljningskanaler har gemensamma [kontroller för arbet
 
 | Kolumn | Beskrivning |
 |--- |--- |
-| [!UICONTROL Amazon Store Name] | Namnet på butiken som definierades när Amazon Store konfigurerades. Se [Store-integrering](./store-integration.md). |
+| [!UICONTROL Amazon Store Name] | Namnet på butiken som definierades när Amazon Store konfigurerades. Se [Butiksintegrering](./store-integration.md). |
 | [!UICONTROL Error Code] | Koden som togs emot från Amazon för att identifiera feltypen. |
 | [!UICONTROL Message] | Meddelandet som beskriver felet som är associerat med felkoden. |
 | [!UICONTROL Created On] | Datum och tid då felet inträffade. |

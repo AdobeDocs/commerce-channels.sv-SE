@@ -19,31 +19,31 @@ Avsnitt i en intelligent regel för återprissättning omfattar:
 - [!UICONTROL Floor Price]
 - [[!UICONTROL Optional Ceiling Price]](./optional-ceiling-price.md)
 
-Inställningarna för [lägsta pris](./floor-price.md) skyddar automatiskt ditt lägsta produktpris mot reglerna för intelligent prissättning. Använd de här inställningarna för att ange ett golv (lägsta pris) för dina smarta prisregler och se till att dina produkter inte listas under ett önskat pris.
+The [lägsta pris](./floor-price.md) inställningarna automatiskt skyddar ditt lägsta produktpris mot reglerna för intelligenta priser. Använd de här inställningarna för att ange ett golv (lägsta pris) för dina smarta prisregler och se till att dina produkter inte listas under ett önskat pris.
 
-Attributen för golvpris baseras på webbplatsens omfång om din [!DNL Commerce]-butik använder webbplatsens prisomfång. Se [Prisomfång](./price-scope.md).
+Prisattributen baseras på webbplatsomfånget om [!DNL Commerce] butiken använder webbplatsens prisområde. Se [Prisområde](./price-scope.md).
 
-Golvpriset används bara när **[!UICONTROL Rule Type]** är `Intelligent repricing rule`.
+Golvpriset används endast när **[!UICONTROL Rule Type]** är inställd på `Intelligent repricing rule`.
 
 ## Konfigurera golvpris
 
-Definiera den lägsta prisinställningen i avsnittet _[!UICONTROL Floor Price]_.
+Definiera din lägsta prisinställning i dialogrutan _[!UICONTROL Floor Price]_-avsnitt.
 
-1. Välj ett priskällattribut för **[!UICONTROL Floor Price Source]**.
+1. För **[!UICONTROL Floor Price Source]** väljer du ett priskällattribut.
 
-   Välj det [!DNL Commerce] [produktattribut](https://docs.magento.com/user-guide/catalog/product-attributes.html){target=&quot;_blank&quot;} som anger din relativa golvgräns. Om du t.ex. inte vill att priset på din Amazon ska gå under kostnaden för artikeln väljer du attributet *Kostnad*.
+   Välj [!DNL Commerce] [produktattribut](https://docs.magento.com/user-guide/catalog/product-attributes.html){target=&quot;_blank&quot;} som anger din relativa golvgräns. Om du t.ex. inte vill att priset på ditt Amazon ska gå under kostnaden för ditt objekt väljer du *Kostnad* -attribut.
 
-1. Välj ett alternativ för **[!UICONTROL Floor Price Action]**.
+1. För **[!UICONTROL Floor Price Action]** väljer du ett alternativ.
 
-   - `Decrease By` - Välj när du vill att det definierade  _[!UICONTROL Floor Price Source]_värdet ska justeras nedåt, vilket skapar ett lägre minimipris för regeln, innan det anges i Amazon.
+   - `Decrease By` - Välj när du vill ha den definierade _[!UICONTROL Floor Price Source]_det värde som ska justeras nedåt, vilket skapar ett lägre minimipris för regeln, innan den tas upp i Amazon.
 
-   - `Increase By` - Välj när du vill att det definierade  _[!UICONTROL Floor Price Source]_värdet ska justeras uppåt, vilket skapar ett högre golvpris för regeln, innan du listar till Amazon.
+   - `Increase By` - Välj när du vill ha den definierade _[!UICONTROL Floor Price Source]_värdet som ska justeras uppåt, vilket skapar ett högre minimipris för regeln, innan den tas upp i Amazon.
 
-   - `Match` - Välj när du inte vill att listpriset ska fluktuera under det definierade  _[!UICONTROL Floor Price Source]_värdet. Om `Match` anges är fälten_[!UICONTROL Apply]_ och _[!UICONTROL Floor Adjustment Amount]_inaktiverade.
+   - `Match` - Välj när du inte vill att listpriset ska fluktuera under det definierade _[!UICONTROL Floor Price Source]_värde. När inställt på `Match`,_[!UICONTROL Apply]_ och _[!UICONTROL Floor Adjustment Amount]_fält är inaktiverade.
 
-1. Låt **[!UICONTROL Apply]** vara `Apply as percentage` som standard.
+1. Lämna **[!UICONTROL Apply]** standard som `Apply as percentage`.
 
-1. För **[!UICONTROL Floor Adjustment Price]** anger du det numeriska värdet för procentvärdet för att justera _[!UICONTROL Floor Price Source]_-värdet.
+1. För **[!UICONTROL Floor Adjustment Price]**, ange det numeriska värdet för procentvärdet för att justera _[!UICONTROL Floor Price Source]_värde.
 
 I det här exemplet sätts minimipriset till 3 % över kostnaden för artikeln.
 
@@ -51,7 +51,7 @@ I det här exemplet sätts minimipriset till 3 % över kostnaden för artikeln.
 
 | Fält | Beskrivning |
 |--- |--- |
-| [!UICONTROL Floor Price Source] | Välj det [!DNL Commerce]-attribut som anger din relativa golvgräns (lägsta pris). Om du t.ex. inte vill att priset på ditt Amazon-konto ska gå under kostnaden för ditt objekt väljer du attributet `Cost`. |
-| [!UICONTROL Floor Price Action] | Välj en prisjusteringsåtgärd. Alternativ:<ul><li>**[!UICONTROL Decrease By]** - Välj när du vill att det definierade  _[!UICONTROL Floor Price Source]_värdet ska justeras nedåt, vilket skapar ett lägre minimipris för regeln, innan det anges i Amazon.</li><li>**[!UICONTROL Increase By]** - Välj när du vill att det definierade  _[!UICONTROL Floor Price Source]_värdet ska justeras uppåt, vilket skapar ett högre golvpris för regeln, innan du listar till Amazon.</li><li>**[!UICONTROL Match]** - Välj när du inte vill att listpriset ska fluktuera under det definierade  _[!UICONTROL Floor Price Source]_värdet. När du väljer det här alternativet inaktiveras fälten_[!UICONTROL Apply]_ och _[!UICONTROL Floor Adjustment Amount]_.</li></ul> |
-| [!UICONTROL Apply] | **[!UICONTROL Apply as percentage]** - en procentuell justering i förhållande till  _[!UICONTROL Floor Price Source]_värdet. |
-| [!UICONTROL Floor Adjustment Amount] | Ange det numeriska värdet för procentvärdet för att justera _[!UICONTROL Floor Price Source]_-värdet. |
+| [!UICONTROL Floor Price Source] | Välj [!DNL Commerce] attribut som anger relativ golvgräns (lägsta pris). Om du t.ex. inte vill att priset på ditt Amazon ska gå under kostnaden för ditt objekt väljer du `Cost` -attribut. |
+| [!UICONTROL Floor Price Action] | Välj en prisjusteringsåtgärd. Alternativ:<ul><li>**[!UICONTROL Decrease By]** - Välj när du vill ha den definierade _[!UICONTROL Floor Price Source]_det värde som ska justeras nedåt, vilket skapar ett lägre minimipris för regeln, innan den tas upp i Amazon.</li><li>**[!UICONTROL Increase By]** - Välj när du vill ha den definierade _[!UICONTROL Floor Price Source]_värdet som ska justeras uppåt, vilket skapar ett högre minimipris för regeln, innan den tas upp i Amazon.</li><li>**[!UICONTROL Match]** - Välj när du inte vill att listpriset ska fluktuera under det definierade _[!UICONTROL Floor Price Source]_värde. När du väljer det här alternativet visas_[!UICONTROL Apply]_ och _[!UICONTROL Floor Adjustment Amount]_fält är inaktiverade.</li></ul> |
+| [!UICONTROL Apply] | **[!UICONTROL Apply as percentage]** - en procentuell justering i förhållande till _[!UICONTROL Floor Price Source]_värde. |
+| [!UICONTROL Floor Adjustment Amount] | Ange det numeriska värdet för procentvärdet för att justera _[!UICONTROL Floor Price Source]_värde. |

@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Villkor för produktlista
 
-Villkorsinställningarna för produktlistor ingår i dina inställningar för butikslista. Du kan komma åt listinställningarna på [butikspanelen](./amazon-store-dashboard.md).
+Villkorsinställningarna för produktlistor ingår i dina inställningar för butikslista. Du kan komma åt listinställningarna på [instrumentpanel för butik](./amazon-store-dashboard.md).
 
 Amazon kräver att en produktlista har ett definierat villkor. Om alla produkter är likadana kan du välja ett av Amazon villkorsalternativ för att representera alla produkter som ditt globala villkorsvärde. Standardvillkoren för Amazon är:
 
@@ -29,43 +29,43 @@ Amazon kräver att en produktlista har ett definierat villkor. Om alla produkter
 
 >[!IMPORTANT]
 >
->Om du säljer förnyade (renoverade) produkter måste du registrera dig för [!DNL Amazon Renewed Program]. Se [Förnyade produkter](./renewed-products.md).
+>Om du säljer förnyade (renoverade) produkter måste du registrera dig i [!DNL Amazon Renewed Program]. Se [Förnyade produkter](./renewed-products.md).
 
-Om din katalog innehåller produkter med olika villkor (till exempel Ny, Används och Återanvänd) måste du välja **[!UICONTROL Assign Condition Using Product Attribute]**. Med den här inställningen kan du mappa ditt [!DNL Commerce]-villkorsattribut och -värden till villkoren i din Amazon-lista.
+Om din katalog innehåller produkter med olika villkor (till exempel Ny, Används och Återanvänd) måste du välja **[!UICONTROL Assign Condition Using Product Attribute]**. Med den här inställningen kan du mappa dina [!DNL Commerce] villkorsattribut och värden till villkoren i din Amazon-lista.
 
-Under [Förinställningsuppgifter](./amazon-pre-setup-tasks.md) uppmuntras du att skapa ett [!DNL Commerce]-produktattribut för en produkts villkor. Om du erbjuder produkter under olika förhållanden och du inte har skapat något villkorsattribut läser du [Skapa ett produktattribut i [!DNL Commerce]](./ob-creating-magento-attributes.md). När villkorsattributet har skapats kan du tilldela ett villkorsvärde till var och en av dina produkter i din [!DNL Commerce]-katalog.
+Under [Åtgärder före installation](./amazon-pre-setup-tasks.md)uppmuntras du att skapa en [!DNL Commerce] produktattribut för en produkts villkor. Om du erbjuder produkter under olika förhållanden och inte har skapat något villkorsattribut, se [Skapa ett produktattribut i [!DNL Commerce]](./ob-creating-magento-attributes.md). När villkorsattributet har skapats kan du tilldela ett villkorsvärde till var och en av produkterna i [!DNL Commerce] katalog.
 
 ## Konfigurera inställningar
 
-1. Klicka på **[!UICONTROL Listing Settings]** på butikens kontrollpanel.
+1. Klicka **[!UICONTROL Listing Settings]** på butikens kontrollpanel.
 
-1. Expandera avsnittet **[!UICONTROL Product Listing Condition]**.
+1. Expandera **[!UICONTROL Product Listing Condition]** -avsnitt.
 
-1. Välj ett alternativ för **[!UICONTROL Listing Product Condition]**.
+1. För **[!UICONTROL Listing Product Condition]** väljer du ett alternativ.
 
    Välj ett av Amazon standardvillkor för ditt globala villkorsvärde för alla dina listor. Standardinställningen är `New`.
 
    Om du har produkter/listor som har olika villkor väljer du `Assign Condition Using Product Attribute` för att definiera dina produktvillkorsinställningar i de ytterligare fält som visas.
 
-1. För **villkorsattribut** väljer du [!DNL Commerce]-attributet för att mappa värden för vart och ett av Amazon standardvillkorsattribut.
+1. För **Villkorsattribut** väljer du [!DNL Commerce] för att mappa värden för alla Amazon standardvillkorsattribut.
 
-   Om du har produkter i `Used`- eller `Collectible`-villkoret men inte ytterligare skiljer dig åt, kan du mappa till ett enda `Used`- eller `Collectible`-Amazon-villkor och lämna de andra tomma. Den här metoden mappar alla dina `Used`- eller `Collectible`-villkor till det enskilda Amazon-villkoret Används eller Hämtbart.
+   Om du har produkter i `Used` eller `Collectible` men du kan inte göra någon ytterligare skillnad, du kan mappa till ett enda `Used` eller `Collectible` Amazon-villkor och lämna de andra tomma. Den här metoden mappar alla `Used` eller `Collectible` villkor till det enskilda Amazon-villkoret Använt eller Hämtbart.
 
-   Du har till exempel ett enda `Used`-villkor för dina produkter. Vid mappning väljer du om du vill mappa till Amazon-villkoret `Used; Like New`, `Used; Very Good`, `Used; Good` eller `Used; Acceptable`. Fyll bara i fältet för det Amazon-villkor som du vill använda och lämna de andra `Used`-alternativen inställda på `--Select Option--`. I exempelbilden mappas alla [!DNL Commerce]-produkter i `Used`-villkoret till Amazon `Used; Very Good`-villkoret.
+   Du har till exempel en enda `Used` villkor för dina produkter. Vid mappning väljer du om du vill mappa till Amazon-villkoret `Used; Like New`, `Used; Very Good`, `Used; Good`, eller `Used; Acceptable`. Fyll bara i fältet för det Amazon-villkor du vill använda och lämna det andra `Used` alternativ inställda på `--Select Option--`. I exempelbilden är alla [!DNL Commerce] produkter i `Used` villkor mappas till Amazon `Used; Very Good` villkor.
 
-   Du kan också ange beskrivande text för villkoren, förutom `New`.
+   Du kan även ange beskrivande text för villkoren, förutom `New`.
 
-1. Klicka på **[!UICONTROL Save listing settings]** när du är klar.
+1. När du är klar klickar du på **[!UICONTROL Save listing settings]**.
 
 ![Villkor för produktlista](assets/amazon-product-listing-condition.png)
 
 | Fält | Beskrivning |
 |---|---|
-| [!UICONTROL Listing Product Condition] | Villkor för produktlistor. Alternativ: `New` / `Refurbished` / `Used: Like New` / `Used: Very Good` / `Used: Good` / `Used: Acceptable` / `Collectible: Like New` / `Collectible: Very Good` / `Collectible: Good` / `Collectible: Acceptable` / `Assign Condition Using Product Attribute`<br><br>Om du säljer ett enstaka produktvillkor väljer du något av Amazon standardvillkoren. Om din [!DNL Commerce]-katalog innehåller produkter under olika förhållanden väljer du `Assign Condition Using Product Attribute`. |
-| [!UICONTROL Condition Attribute] | Attributet [!DNL Commerce] som definierar villkoret för dina produkter. Markera det Magneto-attribut som du skapade för att mappa till Amazon villkorsattribut. I [Exempel på förinställningsuppgifter](./ob-creating-magento-attributes.md) rekommenderar du att du namnger den som `Amazon Condition`. När du väljer det här alternativet visas ytterligare fält för att mappa Amazon standardvillkor. |
-| [!UICONTROL Additional Condition fields] | För vart och ett av standardvillkoren för Amazon väljer du motsvarande villkor. Alternativen är villkorsetiketterna som du lade till när du [skapade ditt Amazon-villkorsattribut](./ob-creating-magento-attributes.md).<br><br>Om du har produkter i  `Used` eller  `Collectible` villkor men inte gör någon ytterligare skillnad kan du mappa till ett enskilt  `Used` eller  `Collectible` Amazon-villkor och lämna de andra tomma. Den här metoden mappar alla `Used`- eller `Collectible`-villkor till det enskilda Amazon-villkoret Används eller Hämtbart. |
+| [!UICONTROL Listing Product Condition] | Villkor för produktlistor. Alternativ: `New` / `Refurbished` / `Used: Like New` / `Used: Very Good` / `Used: Good` / `Used: Acceptable` / `Collectible: Like New` / `Collectible: Very Good` / `Collectible: Good` / `Collectible: Acceptable` / `Assign Condition Using Product Attribute`<br><br>Om du säljer ett enda produktvillkor väljer du något av standardvillkoren för Amazon. Om [!DNL Commerce] katalogen innehåller produkter under olika förhållanden, välj `Assign Condition Using Product Attribute`. |
+| [!UICONTROL Condition Attribute] | The [!DNL Commerce] -attribut som definierar villkoren för dina produkter. Markera det Magneto-attribut som du skapade för att mappa till Amazon villkorsattribut. I [Exempel på uppgifter före installation](./ob-creating-magento-attributes.md) rekommenderar att du namnger det som `Amazon Condition`. När du väljer det här alternativet visas ytterligare fält för att mappa Amazon standardvillkor. |
+| [!UICONTROL Additional Condition fields] | För vart och ett av standardvillkoren för Amazon väljer du motsvarande villkor. Alternativen är villkorsetiketterna som du lade till när du [skapade Amazon-villkorsattribut](./ob-creating-magento-attributes.md).<br><br>Om du har produkter i `Used` eller `Collectible` men du kan inte göra någon ytterligare skillnad, du kan mappa till ett enda `Used` eller `Collectible` Amazon-villkor och lämna de andra tomma. Den här metoden mappar alla `Used` eller `Collectible` villkor till det enskilda Amazon-villkoret Använt eller Hämtbart. |
 
-**Snabb åtkomst**  -  [!UICONTROL Listing Settings] avsnitt
+**Snabb åtkomst** - [!UICONTROL Listing Settings] avsnitt
 
 - [[!UICONTROL Product Listing Actions]](./product-listing-actions.md)
 - [[!UICONTROL Third Party Listings]](./third-party-listing-settings.md)

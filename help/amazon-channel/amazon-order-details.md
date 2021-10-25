@@ -1,6 +1,6 @@
 ---
 title: Beställningsinformation för Amazon
-description: Visa information om dina Amazon Marketplace-beställningar i Adobe Commerce eller Magento Open Source Admin.
+description: Läs mer om dina Amazon Marketplace-beställningar i Adobe Commerce eller Magento Open Source Admin.
 exl-id: a85bb6b3-817d-4859-a815-41777f4b8667
 source-git-commit: 2c753ec5f6f4cd509e61b4875e09e9a1a2577ee7
 workflow-type: tm+mt
@@ -15,15 +15,15 @@ ht-degree: 0%
 
 ## Visa beställningsinformation för Amazon
 
-1. Klicka på **[!UICONTROL View Store]** på butikskortet.
+1. Klicka **[!UICONTROL View Store]** på butikskortet.
 
-1. Klicka på ett ordernummer i avsnittet _[!UICONTROL Recent Orders]_.
+1. I _[!UICONTROL Recent Orders]_klickar du på ett ordernummer.
 
-   Sidan _[!UICONTROL Amazon Order Details]_öppnas.
+   The _[!UICONTROL Amazon Order Details]_sidan öppnas.
 
 >[!NOTE]
 >
->Om du har aktiverat orderimport i dina [orderinställningar](./order-settings.md) och ordningen [uppfylls av Amazon (FBA)](./fulfilled-by.md), kan du se exempeldata för vissa fält i orderinformationen. Amazon skickar inte följande data för FBA-beställningar.
+>Om orderimport är aktiverat i [Orderinställningar](./order-settings.md) och beställningen är [Uppfylls av Amazon (FBA)](./fulfilled-by.md)kan du se exempeldata för vissa fält i orderinformationen. Amazon skickar inte följande data för FBA-beställningar.
 >
 > - `AddressType`
 > - `AddressLine1`
@@ -39,7 +39,7 @@ ht-degree: 0%
 
 ### Fliken Order and Shipping Details
 
-På fliken _[!UICONTROL Order and Shipping Details]_visas detaljerad orderinformation som du fått från Amazon.
+The _[!UICONTROL Order and Shipping Details]_På -fliken visas detaljerad beställningsinformation som du fått från Amazon.
 
 >[!IMPORTANT]
 >
@@ -54,18 +54,18 @@ På fliken _[!UICONTROL Order and Shipping Details]_visas detaljerad orderinform
 >- `Shipping country`
 
 >
->Glöm inte att klicka på **Spara ordning** när du har redigerat.
+>Glöm inte att klicka **Spara ordning** när du har redigerat.
 
 ![Beställnings- och leveransinformation](assets/amazon-order-details.png)
 
 ### Fliken Orderposter
 
-På fliken _[!UICONTROL Order Items]_visas alla objekt som är kopplade till Amazon-beställningen, enligt Amazon.
+The _[!UICONTROL Order Items]_På -fliken visas alla objekt som är kopplade till Amazon-beställningen, enligt Amazon.
 
 ![Orderartikelinformation](assets/amazon-order-item-details.png)
 
 ### Fliken Spårning
 
-På fliken _[!UICONTROL Tracking]_visas spårningsinformation som är kopplad till Amazon-beställningen.
+The _[!UICONTROL Tracking]_-fliken visar spårningsinformation som är kopplad till Amazon-beställningen.
 
 ![Spårningsinformation](assets/amazon-order-tracking-details.png)

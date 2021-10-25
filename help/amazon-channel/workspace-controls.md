@@ -11,35 +11,35 @@ ht-degree: 0%
 
 # Arbetsytekontroller
 
-På Amazon säljkanal [startsida](./amazon-sales-channel-home.md) finns några vanliga arbetsytekontroller, bland annat Filter, Standardvy, Kolumner och Exportera. Alla sidor har inte samma kontrollalternativ.
+Amazon försäljningskanal [hemsida](./amazon-sales-channel-home.md) har vissa vanliga kontroller för arbetsytan, bland annat Filter, Standardvy, Kolumner och Exportera. Alla sidor har inte samma kontrollalternativ.
 
 ![Exempel på arbetsytekontroll i Amazon Sales Channel](assets/amazon-workspace-controls.png)
 
 ## Åtgärder
 
-Väljaren _[!UICONTROL Actions]_innehåller en lista med åtgärder som är tillgängliga för en användare för en sida. När du väljer det här alternativet används åtgärden på alla markerade objekt. Om du vill använda en åtgärd på ett visst objekt markerar du kryssrutan i den första kolumnen för varje objekt och väljer ett alternativ under_[!UICONTROL Actions]_.
+The _[!UICONTROL Actions]_väljaren innehåller en lista med åtgärder som är tillgängliga för en användare för en sida. När du väljer det här alternativet används åtgärden på alla markerade objekt. Om du vill använda en åtgärd på ett visst objekt markerar du kryssrutan i den första kolumnen för varje objekt och väljer ett alternativ under_[!UICONTROL Actions]_.
 
-När väljaren visas på sidan _[!UICONTROL Attributes]_innehåller den till exempel åtgärden_[!UICONTROL Re-import Product Attribute Values]_. Om du väljer den här åtgärden skickas motsvarande [!DNL Amazon Seller Central]-konto och [!DNL Commerce]-data uppdateras för alla Amazon-lagringsobjekt som har checkats in i den vänstra kolumnen.
+När väljaren till exempel visas på _[!UICONTROL Attributes]_sidan innehåller_[!UICONTROL Re-import Product Attribute Values]_ åtgärd. Om du väljer den här åtgärden skickas motsvarande [!DNL Amazon Seller Central] kontot och uppdaterar [!DNL Commerce] data för var och en av Amazon-lagringsobjekten som har checkats in i den vänstra kolumnen.
 
 ![Exempel på Åtgärder-meny](assets/amazon-sales-channel-home-actions-option.png)
 
 ## Filter
 
-Kontrollen _[!UICONTROL Filters]_visar alternativ för att begränsa de data som visas i tabellen. Filteralternativen baseras på de kolumner som är markerade i kontrollen Kolumner. Filteralternativen visas bara för kolumner som är aktiverade i kolumnkontrollen.
+The _[!UICONTROL Filters]_-kontrollen visar alternativ för att begränsa de data som visas i tabellen. Filteralternativen baseras på de kolumner som är markerade i kontrollen Kolumner. Filteralternativen visas bara för kolumner som är aktiverade i kolumnkontrollen.
 
 Filterkontroller kan innehålla dynamiska kalendrar för att begränsa data för angivna datum, listrutor för kolumner som har fördefinierade markeringar och fritextfält som kan innehålla anpassade data.
 
 I följande exempel visas inställningarna för filtrering av listan med order så att endast order som uppfyller följande villkor visas:
 
 - beställningar som gjorts mellan 2019-02-01 och 07-02-2019, och
-- Beställningar med en köpare med namnet `Smith`, och
+- Beställningar med en köpare som heter `Smith`och
 - Beställningar med statusen `Shipped`.
 
 När du har angett filtreringsalternativ klickar du på **[!UICONTROL Apply Filters]** för att filtrera de data som visas. Klicka på Avbryt om du vill avsluta filterkontrollen utan att använda.
 
 ![Exempel på filterkontroll](assets/workspace-controls-filters.png)
 
-När du har tillämpat filter på dina data visas **[!UICONTROL Active Filters]**-information. Du kan klicka på ikonen ![Rensa filter](assets/x-icon-clear-filters.png) för att rensa ett visst filteralternativ eller klicka på **[!UICONTROL Clear All]** för att rensa alla använda filter.
+När du har tillämpat filter på dina data **[!UICONTROL Active Filters]** visas. Du kan klicka på ![Ikonen Rensa filter](assets/x-icon-clear-filters.png) om du vill ta bort ett visst filteralternativ eller klicka på **[!UICONTROL Clear All]** för att rensa alla använda filter.
 
 ![Exempel på aktiva filter](assets/applied-filters-line.png)
 
@@ -49,7 +49,7 @@ Vykontrollen baseras på standardkolumnerna för sidan och kallas därför stand
 
 När du har lagt till eller tagit bort kolumner från sidvisningen:
 
-1. Klicka på **[!UICONTROL Default View]** > **[!UICONTROL Save View As...]**.
+1. Klicka **[!UICONTROL Default View]** > **[!UICONTROL Save View As...]**.
 
 1. Ange ett namn för vyn.
 
@@ -57,9 +57,9 @@ När du har lagt till eller tagit bort kolumner från sidvisningen:
 
 ![Exempel på vykontroll](assets/workspace-controls-view.png)
 
-I det här exemplet läggs kolumnen _Order Id_ till i kolumnkontrollen och sparas som en anpassad vy. Observera att när namnet på den anpassade vyn sparades ändrades namnet på vyn från _Standardvy_ till det angivna namnet.
+I det här exemplet _Order-ID_ kolumnen läggs till i kolumnkontrollen och sparas som en anpassad vy. Observera att när namnet på den anpassade vyn har sparats har namnet på vyn ändrats från _Standardvy_ till det angivna namnet.
 
-Du kan växla mellan vyerna genom att välja önskad vy på menyn _[!UICONTROL View]_.
+Du kan växla mellan vyerna genom att välja önskad vy i dialogrutan _[!UICONTROL View]_-menyn.
 
 Om du vill ta bort eller ändra namnet på den anpassade vyn klickar du på pennikonen. Du kan sedan ange ett annat namn eller klicka på papperskorgsikonen för att ta bort den anpassade vyn. Det går inte att ta bort standardvyn.
 
@@ -76,7 +76,7 @@ I följande exempel visas en kolumnkontroll. De markerade alternativen motsvarar
 
 Kryssrutan visas omedelbart. Om du gör ändringar och avslutar sidan återgår sidan till standardkolumnvisningen. För ändringar som du gör regelbundet kan du spara kolumnändringarna som en anpassad vy i kontrollen Visa. Sedan kan du växla i kontrollen Visa utan att behöva lägga till eller ta bort kolumner manuellt.
 
-Du kan klicka på **[!UICONTROL Reset]** om du vill återställa standardinställningarna eller klicka på **[!UICONTROL Cancel]** om du vill avsluta utan ändringarna.
+Du kan klicka **[!UICONTROL Reset]** för att återställa standardinställningarna eller så kan du klicka på **[!UICONTROL Cancel]** för att avsluta utan ändringar.
 
 ## Exportera
 

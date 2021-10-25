@@ -11,7 +11,7 @@ ht-degree: 0%
 
 # Avslutade listor
 
-På fliken _[!UICONTROL Ended]_visas alla Amazon-produkter som har avslutats (tagits bort) manuellt från ditt [!DNL Amazon Seller Central]-konto. Produkterna uppfyller alla krav och kan publiceras på nytt när som helst och kräver ingen ytterligare information. Om en produkt finns på fliken_[!UICONTROL Ineligible]_ kan du välja att ändra dina [listinställningar](./listing-settings.md) så att din produkt uppfyller kraven för listning.
+The _[!UICONTROL Ended]_visas alla Amazon-produkter som har avslutats (tagits bort) manuellt från [!DNL Amazon Seller Central] konto. Produkterna uppfyller alla krav och kan publiceras på nytt när som helst och kräver ingen ytterligare information. Om en produkt finns i_[!UICONTROL Ineligible]_ kan du ändra [listinställningar](./listing-settings.md) så att din produkt uppfyller kraven i listan.
 
 >[!NOTE]
 >
@@ -19,31 +19,31 @@ På fliken _[!UICONTROL Ended]_visas alla Amazon-produkter som har avslutats (ta
 
 Under _[!UICONTROL Actions]_:
 
-- **[!UICONTROL Publish Product to Amazon]**: Välj att publicera om listan till  [!DNL Amazon Marketplace]. Se [Publicera en Amazon-lista](./publish-listings-manually.md)
+- **[!UICONTROL Publish Product to Amazon]**: Välj att publicera om listan till [!DNL Amazon Marketplace]. Se [Publicera en Amazon-lista](./publish-listings-manually.md)
 
-Under **[!UICONTROL Select]** i kolumnen _[!UICONTROL Action]_:
+Under **[!UICONTROL Select]** i _[!UICONTROL Action]_kolumn:
 
-- **[!UICONTROL View Details]**: Välj om du vill visa listinformation, inklusive  [listningsaktivitetsloggen](./product-listing-details.md#listing-activity-log),  [Buy Boxens konkurrentpriser](./product-listing-details.md#buy-box-competitor-pricing) och  [lägsta konkurrentpriser](./product-listing-details.md#lowest-competitor-pricing). Den här åtgärden är endast avsedd för visning. Inga ändringar kan göras i listinformationen. Se [Visa detaljer](./product-listing-details.md).
+- **[!UICONTROL View Details]**: Välj om du vill visa listinformation, inklusive [Logg för listaktivitet](./product-listing-details.md#listing-activity-log), [Buy Boxens konkurrentpriser](./product-listing-details.md#buy-box-competitor-pricing)och [Lägsta konkurrentpris](./product-listing-details.md#lowest-competitor-pricing). Den här åtgärden är endast avsedd för visning. Inga ändringar kan göras i listinformationen. Se [Visa detaljer](./product-listing-details.md).
 
-- **[!UICONTROL Publish On Amazon]**: Välj att publicera om listan till  [!DNL Amazon Marketplace]. Se [Publicera en Amazon-lista](./publish-listings-manually.md).
+- **[!UICONTROL Publish On Amazon]**: Välj att publicera om listan till [!DNL Amazon Marketplace]. Se [Publicera en Amazon-lista](./publish-listings-manually.md).
 
 - **[!UICONTROL Create Alias Seller SKU]**: Välj om du vill skapa en Alias-SKU som kan användas för att skapa en Amazon-lista från samma katalogprodukt. Se [Skapa en SKU för Aliasförsäljare](./create-alias-seller-sku.md).
 
 Information om hur du avslutar listor finns i [Avsluta en Amazon-lista](./end-listings-manually.md).
 
-Publiceringslistor finns i [Publicera en Amazon-lista manuellt](./publish-listings-manually.md).
+Publiceringslistor finns på [Publicera en Amazon-lista manuellt](./publish-listings-manually.md).
 
 ![Avslutade Amazon-listor](assets/amazon-ended-listings.png)
 
-Amazon hemsidor för försäljningskanaler har gemensamma [kontroller för arbetsytan](./workspace-controls.md) som gör att du kan anpassa de data som visas.
+Amazon hemsidor för försäljningskanaler delar några vanliga sidor [arbetsytekontroller](./workspace-controls.md) som gör att du kan anpassa de data som visas.
 
 | Kolumn | Beskrivning |
 |--- |--- |
 | [!UICONTROL Amazon Seller SKU] | SKU (Stock Keeping Unit) som Amazon har tilldelat en produkt för att identifiera produkt, alternativ, pris och tillverkare. |
 | [!UICONTROL ASIN] | Ett unikt block med 10 bokstäver och/eller siffror som identifierar objekt.<br><br>ASIN står för Amazon Standard Identification Numbers. Ett ASIN är ett unikt block med 10 bokstäver och/eller siffror som identifierar objekt. För böcker är ASIN samma som ISBN-numret, men för alla andra produkter skapas ett nytt ASIN när objektet överförs till deras katalog. Du hittar ett ASIN-objekt på produktinformationssidan på Amazon, tillsammans med mer information om artikeln. |
 | [!UICONTROL Product Listing Name] | Produktens namn. |
-| [!UICONTROL Condition] | Produktens [villkor](./product-listing-condition.md). |
+| [!UICONTROL Condition] | The [villkor](./product-listing-condition.md) av produkten. |
 | [!UICONTROL Landed Price] | Produktens listpris plus dess fraktpris. |
 | [!UICONTROL Amazon Quantity] | Kvantiteten som är tillgänglig när produkten är aktivt listad på Amazon. |
 | [!UICONTROL Status] | Status för listan, definierad av Amazon. |
-| [!UICONTROL Action] | Lista över tillgängliga åtgärder som kan tillämpas på en viss lista. Om du vill använda en åtgärd klickar du på **[!UICONTROL Select]** i kolumnen _[!UICONTROL Action]_och väljer objektet:<ul><li>[[!UICONTROL View Details]](./product-listing-details.md)</li><li>[[!UICONTROL Publish On Amazon]](./publish-listings-manually.md)</li><li>[[!UICONTROL Create Alias Seller SKU]](./create-alias-seller-sku.md#region-specific)</li></ul> |
+| [!UICONTROL Action] | Lista över tillgängliga åtgärder som kan tillämpas på en viss lista. Om du vill använda en åtgärd klickar du på **[!UICONTROL Select]** i _[!UICONTROL Action]_och markera objektet:<ul><li>[[!UICONTROL View Details]](./product-listing-details.md)</li><li>[[!UICONTROL Publish On Amazon]](./publish-listings-manually.md)</li><li>[[!UICONTROL Create Alias Seller SKU]](./create-alias-seller-sku.md#region-specific)</li></ul> |

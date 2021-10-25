@@ -1,6 +1,6 @@
 ---
 title: Om Amazon Marketplace
-description: Nå ut bättre med er Adobe Commerce eller Magento Open Source store genom att utnyttja er produktkatalog som listningar på Amazon Marketplace.
+description: Nå ut bättre med er Adobe Commerce eller Magento Open Source genom att utnyttja er produktkatalog som listningar på Amazon Marketplace.
 exl-id: d4943d40-773e-4635-aca4-ae40f8ada7bd
 source-git-commit: 2c753ec5f6f4cd509e61b4875e09e9a1a2577ee7
 workflow-type: tm+mt
@@ -11,9 +11,9 @@ ht-degree: 0%
 
 # Om [!DNL Amazon Marketplace]
 
-[[!DNL Amazon Marketplace]](https://sell.amazon.com/){target=&quot;_blank&quot;} är en e-handelsplattform som ägs och drivs av Amazon och som gör det möjligt för tredjepartsförsäljare att sälja nya eller använda produkter. Med [!DNL Amazon Marketplace] får tredjepartssäljare tillgång till Amazon världsomspännande kundbas. Handlare som listar produkter på Amazon för försäljning, inklusive användare av Adobe Commerce eller Magento Open Source, definieras av Amazon som&quot;tredjepartsförsäljare&quot;.
+[[!DNL Amazon Marketplace]](https://sell.amazon.com/){target=&quot;_blank&quot;} är en e-handelsplattform som ägs och drivs av Amazon och som gör det möjligt för tredjepartsförsäljare att sälja nya eller använda produkter. Använda [!DNL Amazon Marketplace], tredjepartsförsäljare får tillgång till Amazon världsomspännande kundbas. Merchants som listar produkter på Amazon som ska säljas, inklusive Adobe Commerce och Magento Open Source, definieras av Amazon som&quot;tredjepartsförsäljare&quot;.
 
-Tredjepartsleverantörer av alla storlekar kan skapa ett [!DNL Amazon Seller Central]-konto och använda [!DNL Amazon Marketplace] för att nå Amazon globala kundbas. När ett konto har skapats och aktiverats kan säljarna lägga till och lista produkter för försäljning, hantera order och lager samt slutföra order.
+Tredjepartsförsäljare av alla storlekar kan skapa en [!DNL Amazon Seller Central] konto och använd [!DNL Amazon Marketplace] för att nå Amazon globala kundbas. När ett konto har skapats och aktiverats kan säljarna lägga till och lista produkter för försäljning, hantera order och lager samt slutföra order.
 
 ## Amazon - listor
 
@@ -33,18 +33,18 @@ Om du vill bidra med produktinformation eller korrigera felaktig information på
 
 Amazon erbjuder två alternativ för orderhantering och leverans:
 
-- **Fylls i av handlaren**: Tredjepartsförsäljare lagrar sitt eget lager. När en kund lägger en order hanterar säljaren förpackningen och leveransen till kunden. Med det här alternativet kan du slutföra leveranser via Adobe Commerce och Magento Open Source, eller någon annan tredje part.
+- **Fylls i av handlaren (FBM)**: Tredjepartsförsäljare lagrar sitt eget lager. När en kund lägger en order hanterar säljaren förpackningen och leveransen till kunden. Med det här alternativet kan du slutföra leveranser via Adobe Commerce och Magento Open Source, eller någon annan tredje part.
 
 - **Fylls i av Amazon (FBA)**: Tredjepartsförsäljare lagrar lager i Amazon leveranscentra över hela världen. När en kund lägger en order hanterar Amazon förpackningen och leveransen till kunden. Beställningsinformation och status skickas till Adobe Commerce eller Magento Open Source.
 
-Tillägget [!DNL Amazon Sales Channel] har stöd för båda alternativen, och kan ta emot och spåra beställningar. När ni är klara uppdateras orderstatusarna automatiskt. Se [Arbetsflöden för uppfyllelse](./fulfillment-workflows.md).
+The [!DNL Amazon Sales Channel] tillägg har stöd för båda alternativen, att ta emot och spåra beställningar. När ni är klara uppdateras orderstatusarna automatiskt. Se [Arbetsflöden för uppfyllelse](./fulfillment-workflows.md).
 
 ## Innan du säljer på Amazon
 
 Amazon följer ett antal policyer och arbetsflöden för att säkerställa att alla säljare och produkter följer angivna riktlinjer. För att vara säker på att dina produkter och konton är godkända och kvalificerade att upptas i förteckningen bör du läsa följande Amazon-information och -policyer:
 
 - [Hjälp för Amazon-försäljare](https://sellercentral.amazon.com/gp/help/external/help-page.html?itemID=2&amp;language=en_US/){target=&quot;_blank&quot;}
-- [Leveransprofiler](https://sellercentral.amazon.com/gp/help/external/201901620?language=en-US){target=&quot;_blank&quot;}
-- [Programprinciper](https://sellercentral.amazon.com/gp/help/external/521?language=en-US){target=&quot;_blank&quot;}
-- [Säljpolicyer och uppförandekod](https://sellercentral.amazon.com/gp/help/external/1801?language=en-US){target=&quot;_blank&quot;}
+- [Leveransregler](https://sellercentral.amazon.com/gp/help/external/201901620?language=en-US){target=&quot;_blank&quot;}
+- [Programpolicy](https://sellercentral.amazon.com/gp/help/external/521?language=en-US){target=&quot;_blank&quot;}
+- [Försäljningspolitik och uppförandekod](https://sellercentral.amazon.com/gp/help/external/1801?language=en-US){target=&quot;_blank&quot;}
 - [Lista förnyade (renoverade, ägs och öppnas) produkter på Amazon](https://sell.amazon.com/programs/renewed){target=&quot;_blank&quot;}

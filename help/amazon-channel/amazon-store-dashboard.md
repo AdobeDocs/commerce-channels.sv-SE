@@ -12,11 +12,11 @@ ht-degree: 0%
 # Amazon Store-instrumentpanel
 
 
-I vyn _[!UICONTROL Amazon Stores]_på startsidan för Amazon-försäljningskanal kan du klicka **[!UICONTROL View Store]**på ett butikskort för att öppna butiksinstrumentpanelen.
+I _[!UICONTROL Amazon Stores]_se på startsidan för Amazon försäljningskanal klickar du **[!UICONTROL View Store]**på ett butikskort för att öppna butiksinstrumentpanelen.
 
-Den primära platsen där du kan visa aktiviteten för var och en av dina Amazon butiker. När dina [!DNL Amazon Seller]-butiker har lagts till och integrerats följer beställningarna och försäljningen igenom din butiksdatavy. På kontrollpanelen kan du visa intäkter, följa upp trender och granska försäljningsdata för dina listor. Listor och försäljning grupperas och spåras ytterligare efter listtyp, inklusive aktiv, inaktiv och pågående.
+Den primära platsen där du kan visa aktiviteten för var och en av dina Amazon butiker. Med [!DNL Amazon Seller] lagrar som lagts till och integrerats, beställningar och säljspår via datavyn i din butik. På kontrollpanelen kan du visa intäkter, följa upp trender och granska försäljningsdata för dina listor. Listor och försäljning grupperas och spåras ytterligare efter listtyp, inklusive aktiv, inaktiv och pågående.
 
-Du kan även komma åt dina [butiksinställningar](./ob-store-review.md), [hantera dina listor](./managing-product-listings.md) och visa försäljningsdata och information om senaste order.
+Du kan även komma åt [lagringsinställningar](./ob-store-review.md), [hantera dina listor](./managing-product-listings.md)och visa säljdata och information om senaste order.
 
 ![Amazon Store-instrumentpanel](assets/amazon-store-dashboard.png)
 
@@ -32,7 +32,7 @@ På kontrollpanelen för butiker finns även information om arkivdata och länka
 
 - [**[!UICONTROL Store Settings]**](./ob-store-review.md) - Få tillgång till dina butiksinställningar och rapporter.
 
-   - [**[!UICONTROL Listing settings]**](./listing-settings.md) - Styr hur produktkatalogen interagerar med  [!DNL Amazon Marketplace].
+   - [**[!UICONTROL Listing settings]**](./listing-settings.md) - Styr hur produktkatalogen interagerar med [!DNL Amazon Marketplace].
 
    - [**[!UICONTROL Order settings]**](./order-settings.md) - Styr hur Amazon beställningar hanteras.
 
@@ -40,18 +40,18 @@ På kontrollpanelen för butiker finns även information om arkivdata och länka
 
    - [**[!UICONTROL Pricing rules]**](./pricing-products.md) - Ange hur listpriset för Amazon ändras för kvalificerade listor.
 
-   - [**[!UICONTROL Store reports]**](./amazon-logs-reports.md) -  [Konkurrenskraftiga ](./competitive-price-analysis.md) prisanalyser och  [listförbättringar](./listing-improvements.md).
+   - [**[!UICONTROL Store reports]**](./amazon-logs-reports.md) - [Konkurrenskraftiga prisanalyser](./competitive-price-analysis.md) och [förbättringar av listor](./listing-improvements.md).
 
-   - [**[!UICONTROL Logs]**](./amazon-logs-reports.md) -  [Lista ](./listing-changes-log.md) ändringar och  [kommunikationsfel](./communication-errors-log.md).
+   - [**[!UICONTROL Logs]**](./amazon-logs-reports.md) - [Ändringar i listan](./listing-changes-log.md) och [kommunikationsfel](./communication-errors-log.md).
 
-   - [**[!UICONTROL Store integration settings]**](./store-integration-settings.md) - Granska inställningarna för e-post och Amazon-butiksnamn i  [!DNL Commerce] Admin.
+   - [**[!UICONTROL Store integration settings]**](./store-integration-settings.md) - Granska inställningarna för e-post och Amazon-butiksnamn i [!DNL Commerce] Admin.
 
 - **[!UICONTROL Store Listings]** - Visar en grafisk representation av butikens försäljning under de senaste 7 eller 30 dagarna tillsammans med livstidsdata för försäljning.
 
-   I det här avsnittet visas även listantal för dina [aktiva listor](./active-listings.md), [inaktiva listor](./inactive-listings.md) och pågående listor, tillsammans med länkar till motsvarande _[!UICONTROL Product Listings]_-sida. Du kan också klicka på&#x200B;**[!UICONTROL Manage Listings]**för att öppna sidan_[!UICONTROL Product Listings]_. Se [Hantera Amazon-listor](./managing-product-listings.md).
+   I det här avsnittet visas även listräkningar för [aktiva listor](./active-listings.md), [inaktiva listor](./inactive-listings.md)och pågående listor tillsammans med länkar till deras motsvarande _[!UICONTROL Product Listings]_sida. Du kan också klicka **[!UICONTROL Manage Listings]**för att öppna_[!UICONTROL Product Listings]_ sida. Se [Hantera Amazon-listor](./managing-product-listings.md).
 
-- **[!UICONTROL Recent Orders]** - Visar information om dina senaste Amazon-beställningar. Den information som anges baseras på den information som erhållits från Amazon. Den här tabellen uppdateras inte med beställningsinformationen [!DNL Commerce], även när [beställningsimporten](./order-settings.md) är aktiverad. Om du vill visa alla dina Amazon-beställningar klickar du på **Alla beställningar**.
+- **[!UICONTROL Recent Orders]** - Visar information om dina senaste Amazon-beställningar. Den information som anges baseras på den information som erhållits från Amazon. Det här registret uppdateras inte med [!DNL Commerce] beställningsinformation, även när [beställ import](./order-settings.md) är aktiverat. Om du vill se alla dina Amazon-beställningar klickar du **Alla order**.
 
-   Se [Visa Amazon-beställningar](./amazon-orders-all.md) för kolumnbeskrivningar och [Hantera beställningar](./managing-orders.md) för mer information.
+   Se [Visa Amazon-beställningar](./amazon-orders-all.md) för kolumnbeskrivningar och se [Hantera order](./managing-orders.md) för mer information.
 
-- **[!UICONTROL Seller Central links]** - Tillhandahåller länkar till viktig  [!DNL Amazon Seller Central] information.
+- **[!UICONTROL Seller Central links]** - Tillhandahåller länkar till viktiga [!DNL Amazon Seller Central] information.

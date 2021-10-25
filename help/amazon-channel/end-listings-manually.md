@@ -13,20 +13,20 @@ ht-degree: 0%
 
 ## Avsluta en eller flera Amazon-listor manuellt
 
-1. Visa en eller flera listor på [[!UICONTROL Product Listings]](./managing-product-listings.md)-sidan (_[!UICONTROL Inactive]_,_[!UICONTROL Active]_ eller _[!UICONTROL Ineligible]_-fliken).
+1. Visa en eller flera listor på [[!UICONTROL Product Listings]](./managing-product-listings.md) sida (_[!UICONTROL Inactive]_,_[!UICONTROL Active]_, eller _[!UICONTROL Ineligible]_-fliken).
 
 1. I den vänstra kolumnen klickar du för att kontrollera alla listor som du vill avsluta.
 
-1. Klicka på **[!UICONTROL End listing(s) on Amazon]** under _[!UICONTROL Actions]_.
+1. Under _[!UICONTROL Actions]_, klicka **[!UICONTROL End listing(s) on Amazon]**.
 
-1. Klicka på **[!UICONTROL OK]** i bekräftelsemeddelandet.
+1. Klicka **[!UICONTROL OK]** på bekräftelsemeddelandet.
 
 ## Avsluta en Amazon-lista manuellt
 
-1. Visa en eller flera listor på [[!UICONTROL Product Listings]](./managing-product-listings.md)-sidan (_[!UICONTROL Inactive]_,_[!UICONTROL Active]_ eller _[!UICONTROL Ineligible]_-fliken).
+1. Visa en eller flera listor på [[!UICONTROL Product Listings]](./managing-product-listings.md) sida (_[!UICONTROL Inactive]_,_[!UICONTROL Active]_, eller _[!UICONTROL Ineligible]_-fliken).
 
-1. Klicka på **Välj** > **Avsluta lista** i kolumnen _[!UICONTROL Action]_.
+1. I _[!UICONTROL Action]_kolumn, klicka **Välj**>**Avsluta lista**.
 
-1. Klicka på **[!UICONTROL OK]** i bekräftelsemeddelandet.
+1. Klicka **[!UICONTROL OK]** på bekräftelsemeddelandet.
 
-När du avslutar en eller flera listor bekräftar ett meddelande att den valda listan bearbetas tills den är slut. Avslutade listor kan hanteras på fliken [Ended](./ended-listings.md) på sidan [_Produktlistor_](./managing-product-listings.md). När den bearbetas och tas bort från Amazon ändras listans status till `Manually Ended`. Avslutade listor tas bort från Amazon tills du publicerar om listan manuellt med åtgärden [_Publicera till Amazon_](./publish-listings-manually.md).
+När du avslutar en eller flera listor bekräftar ett meddelande att den valda listan bearbetas tills den är slut. Avslutade listor kan hanteras på [Avslutade](./ended-listings.md) på [_Produktlistor_](./managing-product-listings.md) sida. När den bearbetas och tas bort från Amazon ändras listans status till `Manually Ended`. Avslutade listor tas bort från Amazon tills du publicerar om listan manuellt med [_Publicera till Amazon_](./publish-listings-manually.md) åtgärd.

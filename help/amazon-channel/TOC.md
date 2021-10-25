@@ -1,10 +1,10 @@
 ---
 user-guide-title: Användarhandbok för Amazon Sales Channel
-user-guide-description: Generera försäljning genom Amazon genom att integrera Adobe Commerce eller Magento Open Source med ditt  [!DNL Amazon Seller Central] konto.
+user-guide-description: Generera säljmaterial genom Amazon genom att integrera Adobe Commerce eller Magento Open Source med [!DNL Amazon Seller Central] konto.
 breadcrumb-title: Kanalansvarig för Commerce
 source-git-commit: 52f2dd0f5a722af337be72a5d556f3780aad6548
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '312'
 ht-degree: 0%
 
 ---

@@ -11,17 +11,17 @@ ht-degree: 0%
 
 # Hantera attribut
 
-Amazon och [!DNL Commerce] använder båda ett system med produktegenskaper, så kallade attribut, som används för att definiera en produkt. Attribut definierar beskrivning, innehåll, bilder, priser och olika data för dina produkter.
+Amazon och [!DNL Commerce] båda använder ett system med produktegenskaper, så kallade attribut, som används för att definiera en produkt. Attribut definierar beskrivning, innehåll, bilder, priser och olika data för dina produkter.
 
-Kommunikationen mellan Commerce och Amazon kräver att [!DNL Commerce]-attribut mappas korrekt (eller matchas) till motsvarande Amazon-attribut. När du integrerar med Amazon mappas dessa attribut till Amazon-attribut. När det är klart kan [!DNL Commerce] synkronisera och underhålla dina Amazon-listor med din [!DNL Commerce]-produktkatalog.
+Kommunikationen mellan Commerce och Amazon kräver att [!DNL Commerce] attribut mappas korrekt (eller matchas) till motsvarande Amazon-attribut. När du integrerar med Amazon mappas dessa attribut till Amazon-attribut. När det är klart [!DNL Commerce] kan synka och underhålla dina Amazon-listor med [!DNL Commerce] produktkatalog.
 
-Tänk dig att du har samma objekt i [!DNL Commerce]-katalogen och i Amazon-listorna. Ett attribut för produkten kan vara artikelns listpris. Namnet på listpriset i [!DNL Commerce] kan vara `Price`, medan listpriset för Amazon kan vara `ListingPrice`. Du måste instruera [!DNL Commerce] att vid kommunikation med Amazon är [!DNL Commerce]-attributet `Price` detsamma som Amazon-attributet `ListingPrice`. Den här processen kallas _hantering av attribut_ och innehåller även skapande av nya och redigering av befintliga attribut. Kontrollera att attributen är korrekt matchade för att säkerställa korrekt kommunikation mellan [!DNL Commerce] och Amazon.
+Tänk dig att du har samma objekt i [!DNL Commerce] kataloger och Amazon-listor. Ett attribut för produkten kan vara artikelns listpris. Namnet på listpriset i [!DNL Commerce] kan ha ett namn `Price`, medan listpriset för Amazon kan namnges `ListingPrice`. Du måste instruera [!DNL Commerce] när du kommunicerar med Amazon [!DNL Commerce] attribute named `Price` är samma som Amazon-attributet med namnet `ListingPrice`. Den här processen anropas _hantera attribut_ och innehåller även funktioner för att skapa nya och redigera befintliga attribut. Se till att attributen matchar varandra på rätt sätt för att säkerställa korrekt kommunikation mellan [!DNL Commerce] och Amazon.
 
-När attributmappning är inställd kan [!DNL Commerce] kommunicera produktinformation fram och tillbaka med Amazon. Om du har Amazon produktlistor kan [!DNL Commerce] importera dina Amazon-produkter och -information till din [!DNL Commerce]-katalog, så att du kan hantera dina Amazon-listor från en enda central produktkatalog.
+När attributmappning är inställd, [!DNL Commerce] kan kommunicera produktinformation fram och tillbaka med Amazon. Om du har Amazon produktlistor [!DNL Commerce] kan importera dina Amazon-produkter och -detaljer till [!DNL Commerce] -katalog så att du kan hantera dina Amazon-listor från en enda central produktkatalog.
 
-Med Amazon försäljningskanal kan du komma åt, granska, skapa och hantera attribut efter behov i [_[!UICONTROL Attributes]_-vyn](./attributes-view.md) på startsidan för Amazon försäljningskanal. Om du lägger till ett attribut i din [!DNL Commerce]-katalog kan det kräva en uppdatering av dessa värden för alla produkter.
+Med Amazon försäljningskanal kan du komma åt, granska, skapa och hantera attribut efter behov i [_[!UICONTROL Attributes]_visa](./attributes-view.md) på startsidan för Amazon försäljningskanal. Om du lägger till ett attribut i [!DNL Commerce] kan det kräva en uppdatering av dessa värden för alla produkter.
 
-Mer information om [!DNL Commerce] och Amazon-attributuppsättningar och -värden finns i:
+Mer information om [!DNL Commerce] och Amazon-attributuppsättningar och -värden, se:
 
 - [Hantera grundläggande attribut](https://docs.magento.com/user-guide/catalog/product-attributes.html){target=&quot;_blank&quot;}
 - [Skapa ett attribut](./creating-attributes.md#create-an-attribute)

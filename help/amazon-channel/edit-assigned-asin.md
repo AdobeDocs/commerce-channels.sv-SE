@@ -11,7 +11,7 @@ ht-degree: 0%
 
 # Redigera en tilldelad ASIN
 
-Du kan redigera det Amazon ASIN-värde som tilldelats en produkt i din [!DNL Commerce]-katalog. Den här funktionen är användbar om en katalogprodukt inte matchar någon av dina Amazon-listor korrekt. Om du ändrar tilldelat ASIN för listan ändras inte det ASIN som tilldelats en produkt av Amazon. Det ändrar bara den Amazon-lista som katalogprodukten matchas mot.
+Du kan redigera Amazon ASIN-värdet som tilldelats en produkt i [!DNL Commerce] katalog. Den här funktionen är användbar om en katalogprodukt inte matchar någon av dina Amazon-listor korrekt. Om du ändrar tilldelat ASIN för listan ändras inte det ASIN som tilldelats en produkt av Amazon. Det ändrar bara den Amazon-lista som katalogprodukten matchas mot.
 
 När ett tilldelat ASIN ändras:
 
@@ -22,13 +22,13 @@ När ett tilldelat ASIN ändras:
 
 ## Redigera en tilldelad ASIN
 
-1. Visa listan på fliken _[!UICONTROL Product Listings]_(_[!UICONTROL Inactive]_, _[!UICONTROL Active]_eller_[!UICONTROL Ineligible]_).
+1. Visa listan på _[!UICONTROL Product Listings]_sida (_[!UICONTROL Inactive]_, _[!UICONTROL Active]_, eller_[!UICONTROL Ineligible]_ -fliken).
 
-1. Klicka på **[!UICONTROL Edit Assigned ASIN]** under _[!UICONTROL Actions]_.
+1. Under _[!UICONTROL Actions]_, klicka **[!UICONTROL Edit Assigned ASIN]**.
 
-   Den här åtgärden öppnar sidan _[!UICONTROL Product Listing Update]_.
+   Den här åtgärden öppnar _[!UICONTROL Product Listing Update]_sida.
 
-1. Ange det nya ASIN-värdet för **[!UICONTROL Assign ASIN]**.
+1. För **[!UICONTROL Assign ASIN]** anger du det nya ASIN-värdet.
 
 1. Spara ändringarna genom att klicka på **[!UICONTROL Save Listing Update]**.
 

@@ -12,27 +12,27 @@ ht-degree: 0%
 
 # Listregler
 
-Du kan komma åt listreglerna för butik på [butikspanelen](./amazon-store-dashboard.md).
+Du kan komma åt listreglerna för butik i [instrumentpanel för butik](./amazon-store-dashboard.md).
 
 Regler för att ta reda på vilka produkter som Amazon försäljningskanal publicerar till Amazon anges. Dessa regler innehåller många alternativ för att skapa enkla till komplexa regler som inkluderar eller exkluderar produkter som listor. Varje regel består av villkor som ställer in kraven för att få ta med en produktlista.
 
-Dina listregler synkroniseras kontinuerligt med din [!DNL Commerce]-katalog. När du lägger till nya [!DNL Commerce]-produkter som uppfyller behörighetskraven som anges i dina listregler bearbetas produkterna automatiskt för notering på Amazon.
+Dina listregler synkroniseras kontinuerligt med din [!DNL Commerce] katalog. När du lägger till nya [!DNL Commerce] produkter som uppfyller kraven i er lista bearbetas de automatiskt för notering på Amazon.
 
 - Om du vill att alla dina produkter ska publiceras i en Amazon-lista ska du inte definiera några villkor för dina listregler.
 
-- Om du vill begränsa vilka katalogprodukter som publiceras till Amazon definierar du villkoren för listreglerna. När du definierar villkoren för dina Amazon listregler följer du samma logik och process som när du definierar villkoren för [kundprisregler](https://docs.magento.com/user-guide/marketing/price-rules-cart.html){target=&quot;_blank&quot;}.
+- Om du vill begränsa vilka katalogprodukter som publiceras till Amazon definierar du villkoren för listreglerna. När du definierar villkoren för dina Amazon listregler följer du samma logik och process som när du definierar villkoren för [Kundprisregler](https://docs.magento.com/user-guide/marketing/price-rules-cart.html){target=&quot;_blank&quot;}.
 
-- Om en produkt inte omfattas av listreglerna ändras produktens kvalificeringsstatus till `Ineligible`. Ej berättigade produkter publiceras inte till Amazon.
+- Om en produkt inte omfattas av din listningsregel ändras produktens kvalificeringsstatus till `Ineligible`. Ej berättigade produkter publiceras inte till Amazon.
 
-- Om en produkt som inte är berättigad redan finns med på Amazon och du matchar Amazon-listan med din [!DNL Commerce]-katalogprodukt, ändras antalet för Amazon-listan till `0` för att förhindra försäljning av produkten. Amazon-listor kan tas bort [manuellt](./end-listings-manually.md).
+- Om en produkt som inte uppfyller kraven redan finns i Amazon och du matchar Amazon lista med [!DNL Commerce] katalogprodukt, kvantiteten för Amazon-listan ändras till `0` för att förhindra försäljning av produkten. Amazon listor kan vara [manuellt borttagen](./end-listings-manually.md).
 
-Ändringar av kvantitet och berättigandestatus påverkar alla listor som delar Amazon Seller SKU på marknadsplatser som finns för butiker som säljer i samma region (enligt definitionen i _[!UICONTROL Amazon Marketplace Country]_under [butiksintegrering](./store-integration.md)). En ändring av en delad [!DNL Amazon Seller SKU] i en region påverkar dock inte produktens Amazon-listor i ett annat land.
+Ändringar av kvantitet och berättigandestatus påverkar alla listor som delar Amazon Seller SKU på marknadsplatser som säljer i samma region (enligt definitionen i _[!UICONTROL Amazon Marketplace Country]_under [butiksintegrering](./store-integration.md)). En ändring i en delad [!DNL Amazon Seller SKU] i en region påverkar inte produktens Amazon-listor i ett annat land.
 
 ![Listregler](assets/ob-listing-rules.png)
 
 ## Konfigurera inställningar för listregler
 
-1. Klicka på **[!UICONTROL Listing Rules]** på butikens kontrollpanel.
+1. Klicka **[!UICONTROL Listing Rules]** på butikens kontrollpanel.
 
 1. Ange villkor för vilka produkter som ska listas i Amazon.
 
@@ -40,8 +40,8 @@ Se [Exempel: Definiera ett villkor](./ob-define-condition-example.md).
 
 | Fält | Beskrivning |
 |---|---|
-| [!UICONTROL Websites] | Vilka alternativ som är tillgängliga beror på vilka [webbplatser](https://docs.magento.com/user-guide/stores/websites-stores-views.html){target=&quot;_blank&quot;} du har konfigurerat i din [!DNL Commerce]-konfiguration. Välj webbplats för de produkter som ingår i listan på Amazon. Det går bara att välja en webbplats eftersom varje webbplats kräver en unik Amazon-butik som skapats i Amazon försäljningskanal. |
-| [!UICONTROL Conditions] | Används för att definiera [!DNL Commerce]-attributen för produktberättigande i din Amazon-region. Se [Exempel: Definiera ett villkor](./ob-define-condition-example.md). |
+| [!UICONTROL Websites] | Vilka alternativ som är tillgängliga beror på [webbplatser](https://docs.magento.com/user-guide/stores/websites-stores-views.html){target=&quot;_blank&quot;} som du har konfigurerat i [!DNL Commerce] konfiguration. Välj webbplats för de produkter som ingår i listan på Amazon. Det går bara att välja en webbplats eftersom varje webbplats kräver en unik Amazon-butik som skapats i Amazon försäljningskanal. |
+| [!UICONTROL Conditions] | Används för att definiera [!DNL Commerce] attribut för produktberättigande i Amazon. Se [Exempel: Definiera ett villkor](./ob-define-condition-example.md). |
 
 ## Arbetsytan Villkor
 
@@ -54,41 +54,41 @@ Mer information om villkor finns i [Beskriv villkoren](https://docs.magento.com/
 
 ## Förhandsgranskning av listregel
 
-När du ändrar dina villkorsdefinitioner för dina listregler kan du klicka på **[!UICONTROL Preview Changes]** för att tillämpa ändringarna och visa hur listorna påverkas. Kontrollera dina listor i den här förhandsgranskningsfunktionen innan du sparar ändringarna i listregeln.
+När du ändrar villkorsdefinitionerna för dina listregler kan du klicka på **[!UICONTROL Preview Changes]** om du vill använda dina regeländringar och visa hur dina listor påverkas. Kontrollera dina listor i den här förhandsgranskningsfunktionen innan du sparar ändringarna i listregeln.
 
 Dina Amazon-listor jämförs med dina regler och definierade villkor. Sedan kan du granska:
 
-- Vilka produkter som flyttas till en icke-giltig status baserat på ditt aktuella [!DNL Amazon Seller Central]-konto
+- Vilka produkter får en ogiltig status baserat på din nuvarande [!DNL Amazon Seller Central] konto
 - Vilka produkter som går från ett icke-stödberättigande läge till en berättigande status
-- Vilka produkter ingår i nya Amazon Listings och läggs till i din Amazon-lista från dina [!DNL Commerce]-produkter
+- Vilka produkter ingår i nya Amazon Listings och läggs till i din Amazon-lista från dina berättigade [!DNL Commerce] produkter
 
 Med Förhandsgranska lista kan du förhandsgranska dina potentiella Amazon-listor och göra nödvändiga justeringar i dina listregler.
 
-De potentiella Amazon-listorna visas på _[!UICONTROL Listing Preview]_-sidan på en av tre flikar:
+De potentiella Amazon-listorna finns på _[!UICONTROL Listing Preview]_sida på en av tre flikar:
 
 - **[!UICONTROL Ineligible Listings]** - De listade produkterna kan inte tas upp i Amazon baserat på dina nuvarande regler och villkor.
 
-   Ej berättigade produkter publiceras inte till Amazon. Om en produkt som inte är berättigad redan finns med på Amazon och du matchar Amazon-listan med din [!DNL Commerce]-katalogprodukt, ändras antalet för Amazon-listan till `0` för att förhindra försäljning av produkten. Mer information om hur du tar bort en lista manuellt finns i [Avsluta en Amazon-lista](./end-listings-manually.md). Produkter som inte uppfyller Amazon krav listas inte här. Dessa produkter listas på fliken [Inaktiva listor](./inactive-listings.md).
+   Ej berättigade produkter publiceras inte till Amazon. Om en produkt som inte uppfyller kraven redan finns i Amazon och du matchar Amazon lista med [!DNL Commerce] katalogprodukt, kvantiteten för Amazon-listan ändras till `0` för att förhindra försäljning av produkten. Information om hur du tar bort en lista manuellt finns i [Avslutar en Amazon-lista](./end-listings-manually.md). Produkter som inte uppfyller Amazon krav listas inte här. Dessa produkter är listade på [Fliken Inaktiva listor](./inactive-listings.md).
 
-- **[!UICONTROL Eligible Listings]** - De listade produkterna kan komma i fråga för Amazon baserat på dina nuvarande regler och villkor och kan också komma i fråga enligt Amazon krav. Den här listan innehåller de befintliga Amazon-listor som importeras (om du har **Importera tredjepartslistor** inställda på `Import Listing` i [Listinställningar](./third-party-listing-settings.md)).
+- **[!UICONTROL Eligible Listings]** - De listade produkterna kan komma i fråga för Amazon baserat på dina nuvarande regler och villkor och kan också komma i fråga enligt Amazon krav. Den här listan innehåller befintliga Amazon-listor som importeras (om du har **Importera tredjepartslistor** ange till `Import Listing` in [Listinställningar](./third-party-listing-settings.md)).
 
-- **[!UICONTROL New Listings]** - De listade produkterna innehåller de  [!DNL Commerce] katalogprodukter som nyligen har tagits med i Amazon enligt de regler och villkor som gäller och skapar och publicerar nya listor från Amazon.
+- **[!UICONTROL New Listings]** - produkterna i listan innehåller [!DNL Commerce] katalogprodukter som nyligen har tagits med i Amazon och som baseras på dina nuvarande regler och villkor samt skapa och publicera nya Amazon-listor.
 
 ### Visa förhandsgranskning av din lista
 
-1. Klicka på **[!UICONTROL Listing Rules]** på butikens kontrollpanel.
+1. Klicka **[!UICONTROL Listing Rules]** på butikens kontrollpanel.
 
-1. Visa eller lägg till dina [listregler](./listing-rules.md).
+1. Visa eller lägg till [listregler](./listing-rules.md).
 
-1. Ändra dina [villkor för listregel](./ob-define-condition-example.md).
+1. Ändra [Villkor för listregel](./ob-define-condition-example.md).
 
-1. Klicka på **[!UICONTROL Preview Changes]**.
+1. Klicka **[!UICONTROL Preview Changes]**.
 
-1. Granska och bekräfta dina listor på flikarna _[!UICONTROL Ineligible Listings]_,_[!UICONTROL Eligible Listings]_ och _[!UICONTROL New Listings]_.
+1. Granska och bekräfta dina listor i _[!UICONTROL Ineligible Listings]_,_[!UICONTROL Eligible Listings]_ och _[!UICONTROL New Listings]_-tabbar.
 
 1. Om dina listor matchar dina förväntningar klickar du på **[!UICONTROL Save and close]**.
 
-   Om dina listor inte visas som förväntat klickar du på **[!UICONTROL Back]** och ändrar reglerna och villkoren tills dina listor matchar dina förväntningar.
+   Om listan inte visas som förväntat klickar du på **[!UICONTROL Back]** och ändra era regler och villkor tills era listor matchar era förväntningar.
 
 ![Förhandsgranskning av listregel](assets/amazon-listing-rule-preview.png)
 
@@ -96,13 +96,13 @@ De potentiella Amazon-listorna visas på _[!UICONTROL Listing Preview]_-sidan p�
 
 | Fält | Beskrivning |
 |--- |--- |
-| [!UICONTROL Product ID] | Det unika sekventiella nummer som tilldelas en [!DNL Commerce]-katalogprodukt när den läggs till. |
+| [!UICONTROL Product ID] | Det unika, sekventiella numret som tilldelas till en [!DNL Commerce] katalogprodukt när den läggs till. |
 | [!UICONTROL Thumbnail] | Visar en miniatyrbild av huvudproduktbilden. |
-| [!UICONTROL Name] | Namnet på produkten, som hanteras i [!DNL Commerce] [produktrutnätet](https://docs.magento.com/user-guide/catalog/products.html){target=&quot;_blank&quot;}. |
-| [!UICONTROL Type] | Typen av produkt som hanteras i produktrutnätet [!DNL Commerce]. |
-| [!UICONTROL Attribute Set] | Namnet på den attributuppsättning som används som mall för produkten, hanteras i produktstödrastret för [!DNL Commerce]. |
-| [!UICONTROL SKU] | Den unika Stock Keeping Unit som är tilldelad produkten och hanteras i produktrutnätet [!DNL Commerce]. |
-| [!UICONTROL Visibility] | Anger var produkten är synlig och hanteras i produktrutnätet [!DNL Commerce]. Alternativ:<ul><li>`Not visible individually`</li><li>`Catalog`</li><li>`Search`</li><li>`Catalog, Search`</li></ul> |
-| Status | Anger produktens status, som hanteras i produktrutnätet [!DNL Commerce]. Alternativ: `Enabled` / `Disabled` |
+| [!UICONTROL Name] | Namnet på produkten som hanteras i [!DNL Commerce] [produktrutnät](https://docs.magento.com/user-guide/catalog/products.html){target=&quot;_blank&quot;}. |
+| [!UICONTROL Type] | Typen av produkt som hanteras i [!DNL Commerce] produktrutnät. |
+| [!UICONTROL Attribute Set] | Namnet på den attributuppsättning som används som mall för produkten, hanteras i [!DNL Commerce] produktrutnät. |
+| [!UICONTROL SKU] | Den unika Stock Keeping-enheten som tilldelats produkten, hanteras i [!DNL Commerce] produktrutnät. |
+| [!UICONTROL Visibility] | Anger var produkten är synlig, hanteras i [!DNL Commerce] produktrutnät. Alternativ:<ul><li>`Not visible individually`</li><li>`Catalog`</li><li>`Search`</li><li>`Catalog, Search`</li></ul> |
+| Status | Anger status för produkten som hanteras i [!DNL Commerce] produktrutnät. Alternativ: `Enabled` / `Disabled` |
 
 ![Arbetsflöde för förhandsgranskning av lista](assets/listing-preview-flowchart.png)

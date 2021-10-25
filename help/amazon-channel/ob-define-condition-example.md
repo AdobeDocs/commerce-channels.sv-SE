@@ -4,7 +4,7 @@ description: När du skapar dina listregler definierar du villkor för att ident
 exl-id: 8a48acfc-d31b-4919-bef7-8c300f0f9d94
 source-git-commit: 15b9468d090b6ee79fd91c729f2481296e98c93a
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '742'
 ht-degree: 0%
 
 ---

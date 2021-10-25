@@ -11,9 +11,9 @@ ht-degree: 0%
 
 # Utbildning och förberedelser
 
-Vyn _[!UICONTROL Learning and Preparation]_visar en lista med förinställda uppgifter som rekommenderas innan du integrerar dina Amazon-butiker. Här finns också länkar till utbildningsmaterial, t.ex.:
+The _[!UICONTROL Learning and Preparation]_I visas en lista med förinställda uppgifter som rekommenderas innan du integrerar dina Amazon-butiker. Här finns också länkar till utbildningsmaterial, t.ex.:
 
-- Denna [användarhandbok](./overview.md)
+- Detta [användarhandbok](./overview.md)
 - Videosjälvstudiekurser
 
 ![Vyn Utbildning och förberedelser](assets/learning-preparation.png)
