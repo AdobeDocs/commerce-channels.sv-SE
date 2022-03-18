@@ -1,10 +1,10 @@
 ---
 title: Installera tillägget
-description: Integrera [!DNL Commerce] catalog with [!DNL Amazon Seller Accounts] och sälja genom [!DNL Amazon Marketplace]hämtar och installerar tillägget Amazon Sales Channel.
+description: Integrera [!DNL Commerce] katalog med [!DNL Amazon Seller Accounts] och sälja genom [!DNL Amazon Marketplace]hämtar och installerar tillägget Amazon Sales Channel.
 exl-id: ebf22e28-b6a2-420b-80ca-2d750839286c
-source-git-commit: 8d12a839bbdf77f27c732507b5b776729e252a9f
+source-git-commit: e20e377fdef565ca526e6f67cca126c36b450e75
 workflow-type: tm+mt
-source-wordcount: '511'
+source-wordcount: '503'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 0%
 >
 >Endast [!DNL Amazon Sales Channel] version 4.0+ stöds för Adobe Commerce och Magento Open Source 2.4.x. Om du kör en 2.3.x-version, se dokumentationen för [kompatibel version av Amazon-försäljningskanal](https://docs.magento.com/user-guide/v2.3/sales-channels/amazon/amazon-sales-channel.html){target=&quot;_blank&quot;}. Mer information om versionskompatibilitet finns i [Tillgänglighet](https://devdocs.magento.com/release/availability.html){target=&quot;_blank&quot;} i utvecklardokumentationen.
 
-The [!UICONTROL Amazon Sales Channel] tillägg installerar och lägger till funktioner för att integrera din Commerce-katalog med [!DNL Amazon Seller Accounts] att sälja genom [!DNL Amazon Marketplace]. Mer information finns i [Amazon Sales Channel](https://marketplace.magento.com/magento-module-amazon.html) sida in [!DNL Commerce Marketplace] och [versionsinformation](https://devdocs.magento.com/extensions/amazon-sales/release-notes/) i utvecklardokumentationen.
+The [!UICONTROL Amazon Sales Channel] tillägg installerar och lägger till funktioner för att integrera din Commerce-katalog med [!DNL Amazon Seller Accounts] att sälja genom [!DNL Amazon Marketplace]. Mer information finns i [Amazon Sales Channel](https://marketplace.magento.com/magento-module-amazon.html) sida in [!DNL Commerce Marketplace] och [versionsinformation](release-notes.md).
 
 ## Krav
 
@@ -76,7 +76,7 @@ Du har följande alternativ för att konfigurera Amazon försäljningskanal. Du 
 
    Den här inställningen rekommenderas för **_avancerade användare/administratörer_**.
 
-1. Klicka **[!UICONTROL Save Config]**.
+1. Klicka på **[!UICONTROL Save Config]**.
 
 ## Uppdatera tillägget
 
