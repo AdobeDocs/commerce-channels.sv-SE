@@ -1,13 +1,13 @@
 ---
-solution: Adobe Commerce
+solution: Commerce,Adobe Commerce
 product: magento
 type: Documentation
 audience: end-user
 mini-toc-levels: 2
-git-repo: https://git.corp.adobe.com/AdobeDocs/commerce-channels.sv-SE
+git-repo: https://github.com/AdobeDocs/commerce-channels.sv-SE
 role: User
 index: true
-source-git-commit: 40eddad0931e87f917838a5feea60bfc4ef624b7
+source-git-commit: 5b113dde76327ca6b28453e33e585ee157b51f25
 workflow-type: tm+mt
 source-wordcount: '127'
 ht-degree: 0%
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 # Metadata för intern användning
 
-Filen `metadata.md` innehåller metadata på postnivå som skickas till användarhandboken `TOC.md` filer i svaret. Om du vill ändra metadata.md-innehåll för en användarhandbok gör du det i en `TOC.md`-fil.
+The `metadata.md` -filen innehåller metadata på postnivå som skickas till användarhandboken `TOC.md` i svaret. Om du vill ändra metadata.md-innehåll för en användarhandbok gör du det i alla `TOC.md` -fil.
 
 | metadata | vad den gör |
 |--- |--- |
