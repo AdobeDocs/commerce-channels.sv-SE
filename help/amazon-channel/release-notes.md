@@ -2,9 +2,9 @@
 title: '''[!DNL Amazon Sales Channel] Versionsinformation'
 description: Läs versionsinformationen om du vill ha information om alla [!DNL Amazon Sales Channel] releaser.
 exl-id: 792782e0-9097-42f7-9fc0-509ece02e407
-source-git-commit: 19424bf0deebf2b5464f973edad48f63d6042463
+source-git-commit: adf86495e7de53f9ee7bc916b2a7398f04e7cbd4
 workflow-type: tm+mt
-source-wordcount: '2090'
+source-wordcount: '2130'
 ht-degree: 0%
 
 ---
@@ -25,11 +25,19 @@ I versionsinformationen beskrivs den första versionen av [!DNL Amazon sales cha
 
 Se [Kommande versioner](https://devdocs.magento.com/release/){target=&quot;_blank&quot;} för versionshantering, support och kompatibilitet.
 
-## v4.4.2
+## v4.4.3
 
-[!DNL Amazon sales channel]  4.4.2 är kompatibelt med Adobe Commerce version 2.3.x och 2.4.0, men stöds bara för version 2.4.1+, av Magento Open Source, Adobe Commerce och Adobe Commerce i molninfrastruktur
+[!DNL Amazon sales channel]  4.4.3 är kompatibelt med Adobe Commerce version 2.3.x och 2.4.0, men stöds bara för version 2.4.1+ av Magento Open Source, Adobe Commerce och Adobe Commerce i molninfrastruktur.
 
 Den här versionen av [!DNL Amazon sales channel] innehåller följande korrigering.
+
+![Korrigera](../assets/fix.svg) Stöd för Adobe Commerce 2.4.4 har lagts till.
+
+## v4.4.2
+
+[!DNL Amazon sales channel]  4.4.2 är kompatibelt med Adobe Commerce version 2.3.x och 2.4.0, men stöds bara för version 2.4.1+ av Magento Open Source, Adobe Commerce och Adobe Commerce i molninfrastruktur.
+
+Den här versionen av [!DNL Amazon sales channel] innehåller följande korrigeringar.
 
 ![Korrigera](../assets/fix.svg) Uppdaterade beroenden som stöder andra uppdaterade tillägg.
 ![Korrigera](../assets/fix.svg) Stöd för PHP 8.1 har lagts till.
