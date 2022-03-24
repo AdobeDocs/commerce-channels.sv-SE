@@ -1,5 +1,5 @@
 ---
-solution: Commerce,Adobe Commerce
+solution: Commerce
 product: magento
 type: Documentation
 audience: end-user
@@ -7,9 +7,9 @@ mini-toc-levels: 2
 git-repo: https://github.com/AdobeDocs/commerce-channels.sv-SE
 role: User
 index: true
-source-git-commit: 5b113dde76327ca6b28453e33e585ee157b51f25
+source-git-commit: 615de69168c91a1d70760a5827bf8a59ab443241
 workflow-type: tm+mt
-source-wordcount: '127'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
