@@ -1,13 +1,13 @@
 ---
 title: Installera [!DNL Channel Manager]
 description: Installera Channel Manager-tillägget.
-source-git-commit: 517cafd3ccf8e3cfb38ec9a279efa2218e84694f
+exl-id: cb593ebd-f077-4a79-a661-bedf4cc70f97
+source-git-commit: 8f07b215c20cc28aa9a6862bcb2b00da30a1ed84
 workflow-type: tm+mt
-source-wordcount: '674'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
-
 
 # Installera Channel Manager
 
@@ -15,7 +15,7 @@ Granska [krav](onboard.md#prerequisites) och samla in nödvändig information in
 
 ## Uppdatera inställningen för minsta stabilitet
 
-Innan du installerar tillägget måste du uppdatera `minimum-stability` dina behov `composer.json` så att du kan installera tidigare versioner av Channel Manager med Composer.
+Innan du installerar tillägget ska du uppdatera `minimum-stability` dina behov `composer.json` så att du kan installera tidigare versioner av Channel Manager med Composer.
 
 Om du vill uppdatera konfigurationen lägger du till följande rader i `composer.json` -fil.
 
@@ -28,7 +28,7 @@ Om du vill uppdatera konfigurationen lägger du till följande rader i `composer
 
 ## Installera tillägget
 
-Installationsanvisningarna beror på om du installerar Channel Manager på en lokal eller molnbaserad Commerce-instans:
+Instruktionerna för Channel Manager-installationen beror på om Adobe Commerce eller Magento Open Source används lokalt eller på molninfrastrukturen.
 
 - Installera på en [Lokal instans](#install-on-an-on-premises-instance).
 
@@ -126,12 +126,13 @@ Arbeta i en utvecklingsgren när du lägger till ett tillägg i din molninstans.
 
 Hjälp om hur du använder grenar finns i [Kom igång med att skapa grenar](https://devdocs.magento.com/cloud/env/environments-start.html#getstarted){target=&quot;_blank&quot;} i dokumentationen för Adobe Commerce-utvecklare.
 
-När du installerar ett tillägg får du tilläggsnamnet (&lt;vendorname>\_&lt;componentname>) infogas automatiskt i [app/etc/config.php](https://devdocs-beta.magento.com/guides/v2.3/config-guide/config/config-php.html){target=&quot;_blank&quot;}. Du behöver inte redigera filen direkt.
+Under installationen visas tilläggets namn (`&lt;VendorName>\_&lt;ComponentName>`) infogas automatiskt i [app/etc/config.php](https://devdocs-beta.magento.com/guides/v2.3/config-guide/config/config-php.html){target=&quot;_blank&quot;}. Du behöver inte redigera filen direkt.
 
 1. Byt till rotkatalogen för projektet i molnet på din lokala arbetsstation.
 
-1. Skapa eller checka ut en utvecklingsgren. Se [förgrening](https://devdocs-beta.magento.com/cloud/env/environments-start.html#getstarted){target=&quot;_blank&quot;}.
-1. Använd Composer-namnet för att lägga till tillägget i `require` -delen i filen Composer.json.
+1. Skapa eller checka ut en utveckling [bankkontor](https://devdocs-beta.magento.com/cloud/env/environments-start.html#getstarted){target=&quot;_blank&quot;}.
+
+1. Använd Composer-namnet för att lägga till tillägget i `require` i `composer.json` -fil.
 
    ```bash
    $ composer require magento/channel-manager --no-update
@@ -148,7 +149,7 @@ När du installerar ett tillägg får du tilläggsnamnet (&lt;vendorname>\_&lt;c
    ```
 
    ```bash
-   $ git push origin &lt;branch-name>
+   $ git push origin <branch-name>
    ```
 
 1. När bygget och distributionen är klar använder du SSH för att logga in på fjärrmiljön och verifiera att tillägget har installerats korrekt.
@@ -197,7 +198,7 @@ Kontrollera nyckelkonfigurationen:
    $ cat /path/to/auth.json
    ```
 
-1. Kontrollera att autentiseringsuppgifterna i auth.json matchar[ nycklarna som är kopplade till MAGE-ID](https://devdocs.magento.com/guides/v2.4/install-gde/prereq/connect-auth.html){target=&quot;_blank&quot;} som används för att registrera för Channel Manager-tjänsten.
+1. Kontrollera att autentiseringsuppgifterna i auth.json matchar [nycklarna som är kopplade till MAGE-ID](https://devdocs.magento.com/guides/v2.4/install-gde/prereq/connect-auth.html){target=&quot;_blank&quot;} som används för att registrera för Channel Manager-tjänsten.
 
 ### Otillräckligt minne för PHP
 
@@ -223,6 +224,14 @@ Använd någon av följande metoder för att lösa minnesproblemet:
    $ php-d memory_limit=-1 vendor/bin/composer require magento/channel-manager
    ```
 
+### Vyn saknas
+
+Om du får ett felmeddelande om att en fil saknas `process_catalog_exporter_view` under installationen av Channel Manager kan du [uppdatera indexerare](https://devdocs.magento.com/guides/v2.4/config-guide/cli/config-cli-subcommands-index.html#config-cli-subcommands-index-reindex){target=&quot;_blank&quot;}.
+
+```bash
+php bin/magento indexer:refresh
+```
+
 ### Distributionsfel i molnet
 
-Information om problem med att distribuera tillägget till molnet finns i[distributionsfel för tillägg](https://devdocs.magento.com/cloud/trouble/trouble_comp-deploy-fail.html){target=&quot;_blank&quot;}.
+Information om problem med att distribuera tillägget till molnet finns i [distributionsfel för tillägg](https://devdocs.magento.com/cloud/trouble/trouble_comp-deploy-fail.html){target=&quot;_blank&quot;}.

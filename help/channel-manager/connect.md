@@ -3,9 +3,10 @@ title: Anslut till Commerce Services
 description: Anslut Channel Manager-instans till [!DNL Commerce services] för att möjliggöra datasynkronisering och kommunikation mellan Commerce-instansen, Channel Manager och andra stödtjänster.
 role: User
 level: Intermediate
-source-git-commit: ec950579a9b2220f9ec106b616779fc3503f3add
+exl-id: 97da2142-ecef-44dc-91d8-5dc55c713d31
+source-git-commit: 8f07b215c20cc28aa9a6862bcb2b00da30a1ed84
 workflow-type: tm+mt
-source-wordcount: '287'
+source-wordcount: '300'
 ht-degree: 0%
 
 ---
@@ -14,13 +15,15 @@ ht-degree: 0%
 
 Commerce Services Connector integrerar Channel Manager-tjänsten med instanser i Adobe Commerce och Magento Open Source. Kopplingen möjliggör datasynkronisering och kommunikation mellan [!DNL Commerce] instans, [!DNL Channel Manager]och andra stödtjänster.
 
-Konfigurationen av Commerce Services Connector är en engångsprocess som krävs för att använda Adobe [Commerce SaaS-tjänster](https://experienceleague.adobe.com/docs/commerce-merchant-services/user-guides/home.html){target=&quot;_blank&quot;} gillar [!DNL Channel Manager], [!DNL Live Search]och [!DNL Product Recommendations]. Om du redan har konfigurerat kopplingen för en annan tjänst kan du hoppa över det här steget.
+Inställningar för Commerce Services Connector är en engångsprocess som krävs för att använda Adobe [Commerce SaaS-tjänster](https://experienceleague.adobe.com/docs/commerce-merchant-services/user-guides/home.html){target=&quot;_blank&quot;} gillar [!DNL Channel Manager], [!DNL Live Search]och [!DNL Product Recommendations]. Om du redan har konfigurerat anslutningen för en annan tjänst hoppar du över det här steget.
 
 ## Förutsättningar
 
-- **Handelskonto med [Administratörsåtkomst](https://docs.magento.com/user-guide/stores/admin.html){target=&quot;_blank&quot;}** till din Commerce-instans**-Kontoägare och Admin-användare kan konfigurera användarkonton från Commerce-instansen eller från kommandoraden med [!DNL Commerce] CLI, kommando `admin:user:create`.
+- **Handelskonto**-Om du vill installera programvara i Commerce-instanser måste du ha ett konto med ägar- eller administratörsåtkomst till Commerce-plattformen.
 
-- **Adobe Commerce [API-nycklar för produktion](https://docs.magento.com/user-guide/system/saas.html#apikey){target=&quot;_blank&quot;}**-Aktivera API-åtkomst till tjänster som krävs av Channel Manager
+   Kontoägare och Admin-användare kan skapa nya Admin-konton från Commerce-instansen eller från kommandoraden med [!DNL Commerce] CLI, kommando `admin:user:create`.
+
+- **Adobe Commerce Production API Key**-Den [key](https://docs.magento.com/user-guide/system/saas.html#apikey){target=&quot;_blank&quot;} aktiverar API-åtkomst till tjänster som krävs av Channel Manager. Du behöver offentliga och privata autentiseringsuppgifter för den här nyckeln.
 
    En innehavare av en Commerce-licens eller kontoägare har möjlighet att ange inloggningsuppgifterna
    [dela åtkomst](https://docs.magento.com/user-guide/magento/magento-account-share.html){target=&quot;_blank&quot;}, eller ge [API-nyckel](https://docs.magento.com/user-guide/system/saas.html#apikey){target=&quot;_blank&quot;} autentiseringsuppgifter för en betrodd utvecklare.
@@ -29,13 +32,13 @@ Konfigurationen av Commerce Services Connector är en engångsprocess som krävs
 
 1. Öppna Store Services Configuration.
 
-   - Välj [!UICONTROL Stores].
+   - Välj **[!UICONTROL Stores]**.
 
-   - Under *Inställningar*, markera [!UICONTROL Configuration].
+   - Under *Inställningar*, markera **[!UICONTROL Configuration]**.
 
-   - På [!UICONTROL Configuration] sida, expandera [!UICONTROL Services] och markera [!UICONTROL Commerce Services Connector].
+   - Expandera **[!UICONTROL Services]** och markera **[!UICONTROL Commerce Services Connector]**.
 
-1. Lägg till API-nycklar för produktion från ditt Adobe Commerce-konto.
+1. Lägg till autentiseringsuppgifter för Production API-nyckel från ditt Adobe Commerce-konto.
 
    ![[!DNL Commerce Service Connector] i [!DNL Admin] visa](assets/commerce-services-connector-admin-service-view.png)
 

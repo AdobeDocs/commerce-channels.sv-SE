@@ -1,12 +1,14 @@
 ---
-title: 'Anslut Sales Channel till [!DNL Walmart Marketplace] '
+title: Anslut Sales Channel till [!DNL Walmart Marketplace]
 description: Konfigurera säljkanalen och anslut till Walmart Marketplace.
-source-git-commit: ff87f31fec7a689385a93b8cab260fd93ff15f90
+exl-id: 8c78c582-7b57-4f73-894e-134ba0ba3640
+source-git-commit: 8f07b215c20cc28aa9a6862bcb2b00da30a1ed84
 workflow-type: tm+mt
-source-wordcount: '396'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
+
 
 # Anslut till [!DNL Walmart Marketplace]
 
@@ -56,7 +58,7 @@ När du har installerat Channel Manager på din [!DNL Commerce] koppla en Commer
 
       >[!NOTE]
       >
-      >Om du inte ser en [!DNL Adobe Inc] på Developer Portal väljer du **[!UICONTROL Add New Key for a Solution Provider]** för att konfigurera behörigheter och generera nyckeln. Konfigurationsinformation finns i [Generera en [!DNL Walmart Marketplace API Key]](overview.md#generate-a-walmart-marketplace-api-key).
+      >Om [!DNL Adobe Inc] är inte listad i Developer Portal, välj **[!UICONTROL Add New Key for a Solution Provider]** för att konfigurera behörigheter och generera nyckeln. Konfigurationsinformation finns i [Generera en [!DNL Walmart Marketplace API Key]](walmart-prerequisites.md#generate-a-walmart-marketplace-api-key).
 
    - Återgå till [!DNL Channel Manager] för att lägga till inloggningsuppgifterna i **[!UICONTROL Walmart Connection]** information.
 
@@ -75,29 +77,6 @@ Om anslutningen till Walmart misslyckas, se [Frågor och svar om Walmart Marketp
 
 - Från [!DNL Walmart Developer Portal]kontrollerar du att du har kopierat rätt autentiseringsuppgifter för produktions-API-nyckeln för [!UICONTROL Adobe Inc.]
 
-- Kontrollera att åtkomstkonfigurationen för Walmart Adobe API-nyckeln har rätt behörigheter. Se [Krav för Walmart](overview.md#walmart-prerequisites).
+- Kontrollera att åtkomstkonfigurationen för Walmart Adobe API-nyckeln har rätt behörigheter. Se [Krav för Walmart](walmart-prerequisites.md##generate-a-walmart-marketplace-api-key).
 
 - Bekräfta att Walmart API-tjänsten är tillgänglig från [WWART API-statussida](https://developer.walmart.com/us/whats-new/new-api-status-information-now-available/){target=&quot;_blank&quot;}.
-
-
-## Slutför butiksinställning
-
-När du har anslutit en Commerce Store till [!DNL Walmart Marketplace]kan du slutföra butiksinställningarna från [!DNL Channel Manager Stores] vy.
-
-Så här slutför du butiksinställningarna:
-
-1. Välj **[!UICONTROL Marketing** > **Kanalhanteraren**].
-
-   ![[!DNL Walmart Marketplace API key] konfigurationssida](assets/connect-commerce-store-config.png)
-
-1. Öppna en ansluten försäljningskanal genom att välja pennikonen i en butikspostrad.
-
-1. Starta säljkanalsåtgärder.
-
-   - Lägg till produkter från din Commerce Catalog i Channel Manager
-
-   - Publicera produkter på Walmart med produktmatchning
-
-   - Visa och hantera lager och priser
-
-   - Visa och hantera Walmart-order från Commerce Admin
