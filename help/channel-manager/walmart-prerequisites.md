@@ -1,13 +1,13 @@
 ---
 title: Krav för Walmart
 description: Kontrollera att du har den Walmart Marketplace-information och de resurser du behöver för att integrera med Channel Manager.
-source-git-commit: 2a9bd2f8f91e672786c36f5e132f99bcab59dd00
+exl-id: c4f247e8-280a-4595-a6c8-cf8b732d7aab
+source-git-commit: 1f493dd40e23d459645704e5a52f9cc5edf4629f
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '320'
 ht-degree: 0%
 
 ---
-
 
 # Krav på genomgång
 
@@ -34,8 +34,21 @@ Channel Manager kräver följande resurser och information för att konfigurera 
 
    * Ange de behörigheter som visas i följande tabell. Mer information finns i [API-autentiseringsuppgifter](https://sellerhelp.walmart.com/seller/s/guide?article=000006422) i _Hjälp för Walmart Marketplace Seller_.
 
-|    **Adobe API-nyckelkonfiguration för Walmart**
-| **Behörighet** | **Inställning** | |—|—| | Innehåll | Fullständig åtkomst | | Hämta feeds | Endast vy | | Lager | Fullständig åtkomst | | Objekt | Fullständig åtkomst | | Tid kvar | Fullständig åtkomst | | Beställning | Fullständig åtkomst | | Pris | Fullständig åtkomst | | Rapporter | Endast vy | | Returer | Fullständig åtkomst | | Regler | Fullständig åtkomst | | Leverans | Fullständig åtkomst |
+   **Adobe API-nyckelkonfiguration för Walmart**
+
+   | **Behörighet** | **Inställning** |
+   |----------------|-------------|
+   | Innehåll | Fullständig åtkomst |
+   | Hämta feeds | Visa endast |
+   | Lager | Fullständig åtkomst |
+   | Objekt | Fullständig åtkomst |
+   | Sena tiden | Fullständig åtkomst |
+   | Order | Fullständig åtkomst |
+   | Pris | Fullständig åtkomst |
+   | Rapporter | Visa endast |
+   | Returnerar | Fullständig åtkomst |
+   | Regler | Fullständig åtkomst |
+   | Leverans | Fullständig åtkomst |
 
 ## Status för Walmart Marketplace Store
 
