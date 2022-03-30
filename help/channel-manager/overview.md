@@ -75,8 +75,8 @@ Du behöver följande information från Walmart för att kunna integrera Commerc
 
    * Ange de behörigheter som visas i följande tabell. Mer information finns i [API-autentiseringsuppgifter](https://sellerhelp.walmart.com/seller/s/guide?article=000006422) i *Hjälp för Walmart Marketplace Seller*.
 
-|    **Adobe API-nyckelkonfiguration för Walmart**
-| **Behörighet** | **Inställning** | |—|—| | Innehåll | Fullständig åtkomst | | Hämta feeds | Endast vy | | Lager | Fullständig åtkomst | | Objekt | Fullständig åtkomst | | Tid kvar | Fullständig åtkomst | | Beställning | Fullständig åtkomst | | Pris | Fullständig åtkomst | | Rapporter | Endast vy | | Returer | Fullständig åtkomst | | Regler | Fullständig åtkomst | | Leverans | Fullständig åtkomst |
+&#x200B;|    **Adobe API-nyckelkonfiguration för Walmart**
+&#x200B;| **Behörighet** | **Inställning** | |—|—| | Innehåll | Fullständig åtkomst | | Hämta feeds | Endast vy | | Lager | Fullständig åtkomst | | Objekt | Fullständig åtkomst | | Tid kvar | Fullständig åtkomst | | Beställning | Fullständig åtkomst | | Pris | Fullständig åtkomst | | Rapporter | Endast vy | | Returer | Fullständig åtkomst | | Regler | Fullständig åtkomst | | Leverans | Fullständig åtkomst |
 
 ## Status för Walmart Marketplace Store
 
