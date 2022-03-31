@@ -4,7 +4,7 @@ description: Lär dig hur du installerar och använder [!DNL Channel Manager] at
 role: User
 level: Intermediate
 exl-id: 91265973-d2ad-4925-aa10-260d7e186f20
-source-git-commit: 7412a3d5b78e206521a048fb56edacd8f11ddb58
+source-git-commit: ac084bf968a262dd4e7f6b6040aea2e6dc6197c2
 workflow-type: tm+mt
 source-wordcount: '705'
 ht-degree: 0%
@@ -75,8 +75,21 @@ Du behöver följande information från Walmart för att kunna integrera Commerc
 
    * Ange de behörigheter som visas i följande tabell. Mer information finns i [API-autentiseringsuppgifter](https://sellerhelp.walmart.com/seller/s/guide?article=000006422) i *Hjälp för Walmart Marketplace Seller*.
 
-&#x200B;|    **Adobe API-nyckelkonfiguration för Walmart**
-&#x200B;| **Behörighet** | **Inställning** | |—|—| | Innehåll | Fullständig åtkomst | | Hämta feeds | Endast vy | | Lager | Fullständig åtkomst | | Objekt | Fullständig åtkomst | | Tid kvar | Fullständig åtkomst | | Beställning | Fullständig åtkomst | | Pris | Fullständig åtkomst | | Rapporter | Endast vy | | Returer | Fullständig åtkomst | | Regler | Fullständig åtkomst | | Leverans | Fullständig åtkomst |
+   **Adobe API-nyckelkonfiguration för Walmart**
+
+   | **Behörighet** | **Inställning** |
+   |----------------|-------------|
+   | Innehåll | Fullständig åtkomst |
+   | Hämta feeds | Visa endast |
+   | Lager | Fullständig åtkomst |
+   | Objekt | Fullständig åtkomst |
+   | Sena tiden | Fullständig åtkomst |
+   | Order | Fullständig åtkomst |
+   | Pris | Fullständig åtkomst |
+   | Rapporter | Visa endast |
+   | Returnerar | Fullständig åtkomst |
+   | Regler | Fullständig åtkomst |
+   | Leverans | Fullständig åtkomst |
 
 ## Status för Walmart Marketplace Store
 
