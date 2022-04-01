@@ -2,9 +2,9 @@
 title: Installera [!DNL Channel Manager]
 description: Installera Channel Manager-tillägget.
 exl-id: cb593ebd-f077-4a79-a661-bedf4cc70f97
-source-git-commit: 8f07b215c20cc28aa9a6862bcb2b00da30a1ed84
+source-git-commit: 4509528d1b084c9a91fd6be0d0a863782edb3bdd
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '697'
 ht-degree: 0%
 
 ---
@@ -178,7 +178,6 @@ Använd följande information för att åtgärda fel som inträffar under instal
 ### Felaktiga dispositionsnycklar
 
 Om [åtkomstnycklar](https://devdocs.magento.com/guides/v2.4/install-gde/prereq/connect-auth.html){target=&quot;_blank&quot;} som används för att autentisera till Composer-databasen är ogiltiga eller inte länkade till [!DNL MAGE ID] har använt [!DNL Channel Manager] visas följande fel.
-
 
 ```terminal
 Could not find a matching version of package magento/channel-manager. Check the package spelling, your version constraint and that the package is available in a stability which matches your minimum-stability (stable).

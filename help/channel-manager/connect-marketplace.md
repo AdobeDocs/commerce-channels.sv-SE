@@ -2,9 +2,9 @@
 title: Anslut Sales Channel till [!DNL Walmart Marketplace]
 description: Konfigurera säljkanalen och anslut till Walmart Marketplace.
 exl-id: 8c78c582-7b57-4f73-894e-134ba0ba3640
-source-git-commit: 8f07b215c20cc28aa9a6862bcb2b00da30a1ed84
+source-git-commit: a10ab3f7fa7049e48d83a942f6c5441d8147b12c
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '396'
 ht-degree: 0%
 
 ---
@@ -40,7 +40,6 @@ När du har installerat Channel Manager på din [!DNL Commerce] koppla en Commer
    - Lägg till en **[!UICONTROL email address]** för att ta emot tjänstmeddelanden relaterade till [!DNL Channel Manager].
 
       ![Konfigurera anslutning mellan Commerce och [!DNL Walmart Marketplace] från [!DNL Channel Manager]](assets/configure-commerce-to-marketplace-connection.png)
-
 
 ## Ansluta kanalen till Walmart Marketplace
 
@@ -80,3 +79,25 @@ Om anslutningen till Walmart misslyckas, se [Frågor och svar om Walmart Marketp
 - Kontrollera att åtkomstkonfigurationen för Walmart Adobe API-nyckeln har rätt behörigheter. Se [Krav för Walmart](walmart-prerequisites.md##generate-a-walmart-marketplace-api-key).
 
 - Bekräfta att Walmart API-tjänsten är tillgänglig från [WWART API-statussida](https://developer.walmart.com/us/whats-new/new-api-status-information-now-available/){target=&quot;_blank&quot;}.
+
+## Slutför butiksinställning
+
+När du har anslutit en Commerce Store till [!DNL Walmart Marketplace]kan du slutföra butiksinställningarna från [!DNL Channel Manager Stores] vy.
+
+Så här slutför du butiksinställningarna:
+
+1. Välj **[!UICONTROL Marketing** > **Kanalhanteraren**].
+
+   ![[!DNL Walmart Marketplace API key] konfigurationssida](assets/connect-commerce-store-config.png)
+
+1. Öppna en ansluten försäljningskanal genom att välja pennikonen i en butikspostrad.
+
+1. Starta säljkanalsåtgärder.
+
+   - [Lägg till produkter från din Commerce Catalog i Channel Manager](add-products-to-connected-channel.md)
+
+   - [Publicera produkter på Walmart med produktmatchning](publish-listings-to-marketplace.md)
+
+   - [Visa och hantera lager och priser](inventory-and-price-updates.md)
+
+   - Visa och hantera Walmart-order från Commerce Admin
