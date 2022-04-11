@@ -2,7 +2,7 @@
 title: Hantera listor
 description: Hantera säljkanalslistor för en [!DNL Commerce] lagra med Channel Manager för Adobe Commerce och Magento Open Source.
 exl-id: 70999552-9ba7-4b10-a8ee-ee99bc4fe837
-source-git-commit: 30495c4e47f15c821206f7b0252b868b4e27d62d
+source-git-commit: 41a6afec60edbb23492627bd8e80632d3c952caf
 workflow-type: tm+mt
 source-wordcount: '695'
 ht-degree: 0%
@@ -41,25 +41,25 @@ Du kan skapa produkterbjudanden på Walmart Marketplace med produktmatchning ell
 
 * **[Överför nya listor manuellt](publish-listings-to-marketplace.md#upload-new-product-listings)-**-För produkter som inte överensstämmer med en befintlig lista på Walmart Marketplace använder du en Walmart-produktkategorimall i Excel för att massöverföra produktlistor.
 
-## Listkontroller och fältbeskrivningar
+## Listkontroller och kolumnbeskrivningar
 
-I följande tabeller beskrivs de kontroller och fält som är tillgängliga i [!UICONTROL Listings] sida.
+I följande tabeller beskrivs de kontroller och kolumner som är tillgängliga för [!UICONTROL Listings].
 
 **Kontroller för[!UICONTROL Listings]**
 
-| **Attribut** | **Kravnivå** |
-|----------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [!UICONTROL Refresh products] | Uppdaterar visningen med den senaste listan och statusen |
-| [!UICONTROL Add Products ] | Öppnar [!UICONTROL  Admin Product Catalog] sida för att välja produkter att lägga till [!DNL Walmart Marketplace] eller för att uppdatera produktattribut så att de uppfyller Walmart Marketplace-listkraven. |
-| [!UICONTROL Match products on Walmart] | När du har valt en eller flera produkter i utkaststatus väljer du [!UICONTROL Match products on Walmart] för att söka efter produkterbjudanden som kan läggas till i en befintlig [!DNL Walmart Marketplace] lista. |
+| **Kontroll** | **Beskrivning** |
+|----------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| [!UICONTROL Refresh products] | Uppdaterar visningen med den senaste listan och statusen. |
+| [!UICONTROL Add Products] | Öppnar [!UICONTROL Admin Product Catalog] sida för att välja produkter att lägga till [!DNL Walmart Marketplace] eller för att uppdatera produktattribut så att de uppfyller Walmart Marketplace-listkraven. |
+| [!UICONTROL Match products on Walmart] | När du har valt en eller flera produkter i utkaststatus väljer du Matcha produkter i Walmart för att kontrollera om det finns produkterbjudanden som kan läggas till i en befintlig [!DNL Walmart Marketplace] lista. |
 
 
 **Kolumnbeskrivningar**
 
 | **Fält** | **Beskrivning** |
-|------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Product name] | Namn på produkten från [!DNL Commerce] lagringskatalog. |
-| [!UICONTROL SKU (Unique ID)] | Det mappade attribut som används för att matcha produkter på marknadsplatsen. Fältnamnet varierar beroende på den mappade attributkonfigurationen för [!DNL Channel Manager] listor. I det här fallet använder produktmatchningen SKU:n från [!DNL Commerce] katalog där du hittar en [!DNL Walmart Marketplace]  Listing with a SKU value that match the SKU value from the Commerce product attributes. |
+| [!UICONTROL SKU (Unique ID)] | Det mappade attribut som används för att matcha produkter på marknadsplatsen. Fältnamnet varierar beroende på den mappade attributkonfigurationen för [!DNL Channel Manager] listor. I det här fallet använder produktmatchningen SKU:n från [!DNL Commerce] katalog där du hittar en [!DNL Walmart Marketplace]  Lista med ett SKU-värde som matchar SKU-värdet från [!DNL Commerce] produktattribut. |
 | [!UICONTROL  Quantity] | Belopp som är tillgängligt i Adobe Commerce eller Magento Open Source. |
 | [!UICONTROL Price] | Produktpriset från [!DNL Commerce] lagringskatalog. Katalogprisuppdateringarna synkroniseras med kanalhanteraren och skickas sedan till [!DNL Walmart Marketplace]  så att listade artiklar visar aktuellt pris. |
 | [!UICONTROL Status] | Anger aktuell orderstatus i [!DNL Commerce] orderarbetsflöde. Statusen uppdateras när du har lagt till produkter i [!DNL Channel Manager] och när ni matchar produkter på marknaden. Om en åtgärd misslyckas visas felstatusen i listan. När du har åtgärdat felet [!DNL Channel Manager] försöker utföra åtgärden igen och uppdaterar statusen. |
