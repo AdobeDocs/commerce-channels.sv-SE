@@ -1,37 +1,34 @@
 ---
-title: Lägg till produkter i kanalbutiken
+title: Lägg till produkter i en ansluten kanal
 description: Skapa produktsortiment för Marketplace-försäljning genom att lägga till produkter från katalogen i försäljningskanalen
-source-git-commit: 905bedaf1eacdc45b2b7f222e7703e1f7b3dfd9c
+exl-id: 00932df7-bdc7-42a1-b269-88dffcc918bc
+source-git-commit: e6368d30e16ccffcb1dfc64bdd56561116934b54
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '253'
 ht-degree: 0%
 
 ---
 
 
-# Lägg till produkter i kanalbutiken
+# Lägg till produkter i en ansluten kanal
 
-Välj produkter från kanalhanteraren [!DNL Commerce] katalog för Walmart Marketplace-försäljning.
-
-Om du vill synkronisera produkter till försäljningskanalen måste de valda produkterna ha följande attributkonfiguration:
+Om du vill synkronisera produkter till säljkanalen på Walmart Marketplace väljer du produkter på menyn [!DNL Commerce] produktkatalog och importera dem till Channel Manager. De valda produkterna måste ha följande attributkonfiguration:
 
 - **[!UICONTROL Publish to Channel Manager]** attribut är aktiverat
 
 - Minst ett produktattribut måste matcha ett av [obligatoriska Walmart Marketplace-attribut](map-product-attributes-for-matching.md)-GTIN, ISBN, ISSN, UPC, EAN
 
-När du har sparat markeringar importerar kanalhanteraren produktdata till kanalen. Den här processen kan ta upp till 30 minuter.
+Processen att importera produkter från [!DNL Commerce] för Channel Manager kan ta upp till 30 minuter eller mer beroende på hur många produkter du väljer.
 
 ## Lägg till produkter i försäljningskanalen
 
-1. Öppna produktkatalogen som är kopplad till din Channel Manager-butik.
-
-   Välj **Lägg till produkter**.
+1. Välj **Lägg till produkter** för att öppna produktkatalogen.
 
    ![Lägg till produkter i en ansluten kanal](assets/add-initial-products-to-connected-channel.png)
 
    Katalogen öppnas på en ny flik.
 
-1. I katalogproduktrutnätet väljer du produkter att sälja på Walmart Marketplace.
+1. Välj produkter att sälja på i katalogproduktrutnätet [!DNL Walmart Marketplace].
 
    ![Skicka produkter till den anslutna kanalen](assets/select-products-from-catalog.png)
 
@@ -57,6 +54,9 @@ När du har sparat markeringar importerar kanalhanteraren produktdata till kanal
 
 1. Återgå till den anslutna försäljningskanalen i [!DNL Channel Manager].
 
-   Visa produkter från **[!UICONTROL Listings]**. Till att börja med finns produkterna i *Utkast* status. Välj [!UICONTROL Refresh products]** för att uppdatera tabellen.
+1. Visa produkter från **[!UICONTROL Listings]**.
 
    ![Produkter som importerats till en ansluten försäljningskanal](assets/products-in-marketplace-sales-channel.png)
+
+   Till att börja med finns produkterna i *Utkast* status. Välj **[!UICONTROL Refresh products]** för att uppdatera tabellen.
+

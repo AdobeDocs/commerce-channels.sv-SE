@@ -2,9 +2,9 @@
 title: Krav för Walmart
 description: Kontrollera att du har den Walmart Marketplace-information och de resurser du behöver för att integrera med Channel Manager.
 exl-id: c4f247e8-280a-4595-a6c8-cf8b732d7aab
-source-git-commit: 1f493dd40e23d459645704e5a52f9cc5edf4629f
+source-git-commit: e6368d30e16ccffcb1dfc64bdd56561116934b54
 workflow-type: tm+mt
-source-wordcount: '320'
+source-wordcount: '321'
 ht-degree: 0%
 
 ---
@@ -21,10 +21,10 @@ Channel Manager kräver följande resurser och information för att konfigurera 
 
 ## Konfigurera ett Marketplace-säljarkonto
 
-1. [Skicka in din Walmart Seller-app](https://marketplace-apply.walmart.com/apply?id=0014M00001zivMpQAI)
+1. [Skicka in din Walmart Seller-app](https://marketplace-apply.walmart.com/apply?id=0014M00001zivMpQAI).
 1. Efter godkännande från Walmart, [konfigurera ditt Walmart Seller-konto](https://sellerhelp.walmart.com/seller/s/guide?article=000008219).
 
-## Generera en Walmart Marketplace-API-nyckel
+## Generera en Walmart Marketplace Production API-nyckel
 
 1. Gå till Walmart Marketplace för att generera en [API-nyckel för lösningsleverantörsproduktion för Adobe](https://developer.walmart.com/#preloginModal?redirectUri=https%3A%2F%2Fdeveloper.walmart.com%2Faccount%2FgenerateKey).
 

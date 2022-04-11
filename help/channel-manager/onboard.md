@@ -4,16 +4,17 @@ description: Anslut instansen till [!DNL Channel Manager] genom att utföra någ
 role: User
 level: Intermediate
 exl-id: 7c4ccd9e-ae32-4511-8d1e-baa690604612
-source-git-commit: f57c6db4c0314272d10bb5483d2c8a0ae396a9fc
+source-git-commit: 30495c4e47f15c821206f7b0252b868b4e27d62d
 workflow-type: tm+mt
-source-wordcount: '411'
+source-wordcount: '398'
 ht-degree: 0%
 
 ---
 
+
 # Inbyggt [!DNL Channel Manager]
 
-Anmäl kanalhanteraren genom att installera Channel Manager-tillägget på din [!DNL Commerce] instans och konfiguration av API-anslutningar. Dessa anslutningar möjliggör kommunikation och datasynkronisering mellan din Commerce-instans och Walmart Marketplace.
+Anmäl kanalhanteraren genom att installera Channel Manager-tillägget på din [!DNL Commerce] instans och konfiguration av API-anslutningar. Dessa anslutningar möjliggör kommunikation och datasynkronisering mellan din Commerce-instans och [!DNL Walmart Marketplace].
 
 När du är klar med introduktionen konfigurerar och hanterar du säljkanalsåtgärder från [!UICONTROL Channel Manager] på [!UICONTROL Commerce Admin Marketing] -menyn.
 
@@ -45,19 +46,18 @@ När du är klar med introduktionen konfigurerar och hanterar du säljkanalsåtg
 
       I Adobe Commerce- och Magento Open Source-projekt kan ägaren konfigurera [Delad åtkomst](https://docs.magento.com/user-guide/magento/magento-account-share.html) för att tillåta betrodda anställda och tjänsteleverantörer att hämta tillägg med hjälp av autentiseringsuppgifter från ägar- eller licenshållarkontot.
 
-      På [!DNL Adobe Commerce] i molninfrastrukturprojekt måste programinstallerare ha följande åtkomst till [!DNL Commerce] instans:
+      För [!DNL Adobe Commerce] i molninfrastrukturprojekt måste programinstallerare ha följande åtkomst till [!DNL Commerce] instans:
 
       - Superanvändaråtkomst till Cloud-projektet
       - Administratörsåtkomst till en viss miljö
-      - en [!DNL Adobe Commerce] eller [!DNL Magento Open Source] konto med behörighet att komma åt Composer-databasen.
+      - en [!DNL Adobe Commerce] eller [!DNL Magento Open Source] konto med behörighet att komma åt Composer-databasen
 
       Se [Hantera användaråtkomst](https://devdocs.magento.com/cloud/project/user-admin.html).
 
 
-- **Behörighet att hämta Channel Manager Composer-paketet**-Tillhandahåll MAGE-ID från det Commerce-konto som används för att hantera tjänsten till den Adobe-representant som koordinerar betaprogrammet för din organisation.
+- **Behörighet att hämta Channel Manager Composer-paketet**-Ange betakoordinatorn för Adobe Channel med MAGE-ID:t för [!DNL Commerce] konto som används för att hantera tjänsten för din organisation.
 - **Upplevelse med Composer och[!DNL Commerce CLI]** -See [Allmän CLI-installation](https://devdocs.magento.com/extensions/install/){target=&quot;_blank&quot;} om du vill ha information om hur du använder verktygen för att installera och hantera tillägg på [!DNL Adobe Commerce] eller [!DNL Magento Open Source] -plattformar.
-- **[Amazon Sales Channel version 4.4.2 eller senare](https://experienceleague.adobe.com/docs/commerce-channels/amazon/release-notes.html)-Om du har aktiverat Amazon Sales Channel för dina Commerce-webbplatser måste du kontrollera att din Commerce-plattform har version 4.42 installerad innan du installerar Channel Manager.
-
+- [[!DNL Amazon Sales Channel] version 4.4.2 eller senare](https://experienceleague.adobe.com/docs/commerce-channels/amazon/release-notes.html)-Om du har aktiverat [!DNL Amazon Sales Channel] för [!DNL Commerce] webbplatser, verifiera att [!DNL Commerce] har version 4.42 installerad innan du installerar [!DNL Channel Manager].
 
 ### Krav
 

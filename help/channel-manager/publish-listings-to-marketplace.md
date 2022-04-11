@@ -2,25 +2,25 @@
 title: Publicera listor till Walmart
 description: Publicera listor för Commerce-produkter på Walmart Marketplace för att börja sälja.
 exl-id: 78078b14-ebdd-415d-9486-66b0150167aa
-source-git-commit: a10ab3f7fa7049e48d83a942f6c5441d8147b12c
+source-git-commit: e6368d30e16ccffcb1dfc64bdd56561116934b54
 workflow-type: tm+mt
-source-wordcount: '1115'
+source-wordcount: '1113'
 ht-degree: 0%
 
 ---
 
 # Publicera listor till Walmart
 
-Precis som andra marknadsplatser tillåter Walmart tredjepartssäljare att lista artiklar som säljs av andra.
+Precis som andra marknadsplatser [!DNL Walmart] gör det möjligt för tredjepartsförsäljare att lista artiklar som säljs av andra.
 
-Plattformen använder produktidentifierare som UPC och GTIN för att matcha artiklar som redan är till salu.
-För matchade produkter uppdateras den befintliga Walmart Marketplace-listan så att den omfattar erbjudandet om Commerce-produkt.
+Plattformen använder produktidentifierare som UPC och GTIN för att matcha befintliga [!DNL Walmart Marketplace] listor.
+För matchade produkter uppdateras Walmart Marketplace-listan med produkterbjudandet för Commerce när du publicerar en produkt från [!DNL Channel Manager].
 
-Vanligtvis visas produkter med de lägsta priserna i resultatet först, men andra faktorer som recensioner påverkar också placeringen.
+Oftast visas erbjudanden med de lägsta priserna först i [!DNL Walmart Marketplace] men andra faktorer som granskningar påverkar också placeringen.
 
 ## Matcha produkter
 
-När du matchar produkter skickar Channel Manager produktdata till Walmart Marketplace för att söka efter befintliga listor med attributvärden som matchar det mappade Commerce-produktattributet. Matchningskriterierna bestäms av [konfiguration för attributmappning](map-product-attributes-for-matching.md) för er butikskanal.
+När du matchar produkter skickar Channel Manager produktdata till [!DNL Walmart Marketplace] om du vill söka efter befintliga listor med attributvärden som matchar det mappade Commerce-produktattributet. Matchningskriterierna bestäms av [konfiguration för attributmappning](map-product-attributes-for-matching.md) för er butikskanal.
 
 Om en matchning hittas uppdateras den befintliga produktlistan så att ditt erbjudande läggs till.
 

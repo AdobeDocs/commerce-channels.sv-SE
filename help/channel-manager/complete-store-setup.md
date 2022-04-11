@@ -1,17 +1,17 @@
 ---
-title: Slutför kanalinställning
+title: Komplett kanalinställning
 description: Navigera till en ansluten försäljningskanal för att hantera produktlistor, lager- och prisuppdateringar samt spåra order
-source-git-commit: 193eadda9b93d656bf799f9fb66a4cc3d6a40405
+exl-id: 12127e3b-55c1-4db6-98b2-6dc8bdaae139
+source-git-commit: e6368d30e16ccffcb1dfc64bdd56561116934b54
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '105'
 ht-degree: 0%
 
 ---
 
+# Komplett kanalinställning
 
-# Slutför butiksinställning
-
-När du har anslutit en Commerce Store till [!DNL Walmart Marketplace]kan du slutföra butiksinställningarna från [!DNL Channel Manager Stores] vy.
+När du har anslutit en Commerce Store till [!DNL Walmart Marketplace], fullständig butikskonfiguration från [!DNL Channel Manager Stores] vy.
 
 1. Välj **[!UICONTROL Marketing** > **Kanalhanteraren**].
 
@@ -28,4 +28,3 @@ När du har anslutit en Commerce Store till [!DNL Walmart Marketplace]kan du slu
    - [Läs om hur Channel Manager synkroniserar lager- och prisuppdateringar mellan Commerce och Walmart](inventory-and-price-updates.md)
 
    - Visa och hantera Walmart-order från Commerce Admin
-

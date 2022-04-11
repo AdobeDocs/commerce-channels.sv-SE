@@ -2,14 +2,15 @@
 title: Installera [!DNL Channel Manager]
 description: Installera Channel Manager-tillägget.
 exl-id: cb593ebd-f077-4a79-a661-bedf4cc70f97
-source-git-commit: 50c5a3b5987f0e5227d9c4f4999caab8bf6b3fd8
+source-git-commit: 1b018a23fdeebc52539b67adb8f2cd3bb00904ff
 workflow-type: tm+mt
-source-wordcount: '701'
+source-wordcount: '705'
 ht-degree: 0%
 
 ---
 
-# Installera Channel Manager
+
+# Installera [!DNL Channel Manager]
 
 Granska [krav](onboard.md#prerequisites) och samla in nödvändig information innan du installerar Channel Manager.
 
@@ -42,7 +43,7 @@ Båda metoderna kräver att du använder kommandoradsgränssnittet (CLI).
 
 ### Installera på en lokal instans
 
-Följ de här instruktionerna för att installera på Adobe Commerce- och Magento Open Source-plattformar.
+Följ dessa anvisningar för att installera [!DNL Channel Manager] på Adobe Commerce och Magento Open Source till en lokal instans.
 
 1. Logga in på [!DNL Commerce] server som [användare med behörigheter](https://devdocs.magento.com/guides/v2.4/install-gde/prereq/file-system-perms.html){target=&quot;_blank&quot;} för att skriva till [!DNL Commerce] filsystem.
 
@@ -126,7 +127,7 @@ Arbeta i en utvecklingsgren när du lägger till ett tillägg i din molninstans.
 
 Hjälp om hur du använder grenar finns i [Kom igång med att skapa grenar](https://devdocs.magento.com/cloud/env/environments-start.html#getstarted){target=&quot;_blank&quot;} i dokumentationen för Adobe Commerce-utvecklare.
 
-Under installationen visas tilläggets namn (`&lt;VendorName>\_&lt;ComponentName>`) infogas automatiskt i [app/etc/config.php](https://devdocs-beta.magento.com/guides/v2.3/config-guide/config/config-php.html){target=&quot;_blank&quot;}. Du behöver inte redigera filen direkt.
+Under installationen visas tilläggets namn (`magento\channel-manager`) infogas automatiskt i [app/etc/config.php](https://devdocs.magento.com/cloud/live/sens-data-over.html#configuration-data){target=&quot;_blank&quot;}. Du behöver inte redigera filen direkt.
 
 1. Byt till rotkatalogen för projektet i molnet på din lokala arbetsstation.
 
@@ -158,7 +159,7 @@ Under installationen visas tilläggets namn (`&lt;VendorName>\_&lt;ComponentName
    $ git push origin <branch-name>
    ```
 
-1. När bygget och distributionen är klar använder du SSH för att logga in på fjärrmiljön och verifiera att tillägget har installerats korrekt.
+1. När bygg- och distributionsprocessen har slutförts använder du SSH för att logga in på fjärrmiljön och verifiera att tillägget har installerats korrekt.
 
    ```bash
    $ bin/magento module:status channel-manager
@@ -170,7 +171,7 @@ Under installationen visas tilläggets namn (`&lt;VendorName>\_&lt;ComponentName
    Module is enabled
    ```
 
-1. När installationen har slutförts loggar du in på [!UICONTROL Admin] till [konfigurera Commerce Services Connector](connect.md).
+1. När du har installerat tillägget loggar du in på [!UICONTROL Admin] till [konfigurera Commerce Services Connector](connect.md).
 
    >[!NOTE]
    >

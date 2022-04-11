@@ -1,9 +1,10 @@
 ---
 title: Konfigurera produktmatchning
 description: Mappa attribut för matchning av Commerce-produkter med befintliga Walmart Marketplace-listor
-source-git-commit: 2a9bd2f8f91e672786c36f5e132f99bcab59dd00
+exl-id: 98c8d3f6-f129-43c6-920c-d9c36b0e4a40
+source-git-commit: e6368d30e16ccffcb1dfc64bdd56561116934b54
 workflow-type: tm+mt
-source-wordcount: '306'
+source-wordcount: '304'
 ht-degree: 0%
 
 ---
@@ -28,7 +29,7 @@ Om du har en annan typ av produkt-ID-attribut i katalogen konverterar du den til
 
 ## Konfigurera inställningar för produktattribut
 
-1. På produktlistsidan för den anslutna försäljningskanalen väljer du en eller flera produkter i *Utkast* status.
+1. På [!UICONTROL Listings] sidan för den anslutna försäljningskanalen, välj en eller flera produkter i *Utkast* status.
 
 1. Välj **[!UICONTROL Settings]**.
 
