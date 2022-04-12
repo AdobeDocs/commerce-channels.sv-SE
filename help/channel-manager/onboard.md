@@ -4,9 +4,9 @@ description: Anslut instansen till [!DNL Channel Manager] genom att utföra någ
 role: User
 level: Intermediate
 exl-id: 7c4ccd9e-ae32-4511-8d1e-baa690604612
-source-git-commit: 41a6afec60edbb23492627bd8e80632d3c952caf
+source-git-commit: e0b7f971f8eb4bc0827a7792ef94d88766adf82e
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '499'
 ht-degree: 0%
 
 ---
@@ -58,6 +58,9 @@ När du är klar med introduktionen konfigurerar och hanterar du säljkanalsåtg
 - **Behörighet att hämta Channel Manager Composer-paketet**-Ange betakoordinatorn för Adobe Channel med MAGE-ID:t för [!DNL Commerce] konto som används för att hantera tjänsten för din organisation.
 - **Upplevelse med Composer och[!DNL Commerce CLI]** -See [Allmän CLI-installation](https://devdocs.magento.com/extensions/install/){target=&quot;_blank&quot;} om du vill ha information om hur du använder verktygen för att installera och hantera tillägg på [!DNL Adobe Commerce] eller [!DNL Magento Open Source] -plattformar.
 - [[!DNL Amazon Sales Channel] version 4.4.2 eller senare](https://experienceleague.adobe.com/docs/commerce-channels/amazon/release-notes.html)-Om du har aktiverat [!DNL Amazon Sales Channel] för [!DNL Commerce] webbplatser, verifiera att [!DNL Commerce] har version 4.42 installerad innan du installerar [!DNL Channel Manager].
+- [!DNL Inventory Management] tillägg för Adobe Commerce och Magento Open Source
+
+   Om du tänker använda Channel Manager för inventerings- och orderhantering måste du ha Inventory management-tillägget installerat och aktiverat på din Adobe Commerce- och Magento Open Source-instans. Det här tillägget installeras och aktiveras som standard i Adobe Commerce och Magento Open Source 2.3.x och senare. Mer information finns i [Installera Inventory management](https://devdocs.magento.com/extensions/inventory-management/) i Adobe Commerce Developer-dokumentationen.
 
 ### Krav
 
@@ -66,7 +69,6 @@ När du är klar med introduktionen konfigurerar och hanterar du säljkanalsåtg
 - [Composer 1.x eller senare](https://devdocs.magento.com/cloud/reference/cloud-composer.html)
 - [[!DNL Amazon Sales Channel] version 4.4.2 eller senare](https://experienceleague.adobe.com/docs/commerce-channels/amazon/release-notes.html)-Om du har aktiverat [!DNL Amazon Sales Channel] för [!DNL Commerce] webbplatser, verifiera att [!DNL Commerce] har version 4.42 installerad innan du installerar [!DNL Channel Manager].
 - [!DNL Inventory Management]
-
 
 ### Plattformar som stöds
 

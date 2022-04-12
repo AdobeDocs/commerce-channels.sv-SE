@@ -1,13 +1,13 @@
 ---
 title: Hantera Walmart Marketplace-beställningar
 description: Visa och hantera [!DNL Walmart Marketplace] order med [!DNL Channel Manager] för Adobe Commerce och Magento Open Source.
-source-git-commit: c6c204fa5f72a68c814f48163cb037f558a41de4
+exl-id: c2779c72-4793-445c-858a-867ea8389662
+source-git-commit: 70f8b5487cf1c6507ce8e3cbaec91f4fc883d683
 workflow-type: tm+mt
-source-wordcount: '614'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
-
 
 # Hantera Walmart Marketplace-beställningar
 
@@ -44,8 +44,8 @@ I följande tabeller beskrivs de kontroller och kolumner som är tillgängliga f
 
 **Kolumnbeskrivningar**
 
-| **Fält** | **Beskrivning** |
-|------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Fält | Beskrivning |
+|------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL  Walmart Order Number] | Inköpsordernummer som tilldelats ordern i [!DNL Walmart Marketplace]. När en order importeras till [!DNL Channel Manager]visas bara Walmart-ordernumret. När [!DNL Commerce] order skapas, [!DNL Walmart] ordernumret lagras i [!UICONTROL External ID] produktattribut. |
 | [!DNL Commerce]  Ordernummer | Numret som tilldelats [!DNL Commerce]  order som skapats från [!DNL Walmart Marketplace] beställa. |
 | Objekt | Antal beställda artiklar [!DNL Walmart Marketplace]. |
@@ -70,10 +70,10 @@ I följande tabeller beskrivs de kontroller och kolumner som är tillgängliga f
 
    När ordern har annullerats [!DNL Commerce] Uppdateringar av lagerkvantitet för att spegla returnerade artiklar. Sedan [!DNL Channel Manager] synkroniserar uppdateringen till [!DNL Walmart Marketplace].
 
-   * **[!UICONTROL Refunded]**-Beställningar som har återbetalats från [!DNL Commerce] butik.
+* **[!UICONTROL Refunded]**-Beställningar som har återbetalats från [!DNL Commerce] butik.
+
    När återbetalningen är klar [!DNL Commerce] Uppdateringar av lagerkvantitet för att spegla återförda artiklar. Sedan [!DNL Channel Manager] synkroniserar uppdateringen till [!DNL Walmart Marketplace].
 
 * **[!UICONTROL Error]**- Beställningar som inte har importerats till orderdatabasen på grund av saknad information eller andra problem.
 
    Om du vill visa felmeddelandeinformationen håller du muspekaren över *[!UICONTROL Error]* statusindikator. När du har åtgärdat felet uppdateras beställningen automatiskt så att aktuell information och aktuell status visas.
-

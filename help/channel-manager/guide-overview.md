@@ -4,7 +4,7 @@ description: Omfattande information om [!DNL Channel Manager] för Adobe Commerc
 seo-title: Adobe Commerce Channel Manager Guide
 seo-description: Describes how to use [!DNL Channel Manager] with Adobe Commerce or Magento Open Source.
 exl-id: 0703741b-77e0-47b0-917f-b25d14afa7ae
-source-git-commit: 30495c4e47f15c821206f7b0252b868b4e27d62d
+source-git-commit: 8230f2c41919a5baf1c86a8516a093934710785d
 workflow-type: tm+mt
 source-wordcount: '248'
 ht-degree: 0%
