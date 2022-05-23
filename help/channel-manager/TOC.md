@@ -3,9 +3,9 @@ user-guide-title: '"[!DNL Channel Manager] Guide"'
 user-guide-description: Öka försäljningen och utöka er kundbas genom att integrera Adobe Commerce eller Magento Open Source med era [!DNL Walmart Marketplace Seller Central] konto.
 breadcrumb-title: '"[!DNL Channel Manager Guide]"'
 hide: true
-source-git-commit: 61d72e655a9f9eaefddd7561e0bc5fe36da69577
+source-git-commit: 7349dd92c2166ff6ae83b705416993e48aa5f954
 workflow-type: tm+mt
-source-wordcount: '76'
+source-wordcount: '85'
 ht-degree: 0%
 
 ---
@@ -23,13 +23,17 @@ ht-degree: 0%
    - [Anslut till Commerce Services](connect.md)
    - [Anslut till [!DNL Walmart Marketplace]](connect-marketplace.md)
    - [Slutför kanalinställning](complete-store-setup.md)
+- Konfigurera inställningar {#configure-settings}
+   - [Översikt över inställningar](settings-overview.md)
+   - [Mappa katalogattribut](map-catalog-attributes.md)
+   - [Kartlägg transportföretag](map-shipping-carriers.md)
 - Listprodukter {#list-products}
    - [Hantera listor](manage-listings.md)
-   - [Lägg till produkter i kanalbutiken](add-products-to-connected-channel.md)
-   - [Konfigurera produktmatchning](map-product-attributes-for-matching.md)
+   - [Lägg till produkter i kanalbutiken](add-products-to-channel-store.md)
    - [Publicera listor till Walmart](publish-listings-to-marketplace.md)
 - Lager och priser {#inventory-pricing}
    - [Uppdatera lager och priser](inventory-and-price-updates.md)
-- [Hantera order]{#manage-orders}
+- Hantera order {#manage-orders}
    - [Visa och spåra beställningar](manage-orders.md)
+   - [Bearbeta order](process-orders.md)
 

@@ -2,9 +2,9 @@
 title: Hantera listor
 description: Hantera säljkanalslistor för en [!DNL Commerce] lagra med Channel Manager för Adobe Commerce och Magento Open Source.
 exl-id: 70999552-9ba7-4b10-a8ee-ee99bc4fe837
-source-git-commit: 61d72e655a9f9eaefddd7561e0bc5fe36da69577
+source-git-commit: ee103895e1035e04a4601857032caa172d493a31
 workflow-type: tm+mt
-source-wordcount: '818'
+source-wordcount: '815'
 ht-degree: 0%
 
 ---
@@ -43,15 +43,15 @@ Du kan utföra följande uppgifter i listvyn.
 
 Skapa produktsortiment för Walmart Marketplace-kanalen genom att utföra följande uppgifter:
 
-* [Lägg till produkter från din Commerce-produktkatalog i Channel Manager](add-products-to-connected-channel.md)
+* [Lägg till produkter från din Commerce-produktkatalog i Channel Manager](add-products-to-channel-store.md)
 
-* [Konfigurera produktmatchning](map-product-attributes-for-matching.md#configure-product-attribute-settings)
+* [Mappa katalogattribut](map-catalog-attributes.md#configure-product-attribute-settings)
 
 ## Publicera produkter på Walmart
 
 Du kan skapa produkterbjudanden på Walmart Marketplace med produktmatchning eller genom att överföra produktlistor manuellt för nya produkter. Instruktioner finns i [Publicera listor på Walmart Marketplace](publish-listings-to-marketplace.md) enligt följande avsnitt:
 
-* **[Matcha produkter på Walmart](publish-listings-to-marketplace.md)**-Publicera produktlistor från din kanal till [!DNL Walmart Marketplace] genom att uppdatera befintliga listor som säljer samma produkt. Matchningskriterierna bestäms av [konfiguration för attributmappning](map-product-attributes-for-matching.md) för er kanal.
+* **[Matcha produkter på Walmart](publish-listings-to-marketplace.md)**-Publicera produktlistor från din kanal till [!DNL Walmart Marketplace] genom att uppdatera befintliga listor som säljer samma produkt. Matchningskriterierna bestäms av [konfiguration för attributmappning](map-catalog-attributes.md) för er kanal.
 
 * **[Överför nya listor manuellt](publish-listings-to-marketplace.md#upload-new-product-listings)-**-För produkter som inte överensstämmer med en befintlig lista på Walmart Marketplace använder du en Walmart-produktkategorimall i Excel för att massöverföra produktlistor.
 
@@ -97,6 +97,8 @@ På arbetsytan Lista visas statusetiketten var en produkt finns i [!DNL Channel 
 
 * **[!UICONTROL Match - Match in Stage]**-Identifierar produkter som matchar [!DNL Walmart] som inte kan publiceras förrän [!DNL Walmart Marketplace] butiken är live. Produkter med den här statusen publiceras automatiskt när [!DNL Walmart Marketplace] butiken publiceras.
 
-* **[!UICONTROL Error]**-Identifierar produkter som inte matchats mot en befintlig [!DNL Walmart Marketplace] lista. Visa felinformation genom att hovra över *Fel* statusetikett.
+* **[!UICONTROL Error]**-Identifierar produkter som inte matchats mot en befintlig [!DNL Walmart Marketplace] lista.
+
+* **[!UICONTROL Error description]**-Innehåller detaljerad information om listfelet.
 
    När du har åtgärdat felet skickar du produkten igen för matchning. Se [Felsöka produktmatchningsfel](publish-listings-to-marketplace.md#troubleshoot-product-match-errors).

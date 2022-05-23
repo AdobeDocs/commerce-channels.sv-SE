@@ -4,9 +4,9 @@ description: Lär dig hur du installerar och använder [!DNL Channel Manager] at
 role: User
 level: Intermediate
 exl-id: 91265973-d2ad-4925-aa10-260d7e186f20
-source-git-commit: 61d72e655a9f9eaefddd7561e0bc5fe36da69577
+source-git-commit: ef4c1362424285d4969fe173a0790809fccff80b
 workflow-type: tm+mt
-source-wordcount: '765'
+source-wordcount: '772'
 ht-degree: 0%
 
 ---
@@ -17,6 +17,8 @@ ht-degree: 0%
 [!DNL Channel Manager] hjälper dig att öka försäljningen och nå nya kunder genom att integrera din Adobe Commerce- eller Magento Open Source-produktkatalog med [!DNL Walmart US Marketplace].
 
 ![[!DNL Channel Manager] tilläggsadministratörsvy](assets/channel-manager-home.png)
+
+Channel Manager stöder Adobe Commerce- och Magento Open Source-säljare som vill sälja på Walmart Marketplace.
 
 När du har installerat och konfigurerat [!DNL Channel Manager], [!DNL Commerce] Administratören har utökats så att du kan hantera [!DNL Walmart Marketplace] säljåtgärder sömlöst från din handelsmiljö.
 
@@ -32,8 +34,6 @@ När du har installerat och konfigurerat [!DNL Channel Manager], [!DNL Commerce]
 
 * **Annulleringar**-När beställningar annulleras i Adobe Commerce skickar Channel Manager uppdaterad orderinformation till marknadsplatsen för att replikera åtgärden för motsvarande marknadsplatsorder.
 
-[!DNL Channel Manager] stöder Adobe Commerce eller Magento Open Source som vill sälja vidare [!DNL Walmart Marketplace].
-
 ## Förväntad fördröjning för kanalhanteraråtgärder
 
 Datasynkroniseringsprocesserna mellan [!DNL Channel Manager] och en länkad [!DNL Walmart Marketplace] butiken behöver lite tid för att slutföra. Granska den förväntade bearbetningstiden för [!DNL Channel Manager] åtgärder för att planera säljkanalsåtgärder.
@@ -41,13 +41,13 @@ Datasynkroniseringsprocesserna mellan [!DNL Channel Manager] och en länkad [!DN
 **Beräknad fördröjning för kanalhanteraråtgärder**
 
 | **Åtgärd** | **Beskrivning** | **Förväntad fördröjning** |
-|--------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------|
-| Lägg till produkter i Channel Manager | Välj produkter i Commerce-produktkatalogen och importera dem till Channel Manager. | **Upp till 5 minuter**-Om du väljer många produkter, till exempel en hel produktkatalog, tar importen längre tid. |
+|--------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------|
+| Lägg till produkter i Channel Manager | Välj produkter i Commerce-produktkatalogen och importera dem till Channel Manager. | **Upp till fem minuter**-Om du väljer många produkter, till exempel en hel produktkatalog, tar importen längre tid. |
 | Matcha produkter på Walmart Marketplace | Välj produktlistor i Channel Manager och skicka till Walmart för matchning. | **Upp till 30 minuter**-Om du väljer många produkter tar matchningsprocessen längre tid beroende på vald kvantitet. |
 | Lageruppdateringar | När lagerkvantiteten ändras i Commerce [!DNL Channel Manager] synkroniserar uppdateringen till Walmart. | **Upp till 10 minuter** |
-| Prisuppdateringar | När ett produktpris ändras synkroniserar Channel Manager uppdateringen till Walmart. | **Upp till 5 minuter** |
+| Prisuppdateringar | När ett produktpris ändras synkroniserar Channel Manager uppdateringen till Walmart. | **Upp till fem minuter** |
 | Beställa synkroniseringar från Walmart till Commerce | Kunden beställer en Commerce-produkt på Walmart Marketplace. Walmart skickar beställningen till kanalhanteraren. Ordningen visas på orderkontrollpanelen. | **Upp till 30 minuter** |
-| Ordern har skapats i Hantering av handelsorder | Kanalhanteraren skapar handelsordern från Walmart-ordern och uppdaterar orderkontrollpanelen så att den innehåller handelsordernumret. | **Upp till 5 minuter** |
+| Ordern har skapats i Hantering av handelsorder | Kanalhanteraren skapar handelsordern från Walmart-ordern och uppdaterar orderkontrollpanelen så att den innehåller handelsordernumret. | **Upp till fem minuter** |
 
 ## Krav på genomgång
 

@@ -2,9 +2,9 @@
 title: Hantera Walmart Marketplace-beställningar
 description: Visa och hantera [!DNL Walmart Marketplace] order med [!DNL Channel Manager] för Adobe Commerce och Magento Open Source.
 exl-id: c2779c72-4793-445c-858a-867ea8389662
-source-git-commit: 61d72e655a9f9eaefddd7561e0bc5fe36da69577
+source-git-commit: ec85dc2496c22cd8173c550ca35f2bd207501c19
 workflow-type: tm+mt
-source-wordcount: '614'
+source-wordcount: '682'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Det kan ta upp till 35 minuter i en [!DNL Walmart Marketplace] ordningen som visas i [!DNL Channel Manager] orderlista. [!DNL Walmart] tar ca 30 minuter att bearbeta inkommande order och skicka dem till [!DNL Channel Manager].  När Channel Manager tar emot beställningen tar det ytterligare fem minuter att skapa och visa beställningen i Adobe Commerce eller Magento Open Source.
+>Det kan ta upp till 35 minuter i en [!DNL Walmart Marketplace] ordningen som visas i [!DNL Channel Manager] orderlista. [!DNL Walmart] tar ca 30 minuter att bearbeta inkommande order och skicka dem till [!DNL Channel Manager]. När Channel Manager har tagit emot beställningen tar det ytterligare fem minuter att skapa och visa beställningen i Adobe Commerce eller Magento Open Source.
 
 ## Granska beställningar
 
@@ -26,6 +26,8 @@ ht-degree: 0%
 1. Öppna butiksvyn genom att välja pennikonen i en butikspostrad.
 
 1. Om du vill visa orderinformation väljer du *[!UICONTROL *Orders]**.
+
+1. Hämta information om beställningen och avgöra vilka steg som ska utföras genom att kontrollera **[Status](#about-order-status)** för att få information om beställningarna.
 
 ## Visa orderdetaljer
 
@@ -54,6 +56,8 @@ I följande tabeller beskrivs de kontroller och kolumner som är tillgängliga f
 | [!UICONTROL Ship By Date] | Datum då ordern måste levereras av för att uppfylla [!DNL Walmart Marketplace] krav. |
 | [!UICONTROL Order Status] | Anger aktuell orderstatus i [!DNL Commerce] orderarbetsflöde. Statusen uppdateras när du har lagt till produkter i [!DNL Channel Manager] och när du matchar produkter på [!DNL Walmart Marketplace]. Om en åtgärd misslyckas visas felstatusen i listan. När du har åtgärdat felet [!DNL Channel Manager] försöker utföra åtgärden igen och uppdaterar statusen. |
 
+| [!UICONTROL Error description]    | Ger mer detaljerad information om beställningar med en *Fel* status.|
+
 ### Om orderstatus
 
 [!UICONTROL Order Status] innehåller information om det aktuella läget för [!DNL Walmart Marketplace] beställningar som hanteras från Adobe Commerce eller Magento Open Source. Uppdateringar av orderstatus när [!DNL Channel Manager] får uppdaterad orderinformation från antingen [!DNL Walmart Marketplace] eller [!DNL Commerce] ordersystem. Order kan ha följande status:
@@ -74,6 +78,6 @@ I följande tabeller beskrivs de kontroller och kolumner som är tillgängliga f
 
    När återbetalningen är klar [!DNL Commerce] Uppdateringar av lagerkvantitet för att spegla återförda artiklar. Sedan [!DNL Channel Manager] synkroniserar uppdateringen till [!DNL Walmart Marketplace].
 
-* **[!UICONTROL Error]**- Beställningar som inte har importerats till orderdatabasen på grund av saknad information eller andra problem.
+* **[!UICONTROL Error]**- Beställningar som innehåller fel. Fel kan uppstå när en orderuppdateringsåtgärd misslyckas. Exempel: fel uppstår om [!DNL Channel Manager] kan inte ta emot en ny beställning från Walmart. De kan också inträffa om [!DNL Channel Manager] kan inte skicka en orderleverans eller en annulleringsuppdatering till [!DNL Walmart Marketplace].
 
-   Om du vill visa felmeddelandeinformationen håller du muspekaren över *[!UICONTROL Error]* statusindikator. När du har åtgärdat felet uppdateras beställningen automatiskt så att aktuell information och aktuell status visas.
+* **[!UICONTROL Error description]**-Innehåller detaljerad information om orderfel som inträffar på grund av t.ex. saknad information eller ogiltiga värden, felaktig leveransinformation eller misslyckad orderannullering. Beskrivningen hjälper till att avgöra om fel uppstod i [!DNL Commerce] eller på [!DNL Walmart Marketplace].

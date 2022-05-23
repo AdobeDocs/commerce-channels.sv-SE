@@ -2,9 +2,9 @@
 title: Publicera listor till Walmart
 description: Publicera listor för Commerce-produkter på Walmart Marketplace för att börja sälja.
 exl-id: 78078b14-ebdd-415d-9486-66b0150167aa
-source-git-commit: 61d72e655a9f9eaefddd7561e0bc5fe36da69577
+source-git-commit: dfe56db25bb569ad70fb1036d539797bbb126dd5
 workflow-type: tm+mt
-source-wordcount: '1156'
+source-wordcount: '1138'
 ht-degree: 0%
 
 ---
@@ -20,13 +20,13 @@ Oftast visas erbjudanden med de lägsta priserna först i [!DNL Walmart Marketpl
 
 ## Matcha produkter
 
-När du matchar produkter skickar Channel Manager produktdata till [!DNL Walmart Marketplace] om du vill söka efter befintliga listor med attributvärden som matchar det mappade Commerce-produktattributet. Matchningskriterierna bestäms av [konfiguration för attributmappning](map-product-attributes-for-matching.md) för er butikskanal.
+När du matchar produkter skickar Channel Manager produktdata till [!DNL Walmart Marketplace] om du vill söka efter befintliga listor med attributvärden som matchar det mappade Commerce-produktattributet. Matchningskriterierna bestäms av [konfiguration för attributmappning](map-catalog-attributes.md) för er butikskanal.
 
 Om en matchning hittas uppdateras den befintliga produktlistan så att ditt erbjudande läggs till.
 
 ### Förutsättningar
 
-Innan du matchar produkter bör du kontrollera att produktkatalogattributvärdena uppfyller Walmart-kraven och konfigurera attributinställningarna. Se [Konfigurera produktmatchning](map-product-attributes-for-matching.md).
+Innan du matchar produkter bör du kontrollera att produktkatalogattributvärdena uppfyller Walmart-kraven och konfigurera attributinställningarna. Se [Mappa katalogattribut](map-catalog-attributes.md).
 
 #### Välj och matcha produkter
 
@@ -54,15 +54,15 @@ När matchningen är klar kan statusen vara *Matcha* eller *Fel*.
 
 * **[!UICONTROL Match]** anger att produkten matchades. Ditt produkterbjudande publicerades i en befintlig Walmart Marketplace-lista. Om [Marketplace-butiken är inte aktiv](walmart-prerequisites.md#walmart-marketplace-store-status), *[!UICONTROL Staged for Match]* visas i *[!UICONTROL Status detail]* kolumn.
 
-Om [[!DNL Walmart Marketplace] butiken är inte aktiv](walmart-prerequisites.md#walmart-marketplace-store-status), *Statusinformation* kolumn anger att produkten är *Mellanlagrad för matchning*. Mellanlagrade produkter publiceras automatiskt så snart [!DNL Walmart Marketplace] butiken är aktiverad.
+Om [[!DNL Walmart Marketplace] butiken är inte aktiv](walmart-prerequisites.md#walmart-marketplace-store-status), *Statusinformation* kolumn anger att produkten är *Mellanlagrad för matchning*. Mellanlagrade produkter publiceras automatiskt när [!DNL Walmart Marketplace] butiken är aktiverad.
 
-* **[!UICONTROL Error]** anger något av följande:
+* **[!UICONTROL Error]** anger att matchningen misslyckades på grund av något av följande problem:
 
-   * Ett fel uppstod och matchningsåtgärden misslyckades.
+   * [!DNL Channel Manager] kunde inte skicka för matchning på grund av ett anslutningsproblem.
 
    * Ingen matchning hittades.
 
-   * Matchningen hittades, men det går inte att publicera listan på grund av ett fel som returnerats från Walmart Marketplace.  antingen saknar ett attribut eller publiceras som mellanlagrad eftersom [Marketplace-butiken är inte aktiv](walmart-prerequisites.md#walmart-marketplace-store-status).
+   * Matchning hittades, men det går inte att publicera listan eftersom [!DNL Walmart Marketplace] returnerade en felkod. Se *Statusinformation** för felbeskrivningen.
 
 ### Kontrollera lista vid Walmart
 
@@ -116,7 +116,7 @@ Om du vill se nya produktlistor kontrollerar du i produktkatalogen att de produk
 
 ### Förutsättningar
 
-* Verifiera att du uppfyller [Krav på genomgång](https://docs.google.com/document/d/1bEbCyVLXJQQsbZvEwetJvZKWQJOKoiw5Ia1uB4Bs4uo/edit#heading=h.k2lo9voad1gx).
+* Verifiera att du uppfyller [Krav på genomgång](walmart-prerequisites.md).
 
 * Kontrollera att katalogkonfigurationen för de produkter som ska listas på Walmart Marketplace har alla nödvändiga attribut i din Commerce-produktkatalog och uppfyller riktlinjerna för innehåll på Walmart Marketplace.
 
