@@ -1,16 +1,16 @@
 ---
-title: Lägg till produkter i en ansluten kanal
-description: Skapa produktsortiment för Marketplace-försäljning genom att lägga till produkter från katalogen i försäljningskanalen
+title: Lägg till produkter i säljkanalsbutiken
+description: Skapa produktsortiment för [!DNL Walmart Marketplace] försäljning genom att lägga till produkter från katalogen i försäljningskanalen
 exl-id: 00932df7-bdc7-42a1-b269-88dffcc918bc
-source-git-commit: e6368d30e16ccffcb1dfc64bdd56561116934b54
+source-git-commit: 76aa7451c9df83fbb7ea808fc14ef2d306235da2
 workflow-type: tm+mt
-source-wordcount: '253'
+source-wordcount: '252'
 ht-degree: 0%
 
 ---
 
 
-# Lägg till produkter i en ansluten kanal
+# Lägg till produkter i säljkanalsbutiken
 
 Om du vill synkronisera produkter till säljkanalen på Walmart Marketplace väljer du produkter på menyn [!DNL Commerce] produktkatalog och importera dem till Channel Manager. De valda produkterna måste ha följande attributkonfiguration:
 
@@ -20,17 +20,17 @@ Om du vill synkronisera produkter till säljkanalen på Walmart Marketplace väl
 
 Processen att importera produkter från [!DNL Commerce] för Channel Manager kan ta upp till 30 minuter eller mer beroende på hur många produkter du väljer.
 
-## Lägg till produkter i försäljningskanalen
+## Lägg till produkter
 
 1. Välj **Lägg till produkter** för att öppna produktkatalogen.
 
-   ![Lägg till produkter i en ansluten kanal](assets/add-initial-products-to-connected-channel.png)
+   ![Lägg till produkter i säljkanalsbutiken](assets/add-initial-products-to-connected-channel.png)
 
    Katalogen öppnas på en ny flik.
 
 1. Välj produkter att sälja på i katalogproduktrutnätet [!DNL Walmart Marketplace].
 
-   ![Skicka produkter till den anslutna kanalen](assets/select-products-from-catalog.png)
+   ![Skicka produkter till säljkanalsbutiken](assets/select-products-from-catalog.png)
 
 1. Aktivera **[!UICONTROL Publish to Channel Manager]** för de markerade objekten.
 
@@ -42,19 +42,17 @@ Processen att importera produkter från [!DNL Commerce] för Channel Manager kan
 
    - Välj **[!UICONTROL Save]**.
 
-   Ett bekräftelsemeddelande visas.
+      Ett bekräftelsemeddelande visas.
 
-   ![Produktimport från katalog till bekräftelsemeddelande för försäljningskanal](assets/product-import-from-catalog-confirmation.png)
+      ![Produktimport från katalog till bekräftelsemeddelande för försäljningskanal](assets/product-import-from-catalog-confirmation.png)
 
-   Om meddelandet anger att uppdateringen är schemalagd använder du [kö:consumers:start](https://devdocs.magento.com/guides/v2.4/config-guide/cli/config-cli-subcommands-queue.html) [!DNL CLI] om du vill bearbeta uppdateringen direkt.
+      Om meddelandet anger att uppdateringen är schemalagd använder du [kö:consumers:start](https://devdocs.magento.com/guides/v2.4/config-guide/cli/config-cli-subcommands-queue.html) [!DNL CLI] om du vill bearbeta uppdateringen direkt.
 
-   ```bash
-   $ bin/magento queue:consumers:start product_action_attribute.update
-   ```
+      ```bash
+      $ bin/magento queue:consumers:start product_action_attribute.update
+      ```
 
-1. Återgå till den anslutna försäljningskanalen i [!DNL Channel Manager].
-
-1. Visa produkter från **[!UICONTROL Listings]**.
+1. När importen är klar kontrollerar du de produkter som lagts till genom att gå tillbaka till [!DNL Channel Manager] och markera **[!UICONTROL Listings]**.
 
    ![Produkter som importerats till en ansluten försäljningskanal](assets/products-in-marketplace-sales-channel.png)
 

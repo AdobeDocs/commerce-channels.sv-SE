@@ -4,9 +4,9 @@ description: Lär dig hur du installerar och använder [!DNL Channel Manager] at
 role: User
 level: Intermediate
 exl-id: 91265973-d2ad-4925-aa10-260d7e186f20
-source-git-commit: 30495c4e47f15c821206f7b0252b868b4e27d62d
+source-git-commit: 61d72e655a9f9eaefddd7561e0bc5fe36da69577
 workflow-type: tm+mt
-source-wordcount: '687'
+source-wordcount: '765'
 ht-degree: 0%
 
 ---
@@ -14,29 +14,27 @@ ht-degree: 0%
 
 # Om [!DNL Channel Manager]
 
-Channel Manager för Adobe Commerce och Magento Open Source har en smidig arbetsyta i Admin för att hantera kanalförsäljning på tredjepartsplatser som Walmart, Amazon och eBay. Öka försäljningen och utöka den till nya marknader samtidigt som ni hanterar säljkanalsåtgärder sömlöst från er Commerce Admin.
+[!DNL Channel Manager] hjälper dig att öka försäljningen och nå nya kunder genom att integrera din Adobe Commerce- eller Magento Open Source-produktkatalog med [!DNL Walmart US Marketplace].
 
-![[!DNL Channel Manager] tilläggsadministratörsvy](assets/channel-manager-admin-entry-page.png)
+![[!DNL Channel Manager] tilläggsadministratörsvy](assets/channel-manager-home.png)
 
-## Betaversion - översikt
+När du har installerat och konfigurerat [!DNL Channel Manager], [!DNL Commerce] Administratören har utökats så att du kan hantera [!DNL Walmart Marketplace] säljåtgärder sömlöst från din handelsmiljö.
 
-Betaversionen av Channel Manager stöder Adobe Commerce- och Magento Open Source-säljare som vill sälja vidare [!DNL Walmart Marketplace].
+* **Listhantering**-Publicera enkelt produktlistor genom att matcha produkter från din Commerce-katalog med befintliga Walmart Marketplace-listor.
 
-Den här versionen har stöd för följande funktioner för att hantera åtgärder för försäljningskanaler:
+* **Inventory management**-Artiklar på handlarens säljarkonto synkroniseras automatiskt och uppdateras från Commerce för att säkerställa korrekta lagernivåer.
 
-* Upprätta en API-anslutning mellan Adobe Commerce eller Magento Open Source och Walmart Marketplace
+* **Prisuppdateringar**-Behåll korrekta priser för marknadsplatslistor med automatisk prissynkronisering. När priset ändras i Adobe Commerce återspeglas ändringarna på marknaden inom 10 minuter.
 
-* Publicera produkter från Channel Manager till Walmart med produktmatchning
+* **Orderhantering**-När nya order skapas på en marknadsplats synkroniserar Channel Manager order med Adobe Commerce och skickar orderbekräftelser till marknadsplatsen för att säkerställa att lagret reserveras för varje order.
 
-* Hantera produktlistor och spåra status
+* **Leveranshantering**-När beställningar har markerats som levererade i Adobe Commerce, skickas leveransuppdateringen till [!DNL Walmart Marketplace]. Detta meddelande säkerställer att säljarna uppfyller sina SLA-krav och att kunderna får meddelanden om leveransuppdateringar för sina aktuella order.
 
-* Synkronisera lagerkvantiteter för matchade produkter från Commerce till Walmart
+* **Annulleringar**-När beställningar annulleras i Adobe Commerce skickar Channel Manager uppdaterad orderinformation till marknadsplatsen för att replikera åtgärden för motsvarande marknadsplatsorder.
 
-* Synkronisera katalogpriser för matchade produkter från Commerce till Walmart
+[!DNL Channel Manager] stöder Adobe Commerce eller Magento Open Source som vill sälja vidare [!DNL Walmart Marketplace].
 
-* Ta emot beställningar från Walmart Marketplace och se dem i [!DNL Commerce] kontrollpanel för order
-
-### Förväntad fördröjning för kanalhanteraråtgärder
+## Förväntad fördröjning för kanalhanteraråtgärder
 
 Datasynkroniseringsprocesserna mellan [!DNL Channel Manager] och en länkad [!DNL Walmart Marketplace] butiken behöver lite tid för att slutföra. Granska den förväntade bearbetningstiden för [!DNL Channel Manager] åtgärder för att planera säljkanalsåtgärder.
 

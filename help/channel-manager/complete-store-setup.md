@@ -1,30 +1,30 @@
 ---
-title: Komplett kanalinställning
+title: Slutför konfiguration av försäljningskanal
 description: Navigera till en ansluten försäljningskanal för att hantera produktlistor, lager- och prisuppdateringar samt spåra order
 exl-id: 12127e3b-55c1-4db6-98b2-6dc8bdaae139
-source-git-commit: e6368d30e16ccffcb1dfc64bdd56561116934b54
+source-git-commit: 76aa7451c9df83fbb7ea808fc14ef2d306235da2
 workflow-type: tm+mt
-source-wordcount: '105'
+source-wordcount: '100'
 ht-degree: 0%
 
 ---
 
-# Komplett kanalinställning
+# Slutför konfiguration av försäljningskanal
 
-När du har anslutit en Commerce Store till [!DNL Walmart Marketplace], fullständig butikskonfiguration från [!DNL Channel Manager Stores] vy.
+När du har anslutit en Commerce Store till [!DNL Walmart Marketplace], fullständig butikskonfiguration från [!DNL Channel Manager] hemsida.
 
 1. Välj **[!UICONTROL Marketing** > **Kanalhanteraren**].
 
-   ![[!DNL Walmart Marketplace API key] konfigurationssida](assets/connect-commerce-store-config.png)
+   ![Hantera Channel Manager-butiker](assets/channel-manager-setup-first-store.png)
 
-1. Öppna en ansluten försäljningskanal genom att välja pennikonen i en butikspostrad.
+1. Öppna butiken för säljkanaler genom att välja en ögonikon för butiken.
 
 1. Starta säljkanalsåtgärder.
 
-   - [Lägg till produkter från din Commerce Catalog i Channel Manager](add-products-to-connected-channel.md)
+   - [Lägg till produkter från [!DNL Commerce Catalog] till kanalhanteraren](add-products-to-connected-channel.md)
 
-   - [Publicera produktlistor till Walmart med produktmatchning](publish-listings-to-marketplace.md)
+   - [Publicera produktlistor till [!DNL Walmart] använda produktmatchning](publish-listings-to-marketplace.md)
 
-   - [Läs om hur Channel Manager synkroniserar lager- och prisuppdateringar mellan Commerce och Walmart](inventory-and-price-updates.md)
+   - [Lär dig mer [!DNL Channel Manager] synkroniserar lager- och prisuppdateringar mellan Commerce och Walmart](inventory-and-price-updates.md)
 
-   - Visa och hantera Walmart-order från Commerce Admin
+   - [Visa och hantera [!DNL Walmart] order från [!DNL Commerce Admin]](manage-orders.md)

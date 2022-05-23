@@ -2,14 +2,14 @@
 title: Hantera Walmart Marketplace-beställningar
 description: Visa och hantera [!DNL Walmart Marketplace] order med [!DNL Channel Manager] för Adobe Commerce och Magento Open Source.
 exl-id: c2779c72-4793-445c-858a-867ea8389662
-source-git-commit: 70f8b5487cf1c6507ce8e3cbaec91f4fc883d683
+source-git-commit: 61d72e655a9f9eaefddd7561e0bc5fe36da69577
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '614'
 ht-degree: 0%
 
 ---
 
-# Hantera Walmart Marketplace-beställningar
+# Hantera Walmart Marketplace-order
 
 [!DNL Walmart Marketplace] order för [!DNL Commerce] produktlistor synkroniseras automatiskt till [!DNL Channel Manager] efter att Walmart har bearbetat ordern. När synkroniseringen är klar kan du visa orderinformation genom att välja **[!UICONTROL Orders]** från den anslutna kanalbutiksvyn i [!DNL Channel Manager].
 
@@ -31,7 +31,7 @@ ht-degree: 0%
 
 När en beställning har tagits emot från marknadsplatsen och importerats till Adobe Commerce eller Magento Open Source använder du [!DNL Commerce] Order-ID för att visa ordern i Adobe Commerce.
 
-Från **[!UICONTROL Orders]** väljer du [!UICONTROL Commerce Order Number] för att öppna [!DNL Commerce]  orderdetaljer.
+Från **[!UICONTROL Orders]** väljer du **[!UICONTROL Commerce Order Number]** för att öppna [!DNL Commerce] orderdetaljer.
 
 ![Detaljvy för handelsorder för en Walmart Marketplace-order](assets/order-detail-with-external-order-id.png)
 

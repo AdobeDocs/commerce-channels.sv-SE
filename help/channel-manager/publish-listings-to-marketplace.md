@@ -2,9 +2,9 @@
 title: Publicera listor till Walmart
 description: Publicera listor för Commerce-produkter på Walmart Marketplace för att börja sälja.
 exl-id: 78078b14-ebdd-415d-9486-66b0150167aa
-source-git-commit: e6368d30e16ccffcb1dfc64bdd56561116934b54
+source-git-commit: 61d72e655a9f9eaefddd7561e0bc5fe36da69577
 workflow-type: tm+mt
-source-wordcount: '1113'
+source-wordcount: '1156'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ Om en matchning hittas uppdateras den befintliga produktlistan så att ditt erbj
 
 ### Förutsättningar
 
-Innan du matchar produkter bör du kontrollera att produktkatalogattributvärdena uppfyller Walmart-kraven och konfigurera attributinställningarna. Se [Konfigurera produktmatchning](map-product-attributes-for-matching.md)
+Innan du matchar produkter bör du kontrollera att produktkatalogattributvärdena uppfyller Walmart-kraven och konfigurera attributinställningarna. Se [Konfigurera produktmatchning](map-product-attributes-for-matching.md).
 
 #### Välj och matcha produkter
 
@@ -40,27 +40,29 @@ Innan du matchar produkter bör du kontrollera att produktkatalogattributvärden
 
    Ett meddelande anger antalet produkter som skickats för matchning.
 
-   ![Skicka produkter till den anslutna försäljningskanalen](assets/products-submit-for-matching.png)
+   ![Skicka produkter till den anslutna försäljningskanalen](assets/products-submitted-for-matching.png)
 
    Status för valda produkter ändras till [!UICONTROL *Bearbetar*] tills matchningsåtgärden har slutförts. Det kan ta upp till 30 minuter för Walmart Marketplace att slutföra matchningsåtgärden.
 
 ### Kontrollera matchningsstatus
 
-1. Välj **Uppdatera produkter** för att uppdatera den senaste produktstatusen.
+1. Välj **Uppdatera produkter** för att visa aktuell produktstatus.
 
 1. Kontrollera produktstatus.
 
-   När matchningen är klar kan statusen vara *Matcha* eller *Fel*.
+När matchningen är klar kan statusen vara *Matcha* eller *Fel*.
 
-   * **[!UICONTROL Match]** anger att produkten matchades. Ditt produkterbjudande publicerades i en befintlig Walmart Marketplace-lista.
+* **[!UICONTROL Match]** anger att produkten matchades. Ditt produkterbjudande publicerades i en befintlig Walmart Marketplace-lista. Om [Marketplace-butiken är inte aktiv](walmart-prerequisites.md#walmart-marketplace-store-status), *[!UICONTROL Staged for Match]* visas i *[!UICONTROL Status detail]* kolumn.
 
-   * **[!UICONTROL Error]** anger något av följande:
+Om [[!DNL Walmart Marketplace] butiken är inte aktiv](walmart-prerequisites.md#walmart-marketplace-store-status), *Statusinformation* kolumn anger att produkten är *Mellanlagrad för matchning*. Mellanlagrade produkter publiceras automatiskt så snart [!DNL Walmart Marketplace] butiken är aktiverad.
 
-      * Ett fel uppstod och matchningsåtgärden misslyckades.
+* **[!UICONTROL Error]** anger något av följande:
 
-      * Ingen matchning hittades.
+   * Ett fel uppstod och matchningsåtgärden misslyckades.
 
-      * Matchningen hittades, men produkten publicerades som mellanlagrad eftersom [Marketplace-butiken är inte aktiv](walmart-prerequisites.md#walmart-marketplace-store-status).
+   * Ingen matchning hittades.
+
+   * Matchningen hittades, men det går inte att publicera listan på grund av ett fel som returnerats från Walmart Marketplace.  antingen saknar ett attribut eller publiceras som mellanlagrad eftersom [Marketplace-butiken är inte aktiv](walmart-prerequisites.md#walmart-marketplace-store-status).
 
 ### Kontrollera lista vid Walmart
 
@@ -68,9 +70,9 @@ Granska den uppdaterade produktlistan och verifiera produktinformation, pris och
 
 ### Felsöka produktmatchningsfel
 
-Om produktmatchningen misslyckas returnerar Walmart Marketplace en felkod och i Channel Manager visas felstatusen i produktlistinformationen.
+Om en produktmatchning misslyckas med ett fel visas felmeddelandet i *[!UICONTROL Status detail]* kolumn i [!UICONTROL Channel Manager] produktlista.
 
-Visa felmeddelanden genom att hovra över **Fel** statusetikett. Vanliga fel som returneras är felaktigt formaterade produkt-ID-värden eller nödvändiga attribut saknas.
+Vanliga fel som returneras är felaktigt formaterade produkt-ID-värden eller nödvändiga attribut saknas.
 
 #### Korrigera produkt-ID-värden
 
