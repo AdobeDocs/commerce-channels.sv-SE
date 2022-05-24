@@ -2,9 +2,9 @@
 title: Hantera Walmart Marketplace-beställningar
 description: Visa och hantera [!DNL Walmart Marketplace] order med [!DNL Channel Manager] för Adobe Commerce och Magento Open Source.
 exl-id: c2779c72-4793-445c-858a-867ea8389662
-source-git-commit: ec85dc2496c22cd8173c550ca35f2bd207501c19
+source-git-commit: d5bb7d6cc43620a33a705c085918e80a1cfa1593
 workflow-type: tm+mt
-source-wordcount: '682'
+source-wordcount: '704'
 ht-degree: 0%
 
 ---
@@ -54,9 +54,10 @@ I följande tabeller beskrivs de kontroller och kolumner som är tillgängliga f
 | [!UICONTROL Order Value] | Total kostnad för beställda artiklar. |
 | [!UICONTROL Date Created] | Det datum då ordern skapades den [!DNL Walmart Marketplace]. |
 | [!UICONTROL Ship By Date] | Datum då ordern måste levereras av för att uppfylla [!DNL Walmart Marketplace] krav. |
-| [!UICONTROL Order Status] | Anger aktuell orderstatus i [!DNL Commerce] orderarbetsflöde. Statusen uppdateras när du har lagt till produkter i [!DNL Channel Manager] och när du matchar produkter på [!DNL Walmart Marketplace]. Om en åtgärd misslyckas visas felstatusen i listan. När du har åtgärdat felet [!DNL Channel Manager] försöker utföra åtgärden igen och uppdaterar statusen. |
-
-| [!UICONTROL Error description]    | Ger mer detaljerad information om beställningar med en *Fel* status.|
+| [!UICONTROL Deliver By Date] | Datum då ordern måste levereras till kunden för att kunna mötas [!DNL Walmart Marketplace] krav. |
+| [!UICONTROL Last Update At] | Tidsstämpel som anger senaste gången orderdata uppdaterades i [!DNL Channel Manager] |
+| [!UICONTROL Status] | Anger aktuell orderstatus i [!DNL Commerce] orderarbetsflöde. Statusen uppdateras när du har lagt till produkter i [!DNL Channel Manager] och när du matchar produkter på [!DNL Walmart Marketplace]. Om en åtgärd misslyckas visas felstatusen i listan. När du har åtgärdat felet [!DNL Channel Manager] försöker utföra åtgärden igen och uppdaterar statusen. |
+| [!UICONTROL Error Description] | Ger mer detaljerad information om beställningar med en *Fel* status. |
 
 ### Om orderstatus
 

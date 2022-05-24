@@ -2,9 +2,9 @@
 title: Bearbeta order
 description: Instruktioner för frakt och annullering [!DNL Walmart Marketplace] beställningar från Adobe Commerce och Magento Open Source.
 exl-id: 2fdcb348-5c02-464f-a114-16ec657bed6b
-source-git-commit: fac4bbd3985e07b919f986c877b8584da797e6fe
+source-git-commit: 6ad7a116e931408192144e4bd446fcc0055364e1
 workflow-type: tm+mt
-source-wordcount: '384'
+source-wordcount: '393'
 ht-degree: 0%
 
 ---
@@ -38,6 +38,9 @@ När du bearbetar en order i Commerce synkroniserar Channel Manager uppdateringa
    ![Detaljvy för handelsorder för en Walmart Marketplace-order](assets/order-detail-with-external-order-id.png)
 
    * Välj en fraktfirma och lägg till ett spårningsnummer genom att välja **[!UICONTROL Add tracking number]**.
+
+      ![Detaljvy för handelsorder för en Walmart Marketplace-order](assets/order-shipment-add-tracking-number.png)
+
 
    * Fyll i resten av leveransformuläret efter behov. Se [[!DNL Shipping an Order]](https://docs.magento.com/user-guide/sales/order-ship.html) för detaljerade anvisningar.
 
