@@ -4,9 +4,9 @@ description: Lär dig hur du installerar och använder [!DNL Channel Manager] at
 role: User
 level: Intermediate
 exl-id: 91265973-d2ad-4925-aa10-260d7e186f20
-source-git-commit: ef4c1362424285d4969fe173a0790809fccff80b
+source-git-commit: 9ccd205ccd4f4b3f4e6b9fed2c4d16893f4b0da8
 workflow-type: tm+mt
-source-wordcount: '772'
+source-wordcount: '475'
 ht-degree: 0%
 
 ---
@@ -49,54 +49,3 @@ Datasynkroniseringsprocesserna mellan [!DNL Channel Manager] och en länkad [!DN
 | Beställa synkroniseringar från Walmart till Commerce | Kunden beställer en Commerce-produkt på Walmart Marketplace. Walmart skickar beställningen till kanalhanteraren. Ordningen visas på orderkontrollpanelen. | **Upp till 30 minuter** |
 | Ordern har skapats i Hantering av handelsorder | Kanalhanteraren skapar handelsordern från Walmart-ordern och uppdaterar orderkontrollpanelen så att den innehåller handelsordernumret. | **Upp till fem minuter** |
 
-## Krav på genomgång
-
-Du behöver följande information från Walmart för att kunna integrera Commerce med Walmart Marketplace:
-
-* Godkännande att sälja på Walmart och inloggningsuppgifter för att logga in på det registrerade Marketplace-säljarkontot
-
-* En API-nyckel för att ansluta Adobe Commerce eller Magento Open Source till Walmart Marketplace
-
-   API-nyckeln Walmart Marketplace gör det möjligt att integrera kanalhanteraren för Adobe Commerce eller Magento Open Source och Walmart Marketplace. Konfigurera API-nyckeln i Seller Central innan du startar Channel Manager-introduktionsprocessen.
-
-### Konfigurera ett Marketplace-säljarkonto
-
-1. [Skicka in din Walmart Seller-app](https://marketplace-apply.walmart.com/apply?id=0014M00001zivMpQAI).
-2. Efter godkännande från Walmart, [konfigurera ditt Walmart Seller-konto](https://sellerhelp.walmart.com/seller/s/guide?article=000008219).
-
-### Generera en Walmart Marketplace-API-nyckel
-
-1. Gå till Walmart Marketplace för att generera en [API-nyckel för lösningsleverantörsproduktion för Adobe](https://developer.walmart.com/#preloginModal?redirectUri=https%3A%2F%2Fdeveloper.walmart.com%2Faccount%2FgenerateKey).
-
-1. Skapa nyckeln och konfigurera behörigheter:
-
-   * Välj Adobe som lösningsleverantör.
-
-   * Ange de behörigheter som visas i följande tabell. Mer information finns i [API-autentiseringsuppgifter](https://sellerhelp.walmart.com/seller/s/guide?article=000006422) i *[!DNL Walmart Marketplace]Hjälp för säljare*.
-
-   **Adobe API-nyckelkonfiguration för Walmart**
-
-   | **Behörighet** | **Inställning** |
-   |----------------|-------------|
-   | Innehåll | Fullständig åtkomst |
-   | Hämta feeds | Visa endast |
-   | Lager | Fullständig åtkomst |
-   | Objekt | Fullständig åtkomst |
-   | Sena tiden | Fullständig åtkomst |
-   | Order | Fullständig åtkomst |
-   | Pris | Fullständig åtkomst |
-   | Rapporter | Visa endast |
-   | Returnerar | Fullständig åtkomst |
-   | Regler | Fullständig åtkomst |
-   | Leverans | Fullständig åtkomst |
-
-## Status för Walmart Marketplace Store
-
-När du publicerar produkter på Walmart Marketplace beror tillgängligheten på status för dina Walmart Marketplace-butiker:
-
-* För livebutiker listas dina produkterbjudanden och är tillgängliga för försäljning när matchningen är klar.
-
-* För butiker som inte är direktsända är era erbjudanden testade och inte synliga för kunderna. När butiken publiceras skickas alla mellanlagrade listor automatiskt till den aktiva butiken.
-
-
-![[!DNL Walmart Seller Central] mellanlagrade produkter](assets/walmart-seller-central-staged.png)
