@@ -1,20 +1,20 @@
 ---
 title: Mappa katalogattribut
 description: Mappningsattribut för matchning av [DNL! Commerce]-produkter till befintlig [!DNL Walmart Marketplace] listor och synkronisera data mellan [!DNL Channel Manager] och [!DNL Walmart].
-source-git-commit: dfe56db25bb569ad70fb1036d539797bbb126dd5
+exl-id: 6678d81f-d167-460d-b656-d082d56f670c
+source-git-commit: fac4bbd3985e07b919f986c877b8584da797e6fe
 workflow-type: tm+mt
-source-wordcount: '291'
+source-wordcount: '308'
 ht-degree: 0%
 
 ---
-
 
 # Mappa katalogattribut
 
 Innan du publicerar listor från [!DNL Commerce] till [!DNL Walmart Marketplace]måste du mappa minst en unik identifierare från [!DNL Commerce] katalog till motsvarande identifierare från Walmart.
 Det här steget krävs för att matcha [!DNL Commerce] produkter till befintliga [!DNL Walmart] listor och synkronisera produktdata mellan [!DNL Commerce] och [!DNL Walmart].
 
-För produktmatchning måste Commerce-produkten ha minst ett produktattribut som matchar någon av följande produkt-ID:n (Product ID:n) som krävs av [!DNL Walmart].
+För produktmatchning måste Commerce-produkten ha minst ett produktattribut som matchar någon av följande produkt-ID:n (produkt-ID) som krävs av [!DNL Walmart].
 
 **Nödvändiga Walmart-produkt-ID:n**
 
@@ -25,7 +25,7 @@ För produktmatchning måste Commerce-produkten ha minst ett produktattribut som
 | ISSN | Internationellt standardserienummer | 8-siffrigt serienummer som används för att identifiera tidskrifter, tidningar, tidningar och tidskrifter av alla slag som levereras i alla slags medier och elektroniska | 8 siffror |
 | UPC | Universell produktkod | Standardspårningskod | 12 siffror |
 
-Om katalogen inte har något attribut som matchar någon av dessa typer [lägga till eller konvertera ett befintligt katalogattribut](https://docs.magento.com/user-guide/catalog/product-attributes.html).
+Om katalogen inte har något matchande attribut, [lägga till eller konvertera ett befintligt katalogattribut](https://docs.magento.com/user-guide/catalog/product-attributes.html).
 
 ## Mappa unika identifierare
 
@@ -37,6 +37,7 @@ Om katalogen inte har något attribut som matchar någon av dessa typer [lägga 
 
       I följande exempel mappas UPC-attributet Walmart Marketplace till UPC-attributet i produktkatalogen.
    ![Mappningsattribut för produktmatchningsvillkor](assets/products-map-attributes-for-match.png)
+   - Du kan också mappa flera attribut för att öka antalet träffar. Om du mappar fler än ett attribut väljer du ett som **Primär identifierare**. Detta
 
    - Välj **[!UICONTROL Save]**.
 

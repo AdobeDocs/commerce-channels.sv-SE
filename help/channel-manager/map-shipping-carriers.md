@@ -2,7 +2,7 @@
 title: Kartlägg transportföretag
 description: Mappningsattribut för matchning av [DNL! Commerce]-produkter till befintlig [!DNL Walmart Marketplace] listor och synkronisera data mellan [!DNL Channel Manager] och [!DNL Walmart].
 exl-id: 98c8d3f6-f129-43c6-920c-d9c36b0e4a40
-source-git-commit: e8c3fdc912b1e7ee4960a9a6ff66a2c9968f34f0
+source-git-commit: aff38e59771fb973b789450b1a7b9552a7a809ff
 workflow-type: tm+mt
 source-wordcount: '151'
 ht-degree: 0%
@@ -28,7 +28,7 @@ Utför följande uppgifter innan du mappar transportföretag:
 
 1. På [!UICONTROL Listings] sidan för säljkanalsbutiken, välj **[!UICONTROL Settings]**.
 
-1. Från *[!UICONTROL Map Attributes], välj **[!UICONTROL Shipping Carriers].
+1. Från **[!UICONTROL Map Attributes]**, markera **[!UICONTROL Shipping Carriers]**.
 
    ![Kartlägg transportföretag](assets/map-shipping-carriers.png)
 
