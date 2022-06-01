@@ -2,9 +2,9 @@
 title: Hantera listor
 description: Hantera säljkanalslistor för en [!DNL Commerce] lagra med Channel Manager för Adobe Commerce och Magento Open Source.
 exl-id: 70999552-9ba7-4b10-a8ee-ee99bc4fe837
-source-git-commit: 71ad5e3bc9ff6b909943a161472e4db7d375683f
+source-git-commit: e3b12c9ce1ad4b5be17284e98956a773d7ccca24
 workflow-type: tm+mt
-source-wordcount: '801'
+source-wordcount: '788'
 ht-degree: 0%
 
 ---
@@ -41,19 +41,19 @@ Du kan utföra följande uppgifter i listvyn.
 
 ## Lägg till handelsprodukter i kanalhanteraren
 
-Skapa produktsortiment för Walmart Marketplace-kanalen genom att utföra följande uppgifter:
+Skapa produktsortimentet för [!DNL Walmart Marketplace] genom att utföra följande uppgifter:
 
-* [Lägg till produkter från din Commerce-produktkatalog i Channel Manager](add-products-to-channel-store.md)
+* [Lägg till produkter från [!DNL Commerce] produktkatalog till [!DNL Channel Manager]](add-products-to-channel-store.md)
 
 * [Mappa katalogattribut](map-catalog-attributes.md#configure-product-attribute-settings)
 
-## Publicera produkter på Walmart
+## Publicera produkter på [!DNL Walmart]
 
-Du kan skapa produkterbjudanden på Walmart Marketplace med produktmatchning eller genom att överföra produktlistor manuellt för nya produkter.
+Du kan skapa produkterbjudanden på [!DNL Walmart Marketplace] genom att använda produktmatchning eller genom att överföra produktlistor manuellt för nya produkter.
 
 * **[Matcha produkter på Walmart](publish-listings-to-marketplace.md)**—Publicera produktlistor från din kanal till [!DNL Walmart Marketplace] genom att uppdatera befintliga listor som säljer samma produkt. Matchningskriterierna bestäms av [konfiguration för attributmappning](map-catalog-attributes.md) för er kanal.
 
-* **[Överför nya listor manuellt](publish-listings-to-marketplace.md#upload-new-product-listings)**- För produkter som inte matchar en befintlig lista på Walmart Marketplace använder du en produktkategorimall i Walmart för att gruppera produktlistor.
+* **[Överför nya listor manuellt](publish-listings-to-marketplace.md#upload-new-product-listings)**—För produkter som inte matchar en befintlig lista på [!DNL Walmart Marketplace], använder [!DNL Walmart] produktkategorimall för att ladda upp produktlistor gruppvis.
 
 ## Listkontroller och kolumnbeskrivningar
 
@@ -64,7 +64,7 @@ I följande tabeller beskrivs de kontroller och kolumner som är tillgängliga f
 | **Kontroll** | **Beskrivning** |
 |----------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Add Products] | Öppnar [!UICONTROL Admin Product Catalog] sida för att välja produkter att lägga till [!DNL Walmart Marketplace] eller för att uppdatera produktattribut så att de uppfyller Walmart Marketplace-listkraven. |
-| [!UICONTROL Match products on Walmart] | När du har valt en eller flera produkter i utkaststatus väljer du Matcha produkter i Walmart för att kontrollera om det finns produkterbjudanden som kan läggas till i en befintlig [!DNL Walmart Marketplace] lista. |
+| [!UICONTROL Match products on Walmart] | När du har valt en eller flera produkter i utkaststatus väljer du Matcha produkter på [!DNL Walmart] för att söka efter produkterbjudanden som kan läggas till i en befintlig [!DNL Walmart Marketplace] lista. |
 | [!UICONTROL Refresh products] | Uppdatera visningen med den senaste listan och statusen. Den här kontrollen återställer även listvyn till standardsorteringsordningen och tar bort eventuella filter. |
 | [!UICONTROL Filter by *Status*] | Visa bara listor med en viss status genom att markera ett av statuskorten ovanför tabellen Lista. Använd *Uppdatera produkter* för att ta bort filtret. |
 | [!UICONTROL Sort products] | Ändra sorteringsordningen för listning genom att välja en kolumnrubrik. |
@@ -91,7 +91,7 @@ På arbetsytan Lista visas statusetiketten var en produkt finns i [!DNL Channel 
 
 * **[!UICONTROL Match]**-Identifierar produkter som matchades korrekt [!DNL Walmart].
 
-   En matchning inträffar när produktattributvärdet - till exempel UPC-koden - matchar UPC-värdet i ett befintligt[!DNL Walmart Marketplace] lista. När en produkt matchar läggs erbjudandet om Commerce-produkt till i den befintliga Walmart-listan.
+   En matchning inträffar när produktattributvärdet - till exempel UPC-koden - matchar UPC-värdet i ett befintligt[!DNL Walmart Marketplace] lista. När en produkt matchar läggs erbjudandet om Commerce-produkt till i den befintliga [!DNL Walmart] lista.
 
    Kontrollera [[!UICONTROL Walmart Marketplace Seller Account Items]](https://seller.walmart.com/items-and-inventory/manage-items) kontrollpanel för att granska den uppdaterade produktlistan och verifiera produktinformation, pris och lagerkvantitet.
 

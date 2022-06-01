@@ -2,9 +2,9 @@
 title: Lägg till produkter i säljkanalsbutiken
 description: Skapa produktsortiment för [!DNL Walmart Marketplace] försäljning genom att lägga till produkter från katalogen i försäljningskanalen
 exl-id: 00932df7-bdc7-42a1-b269-88dffcc918bc
-source-git-commit: ee103895e1035e04a4601857032caa172d493a31
+source-git-commit: e3b12c9ce1ad4b5be17284e98956a773d7ccca24
 workflow-type: tm+mt
-source-wordcount: '254'
+source-wordcount: '247'
 ht-degree: 0%
 
 ---
@@ -12,11 +12,11 @@ ht-degree: 0%
 
 # Lägg till produkter i säljkanalsbutiken
 
-Om du vill synkronisera produkter till säljkanalen på Walmart Marketplace väljer du produkter på menyn [!DNL Commerce] produktkatalog och importera dem till Channel Manager. De valda produkterna måste ha följande attributkonfiguration:
+Synkronisera produkter till [!DNL Walmart Marketplace] säljkanal, du väljer produkter i [!DNL Commerce] produktkatalog och importera dem till Channel Manager. De valda produkterna måste ha följande attributkonfiguration:
 
 - **[!UICONTROL Publish to Channel Manager]** attribut är aktiverat
 
-- Minst ett produktattribut måste matcha ett av [obligatoriska Walmart Marketplace-attribut](map-catalog-attributes.md)-GTIN, ISBN, ISSN, UPC, EAN
+- Minst ett produktattribut måste matcha ett av [obligatoriskt [!DNL Walmart Marketplace] attributes](map-catalog-attributes.md)-GTIN, ISBN, ISSN, UPC, EAN
 
 Processen att importera produkter från [!DNL Commerce] för Channel Manager kan ta upp till 30 minuter eller mer beroende på hur många produkter du väljer.
 
@@ -38,7 +38,7 @@ Processen att importera produkter från [!DNL Commerce] för Channel Manager kan
 
    - Bläddra till **[!UICONTROL Publish to Channel Manager]** och aktivera det.
 
-   - Kontrollera att produktattributen innehåller minst ett av de produktbeskrivningar som krävs.
+   - Kontrollera att produktattributen innehåller minst ett av de obligatoriska [!DNL Walmart Product IDs].
 
    - Välj **[!UICONTROL Save]**.
 

@@ -2,9 +2,9 @@
 title: Slutför konfiguration av försäljningskanal
 description: Navigera till en ansluten försäljningskanal för att hantera produktlistor, lager- och prisuppdateringar samt spåra order
 exl-id: 12127e3b-55c1-4db6-98b2-6dc8bdaae139
-source-git-commit: ee103895e1035e04a4601857032caa172d493a31
+source-git-commit: 20ba244a656a13bad1637d27980331cdbd88bb69
 workflow-type: tm+mt
-source-wordcount: '100'
+source-wordcount: '98'
 ht-degree: 0%
 
 ---
@@ -25,6 +25,6 @@ När du har anslutit en Commerce Store till [!DNL Walmart Marketplace], fullstä
 
    - [Publicera produktlistor till [!DNL Walmart] använda produktmatchning](publish-listings-to-marketplace.md)
 
-   - [Lär dig mer [!DNL Channel Manager] synkroniserar lager- och prisuppdateringar mellan Commerce och Walmart](inventory-and-price-updates.md)
+   - [Lär dig mer [!DNL Channel Manager] synkroniserar lager- och prisuppdateringar mellan [!DNL Commerce] och [!DNL Walmart]](inventory-and-price-updates.md)
 
    - [Visa och hantera [!DNL Walmart] order från [!DNL Commerce Admin]](manage-orders.md)

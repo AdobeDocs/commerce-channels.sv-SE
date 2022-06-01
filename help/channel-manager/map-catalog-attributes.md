@@ -2,9 +2,9 @@
 title: Mappa katalogattribut
 description: Mappningsattribut för matchning av [DNL! Commerce]-produkter till befintlig [!DNL Walmart Marketplace] listor och synkronisera data mellan [!DNL Channel Manager] och [!DNL Walmart].
 exl-id: 6678d81f-d167-460d-b656-d082d56f670c
-source-git-commit: fac4bbd3985e07b919f986c877b8584da797e6fe
+source-git-commit: f1c37111df2f566b9673946bb9b2b282506f990c
 workflow-type: tm+mt
-source-wordcount: '308'
+source-wordcount: '301'
 ht-degree: 0%
 
 ---
@@ -14,9 +14,9 @@ ht-degree: 0%
 Innan du publicerar listor från [!DNL Commerce] till [!DNL Walmart Marketplace]måste du mappa minst en unik identifierare från [!DNL Commerce] katalog till motsvarande identifierare från Walmart.
 Det här steget krävs för att matcha [!DNL Commerce] produkter till befintliga [!DNL Walmart] listor och synkronisera produktdata mellan [!DNL Commerce] och [!DNL Walmart].
 
-För produktmatchning måste Commerce-produkten ha minst ett produktattribut som matchar någon av följande produkt-ID:n (produkt-ID) som krävs av [!DNL Walmart].
+För produktmatchning är [!DNL Commerce] produkten måste ha minst ett produktattribut som matchar någon av följande produkt-ID:n (produkt-ID) som krävs av [!DNL Walmart].
 
-**Nödvändiga Walmart-produkt-ID:n**
+**Obligatoriskt [!DNL Walmart] produkt-ID**
 
 | **Godkänd typ** | **Namn** | **Syfte** | **Godtagbara siffror** |
 |-------------------|--------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------|
@@ -31,11 +31,11 @@ Om katalogen inte har något matchande attribut, [lägga till eller konvertera e
 
 1. På [!UICONTROL Listings] sidan för säljkanalsbutiken, välj **[!UICONTROL Settings]**.
 
-   - Hitta det Walmart Marketplace-attribut du vill mappa.
+   - Hitta [!DNL Walmart Marketplace] attribut att mappa.
 
    - Välj motsvarande attribut i dialogrutan [!DNL Commerce] lagringskatalog.
 
-      I följande exempel mappas UPC-attributet Walmart Marketplace till UPC-attributet i produktkatalogen.
+      Följande exempel mappar [!UICONTROL Walmart Marketplace UPC] attribut till UPC-attributet i produktkatalogen.
    ![Mappningsattribut för produktmatchningsvillkor](assets/products-map-attributes-for-match.png)
    - Du kan också mappa flera attribut för att öka antalet träffar. Om du mappar fler än ett attribut väljer du ett som **Primär identifierare**. Detta
 

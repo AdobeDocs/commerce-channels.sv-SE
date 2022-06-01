@@ -1,19 +1,19 @@
 ---
-title: Hantera Walmart Marketplace-beställningar
-description: Visa och hantera [!DNL Walmart Marketplace] order med [!DNL Channel Manager] för Adobe Commerce och Magento Open Source.
+title: '"Hantera [!DNL Walmart Marketplace] Beställningar"'
+description: '"Visa och hantera [!DNL Walmart Marketplace] order med [!DNL Channel Manager] för Adobe Commerce och Magento Open Source."'
 exl-id: c2779c72-4793-445c-858a-867ea8389662
-source-git-commit: d5bb7d6cc43620a33a705c085918e80a1cfa1593
+source-git-commit: e3b12c9ce1ad4b5be17284e98956a773d7ccca24
 workflow-type: tm+mt
-source-wordcount: '704'
+source-wordcount: '694'
 ht-degree: 0%
 
 ---
 
-# Hantera Walmart Marketplace-order
+# Hantera [!DNL Walmart Marketplace] order
 
-[!DNL Walmart Marketplace] order för [!DNL Commerce] produktlistor synkroniseras automatiskt till [!DNL Channel Manager] efter att Walmart har bearbetat ordern. När synkroniseringen är klar kan du visa orderinformation genom att välja **[!UICONTROL Orders]** från den anslutna kanalbutiksvyn i [!DNL Channel Manager].
+[!DNL Walmart Marketplace] order för [!DNL Commerce] produktlistor synkroniseras automatiskt till [!DNL Channel Manager] efter [!DNL Walmart] bearbetar ordern. När synkroniseringen är klar kan du visa orderinformation genom att välja **[!UICONTROL Orders]** från den anslutna kanalbutiksvyn i [!DNL Channel Manager].
 
-![Vyn Kanalhanterarorder för att hantera Walmart Marketplace-order](assets/orders-dashboard-view.png)
+![Vyn Kanalhanterarorder som ska hanteras [!DNL Walmart Marketplace] order](assets/orders-dashboard-view.png)
 
 >[!NOTE]
 >
@@ -35,7 +35,7 @@ När en beställning har tagits emot från marknadsplatsen och importerats till 
 
 Från **[!UICONTROL Orders]** väljer du **[!UICONTROL Commerce Order Number]** för att öppna [!DNL Commerce] orderdetaljer.
 
-![Detaljvy för handelsorder för en Walmart Marketplace-order](assets/order-detail-with-external-order-id.png)
+![Detaljvy för handelsorder för en [!DNL Walmart Marketplace] order](assets/order-detail-with-external-order-id.png)
 
 ### Beställningskontroller och kolumnbeskrivningar
 
@@ -48,7 +48,7 @@ I följande tabeller beskrivs de kontroller och kolumner som är tillgängliga f
 
 | Fält | Beskrivning |
 |------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [!UICONTROL  Walmart Order Number] | Inköpsordernummer som tilldelats ordern i [!DNL Walmart Marketplace]. När en order importeras till [!DNL Channel Manager]visas bara Walmart-ordernumret. När [!DNL Commerce] order skapas, [!DNL Walmart] ordernumret lagras i [!UICONTROL External ID] produktattribut. |
+| [!UICONTROL  Walmart Order Number] | Inköpsordernummer som tilldelats ordern i [!DNL Walmart Marketplace]. När en order importeras till [!DNL Channel Manager], bara [!DNL Walmart] ordernummer visas. När [!DNL Commerce] order skapas, [!DNL Walmart] ordernumret lagras i [!UICONTROL External ID] produktattribut. |
 | [!DNL Commerce]  Ordernummer | Numret som tilldelats [!DNL Commerce]  order som skapats från [!DNL Walmart Marketplace] beställa. |
 | Objekt | Antal beställda artiklar [!DNL Walmart Marketplace]. |
 | [!UICONTROL Order Value] | Total kostnad för beställda artiklar. |
@@ -60,6 +60,7 @@ I följande tabeller beskrivs de kontroller och kolumner som är tillgängliga f
 | [!UICONTROL Error Description] | Ger mer detaljerad information om beställningar med en *Fel* status. |
 
 ### Om orderstatus
+
 
 [!UICONTROL Order Status] innehåller information om det aktuella läget för [!DNL Walmart Marketplace] beställningar som hanteras från Adobe Commerce eller Magento Open Source. Uppdateringar av orderstatus när [!DNL Channel Manager] får uppdaterad orderinformation från antingen [!DNL Walmart Marketplace] eller [!DNL Commerce] ordersystem. Order kan ha följande status:
 

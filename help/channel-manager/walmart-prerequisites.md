@@ -1,32 +1,32 @@
 ---
-title: Krav för Walmart
-description: Kontrollera att du har den Walmart Marketplace-information och de resurser du behöver för att integrera med Channel Manager.
+title: '"[!DNL Walmart] Förutsättningar"'
+description: '"Kontrollera att du har rätt [!DNL Walmart Marketplace] information och resurser som kan integreras med Channel Manager."'
 exl-id: c4f247e8-280a-4595-a6c8-cf8b732d7aab
-source-git-commit: e6368d30e16ccffcb1dfc64bdd56561116934b54
+source-git-commit: ae3d95fd0da6ee5013a19d7ac7ed5ef87e4a1325
 workflow-type: tm+mt
-source-wordcount: '321'
+source-wordcount: '296'
 ht-degree: 0%
 
 ---
 
-# Krav på genomgång
+# [!DNL Walmart] krav
 
-Channel Manager kräver följande resurser och information för att konfigurera en Commerce-försäljningskanal för Walmart Marketplace.
+[!DNL Channel Manager] kräver följande resurser och information för att konfigurera en [!DNL Commerce] försäljningskanal för [!DNL Walmart Marketplace.]
 
-* Godkännande att sälja på Walmart och inloggningsuppgifter för att logga in på det registrerade Marketplace-säljarkontot
+* Godkännande att sälja vidare [!DNL Walmart] och inloggningsuppgifter för det registrerade Marketplace-säljarkontot
 
-* En API-nyckel för att ansluta Adobe Commerce eller Magento Open Source till Walmart Marketplace
+* En API-nyckel för att ansluta Adobe Commerce eller Magento Open Source till [!DNL Walmart Marketplace]
 
-   API-nyckeln Walmart Marketplace gör det möjligt att integrera kanalhanteraren för Adobe Commerce eller Magento Open Source och Walmart Marketplace. Konfigurera API-nyckeln i Seller Central innan du startar Channel Manager-introduktionsprocessen.
+   The [!DNL Walmart Marketplace] API-nyckeln möjliggör integrering mellan [!DNL Channel Manager] för Adobe Commerce eller Magento Open Source och Walmart Marketplace. Konfigurera API-nyckeln i Seller Central innan du startar Channel Manager-introduktionsprocessen.
 
 ## Konfigurera ett Marketplace-säljarkonto
 
 1. [Skicka in din Walmart Seller-app](https://marketplace-apply.walmart.com/apply?id=0014M00001zivMpQAI).
-1. Efter godkännande från Walmart, [konfigurera ditt Walmart Seller-konto](https://sellerhelp.walmart.com/seller/s/guide?article=000008219).
+1. Efter godkännande från [!DNL Walmart], [konfigurera ditt Walmart Seller-konto](https://sellerhelp.walmart.com/seller/s/guide?article=000008219).
 
-## Generera en Walmart Marketplace Production API-nyckel
+## Generera en [!DNL Walmart Marketplace] Production API-nyckel
 
-1. Gå till Walmart Marketplace för att generera en [API-nyckel för lösningsleverantörsproduktion för Adobe](https://developer.walmart.com/#preloginModal?redirectUri=https%3A%2F%2Fdeveloper.walmart.com%2Faccount%2FgenerateKey).
+1. Gå till [!DNL Walmart Marketplace] för att generera [API-nyckel för lösningsleverantörsproduktion för Adobe](https://developer.walmart.com/#preloginModal?redirectUri=https%3A%2F%2Fdeveloper.walmart.com%2Faccount%2FgenerateKey).
 
 1. Skapa nyckeln och konfigurera behörigheter:
 
@@ -50,12 +50,12 @@ Channel Manager kräver följande resurser och information för att konfigurera 
    | Regler | Fullständig åtkomst |
    | Leverans | Fullständig åtkomst |
 
-## Status för Walmart Marketplace Store
+## [!DNL Walmart Marketplace] Butiksstatus
 
-När du publicerar produkter på Walmart Marketplace beror tillgängligheten på status för dina Walmart Marketplace-butiker:
+När du publicerar produkter på marknaden beror listtillgängligheten på din status [!DNL Walmart Marketplace] butiker:
 
 * För livebutiker listas dina produkterbjudanden och är tillgängliga för försäljning när matchningen är klar.
 
-* För butiker som inte är direktsända är era erbjudanden testade och inte synliga för kunderna. När butiken publiceras skickas alla mellanlagrade listor automatiskt till den aktiva butiken.
+* För butiker som inte är direktsända är era erbjudanden testade och inte synliga för kunderna. När [!DNL Walmart Marketplace] butiken publiceras, mellanlagrade listor skickas automatiskt till livebutiken.
 
 ![[!DNL Walmart Seller Central] mellanlagrade produkter](assets/walmart-seller-central-staged.png)
