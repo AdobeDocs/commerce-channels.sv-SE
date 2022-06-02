@@ -4,7 +4,7 @@ description: Anslut kanalhanteraren till [!DNL Commerce] tjänster för att möj
 role: User
 level: Intermediate
 exl-id: 97da2142-ecef-44dc-91d8-5dc55c713d31
-source-git-commit: 30495c4e47f15c821206f7b0252b868b4e27d62d
+source-git-commit: aaab7aa7feb05264c24386e62193564dc5ae8fe3
 workflow-type: tm+mt
 source-wordcount: '295'
 ht-degree: 0%
@@ -18,11 +18,11 @@ Commerce Services Connector integrerar Channel Manager-tjänsten med instanser i
 
 Inställningar för Commerce Services Connector är en engångsprocess som krävs för att använda Adobe [Commerce SaaS-tjänster](https://experienceleague.adobe.com/docs/commerce-merchant-services/user-guides/home.html){target=&quot;_blank&quot;} gillar [!DNL Channel Manager], [!DNL Live Search]och [!DNL Product Recommendations]. Om du redan har konfigurerat anslutningen för en annan tjänst hoppar du över det här steget.
 
-## Förutsättningar
+## Krav
 
 - **Handelskonto**-Om du vill installera programvara i Commerce-instanser måste du ha ett konto med ägar- eller administratörsåtkomst till Commerce-plattformen.
 
-   Kontoägare och admin-användare kan skapa administratörskonton från Commerce-instansen eller från kommandoraden med [!DNL Commerce] CLI, kommando `admin:user:create`.
+   Kontoägare och superanvändare kan skapa administratörskonton från Commerce-instansen eller från kommandoraden med [!DNL Commerce] CLI, kommando `admin:user:create`.
 
 - **Adobe Commerce Production API Key**-Den [key](https://docs.magento.com/user-guide/system/saas.html#apikey){target=&quot;_blank&quot;} aktiverar API-åtkomst till tjänster som krävs av Channel Manager. Du behöver offentliga och privata autentiseringsuppgifter för den här nyckeln.
 

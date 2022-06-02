@@ -1,7 +1,7 @@
 ---
 title: Konfigurera kanalinställningar
 description: Konfigurera kanalhanteraren och inställningarna för försäljningskanal för autentisering, mappa katalogattribut och transportföretag som krävs för att koordinera säljåtgärder mellan [!DNL Commerce] och [!DNL Walmart Marketplace].
-source-git-commit: e3b12c9ce1ad4b5be17284e98956a773d7ccca24
+source-git-commit: fffbdac54443b7b9bed8854eba8341446e78cc80
 workflow-type: tm+mt
 source-wordcount: '172'
 ht-degree: 0%
@@ -19,4 +19,4 @@ I [!DNL Channel Manager]konfigurerar du vissa inställningar för försäljnings
 
 * **[Kartlägg transportföretag](map-shipping-carriers.md)**-Innan du bearbetar [!DNL Walmart Marketplace] order från [!DNL Commerce]ser du till att kartlägga fraktföretag från [!DNL Commerce] instans till motsvarande bärare på [!DNL Walmart Marketplace].
 
-* **WWART API-autentiseringsuppgifter**-Under [!DNL Channel Manager] introduktionsprocessen, du anger [Walmart API-autentiseringsuppgifter](walmart-prerequisites.md#generate-a-walmart-marketplace-production-api-key) från [!DNL Walmart Marketplace Seller] konto att ansluta till [!DNL Commerce] till [!DNL Walmart Marketplace] för kommunikation och datasynkronisering. Om det behövs kan du uppdatera dessa uppgifter från *Inställningar* sida.
+* **WWART API-autentiseringsuppgifter**-Under [!DNL Channel Manager] introduktionsprocessen, du anger [Walmart API-autentiseringsuppgifter](walmart-requirements.md#generate-a-walmart-marketplace-production-api-key) från [!DNL Walmart Marketplace Seller] konto att ansluta till [!DNL Commerce] till [!DNL Walmart Marketplace] för kommunikation och datasynkronisering. Om det behövs kan du uppdatera dessa uppgifter från *Inställningar* sida.

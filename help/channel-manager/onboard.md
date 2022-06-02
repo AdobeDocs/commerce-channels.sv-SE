@@ -4,17 +4,15 @@ description: Anslut instansen till [!DNL Channel Manager] genom att utföra någ
 role: User
 level: Intermediate
 exl-id: 7c4ccd9e-ae32-4511-8d1e-baa690604612
-source-git-commit: e0b7f971f8eb4bc0827a7792ef94d88766adf82e
+source-git-commit: fffbdac54443b7b9bed8854eba8341446e78cc80
 workflow-type: tm+mt
-source-wordcount: '499'
+source-wordcount: '470'
 ht-degree: 0%
 
 ---
 
 
 # Inbyggt [!DNL Channel Manager]
-
-Anmäl kanalhanteraren genom att installera Channel Manager-tillägget på din [!DNL Commerce] instans och konfiguration av API-anslutningar. Dessa anslutningar möjliggör kommunikation och datasynkronisering mellan din Commerce-instans och [!DNL Walmart Marketplace].
 
 När du är klar med introduktionen konfigurerar och hanterar du säljkanalsåtgärder från [!UICONTROL Channel Manager] på [!UICONTROL Commerce Admin Marketing] -menyn.
 
@@ -30,9 +28,9 @@ När du är klar med introduktionen konfigurerar och hanterar du säljkanalsåtg
 
 1. [Slutför butiksinställning](complete-store-setup.md).
 
-## Förutsättningar
+## Krav
 
-- Kontrollera att du har rätt [Krav på Walmart Marketplace](walmart-prerequisites.md) för integrering med Channel Manager.
+- Verifiera att du uppfyller [Krav på Walmart Marketplace](walmart-requirements.md) för integrering med Channel Manager.
 
 - **Information om handelskonto**-Hämta och installera [!DNL Channel Manager] kräver [Handelskonto](https://docs.magento.com/user-guide/magento/magento-account.html){target=&quot;_blank&quot;}. Du behöver ett konto-ID och autentiseringsuppgifter med ägar- eller administratörsåtkomst till [!DNL Adobe Commerce] eller [!DNL Magento Open Source] -instans.
 
@@ -62,7 +60,7 @@ När du är klar med introduktionen konfigurerar och hanterar du säljkanalsåtg
 
    Om du tänker använda Channel Manager för inventerings- och orderhantering måste du ha Inventory management-tillägget installerat och aktiverat på din Adobe Commerce- och Magento Open Source-instans. Det här tillägget installeras och aktiveras som standard i Adobe Commerce och Magento Open Source 2.3.x och senare. Mer information finns i [Installera Inventory management](https://devdocs.magento.com/extensions/inventory-management/) i Adobe Commerce Developer-dokumentationen.
 
-### Krav
+### Systemkrav
 
 - [Adobe Commerce 2.4.x](https://devdocs.magento.com/release/released-versions.html)
 - [PHP 7.3/7.4](https://devdocs.magento.com/guides/v2.4/install-gde/prereq/php-settings.html)

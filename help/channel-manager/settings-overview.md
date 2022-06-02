@@ -2,9 +2,9 @@
 title: Översikt över inställningar
 description: Läs mer om [!DNL Channel Manager settings] konfigurera autentisering och mappa produktkatalogattribut och transportföretag som krävs för att koordinera försäljningsåtgärder mellan [!DNL Commerce] och [!DNL Walmart Marketplace].
 exl-id: 305b3580-bfe2-4fc2-9dc8-fb41f5eaf959
-source-git-commit: f1c37111df2f566b9673946bb9b2b282506f990c
+source-git-commit: aaab7aa7feb05264c24386e62193564dc5ae8fe3
 workflow-type: tm+mt
-source-wordcount: '169'
+source-wordcount: '167'
 ht-degree: 0%
 
 ---
@@ -19,4 +19,4 @@ I [!DNL Channel Manager]konfigurerar du vissa inställningar för försäljnings
 
 * **[Kartlägg transportföretag](map-shipping-carriers.md)**-Innan du bearbetar [!DNL Walmart Marketplace] order från [!DNL Commerce]ser du till att kartlägga fraktföretag från [!DNL Commerce] instans till motsvarande bärare på [!DNL Walmart Marketplace].
 
-* **WWART API-autentiseringsuppgifter**-Under [!DNL Channel Manager] introduktionsprocessen, du anger [Walmart API-autentiseringsuppgifter](walmart-prerequisites.md#generate-a-walmart-marketplace-production-api-key) från[!DNL Walmart Marketplace] Försäljarkonto att ansluta till [!DNL Commerce] till [!DNL Walmart Marketplace] för kommunikation och datasynkronisering. Om det behövs kan du uppdatera dessa uppgifter från *Inställningar* sida.
+* **WWART API-autentiseringsuppgifter**-Under [!DNL Channel Manager] introduktionsprocess, du tillhandahåller [API-autentiseringsuppgifter](walmart-requirements.md#generate-a-walmart-marketplace-production-api-key) från [!DNL Walmart Marketplace] Försäljarkonto att ansluta till [!DNL Commerce] till [!DNL Walmart Marketplace] för kommunikation och datasynkronisering. Om det behövs kan du uppdatera dessa uppgifter från *Inställningar* sida.

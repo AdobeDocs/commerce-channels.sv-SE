@@ -2,9 +2,9 @@
 title: Installera [!DNL Channel Manager]
 description: Installera Channel Manager-tillägget.
 exl-id: cb593ebd-f077-4a79-a661-bedf4cc70f97
-source-git-commit: 61d72e655a9f9eaefddd7561e0bc5fe36da69577
+source-git-commit: fffbdac54443b7b9bed8854eba8341446e78cc80
 workflow-type: tm+mt
-source-wordcount: '706'
+source-wordcount: '750'
 ht-degree: 0%
 
 ---
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Installera [!DNL Channel Manager]
 
-Granska [krav](onboard.md#prerequisites) och samla in nödvändig information innan du installerar Channel Manager.
+Granska [krav](onboard.md#requirements) och samla in nödvändig information innan du installerar Channel Manager.
 
 ## Uppdatera inställningen för minsta stabilitet
 
@@ -56,7 +56,7 @@ Följ dessa anvisningar för att installera [!DNL Channel Manager] på Adobe Com
 1. Från [!DNL Commerce] projektrotkatalog, lägg till kanalhanterare i `composer.json`.
 
    ```bash
-    $ composer require magento/channel-manager --no-update
+    composer require magento/module-sales-channels-extension --no-update
    ```
 
 1. Ange nycklarna från din [!DNL Commerce] konto.
@@ -66,59 +66,55 @@ Följ dessa anvisningar för att installera [!DNL Channel Manager] på Adobe Com
 1. Uppdatera beroendena och installera tillägget.
 
    ```bash
-   $ composer update
+   composer update magento/module-sales-channels-extension
    ```
 
-   The `composer update` kommandot uppdaterar alla beroenden. Om du bara vill uppdatera beroenden som är relaterade till kanalhanteraren använder du det här kommandot i stället: `composer update magento/channel-manager`.
+   The `composer update` bara de beroenden som krävs för [!DNL Channel Manager]. Om du vill uppdatera alla beroenden använder du det här kommandot i stället: `composer update`.
 
 1. Vänta tills Composer har uppdaterat projektberoenden och åtgärdat eventuella fel.
 
-1. Verifiera installationen
+1. Verifiera modulinstallationen:
+
+   - Kontrollera modulens status.
+
+      ```bash
+      bin/magento module:status Magento_SalesChannels
+      ```
+
+      Exempelsvar:
+
+      ```terminal
+      Module is enabled
+      ```
+
+   - Aktivera modulen om den inte är aktiverad.
 
    ```bash
-   $ bin/magento module:status channel-manager
-   ```
-
-   Exempelsvar:
-
-   ```terminal
-   Module is disabled
+   bin/magento module:enable Magento_SalesChannels
    ```
 
 1. Registrera tillägget.
 
    ```bash
-   $ bin/magento setup:upgrade
+   bin/magento setup:upgrade
    ```
 
 1. Kompilera om [!DNL Commerce] projekt.
 
    ```bash
-   $ bin/magento setup:di:compile
-   ```
-
-1. Kontrollera att tillägget är aktiverat:
-
-   ```bash
-   $ bin/magento module:status channel-manager
-   ```
-
-   Exempelsvar:
-
-   ```bash
-   Module is enabled
+   bin/magento setup:di:compile
    ```
 
 1. Rensa cachen.
 
    ```bash
-   $ bin/magento cache:clean
+   bin/magento cache:clean
    ```
 
 1. Inaktivera underhållsläge.
 
    ```bash
-    $ bin/magento maintenance:disable
+   bin/magento maintenance:disable
    ```
 
 ### Installera på en Adobe Commerce-instans i molninfrastrukturen
@@ -136,14 +132,16 @@ Under installationen visas tilläggets namn (`magento\channel-manager`) infogas 
 1. Använd Composer-namnet för att lägga till tillägget i `require` i `composer.json` -fil.
 
    ```bash
-   $ composer require magento/channel-manager --no-update
+   composer require require magento/module-sales-channels-extension --no-update
    ```
 
-1. Uppdatera projektberoenden.
+1. Uppdatera beroendena och installera tillägget.
 
    ```bash
-   $ composer update
+   composer update magento/module-sales-channels-extension
    ```
+
+   The `composer update` bara de beroenden som krävs för [!DNL Channel Manager]. Om du vill uppdatera alla beroenden använder du det här kommandot i stället: `composer update`.
 
 1. Lägg till, implementera och push-kodsändringar - inkludera ändringar i båda `composer.lock` och `composer.json` -fil.
 
@@ -161,15 +159,18 @@ Under installationen visas tilläggets namn (`magento\channel-manager`) infogas 
 
 1. När bygg- och distributionsprocessen har slutförts använder du SSH för att logga in på fjärrmiljön och verifiera att tillägget har installerats korrekt.
 
-   ```bash
-   $ bin/magento module:status channel-manager
-   ```
+```bash
+   bin/magento module:status Magento_SalesChannels
+```
 
-   Exempelsvar:
+Exempelsvar:
 
-   ```terminal
-   Module is enabled
-   ```
+```terminal
+Module is enabled
+```
+
+Om modulen är inaktiverad [aktivera i din lokala miljö](https://devdocs.magento.com/cloud/howtos/install-components.html#manage-extensions) och driftsätta ändringarna.
+
 
 1. När du har installerat tillägget loggar du in på [!UICONTROL Admin] till [konfigurera Commerce Services Connector](connect.md).
 

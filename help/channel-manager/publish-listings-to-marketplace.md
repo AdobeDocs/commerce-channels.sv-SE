@@ -2,9 +2,9 @@
 title: Publicera listor till Walmart
 description: Publicera listor för Commerce-produkter till [!DNL Walmart Marketplace]för att börja sälja.
 exl-id: 78078b14-ebdd-415d-9486-66b0150167aa
-source-git-commit: ae3d95fd0da6ee5013a19d7ac7ed5ef87e4a1325
+source-git-commit: fffbdac54443b7b9bed8854eba8341446e78cc80
 workflow-type: tm+mt
-source-wordcount: '1136'
+source-wordcount: '1119'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ Om en matchning hittas uppdateras den befintliga produktlistan så att ditt erbj
 
 ### Förutsättningar
 
-Innan du matchar produkter bör du kontrollera att produktkatalogattributvärdena uppfyller Walmart-kraven och konfigurera attributinställningarna. Se [Mappa katalogattribut](map-catalog-attributes.md).
+Innan du matchar produkter måste du kontrollera att produktkatalogattributvärdena uppfyller Walmart-kraven och konfigurera produktattributsinställningarna. Se [Mappa katalogattribut](map-catalog-attributes.md).
 
 #### Välj och matcha produkter
 
@@ -52,9 +52,7 @@ Innan du matchar produkter bör du kontrollera att produktkatalogattributvärden
 
 När matchningen är klar kan statusen vara *Matcha* eller *Fel*.
 
-* **[!UICONTROL Match]** anger att produkten matchades. Ditt produkterbjudande publicerades i en befintlig Walmart Marketplace-lista. Om [Marketplace-butiken är inte aktiv](walmart-prerequisites.md#walmart-marketplace-store-status), *[!UICONTROL Staged for Match]* visas i *[!UICONTROL Status detail]* kolumn.
-
-Om [[!DNL Walmart Marketplace] butiken är inte aktiv](walmart-prerequisites.md#walmart-marketplace-store-status), *Statusinformation* kolumn anger att produkten är *Mellanlagrad för matchning*. Mellanlagrade produkter publiceras automatiskt när [!DNL Walmart Marketplace] butiken är aktiverad.
+* **[!UICONTROL Match]** anger att produkten matchades. Ditt produkterbjudande publicerades i en befintlig Walmart Marketplace-lista. Om [Marketplace-butiken är inte aktiv](walmart-requirements.md#walmart-marketplace-store-status), *[!UICONTROL Staged for Match]* visas i *[!UICONTROL Status detail]* kolumn. Mellanlagrade produkter publiceras automatiskt när [!DNL Walmart Marketplace] butiken är aktiverad.
 
 * **[!UICONTROL Error]** anger att matchningen misslyckades på grund av något av följande problem:
 
@@ -116,7 +114,7 @@ Om du vill se nya produktlistor kontrollerar du i produktkatalogen att de produk
 
 ### Förutsättningar
 
-* Verifiera att du uppfyller [Krav på genomgång](walmart-prerequisites.md).
+* Verifiera att du uppfyller [Krav för Walmart](walmart-requirements.md).
 
 * Kontrollera att katalogkonfigurationen för de produkter som ska listas på Walmart Marketplace har alla nödvändiga attribut i din Commerce-produktkatalog och uppfyller riktlinjerna för innehåll på Walmart Marketplace.
 
