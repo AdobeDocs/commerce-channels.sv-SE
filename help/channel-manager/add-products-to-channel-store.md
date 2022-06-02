@@ -2,9 +2,9 @@
 title: Lägg till produkter i säljkanalsbutiken
 description: Skapa produktsortiment för [!DNL Walmart Marketplace] försäljning genom att lägga till produkter från katalogen i försäljningskanalen
 exl-id: 00932df7-bdc7-42a1-b269-88dffcc918bc
-source-git-commit: e3b12c9ce1ad4b5be17284e98956a773d7ccca24
+source-git-commit: 0acf063aeadd464824d1d0fce9eed1532d638c12
 workflow-type: tm+mt
-source-wordcount: '247'
+source-wordcount: '328'
 ht-degree: 0%
 
 ---
@@ -12,13 +12,30 @@ ht-degree: 0%
 
 # Lägg till produkter i säljkanalsbutiken
 
-Synkronisera produkter till [!DNL Walmart Marketplace] säljkanal, du väljer produkter i [!DNL Commerce] produktkatalog och importera dem till Channel Manager. De valda produkterna måste ha följande attributkonfiguration:
+Du lägger till produkten i [!DNL Walmart Marketplace] säljkanal genom att välja produkter från [!DNL Commerce] produktkatalog och importera dem till [!DNL Channel Manager].
+Importprocessen kan ta upp till 30 minuter eller mer beroende på hur många produkter du väljer.
+
+## Förutsättning
+
+**[Mappa katalogattribut](map-catalog-attributes.md)**—I [!DNL Channel Settings] konfiguration, mappa minst ett attribut från [!DNL Commerce] produktkatalog till någon av de Walmart-produktidentifierare som krävs - -GTIN, ISBN, ISSN, UPC, EAN.
+
+## Listkrav
+
+[!DNL Commerce] produktlistor måste ha följande obligatoriska attributkonfiguration:
 
 - **[!UICONTROL Publish to Channel Manager]** attribut är aktiverat
 
-- Minst ett produktattribut måste matcha ett av [obligatoriskt [!DNL Walmart Marketplace] attributes](map-catalog-attributes.md)-GTIN, ISBN, ISSN, UPC, EAN
+- Ange giltiga värden för de obligatoriska Walmart-attributen.
 
-Processen att importera produkter från [!DNL Commerce] för Channel Manager kan ta upp till 30 minuter eller mer beroende på hur många produkter du väljer.
+   - Minst ett produktattribut som matchar ett av de obligatoriska [!DNL Walmart Marketplace] produktidentifierare - GTIN, ISBN, ISSN, UPC, EAN.
+
+   - Produktpriset anges till högst två decimaler, till exempel `9.99`
+
+   - Produktvikt angiven till högst två decimaler, till exempel `1.25`
+
+>[!TIP]
+>
+>Mer information om hur du optimerar listor för din försäljningskanal finns i [Walmart Marketplace - guide för kvalitetsoptimering](https://marketplace.walmart.com/wp-content/uploads/2020/09/WMP_listing_quality_optimization_guide.pdf).
 
 ## Lägg till produkter
 
