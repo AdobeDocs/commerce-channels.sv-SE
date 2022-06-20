@@ -2,9 +2,9 @@
 title: Installera [!DNL Channel Manager]
 description: Installera Channel Manager-tillägget.
 exl-id: cb593ebd-f077-4a79-a661-bedf4cc70f97
-source-git-commit: 4242115d178a4e4a21a271f2ea47fcd8ad9250ed
+source-git-commit: f3b4392824e5682cec2f7071445111373188808e
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '715'
 ht-degree: 0%
 
 ---
@@ -13,19 +13,6 @@ ht-degree: 0%
 # Installera [!DNL Channel Manager]
 
 Granska [krav](onboard.md#requirements) och samla in nödvändig information innan du installerar Channel Manager.
-
-## Uppdatera inställningen för minsta stabilitet
-
-Innan du installerar tillägget ska du uppdatera `minimum-stability` dina behov `composer.json` så att du kan installera tidigare versioner av Channel Manager med Composer.
-
-Om du vill uppdatera konfigurationen lägger du till följande rader i `composer.json` -fil.
-
-```json
-{
-   "minimum-stability": "alpha",
-   "prefer-stable": true
-}
-```
 
 ## Installera tillägget
 

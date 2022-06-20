@@ -2,17 +2,17 @@
 title: Lägg till produkter i säljkanalsbutiken
 description: Skapa produktsortiment för [!DNL Walmart Marketplace] försäljning genom att lägga till produkter från katalogen i försäljningskanalen
 exl-id: 00932df7-bdc7-42a1-b269-88dffcc918bc
-source-git-commit: 0acf063aeadd464824d1d0fce9eed1532d638c12
+source-git-commit: d9b39984fc7401c42fc431f35cf5649f86f4f2f9
 workflow-type: tm+mt
-source-wordcount: '328'
+source-wordcount: '324'
 ht-degree: 0%
 
 ---
 
 
-# Lägg till produkter i säljkanalsbutiken
+# Lägg till produkter i [!DNL Channel Manager]
 
-Du lägger till produkten i [!DNL Walmart Marketplace] säljkanal genom att välja produkter från [!DNL Commerce] produktkatalog och importera dem till [!DNL Channel Manager].
+Lägga till produkter i [!DNL Walmart Marketplace] försäljningskanal, välj dem i [!DNL Commerce] produktkatalog och importera dem till [!DNL Channel Manager].
 Importprocessen kan ta upp till 30 minuter eller mer beroende på hur många produkter du väljer.
 
 ## Förutsättning
@@ -23,7 +23,7 @@ Importprocessen kan ta upp till 30 minuter eller mer beroende på hur många pro
 
 [!DNL Commerce] produktlistor måste ha följande obligatoriska attributkonfiguration:
 
-- **[!UICONTROL Publish to Channel Manager]** attribut är aktiverat
+- **[!UICONTROL Connect to Channel Manager]** attribut är aktiverat
 
 - Ange giltiga värden för de obligatoriska Walmart-attributen.
 
@@ -49,11 +49,11 @@ Importprocessen kan ta upp till 30 minuter eller mer beroende på hur många pro
 
    ![Skicka produkter till säljkanalsbutiken](assets/select-products-from-catalog.png)
 
-1. Aktivera **[!UICONTROL Publish to Channel Manager]** för de markerade objekten.
+1. Aktivera **[!UICONTROL Connect to Channel Manager]** för de markerade objekten.
 
    - Från **[!UICONTROL Actions]**, markera **[!UICONTROL Update attributes]**.
 
-   - Bläddra till **[!UICONTROL Publish to Channel Manager]** och aktivera det.
+   - Bläddra till **[!UICONTROL Connect to Channel Manager]** och aktivera det.
 
    - Kontrollera att produktattributen innehåller minst ett av de obligatoriska [!DNL Walmart Product IDs].
 

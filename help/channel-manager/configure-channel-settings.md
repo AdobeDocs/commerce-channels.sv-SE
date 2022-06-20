@@ -1,9 +1,9 @@
 ---
 title: Konfigurera kanalinställningar
 description: Konfigurera kanalhanteraren och inställningarna för försäljningskanal för autentisering, mappa katalogattribut och transportföretag som krävs för att koordinera säljåtgärder mellan [!DNL Commerce] och [!DNL Walmart Marketplace].
-source-git-commit: fffbdac54443b7b9bed8854eba8341446e78cc80
+source-git-commit: 5c478813af442a4e54cb5c64045698f04d710c9a
 workflow-type: tm+mt
-source-wordcount: '172'
+source-wordcount: '170'
 ht-degree: 0%
 
 ---
@@ -13,10 +13,10 @@ ht-degree: 0%
 
 Försäljningskanalsinställningarna möjliggör kommunikation och datasynkronisering mellan [!DNL Commerce] och [!DNL Walmart Marketplace] så att ni kan hantera [!DNL Walmart Marketplace] försäljningsoperationer från [!DNL Commerce] Administratör:
 
-I [!DNL Channel Manager]konfigurerar du vissa inställningar för försäljningskanaler under introduktionsprocessen. Efter introduktionen kan du visa och hantera konfigurationen av inställningarna på *Inställningar* sida.
+I [!DNL Channel Manager]konfigurerar du vissa inställningar för försäljningskanaler under introduktionsprocessen. Efter introduktionen kan du visa och hantera kanalkonfigurationen via *[!UICONTROL Channel Settings]* sida.
 
-* **[Mappa unika identifierare](map-catalog-attributes.md)**-Innan du publicerar listor från [!DNL Commerce] till [!DNL Walmart Marketplace]mappa minst en unik identifierare från [!DNL Commerce] katalog till motsvarande identifierare från [!DNL Walmart]. Det här steget krävs för att matcha [!DNL Commerce] produkter till befintliga [!DNL Walmart] listor och synkronisera produktdata mellan [!DNL Commerce] och [!DNL Walmart].
+- **[Mappa unika identifierare](map-catalog-attributes.md)**-Innan du ansluter listor från [!DNL Commerce] till [!DNL Walmart Marketplace]mappa minst en unik identifierare från [!DNL Commerce] katalog till motsvarande identifierare från [!DNL Walmart]. Det här steget krävs för att matcha [!DNL Commerce] produkter till befintliga [!DNL Walmart] listor och synkronisera produktdata mellan [!DNL Commerce] och [!DNL Walmart].
 
-* **[Kartlägg transportföretag](map-shipping-carriers.md)**-Innan du bearbetar [!DNL Walmart Marketplace] order från [!DNL Commerce]ser du till att kartlägga fraktföretag från [!DNL Commerce] instans till motsvarande bärare på [!DNL Walmart Marketplace].
+- **[Kartlägg transportföretag](map-shipping-carriers.md)**-Innan du bearbetar [!DNL Walmart Marketplace] order från [!DNL Commerce]ser du till att kartlägga fraktföretag från [!DNL Commerce] instans till motsvarande bärare på [!DNL Walmart Marketplace].
 
-* **WWART API-autentiseringsuppgifter**-Under [!DNL Channel Manager] introduktionsprocessen, du anger [Walmart API-autentiseringsuppgifter](walmart-requirements.md#generate-a-walmart-marketplace-production-api-key) från [!DNL Walmart Marketplace Seller] konto att ansluta till [!DNL Commerce] till [!DNL Walmart Marketplace] för kommunikation och datasynkronisering. Om det behövs kan du uppdatera dessa uppgifter från *Inställningar* sida.
+- **WWART API-autentiseringsuppgifter**-Under [!DNL Channel Manager] introduktionsprocessen, du anger [Walmart API-autentiseringsuppgifter](walmart-requirements.md#generate-a-walmart-marketplace-production-api-key) från [!DNL Walmart Marketplace Seller] konto att ansluta till [!DNL Commerce] till [!DNL Walmart Marketplace] för kommunikation och datasynkronisering. Om det behövs kan du [uppdatera dessa autentiseringsuppgifter](manage-wmt-connection.md) från _[!UICONTROL Channel Settings]_sida.

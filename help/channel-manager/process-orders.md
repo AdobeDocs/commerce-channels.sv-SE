@@ -2,9 +2,9 @@
 title: Bearbeta order
 description: Instruktioner för frakt och annullering [!DNL Walmart Marketplace] beställningar från Adobe Commerce och Magento Open Source.
 exl-id: 2fdcb348-5c02-464f-a114-16ec657bed6b
-source-git-commit: f1c37111df2f566b9673946bb9b2b282506f990c
+source-git-commit: aeb3e4883a92f8dbd1725a70102401ad733ee391
 workflow-type: tm+mt
-source-wordcount: '376'
+source-wordcount: '504'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,11 @@ Channel Manager synkroniserar uppdateringar med [!DNL Walmart Marketplace] för 
 
 * **Beställa försändelser**-Walmart kräver ett spårningsnummer för alla leveranser. Om några artiklar inte finns i lager kan du skapa partiella leveranser för att skicka artiklar som är tillgängliga just nu. När du har skickat leveransen synkroniseras orderuppdateringarna med [!DNL Walmart Marketplace]. Sedan meddelar Walmart sina kunder om orderstatus och leveransinformation.
 
-* **Orderannulleringar**-När du avbryter en [!DNL Walmart Marketplace] order kräver Walmart en orsak till annullering som ingår i det beställningsmeddelande som skickas till kunden. Orsaken till annulleringen visas också i [!DNL Commerce] beställa betalningsinformation.
+* **Orderannulleringar**-När du avbryter en [!DNL Walmart Marketplace] order kräver Walmart en orsak till annullering som ingår i det beställningsmeddelande som skickas till kunden. Orsaken till annulleringen visas också i [!DNL Commerce] beställa betalningsinformation. När du har skickat annulleringen synkroniseras lageruppdateringarna med [!DNL Walmart Marketplace]. Sedan meddelar Walmart sina kunder om orderstatus och leveransinformation.
+
+   I butiken måste du annullera hela ordern. Handel tillåter inte partiella annulleringar.
+
+När handelsorder bearbetas och [!DNL Channel Manager] har synkroniserat försändelse, partiell leverans och annulleringsuppdateringar för [!DNL Walmart Marketplace]är orderbehandlingen slutförd.
 
 >[!NOTE]
 >
@@ -69,3 +73,11 @@ Channel Manager synkroniserar uppdateringar med [!DNL Walmart Marketplace] för 
 
 
 1. När du har skickat annulleringen spårar du [orderstatus](manage-orders.md#about-order-status) in [!DNL Channel Manager] för att verifiera att uppdateringar skickades till [!DNL Walmart Marketplace].
+
+## Åtgärda orderfel
+
+Fel kan uppstå under ordersynkroniseringsprocessen från [!DNL Walmart Marketplace]eller under orderuppdateringsprocessen för försändelser, partiella leveranser och annulleringar.
+
+Om synkroniseringsåtgärden för en försändelse, delleverans eller annullering misslyckas, kommer [!DNL Channel Manager] På sidan Beställningar visas en _Fel_ status för ordern. Om du vill försäkra dig om att leveransinformation och orderannulleringsinformation visas korrekt i Walmart Marketplace-kontot måste du uppdatera beställningen manuellt i [!DNL Walmart Marketplace] butik.
+
+

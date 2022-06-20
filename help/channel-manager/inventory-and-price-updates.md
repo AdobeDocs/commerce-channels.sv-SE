@@ -2,20 +2,26 @@
 title: Lager- och prisuppdateringar
 description: '''[!DNL Channel Manager] synkroniserar lager- och prisuppdateringar mellan Commerce Store och [!DNL Walmart Marketplace] så att du kan hantera dina säljkanalsåtgärder från din Commerce Admin'
 exl-id: 4dd9fa4a-b12f-4795-a7b2-84ea0fc26aa5
-source-git-commit: 71ad5e3bc9ff6b909943a161472e4db7d375683f
+source-git-commit: 97128dcf45d7672e958c771f88389aba40c6e39e
 workflow-type: tm+mt
-source-wordcount: '295'
+source-wordcount: '352'
 ht-degree: 0%
 
 ---
 
 # Uppdatera lager och priser
 
-[!DNL Channel Manager] spårar lager och priser för produkter i [!DNL Commerce] produktkatalog och synkroniserar uppdateringar till den anslutna försäljningskanalen och [!DNL Walmart Marketplace]. Synkroniseringen ser till att produktlistor återspeglar aktuell lagerkvantitet och aktuella priser.
+[!DNL Channel Manager] spårar lager och priser för produkter i [!DNL Commerce] produktkatalog och synkroniserar uppdateringar till den anslutna försäljningskanalen och [!DNL Walmart Marketplace]. Synkroniseringsåtgärden säkerställer att produktlistor återspeglar aktuell lagerkvantitet och aktuella priser.
+
+
+>[!IMPORTANT]
+>
+>Efter [!DNL Channel Manager] installeras och konfigureras, synkroniseras alla lager-, pris- och orderuppdateringar automatiskt. Om du redan säljer på Walmart Marketplace, antingen direkt eller via en annan integrering, måste du inaktivera den tidigare integreringen och kontrollera att lagernivåerna och priserna i Commerce Store är korrekta och matchar informationen i [!DNL Walmart Marketplace] innan du ansluter [!DNL Channel Manager] till marknadsplatsen.
+
 
 ## Lageruppdateringar
 
-När produktlagernivåer ändras i [!DNL Commerce], [!DNL Channel Manager] synkroniserar uppdateringar till försäljningskanalen och till [!DNL Walmart Marketplace]. Det kan ta upp till 10 minuter för lageruppdateringar att synkronisera över försäljningskanalen till [!DNL Walmart marketplace].
+När produktlagernivåer ändras i [!DNL Commerce], [!DNL Channel Manager] synkroniserar uppdateringar till [!DNL Walmart Marketplace]. Det kan ta upp till 10 minuter för lageruppdateringar att synkronisera över försäljningskanalen till [!DNL Walmart marketplace].
 
 * **Uppdateringar av lagerkvantitet i produktkatalog**—When [!DNL Commerce] lagerkvantitet ändras på grund av [manuella ändringar av lagerkvantitet](https://docs.magento.com/user-guide/catalog/inventory-product-quantity.html), återbetalningar eller uppsägningar, [!DNL Channel Manager] synkroniserar ändringen till anslutna kanaler och [!DNL Walmart Marketplace].
 
@@ -29,7 +35,7 @@ När produktlagernivåer ändras i [!DNL Commerce], [!DNL Channel Manager] synkr
 
 När produktpriset ändras i [!DNL Commerce], [!DNL Channel Manager] synkroniserar uppdateringen till [!DNL Walmart Marketplace]. Det kan ta upp till fem minuter innan prisändringen visas i [!DNL Walmart Marketplace] lista.
 
-### Hantera priser för en publicerad produkt
+### Hantera priser för en ansluten produkt
 
 1. Från [!UICONTROL Admin], markera **[!UICONTROL Catalog > Products]**.
 1. Leta reda på produkten som ska uppdateras och välj **[!UICONTROL Edit]**.

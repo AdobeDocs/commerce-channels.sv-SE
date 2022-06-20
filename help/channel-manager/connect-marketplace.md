@@ -2,9 +2,9 @@
 title: Koppla försäljningskanal till [!DNL Walmart Marketplace]
 description: Konfigurera säljkanalen och anslut till Walmart Marketplace.
 exl-id: 8c78c582-7b57-4f73-894e-134ba0ba3640
-source-git-commit: aaab7aa7feb05264c24386e62193564dc5ae8fe3
+source-git-commit: 07e1faf90676b404e3f5ee28ddc13d81ea82a5a5
 workflow-type: tm+mt
-source-wordcount: '325'
+source-wordcount: '351'
 ht-degree: 0%
 
 ---
@@ -12,6 +12,10 @@ ht-degree: 0%
 # Koppla försäljningskanal till [!DNL Walmart Marketplace]
 
 När du har installerat Channel Manager på din [!DNL Commerce] instans, ansluta en [!DNL Commerce] lagra till [!DNL Walmart Marketplace].
+
+>[!NOTE]
+>
+>Channel Manager kräver en 1:1-anslutning mellan ett Walmart-konto och en Commerce Store-vy. Du kan inte ansluta samma butiksvy till flera Walmart-konton.
 
 1. [Skapa försäljningskanalen](#create-the-sales-channel) genom att välja Commerce Store för produktlistor.
 
