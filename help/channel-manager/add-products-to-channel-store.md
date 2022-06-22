@@ -1,10 +1,10 @@
 ---
-title: Lägg till produkter i säljkanalsbutiken
-description: Skapa produktsortiment för [!DNL Walmart Marketplace] försäljning genom att lägga till produkter från katalogen i försäljningskanalen
+title: Lägg till produkter i Channel Manager
+description: 'Skapa produktsortiment för [!DNL Walmart Marketplace] försäljning genom att lägga till produkter från katalogen i den försäljningskanal som konfigurerats i Channel Manager.'' '
 exl-id: 00932df7-bdc7-42a1-b269-88dffcc918bc
-source-git-commit: d9b39984fc7401c42fc431f35cf5649f86f4f2f9
+source-git-commit: 638ba8c595652e66aa5f15f5207855c6d2b872d7
 workflow-type: tm+mt
-source-wordcount: '324'
+source-wordcount: '327'
 ht-degree: 0%
 
 ---

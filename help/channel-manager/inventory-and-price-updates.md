@@ -1,10 +1,10 @@
 ---
 title: Lager- och prisuppdateringar
-description: '''[!DNL Channel Manager] synkroniserar lager- och prisuppdateringar mellan Commerce Store och [!DNL Walmart Marketplace] så att du kan hantera dina säljkanalsåtgärder från din Commerce Admin'
+description: '''[!DNL Channel Manager] synkroniserar lager- och prisuppdateringar mellan [!DNL Commerce] lagra och [!DNL Walmart Marketplace] så att du kan hantera dina säljkanalsåtgärder via [!DNL Commerce] Administratör'
 exl-id: 4dd9fa4a-b12f-4795-a7b2-84ea0fc26aa5
-source-git-commit: 97128dcf45d7672e958c771f88389aba40c6e39e
+source-git-commit: 8146be1c94ffb1c8abd0d28e53d3476fd78f2c62
 workflow-type: tm+mt
-source-wordcount: '352'
+source-wordcount: '351'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Efter [!DNL Channel Manager] installeras och konfigureras, synkroniseras alla lager-, pris- och orderuppdateringar automatiskt. Om du redan säljer på Walmart Marketplace, antingen direkt eller via en annan integrering, måste du inaktivera den tidigare integreringen och kontrollera att lagernivåerna och priserna i Commerce Store är korrekta och matchar informationen i [!DNL Walmart Marketplace] innan du ansluter [!DNL Channel Manager] till marknadsplatsen.
+>Efter [!DNL Channel Manager] installeras och konfigureras, synkroniseras alla lager-, pris- och orderuppdateringar automatiskt. Om du redan säljer på Walmart Marketplace måste du inaktivera alla andra integreringar som uppdaterar produkt- och orderdata. Verifiera sedan lagernivåerna och priserna i [!DNL Commerce] storefront är korrekt och matchar data i [!DNL Walmart Marketplace] innan du ansluter [!DNL Channel Manager] till marknadsplatsen.
 
 
 ## Lageruppdateringar

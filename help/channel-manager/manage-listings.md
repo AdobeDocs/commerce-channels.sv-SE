@@ -1,10 +1,10 @@
 ---
 title: Hantera listor
-description: Hantera säljkanalslistor för en [!DNL Commerce] lagra med Channel Manager för Adobe Commerce och Magento Open Source.
+description: Hantera säljkanalslistor för en [!DNL Commerce] lagra med Channel Manager för Adobe Commerce och Magento Open Source.'
 exl-id: 70999552-9ba7-4b10-a8ee-ee99bc4fe837
-source-git-commit: 690eeb5d03b23cac11f3c14b04601c514c76e0bd
+source-git-commit: 638ba8c595652e66aa5f15f5207855c6d2b872d7
 workflow-type: tm+mt
-source-wordcount: '735'
+source-wordcount: '733'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ Du kan utföra följande uppgifter i listvyn.
 * Lägg till produkter
 * Matcha produkter
 * Status för spårlista
-* Felbeskrivning för alla produktlistor med felstatus
+* Granska felbeskrivningen för listor med felstatus
 
 ## Visa produktlistor
 
@@ -40,7 +40,7 @@ Du kan utföra följande uppgifter i listvyn.
 
 1. Återställ sorteringsordningen och ta bort filter genom att välja **Uppdatera produkter**.
 
-## Lägg till handelsprodukter i kanalhanteraren
+## Lägg till [!DNL Commerce] produkter till Channel Manager
 
 Skapa produktsortimentet för [!DNL Walmart Marketplace] genom att utföra följande uppgifter:
 
@@ -93,7 +93,7 @@ På arbetsytan Lista visas statusetiketten var en produkt finns i [!DNL Channel 
 
 * **[!UICONTROL Match]**-Identifierar produkter som matchades korrekt [!DNL Walmart].
 
-   En matchning inträffar när produktattributvärdet - till exempel UPC-koden - matchar UPC-värdet i ett befintligt [!DNL Walmart Marketplace] lista. När en produkt matchar läggs erbjudandet om Commerce-produkt till i den befintliga [!DNL Walmart] lista.
+   En matchning inträffar när produktattributvärdet - till exempel UPC-koden - matchar UPC-värdet i ett befintligt [!DNL Walmart Marketplace] lista. När en produkt matchar läggs erbjudandet om Commerce-produkt till i den befintliga listan.
 
    Kontrollera [[!UICONTROL Walmart Marketplace Seller Account Items]](https://seller.walmart.com/items-and-inventory/manage-items) kontrollpanel för att granska den uppdaterade produktlistan och verifiera produktinformation, pris och lagerkvantitet.
 

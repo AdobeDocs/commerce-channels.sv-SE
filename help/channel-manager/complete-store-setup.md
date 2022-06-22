@@ -1,17 +1,17 @@
 ---
-title: Slutför konfiguration av försäljningskanal
-description: Navigera till en ansluten försäljningskanal för att hantera produktlistor, lager- och prisuppdateringar samt spåra order
+title: Komplett kanalinställning
+description: När du har skapat en försäljningskanal som ansluter en [!DNL Commerce] Lagra vy till [!DNL Walmart Marketplace]öppnar du kanalen och slutför kanalkonfigurationen. Börja sedan med att lägga till produkter, hantera listor, lager, priser och beställningar från [!DNL Channel Manager].'
 exl-id: 12127e3b-55c1-4db6-98b2-6dc8bdaae139
-source-git-commit: 174c4fa6da5f2b907a8dd1f96d9ca379770f848d
+source-git-commit: 8146be1c94ffb1c8abd0d28e53d3476fd78f2c62
 workflow-type: tm+mt
-source-wordcount: '185'
+source-wordcount: '193'
 ht-degree: 0%
 
 ---
 
 # Slutför konfiguration av försäljningskanal
 
-När du har anslutit en Commerce Store till [!DNL Walmart Marketplace], fullständig butikskonfiguration från [!DNL Channel Manager] hemsida.
+När du har anslutit en [!DNL Commerce] lagra till [!DNL Walmart Marketplace], fullständig butikskonfiguration från [!DNL Channel Manager] hemsida.
 
 1. Välj **[!UICONTROL Marketing** > **Kanalhanteraren**].
 
@@ -31,8 +31,8 @@ När du har anslutit en Commerce Store till [!DNL Walmart Marketplace], fullstä
 
    - [Visa och hantera [!DNL Walmart] order från [!DNL Commerce Admin]](manage-orders.md)
 
-När du har skapat försäljningskanalen och matchat produkter med [!DNL Walmart Marketplace]kan du hantera alla produktlistor, lager, priser, order, leveranser och annulleringar från [!DNL Commerce]. Produkt- och orderdata synkroniseras automatiskt från [!DNL Commerce] till [!DNL Walmart Marketplace]. Förebygga konflikter eller avvikelser mellan [!DNL Commerce] och [!DNL Walmart Marketplace] uppdateringar, uppdatera inte produkt- eller orderdata för [!DNL Commerce] produkter från [!DNL Walmart Marketplace] konto.
+När du har skapat försäljningskanalen och matchat produkter med [!DNL Walmart Marketplace]kan du hantera alla produktlistor, lager, priser, order, leveranser och annulleringar från [!DNL Commerce]. Lista-, lager-, prissättnings- och orderdata synkroniseras automatiskt från [!DNL Commerce] till [!DNL Walmart Marketplace]. Förebygga konflikter eller avvikelser mellan [!DNL Commerce] och [!DNL Walmart Marketplace] uppdateringar, uppdatera inte produkt- eller orderdata för [!DNL Commerce] produkter från [!DNL Walmart Marketplace] konto.
 
 >[!IMPORTANT]
 >
->I vissa fall, när [!DNL Channel Manager] returnerar fel under orderbehandlingen. Du kan behöva slutföra beställning, leverans eller annullering från [!DNL Walmart Marketplace]. Se [Åtgärda orderfel](process-orders.md#fix-order-errors).
+>If [!DNL Channel Manager] returnerar fel under orderbehandlingen, du kan slutföra beställning, leverans eller annullering från [!DNL Walmart Marketplace]. Se [Åtgärda orderfel](process-orders.md#fix-order-errors).

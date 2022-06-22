@@ -1,12 +1,12 @@
 ---
 title: Inbyggt [!DNL Channel Manager]
-description: Anslut instansen till [!DNL Channel Manager] genom att utföra några steg.
+description: '''Anslut instansen till [!DNL Channel Manager] genom att slutföra några startsteg."'
 role: User
 level: Intermediate
 exl-id: 7c4ccd9e-ae32-4511-8d1e-baa690604612
-source-git-commit: 07e1faf90676b404e3f5ee28ddc13d81ea82a5a5
+source-git-commit: 638ba8c595652e66aa5f15f5207855c6d2b872d7
 workflow-type: tm+mt
-source-wordcount: '457'
+source-wordcount: '453'
 ht-degree: 0%
 
 ---
@@ -34,11 +34,11 @@ När du är klar med introduktionen konfigurerar och hanterar du säljkanalsåtg
 
 - **Information om handelskonto**-Hämta och installera [!DNL Channel Manager] kräver [Handelskonto](https://docs.magento.com/user-guide/magento/magento-account.html){target=&quot;_blank&quot;}. Du behöver ett konto-ID och autentiseringsuppgifter med ägar- eller administratörsåtkomst till [!DNL Adobe Commerce] eller [!DNL Magento Open Source] -instans.
 
-   - **BILD-ID**-[Logga in](https://account.magento.com/customer/account/login/) till Commerce-kontot för att hämta ID:t från **[!UICONTROL My Account - Magento settings]**.
+   - **BILD-ID**-[Logga in](https://account.magento.com/customer/account/login/) till [!DNL Commerce] konto att hämta ID från **[!UICONTROL My Account - Magento settings]**.
 
-      ![[!DNL MAGEID] på inställningar för Commerce-konto](assets/mageid-my-commerce-account.png)
+      ![[!DNL MAGEID] på [!DNL Commerce] kontoinställningar](assets/mageid-my-commerce-account.png)
 
-   - **Åtkomstnycklar-** Hämta autentiseringsnycklar för att hämta Commerce-tillägg från Commerce Composer-databasen `([!DNL repo.magento.com]`).
+   - **Åtkomstnycklar-** Hämta autentiseringsnycklar att hämta [!DNL Commerce] tillägg från [!DNL Commerce] Dispositionsdatabas `([!DNL repo.magento.com]`).
 
       ![[!UICONTROL Commerce Marketplace access keys]](assets/commerce-marketplace-access-keys.png)
 

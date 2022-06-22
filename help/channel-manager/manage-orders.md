@@ -1,23 +1,23 @@
 ---
-title: '"Hantera [!DNL Walmart Marketplace] Beställningar"'
-description: '"Visa och hantera [!DNL Walmart Marketplace] order med [!DNL Channel Manager] för Adobe Commerce och Magento Open Source."'
+title: Visa och spåra order från [!DNL Channel Manager]'
+description: Visa och hantera [!DNL Walmart Marketplace] order med [!DNL Channel Manager] för Adobe Commerce och Magento Open Source."
 exl-id: c2779c72-4793-445c-858a-867ea8389662
-source-git-commit: eb57189ed866fffa064867d1de5ae9db5b32e283
+source-git-commit: 8146be1c94ffb1c8abd0d28e53d3476fd78f2c62
 workflow-type: tm+mt
-source-wordcount: '863'
+source-wordcount: '856'
 ht-degree: 0%
 
 ---
 
-# Hantera [!DNL Walmart Marketplace] order
+# Visa och spåra order från [!DNL Channel Manager]
 
 [!DNL Walmart Marketplace] orderdata för [!DNL Commerce] produkter synkroniseras automatiskt till [!DNL Channel Manager] efter [!DNL Walmart] bearbetar ordern.
 
-På Commerce-sidan utlöser en lyckad synkronisering följande åtgärder:
+På [!DNL Commerce] en lyckad synkronisering utlöser följande åtgärder:
 
 - [!DNL Channel Manager] skickar en orderbekräftelse till Walmart.
 
-- En motsvarande handelsorder skapas från Walmart-ordern.
+- En motsvarande [!DNL Commerce] ordern skapas från Walmart-ordningen.
 
 - Den uppdaterade orderinformationen visas på [!DNL Channel Manager] Kontrollpanel för beställningar.
 
@@ -40,7 +40,7 @@ I följande tabeller beskrivs de kontroller och kolumner som är tillgängliga f
 **Kolumnbeskrivningar**
 
 | Fält | Beskrivning |
-|-----------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|-----------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Walmart Order Number] | Inköpsordernummer som tilldelats ordern i [!DNL Walmart Marketplace]. När en order importeras till [!DNL Channel Manager], bara [!DNL Walmart] ordernummer visas. När [!DNL Commerce] order skapas, [!DNL Walmart] ordernumret lagras i [!UICONTROL External ID] produktattribut. |
 | [!DNL Commerce] Ordernummer | Numret som tilldelats [!DNL Commerce] order som skapats från [!DNL Walmart Marketplace] beställa. |
 | Objekt | Antal beställda artiklar [!DNL Walmart Marketplace]. |
@@ -50,7 +50,7 @@ I följande tabeller beskrivs de kontroller och kolumner som är tillgängliga f
 | [!UICONTROL Deliver By Date] | Datum då ordern måste levereras till kunden för att kunna mötas [!DNL Walmart Marketplace] krav i UTC-format. |
 | [!UICONTROL Ship Method] | The [[!DNL Walmart Marketplace] Leveranssätt](https://sellerhelp.walmart.com/s/guide?article=000007893) markerat för ordern. |
 | [!UICONTROL Last Update At] | Tidsstämpel som anger senaste gången orderdata uppdaterades i [!DNL Channel Manager] i UTC-format. |
-| [!UICONTROL Status] | Anger aktuell orderstatus i [!DNL Commerce] orderarbetsflöde. Ursprunglig status för en order som importerats från [!DNL Walmart Marketplace] är _Öppna_. Ytterligare statusuppdateringar inträffar när handelsorder bearbetas och [!DNL Channel Manager] har synkroniserat försändelse, partiell leverans och annulleringsuppdateringar för [!DNL Walmart Marketplace]. |
+| [!UICONTROL Status] | Anger aktuell orderstatus i [!DNL Commerce] orderarbetsflöde. Ursprunglig status för en order som importerats från [!DNL Walmart Marketplace] är _Öppna_. Ytterligare statusuppdateringar sker när [!DNL Commerce] beställningar behandlas och [!DNL Channel Manager] har synkroniserat försändelse, partiell leverans och annulleringsuppdateringar för [!DNL Walmart Marketplace]. |
 | [!UICONTROL Error Description] | Ger mer detaljerad information om beställningar med en _[!UICONTROL Error]_status. |
 
 ## Orderstatus
@@ -60,7 +60,7 @@ I följande tabeller beskrivs de kontroller och kolumner som är tillgängliga f
 
 - **[!UICONTROL Shipped]**-Beställningar som har skickats från [!DNL Commerce] butik. När ordern levereras, [!DNL Channel Manager] skickar en uppdatering till [!DNL Walmart Marketplace] för att uppdatera leveransstatus på Walmart och ange orderspårningsnumret för leveransen.
 
-- **[!UICONTROL Partially Shipped]**—Beställningar med artiklar markerade som levererade och andra som väntar på att skickas. När artiklar i orderleveransen [!DNL Channel Manager] skickar en uppdatering till [!DNL Walmart Marketplace] för att uppdatera leveransstatus till delvis levererad vid Walmart och ange orderspårningsnumret för leveransen.
+- **[!UICONTROL Partially Shipped]**—Beställningar med artiklar markerade som levererade och andra som väntar på att skickas. När artiklar i orderleveransen [!DNL Channel Manager] skickar en uppdatering till [!DNL Walmart Marketplace] för att uppdatera leveransstatus till _[!DNL Partially Shipped]_på Walmart och ange orderspårningsnumret för leveransen.
 
 - **[!UICONTROL Canceled]**-Beställningar som har avbrutits från [!DNL Commerce] butik.
 
@@ -72,7 +72,7 @@ I följande tabeller beskrivs de kontroller och kolumner som är tillgängliga f
 
 >[!NOTE]
 >
->Om orderartiklar skickas i flera leveranser visas orderstatusen i [!DNL Channel Manager] återspeglar den senaste orderstatusen som är tillgänglig. Om till exempel det första objektet skickas och inga fel returneras när orderuppdateringarna synkroniseras med [!DNL Channel Manager] och [!DNL Walmart Marketplace], [!DNL Channel Manager] orderstatus är _[!UICONTROL Partially Shipped]_.  Om en andra artikel har levererats och [!Channel Manager] returnerar ett fel, orderstatusen uppdateras till_[!UICONTROL Error]_.
+>Om orderartiklar skickas i flera leveranser visas orderstatusen i [!DNL Channel Manager] återspeglar den senaste tillgängliga orderstatusen. Om till exempel det första objektet skickas och inga fel returneras när orderuppdateringarna synkroniseras med [!DNL Channel Manager] och [!DNL Walmart Marketplace], [!DNL Channel Manager] orderstatus är _[!UICONTROL Partially Shipped]_. Om en andra artikel har levererats och [!DNL Channel Manager] returnerar ett fel, orderstatusen uppdateras till_[!UICONTROL Error]_.
 
 ## Granska beställningar
 
@@ -82,7 +82,7 @@ I följande tabeller beskrivs de kontroller och kolumner som är tillgängliga f
 
 1. Om du vill visa orderinformation väljer du *[!UICONTROL *Orders]**.
 
-1. Hämta information om beställningen och avgöra vilka steg som ska utföras genom att kontrollera **[Status](#about-order-status)** för att få information om beställningarna.
+1. Hämta information om beställningen och avgöra vilka steg som ska utföras genom att kontrollera **[Status](#about-order-status)** kolumn.
 
 ## Visa orderdetaljer
 

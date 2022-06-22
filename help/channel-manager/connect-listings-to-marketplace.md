@@ -1,10 +1,10 @@
 ---
 title: Anslut listor till Walmart
-description: Koppla listor för Commerce-produkter till [!DNL Walmart Marketplace]för att börja sälja.
+description: '''Anslut listor för [!DNL Commerce] produkter till [!DNL Walmart Marketplace]att börja sälja."'
 exl-id: 78078b14-ebdd-415d-9486-66b0150167aa
-source-git-commit: 418bb6a91817f49f3c3ae39a8d26370bfeb39099
+source-git-commit: bc2e14714e9b532263c480395da28b31b4c3797c
 workflow-type: tm+mt
-source-wordcount: '1110'
+source-wordcount: '1103'
 ht-degree: 0%
 
 ---
@@ -15,13 +15,13 @@ Precis som andra marknadsplatser [!DNL Walmart] gör det möjligt för tredjepar
 
 - [!DNL Walmart Marketplace] använder produktidentifierare som UPC och GTIN för att matcha produkter med befintliga [!DNL Walmart Marketplace] listor.
 
-- För matchade produkter uppdateras Walmart Marketplace-listan så att den omfattar Commerce-produkterbjudandet när du ansluter en produkt från [!DNL Channel Manager].
+- För matchade produkter uppdateras Walmart Marketplace-listan med [!DNL Commerce] produkterbjudande när du ansluter en produkt från [!DNL Channel Manager].
 
 - Oftast visas erbjudanden med de lägsta priserna först i [!DNL Walmart Marketplace] men andra faktorer som granskningar påverkar också placeringen.
 
 ## Matcha produkter
 
-När du matchar produkter skickar Channel Manager produktdata till [!DNL Walmart Marketplace] om du vill söka efter befintliga listor med attributvärden som matchar det mappade Commerce-produktattributet. Matchningskriterierna bestäms av [konfiguration för attributmappning](map-catalog-attributes.md) för er butikskanal.
+När du matchar produkter skickar Channel Manager produktdata till [!DNL Walmart Marketplace] om du vill söka efter befintliga listor med attributvärden som matchar mappningen [!DNL Commerce] produktattribut. Matchningskriterierna bestäms av [konfiguration för attributmappning](map-catalog-attributes.md) för er butikskanal.
 
 Om en matchning hittas uppdateras den befintliga produktlistan så att ditt erbjudande läggs till.
 
@@ -81,7 +81,7 @@ Mer information om felkoder på Walmart Marketplace finns i [Hjälp för Walmart
 
 ## Överför nya produktlistor
 
-För produkter som inte matchar på Walmart Marketplace använder du en valmart-produktkategorimall i Excel för att massöverföra produktlistor. Du fyller i Walmart-mallen med produktkatalogdata som exporteras från din Commerce-instans.
+För produkter som inte matchar på Walmart Marketplace använder du en valmart-produktkategorimall i Excel för att massöverföra produktlistor. Du fyller i Walmart-mallen med produktkatalogdata som exporterats från [!DNL Commerce] -instans.
 
 Om du vill se nya produktlistor kontrollerar du i produktkatalogen att de produkter du tänker sälja på Walmart Marketplace har de attribut som krävs för produktlistor på Walmart Marketplace.
 
@@ -113,7 +113,7 @@ Om du vill se nya produktlistor kontrollerar du i produktkatalogen att de produk
 
 - Verifiera att du uppfyller [Krav för Walmart](walmart-requirements.md).
 
-- Kontrollera att katalogkonfigurationen för de produkter som ska listas på Walmart Marketplace har alla nödvändiga attribut i din Commerce-produktkatalog och uppfyller riktlinjerna för innehåll på Walmart Marketplace.
+- I [!DNL Commerce] verifiera att katalogkonfigurationen för de produkter som ska listas på Walmart Marketplace har alla nödvändiga attribut och uppfyller riktlinjerna för innehåll på Walmart Marketplace.
 
 - Kontrollera att cron-jobbet körs för att slutföra exportåtgärden.
 
@@ -135,16 +135,16 @@ Om du vill se nya produktlistor kontrollerar du i produktkatalogen att de produk
 
    - Kontrollera att mallen innehåller de obligatoriska och rekommenderade attributen för produktlistan.
 
-1. Från [!DNL Commerce] Administratören väljer produktdata som ska exporteras från Adobe Commerce webbplats.
+1. Från [!DNL Commerce] Admin, välj produktdata som ska exporteras från Adobe [!DNL Commerce] webbplats.
 
    - Välj [!UICONTROL **System** > Dataöverföring > **Exportera**].
 
    - På [!UICONTROL Export] sidan i [!UICONTROL Entity Type] fält, markera [!UICONTROL **Produkter**].
 
    - I [!UICONTROL Entity Attributes] konfigurera urvalskriterierna för export av produktdata.
-   ![Exportera produktdatasidan i [!UICONTROL Commerce Admin]](assets/walmart-seller-account-full-setup-download.png)
+   ![Exportera produktdatasidan i [!UICONTROL [!DNL Commerce] Admin]](assets/walmart-seller-account-full-setup-download.png)
 
-   Använd filter för att välja och konfigurera attributvärden som gäller för de produktkategorier som du säljer in. Se till att du inkluderar de attribut som krävs och rekommenderas för Walmart (se [Exportera data](https://docs.magento.com/user-guide/system/data-export.html) i användarhandboken för Adobe Commerce för detaljerade anvisningar.)
+   Använd filter för att välja och konfigurera attributvärden som gäller för de produktkategorier som du säljer in. Se till att du inkluderar de attribut som krävs och rekommenderas för Walmart (se [Exportera data](https://docs.magento.com/user-guide/system/data-export.html) i Adobe [!DNL Commerce] Användarhandbok för detaljerade anvisningar.)
 
    Om du vill utesluta ett attribut från exporten markerar du [!UICONTROL **Exkludera**] i början av raden.
 

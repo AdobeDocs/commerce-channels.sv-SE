@@ -1,10 +1,10 @@
 ---
-title: '"[!DNL Walmart] Krav"'
-description: '"Kontrollera att du har rätt[!DNL Walmart Marketplace]information och resurser som kan integreras med Channel Manager."'
+title: '''[!DNL Walmart] Krav'
+description: '''Verifiera att du har rätt [!DNL Walmart Marketplace]information och resurser som kan integreras med Channel Manager."'
 exl-id: c4f247e8-280a-4595-a6c8-cf8b732d7aab
-source-git-commit: 07e1faf90676b404e3f5ee28ddc13d81ea82a5a5
+source-git-commit: 4f0c40d7bcd05f7c8708d0d339cc29d920d646d5
 workflow-type: tm+mt
-source-wordcount: '343'
+source-wordcount: '354'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 * En API-nyckel för att ansluta Adobe Commerce eller Magento Open Source till [!DNL Walmart Marketplace]
 
-   The [!DNL Walmart Marketplace] API-nyckeln möjliggör integrering mellan [!DNL Channel Manager] för Adobe Commerce eller Magento Open Source och Walmart Marketplace. Konfigurera API-nyckeln i Seller Central innan du startar Channel Manager-introduktionsprocessen.
+   The [!DNL Walmart Marketplace] API-nyckeln möjliggör integrering mellan [!DNL Channel Manager] för Adobe [!DNL Commerce] eller Magento Open Source och Walmart Marketplace. Konfigurera API-nyckeln i Seller Central innan du startar Channel Manager-introduktionsprocessen.
 
 ## Konfigurera en [!DNL Walmart Seller] konto
 
@@ -62,5 +62,5 @@ När du kopplar produkter till marknadsplatsen beror listningstillgängligheten 
 
 >[!IMPORTANT]
 >
->Efter [!DNL Channel Manager] installeras och konfigureras, synkroniseras alla lager-, pris- och orderuppdateringar automatiskt. Anslut inte Channel Manager till en live Walmart Marketplace-butik förrän du har inaktiverat andra integreringar som uppdaterar produkt- och orderdata och du är redo att synkronisera Commerce-uppdateringar till [!DNL Walmart Marketplace].
+>Efter [!DNL Channel Manager] installeras och konfigureras, synkroniseras alla lager-, pris- och orderuppdateringar automatiskt. Anslut inte [!DNL Channel Manager] till en live Walmart Marketplace-butik tills du har inaktiverat andra integreringar som uppdaterar produkt- och orderdata. Om du har konfigurerat andra integreringar kontrollerar du att artikelkvantiteten och priserna [!DNL Commerce] matchar kvantiteterna i [!DNL Walmart Marketplace] innan du ansluter till en livebutik.
 

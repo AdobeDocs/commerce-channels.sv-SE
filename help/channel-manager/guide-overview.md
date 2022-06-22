@@ -1,12 +1,12 @@
 ---
 title: '''[!DNL Channel Manager] Guide overview'''
-description: Omfattande information om [!DNL Channel Manager] för Adobe Commerce- och Magento Open Source-administratörer, inklusive installation och introduktion
+description: '''Omfattande information om [!DNL Channel Manager] för administratörer av Adobe Commerce och Magento Open Source, inklusive installation och introduktion."'
 seo-title: Adobe Commerce Channel Manager Guide
 seo-description: Describes how to use [!DNL Channel Manager] with Adobe Commerce or Magento Open Source.
 exl-id: 0703741b-77e0-47b0-917f-b25d14afa7ae
-source-git-commit: 07e1faf90676b404e3f5ee28ddc13d81ea82a5a5
+source-git-commit: 638ba8c595652e66aa5f15f5207855c6d2b872d7
 workflow-type: tm+mt
-source-wordcount: '217'
+source-wordcount: '215'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # Översikt
 
-Den här handboken är avsedd för administratörer av Adobe Commerce och Magento Open Source. Den innehåller detaljerad information om [!DNL Channel Manager] installation, introduktion, konfiguration och hantering. Handboken bygger på en grundläggande förståelse av viktiga konfigurationer och funktioner i Commerce.
+Den här handboken är avsedd för administratörer av Adobe Commerce och Magento Open Source. Den innehåller detaljerad information om [!DNL Channel Manager] installation, introduktion, konfiguration och hantering. Handboken förutsätter en grundläggande förståelse av kärnan [!DNL Commerce] konfiguration och funktionalitet.
 
 [!DNL Channel Manager] har två områden för administratörer:
 
@@ -23,7 +23,7 @@ Den här handboken är avsedd för administratörer av Adobe Commerce och Magent
 
 Den här guiden täcker:
 
-* Alla [!DNL Channel Manager]-specifika uppgifter som har slutförts från Commerce Admin.
+* Alla [!DNL Channel Manager]-specifika uppgifter som har slutförts från [!DNL Commerce] Admin.
 * Alla [!DNL Channel Manager]-specifika uppgifter som har slutförts från kommandoraden.
 
 Mer information om hur du hanterar [!DNL Commerce] plattform, projekt och webbplatser, se Adobe Commerce och Magento Open Source användarhandböcker och utvecklarhandböcker.

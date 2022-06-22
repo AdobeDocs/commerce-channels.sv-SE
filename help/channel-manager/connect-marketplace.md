@@ -1,27 +1,27 @@
 ---
-title: Koppla försäljningskanal till [!DNL Walmart Marketplace]
-description: Konfigurera säljkanalen och anslut till Walmart Marketplace.
+title: '''Anslut [!DNL Channel Manager] till [!DNL Walmart Marketplace]'''
+description: '"Anslut en Commerce Store-vy till [!DNL Walmart Marketplace] för att skapa en försäljningskanal för att hantera Commerce-produktlistor, lager, pris och order för Walmart Marketplace-försäljning."'
 exl-id: 8c78c582-7b57-4f73-894e-134ba0ba3640
-source-git-commit: 07e1faf90676b404e3f5ee28ddc13d81ea82a5a5
+source-git-commit: 8146be1c94ffb1c8abd0d28e53d3476fd78f2c62
 workflow-type: tm+mt
-source-wordcount: '351'
+source-wordcount: '377'
 ht-degree: 0%
 
 ---
 
-# Koppla försäljningskanal till [!DNL Walmart Marketplace]
+# Anslut [!DNL Channel Manager] till [!DNL Walmart Marketplace]
 
-När du har installerat Channel Manager på din [!DNL Commerce] instans, ansluta en [!DNL Commerce] lagra till [!DNL Walmart Marketplace].
+När du har installerat Channel Manager på din [!DNL Commerce] skapa en försäljningskanal i Channel Manager och konfigurera autentiseringsuppgifterna för att ansluta [!DNL Channel Manager] till [!DNL Walmart Marketplace].
 
->[!NOTE]
->
->Channel Manager kräver en 1:1-anslutning mellan ett Walmart-konto och en Commerce Store-vy. Du kan inte ansluta samma butiksvy till flera Walmart-konton.
-
-1. [Skapa försäljningskanalen](#create-the-sales-channel) genom att välja Commerce Store för produktlistor.
+1. [Skapa försäljningskanalen](#create-the-sales-channel) genom att välja [!DNL Commerce] lagra produktlistor.
 
 1. [Ansluta kanalen till [!DNL Walmart Marketplace] genom att lägga till [!UICONTROL Walmart API credentials]](#connect-the-channel-to-walmart-marketplace).
 
 1. [Slutför konfiguration av försäljningskanal](#complete-store-setup) för att hantera listor, lager, priser och beställningar för [!DNL Walmart Marketplace] produktsortiment.
+
+>[!NOTE]
+>
+>Channel Manager kräver en 1:1-anslutning mellan ett Walmart-konto och ett [!DNL Commerce] butiksvy. Du kan inte ansluta samma butiksvy till flera Walmart-konton.
 
 ## Skapa försäljningskanalen
 
@@ -37,15 +37,15 @@ När du har installerat Channel Manager på din [!DNL Commerce] instans, ansluta
 
    - Välj **[!UICONTROL Add Credentials]**.
 
-   - Välj [!DNL Commerce] butiksvy för att ansluta till marknadsplatsen.
+   - Välj [!DNL Commerce] butiksvy som erbjuder de produkter du vill sälja på marknaden.
 
-      ![Konfigurera anslutning mellan Commerce och [!DNL Walmart Marketplace] från [!DNL Channel Manager]](assets/configure-commerce-to-marketplace-connection.png)
+      ![Konfigurera anslutning mellan [!DNL Commerce] och [!DNL Walmart Marketplace] från [!DNL Channel Manager]](assets/configure-commerce-to-marketplace-connection.png)
 
    - Ange ett unikt **[!UICONTROL store name]**.
 
-   - Välj **[!UICONTROL Adobe Commerce site]** för produktlistor.
+   - Välj **[!UICONTROL Adobe [!DNL Commerce] site]** för produktlistor och orderhantering.
 
-   - Lägg till en **[!UICONTROL email address]** för att ta emot tjänstmeddelanden relaterade till [!DNL Channel Manager].
+   - Att ta emot meddelanden relaterade till [!DNL Channel Manager], lägga till **[!UICONTROL email address]**.
 
 1. Ansluta kanalen till [!DNL Walmart Marketplace].
 

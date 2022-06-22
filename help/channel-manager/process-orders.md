@@ -1,10 +1,10 @@
 ---
 title: Bearbeta order
-description: Instruktioner för frakt och annullering [!DNL Walmart Marketplace] beställningar från Adobe Commerce och Magento Open Source.
+description: Instruktioner för frakt och annullering [!DNL Walmart Marketplace] beställningar från Adobe Commerce och Magento Open Source."
 exl-id: 2fdcb348-5c02-464f-a114-16ec657bed6b
-source-git-commit: aeb3e4883a92f8dbd1725a70102401ad733ee391
+source-git-commit: 638ba8c595652e66aa5f15f5207855c6d2b872d7
 workflow-type: tm+mt
-source-wordcount: '504'
+source-wordcount: '502'
 ht-degree: 0%
 
 ---
@@ -13,13 +13,13 @@ ht-degree: 0%
 
 Efter [!DNL Walmart Marketplace] beställningar har bekräftats och skickats till [!DNL Channel Manager]använder du [Hantering av handelsorder](https://docs.magento.com/user-guide/sales/orders-workspace.html) för att bearbeta ordern.
 
-Channel Manager synkroniserar uppdateringar med [!DNL Walmart Marketplace] för att säkerställa att orderstatus och leveransinformation från Commerce överensstämmer med de data som spåras i [!DNL Walmart Marketplace].
+Channel Manager synkroniserar uppdateringar med [!DNL Walmart Marketplace] för att säkerställa orderstatus och leveransinformation från [!DNL Commerce] matchar data som spåras i [!DNL Walmart Marketplace].
 
 * **Beställa försändelser**-Walmart kräver ett spårningsnummer för alla leveranser. Om några artiklar inte finns i lager kan du skapa partiella leveranser för att skicka artiklar som är tillgängliga just nu. När du har skickat leveransen synkroniseras orderuppdateringarna med [!DNL Walmart Marketplace]. Sedan meddelar Walmart sina kunder om orderstatus och leveransinformation.
 
 * **Orderannulleringar**-När du avbryter en [!DNL Walmart Marketplace] order kräver Walmart en orsak till annullering som ingår i det beställningsmeddelande som skickas till kunden. Orsaken till annulleringen visas också i [!DNL Commerce] beställa betalningsinformation. När du har skickat annulleringen synkroniseras lageruppdateringarna med [!DNL Walmart Marketplace]. Sedan meddelar Walmart sina kunder om orderstatus och leveransinformation.
 
-   I butiken måste du annullera hela ordern. Handel tillåter inte partiella annulleringar.
+   I butiken måste du annullera hela ordern. [!DNL Commerce] tillåter inte partiella annulleringar.
 
 När handelsorder bearbetas och [!DNL Channel Manager] har synkroniserat försändelse, partiell leverans och annulleringsuppdateringar för [!DNL Walmart Marketplace]är orderbehandlingen slutförd.
 
@@ -58,7 +58,7 @@ När handelsorder bearbetas och [!DNL Channel Manager] har synkroniserat försä
 
 1. Visa [!DNL Walmart Marketplace] order, välj *[!UICONTROL *Orders]**.
 
-1. Öppna sidan med orderinformation i tabellen Order (Beställningar) genom att välja **Handelsordernummer** för ordern att annullera.
+1. I tabellen Order (Beställningar) öppnar du [orderdetaljsida](manage-orders.md#view-order-detail) genom att välja **Handelsordernummer** för ordern att annullera.
 
    ![Detaljvy för handelsorder för en[!DNL Walmart Marketplace]order](assets/order-detail-with-external-order-id.png)
 
