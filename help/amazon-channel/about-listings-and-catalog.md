@@ -2,9 +2,9 @@
 title: Om Amazon och Commerce Catalog
 description: Amazon försäljningskanal importerar dina Amazon-listor till din Commerce-server och synkroniserar dem kontinuerligt med produkter och försäljning.
 exl-id: 659c9830-0a1d-4a0d-bb9c-afb609c0fbba
-source-git-commit: 2c753ec5f6f4cd509e61b4875e09e9a1a2577ee7
+source-git-commit: 5d30a5282ede2db0d9619eb2263b733328d26426
 workflow-type: tm+mt
-source-wordcount: '626'
+source-wordcount: '623'
 ht-degree: 0%
 
 ---
@@ -13,13 +13,13 @@ ht-degree: 0%
 
 Adobe Commerce eller Magento Open Source har en katalog med alla produkter och tillhörande inställningar och information (bilder, alternativ, priser med mera) samt beställnings- och leveranskonfigurationer. Dina [!DNL Amazon Seller Central] kontot har också en katalog- och orderkonfiguration som strikt följer din försäljning via [!DNL Amazon Marketplace].
 
-För att hantera och granska produktkataloger och försäljning på ett och samma ställe importerar Amazon försäljningskanal dina Amazon-listor till [!DNL Commerce] i ryggen, synkroniseras kontinuerligt med produkter och försäljning, och rapporterar problem och trender. Den stöder integrering med flera [!DNL Amazon Seller Central] konton, spåra alla data via ett enda gränssnitt för flera butiker.
+För att kunna hantera och granska produktkataloger och försäljning på ett och samma ställe importerar Amazon försäljningskanal dina Amazon-listor till [!DNL Commerce] i ryggen, synkroniseras kontinuerligt med produkter och försäljning, och rapporterar problem och trender. Den stöder integrering med flera [!DNL Amazon Seller Central] konton, spåra alla data via ett enda gränssnitt för flera butiker.
 
 ## Produktattribut
 
 Adobe Commerce och Magento Open Source hanterar katalogsynkronisering med hjälp av produkten [attributes](https://docs.magento.com/user-guide/catalog/product-attributes.html){target=&quot;_blank&quot;} för att definiera produktinställningar och data. Amazon använder också attribut som mappas via onboarding. Under [förinställningsuppgifter](./amazon-pre-setup-tasks.md) för Amazon försäljningskanal kan du definiera ytterligare Amazon-attribut (om det behövs) för att säkerställa att produktmappningarna är korrekta när du importerar Amazon-listor till dina [!DNL Commerce] katalog. Bland dessa attribut finns UPC, EAN, ISBN och ASIN ([!DNL Amazon Standard Identification Number]). Genom introduktion kan man synka produkter mellan Amazon och [!DNL Commerce] -kataloger med dina attribut. Korrekt mappning av dina [!DNL Commerce] och Amazon-produkter säkerställer en kontinuerlig synkronisering av produktinformation, beställningar och lager.
 
-Om du inte har dessa attribut skapade eller konfigurerade för katalogen bör du lägga till en [!DNL Commerce] [produktattribut](https://docs.magento.com/user-guide/catalog/product-attributes.html){target=&quot;_blank&quot;} och värden för dina produkter före introduktion. När ett Amazon-attribut importeras kan det användas för sökning, navigering, prisregler och mycket annat. Mer information om dessa attribut finns i [Amazon: Vad är UPC, EAN, ISBN och ASIN?](https://www.amazon.com/gp/seller/asin-upc-isbn-info.html){target=&quot;_blank&quot;}
+Om du inte har dessa attribut skapade eller konfigurerade för katalogen bör du lägga till en [!DNL Commerce] [produktattribut](https://docs.magento.com/user-guide/catalog/product-attributes.html){target=&quot;_blank&quot;} och värden för dina produkter före introduktion. När ett Amazon-attribut importeras kan det användas för sökning, navigering, prisregler och mycket annat. Se [Vad betyder ASIN, UPC, EAN, ISBN, SKU och andra streckkoder?](https://sellerskills.com/multi-channel-operations/what-asin-upc-ean-isbn-sku-and-other-barcodes-mean/#what-is-isbn-number){target=&quot;_blank&quot;}
 
 Efter introduktionen kan du när som helst hantera och uppdatera produktattribut och Amazon-mappningar.
 
