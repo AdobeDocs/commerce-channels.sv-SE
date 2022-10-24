@@ -1,18 +1,18 @@
 ---
-title: Om [!DNL Channel Manager]'
-description: '"Lär dig hur du installerar och använder [!DNL Channel Manager] att integrera Adobe Commerce- och Magento Open Source-butiker med externa marknadsplatser och skapa en försäljningskanal för att hantera Marketplace-listor, priser, lager och försäljning smidigt från er Commerce Admin."'
+title: Introduktion till [!DNL Channel Manager]'
+description: "Lär dig hur du installerar och använder [!DNL Channel Manager] att integrera Adobe Commerce och Magento Open Source butiker med Walmart Marketplace och skapa en försäljningskanal för att hantera marknadsplatslistor, priser, lager och försäljning smidigt från er Commerce Admin."
 role: User
 level: Intermediate
 exl-id: 91265973-d2ad-4925-aa10-260d7e186f20
-source-git-commit: 8146be1c94ffb1c8abd0d28e53d3476fd78f2c62
+source-git-commit: 2e3f8e51b765cda0559d8624d61e1ae9dc1c9667
 workflow-type: tm+mt
-source-wordcount: '622'
+source-wordcount: '707'
 ht-degree: 0%
 
 ---
 
 
-# Om [!DNL Channel Manager]
+# Introduktion till [!DNL Channel Manager]
 
 [!DNL Channel Manager] hjälper handlare att öka försäljningen, nå nya kunder, effektivisera sin försäljning och spara tid genom att integrera en Adobe Commerce- eller Magento Open Source-produktkatalog med [!DNL Walmart Marketplace].
 
@@ -28,13 +28,15 @@ När du har installerat och konfigurerat [!DNL Channel Manager]kan du använda f
 
 * **Inventory management**-Artiklar i säljarens säljarkonto synkroniseras automatiskt och uppdateras från [!DNL Commerce] för att säkerställa korrekta lagernivåer.
 
-* **Prisuppdateringar**-Behåll korrekta priser för marknadsplatslistor med automatisk prissynkronisering. När priset ändras i Adobe Commerce återspeglas ändringarna på marknaden.
+* **Prisuppdateringar**- Behåll korrekt prissättning för marknadsplatslistor med automatisk prissynkronisering. När priset ändras i Adobe Commerce återspeglas ändringarna på marknaden.
 
-* **Orderhantering**-När nya order skapas på en marknad, [!DNL Channel Manager] synkroniserar beställningar med Adobe Commerce och skickar beställningsbekräftelser till marknadsplatsen. Denna källangivelse säkerställer att lagret reserveras för varje order. Det sista steget är att skapa motsvarande order i [!DNL Commerce] Orderhanteringssystem för behandling.
+* **Orderhantering**- När nya order skapas på marknaden [!DNL Channel Manager] synkroniserar beställningar med Adobe Commerce och skickar beställningsbekräftelser till marknadsplatsen. Denna källangivelse säkerställer att lagret reserveras för varje order. Det sista steget är att skapa motsvarande order i [!DNL Commerce] Orderhanteringssystem för behandling.
 
-* **Leveranshantering**-När beställningar har markerats som levererade i Adobe Commerce, skickas leveransuppdateringen till [!DNL Walmart Marketplace]. Detta meddelande säkerställer att säljarna uppfyller sina SLA-krav och att kunderna får meddelanden om leveransuppdateringar för sina aktuella order.
+* **Leveranshantering**- När beställningar har markerats som levererade i Adobe Commerce skickas leveransuppdateringen till [!DNL Walmart Marketplace]. Detta meddelande säkerställer att säljarna uppfyller sina SLA-krav och att kunderna får meddelanden om leveransuppdateringar för sina aktuella order.
 
-* **Annulleringar**-När beställningar annulleras i Adobe Commerce [!DNL Channel Manager] skickar uppdaterad orderinformation till marknadsplatsen för att replikera åtgärden för motsvarande marknadsplatsorder. När ordern har annullerats [!DNL Commerce] Uppdateringar av lagerkvantitet för att spegla returnerade artiklar och lageruppdateringar synkroniseras automatiskt till [!DNL Walmart Marketplace].
+* **Annulleringar**- När beställningar annulleras i Adobe Commerce, [!DNL Channel Manager] skickar uppdaterad orderinformation till marknadsplatsen för att replikera åtgärden för motsvarande marknadsplatsorder. När ordern har annullerats [!DNL Commerce] Uppdateringar av lagerkvantitet för att spegla returnerade artiklar och lageruppdateringar synkroniseras automatiskt till [!DNL Walmart Marketplace].
+
+* **Returer och återbetalningar**- När Walmart Marketplace begär en retur av artiklar som beställts via Adobe Commerce eller Magento Open Source, [!DNL Channel Manager] skickar returbegärandeinformationen till butiken för Commerce-försäljningskanalen för att replikera returbegäran. Därefter kan bidraget bearbetas med [!DNL Commerce] [arbetsflöde för återbetalning](https://docs.magento.com/user-guide/sales/credit-memos.html#refund-workflow), offline-metod. När återbetalningen är slutförd [!DNL Channel Manager] synkroniserar uppdateringen till Walmart så att returstatusen på marknadsplatssäljarkontot kan uppdateras för att återspegla återbetalningen.
 
 ## Förväntad fördröjning för [!DNL Channel Manager] operationer
 

@@ -2,9 +2,9 @@
 title: Bearbeta order
 description: Instruktioner för frakt och annullering [!DNL Walmart Marketplace] beställningar från Adobe Commerce och Magento Open Source."
 exl-id: 2fdcb348-5c02-464f-a114-16ec657bed6b
-source-git-commit: 638ba8c595652e66aa5f15f5207855c6d2b872d7
+source-git-commit: 958f91f0303b823f164e60e56d8dbe4e8c2380f6
 workflow-type: tm+mt
-source-wordcount: '502'
+source-wordcount: '574'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,9 @@ Channel Manager synkroniserar uppdateringar med [!DNL Walmart Marketplace] för 
 
    I butiken måste du annullera hela ordern. [!DNL Commerce] tillåter inte partiella annulleringar.
 
-När handelsorder bearbetas och [!DNL Channel Manager] har synkroniserat försändelse, partiell leverans och annulleringsuppdateringar för [!DNL Walmart Marketplace]är orderbehandlingen slutförd.
+* **Återbetalningsbegäran**-Om en Walmart Marketplace-retur begärs för en levererad order, [!UICONTROL Status details] innehåller en länk till returen. Returer och återbetalningar hanteras från [Returnerar](return-refund-orders.md) kontrollpanel.
+
+När handelsorder bearbetas och [!DNL Channel Manager] har synkroniserat försändelse, partiell leverans och annulleringsuppdateringar för [!DNL Walmart Marketplace]är orderbehandlingen slutförd. Returbegäranden och återbetalningar för levererade order hanteras från [Returnerar](return-refund-orders.md) kontrollpanel.
 
 >[!NOTE]
 >
@@ -33,7 +35,7 @@ När handelsorder bearbetas och [!DNL Channel Manager] har synkroniserat försä
 
 1. Öppna butiksvyn genom att välja ögonikonen för en säljkanalsbutik.
 
-1. Visa [!DNL Walmart Marketplace] order, välj *[!UICONTROL *Orders]**.
+1. Visa [!DNL Walmart Marketplace] order, välja **[!UICONTROL Orders]**.
 
 1. Öppna beställningen som ska levereras i tabellen Order (Beställningar) genom att välja **Handelsordernummer**.
 
@@ -49,6 +51,8 @@ När handelsorder bearbetas och [!DNL Channel Manager] har synkroniserat försä
    * Fyll i resten av leveransformuläret efter behov. Se [[!DNL Shipping an Order]](https://docs.magento.com/user-guide/sales/order-ship.html) för detaljerade anvisningar.
 
 1. Håll koll på [orderstatus](manage-orders.md#about-order-status) in [!DNL Channel Manager] för att verifiera att uppdateringar skickades till [!DNL Walmart Marketplace].
+
+När en beställning har skickats kan du bearbeta hela eller delar av återbetalningar från [!DNL Channel Manager] för artiklar som ingår i ordern baserat på returbegäranden som mottagits från [!DNL Walmart Marketplace]. Se [returorder och återbetalningsorder](return-refund-orders.md).
 
 ## Avbryt en beställning
 

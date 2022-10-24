@@ -1,8 +1,8 @@
 ---
-title: '''Anslut [!DNL Channel Manager] till [!DNL Walmart Marketplace]'''
-description: '"Anslut en Commerce Store-vy till [!DNL Walmart Marketplace] för att skapa en försäljningskanal för att hantera Commerce-produktlistor, lager, pris och order för Walmart Marketplace-försäljning."'
+title: 'Anslut [!DNL Channel Manager] till [!DNL Walmart Marketplace]'
+description: "Anslut en Commerce Store-vy till [!DNL Walmart Marketplace] för att skapa en försäljningskanal för att hantera Commerce-produktlistor, lager, pris och order för Walmart Marketplace-försäljning."
 exl-id: 8c78c582-7b57-4f73-894e-134ba0ba3640
-source-git-commit: 8146be1c94ffb1c8abd0d28e53d3476fd78f2c62
+source-git-commit: 3f6039ad78ff500c31129bee12d65e291e226567
 workflow-type: tm+mt
 source-wordcount: '377'
 ht-degree: 0%
@@ -17,7 +17,7 @@ När du har installerat Channel Manager på din [!DNL Commerce] skapa en försä
 
 1. [Ansluta kanalen till [!DNL Walmart Marketplace] genom att lägga till [!UICONTROL Walmart API credentials]](#connect-the-channel-to-walmart-marketplace).
 
-1. [Slutför konfiguration av försäljningskanal](#complete-store-setup) för att hantera listor, lager, priser och beställningar för [!DNL Walmart Marketplace] produktsortiment.
+1. [Slutför konfiguration av försäljningskanal](#complete-sales-channel-store-setup) för att hantera listor, lager, priser och beställningar för [!DNL Walmart Marketplace] produktsortiment.
 
 >[!NOTE]
 >
@@ -71,7 +71,7 @@ När du har installerat Channel Manager på din [!DNL Commerce] skapa en försä
 
 1. Välj **[!UICONTROL Save Store]** för att tillämpa konfigurationen och ansluta till [!DNL Walmart marketplace].
 
-1. När anslutningen har slutförts [fullständig butiksinställning](complete-store-setup.md) från **[!UICONTROL Channel Manager]** butikssida.
+1. När anslutningen har slutförts [fullständig butiksinställning](complete-sales-channel-store-setup.md) från **[!UICONTROL Channel Manager]** butikssida.
 
 ![Konfigurera första butik](assets/channel-manager-setup-first-store.png)
 

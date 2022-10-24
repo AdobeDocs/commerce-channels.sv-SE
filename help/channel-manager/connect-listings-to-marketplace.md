@@ -2,9 +2,9 @@
 title: Anslut listor till Walmart
 description: '''Anslut listor för [!DNL Commerce] produkter till [!DNL Walmart Marketplace]att börja sälja."'
 exl-id: 78078b14-ebdd-415d-9486-66b0150167aa
-source-git-commit: bc2e14714e9b532263c480395da28b31b4c3797c
+source-git-commit: 6f87dc808096fbba12f8e657fff7d005df1ebe92
 workflow-type: tm+mt
-source-wordcount: '1103'
+source-wordcount: '1096'
 ht-degree: 0%
 
 ---
@@ -40,8 +40,6 @@ Innan du matchar produkter måste du kontrollera att produktkatalogattributvärd
 1. Välj **[!UICONTROL Match Products]**.
 
    Ett meddelande anger antalet produkter som skickats för matchning.
-
-   ![Skicka produkter till den anslutna försäljningskanalen](assets/products-submitted-for-matching.png)
 
    Status för valda produkter ändras till [!UICONTROL *Bearbetar*] tills matchningsåtgärden har slutförts. Det kan ta upp till 30 minuter för Walmart Marketplace att slutföra matchningsåtgärden.
 
@@ -144,7 +142,7 @@ Om du vill se nya produktlistor kontrollerar du i produktkatalogen att de produk
    - I [!UICONTROL Entity Attributes] konfigurera urvalskriterierna för export av produktdata.
    ![Exportera produktdatasidan i [!UICONTROL [!DNL Commerce] Admin]](assets/walmart-seller-account-full-setup-download.png)
 
-   Använd filter för att välja och konfigurera attributvärden som gäller för de produktkategorier som du säljer in. Se till att du inkluderar de attribut som krävs och rekommenderas för Walmart (se [Exportera data](https://docs.magento.com/user-guide/system/data-export.html) i Adobe [!DNL Commerce] Användarhandbok för detaljerade anvisningar.)
+   Använd filter för att välja och konfigurera attributvärden som gäller för de produktkategorier som du säljer in. Se till att du inkluderar de attribut som krävs och rekommenderas för Walmart. (Se [Exportera data](https://docs.magento.com/user-guide/system/data-export.html) i Adobe [!DNL Commerce] Användarhandbok för detaljerade anvisningar.)
 
    Om du vill utesluta ett attribut från exporten markerar du [!UICONTROL **Exkludera**] i början av raden.
 

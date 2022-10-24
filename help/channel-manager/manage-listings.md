@@ -2,9 +2,9 @@
 title: Hantera listor
 description: Hantera säljkanalslistor för en [!DNL Commerce] lagra med Channel Manager för Adobe Commerce och Magento Open Source.'
 exl-id: 70999552-9ba7-4b10-a8ee-ee99bc4fe837
-source-git-commit: 638ba8c595652e66aa5f15f5207855c6d2b872d7
+source-git-commit: 3f6039ad78ff500c31129bee12d65e291e226567
 workflow-type: tm+mt
-source-wordcount: '733'
+source-wordcount: '715'
 ht-degree: 0%
 
 ---
@@ -63,11 +63,11 @@ I följande tabeller beskrivs de kontroller och kolumner som är tillgängliga f
 **Kontroller för[!UICONTROL Listings]**
 
 | **Kontroll** | **Beskrivning** |
-|----------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|----------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Add Products] | Öppnar [!UICONTROL Admin Product Catalog] sida för att välja produkter att lägga till [!DNL Walmart Marketplace] eller för att uppdatera produktattribut så att de uppfyller Walmart Marketplace-listkraven. |
-| [!UICONTROL Match products on Walmart] | När du har valt en eller flera produkter i utkaststatus väljer du Matcha produkter på [!DNL Walmart] för att söka efter produkterbjudanden som kan läggas till i en befintlig [!DNL Walmart Marketplace] lista. |
+| [!UICONTROL Match products on Walmart] | När du har valt en eller flera produkter i [!UICONTROL Draft] status, välj [!UICONTROL Match products on Walmart] för att söka efter produkterbjudanden som kan läggas till i en befintlig [!DNL Walmart Marketplace] lista. |
 | [!UICONTROL Refresh products] | Uppdatera visningen med den senaste listan och statusen. Den här kontrollen återställer även listvyn till standardsorteringsordningen och tar bort eventuella filter. |
-| [!UICONTROL Filter by *Status*] | Visa bara listor med en viss status genom att markera ett av statuskorten ovanför tabellen Lista. Använd *Uppdatera produkter* för att ta bort filtret. |
+| [!UICONTROL Filter by *Status*] | Visa bara listor med en viss status genom att markera ett av statuskorten ovanför tabellen Lista. Ta bort filtret genom att markera **[!UICONTROL Refresh products]**. |
 | [!UICONTROL Sort products] | Ändra sorteringsordningen för listning genom att välja en kolumnrubrik. |
 
 
@@ -81,7 +81,6 @@ I följande tabeller beskrivs de kontroller och kolumner som är tillgängliga f
 | [!UICONTROL Price] | Produktpriset från [!DNL Commerce] lagringskatalog. Katalogprisuppdateringarna synkroniseras med kanalhanteraren och skickas sedan till [!DNL Walmart Marketplace]  så att listade artiklar visar aktuellt pris. |
 | [!UICONTROL Status] | Anger aktuell orderstatus i [!DNL Commerce] orderarbetsflöde. Statusen uppdateras när du har lagt till produkter i [!DNL Channel Manager] och när ni matchar produkter på marknaden. Om en åtgärd misslyckas visas felstatusen i listan. När du har åtgärdat felet [!DNL Channel Manager] försöker utföra åtgärden igen och uppdaterar statusen. |
 | [!UICONTROL Error Description] | Ger ytterligare felinformation för produkter med en `[!DNL Error]` status. |
-| [!UICONTROL Status Detail] | Ger ytterligare information för produkter med *Fel* eller *Matcha* status. |
 
 ### Om liststatus
 

@@ -1,10 +1,10 @@
 ---
 title: Lägg till produkter i Channel Manager
-description: 'Skapa produktsortiment för [!DNL Walmart Marketplace] försäljning genom att lägga till produkter från katalogen i den försäljningskanal som konfigurerats i Channel Manager.'' '
+description: Skapa produktsortiment för [!DNL Walmart Marketplace] försäljning genom att lägga till produkter från katalogen i den försäljningskanal som konfigurerats i Channel Manager.'
 exl-id: 00932df7-bdc7-42a1-b269-88dffcc918bc
-source-git-commit: 638ba8c595652e66aa5f15f5207855c6d2b872d7
+source-git-commit: bc9badeed0f8b5dd6a4fad2633c06c917f7d9d90
 workflow-type: tm+mt
-source-wordcount: '327'
+source-wordcount: '344'
 ht-degree: 0%
 
 ---
@@ -71,7 +71,10 @@ Importprocessen kan ta upp till 30 minuter eller mer beroende på hur många pro
 
 1. När importen är klar kontrollerar du de produkter som du har lagt till genom att gå tillbaka till [!DNL Channel Manager] och markera **[!UICONTROL Listings]**.
 
+   Till att börja med finns produkterna i *Utkast* status. Välj **[!UICONTROL Refresh products]** för att uppdatera tabellen.
+
+1. Uppdatera vyn för att visa de nya produkterna som lagts till i Channel Manager genom att välja **[!UICONTROL Draft]** statuskort.
+
    ![Produkter som importerats till en ansluten försäljningskanal](assets/products-in-marketplace-sales-channel.png)
 
-   Till att börja med finns produkterna i *Utkast* status. Välj **[!UICONTROL Refresh products]** för att uppdatera tabellen.
 

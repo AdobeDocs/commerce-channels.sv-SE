@@ -1,10 +1,10 @@
 ---
-title: Visa och spåra order från [!DNL Channel Manager]'
+title: Visa och hantera order från [!DNL Channel Manager]'
 description: Visa och hantera [!DNL Walmart Marketplace] order med [!DNL Channel Manager] för Adobe Commerce och Magento Open Source."
 exl-id: c2779c72-4793-445c-858a-867ea8389662
-source-git-commit: 8146be1c94ffb1c8abd0d28e53d3476fd78f2c62
+source-git-commit: 1180c86ee8f087a2fef84d84171d77fd5b33164b
 workflow-type: tm+mt
-source-wordcount: '856'
+source-wordcount: '1025'
 ht-degree: 0%
 
 ---
@@ -34,41 +34,102 @@ I storefront Admin kan du visa orderdata från [!DNL Channel Manager] genom att 
 I följande tabeller beskrivs de kontroller och kolumner som är tillgängliga för beställningar.
 
 **Kontroller för[!UICONTROL Orders]**
-| **Kontroll**                    | **Beskrivning**                                                                                                                                                                                                                                                                  | |—|—| | [!UICONTROL Filter orders]     | Sortera vyn genom att välja ett av alternativen [!UICONTROL Order Status] kort.                                                                                                                                                                                                           | | Felbeskrivning | Ger mer detaljerad information om beställningar med felstatus.                                                                                                                                                                                                            | | [!UICONTROL View order detail] | Om du vill visa orderdetaljer väljer du [!DNL Commerce] ordernummer i [!UICONTROL Order] tabell. Använd sedan [!DNL Commerce] orderalternativ för att bearbeta ordern.                                                                                                                    | | [!UICONTROL Channel Settings]  | Om du vill ändra kanalkonfigurationen väljer du autentiseringsuppgifter för kanal Walmart-anslutning, mappade attribut eller leveransidentifierare. Inställningarna väljer [!DNL Commerce] ordernummer i [!UICONTROL Order] tabell. Använd sedan [!DNL Commerce] orderalternativ för att bearbeta ordern. |
+
+<table>
+<tr>
+<td><strong>Kontroll</strong></td>
+<td><strong>Beskrivning</strong></td>
+</tr>
+<tr>
+<td>[!UICONTROL Filter orders]</td>
+<td>Sortera vyn genom att välja ett av alternativen [!UICONTROL Order Status] kort.</td>
+</tr>
+<tr>
+<td>Statusinformation</td>
+<td>Innehåller information om orderfel och returbegäranden. Om du vill visa returinformation och återbetalningsstatus för en order väljer du <strong>[!UICONTROL Return requested]</strong> text för att öppna [!UICONTROL Returns] kontrollpanel.</td>
+</tr>
+<tr>
+<td>[!UICONTROL View order detail]</td>
+<td>Om du vill visa orderdetaljer väljer du [!DNL Commerce] ordernummer i [!UICONTROL Order] tabell. Använd sedan [!DNL Commerce] orderalternativ för att bearbeta ordern.</td>
+</tr>
+<tr>
+<td>[!UICONTROL Channel Settings]</td>
+<td>Om du vill ändra kanalkonfigurationen väljer du autentiseringsuppgifter för kanal Walmart-anslutning, mappade attribut eller leveransidentifierare. Inställningarna väljer [!DNL Commerce] ordernummer i [!UICONTROL Order] tabell. Använd sedan [!DNL Commerce] orderalternativ för att bearbeta ordern.</td>
+</tr>
+</table>
 
 
 **Kolumnbeskrivningar**
 
-| Fält | Beskrivning |
-|-----------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [!UICONTROL Walmart Order Number] | Inköpsordernummer som tilldelats ordern i [!DNL Walmart Marketplace]. När en order importeras till [!DNL Channel Manager], bara [!DNL Walmart] ordernummer visas. När [!DNL Commerce] order skapas, [!DNL Walmart] ordernumret lagras i [!UICONTROL External ID] produktattribut. |
-| [!DNL Commerce] Ordernummer | Numret som tilldelats [!DNL Commerce] order som skapats från [!DNL Walmart Marketplace] beställa. |
-| Objekt | Antal beställda artiklar [!DNL Walmart Marketplace]. |
-| [!UICONTROL Order Value] | Total kostnad för beställda artiklar. |
-| [!UICONTROL Date Ordered] | Datumet då ordern skickades den [!DNL Walmart Marketplace]. |
-| [!UICONTROL Ship By Date] | Datum då ordern måste levereras av för att uppfylla [!DNL Walmart Marketplace] krav. |
-| [!UICONTROL Deliver By Date] | Datum då ordern måste levereras till kunden för att kunna mötas [!DNL Walmart Marketplace] krav i UTC-format. |
-| [!UICONTROL Ship Method] | The [[!DNL Walmart Marketplace] Leveranssätt](https://sellerhelp.walmart.com/s/guide?article=000007893) markerat för ordern. |
-| [!UICONTROL Last Update At] | Tidsstämpel som anger senaste gången orderdata uppdaterades i [!DNL Channel Manager] i UTC-format. |
-| [!UICONTROL Status] | Anger aktuell orderstatus i [!DNL Commerce] orderarbetsflöde. Ursprunglig status för en order som importerats från [!DNL Walmart Marketplace] är _Öppna_. Ytterligare statusuppdateringar sker när [!DNL Commerce] beställningar behandlas och [!DNL Channel Manager] har synkroniserat försändelse, partiell leverans och annulleringsuppdateringar för [!DNL Walmart Marketplace]. |
-| [!UICONTROL Error Description] | Ger mer detaljerad information om beställningar med en _[!UICONTROL Error]_status. |
+<table>
+<tr>
+<td>Fält</td>
+<td>Beskrivning</td>
+</tr>
+<tr>
+<td>[!UICONTROL Walmart Order #]</td>
+<td>Inköpsordernummer som tilldelats ordern i [!DNL Walmart Marketplace]. När en order importeras till [!DNL Channel Manager], bara [!DNL Walmart] ordernummer visas. När [!DNL Commerce] order skapas, [!DNL Walmart] ordernumret lagras i [!UICONTROL External ID] produktattribut.</td>
+</tr>
+<tr>
+<td>[!DNL Commerce] Ordernr</td>
+<td>Numret som tilldelats [!DNL Commerce] order som skapats från [!DNL Walmart Marketplace] beställa.</td>
+</tr>
+<tr>
+<td>Objekt</td>
+<td>Antal beställda artiklar [!DNL Walmart Marketplace].</td>
+</tr>
+<tr>
+<td>[!UICONTROL Order Value]</td>
+<td>Total kostnad för beställda artiklar.</td>
+</tr>
+<tr>
+<td>[!UICONTROL Ordered]</td>
+<td>Datumet då ordern skickades till [!DNL Walmart Marketplace] konverteras till den lokala tidszonen.</td>
+</tr>
+<tr>
+<td>[!UICONTROL Ship By (timezone)]</td>
+<td>Datumet då ordern måste levereras av för att uppfylla [!DNL Walmart Marketplace] krav som har konverterats till den lokala tidszonen.
+</td>
+</tr>
+<tr>
+<td>[!UICONTROL Deliver By (timezone)]</td>
+<td>Datumet då ordern måste levereras till kunden för att uppfylla [!DNL Walmart Marketplace] krav som har konverterats till den lokala tidszonen.</td>
+</tr>
+<tr>
+<td>[!UICONTROL Ship Method]</td>
+<td>[[!DNL Walmart Marketplace] Leveranssätt](https://sellerhelp.walmart.com/s/guide?language=en_US&amp;article=000007893%29 har valts för ordern.</td>
+</tr>
+<tr>
+<td>[!UICONTROL Last Update]</td>
+<td>Tidsstämpel som anger senaste gången orderdata uppdaterades i [!DNL Channel Manager] konverteras till lokal tidszon.</td>
+</tr>
+<tr>
+<td>[!UICONTROL Status]</td>
+<td>Anger aktuell orderstatus i [!DNL Commerce] orderarbetsflöde. Ursprunglig status för en order som importerats från [!DNL Walmart Marketplace] är _Open_. Ytterligare statusuppdateringar sker när [!DNL Commerce] beställningar behandlas och [!DNL Channel Manager] har synkroniserat försändelse, partiell leverans och annulleringsuppdateringar för [!DNL Walmart Marketplace].</td>
+</tr>
+<tr>
+<td>[!UICONTROL Status Details]</td>
+<td>Ger mer detaljerad information om beställningar med fel eller återbetalningsbegäranden.</td>
+</tr>
+</table>
 
 ## Orderstatus
 
-
 [!UICONTROL Order Status] innehåller information om det aktuella läget för [!DNL Walmart Marketplace] beställningar som hanteras från Adobe Commerce eller Magento Open Source. Uppdateringar av orderstatus när [!DNL Channel Manager] får uppdaterad orderinformation från antingen [!DNL Walmart Marketplace] eller [!DNL Commerce] ordersystem. Order kan ha följande status:
 
-- **[!UICONTROL Shipped]**-Beställningar som har skickats från [!DNL Commerce] butik. När ordern levereras, [!DNL Channel Manager] skickar en uppdatering till [!DNL Walmart Marketplace] för att uppdatera leveransstatus på Walmart och ange orderspårningsnumret för leveransen.
+- **[!UICONTROL Shipped]**—Beställningar som har skickats från [!DNL Commerce] butik. När ordern levereras, [!DNL Channel Manager] skickar en uppdatering till [!DNL Walmart Marketplace] för att uppdatera leveransstatus på Walmart och ange orderspårningsnumret för leveransen. När en order har skickats kan orderartiklarna delvis eller helt återbetalas om Walmart utfärdar ett returformulär för godkännande av försäljning. Se [Returer och återbetalningar](return-refund-orders.md).
 
 - **[!UICONTROL Partially Shipped]**—Beställningar med artiklar markerade som levererade och andra som väntar på att skickas. När artiklar i orderleveransen [!DNL Channel Manager] skickar en uppdatering till [!DNL Walmart Marketplace] för att uppdatera leveransstatus till _[!DNL Partially Shipped]_på Walmart och ange orderspårningsnumret för leveransen.
 
-- **[!UICONTROL Canceled]**-Beställningar som har avbrutits från [!DNL Commerce] butik.
+- **[!UICONTROL Canceled]**—Beställningar som har annullerats från [!DNL Commerce] butik.
 
    När ordern har annullerats [!DNL Commerce] Uppdateringar av lagerkvantitet för att spegla returnerade artiklar. Sedan [!DNL Channel Manager] synkroniserar uppdateringen till [!DNL Walmart Marketplace].
 
-- **[!UICONTROL Error]**- Beställningar som innehåller fel. Fel kan uppstå när en orderuppdateringsåtgärd misslyckas. Exempel: fel uppstår om [!DNL Channel Manager] kan inte ta emot en ny beställning från Walmart. De kan också inträffa om [!DNL Channel Manager] kan inte skicka en orderleverans eller en annulleringsuppdatering till [!DNL Walmart Marketplace]. Om en åtgärd misslyckas visas en _Fel_ status för ordern. Mer information finns i [Åtgärda orderfel](process-orders.md#fix-shipping-and-cancelation-errors).
+- **[!UICONTROL Return requested]**—Om Walmart Marketplace begär en retur för orderartiklar som har skickats, en `Return requested` länken visas i [!UICONTROL Status details] kolumn. När du väljer länken öppnas [!UICONTROL Returns] kontrollpanelen för att visa returen och hantera återbetalningsprocessen.
 
-- **[!UICONTROL Error description]**-Innehåller detaljerad information om orderfel som inträffar på grund av t.ex. saknad information eller ogiltiga värden, felaktig leveransinformation eller misslyckad orderannullering. Beskrivningen hjälper till att avgöra om fel uppstod i [!DNL Commerce] eller på [!DNL Walmart Marketplace].
+- **[!UICONTROL Error]**—Beställningar med fel. Fel kan uppstå när en orderuppdateringsåtgärd misslyckas. Exempel: fel uppstår om [!DNL Channel Manager] kan inte ta emot en ny beställning från Walmart. De kan också inträffa om [!DNL Channel Manager] kan inte skicka en orderleverans eller en annulleringsuppdatering till [!DNL Walmart Marketplace]. Om en åtgärd misslyckas visas en _Fel_ status för ordern. Mer information finns i [Åtgärda orderfel](process-orders.md#fix-shipping-and-cancelation-errors).
+
+- **[!UICONTROL Status details]**-Ger mer information om orderfel som inträffar på grund av t.ex. saknad information eller ogiltiga värden, felaktig leveransinformation eller misslyckad orderannullering. Beskrivningen hjälper till att avgöra om fel uppstod i [!DNL Commerce] eller på [!DNL Walmart Marketplace].
 
 >[!NOTE]
 >
@@ -82,11 +143,11 @@ I följande tabeller beskrivs de kontroller och kolumner som är tillgängliga f
 
 1. Om du vill visa orderinformation väljer du *[!UICONTROL *Orders]**.
 
-1. Hämta information om beställningen och avgöra vilka steg som ska utföras genom att kontrollera **[Status](#about-order-status)** kolumn.
+1. Hämta information om beställningen och avgöra vilka steg som ska utföras genom att kontrollera **[Status](#order-status)** kolumn.
 
-## Visa orderdetaljer
+## Granska orderdetaljer
 
-När en beställning har tagits emot från marknadsplatsen och importerats till Adobe Commerce eller Magento Open Source använder du [!DNL Commerce] Order-ID för att visa ordern i Adobe Commerce.
+När en beställning har tagits emot från marknadsplatsen och importerats till din säljkanalsbutik använder du [!DNL Commerce] Beställnings-ID för att visa orderinformationen i Adobe Commerce.
 
 Från **[!UICONTROL Orders]** väljer du **[!UICONTROL Commerce Order Number]** för att öppna [!DNL Commerce] orderdetaljer.
 
@@ -108,4 +169,12 @@ I Commerce Store importerar man order från [!DNL Walmart Marketplace] ha följa
       - [!UICONTROL The item is out of stock.]
       - [!UICONTROL Unavailable carrier or shipping information.]
       - [!UICONTROL Additional information is required by our Credit or Fraud Avoidance department.]
+
+- **Beställda artiklar**- I det här avsnittet visas orderartiklarna på alla handelsorder. The [!UICONTROL Qty] -kolumnen innehåller statushistorik för orderartiklar. Om en order till exempel har fakturerats, skickats och återbetalats kan du se statusövergångarna.
+
+   ![Statushistorik för sorterad artikel för orderdetaljer [!DNL Walmart Marketplace] order](assets/order-detail-status-history.png)
+
+Visa artikelfaktura och återbetalningsinformation genom att välja [!UICONTROL Invoice] och [!UICONTROL Credit Memo] på navigeringsmenyn. Du kan även komma åt kreditnotan direkt från [[!UICONTROL Returns]](return-refund-orders.md) kontrollpanelen i din säljkanalsbutik.
+
+
 
