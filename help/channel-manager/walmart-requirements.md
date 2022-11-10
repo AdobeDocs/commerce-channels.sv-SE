@@ -2,9 +2,9 @@
 title: '''[!DNL Walmart] Krav'
 description: '''Verifiera att du har rätt [!DNL Walmart Marketplace]information och resurser som kan integreras med Channel Manager."'
 exl-id: c4f247e8-280a-4595-a6c8-cf8b732d7aab
-source-git-commit: 4f0c40d7bcd05f7c8708d0d339cc29d920d646d5
+source-git-commit: fd60c8917e4b4e155fb2897ade6e1d96aff2de9d
 workflow-type: tm+mt
-source-wordcount: '354'
+source-wordcount: '358'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 0%
 ## Konfigurera en [!DNL Walmart Seller] konto
 
 1. [Skicka in din Walmart Seller-app](https://marketplace-apply.walmart.com/apply?id=0014M00001zivMpQAI).
-1. Efter godkännande från [!DNL Walmart], [konfigurera ditt Walmart Seller-konto](https://sellerhelp.walmart.com/seller/s/guide?article=000008219).
+1. Efter godkännande från [!DNL Walmart], [konfigurera ditt Walmart Seller-konto](https://seller.walmart.com/signup?q=&amp;origin=solution_provider&amp;src=0014M00001zivMp).
 
 ## Generera en [!DNL Walmart Marketplace] Production API-nyckel
 
