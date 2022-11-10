@@ -2,9 +2,9 @@
 title: Installera [!DNL Channel Manager]'
 description: Installera[!DNL Channel Manager] tillägg.'
 exl-id: cb593ebd-f077-4a79-a661-bedf4cc70f97
-source-git-commit: 638ba8c595652e66aa5f15f5207855c6d2b872d7
+source-git-commit: 31af7107c0b27a236b94f7725b7a107d1027789c
 workflow-type: tm+mt
-source-wordcount: '713'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -67,7 +67,6 @@ Följ dessa anvisningar för att installera [!DNL Channel Manager] på Adobe Com
       ```bash
       bin/magento module:status Magento_SalesChannels
       ```
-
       Exempelsvar:
 
       ```terminal
@@ -119,7 +118,7 @@ Under installationen visas tilläggets namn (`magento\channel-manager`) infogas 
 1. Använd Composer-namnet för att lägga till tillägget i `require` i `composer.json` -fil.
 
    ```bash
-   composer require require magento/module-sales-channels-extension --no-update
+   composer require magento/module-sales-channels-extension --no-update
    ```
 
 1. Uppdatera beroendena och installera tillägget.
