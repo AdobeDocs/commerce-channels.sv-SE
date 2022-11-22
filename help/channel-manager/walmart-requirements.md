@@ -2,9 +2,9 @@
 title: '''[!DNL Walmart] Krav'
 description: '''Verifiera att du har rätt [!DNL Walmart Marketplace]information och resurser som kan integreras med Channel Manager."'
 exl-id: c4f247e8-280a-4595-a6c8-cf8b732d7aab
-source-git-commit: fd60c8917e4b4e155fb2897ade6e1d96aff2de9d
+source-git-commit: 618bbd6d6c889d555f0ff74ade3dd84b412e1e59
 workflow-type: tm+mt
-source-wordcount: '358'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 [!DNL Channel Manager] kräver följande resurser och information för att konfigurera en [!DNL Commerce] försäljningskanal för [!DNL Walmart Marketplace.]
 
-* Godkännande att sälja vidare [!DNL Walmart] och inloggningsuppgifter för det registrerade Marketplace-säljarkontot
+* A [!DNL Walmart] Säljarkonto
 
 * En API-nyckel för att ansluta Adobe Commerce eller Magento Open Source till [!DNL Walmart Marketplace]
 
@@ -21,8 +21,7 @@ ht-degree: 0%
 
 ## Konfigurera en [!DNL Walmart Seller] konto
 
-1. [Skicka in din Walmart Seller-app](https://marketplace-apply.walmart.com/apply?id=0014M00001zivMpQAI).
-1. Efter godkännande från [!DNL Walmart], [konfigurera ditt Walmart Seller-konto](https://seller.walmart.com/signup?q=&amp;origin=solution_provider&amp;src=0014M00001zivMp).
+Gå till [!DNL Walmart Seller Center] för att konfigurera [Walmart Seller-konto](https://seller.walmart.com/signup?q=&amp;origin=solution_provider&amp;src=0014M00001zivMp).
 
 ## Generera en [!DNL Walmart Marketplace] Production API-nyckel
 
