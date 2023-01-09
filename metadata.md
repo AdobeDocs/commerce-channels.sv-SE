@@ -1,15 +1,17 @@
 ---
 solution: Commerce
 product: magento
+cloud: Experience Cloud
 type: Documentation
 audience: end-user
 mini-toc-levels: 2
+feature-set: Commerce
 git-repo: https://github.com/AdobeDocs/commerce-channels.sv-SE
 role: User
 index: true
-source-git-commit: 615de69168c91a1d70760a5827bf8a59ab443241
+source-git-commit: da94226111c658048824453bb8f448b0f1e4c3b8
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '127'
 ht-degree: 0%
 
 ---
