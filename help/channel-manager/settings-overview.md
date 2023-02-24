@@ -2,7 +2,7 @@
 title: Översikt över inställningar
 description: Läs mer om [!DNL Channel Manager settings] konfigurera autentisering och mappa produktkatalogattribut och transportföretag som krävs för att koordinera försäljningsåtgärder mellan [!DNL Commerce] och [!DNL Walmart Marketplace].'
 exl-id: 305b3580-bfe2-4fc2-9dc8-fb41f5eaf959
-source-git-commit: 638ba8c595652e66aa5f15f5207855c6d2b872d7
+source-git-commit: aeeaca20cb54528f77e457d54a194d6603c08654
 workflow-type: tm+mt
 source-wordcount: '169'
 ht-degree: 0%

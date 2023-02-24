@@ -2,7 +2,7 @@
 title: Mappa katalogattribut
 description: 'Mappningsattribut för matchning av [DNL! Commerce]-produkter till befintlig [!DNL Walmart Marketplace] listor och synkronisera data mellan [!DNL Channel Manager] och [!DNL Walmart].'
 exl-id: 6678d81f-d167-460d-b656-d082d56f670c
-source-git-commit: 3f6039ad78ff500c31129bee12d65e291e226567
+source-git-commit: aeeaca20cb54528f77e457d54a194d6603c08654
 workflow-type: tm+mt
 source-wordcount: '217'
 ht-degree: 0%
@@ -41,5 +41,3 @@ Om katalogen inte har något matchande attribut, [lägga till eller konvertera e
       ![Mappningsattribut för produktmatchningsvillkor](assets/products-map-attributes-for-match.png)
 
    - Välj **[!UICONTROL Save]**.
-
-

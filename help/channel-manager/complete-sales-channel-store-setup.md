@@ -1,15 +1,15 @@
 ---
-title: Komplett kanalinställning
+title: Slutför kanalinställning
 description: När du har skapat en försäljningskanal som ansluter en [!DNL Commerce] Lagra vy till [!DNL Walmart Marketplace]öppnar du kanalen och slutför kanalkonfigurationen. Börja sedan med att lägga till produkter, hantera listor, lager, priser och beställningar från [!DNL Channel Manager].'
 exl-id: 12127e3b-55c1-4db6-98b2-6dc8bdaae139
-source-git-commit: 3f6039ad78ff500c31129bee12d65e291e226567
+source-git-commit: aeeaca20cb54528f77e457d54a194d6603c08654
 workflow-type: tm+mt
-source-wordcount: '200'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
 
-# Slutför konfiguration av försäljningskanal
+# Slutför installationen av Sales Channel
 
 När du har anslutit en [!DNL Commerce] lagra till [!DNL Walmart Marketplace], fullständig butikskonfiguration från [!DNL Channel Manager] hemsida.
 

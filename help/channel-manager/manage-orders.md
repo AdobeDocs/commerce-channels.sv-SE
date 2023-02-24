@@ -2,14 +2,14 @@
 title: Visa och hantera order från [!DNL Channel Manager]'
 description: Visa och hantera [!DNL Walmart Marketplace] order med [!DNL Channel Manager] för Adobe Commerce och Magento Open Source."
 exl-id: c2779c72-4793-445c-858a-867ea8389662
-source-git-commit: 1180c86ee8f087a2fef84d84171d77fd5b33164b
+source-git-commit: aeeaca20cb54528f77e457d54a194d6603c08654
 workflow-type: tm+mt
-source-wordcount: '1025'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
 
-# Visa och spåra order från [!DNL Channel Manager]
+# Visa och spåra beställningar från [!DNL Channel Manager]
 
 [!DNL Walmart Marketplace] orderdata för [!DNL Commerce] produkter synkroniseras automatiskt till [!DNL Channel Manager] efter [!DNL Walmart] bearbetar ordern.
 
@@ -175,6 +175,3 @@ I Commerce Store importerar man order från [!DNL Walmart Marketplace] ha följa
    ![Statushistorik för sorterad artikel för orderdetaljer [!DNL Walmart Marketplace] order](assets/order-detail-status-history.png)
 
 Visa artikelfaktura och återbetalningsinformation genom att välja [!UICONTROL Invoice] och [!UICONTROL Credit Memo] på navigeringsmenyn. Du kan även komma åt kreditnotan direkt från [[!UICONTROL Returns]](return-refund-orders.md) kontrollpanelen i din säljkanalsbutik.
-
-
-

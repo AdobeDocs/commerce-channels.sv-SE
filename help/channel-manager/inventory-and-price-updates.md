@@ -2,9 +2,9 @@
 title: Lager- och prisuppdateringar
 description: '''[!DNL Channel Manager] synkroniserar lager- och prisuppdateringar mellan [!DNL Commerce] lagra och [!DNL Walmart Marketplace] så att du kan hantera dina säljkanalsåtgärder via [!DNL Commerce] Administratör'
 exl-id: 4dd9fa4a-b12f-4795-a7b2-84ea0fc26aa5
-source-git-commit: 8146be1c94ffb1c8abd0d28e53d3476fd78f2c62
+source-git-commit: aeeaca20cb54528f77e457d54a194d6603c08654
 workflow-type: tm+mt
-source-wordcount: '351'
+source-wordcount: '349'
 ht-degree: 0%
 
 ---
@@ -42,4 +42,4 @@ När produktpriset ändras i [!DNL Commerce], [!DNL Channel Manager] synkroniser
 1. Granska och uppdatera priset efter behov.
 1. **[!UICONTROL Save]** förändringen.
 
-Om du vill ha hjälp med att hantera produktpriskonfigurationen i [!DNL Commerce], se [Hantera priser](https://docs.magento.com/user-guide/catalog/pricing.html){target=&quot;_blank&quot;}.
+Om du vill ha hjälp med att hantera produktpriskonfigurationen i [!DNL Commerce], se [Hantera priser](https://docs.magento.com/user-guide/catalog/pricing.html){target="_blank"}.

@@ -1,22 +1,22 @@
 ---
-title: '''Anslut till [!DNL Commerce] tjänster'
+title: '''Anslut till [!DNL Commerce] Tjänster'
 description: Ansluta kanalhanteraren till [!DNL Commerce] tjänster för att möjliggöra datasynkronisering och kommunikation mellan [!DNL Commerce] -instans, Channel Manager och andra stödtjänster.'
 role: User
 level: Intermediate
 exl-id: 97da2142-ecef-44dc-91d8-5dc55c713d31
-source-git-commit: 7e7a3e854bbc6062e2d15c1962ddf787451e7275
+source-git-commit: aeeaca20cb54528f77e457d54a194d6603c08654
 workflow-type: tm+mt
-source-wordcount: '283'
+source-wordcount: '270'
 ht-degree: 0%
 
 ---
 
 
-# Anslut till [!DNL Commerce] tjänster
+# Anslut till [!DNL Commerce] Tjänster
 
 The [!DNL Commerce Services Connector] integrerar Channel Manager-tjänsten med instanser från Adobe Commerce och Magento Open Source. Kopplingen möjliggör datasynkronisering och kommunikation mellan [!DNL Commerce] instans, [!DNL Channel Manager]och andra stödtjänster.
 
-[!DNL Commerce Services Connector] installation är en engångsprocess som krävs för att använda [Adobe Commerce SaaS-tjänster](https://experienceleague.adobe.com/docs/commerce-merchant-services/user-guides/home.html){target=&quot;_blank&quot;} t.ex. [!DNL Channel Manager], [!DNL Live Search]och [!DNL Product Recommendations]. Om du redan har konfigurerat anslutningen för en annan tjänst hoppar du över det här steget.
+[!DNL Commerce Services Connector] installation är en engångsprocess som krävs för att använda [Adobe Commerce SaaS-tjänster](https://experienceleague.adobe.com/docs/commerce-merchant-services/user-guides/home.html){target="_blank"} som [!DNL Channel Manager], [!DNL Live Search]och [!DNL Product Recommendations]. Om du redan har konfigurerat anslutningen för en annan tjänst hoppar du över det här steget.
 
 ## Krav
 
@@ -24,11 +24,11 @@ The [!DNL Commerce Services Connector] integrerar Channel Manager-tjänsten med 
 
    Kontoägare och superanvändare kan skapa administratörskonton från [!DNL Commerce] -instans eller från kommandoraden med [!DNL Commerce] CLI, kommando `admin:user:create`.
 
-- **Adobe Commerce Production API Key**-Den [key](https://docs.magento.com/user-guide/system/saas.html#apikey){target=&quot;_blank&quot;} aktiverar API-åtkomst till tjänster som krävs av Channel Manager. Du behöver offentliga och privata autentiseringsuppgifter för den här nyckeln.
+- **Adobe Commerce Production API Key**-Den [key](https://docs.magento.com/user-guide/system/saas.html#apikey){target="_blank"} aktiverar API-åtkomst till tjänster som krävs av Channel Manager. Du behöver offentliga och privata autentiseringsuppgifter för den här nyckeln.
 
 >[!TIP]
 >
->Om du vill ange inloggningsuppgifterna [!DNL Commerce] licensinnehavare eller kontoägare har möjlighet att [dela åtkomst](https://docs.magento.com/user-guide/magento/magento-account-share.html){target=&quot;_blank&quot;}, eller ge [API-nyckel](https://docs.magento.com/user-guide/system/saas.html#apikey){target=&quot;_blank&quot;} autentiseringsuppgifter för en betrodd utvecklare.
+>Om du vill ange inloggningsuppgifterna [!DNL Commerce] licensinnehavare eller kontoägare har möjlighet att [dela åtkomst](https://docs.magento.com/user-guide/magento/magento-account-share.html){target="_blank"}, or give the [API Key](https://docs.magento.com/user-guide/system/saas.html#apikey){target="_blank"} autentiseringsuppgifter för en betrodd utvecklare.
 
 ## Konfigurera [!DNL Commerce Services Connector]
 
@@ -36,7 +36,7 @@ The [!DNL Commerce Services Connector] integrerar Channel Manager-tjänsten med 
 
    - Välj **[!UICONTROL Stores]**.
 
-   - Under *[!UICONTROL Settings]* väljer du **[!UICONTROL Configuration]**.
+   - Under *[!UICONTROL Settings]*, markera **[!UICONTROL Configuration]**.
 
    - Expandera **[!UICONTROL Services]** och markera **[!UICONTROL Commerce Services Connector]**.
 

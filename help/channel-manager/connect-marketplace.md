@@ -2,9 +2,9 @@
 title: 'Anslut [!DNL Channel Manager] till [!DNL Walmart Marketplace]'
 description: "Anslut en Commerce Store-vy till [!DNL Walmart Marketplace] för att skapa en försäljningskanal för att hantera Commerce-produktlistor, lager, pris och order för Walmart Marketplace-försäljning."
 exl-id: 8c78c582-7b57-4f73-894e-134ba0ba3640
-source-git-commit: 3f6039ad78ff500c31129bee12d65e291e226567
+source-git-commit: aeeaca20cb54528f77e457d54a194d6603c08654
 workflow-type: tm+mt
-source-wordcount: '377'
+source-wordcount: '373'
 ht-degree: 0%
 
 ---
@@ -77,10 +77,10 @@ När du har installerat Channel Manager på din [!DNL Commerce] skapa en försä
 
 ### Felsöka anslutningsproblem
 
-Om anslutningen till [!DNL Walmart] misslyckas, se [Frågor och svar om Walmart Marketplace](https://developer.walmart.com/faq/us/faq-auth/){target=&quot;_blank&quot;} för felsökningstips.
+Om anslutningen till [!DNL Walmart] misslyckas, se [Frågor och svar om Walmart Marketplace](https://developer.walmart.com/faq/us/faq-auth/){target="_blank"} för felsökningstips.
 
 - Från [!DNL Walmart Developer Portal]kontrollerar du att du har kopierat rätt autentiseringsuppgifter för produktions-API-nyckeln för [!UICONTROL Adobe Inc.]
 
 - Verifiera att åtkomstkonfigurationen för [!UICONTROL Walmart Adobe API key] har rätt behörigheter. Se [[!DNL Walmart Requirements]](walmart-requirements.md##generate-a-walmart-marketplace-api-key).
 
-- Bekräfta att [!DNL Walmart API] är tillgänglig från [WWART API-statussida](https://developer.walmart.com/us/whats-new/new-api-status-information-now-available/){target=&quot;_blank&quot;}.
+- Bekräfta att [!DNL Walmart API] är tillgänglig från [WWART API-statussida](https://developer.walmart.com/us/whats-new/new-api-status-information-now-available/){target="_blank"}.

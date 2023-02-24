@@ -2,9 +2,9 @@
 title: Hantera Walmart Marketplace-anslutning
 description: '''Uppdatera API-autentiseringsuppgifterna för att auktorisera anslutningen mellan en [DNL! Commerce]-butiksvyn och [!DNL Walmart Marketplace]. The connection is required to connect [!DNL Commerce] produktlistor och synkronisera lager, pris, order och leveransdata mellan [!DNL Commerce] och Walmart.'
 exl-id: 817b1b58-a57e-4c8d-b08f-1ce3bec15bc3
-source-git-commit: 2e55243dd920471b32e534563a39cc7be85375f8
+source-git-commit: aeeaca20cb54528f77e457d54a194d6603c08654
 workflow-type: tm+mt
-source-wordcount: '118'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---

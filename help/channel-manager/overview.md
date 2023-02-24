@@ -4,9 +4,9 @@ description: "Lär dig hur du installerar och använder [!DNL Channel Manager] a
 role: User
 level: Intermediate
 exl-id: 91265973-d2ad-4925-aa10-260d7e186f20
-source-git-commit: 2e3f8e51b765cda0559d8624d61e1ae9dc1c9667
+source-git-commit: aeeaca20cb54528f77e457d54a194d6603c08654
 workflow-type: tm+mt
-source-wordcount: '707'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---

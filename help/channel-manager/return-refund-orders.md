@@ -1,9 +1,10 @@
 ---
 title: Retur- och återbetalningsorder
-description: "Instruktioner för att helt eller delvis återbetala returansökningar som erhållits från [!DNL Walmart Marketplace] från [!DNL Channel Manager] för Adobe Commerce och Magento Open Source."
-source-git-commit: e9d2f53a955956a2b5086649d9ac18cc982ef4e3
+description: Instruktioner för att helt eller delvis återbetala returansökningar som mottagits från [!DNL Walmart Marketplace] från [!DNL Channel Manager] för Adobe Commerce och Magento Open Source.
+exl-id: 45617011-4add-444c-819b-6bb4164d03e4
+source-git-commit: aeeaca20cb54528f77e457d54a194d6603c08654
 workflow-type: tm+mt
-source-wordcount: '1180'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -189,5 +190,3 @@ Du kan visa information om returbegäranden och återbetalningsbehandling från 
 Fel kan uppstå när returinformationen tas emot från [!DNL Walmart Marketplace]eller när [!DNL Channel Manager] synkroniserar statusuppdateringar från [!DNL Commerce] till [!DNL Walmart Marketplace].
 
 Om synkroniseringsåtgärden för en returuppdatering misslyckas, visas [!DNL Channel Manager] Returnerar en instrumentpanel som visar *[!UICONTROL Error]* status för returposten. För att säkerställa att retur- och återbetalningsinformation återspeglas korrekt i Walmart Marketplace-kontot måste du uppdatera beställningen manuellt i [!DNL Walmart Marketplace] butik.
-
-
