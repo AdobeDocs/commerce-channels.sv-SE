@@ -2,9 +2,9 @@
 title: Installera [!DNL Channel Manager]'
 description: Installera[!DNL Channel Manager] tillägg.'
 exl-id: cb593ebd-f077-4a79-a661-bedf4cc70f97
-source-git-commit: 31af7107c0b27a236b94f7725b7a107d1027789c
+source-git-commit: 96016b086a2c6567fab66b497892022f172f4bdd
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '673'
 ht-degree: 0%
 
 ---
@@ -26,15 +26,15 @@ Båda metoderna kräver att du använder kommandoradsgränssnittet (CLI).
 
 >[!NOTE]
 >
->Om du behöver hjälp med att installera [!DNL Commerce] med CLI, se [Allmän CLI-installation](https://devdocs.magento.com/extensions/install/){target=&quot;_blank&quot;}.
+>Om du behöver hjälp med att installera [!DNL Commerce] med CLI, se [Allmän CLI-installation](https://devdocs.magento.com/extensions/install/){target="_blank"}.
 
 ### Installera på en lokal instans
 
 Följ dessa anvisningar för att installera [!DNL Channel Manager] på Adobe Commerce och Magento Open Source till en lokal instans.
 
-1. Logga in på [!DNL Commerce] server som [användare med behörigheter](https://devdocs.magento.com/guides/v2.4/install-gde/prereq/file-system-perms.html){target=&quot;_blank&quot;} för att skriva till [!DNL Commerce] filsystem.
+1. Logga in på [!DNL Commerce] server som [användare med behörigheter](https://devdocs.magento.com/guides/v2.4/install-gde/prereq/file-system-perms.html){target="_blank"} för att skriva till [!DNL Commerce] filsystem.
 
-1. Lägg in webbsajten i [underhållsläge](https://devdocs.magento.com/guides/v2.4/install-gde/install/cli/install-cli-subcommands-maint.html){target=&quot;_blank&quot;}.
+1. Lägg in webbsajten i [underhållsläge](https://devdocs.magento.com/guides/v2.4/install-gde/install/cli/install-cli-subcommands-maint.html){target="_blank"}.
 
    ```bash
    $ bin/magento maintenance:enable
@@ -67,6 +67,7 @@ Följ dessa anvisningar för att installera [!DNL Channel Manager] på Adobe Com
       ```bash
       bin/magento module:status Magento_SalesChannels
       ```
+
       Exempelsvar:
 
       ```terminal
@@ -107,13 +108,13 @@ Följ dessa anvisningar för att installera [!DNL Channel Manager] på Adobe Com
 
 Arbeta i en utvecklingsgren när du lägger till ett tillägg i din molninstans.
 
-Hjälp om hur du använder grenar finns i [Kom igång med att skapa grenar](https://devdocs.magento.com/cloud/env/environments-start.html#getstarted){target=&quot;_blank&quot;} i dokumentationen för Adobe Commerce-utvecklare.
+Hjälp om hur du använder grenar finns i [Kom igång med att skapa grenar](https://devdocs.magento.com/cloud/env/environments-start.html#getstarted){target="_blank"} i dokumentationen för Adobe Commerce-utvecklare.
 
-Under installationen visas tilläggets namn (`magento\channel-manager`) infogas automatiskt i [app/etc/config.php](https://devdocs.magento.com/cloud/live/sens-data-over.html#configuration-data){target=&quot;_blank&quot;}. Du behöver inte redigera filen direkt.
+Under installationen visas tilläggets namn (`magento\channel-manager`) infogas automatiskt i [app/etc/config.php](https://devdocs.magento.com/cloud/live/sens-data-over.html#configuration-data){target="_blank"} -fil. Du behöver inte redigera filen direkt.
 
 1. Byt till rotkatalogen för projektet i molnet på din lokala arbetsstation.
 
-1. Skapa eller checka ut en utveckling [bankkontor](https://devdocs-beta.magento.com/cloud/env/environments-start.html#getstarted){target=&quot;_blank&quot;}.
+1. Skapa eller checka ut en utveckling [bankkontor](https://devdocs-beta.magento.com/cloud/env/environments-start.html#getstarted){target="_blank"}.
 
 1. Använd Composer-namnet för att lägga till tillägget i `require` i `composer.json` -fil.
 
@@ -136,7 +137,7 @@ Under installationen visas tilläggets namn (`magento\channel-manager`) infogas 
    ```
 
    ```bash
-   $ git commit -m “Install channel manager extension” 
+   $ git commit -m "Install channel manager extension" 
    ```
 
    ```bash
@@ -162,7 +163,7 @@ Om modulen är inaktiverad [aktivera i din lokala miljö](https://devdocs.magent
 
    >[!NOTE]
    >
-   >Instruktioner om hur du uppdaterar Channel Manager till en ny release finns i [Uppgraderingsmoduler och tillägg](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/modules/upgrade.html){target=&quot;_blank&quot;}.
+   >Instruktioner om hur du uppdaterar Channel Manager till en ny release finns i [Uppgraderingsmoduler och tillägg](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/modules/upgrade.html){target="_blank"}.
 
 
 ## Felsökning
@@ -171,7 +172,7 @@ Använd följande information för att åtgärda fel som inträffar under instal
 
 ### Felaktiga dispositionsnycklar
 
-Om [åtkomstnycklar](https://devdocs.magento.com/guides/v2.4/install-gde/prereq/connect-auth.html){target=&quot;_blank&quot;} som används för att autentisera till Composer-databasen är ogiltiga eller inte länkade till [!DNL MAGE ID] har använt [!DNL Channel Manager] visas följande fel.
+Om [åtkomstnycklar](https://devdocs.magento.com/guides/v2.4/install-gde/prereq/connect-auth.html){target="_blank"} som används för att autentisera till Composer-databasen är ogiltiga eller inte länkade till [!DNL MAGE ID] har använt [!DNL Channel Manager] visas följande fel.
 
 ```terminal
 Could not find a matching version of package magento/channel-manager. Check the package spelling, your version constraint and that the package is available in a stability which matches your minimum-stability (stable).
@@ -191,7 +192,7 @@ Kontrollera nyckelkonfigurationen:
    $ cat /path/to/auth.json
    ```
 
-1. Kontrollera att autentiseringsuppgifterna i auth.json matchar [nycklarna som är kopplade till MAGE-ID](https://devdocs.magento.com/guides/v2.4/install-gde/prereq/connect-auth.html){target=&quot;_blank&quot;} som används för att registrera för Channel Manager-tjänsten.
+1. Kontrollera att autentiseringsuppgifterna i auth.json matchar [nycklarna som är kopplade till MAGE-ID](https://devdocs.magento.com/guides/v2.4/install-gde/prereq/connect-auth.html){target="_blank"} används för att registrera för Channel Manager-tjänsten.
 
 ### Otillräckligt minne för PHP
 
@@ -203,7 +204,7 @@ Fatal error: Allowed memory size of 2146435072 bytes exhausted (tried to allocat
 
 Använd någon av följande metoder för att lösa minnesproblemet:
 
-- [Öka minnesgränsen för PHP](https://devdocs.magento.com/cloud/project/magento-app-php-ini.html#increase-php-memory-limit){target=&quot;_blank&quot;} i miljön `php.ini` -fil. Kontrollera även att Commerce-instansen har [rekommenderade värden](https://devdocs.magento.com/guides/v2.4/install-gde/prereq/php-settings.html){target=&quot;_blank&quot;} för andra PHP-inställningar.
+- [Öka minnesgränsen för PHP](https://devdocs.magento.com/cloud/project/magento-app-php-ini.html#increase-php-memory-limit){target="_blank"} in the environment `php.ini` file. Also, verify that the Commerce instance has the [recommended values](https://devdocs.magento.com/guides/v2.4/install-gde/prereq/php-settings.html){target="_blank"} för andra PHP-inställningar.
 
 - Ange minnesgränsen från kommandoraden.
 
@@ -211,7 +212,7 @@ Använd någon av följande metoder för att lösa minnesproblemet:
    $ php -d memory_limit=-1 \[path to composer]/composer require magento/payment-services.
    ```
 
-   Exempel:
+   Till exempel:
 
    ```bash
    $ php-d memory_limit=-1 vendor/bin/composer require magento/channel-manager
@@ -219,7 +220,7 @@ Använd någon av följande metoder för att lösa minnesproblemet:
 
 ### Vyn saknas
 
-Om du får ett felmeddelande om att en fil saknas `process_catalog_exporter_view` under installationen av Channel Manager kan du [uppdatera indexerare](https://devdocs.magento.com/guides/v2.4/config-guide/cli/config-cli-subcommands-index.html#config-cli-subcommands-index-reindex){target=&quot;_blank&quot;}.
+Om du får ett felmeddelande om att en fil saknas `process_catalog_exporter_view` under installationen av Channel Manager kan du [uppdatera indexerare](https://devdocs.magento.com/guides/v2.4/config-guide/cli/config-cli-subcommands-index.html#config-cli-subcommands-index-reindex){target="_blank"}.
 
 ```bash
 php bin/magento indexer:refresh
@@ -227,4 +228,4 @@ php bin/magento indexer:refresh
 
 ### Distributionsfel i molnet
 
-Information om problem med att distribuera tillägget till molnet finns i [distributionsfel för tillägg](https://devdocs.magento.com/cloud/trouble/trouble_comp-deploy-fail.html){target=&quot;_blank&quot;}.
+Information om problem med att distribuera tillägget till molnet finns i [distributionsfel för tillägg](https://devdocs.magento.com/cloud/trouble/trouble_comp-deploy-fail.html){target="_blank"}.
