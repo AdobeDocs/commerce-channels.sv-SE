@@ -2,9 +2,9 @@
 title: Inställningar för Sales Channel
 description: Uppdatera Commerce-konfigurationen om du vill hantera loggning, referenskälla och synkronisering för Amazon säljkanalsfunktioner.
 exl-id: 69f83774-41de-4fde-a357-f100d1bcd9f0
-source-git-commit: 5508fe6e6b2193eaaebc78f485aae972504554cc
+source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
 workflow-type: tm+mt
-source-wordcount: '280'
+source-wordcount: '278'
 ht-degree: 0%
 
 ---
@@ -37,7 +37,7 @@ När [!DNL Amazon Sales Channel] tillägg är installerat, standardvärden anges
 
 1. För **[!UICONTROL Enable Debug Logging]**, välja `Enabled` för att samla in ytterligare synkroniseringsdata när felsökning behövs.
 
-   Loggning av Amazon-försäljningskanal skrivs till `{Commerce Root}/var/log/channel_amazon.log` och kan visas i [utvecklarläge](https://docs.magento.com/user-guide/magento/installation-modes.html){target=&quot;_blank&quot;}. Loggning ska bara vara `Enabled` under felsökning och bör `Disabled` när felsökningen är klar.
+   Loggning av Amazon-försäljningskanal skrivs till `{Commerce Root}/var/log/channel_amazon.log` och kan visas i [utvecklarläge](https://docs.magento.com/user-guide/magento/installation-modes.html){target="_blank"}. Loggning ska bara vara `Enabled` under felsökning och bör `Disabled` när felsökningen är klar.
 
 1. För **[!UICONTROL Read-Only Mode]**, markera `Enabled` för att blockera alla utgående API-begäranden som ändrar tillstånd.
 
@@ -49,6 +49,6 @@ När [!DNL Amazon Sales Channel] tillägg är installerat, standardvärden anges
    >
    >När en databas migreras till en ny kopia av instansen (identifieras när en butiks URL ändras i konfigurationen), [!UICONTROL Read-Only Mode] aktiveras automatiskt.
 
-1. Klicka på **[!UICONTROL Save Config]**.
+1. Klicka **[!UICONTROL Save Config]**.
 
 ![Konfigurationsinställningar för Sales Channel](assets/config-sales-channel-global-settings.png)

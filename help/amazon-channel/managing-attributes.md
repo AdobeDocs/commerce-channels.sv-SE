@@ -2,9 +2,9 @@
 title: Hantera attribut
 description: Du kan hantera mappningen av Commerce-produktattribut till Amazon-attribut för att säkerställa korrekt produktinformation mellan systemen.
 exl-id: 6f9ded2d-292e-4b7e-8c10-48f478a4383e
-source-git-commit: 2c753ec5f6f4cd509e61b4875e09e9a1a2577ee7
+source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
 workflow-type: tm+mt
-source-wordcount: '314'
+source-wordcount: '312'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ Med Amazon försäljningskanal kan du komma åt, granska, skapa och hantera attr
 
 Mer information om [!DNL Commerce] och Amazon-attributuppsättningar och -värden, se:
 
-- [Hantera grundläggande attribut](https://docs.magento.com/user-guide/catalog/product-attributes.html){target=&quot;_blank&quot;}
+- [Hantera grundläggande attribut](https://docs.magento.com/user-guide/catalog/product-attributes.html){target="_blank"}
 - [Skapa ett attribut](./creating-attributes.md#create-an-attribute)
 - [Redigera ett befintligt attribut](./creating-attributes.md#edit-an-attribute)
 - [Visa attributmappning](./amazon-matching-attributes-values.md)

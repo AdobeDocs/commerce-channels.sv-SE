@@ -2,15 +2,14 @@
 title: Amazon Store Dashboard
 description: Visa aktiviteten för dina Amazon-butiker från Commerce Admin med hjälp av Amazon butikspanel.
 exl-id: b86220c6-8350-474e-8faa-988a9a575ac4
-source-git-commit: 2c753ec5f6f4cd509e61b4875e09e9a1a2577ee7
+source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
 workflow-type: tm+mt
 source-wordcount: '343'
 ht-degree: 0%
 
 ---
 
-# Amazon Store-instrumentpanel
-
+# Amazon Store Dashboard
 
 I _[!UICONTROL Amazon Stores]_se på startsidan för Amazon försäljningskanal klickar du **[!UICONTROL View Store]**på ett butikskort för att öppna butiksinstrumentpanelen.
 
@@ -48,7 +47,7 @@ På kontrollpanelen för butiker finns även information om arkivdata och länka
 
 - **[!UICONTROL Store Listings]** - Visar en grafisk representation av butikens försäljning under de senaste 7 eller 30 dagarna tillsammans med livstidsdata för försäljning.
 
-   I det här avsnittet visas även listräkningar för [aktiva listor](./active-listings.md), [inaktiva listor](./inactive-listings.md)och pågående listor tillsammans med länkar till deras motsvarande _[!UICONTROL Product Listings]_sida. Du kan också klicka **[!UICONTROL Manage Listings]**för att öppna_[!UICONTROL Product Listings]_ sida. Se [Hantera Amazon-listor](./managing-product-listings.md).
+   I det här avsnittet visas även listantal för [aktiva listor](./active-listings.md), [inaktiva listor](./inactive-listings.md)och pågående listor tillsammans med länkar till deras motsvarande _[!UICONTROL Product Listings]_sida. Du kan också klicka **[!UICONTROL Manage Listings]**för att öppna_[!UICONTROL Product Listings]_ sida. Se [Hantera Amazon-listor](./managing-product-listings.md).
 
 - **[!UICONTROL Recent Orders]** - Visar information om dina senaste Amazon-beställningar. Den information som anges baseras på den information som erhållits från Amazon. Det här registret uppdateras inte med [!DNL Commerce] beställningsinformation, även när [beställ import](./order-settings.md) är aktiverat. Om du vill se alla dina Amazon-beställningar klickar du **Alla order**.
 

@@ -3,14 +3,14 @@ title: Anmäl dig till Amazon Sales Channel
 description: Läs mer om förinstallationsuppgifter, introduktionssteg och hur Amazon fungerar med Amazon Sales Channel i Adobe Commerce och Magento Open Source.
 redirect_from: /sales-channels/amazon/amazon-onboarding-home.html
 exl-id: 99b64083-36e6-442e-9d20-4676e78ec3ae
-source-git-commit: 632157839130461869345724bdfc03b306a4f613
+source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
 workflow-type: tm+mt
-source-wordcount: '418'
+source-wordcount: '388'
 ht-degree: 0%
 
 ---
 
-# Införliva Amazon försäljningskanal
+# Anmäl dig till Amazon Sales Channel
 
 I det här avsnittet beskrivs förinstallationsuppgifter, steg för introduktion och några viktiga begrepp för hur Amazon fungerar med Amazon försäljningskanal i Adobe Commerce och Magento Open Source.
 
@@ -18,7 +18,7 @@ The [!DNL Amazon Sales Channel] tillägg kan användas i flera Amazon-butiker. F
 
 >[!TIP]
 >
->A [Professionellt säljarkonto](https://sell.amazon.com/){target=&quot;_blank&quot;} på [!DNL Amazon Seller Central] i Nordamerika eller Europa (Storbritannien) krävs. Amazon debiterar en månadsprenumeration och tar ut avgifter för försäljningen. Se [Amazon: Välj din säljplan](https://sell.amazon.com/pricing.html){target=&quot;_blank&quot;}.<br><br>
+>A [Professionellt säljarkonto](https://sell.amazon.com/){target="_blank"} on [!DNL Amazon Seller Central] in the North America or European (UK) region is required. Amazon charges a monthly subscription and fees for selling. See [Amazon: Choose your selling plan](https://sell.amazon.com/pricing.html){target="_blank"}.<br><br>
 >Det är enkelt att komma igång - skapa en butik och anslut den sedan till [!DNL Amazon Seller Central] konto.
 >När din butik är ansluten försöker Amazon-kanalen importera dina Amazon-listor och matcha dem med din katalog baserat på din [attributmappning](./attributes-view.md).<br><br>
 >Dina inställningar för Amazon-försäljningskanal påverkar dina Amazon-listor. Som standard används din första lista, dina priser och produktinställningar. Du kan ändra dina [lagringsinställningar](./ob-store-review.md) (lista, prissättning, beställning och rapportering) när din butik är ansluten till din [!DNL Amazon Seller Central] konto.

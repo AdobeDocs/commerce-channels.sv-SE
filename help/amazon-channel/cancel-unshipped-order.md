@@ -2,14 +2,14 @@
 title: Avbryt en olevererad order
 description: Avbryta en väntande eller delvis levererad beställning via din Amazon [!DNL Seller Central] konto.
 exl-id: a6df09b7-7f62-47e5-a2d3-1761802255d0
-source-git-commit: 2c753ec5f6f4cd509e61b4875e09e9a1a2577ee7
+source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
 workflow-type: tm+mt
-source-wordcount: '188'
+source-wordcount: '186'
 ht-degree: 0%
 
 ---
 
-# Avbryt en ej levererad order
+# Avbryt en olevererad order
 
 Beställningar från Amazon kan bara avbrytas om de finns i en `Unshipped` status. Om ordern är väntande eller delvis levererad (ej levererad), kan beställningen endast annulleras via [!DNL Amazon Seller Central] konto. Om artikeln har levererats måste returer och utbyten också hanteras i [!DNL Amazon Seller Central] Konto.
 
@@ -17,7 +17,7 @@ Beställningar från Amazon kan bara avbrytas om de finns i en `Unshipped` statu
 >
 >För andra uppgifter än att annullera en order:
 >
->- Om du har [beställ import](./order-settings.md) aktiverad, beställningar hanteras i [[!DNL Commerce] orderarbetsflöde](https://docs.magento.com/user-guide/sales/orders.html){target=&quot;_blank&quot;}.
+>- Om du har [beställ import](./order-settings.md) aktiverad, beställningar hanteras i [[!DNL Commerce] orderarbetsflöde](https://docs.magento.com/user-guide/sales/orders.html){target="_blank"}.
 >- If [beställ import](./order-settings.md) är inaktiverat måste du hantera dina beställningar i [!DNL Amazon Seller Central].
 
 

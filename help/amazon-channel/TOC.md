@@ -2,7 +2,7 @@
 user-guide-title: Användarhandbok för Amazon Sales Channel
 user-guide-description: Generera säljmaterial genom Amazon genom att integrera Adobe Commerce eller Magento Open Source med [!DNL Amazon Seller Central] konto.
 breadcrumb-title: Amazon försäljningskanal
-source-git-commit: e20e377fdef565ca526e6f67cca126c36b450e75
+source-git-commit: 193f7bfc0c2373f9a79f9cdb7d01877971f31083
 workflow-type: tm+mt
 source-wordcount: '317'
 ht-degree: 0%
@@ -47,7 +47,7 @@ ht-degree: 0%
    - [Produktlistningsåtgärder](product-listing-actions.md)
    - [Tredjepartslistor](third-party-listing-settings.md)
    - [Listpris](listing-price.md)
-   - [(B2B) Företagspris](business-pricing.md)
+   - [(B2B) företagspriser](business-pricing.md)
    - [Lager/kvantitet](stock-quantity.md)
    - [Fullgjord av](fulfilled-by.md)
    - [Katalogsökning](catalog-search.md)
@@ -55,7 +55,7 @@ ht-degree: 0%
    - [Förnyade produkter](renewed-products.md)
 - [Orderinställningar](order-settings.md)
 - [Inställningar för butiksintegrering](store-integration-settings.md)
-- Regler för listor och priser {#rules}
+- Listregler och prissättningsregler {#rules}
    - [Listregler](listing-rules.md)
    - Prisregler {#pricing-rules}
       - [Hantera priser](pricing-products.md)
@@ -104,7 +104,7 @@ ht-degree: 0%
       - [Redigera en tilldelad ASIN](edit-assigned-asin.md)
       - [Avsluta en Amazon-lista](end-listings-manually.md)
       - [Publicera en Amazon-lista](publish-listings-manually.md)
-      - [Uppdatera obligatorisk information](amazon-manually-update-incomplete-listing.md)
+      - [Uppdatera nödvändig information](amazon-manually-update-incomplete-listing.md)
       - [Visa detaljer](product-listing-details.md)
 - Hantera order {#admin-orders}
    - [Hantera order](managing-orders.md)

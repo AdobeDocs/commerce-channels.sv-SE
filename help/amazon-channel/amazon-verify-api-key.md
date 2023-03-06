@@ -2,9 +2,9 @@
 title: Lägg till eller verifiera Amazon API-nyckeln
 description: I din Commerce-konfiguration gör den validerade Amazon API-nyckeln att du kan integrera dina butiker med ditt Amazon Seller-konto.
 exl-id: 2257b64d-309d-4efd-ba79-6e0cdeed63cb
-source-git-commit: 2c753ec5f6f4cd509e61b4875e09e9a1a2577ee7
+source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
 workflow-type: tm+mt
-source-wordcount: '412'
+source-wordcount: '410'
 ht-degree: 0%
 
 ---
@@ -35,7 +35,7 @@ API-nyckeln valideras varje gång du öppnar din Amazon-försäljningskanal.
 
    - Om du inte är inloggad uppmanas du att ange [!DNL Commerce] användarnamn och lösenord för kontot före _[!UICONTROL API Portal]_visas.
 
-   - Om du inte har något konto går du till [den [!DNL Commerce] kontosida](https://account.magento.com/customer/account/login/){target=&quot;_blank&quot;} och registrera. Det här kontot ska ingå i ditt företag eller din verksamhet.
+   - Om du inte har något konto går du till [den [!DNL Commerce] kontosida](https://account.magento.com/customer/account/login/){target="_blank"} och registrera. Det här kontot ska ingå i ditt företag eller din verksamhet.
 
 1. Om det behövs kan du visa och generera API-nycklar på _[!UICONTROL API Portal]_i [!DNL Commerce] konto.
 

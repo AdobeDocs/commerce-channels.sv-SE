@@ -3,16 +3,16 @@ title: Villkor för prisregel
 description: Använd prisregelvillkoren för att avgöra vilka produkter som är berättigade till listprisregeln.
 redirect_from: /sales-channels/asc/ob-pricing-rules-conditions.html
 exl-id: 39b03a2e-15c6-4c56-b0e0-7c6823e95fa8
-source-git-commit: 15b9468d090b6ee79fd91c729f2481296e98c93a
+source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
 workflow-type: tm+mt
-source-wordcount: '757'
+source-wordcount: '728'
 ht-degree: 0%
 
 ---
 
-# Prisregelvillkor
+# Villkor för prisregel
 
-Villkoren avgör vilka produkter som omfattas av prisregeln. När du definierar villkoren för dina Amazon-prisregler följer du samma logik och process som när du definierar villkoren för [Kundprisregler](https://docs.magento.com/user-guide/marketing/price-rules-cart.html){target=&quot;_blank&quot;} i [!DNL Commerce].
+Villkoren avgör vilka produkter som omfattas av prisregeln. När du definierar villkoren för dina Amazon-prisregler följer du samma logik och process som när du definierar villkoren för [Kundprisregler](https://docs.magento.com/user-guide/marketing/price-rules-cart.html){target="_blank"} in [!DNL Commerce].
 
 >[!IMPORTANT]
 >
@@ -24,11 +24,11 @@ Alla områden i villkoren som är feta kan klickas för att visa de olika altern
 
 Den här processen kan vara enkel eller detaljerad, beroende på katalogkonfigurationen. Du kan definiera villkor så att när `ALL` eller `ANY` av villkoren antingen `TRUE` eller `FALSE` för en produkt är produkten berättigad till prissättningsregeln.
 
-Villkoren baseras på dina [produktattribut](https://docs.magento.com/user-guide/catalog/product-attributes.html){target=&quot;_blank&quot;}. Om du vill tillämpa regeln på alla produkter lämnar du villkorsavsnittet tomt.
+Villkoren baseras på dina [produktattribut](https://docs.magento.com/user-guide/catalog/product-attributes.html){target="_blank"}. Om du vill tillämpa regeln på alla produkter lämnar du villkorsavsnittet tomt.
 
 >[!NOTE]
 >
->Om du vill definiera ett villkor baserat på ett visst produktattribut, **Använd för villkor för kampanjregel** för attributet måste anges till `Yes` i [Egenskaper för Storefront](https://docs.magento.com/user-guide/stores/attribute-product-create.html){target=&quot;_blank&quot;} för attributet.
+>Om du vill definiera ett villkor baserat på ett visst produktattribut, **Använd för villkor för kampanjregel** för attributet måste anges till `Yes` i [Egenskaper för Storefront](https://docs.magento.com/user-guide/stores/attribute-product-create.html){target="_blank"} för attributet.
 
 ![Prisregelvillkor - rad 1](assets/ob-price-rules-condition-1.png)
 
@@ -50,7 +50,7 @@ Du kan skapa olika villkor genom att ändra kombinationen av dessa värden. I de
 
    ![Kombination av prisregelvillkor](assets/ob-conditions-combinations.png)
 
-   **[!UICONTROL Product Attribute]** - De tillgängliga produktattributen beror på [inställning av attributet](https://docs.magento.com/user-guide/stores/attribute-product-create.html){target=&quot;_blank&quot;}. För ett attribut som ska visas i listan *[!UICONTROL Use for Promo Rule Conditions]* för attributet måste anges till `Yes` i [storefront-egenskaper](https://docs.magento.com/user-guide/stores/attribute-product-create.html){target=&quot;_blank&quot;}.
+   **[!UICONTROL Product Attribute]** - De tillgängliga produktattributen beror på [inställning av attributet](https://docs.magento.com/user-guide/stores/attribute-product-create.html){target="_blank"}. For an attribute to show in the list, *[!UICONTROL Use for Promo Rule Conditions]* for the attribute must be set to `Yes` in your [storefront properties](https://docs.magento.com/user-guide/stores/attribute-product-create.html){target="_blank"}.
 
    - För **[!UICONTROL Product Attribute]** väljer du det attribut som du vill definiera som bas för villkoret. I det här exemplet är det markerade villkoret `Category`.
 
@@ -66,7 +66,7 @@ Du kan skapa olika villkor genom att ändra kombinationen av dessa värden. I de
 
    - Klicka **[!UICONTROL ...]** och välj det attributvärde som villkoret baseras på. Alternativen beror på attributets inställning.
 
-      Du kan uppmanas att välja ett alternativ eller ange ett värde för villkoret. I det här exemplet visas fältet tomt. Om du vill välja kategori(er) för regeln klickar du på väljarikonen (![Väljarikon](assets/btn-chooser.png)) för att visa dina markeringsalternativ. Den här regeln är för _Böcker_ väljer du **[!UICONTROL Books]** kryssrutan. Kategorinumret fylls i. Klicka på den gröna bockmarkeringsikonen (![Kryssmarkeringsikon](assets/btn-check-mark-green.png)).
+      Du kan uppmanas att välja ett alternativ eller ange ett värde för villkoret. I det här exemplet visas fältet tomt. Om du vill välja kategori(er) för regeln klickar du på väljarikonen (![Väljarikon](assets/btn-chooser.png)) för att visa dina markeringsalternativ. Den här regeln gäller för _Böcker_ väljer du **[!UICONTROL Books]** kryssrutan. Kategorinumret fylls i. Klicka på den gröna bockmarkeringsikonen (![Kryssmarkeringsikon](assets/btn-check-mark-green.png)).
 
       ![Prisregelvillkor - rad 2, del 3](assets/ob-price-rule-condition-3.png)
 

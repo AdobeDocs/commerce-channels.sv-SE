@@ -2,7 +2,7 @@
 title: Uppdatera obligatorisk information (ofullständig lista)
 description: Amazon försäljningskanal innehåller fliken Ofullständig för att övervaka Commerce Catalog-produkter som saknar information som krävs av Amazon.
 exl-id: f278cd50-8f04-452e-b9c2-c87820f9faf2
-source-git-commit: 2c753ec5f6f4cd509e61b4875e09e9a1a2577ee7
+source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
 workflow-type: tm+mt
 source-wordcount: '473'
 ht-degree: 0%
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 Listor som visas på _[!UICONTROL Incomplete]_-fliken innehåller [!DNL Commerce] katalogprodukter som uppfyller kraven för Amazon som du har angett i din lista, men som inte innehåller den information som Amazon behöver innan du kan börja använda den.
 
-## Uppdatera nödvändig information (Det går inte att tilldela till Amazon lista) {#update-required-info-unable-to-assign-to-amazon-listing}
+## Uppdatera nödvändig information (det går inte att tilldela till Amazon lista) {#update-required-info-unable-to-assign-to-amazon-listing}
 
 1. Visa listorna på _[!UICONTROL Incomplete]_tabba in [Hantera listor](./managing-product-listings.md).
 
@@ -29,7 +29,7 @@ Listan matchar nu din katalog, och sedan uppdateras den och publiceras till Amaz
 
 ![Tilldela ASIN manuellt utan matchning](assets/amazon-listing-update-assign-asin.png)
 
-## Uppdatera nödvändig information (Flera träffar hittades) {#update-required-info-multiple-matches-found}
+## Uppdatera nödvändig information (flera träffar hittades) {#update-required-info-multiple-matches-found}
 
 1. Visa listorna på _[!UICONTROL Incomplete]_tabba in [[!UICONTROL Manage Listings]](./managing-product-listings.md).
 

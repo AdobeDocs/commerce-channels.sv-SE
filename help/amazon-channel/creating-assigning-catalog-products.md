@@ -2,9 +2,9 @@
 title: Skapa och tilldela produkter
 description: Amazon Sales Channel tillhandahåller [!UICONTROL New Third Party] för att skapa och tilldela matchande Commerce-katalogprodukter med Amazon-listor.
 exl-id: de000e80-7546-44d2-905e-28664b24f028
-source-git-commit: 2c753ec5f6f4cd509e61b4875e09e9a1a2577ee7
+source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
 workflow-type: tm+mt
-source-wordcount: '1080'
+source-wordcount: '1060'
 ht-degree: 0%
 
 ---
@@ -59,11 +59,11 @@ Produkten och listan överensstämmer nu. Amazon försäljningskanal kan nu dela
 
    - För **[!UICONTROL Website Ids]** väljer du den webbplats (storefront) som produkten ska kopplas till.
 
-      Vilka alternativ som finns i listan beror på [!DNL Commerce] [lagringskonfiguration](https://docs.magento.com/user-guide/stores/websites-stores-views.html)Inställningar för {target=&quot;_blank&quot;}.
+      Vilka alternativ som finns i listan beror på [!DNL Commerce] [lagringskonfiguration](https://docs.magento.com/user-guide/stores/websites-stores-views.html){target="_blank"} inställningar.
 
    - För **[!UICONTROL Attribute Set Id]** (obligatoriskt) väljer du ett alternativ.
 
-      `Default` är standardvalet. Vilka alternativ som finns i listan beror på [!DNL Commerce] [attributuppsättningar](https://docs.magento.com/user-guide/stores/attribute-sets.html){target=&quot;_blank&quot;} du har konfigurerat.
+      `Default` är standardvalet. Vilka alternativ som finns i listan beror på [!DNL Commerce] [attributuppsättningar](https://docs.magento.com/user-guide/stores/attribute-sets.html){target="_blank"} du har konfigurerat.
 
    - För **[!UICONTROL Visibility]** väljer du ett alternativ för den nya produkten.
 
@@ -71,7 +71,7 @@ Produkten och listan överensstämmer nu. Amazon försäljningskanal kan nu dela
 
    - För **[!UICONTROL Assign Tax Class]** väljer du ett alternativ för produkten.
 
-      Vilka alternativ som visas i den här listan beror på [momsklasser](https://docs.magento.com/user-guide/tax/tax-class.html){target=&quot;_blank&quot;} du har konfigurerat.
+      Vilka alternativ som visas i den här listan beror på [momsklasser](https://docs.magento.com/user-guide/tax/tax-class.html){target="_blank"} du har konfigurerat.
 
    - När du är klar klickar du på **[!UICONTROL Create Catalog Products]**.
 
@@ -104,11 +104,11 @@ Katalogprodukten skapas i [!DNL Commerce] och tilldelas till den Amazon-lista so
 
    - För **[!UICONTROL Website Ids]** väljer du den webbplats (storefront) som produkten ska kopplas till.
 
-      Vilka alternativ som finns i listan beror på [!DNL Commerce] [lagringskonfiguration](https://docs.magento.com/user-guide/stores/websites-stores-views.html)Inställningar för {target=&quot;_blank&quot;}.
+      Vilka alternativ som finns i listan beror på [!DNL Commerce] [lagringskonfiguration](https://docs.magento.com/user-guide/stores/websites-stores-views.html){target="_blank"} inställningar.
 
    - För **[!UICONTROL Attribute Set Id]** (obligatoriskt) väljer du ett alternativ.
 
-      `Default` är standardvalet. Vilka alternativ som finns i listan beror på [!DNL Commerce] [attributuppsättningar](https://docs.magento.com/user-guide/stores/attribute-sets.html){target=&quot;_blank&quot;} du har konfigurerat.
+      `Default` är standardvalet. Vilka alternativ som finns i listan beror på [!DNL Commerce] [attributuppsättningar](https://docs.magento.com/user-guide/stores/attribute-sets.html){target="_blank"} du har konfigurerat.
 
    - För **[!UICONTROL Visibility]** väljer du ett alternativ för den nya produkten.
 
@@ -116,7 +116,7 @@ Katalogprodukten skapas i [!DNL Commerce] och tilldelas till den Amazon-lista so
 
    - För **[!UICONTROL Assign Tax Class]** väljer du ett alternativ för produkten.
 
-      Vilka alternativ som visas i den här listan beror på [momsklasser](https://docs.magento.com/user-guide/tax/tax-class.html){target=&quot;_blank&quot;} du har konfigurerat.
+      Vilka alternativ som visas i den här listan beror på [momsklasser](https://docs.magento.com/user-guide/tax/tax-class.html){target="_blank"} du har konfigurerat.
 
    - När du är klar klickar du på **[!UICONTROL Create Catalog Products]**.
 
@@ -127,8 +127,8 @@ Katalogprodukterna skapas i [!DNL Commerce] och tilldelas till den Amazon-lista 
 | Fält | Beskrivning |
 |--- |--- |
 | [!UICONTROL Enable Product(s)] | (Obligatoriskt) Om det här alternativet är aktiverat visas produkten i [!DNL Commerce] storefront. Om den är inaktiverad visas inte produkten i [!DNL Commerce] storefront. |
-| [!UICONTROL Categories] | Du kan ange namnet på kategorin för den nya produkten eller välja en kategori genom att klicka på nedpilen för att visa dina alternativ. Alternativen beror på [kategorier](https://docs.magento.com/user-guide/catalog/category-create.html){target=&quot;_blank&quot;}-konfiguration. |
-| [!UICONTROL Website Ids] | (Obligatoriskt) Välj den webbplats (storefront) som produkten ska kopplas till. Alternativen beror på [!DNL Commerce] [lagringskonfiguration](https://docs.magento.com/user-guide/stores/websites-stores-views.html){target=&quot;_blank&quot;} inställningar |
-| Attributuppsättnings-ID | Välj en attributuppsättning. Alternativen beror på din konfiguration [!DNL Commerce] [attributuppsättningar](https://docs.magento.com/user-guide/stores/attribute-sets.html){target=&quot;_blank&quot;}. |
+| [!UICONTROL Categories] | Du kan ange namnet på kategorin för den nya produkten eller välja en kategori genom att klicka på nedpilen för att visa dina alternativ. Alternativen beror på [kategorier](https://docs.magento.com/user-guide/catalog/category-create.html){target="_blank"} konfiguration. |
+| [!UICONTROL Website Ids] | (Obligatoriskt) Välj den webbplats (storefront) som produkten ska kopplas till. Alternativen beror på [!DNL Commerce] [lagringskonfiguration](https://docs.magento.com/user-guide/stores/websites-stores-views.html){target="_blank"} inställningar |
+| Attributuppsättnings-ID | Välj en attributuppsättning. Alternativen beror på din konfiguration [!DNL Commerce] [attributuppsättningar](https://docs.magento.com/user-guide/stores/attribute-sets.html){target="_blank"}. |
 | [!UICONTROL Visibility] | Alternativ:<ul><li>**[!UICONTROL Not Visible Individually]** - produkten inte syns i [!DNL Commerce] storefront (vanligaste för variantprodukter).</li><li>**[!UICONTROL Catalog]** - Tillåter att produkten kan nås via den kategori den är kopplad till på webbplatsen.</li><li>**Sök** - Tillåter att produkten bara hittas via sökverktyget.</li><li>**[!UICONTROL Catalog and Search]** - Tillåter att produkterna kan nås via kategoristrukturen och sökverktyget.</li></ul> |
-| [!UICONTROL Assign Tax Class] | Tilldela en momsklass till den nya produkten. Alternativen beror på din konfiguration [momsklasser](https://docs.magento.com/user-guide/tax/tax-class.html){target=&quot;_blank&quot;}. |
+| [!UICONTROL Assign Tax Class] | Tilldela en momsklass till den nya produkten. Alternativen beror på din konfiguration [momsklasser](https://docs.magento.com/user-guide/tax/tax-class.html){target="_blank"}. |

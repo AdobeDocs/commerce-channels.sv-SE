@@ -1,17 +1,17 @@
 ---
-title: '''[!DNL Amazon Sales Channel] Guide overview'''
+title: '''[!DNL Amazon Sales Channel] Stödlinjeöversikt'
 description: Omfattande information om [!DNL Amazon sales channel] för Adobe Commerce- och Magento Open Source-administratörer, inklusive installation och introduktion
 seo-title: Adobe Commerce Amazon Sales Channel Guide
 seo-description: Describes how to use [!DNL Amazon sales channel] with Adobe Commerce or Magento Open Source.
 exl-id: ad3e2353-313b-4c40-800a-b1ef5f0d8235
-source-git-commit: 19424bf0deebf2b5464f973edad48f63d6042463
+source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
 workflow-type: tm+mt
-source-wordcount: '219'
+source-wordcount: '215'
 ht-degree: 0%
 
 ---
 
-# [!DNL Amazon Sales Channel] Guide overview
+# [!DNL Amazon Sales Channel] Stödlinjeöversikt
 
 Den här handboken är avsedd för administratörer av Adobe Commerce och Magento Open Source. Den innehåller detaljerad information om installation och introduktion av [!DNL Amazon sales channel]samt konfiguration och hantering av tjänsterna. Det förutsätter en grundläggande förståelse för kärnhandelns konfiguration och funktioner.
 
@@ -38,5 +38,5 @@ Handboken behandlar inte kärnfunktionerna i Adobe Commerce och Magento Open Sou
 
 Om du behöver information eller har frågor som inte ingår i den här handboken använder du följande resurser:
 
-* [Hjälpcenter](https://support.magento.com/hc/en-us){target=&quot;_blank&quot;} - Se [!DNL Amazon Sales Channel]-relaterade felsökningsartiklar.
-* [Supportärenden](https://support.magento.com/hc/en-us/articles/360000913794#submit-ticket){target=&quot;_blank&quot;} - Skicka in en biljett för att få ytterligare hjälp.
+* [Hjälpcenter](https://support.magento.com/hc/en-us){target="_blank"}—Se [!DNL Amazon Sales Channel]-relaterade felsökningsartiklar.
+* [Supportärenden](https://support.magento.com/hc/en-us/articles/360000913794#submit-ticket){target="_blank"}—Skicka in en biljett för att få ytterligare hjälp.

@@ -2,18 +2,18 @@
 title: Prisområde
 description: Använd Commerce pricing för att hantera priser utifrån flera webbplatser eller globalt.
 exl-id: 24a1eac1-d579-4063-a33c-71969bc2b4b9
-source-git-commit: 15b9468d090b6ee79fd91c729f2481296e98c93a
+source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
 workflow-type: tm+mt
-source-wordcount: '183'
+source-wordcount: '135'
 ht-degree: 0%
 
 ---
 
 # Prisområde
 
-[!DNL Commerce] tillhandahåller konfiguration för [prissättning](https://docs.magento.com/user-guide/configuration/catalog/catalog.html#price){target=&quot;_blank&quot;} ska anges till `Global` eller `Website`. Om priset är inställt på `Global`, finns det en enda priskälla för alla webbplatser. Om priset är inställt på `Website`kan dina webbplatser variera sina priser och dessutom ha ett standardpris. Se [Katalogpris](https://docs.magento.com/user-guide/configuration/catalog/catalog.html#price){target=&quot;_blank&quot;} i användarhandboken för kärnhandeln.
+[!DNL Commerce] tillhandahåller konfiguration för [prissättning](https://docs.magento.com/user-guide/configuration/catalog/catalog.html#price){target="_blank"} to be set to `Global` or `Website`. If pricing is set to `Global`, there is a single price source for all websites. If pricing is set to `Website`, your websites can vary their pricing across and also have a fallback default pricing value. See [Catalog Price](https://docs.magento.com/user-guide/configuration/catalog/catalog.html#price){target="_blank"} i den centrala Commerce-användarhandboken.
 
-Om du ändrar katalogprisomfånget från `Global` till `Website`ändras också alla pristypattribut till `Website`. Se [Lägga till webbplatser](https://docs.magento.com/user-guide/stores/stores-all-create-website.html){target=&quot;_blank&quot;}.
+Om du ändrar katalogprisomfånget från `Global` till `Website`ändras också alla pristypattribut till `Website`. Se [Lägga till webbplatser](https://docs.magento.com/user-guide/stores/stores-all-create-website.html){target="_blank"}.
 
 När man väljer ett webbplatspris finns det två priskällor:
 

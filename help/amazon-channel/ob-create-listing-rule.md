@@ -2,7 +2,7 @@
 title: '"Onboarding: Skapa listregel'
 description: Skapa de inledande listreglerna för hur du genererar Amazon-listor när du slutför processen för registrering av Amazon-försäljningskanal [!DNL Commerce] produkter.
 exl-id: b318823e-a726-4a59-b117-9838562c7d8b
-source-git-commit: 2c753ec5f6f4cd509e61b4875e09e9a1a2577ee7
+source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
 workflow-type: tm+mt
 source-wordcount: '389'
 ht-degree: 0%

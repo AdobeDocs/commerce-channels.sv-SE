@@ -2,7 +2,7 @@
 title: Visa listinformation
 description: Om du vill veta mer om konkurrensstatistik för dina Amazon-listor och om enskilda SKU-/produktändringar kan du gå till sidan Produktlistningsinformation.
 exl-id: faece1b1-b4fb-4506-bf77-576ae445ed28
-source-git-commit: 2c753ec5f6f4cd509e61b4875e09e9a1a2577ee7
+source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
 workflow-type: tm+mt
 source-wordcount: '488'
 ht-degree: 0%
@@ -30,7 +30,7 @@ Den produktinformation som visas omfattar:
 
 ![Listinformation](assets/amazon-product-listing-details.png)
 
-## Logg för listaktivitet {#listing-activity-log}
+## Logg för listningsaktivitet {#listing-activity-log}
 
 Visar alla senaste aktiviteter för Amazon-listan. Följande information visas:
 

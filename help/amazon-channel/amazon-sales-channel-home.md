@@ -1,15 +1,15 @@
 ---
-title: Startsida
-description: Använd startsidan för Amazon-försäljningskanalen i [!DNL Commerce] Admin to access your [!DNL Amazon Marketplace] listor och aktivitet.
+title: Hemsida
+description: Använd startsidan för Amazon-försäljningskanalen i [!DNL Commerce] Administratör för åtkomst till [!DNL Amazon Marketplace] listor och aktivitet.
 exl-id: 00ce8253-aa91-4824-847d-24b74ed6a8bf
-source-git-commit: 2c753ec5f6f4cd509e61b4875e09e9a1a2577ee7
+source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
 workflow-type: tm+mt
-source-wordcount: '120'
+source-wordcount: '124'
 ht-degree: 0%
 
 ---
 
-# Startsida
+# Hemsida
 
 Hemsidan för Amazon-försäljningskanalen är din landningssida när du öppnar din Amazon-försäljningskanal.
 
@@ -21,7 +21,7 @@ De vyer som är tillgängliga på den vänstra menyn är bland annat:
 - [[!UICONTROL Learning and Preparation]](./learning-preparation.md) - Visa din Amazon och [!DNL Commerce] rekommenderade inställningsuppgifter och tillgängligt utbildningsmaterial.
 - [[!UICONTROL Attributes]](./managing-attributes.md) - Visa och hantera länkade [!DNL Commerce] och Amazon-attribut för din produktkatalog. Om du vill synkronisera automatiskt med Amazon redigerar eller skapar du och länkar attribut direkt via [!DNL Commerce].
 
-## Åtkomst till Amazon Sales Channel
+## Få tillgång till Amazon försäljningskanal
 
 På _[!UICONTROL Admin]_sidebar, gå till **[!UICONTROL Marketing]**>_[!UICONTROL Channels]_ > **[!UICONTROL Amazon Sales Channel]**.
 

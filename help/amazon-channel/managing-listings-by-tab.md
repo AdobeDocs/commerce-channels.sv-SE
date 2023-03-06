@@ -2,7 +2,7 @@
 title: Hantera produktlistor efter status/flik
 description: När du hanterar dina Amazon-listor kan du tillämpa åtgärder på dina listor enligt status.
 exl-id: 33effdd8-baa9-4fc5-8c7e-313175eb7e9c
-source-git-commit: 2c753ec5f6f4cd509e61b4875e09e9a1a2577ee7
+source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
 workflow-type: tm+mt
 source-wordcount: '361'
 ht-degree: 0%

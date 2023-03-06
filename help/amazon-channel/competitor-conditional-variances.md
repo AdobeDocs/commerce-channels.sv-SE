@@ -2,14 +2,14 @@
 title: '"Intelligent Repricing Rule: Villkorsavvikelser för konkurrent'
 description: Bestäm priset på Amazon baserat på konkurrenternas priser och villkor genom att skapa en intelligent regel för omprissättning.
 exl-id: c52230e3-4e47-45bc-80e0-170530f58987
-source-git-commit: 2c753ec5f6f4cd509e61b4875e09e9a1a2577ee7
+source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
 workflow-type: tm+mt
-source-wordcount: '757'
+source-wordcount: '753'
 ht-degree: 0%
 
 ---
 
-# Intelligent ompriseringsregel: villkorsavvikelser för konkurrent
+# Regel för intelligent omprisering: Villkorsavvikelser för konkurrenter
 
 Avsnitt i en intelligent regel för återprissättning omfattar:
 
@@ -39,15 +39,15 @@ För **[!UICONTROL Conditional Variance]** väljer du ett alternativ:
 
    När _[!UICONTROL Apply Variance]_har valts visas ytterligare variansfält för var och en av dina Amazon-villkor. Med den här funktionen kan ni använda smarta regler för omprissättning när ni erbjuder produkter som är i ett annat skick än konkurrenterna. För att förstå beräkningen bakom villkorlig avvikelse måste du först förstå att alla avvikelser bestäms utifrån ett basmatchningspris.
 
-   Alternativen för villkorlig avvikelse som visas baseras på dina listinställningar för `Condition` som mappas till villkorsvärden med en [!DNL Commerce] [produktattribut](https://docs.magento.com/user-guide/catalog/product-attributes.html){target=&quot;_blank&quot;}. För alla mappade villkor kan du definiera en avvikelseprocent på 1-100. Undantaget är samlarföremål, i vilket fall ett procenttal större än 100 kan tillämpas.
+   Alternativen för villkorlig avvikelse som visas baseras på dina listinställningar för `Condition` som mappas till villkorsvärden med en [!DNL Commerce] [produktattribut](https://docs.magento.com/user-guide/catalog/product-attributes.html){target="_blank"}. För alla mappade villkor kan du definiera en avvikelseprocent på 1-100. Undantaget är samlarföremål, i vilket fall ett procenttal större än 100 kan tillämpas.
 
 ![Regel för intelligent omprisering - villkorliga avvikelser för konkurrenter](assets/amazon-competitor-cond-variances.png)
 
 | Fält | Beskrivning |
 |--- |--- |
-| [!UICONTROL Competitor Conditional Variances] | Alternativ: <ul><li>**[!UICONTROL Use all competitor's product conditions]** - Om det inte finns någon matchning för villkoret som du anger produkten med, matchar det här alternativet alla tillgängliga villkor. Först försöker den matcha ditt tillstånd och sedan fungerar den från `New` villkor till `Used; Acceptable`.</li><li>**[!UICONTROL Use only matching competitor's product condition]** - Det här alternativet matchar produktens villkor. Om det inte finns någon matchning får du produktpriserna på _[!UICONTROL Magento Price Source]_.</li><li>>**[!UICONTROL Apply variance (if competitor's product condition differs)]** - Det här alternativet försöker först matcha mot ditt produktvillkor. Om det inte finns något matchande villkor tillämpas en avvikelse (i procent) i förhållande till ditt produktvillkor och den lägsta konkurrentens villkor.</li></ul><br><br>Alternativen för villkorlig avvikelse som visas baserat på listinställningarna för Villkor som mappas till villkorsvärden med en [!DNL Commerce] [produktattribut](https://docs.magento.com/user-guide/catalog/product-attributes.html){target=&quot;_blank&quot;}. För alla mappade villkor kan du ange en avvikelseprocent på 1-100. Undantaget är samlarföremål, i vilket fall ett procenttal större än 100 kan tillämpas.<br><br>Med den här funktionen kan ni använda smarta regler för omprissättning när ni erbjuder produkter som är i ett annat skick än konkurrenterna. För att förstå beräkningen bakom villkorlig avvikelse måste du först förstå att alla avvikelser bestäms utifrån ett basmatchningspris. |
+| [!UICONTROL Competitor Conditional Variances] | Alternativ: <ul><li>**[!UICONTROL Use all competitor's product conditions]** - Om det inte finns någon matchning för villkoret som du anger produkten med, matchar det här alternativet alla tillgängliga villkor. Först försöker den matcha ditt tillstånd och sedan fungerar den från `New` villkor till `Used; Acceptable`.</li><li>**[!UICONTROL Use only matching competitor's product condition]** - Det här alternativet matchar produktens villkor. Om det inte finns någon matchning får du produktpriserna på _[!UICONTROL Magento Price Source]_.</li><li>>**[!UICONTROL Apply variance (if competitor's product condition differs)]** - Det här alternativet försöker först matcha mot ditt produktvillkor. Om det inte finns något matchande villkor tillämpas en avvikelse (i procent) i förhållande till ditt produktvillkor och den lägsta konkurrentens villkor.</li></ul><br><br>Alternativen för villkorlig avvikelse som visas baserat på listinställningarna för Villkor som mappas till villkorsvärden med en [!DNL Commerce] [produktattribut](https://docs.magento.com/user-guide/catalog/product-attributes.html){target="_blank"}. För alla mappade villkor kan du ange en avvikelseprocent på 1-100. Undantaget är samlarföremål, i vilket fall ett procenttal större än 100 kan tillämpas.<br><br>Med den här funktionen kan ni använda smarta regler för omprissättning när ni erbjuder produkter som är i ett annat skick än konkurrenterna. För att förstå beräkningen bakom villkorlig avvikelse måste du först förstå att alla avvikelser bestäms utifrån ett basmatchningspris. |
 
-## Beräkna bas för villkorlig avvikelse
+## Beräkna basen för villkorlig avvikelse
 
 - BMC (Base Match Condition Variance) = Avvikelsen för villkoret för din matchningspris. BMC är variansen för `New` villkor.
 - MCV (Merchant Condition Variance) = Variansen för produktens skick. Med hjälp av det tidigare exemplet är MCV = variansen för `Used; Good` villkor.

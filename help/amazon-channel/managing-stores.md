@@ -2,14 +2,14 @@
 title: Amazon Stores-vy
 description: Gå till Amazon Stores-vyn och granska enkelt grundläggande statistik för alla Amazon-butiker samt olika alternativ för åtkomsthantering.
 exl-id: 1376cd84-da81-4d3b-a5be-218aa802eed6
-source-git-commit: 2c753ec5f6f4cd509e61b4875e09e9a1a2577ee7
+source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
 workflow-type: tm+mt
 source-wordcount: '465'
 ht-degree: 0%
 
 ---
 
-# Amazon Stores-vyn
+# Amazon Stores-vy
 
 När du tittar på startsidan för Amazon försäljningskanal kan du _Amazon Stores_ visas som standard.
 

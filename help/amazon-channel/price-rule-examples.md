@@ -2,7 +2,7 @@
 title: Exempel på prisregler
 description: Se de här exemplen baserat på vanliga scenarier för att få hjälp med att utforma prisregler för listor från Amazon.
 exl-id: 4d9717ba-4ad6-468d-b4ca-99f8620b60b4
-source-git-commit: 2c753ec5f6f4cd509e61b4875e09e9a1a2577ee7
+source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
 workflow-type: tm+mt
 source-wordcount: '922'
 ht-degree: 2%
@@ -144,7 +144,7 @@ På grund av [Buy Box](./buy-box-competitor-pricing.md) priset är större än b
 
 Det slutliga priset efter att regeln har tillämpats: $15
 
-### Lägsta pris med alla konkurrenters priser och Använd alla konkurrenters produktvillkor
+### Lägsta pris med alla konkurrenters priser och använd alla konkurrenters produktvillkor
 
 | Fält | Inställning |
 |----------|-----|
@@ -189,8 +189,8 @@ Det slutliga priset efter att regeln har tillämpats: $13
 
 | Fält | Inställning |
 |----------|-----|
-| [!UICONTROL VAT] | 10 % |
-| [!UICONTROL Ceiling price source] | 10 dollar |
+| [!UICONTROL VAT] | 10% |
+| [!UICONTROL Ceiling price source] | $10 |
 | [!UICONTROL Currency conversion] | 1,25 euro:1 USD |
 
 [Takpris](./optional-ceiling-price.md) På den europeiska (moms) marknaden: $10 x 1.25 = $12.50
@@ -206,8 +206,8 @@ Slutpris efter moms: $12.50 x (1.1) = $13.75
 | Fält | Inställning |
 |----------|----|
 | Prioritet | 1 |
-| moms | 10 % |
-| Tak priskälla | 10 dollar |
+| moms | 10% |
+| Tak priskälla | $10 |
 | Valutakonvertering | 1,25 euro:1 USD |
 
 [Takpris](./optional-ceiling-price.md) På den europeiska (moms) marknaden: $10 x 1.25 = $12.50
@@ -221,7 +221,7 @@ Slutpris efter moms: $12.50 x (1.1) = $13.75
 | [!UICONTROL Priority] | 2 |
 | [!UICONTROL Price Action] | Öka med |
 | [!UICONTROL Apply] | Använd som fast belopp |
-| [!UICONTROL Adjustment Amount] | 5,00 USD |
+| [!UICONTROL Adjustment Amount] | $5.00 |
 
 När [tak](./optional-ceiling-price.md) är träffad tillämpas standardprisregeln ovanpå regeln om intelligent prissättning.
 

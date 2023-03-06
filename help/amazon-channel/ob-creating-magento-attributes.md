@@ -2,16 +2,16 @@
 title: Skapa [!DNL Commerce] Attribut för Amazon
 description: Innan du slutför Amazon process för registrering av säljkanaler måste du se till att du har de [!UICONTROL Commerce] produktattribut.
 exl-id: eebad794-c171-40a3-aa24-d5509e2b5797
-source-git-commit: 15b9468d090b6ee79fd91c729f2481296e98c93a
+source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
 workflow-type: tm+mt
-source-wordcount: '524'
+source-wordcount: '522'
 ht-degree: 0%
 
 ---
 
-# Skapa [!DNL Commerce] attribut för Amazon
+# Skapa [!DNL Commerce] Attribut för Amazon
 
-Innan du börjar prenumerera på [!DNL Amazon Seller Central] konton, det är bäst att lägga till [!DNL Commerce] [produktattribut](https://docs.magento.com/user-guide/stores/attributes-product.html){target=&quot;_blank&quot;} för att mappa dina produktlistor. När du är klar med introduktionen kan du hantera dina produktattribut via [Attribut](./managing-attributes.md) -fliken i [Amazon säljkanal - startsida](./amazon-sales-channel-home.md) sida.
+Innan du börjar prenumerera på [!DNL Amazon Seller Central] konton, det är bäst att lägga till [!DNL Commerce] [produktattribut](https://docs.magento.com/user-guide/stores/attributes-product.html){target="_blank"} för att kartlägga produktlistor. När du är klar med introduktionen kan du hantera dina produktattribut via [Attribut](./managing-attributes.md) -fliken i [Amazon säljkanal - startsida](./amazon-sales-channel-home.md) sida.
 
 Dessa instruktioner beskriver hur du skapar [!DNL Commerce] för Amazon ASIN och Amazon Condition. Vi rekommenderar att du skapar ytterligare attribut som Amazon EAN, Amazon ISBN och Amazon UPC. Du kan också skapa ett Amazon Price-attribut om du vill använda ditt Amazon-pris som en priskälla för prisregler. Dessa attribut används när du konfigurerar dina lista- och prisinställningar under introduktionen. Använd även dessa attribut när du skapar Amazon-listor och när du uppdaterar och synkroniserar [!DNL Commerce] katalogisera med dina Amazon-listor.
 

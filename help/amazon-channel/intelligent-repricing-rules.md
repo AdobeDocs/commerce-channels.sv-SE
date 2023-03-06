@@ -2,14 +2,14 @@
 title: '"Intelligent Repricing Rule: Välj regeltyp'
 description: Bestäm Amazon listpris enligt konkurrentpriser genom att skapa en intelligent regel för omprissättning.
 exl-id: 2690323a-a076-484b-a437-adadb08094f5
-source-git-commit: 2c753ec5f6f4cd509e61b4875e09e9a1a2577ee7
+source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
 workflow-type: tm+mt
 source-wordcount: '701'
 ht-degree: 0%
 
 ---
 
-# Intelligent ompriseringsregel: välj regeltyp
+# Regel för intelligent omprisering: Välj regeltyp
 
 >[!IMPORTANT]
 >

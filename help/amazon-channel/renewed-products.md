@@ -2,16 +2,16 @@
 title: Förnyade produkter
 description: Om ditt Seller Central-konto är registrerat för det förnyade programmet kan du hantera dina förnyade listor i Amazon Sales Channel.
 exl-id: 1f828893-ca56-4457-bf8f-8e2d056515e8
-source-git-commit: 15b9468d090b6ee79fd91c729f2481296e98c93a
+source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
 workflow-type: tm+mt
-source-wordcount: '171'
+source-wordcount: '163'
 ht-degree: 0%
 
 ---
 
 # Förnyade produkter
 
-Innan du kan lista dina högkvalitativa, liknande nya produkter (renoverade, ägs och öppnas) på Amazon måste du först registrera dig och godkänna för [[!DNL Amazon Renewed Program]](https://sell.amazon.com/programs/renewed.html){target=&quot;_blank&quot;}.
+Innan du kan lista dina högkvalitativa, liknande nya produkter (renoverade, ägs och öppnas) på Amazon måste du först registrera dig och godkänna för [[!DNL Amazon Renewed Program]](https://sell.amazon.com/programs/renewed.html){target="_blank"}.
 
 När du har godkänts och [!DNL Seller Central] kontot uppdateras, kan du hantera dina förnyade listor i Amazon försäljningskanal. Förnyade listor kräver följande steg i [!DNL Commerce]:
 
@@ -25,8 +25,8 @@ När du har godkänts och [!DNL Seller Central] kontot uppdateras, kan du hanter
 
 Mer information finns i relaterad Amazon-dokumentation:
 
-- [Amazon förnyade program](https://sell.amazon.com/programs/renewed.html){target=&quot;_blank&quot;}
+- [Amazon förnyade program](https://sell.amazon.com/programs/renewed.html){target="_blank"}
 
-- [Förnyad - Komma igång](https://sellercentral.amazon.com/gp/help/help.html/?itemID=201648580){target=&quot;_blank&quot;} (Inloggning till Seller Central krävs)
+- [Förnyad - Komma igång](https://sellercentral.amazon.com/gp/help/help.html/?itemID=201648580){target="_blank"} (Inloggning till Seller Central krävs)
 
-- [Vanliga frågor om förnyelse av Amazon](https://sellercentral.amazon.com/gp/help/help.html?itemID=202190060){target=&quot;_blank&quot;} (Inloggning till Seller Central krävs)
+- [Vanliga frågor om förnyelse av Amazon](https://sellercentral.amazon.com/gp/help/help.html?itemID=202190060){target="_blank"} (Inloggning till Seller Central krävs)

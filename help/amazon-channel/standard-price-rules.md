@@ -2,14 +2,14 @@
 title: Standardprisregelåtgärder
 description: Använd standardprisregelåtgärder för att öka eller minska ett listpris för Amazon i förhållande till Commerce-katalogpriset (eller priskällan).
 exl-id: 91df6ef3-852b-478b-8b01-51dd437dd4f9
-source-git-commit: 2c753ec5f6f4cd509e61b4875e09e9a1a2577ee7
+source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
 workflow-type: tm+mt
 source-wordcount: '334'
 ht-degree: 0%
 
 ---
 
-# Åtgärder för standardprisregel
+# Standardprisregelåtgärder
 
 Med en standardprisregelåtgärd kan du öka eller minska ett Amazon-listpris med en viss procentandel eller ett fast belopp i förhållande till [!DNL Commerce] katalogpris (eller priskälla).
 

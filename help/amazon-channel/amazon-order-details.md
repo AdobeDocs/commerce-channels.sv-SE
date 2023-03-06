@@ -2,7 +2,7 @@
 title: Beställningsinformation för Amazon
 description: Läs mer om dina Amazon Marketplace-beställningar i Adobe Commerce eller Magento Open Source Admin.
 exl-id: a85bb6b3-817d-4859-a815-41777f4b8667
-source-git-commit: 2c753ec5f6f4cd509e61b4875e09e9a1a2577ee7
+source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
 workflow-type: tm+mt
 source-wordcount: '185'
 ht-degree: 0%
@@ -52,7 +52,6 @@ The _[!UICONTROL Order and Shipping Details]_På -fliken visas detaljerad bestä
 >- `Shipping region`
 >- `Shipping postal code`
 >- `Shipping country`
-
 >
 >Glöm inte att klicka **Spara ordning** när du har redigerat.
 
