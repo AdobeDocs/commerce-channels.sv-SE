@@ -2,9 +2,9 @@
 title: '''[!DNL Amazon Sales Channel] Versionsinformation'
 description: Läs versionsinformationen om du vill ha information om alla [!DNL Amazon Sales Channel] releaser.
 exl-id: 792782e0-9097-42f7-9fc0-509ece02e407
-source-git-commit: adf86495e7de53f9ee7bc916b2a7398f04e7cbd4
+source-git-commit: 10d88821deabbd7481b74f21a5196d0ec1808f9a
 workflow-type: tm+mt
-source-wordcount: '2130'
+source-wordcount: '2258'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,29 @@ I versionsinformationen beskrivs den första versionen av [!DNL Amazon sales cha
 ![Korrigerat problem](../assets/fix.svg) Korrigeringar och förbättringar
 ![Känt fel](../assets/bug.svg) Kända fel
 
-Se [Kommande versioner](https://devdocs.magento.com/release/){target=&quot;_blank&quot;} för versionshantering, support och kompatibilitet.
+Se [Kommande versioner](https://devdocs.magento.com/release/){target="_blank"} för versionshantering, support och kompatibilitet.
+
+## v4.4.4
+
+[!DNL Amazon sales channel]  4.4.4 är kompatibelt med Adobe Commerce version 2.3.x och 2.4.0, men stöds bara för version 2.4.1+ av Magento Open Source, Adobe Commerce och Adobe Commerce i molninfrastruktur.
+
+![Korrigerat problem](../assets/fix.svg) Stöd för Adobe Commerce 2.4.6 och PHP 8.2 har lagts till.
+
+![Korrigerat problem](../assets/fix.svg) Minskat brus i loggar.
+
+![Korrigerat problem](../assets/fix.svg) Förbättrad stabilitet vid uppdatering.
+
+![Korrigerat problem](../assets/fix.svg) Förenklade processen för att köra en enda åtgärdsliknande pull eller för att ansöka från CLI.
+
+![Korrigerat problem](../assets/fix.svg) Uppgraderade beroendet för `magento/services-connector`.
+
+![Korrigerat problem](../assets/fix.svg) Korrigerade synkroniseringsproblem i brittiska konton med ogiltig landskod.
+
+![Korrigerat problem](../assets/fix.svg) Hårdkodad entitet_type_id för katalogproduktentiteten orsakar problem med Magento-priskällan.
+
+![Korrigerat problem](../assets/fix.svg) Ett problem har korrigerats som förhindrar att konton som har tagits bort på en serverdel från en annan instans också tas bort från användargränssnittet.
+
+![Korrigerat problem](../assets/fix.svg) Ett problem med import av vissa vagnsregler har korrigerats.
 
 ## v4.4.3
 
@@ -172,9 +194,9 @@ Amazon Sales Channel 3.0.0 är kompatibelt med Adobe Commerce version 2.2.4+ och
 
 ![Nytt](../assets/new.svg) **Amazon UK Marketplace ute nu**: Användare kan välja den brittiska marknadsplatsen när de skapar och integrerar en Commerce Store. Den här uppgraderingen i Storbritannien innehåller ytterligare support för:
 
-- [Amazon momskalkyleringstjänst](https://sell.amazon.co.uk/learn/vat-resources){target=&quot;_blank&quot;}
+- [Amazon momskalkyleringstjänst](https://sell.amazon.co.uk/learn/vat-resources){target="_blank"}
 
-- [Produktmomskod](https://sellercentral.amazon.com/gp/help/help.html?itemID=G200794510&amp;language=en_US){target=&quot;_blank&quot;}-information.
+- [Produktmomskod](https://sellercentral.amazon.com/gp/help/help.html?itemID=G200794510&amp;language=en_US){target="_blank"} information.
 
 ![Nytt](../assets/new.svg) **Förbättrad loggning**: <!--CHAN-3642, 3672-->Implementerat **Aktivera felsökningsloggning** för att samla in ytterligare synkroniseringsdata när felsökning behövs. Se [Inställningar för Sales Channel](https://docs.magento.com/user-guide/configuration/sales-channels/global-settings.html) i konfigurationsreferensen.
 
