@@ -4,7 +4,7 @@ user-guide-description: 'Utöka försäljningen och utöka kundbasen genom att i
 breadcrumb-title: '[!DNL Channel Manager Guide]'
 source-git-commit: d43c4760246f38caa5f944025e8d701c79a15ee4
 workflow-type: tm+mt
-source-wordcount: '92'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
