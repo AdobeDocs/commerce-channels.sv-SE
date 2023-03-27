@@ -1,18 +1,18 @@
 ---
-title: '"[!DNL Amazon Sales Channel] Användarhandbok"'
-description: '"[!DNL Channel manager] för Adobe Commerce erbjuder tillägget av Amazon-försäljningskanal så att säljarna smidigt kan sälja produkter i [!DNL Amazon Marketplace]."'
+title: "[!DNL Amazon Sales Channel] Användarhandbok"
+description: "[!DNL Amazon Sales Channel] gör det möjligt för handlare att smidigt sälja produkter i [!DNL Amazon Marketplace]."
 redirect_from: /sales-channels/amazon/amazon-sales-channel.html
 exl-id: a4a6f446-7029-4c92-bce3-5b857cc33056
-source-git-commit: 71a59d85334127cb494b79e3079b6d4eba68990d
+source-git-commit: 74e58c95479b624ad9993d613776b4d33c492080
 workflow-type: tm+mt
-source-wordcount: '525'
+source-wordcount: '499'
 ht-degree: 0%
 
 ---
 
 # [!DNL Amazon Sales Channel] Användarhandbok
 
-[!DNL Channel manager] för Adobe Commerce erbjuder tillägget av Amazon-försäljningskanal så att säljarna smidigt kan sälja produkter på Amazon Marketplace.
+[!DNL Amazon Sales Channel] gör det möjligt för handlare att smidigt sälja produkter i [!DNL Amazon Marketplace].
 
 Som Adobe Commerce eller Magento Open Source kan du använda [!DNL Amazon Sales Channel] för att integrera butikerna med världens största globala shoppingplats. Det här tillägget möjliggör Amazon försäljning genom att ansluta [!DNL Commerce] med [!DNL Amazon Seller Central] och erbjuder både automatisering och synkronisering av katalog- och orderdata. Hantera alla Amazon-listor, implementera enkla eller intelligenta prisregler och underhålla order och lager i en enda [!DNL Commerce] kontrollpanel.
 
@@ -37,5 +37,5 @@ Den här guiden granskar några grundläggande [!DNL Amazon Seller Central] info
 
 ## Ytterligare Adobe Commerce-dokumentation
 
-- [Adobe Commerce Användarhandbok](https://docs.magento.com/user-guide/){target=&quot;_blank&quot;}
-- [Adobe Commerce Developer Guide](https://devdocs.magento.com/){target=&quot;_blank&quot;}
+- [Adobe Commerce Användarhandbok](https://docs.magento.com/user-guide/){target="_blank"}
+- [Adobe Commerce Developer Guide](https://devdocs.magento.com/){target="_blank"}
