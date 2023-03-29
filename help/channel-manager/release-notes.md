@@ -2,9 +2,9 @@
 title: '''[!DNL Channel Manager] Versionsinformation'
 description: Den senaste versionsinformationen för [!DNL Channel Manager] från Adobe Commerce.
 exl-id: 8f40ace1-6587-4185-955a-91bc16dee8ce
-source-git-commit: 9cc1b79089771ef9a58d22379197b210d31e1670
+source-git-commit: d3acde7aa297ba33dffa7854aa7578985ad12c9b
 workflow-type: tm+mt
-source-wordcount: '156'
+source-wordcount: '161'
 ht-degree: 1%
 
 ---
@@ -18,7 +18,19 @@ I versionsinformationen beskrivs den första versionen av [!DNL Channel Manager]
 ![Känt fel](../assets/bug.svg) Kända fel
 
 
+## v2.0.0
+
+*20 mars 2023*
+
+[!BADGE Kompatibilitet]{type=Informative tooltip="Kompatibilitet"}
+
+![Nytt](../assets/new.svg)<!--CHAN-5893--> Channel Manager är nu kompatibelt med Adobe Commerce version 2.4.6.
+
 ## v1.1.0
+
+*23 november 2022*
+
+[!BADGE Kompatibilitet]{type=Informative tooltip="Kompatibilitet"}
 
 ![Nytt](../assets/new.svg)<!--CHAN-5204--> **Returer och återbetalningar**- Nu kan du bearbeta returleveranser och återbetalningsprocesser på Walmart Marketplace för beställningar som skickas via en Adobe Commerce- och Magento Open Source Channel Manager-butik. Information och uppdateringar om returer och återbetalningar synkroniseras mellan Walmart och Adobe Commerce så att aktuella data är tillgängliga i båda [!DNL Commerce] storefront och [!DNL Walmart Marketplace]. Se [Retur- och återbetalningsorder](return-refund-orders.md).
 
@@ -26,9 +38,9 @@ I versionsinformationen beskrivs den första versionen av [!DNL Channel Manager]
 
 ## v1.0.0
 
-Inledande version, kompatibel med följande Commerce-versioner:
+*14 januari 2022*
 
-* Open Source (CE): 2.4.x
-* Adobe Commerce (EE): 2.4.x
-* Adobe Commerce for Cloud (ECE): 2.4.x
-* Stabilitet: Stabil
+[!BADGE Kompatibilitet]{type=Informative tooltip="Kompatibilitet"}
+
+![Nytt](../assets/new.svg) Inledande version av Channel Manager för allmän tillgänglighet
+
