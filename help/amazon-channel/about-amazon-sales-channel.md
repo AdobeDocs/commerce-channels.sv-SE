@@ -2,16 +2,16 @@
 title: Om Amazon Sales Channel
 description: Använd Amazon-tillägget för säljkanaler för att smidigt integrera Adobe Commerce eller Magento Open Source med ditt Amazon Seller Central-konto.
 exl-id: 11752491-d0da-4ff7-a0a7-d17d4fa1bfc9
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: f9ef1b031a1a8a8a4b6c2453d431a6f35155c4ac
 workflow-type: tm+mt
-source-wordcount: '671'
+source-wordcount: '663'
 ht-degree: 0%
 
 ---
 
-# Om Amazon Sales Channel
+# Om [!DNL Amazon Sales Channel]
 
-Kanalhanteraren för Adobe Commerce erbjuder tillägget för Amazon-försäljningskanalen, som sömlöst integrerar dina [!DNL Commerce] Administrera med [!DNL Amazon Seller Central] konto. Efter [onboarding](./amazon-onboarding-home.md), [!DNL Commerce] blir ett&quot;centralt kommandocentral&quot; för hantering och styrning av dina Amazon-listor, -beställningar och -lager samt priser för din Amazon-butik.
+[!DNL Amazon Sales Channel] har Amazon-tillägget för försäljningskanaler som smidigt integrerar [!DNL Commerce] Administrera med [!DNL Amazon Seller Central] konto. Efter [onboarding](./amazon-onboarding-home.md), [!DNL Commerce] blir ett&quot;centralt kommandocentral&quot; för hantering och styrning av dina Amazon-listor, -beställningar och -lager samt priser för din Amazon-butik.
 
 [Integrering med Store](./store-integration.md) ansluter [!DNL Commerce] -instans och Amazon för att synkronisera data mellan båda plattformarna. Amazon säljkanal:
 
