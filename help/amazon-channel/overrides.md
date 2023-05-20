@@ -26,7 +26,7 @@ Du kan skapa, redigera eller ta bort en åsidosättning för en [enda notering](
 
 Du kan också skapa, redigera eller ta bort en åsidosättning för [flera listor](./creating-editing-overrides.md#edit-override-multiple-listings). På _[!UICONTROL Inactive]_,_[!UICONTROL Active]_ och _[!UICONTROL Ineligible]_-flikar kan du klicka på&#x200B;**[!UICONTROL Select]**i_[!UICONTROL Action]_ kolumn och välj **[!UICONTROL Edit Listing Overrides]**.
 
-Om du tar bort en åsidosättning används de värden som definieras i listinställningarna och reglerna.
+Om du tar bort en åsidosättning används de värden som definieras av dina listinställningar och regler.
 
 När du definierar en åsidosättning kan du även välja att ange en typ av åsidosättning eller en kombination av typerna.
 
@@ -45,7 +45,7 @@ Amazon hemsidor för försäljningskanaler delar några vanliga sidor [arbetsyte
 | Kolumn | Beskrivning |
 |---|---|
 | [!UICONTROL Amazon Seller SKU] | SKU (Stock Keeping Unit) som Amazon har tilldelat en produkt för att identifiera produkt, alternativ, pris och tillverkare. |
-| [!UICONTROL ASIN] | Ett unikt block med 10 bokstäver och/eller siffror som identifierar objekt.<br><br>ASIN står för Amazon Standard Identification Numbers. Ett ASIN är ett unikt block med 10 bokstäver och/eller siffror som identifierar objekt. För böcker är ASIN samma som ISBN-numret, men för alla andra produkter skapas ett nytt ASIN när objektet överförs till deras katalog. Du hittar ett ASIN-objekt på produktinformationssidan på Amazon, tillsammans med mer information om artikeln. |
+| [!UICONTROL ASIN] | Ett unikt block med 10 bokstäver och/eller siffror som identifierar objekt.<br><br>ASIN står för Amazon Standard Identification Numbers. Ett ASIN är ett unikt block med 10 bokstäver och/eller siffror som identifierar objekt. För böcker är ASIN samma som ISBN-numret, men för alla andra produkter skapas ett nytt ASIN när artikeln överförs till sin katalog. Du hittar ett ASIN-objekt på produktinformationssidan på Amazon, tillsammans med mer information om artikeln. |
 | [!UICONTROL Condition Override] | Det nya villkoret som definieras i åsidosättningen. Om den åsidosättning som tillämpas på listan inte är en villkorsåsidosättning, `Not Selected` visas i den här kolumnen. |
 | [!UICONTROL Product Listing Name] | Produktens namn. |
 | [!UICONTROL Seller Notes Override] | De nya säljaranteckningarna som definieras i åsidosättningen. Om den åsidosättning som tillämpas på listan inte är den här typen av åsidosättning är den här kolumnen tom. |

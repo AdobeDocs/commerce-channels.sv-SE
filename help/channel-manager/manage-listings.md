@@ -4,7 +4,7 @@ description: Hantera säljkanalslistor för en [!DNL Commerce] lagra med Channel
 exl-id: 70999552-9ba7-4b10-a8ee-ee99bc4fe837
 source-git-commit: aeeaca20cb54528f77e457d54a194d6603c08654
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '715'
 ht-degree: 0%
 
 ---

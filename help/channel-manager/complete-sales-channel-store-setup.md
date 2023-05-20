@@ -4,7 +4,7 @@ description: När du har skapat en försäljningskanal som ansluter en [!DNL Com
 exl-id: 12127e3b-55c1-4db6-98b2-6dc8bdaae139
 source-git-commit: aeeaca20cb54528f77e457d54a194d6603c08654
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '200'
 ht-degree: 0%
 
 ---

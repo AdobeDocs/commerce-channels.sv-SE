@@ -36,7 +36,7 @@ Om du vill lägga till attribut finns mer information i [Skapa produktattribut f
 
 1. För **[!UICONTROL ASIN]** väljer du det produktattribut du skapade för Amazon ASIN-värdet.
 
-   An ASIN ([!DNL Amazon Standard Identification Number]) är ett unikt block med tio bokstäver och/eller siffror som identifierar objekt. För böcker är ASIN samma som ISBN-numret, men för alla andra produkter skapas ett nytt ASIN när objektet överförs till deras katalog. Du hittar ett ASIN-objekt på produktinformationssidan på Amazon, tillsammans med mer information om artikeln.
+   An ASIN ([!DNL Amazon Standard Identification Number]) är ett unikt block med tio bokstäver och/eller siffror som identifierar objekt. För böcker är ASIN samma som ISBN-numret, men för alla andra produkter skapas ett nytt ASIN när artikeln överförs till sin katalog. Du hittar ett ASIN-objekt på produktinformationssidan på Amazon, tillsammans med mer information om artikeln.
 
 1. För **[!UICONTROL EAN]** väljer du det produktattribut du skapade för Amazon EAN-värdet.
 
@@ -64,7 +64,7 @@ Om du vill lägga till attribut finns mer information i [Skapa produktattribut f
 
 | Fält | Beskrivning |
 |--- |--- |
-| [!UICONTROL ASIN] | Ett unikt block med 10 bokstäver och/eller siffror som identifierar objekt.<br><br>ASIN står för [!DNL Amazon Standard Identification Number]. Ett ASIN är ett unikt block med 10 bokstäver och/eller siffror som identifierar objekt. För böcker är ASIN samma som ISBN-numret, men för alla andra produkter skapas ett nytt ASIN när objektet överförs till deras katalog. Du hittar ett ASIN-objekt på produktinformationssidan på Amazon, tillsammans med mer information om artikeln. |
+| [!UICONTROL ASIN] | Ett unikt block med 10 bokstäver och/eller siffror som identifierar objekt.<br><br>ASIN står för [!DNL Amazon Standard Identification Number]. Ett ASIN är ett unikt block med 10 bokstäver och/eller siffror som identifierar objekt. För böcker är ASIN samma som ISBN-numret, men för alla andra produkter skapas ett nytt ASIN när artikeln överförs till sin katalog. Du hittar ett ASIN-objekt på produktinformationssidan på Amazon, tillsammans med mer information om artikeln. |
 | [!UICONTROL EAN (European Article Number)] | En 12- eller 13-siffrig produktidentifieringskod. Det europeiska artikelnumret (EAN) är en streckkodsstandard, en 12- eller 13-siffrig produktidentifieringskod. Varje EAN är unik för att identifiera produkten, tillverkaren och dess attribut. EAN skrivs vanligtvis ut på en produktetikett eller förpackning som streckkod. Amazon kräver EAN-koder för att förbättra kvaliteten på sökresultaten och på katalogen. Du kan få EAN-nummer från tillverkaren. |
 | [!UICONTROL GCID (Global Catalog Identifier)] | GCID (Global Catalog Identifier) är ett ID för produkter som inte har någon UPC-kod eller ISBN. Med Amazon varumärkestrogister kan du registrera dig som varumärkesägare och skapa ett unikt ID för produkter som inte har en UPC eller ISBN. |
 | [!UICONTROL ISBN (International Standard Book Number)] | En 10- eller 13-siffrig unik streckkod för affärsboksidentifierare. ISBN (International Standard Book Number) är en unik streckkod för affärsboksidentifierare. Varje ISBN-kod identifierar en bok unikt. En ISBN har antingen tio eller 13 siffror. Alla ISBN som tilldelats efter 1 januari 2007 har 13 siffror. |

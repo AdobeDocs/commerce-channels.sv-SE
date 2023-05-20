@@ -4,7 +4,7 @@ description: Skapa produktsortiment för [!DNL Walmart Marketplace] försäljnin
 exl-id: 00932df7-bdc7-42a1-b269-88dffcc918bc
 source-git-commit: aeeaca20cb54528f77e457d54a194d6603c08654
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '344'
 ht-degree: 0%
 
 ---

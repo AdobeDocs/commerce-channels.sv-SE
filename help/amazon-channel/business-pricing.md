@@ -1,11 +1,11 @@
 ---
 title: (B2B) Affärspris
-description: Du kan lista dina [!DNL Commerce] store products on the Amazon Business (B2B) site by enabling business in your Amazon [!DNL Seller Central] konto.
+description: Du kan lista dina [!DNL Commerce] lagra produkter på Amazon Business-sajten (B2B) genom att göra affärer i din Amazon [!DNL Seller Central] konto.
 redirect_from: /sales-channels/asc/ob-business-pricing.html
 exl-id: 12a6cb2d-7a22-4b6d-9e94-ce91d564f42f
 source-git-commit: 632157839130461869345724bdfc03b306a4f613
 workflow-type: tm+mt
-source-wordcount: '539'
+source-wordcount: '552'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 [!DNL B2B Business Pricing] gör det möjligt för handlare med affärskonton att köpa från varandra med förväntat resultat för Amazon shoppingupplevelse. Med B2B-priser kan företag erbjuda nivåindelade priser baserat på inköpskvantiteten.
 
-För att dina produkter ska kunna listas på [!DNL Amazon Business (B2B)] måste du först aktivera din verksamhet [!DNL Amazon Seller Central] konto. Mer information om B2B-funktionen finns i [Amazon: B2B Central](https://sellercentral.amazon.com/gp/help/G202161480/){target=&quot;_blank&quot;} (kräver Seller Central-inloggning).
+För att dina produkter ska kunna listas på [!DNL Amazon Business (B2B)] måste du först aktivera din verksamhet [!DNL Amazon Seller Central] konto. Mer information om B2B-funktionen finns i [Amazon: B2B Central](https://sellercentral.amazon.com/gp/help/G202161480/){target="_blank"} (kräver inloggning till Seller Central).
 
 ## Konfigurera företagsprisinställningar (B2B)
 

@@ -4,7 +4,7 @@ description: När du skapar dina listregler definierar du villkor för att ident
 exl-id: 8a48acfc-d31b-4919-bef7-8c300f0f9d94
 source-git-commit: 15b9468d090b6ee79fd91c729f2481296e98c93a
 workflow-type: tm+mt
-source-wordcount: '742'
+source-wordcount: '736'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ Alla områden i villkoren som är feta kan klickas för att visa de olika altern
 >
 >Det finns en komplex uppsättning back-end-processer som kommunicerar direkt med Amazon system. Beroende på hur många objekt du försöker lista och hur upptagna Amazon-system kan vara (t.ex. Black Friday) kan det ta tid för dina objekt att listas på Amazon.
 
-Se avsnittet Villkor i [Skapa en kundprisregel](https://docs.magento.com/user-guide/marketing/price-rules-catalog-create.html){target=&quot;_blank&quot;}.
+Se avsnittet Villkor i [Skapa en kundprisregel](https://docs.magento.com/user-guide/marketing/price-rules-catalog-create.html){target="_blank"}.
 
 ## Definiera ett villkor
 
@@ -31,7 +31,7 @@ Villkoren baseras på befintliga produktattributvärden. Om du vill tillämpa re
 
 >[!NOTE]
 >
->Om du vill definiera ett villkor baserat på ett visst produktattribut anger du **[!UICONTROL Use for Promo Rule Conditions]** inställning för attributet till `Yes`. Du kommer åt den här inställningen på [Egenskaper för Storefront](https://docs.magento.com/user-guide/catalog/product-attributes-add.html){target=&quot;_blank&quot;} sida för attributet.
+>Om du vill definiera ett villkor baserat på ett visst produktattribut anger du **[!UICONTROL Use for Promo Rule Conditions]** inställning för attributet till `Yes`. Du kommer åt den här inställningen på [Egenskaper för Storefront](https://docs.magento.com/user-guide/catalog/product-attributes-add.html){target="_blank"} sidan för attributet.
 
 ![Villkor - rad 1](assets/ob-listing-rule-conditions-start.png)
 
@@ -53,7 +53,7 @@ Du kan skapa olika villkor genom att ändra kombinationen av dessa värden. I de
 
       ![Villkorskombination](assets/ob-conditions-combinations.png)
 
-   - **[!UICONTROL Product Attribute]** - Produktattributen beror på attributets inställning. För att ett attribut ska visas i listan måste det konfigureras för användning i kampanjregelvillkor. Se _Använd för villkor för kampanjregel_ in [Produktattribut](https://docs.magento.com/user-guide/stores/attributes-product.html){target=&quot;_blank&quot;}.
+   - **[!UICONTROL Product Attribute]** - Produktattributen beror på attributets inställning. För att ett attribut ska visas i listan måste det konfigureras för användning i kampanjregelvillkor. Se _Använd för villkor för kampanjregel_ in [Produktattribut](https://docs.magento.com/user-guide/stores/attributes-product.html){target="_blank"}.
 
       I listan under **[!UICONTROL Product Attribute]** väljer du det attribut som du vill använda som grund för villkoret. I det här exemplet är det markerade villkoret `Amazon FBA`.
 

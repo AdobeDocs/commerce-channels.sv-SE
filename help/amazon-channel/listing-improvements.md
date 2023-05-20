@@ -22,7 +22,7 @@ En listförbättring från Amazon förhindrar inte att din produkt listas i Amaz
 | Kolumn | Beskrivning |
 |--- |--- |
 | [!UICONTROL Amazon Seller SKU] | SKU (Stock Keeping Unit) som Amazon har tilldelat en produkt för att identifiera produkt, alternativ, pris och tillverkare. |
-| [!UICONTROL ASIN] | Ett unikt block med 10 bokstäver och/eller siffror som identifierar objekt.<br><br>ASIN står för [!DNL Amazon Standard Identification Number]. Ett ASIN är ett unikt block med 10 bokstäver och/eller siffror som identifierar objekt. För böcker är ASIN samma som ISBN-numret, men för alla andra produkter skapas ett nytt ASIN när objektet överförs till deras katalog. Du hittar ett ASIN-objekt på produktinformationssidan på Amazon, tillsammans med mer information om artikeln. |
+| [!UICONTROL ASIN] | Ett unikt block med 10 bokstäver och/eller siffror som identifierar objekt.<br><br>ASIN står för [!DNL Amazon Standard Identification Number]. Ett ASIN är ett unikt block med 10 bokstäver och/eller siffror som identifierar objekt. För böcker är ASIN samma som ISBN-numret, men för alla andra produkter skapas ett nytt ASIN när artikeln överförs till sin katalog. Du hittar ett ASIN-objekt på produktinformationssidan på Amazon, tillsammans med mer information om artikeln. |
 | [!UICONTROL Alert Type] | Beskriver typen av problem med listan. &quot;Saknas&quot; indikerar till exempel att ett obligatoriskt attribut saknas. |
 | [!UICONTROL Field Name] | Fältnamnet i Amazon-försäljarens lista över detaljer som förbättringen rekommenderas för. |
 | [!UICONTROL Notes] | En beskrivning av den föreslagna förbättringen från Amazon. |

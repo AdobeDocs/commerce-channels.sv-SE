@@ -4,7 +4,7 @@ description: '''Anslut listor för [!DNL Commerce] produkter till [!DNL Walmart 
 exl-id: 78078b14-ebdd-415d-9486-66b0150167aa
 source-git-commit: aeeaca20cb54528f77e457d54a194d6603c08654
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '1096'
 ht-degree: 0%
 
 ---

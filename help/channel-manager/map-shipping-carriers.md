@@ -4,7 +4,7 @@ description: 'Mappningsattribut för matchning av [DNL! Commerce]-produkter till
 exl-id: 98c8d3f6-f129-43c6-920c-d9c36b0e4a40
 source-git-commit: aeeaca20cb54528f77e457d54a194d6603c08654
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '150'
 ht-degree: 0%
 
 ---

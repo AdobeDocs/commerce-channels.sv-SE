@@ -4,7 +4,7 @@ description: Läs versionsinformationen om du vill ha information om alla [!DNL 
 exl-id: 792782e0-9097-42f7-9fc0-509ece02e407
 source-git-commit: 3b2f60ad2796ee1fdc8808fc0941d76a603b2213
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '1924'
 ht-degree: 0%
 
 ---

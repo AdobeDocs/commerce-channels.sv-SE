@@ -6,7 +6,7 @@ seo-description: Describes how to use [!DNL Channel Manager] with Adobe Commerce
 exl-id: 0703741b-77e0-47b0-917f-b25d14afa7ae
 source-git-commit: aeeaca20cb54528f77e457d54a194d6603c08654
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '206'
 ht-degree: 0%
 
 ---

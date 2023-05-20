@@ -4,7 +4,7 @@ description: '''Verifiera att du har rätt [!DNL Walmart Marketplace]information
 exl-id: c4f247e8-280a-4595-a6c8-cf8b732d7aab
 source-git-commit: aeeaca20cb54528f77e457d54a194d6603c08654
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '335'
 ht-degree: 0%
 
 ---

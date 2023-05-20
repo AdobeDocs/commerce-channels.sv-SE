@@ -31,7 +31,7 @@ Filterkontroller kan innehålla dynamiska kalendrar för att begränsa data för
 
 I följande exempel visas inställningarna för filtrering av listan med order så att endast order som uppfyller följande villkor visas:
 
-- beställningar som gjorts mellan 2019-02-01 och 07-02-2019, och
+- beställningar som gjorts mellan 2019-02-01 och 07-02-07 2019, och
 - Beställningar med en köpare som heter `Smith`och
 - Beställningar med statusen `Shipped`.
 

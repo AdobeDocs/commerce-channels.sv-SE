@@ -4,20 +4,20 @@ description: Du kan använda Alias Amazon Seller SKU för att skapa flerregional
 exl-id: df3cafbf-58df-4c93-9e63-20feb6f4e7ed
 source-git-commit: 2c753ec5f6f4cd509e61b4875e09e9a1a2577ee7
 workflow-type: tm+mt
-source-wordcount: '860'
+source-wordcount: '858'
 ht-degree: 0%
 
 ---
 
 # Skapa en Alias Amazon Seller SKU
 
-An [!DNL Alias Amazon Seller SKU] används för att skapa en Amazon-lista från samma produkt i [!DNL Commerce] katalog. Om du är en erfaren Amazon-försäljare kan du känna till [Amazon Global SKU](https://sellercentral.amazon.com/gp/help/external/help.html?itemID=201394090){target=&quot;_blank&quot;} och Marketplace-specifik SKU för lager och leverans. I enlighet med liknande principer för Amazon försäljningskanal styr Amazon Seller SKU produktlistningsinformation på flerregional nivå samt [!DNL Alias Amazon Seller SKU] kan användas för att kontrollera produktlistinformation på en regionspecifik nivå.
+An [!DNL Alias Amazon Seller SKU] används för att skapa en Amazon-lista från samma produkt i [!DNL Commerce] katalog. Om du är en erfaren Amazon-försäljare kan du känna till [Amazon Global SKU](https://sellercentral.amazon.com/gp/help/external/help.html?itemID=201394090){target="_blank"} och Marketplace-specifik SKU för lager och frakt. I enlighet med liknande principer för Amazon försäljningskanal styr Amazon Seller SKU produktlistningsinformation på flerregional nivå samt [!DNL Alias Amazon Seller SKU] kan användas för att kontrollera produktlistinformation på en regionspecifik nivå.
 
 Den här funktionen kan användas för att utföra två funktioner:
 
 - Skapa en [!DNL Alias Amazon Seller SKU] för någon av [!DNL Commerce] katalogprodukter för att kontrollera regionspecifik listinformation.
 
-   **Exempel**: Du är säljare i både USA och Kanada. Kom ihåg att var och en av Amazon försäljningskanalbutiker bara kan tilldelas en Amazon-region under installationen. Du har alltså en Amazon-återförsäljare med en definierad region i USA och en annan butik med en definierad region i Kanada. Båda butikerna delar din [!DNL Commerce] Katalog för att visa information i båda regionerna, inklusive produktattributen Amazon Seller SKU och ASIN. Listorna för katalogprodukten är alltså desamma i båda butikerna, aktiekurser, kvantitet och andra produktattribut. Men ert lager för ert företag i Kanada levererar från Kanada och ert företag i USA levererar från USA. Du bör därför kontrollera listkvantiteten för varje butik separat. För att uppnå den här typen av regionspecifik kontroll kan du skapa en SKU för Alias Amazon Seller.
+   **Exempel**: Du är säljare i både USA och Kanada. Kom ihåg att var och en av Amazon försäljningskanalbutiker bara kan tilldelas en Amazon-region under installationen. Du har alltså en Amazon-återförsäljare med en definierad region i USA och en annan butik med en definierad region i Kanada. Båda butikerna delar din [!DNL Commerce] Katalog för att visa information i båda regionerna, inklusive produktattributen Amazon Seller SKU och ASIN. Listorna för katalogprodukten är alltså desamma i båda butikerna, aktiekurser, aktiekvantitet och andra produktattribut. Men ert lager för ert företag i Kanada levererar från Kanada och ert företag i USA levererar från USA. Du bör därför kontrollera listkvantiteten för varje butik separat. För att uppnå den här typen av regionspecifik kontroll kan du skapa en SKU för Alias Amazon Seller.
 
    Det innebär att du kan skapa en SKU för Alias Amazon Seller som är länkad till samma katalogprodukt och kan användas för att publicera om samma lista i den regionen.
 
