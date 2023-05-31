@@ -1,15 +1,15 @@
 ---
-title: Ofullständiga listor
+title: Ofullständiga Amazon-listor
 description: Amazon försäljningskanal ger [!UICONTROL Incomplete] kan du identifiera och uppfylla behörighetskraven för dina ofullständiga Amazon-listor.
 exl-id: f943c9cc-fa1d-4f3e-a3de-3a8d00f87890
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
-source-wordcount: '604'
+source-wordcount: '606'
 ht-degree: 0%
 
 ---
 
-# Ofullständiga listor
+# Ofullständiga Amazon-listor
 
 The _[!UICONTROL Incomplete]_-flikar [!DNL Commerce] katalogprodukter som uppfyller kraven för Amazon (definieras i [listregler](./listing-rules.md)), men saknar information som krävs av Amazon (t.ex. Amazon ASIN eller ett definierat produktvillkor).
 
@@ -41,7 +41,7 @@ Under **[!UICONTROL Select]** i _[!UICONTROL Action]_kolumn:
 >
 >Om du har pågående listor visas antalet listor i ett meddelande ovanför flikarna.
 
-![Ofullständiga Amazon-listor](assets/amazon-incomplete-listings.png)
+![Ofullständiga Amazon-listor](assets/amazon-incomplete-listings.png){width="600" zoomable="yes"}
 
 Amazon hemsidor för försäljningskanaler delar några vanliga sidor [arbetsytekontroller](./workspace-controls.md) som gör att du kan anpassa de data som visas.
 

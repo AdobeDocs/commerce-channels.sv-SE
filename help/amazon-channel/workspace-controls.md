@@ -1,10 +1,10 @@
 ---
-title: Arbetsytekontroller
+title: Amazon försäljningskanal - Arbetsytekontroller
 description: Amazon Sales Channel har arbetsytekontroller som hjälper dig att hitta listor, visa information och enkelt utföra åtgärder.
 exl-id: 4f76b1d0-ae58-435b-bd6d-50155a023421
-source-git-commit: 2c753ec5f6f4cd509e61b4875e09e9a1a2577ee7
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
-source-wordcount: '751'
+source-wordcount: '754'
 ht-degree: 0%
 
 ---
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 Amazon försäljningskanal [hemsida](./amazon-sales-channel-home.md) har vissa vanliga kontroller för arbetsytan, bland annat Filter, Standardvy, Kolumner och Exportera. Alla sidor har inte samma kontrollalternativ.
 
-![Exempel på arbetsytekontroll i Amazon Sales Channel](assets/amazon-workspace-controls.png)
+![Exempel på arbetsytekontroll i Amazon Sales Channel](assets/amazon-workspace-controls.png){width="600" zoomable="yes"}
 
 ## Åtgärder
 
@@ -21,7 +21,7 @@ The _[!UICONTROL Actions]_väljaren innehåller en lista med åtgärder som är 
 
 När väljaren till exempel visas på _[!UICONTROL Attributes]_sidan innehåller_[!UICONTROL Re-import Product Attribute Values]_ åtgärd. Om du väljer den här åtgärden skickas motsvarande [!DNL Amazon Seller Central] kontot och uppdaterar [!DNL Commerce] data för var och en av Amazon-lagringsobjekten som har checkats in i den vänstra kolumnen.
 
-![Exempel på Åtgärder-meny](assets/amazon-sales-channel-home-actions-option.png)
+![Exempel på Åtgärder-meny](assets/amazon-sales-channel-home-actions-option.png){width="500"}
 
 ## Filter
 
@@ -37,11 +37,11 @@ I följande exempel visas inställningarna för filtrering av listan med order s
 
 När du har angett filtreringsalternativ klickar du på **[!UICONTROL Apply Filters]** för att filtrera de data som visas. Klicka på Avbryt om du vill avsluta filterkontrollen utan att använda.
 
-![Exempel på filterkontroll](assets/workspace-controls-filters.png)
+![Exempel på filterkontroll](assets/workspace-controls-filters.png){width="600" zoomable="yes"}
 
 När du har tillämpat filter på dina data **[!UICONTROL Active Filters]** visas. Du kan klicka på ![Ikonen Rensa filter](assets/x-icon-clear-filters.png) om du vill ta bort ett visst filteralternativ eller klicka på **[!UICONTROL Clear All]** för att rensa alla använda filter.
 
-![Exempel på aktiva filter](assets/applied-filters-line.png)
+![Exempel på aktiva filter](assets/applied-filters-line.png){width="700"}
 
 ## Visa
 
@@ -72,7 +72,7 @@ I följande exempel visas en kolumnkontroll. De markerade alternativen motsvarar
 - Markera kryssrutan om du vill lägga till en datakolumn på sidan.
 - Markera inte kryssrutan om du vill ta bort en datakolumn från sidan.
 
-![Exempel på kolumnkontroll](assets/workspace-controls-columns.png)
+![Exempel på kolumnkontroll](assets/workspace-controls-columns.png){width="400"}
 
 Kryssrutan visas omedelbart. Om du gör ändringar och avslutar sidan återgår sidan till standardkolumnvisningen. För ändringar som du gör regelbundet kan du spara kolumnändringarna som en anpassad vy i kontrollen Visa. Sedan kan du växla i kontrollen Visa utan att behöva lägga till eller ta bort kolumner manuellt.
 
@@ -89,4 +89,4 @@ När du är klar att exportera dina data väljer du ett alternativ för exportfo
 
 Den genererade datafilen sparas automatiskt i den mapp som du har angett för nedladdning.
 
-![Exportkontroll](assets/workspace-controls-export.png)
+![Exportkontroll](assets/workspace-controls-export.png){width="250"}

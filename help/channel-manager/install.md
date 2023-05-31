@@ -2,9 +2,9 @@
 title: Installera [!DNL Channel Manager]'
 description: Installera[!DNL Channel Manager] tillägg.'
 exl-id: cb593ebd-f077-4a79-a661-bedf4cc70f97
-source-git-commit: 96016b086a2c6567fab66b497892022f172f4bdd
+source-git-commit: a3ae579c0eda0c27bf8eab9d0ac12919eaad494b
 workflow-type: tm+mt
-source-wordcount: '673'
+source-wordcount: '698'
 ht-degree: 0%
 
 ---
@@ -26,15 +26,15 @@ Båda metoderna kräver att du använder kommandoradsgränssnittet (CLI).
 
 >[!NOTE]
 >
->Om du behöver hjälp med att installera [!DNL Commerce] med CLI, se [Allmän CLI-installation](https://devdocs.magento.com/extensions/install/){target="_blank"}.
+>Om du behöver hjälp med att installera [!DNL Commerce] med CLI, se [Installera ett tillägg](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/tutorials/extensions.html).
 
 ### Installera på en lokal instans
 
 Följ dessa anvisningar för att installera [!DNL Channel Manager] på Adobe Commerce och Magento Open Source till en lokal instans.
 
-1. Logga in på [!DNL Commerce] server som [användare med behörigheter](https://devdocs.magento.com/guides/v2.4/install-gde/prereq/file-system-perms.html){target="_blank"} för att skriva till [!DNL Commerce] filsystem.
+1. Logga in på [!DNL Commerce] server som [användare med behörigheter](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/file-system/configure-permissions.html) för att skriva till [!DNL Commerce] filsystem.
 
-1. Lägg in webbsajten i [underhållsläge](https://devdocs.magento.com/guides/v2.4/install-gde/install/cli/install-cli-subcommands-maint.html){target="_blank"}.
+1. Lägg in webbsajten i [underhållsläge](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/tutorials/maintenance-mode.html).
 
    ```bash
    $ bin/magento maintenance:enable
@@ -108,13 +108,13 @@ Följ dessa anvisningar för att installera [!DNL Channel Manager] på Adobe Com
 
 Arbeta i en utvecklingsgren när du lägger till ett tillägg i din molninstans.
 
-Hjälp om hur du använder grenar finns i [Kom igång med att skapa grenar](https://devdocs.magento.com/cloud/env/environments-start.html#getstarted){target="_blank"} i dokumentationen för Adobe Commerce-utvecklare.
+Hjälp om hur du använder grenar finns i [Kom igång med att skapa grenar](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/cli-branches.html) i _Handbok för Commerce on Cloud Infrastructure_.
 
-Under installationen visas tilläggets namn (`magento\channel-manager`) infogas automatiskt i [app/etc/config.php](https://devdocs.magento.com/cloud/live/sens-data-over.html#configuration-data){target="_blank"} -fil. Du behöver inte redigera filen direkt.
+Under installationen visas tilläggets namn (`magento\channel-manager`) infogas automatiskt i [app/etc/config.php](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure-store/store-settings.html) -fil. Du behöver inte redigera filen direkt.
 
 1. Byt till rotkatalogen för projektet i molnet på din lokala arbetsstation.
 
-1. Skapa eller checka ut en utveckling [bankkontor](https://devdocs-beta.magento.com/cloud/env/environments-start.html#getstarted){target="_blank"}.
+1. Skapa eller checka ut en utveckling [bankkontor](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/cli-branches.html).
 
 1. Använd Composer-namnet för att lägga till tillägget i `require` i `composer.json` -fil.
 
@@ -156,14 +156,14 @@ Exempelsvar:
 Module is enabled
 ```
 
-Om modulen är inaktiverad [aktivera i din lokala miljö](https://devdocs.magento.com/cloud/howtos/install-components.html#manage-extensions) och driftsätta ändringarna.
+Om modulen är inaktiverad [aktivera i din lokala miljö](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure-store/extensions.html) och driftsätta ändringarna.
 
 
 1. När du har installerat tillägget loggar du in på [!UICONTROL Admin] till [konfigurera Commerce Services Connector](connect.md).
 
    >[!NOTE]
    >
-   >Instruktioner om hur du uppdaterar Channel Manager till en ny release finns i [Uppgraderingsmoduler och tillägg](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/modules/upgrade.html){target="_blank"}.
+   >Instruktioner om hur du uppdaterar Channel Manager till en ny release finns i [Uppgraderingsmoduler och tillägg](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/modules/upgrade.html).
 
 
 ## Felsökning
@@ -172,7 +172,7 @@ Använd följande information för att åtgärda fel som inträffar under instal
 
 ### Felaktiga dispositionsnycklar
 
-Om [åtkomstnycklar](https://devdocs.magento.com/guides/v2.4/install-gde/prereq/connect-auth.html){target="_blank"} som används för att autentisera till Composer-databasen är ogiltiga eller inte länkade till [!DNL MAGE ID] har använt [!DNL Channel Manager] visas följande fel.
+Om [åtkomstnycklar](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/authentication-keys.html) som används för att autentisera till Composer-databasen är ogiltiga eller inte länkade till [!DNL MAGE ID] har använt [!DNL Channel Manager] visas följande fel.
 
 ```terminal
 Could not find a matching version of package magento/channel-manager. Check the package spelling, your version constraint and that the package is available in a stability which matches your minimum-stability (stable).
@@ -192,7 +192,7 @@ Kontrollera nyckelkonfigurationen:
    $ cat /path/to/auth.json
    ```
 
-1. Kontrollera att autentiseringsuppgifterna i auth.json matchar [nycklarna som är kopplade till MAGE-ID](https://devdocs.magento.com/guides/v2.4/install-gde/prereq/connect-auth.html){target="_blank"} används för att registrera för Channel Manager-tjänsten.
+1. Kontrollera att autentiseringsuppgifterna i auth.json matchar [nycklarna som är kopplade till MAGE-ID](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/authentication-keys.html) används för att registrera för Channel Manager-tjänsten.
 
 ### Otillräckligt minne för PHP
 
@@ -204,7 +204,7 @@ Fatal error: Allowed memory size of 2146435072 bytes exhausted (tried to allocat
 
 Använd någon av följande metoder för att lösa minnesproblemet:
 
-- [Öka minnesgränsen för PHP](https://devdocs.magento.com/cloud/project/magento-app-php-ini.html#increase-php-memory-limit){target="_blank"} in the environment `php.ini` file. Also, verify that the Commerce instance has the [recommended values](https://devdocs.magento.com/guides/v2.4/install-gde/prereq/php-settings.html){target="_blank"} för andra PHP-inställningar.
+- [Öka minnesgränsen för PHP](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/app/php-settings.html) i miljön `php.ini` -fil. Kontrollera även att Commerce-instansen har [rekommenderade värden](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/php-settings.html) för andra PHP-inställningar.
 
 - Ange minnesgränsen från kommandoraden.
 
@@ -220,7 +220,7 @@ Använd någon av följande metoder för att lösa minnesproblemet:
 
 ### Vyn saknas
 
-Om du får ett felmeddelande om att en fil saknas `process_catalog_exporter_view` under installationen av Channel Manager kan du [uppdatera indexerare](https://devdocs.magento.com/guides/v2.4/config-guide/cli/config-cli-subcommands-index.html#config-cli-subcommands-index-reindex){target="_blank"}.
+Om du får ett felmeddelande om att en fil saknas `process_catalog_exporter_view` under installationen av Channel Manager kan du [uppdatera indexerare](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/manage-indexers.html).
 
 ```bash
 php bin/magento indexer:refresh
@@ -228,4 +228,4 @@ php bin/magento indexer:refresh
 
 ### Distributionsfel i molnet
 
-Information om problem med att distribuera tillägget till molnet finns i [distributionsfel för tillägg](https://devdocs.magento.com/cloud/trouble/trouble_comp-deploy-fail.html){target="_blank"}.
+Information om problem med att distribuera tillägget till molnet finns i [distributionsfel för tillägg](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/deploy/recover-failed-deployment.html).

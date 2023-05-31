@@ -2,9 +2,9 @@
 title: '"Intelligent Repricing Rule: Pris på golv'
 description: Använd inställningarna för lägsta pris för att fastställa det lägsta priset för en intelligent prisregel för att hantera dina Amazon-listor.
 exl-id: e00cac95-eef8-4d4d-b578-287a91f54bdf
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: a3ae579c0eda0c27bf8eab9d0ac12919eaad494b
 workflow-type: tm+mt
-source-wordcount: '402'
+source-wordcount: '404'
 ht-degree: 0%
 
 ---
@@ -31,7 +31,7 @@ Definiera din lägsta prisinställning i dialogrutan _[!UICONTROL Floor Price]_-
 
 1. För **[!UICONTROL Floor Price Source]** väljer du ett priskällattribut.
 
-   Välj [!DNL Commerce] [produktattribut](https://docs.magento.com/user-guide/catalog/product-attributes.html){target="_blank"} som anger din relativa golvgräns. Om du t.ex. inte vill att priset på ditt Amazon ska gå under kostnaden för ditt objekt väljer du *Kostnad* -attribut.
+   Välj [!DNL Commerce] [produktattribut](https://experienceleague.adobe.com/docs/commerce-admin/catalog/product-attributes/product-attributes.html) som anger din relativa golvgräns. Om du t.ex. inte vill att priset på ditt Amazon ska gå under kostnaden för ditt objekt väljer du *Kostnad* -attribut.
 
 1. För **[!UICONTROL Floor Price Action]** väljer du ett alternativ.
 
@@ -47,7 +47,7 @@ Definiera din lägsta prisinställning i dialogrutan _[!UICONTROL Floor Price]_-
 
 I det här exemplet sätts minimipriset till 3 % över kostnaden för artikeln.
 
-![Exempel på regel för intelligent omprissättning - lägsta pris](assets/ob-intelligent-pricde-rule-floor-price.png)
+![Exempel på regel för intelligent omprissättning - lägsta pris](assets/ob-intelligent-pricde-rule-floor-price.png){width="600" zoomable="yes"}
 
 | Fält | Beskrivning |
 |--- |--- |

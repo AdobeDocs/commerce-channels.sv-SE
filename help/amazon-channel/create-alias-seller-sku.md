@@ -2,7 +2,7 @@
 title: Skapa en Alias Amazon Seller SKU
 description: Du kan använda Alias Amazon Seller SKU för att skapa flerregionala Amazon-listor från dina Commerce-katalogprodukter.
 exl-id: df3cafbf-58df-4c93-9e63-20feb6f4e7ed
-source-git-commit: 2c753ec5f6f4cd509e61b4875e09e9a1a2577ee7
+source-git-commit: a3ae579c0eda0c27bf8eab9d0ac12919eaad494b
 workflow-type: tm+mt
 source-wordcount: '858'
 ht-degree: 0%
@@ -73,7 +73,7 @@ Visa listan på _[!UICONTROL Product Listings]_sida (_[!UICONTROL Inactive]_, _A
 
 1. Klicka **[!UICONTROL Save Listing Update]**.
 
-![skapa en Alias Amazon Seller SKU](assets/amazon-alias-sku-create.png)
+![skapa en Alias Amazon Seller SKU](assets/amazon-alias-sku-create.png){width="600" zoomable="yes"}
 
 | Fält | Beskrivning |
 |--- |--- |

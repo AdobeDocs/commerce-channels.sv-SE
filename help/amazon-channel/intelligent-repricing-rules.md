@@ -2,7 +2,7 @@
 title: '"Intelligent Repricing Rule: Välj regeltyp'
 description: Bestäm Amazon listpris enligt konkurrentpriser genom att skapa en intelligent regel för omprissättning.
 exl-id: 2690323a-a076-484b-a437-adadb08094f5
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: a3ae579c0eda0c27bf8eab9d0ac12919eaad494b
 workflow-type: tm+mt
 source-wordcount: '701'
 ht-degree: 0%
@@ -55,7 +55,7 @@ Definiera regeltypen i _[!UICONTROL Select Rule Type]_-avsnitt.
 >
 >Du kan använda dessa konkurrentpriser och alternativ för feedback för att undvika att basera dina priser på en konkurrent som har dålig feedback och säljer en produkt av lägre kvalitet.
 
-![Intelligent regel för omprissättning - välj regeltyp](assets/ob-intelligent-price-rule-type.png)
+![Intelligent regel för omprissättning - välj regeltyp](assets/ob-intelligent-price-rule-type.png){width="600" zoomable="yes"}
 
 | Fält | Beskrivning |
 |--- |--- |

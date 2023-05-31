@@ -1,18 +1,18 @@
 ---
-title: (B2B) Affärspris
+title: "[!DNL (B2B) Business Price] för Amazon-listor"
 description: Du kan lista dina [!DNL Commerce] lagra produkter på Amazon Business-sajten (B2B) genom att göra affärer i din Amazon [!DNL Seller Central] konto.
 redirect_from: /sales-channels/asc/ob-business-pricing.html
 exl-id: 12a6cb2d-7a22-4b6d-9e94-ce91d564f42f
-source-git-commit: 632157839130461869345724bdfc03b306a4f613
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
-source-wordcount: '552'
+source-wordcount: '547'
 ht-degree: 0%
 
 ---
 
-# (B2B) Affärspris
+# [!DNL (B2B) Business Price] för Amazon-listor
 
-(B2B) Affärsprisinställningarna ingår i dina butiksinställningar. Du kommer åt listinställningarna via [instrumentpanel för butik](./amazon-store-dashboard.md).
+(B2B) Affärsprisinställningarna ingår i dina butiksinställningar. Du kommer åt listinställningarna via [Amazon Store-instrumentpanel](./amazon-store-dashboard.md).
 
 [!DNL Amazon Business] är en marknadsplats som är exklusiv för Amazon registrerade affärskonton och endast är tillgänglig i USA, Frankrike, Tyskland och Storbritannien. Om marknadsplatsen tillåter B2B-företagspriser kan den redigeras i dina listinställningar.
 
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 För att dina produkter ska kunna listas på [!DNL Amazon Business (B2B)] måste du först aktivera din verksamhet [!DNL Amazon Seller Central] konto. Mer information om B2B-funktionen finns i [Amazon: B2B Central](https://sellercentral.amazon.com/gp/help/G202161480/){target="_blank"} (kräver inloggning till Seller Central).
 
-## Konfigurera företagsprisinställningar (B2B)
+## Konfigurera [!DNL (B2B) Business Price] inställningar
 
 1. Klicka **[!UICONTROL Listing Settings]** på butikens kontrollpanel.
 
@@ -44,7 +44,7 @@ För att dina produkter ska kunna listas på [!DNL Amazon Business (B2B)] måste
 
 1. När du är klar klickar du på **[!UICONTROL Save listing settings]**.
 
-![Amazon företagspris (B2B)](assets/amazon-business-pricing.png)
+![Amazon företagspris (B2B)](assets/amazon-business-pricing.png){width="500" zoomable="yes"}
 
 | Fält | Beskrivning |
 |--- |--- |

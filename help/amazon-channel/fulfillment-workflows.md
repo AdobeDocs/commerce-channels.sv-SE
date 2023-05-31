@@ -1,15 +1,15 @@
 ---
-title: Amazon Fulfillment Workflows
+title: Amazon arbetsflöden för leveranser
 description: Uppfyllandet av en beställning från en Amazon-lista följer en specifik sekvens från beställning som skickas till leverans.
 exl-id: 30dd9f97-9193-4c98-bded-e5d8d35b0d05
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
 source-wordcount: '393'
 ht-degree: 2%
 
 ---
 
-# Amazon Fulfillment Workflows
+# Amazon arbetsflöden för leveranser
 
 ## Exempel: fullgjord av handlare
 

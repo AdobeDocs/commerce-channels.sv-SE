@@ -1,15 +1,15 @@
 ---
-title: Hantera produktlistor efter åtgärd
+title: Hantera Amazon produktlistor efter åtgärd
 description: När du hanterar dina Amazon-listor kan du använda en åtgärd på en eller flera listor.
 exl-id: 1cbf16fb-15eb-484b-bea7-28017a0d0c60
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
-source-wordcount: '652'
+source-wordcount: '654'
 ht-degree: 0%
 
 ---
 
-# Hantera produktlistor efter åtgärd
+# Hantera Amazon produktlistor efter åtgärd
 
 The _[!UICONTROL Product Listings]_-sidan innehåller flera flikar från vilka du kan visa status för alla dina listor och matcha dina produkter med Amazon-listor.
 

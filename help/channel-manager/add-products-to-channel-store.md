@@ -2,7 +2,7 @@
 title: Lägg till produkter i kanalhanteraren
 description: Skapa produktsortiment för [!DNL Walmart Marketplace] försäljning genom att lägga till produkter från katalogen i den försäljningskanal som konfigurerats i Channel Manager.'
 exl-id: 00932df7-bdc7-42a1-b269-88dffcc918bc
-source-git-commit: aeeaca20cb54528f77e457d54a194d6603c08654
+source-git-commit: a3ae579c0eda0c27bf8eab9d0ac12919eaad494b
 workflow-type: tm+mt
 source-wordcount: '344'
 ht-degree: 0%
@@ -41,13 +41,13 @@ Importprocessen kan ta upp till 30 minuter eller mer beroende på hur många pro
 
 1. Välj **Lägg till produkter** för att öppna produktkatalogen.
 
-   ![Lägg till produkter i säljkanalsbutiken](assets/add-initial-products-to-connected-channel.png)
+   ![Lägg till produkter i säljkanalsbutiken](assets/add-initial-products-to-connected-channel.png){width="600" zoomable="yes"}
 
    Katalogen öppnas på en ny flik.
 
 1. Välj produkter att sälja på i katalogproduktrutnätet [!DNL Walmart Marketplace].
 
-   ![Skicka produkter till säljkanalsbutiken](assets/select-products-from-catalog.png)
+   ![Skicka produkter till säljkanalsbutiken](assets/select-products-from-catalog.png){width="600" zoomable="yes"}
 
 1. Aktivera **[!UICONTROL Connect to Channel Manager]** för de markerade objekten.
 
@@ -61,9 +61,9 @@ Importprocessen kan ta upp till 30 minuter eller mer beroende på hur många pro
 
       Ett bekräftelsemeddelande visas.
 
-      ![Produktimport från katalog till bekräftelsemeddelande för försäljningskanal](assets/product-import-from-catalog-confirmation.png)
+      ![Produktimport från katalog till bekräftelsemeddelande för försäljningskanal](assets/product-import-from-catalog-confirmation.png){width="400"}
 
-      Om meddelandet anger att uppdateringen är schemalagd använder du [kö:consumers:start](https://devdocs.magento.com/guides/v2.4/config-guide/cli/config-cli-subcommands-queue.html) [!DNL CLI] om du vill bearbeta uppdateringen direkt.
+      Om meddelandet anger att uppdateringen är schemalagd använder du [kö:consumers:start](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/start-message-queues.html) [!DNL CLI] om du vill bearbeta uppdateringen direkt.
 
       ```bash
       $ bin/magento queue:consumers:start product_action_attribute.update
@@ -75,6 +75,6 @@ Importprocessen kan ta upp till 30 minuter eller mer beroende på hur många pro
 
 1. Uppdatera vyn för att visa de nya produkterna som lagts till i Channel Manager genom att välja **[!UICONTROL Draft]** statuskort.
 
-   ![Produkter som importerats till en ansluten försäljningskanal](assets/products-in-marketplace-sales-channel.png)
+   ![Produkter som importerats till en ansluten försäljningskanal](assets/products-in-marketplace-sales-channel.png){width="400" zoomable="yes"}
 
 

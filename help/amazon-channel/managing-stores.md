@@ -1,19 +1,19 @@
 ---
-title: Amazon Stores-vy
+title: "[!UICONTROL Amazon Stores] visa"
 description: Gå till Amazon Stores-vyn och granska enkelt grundläggande statistik för alla Amazon-butiker samt olika alternativ för åtkomsthantering.
 exl-id: 1376cd84-da81-4d3b-a5be-218aa802eed6
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
-source-wordcount: '465'
+source-wordcount: '461'
 ht-degree: 0%
 
 ---
 
-# Amazon Stores-vy
+# [!UICONTROL Amazon Stores] visa
 
 När du tittar på startsidan för Amazon försäljningskanal kan du _Amazon Stores_ visas som standard.
 
-![Amazon Stores-vyn](assets/amazon-sales-channel-home-tabs.png)
+![Amazon Stores-vyn](assets/amazon-sales-channel-home-tabs.png){width="600" zoomable="yes"}
 
 The _[!UICONTROL Amazon Stores]_visar ett butikskort för var och en av Amazon butiker tillsammans med grundläggande statistik och hanteringsalternativ. I sammanfattningsinformationen som visas på varje kort finns information om butiksstatus, skapad den, uppdaterat datum och listor som behöver åtgärdas (exempel: Ofullständiga listor) och tilldelade [!DNL Commerce] webbplats.
 

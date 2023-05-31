@@ -1,19 +1,19 @@
 ---
-title: Prisområde
+title: Amazon försäljningskanal - prisomfång
 description: Använd Commerce pricing för att hantera priser utifrån flera webbplatser eller globalt.
 exl-id: 24a1eac1-d579-4063-a33c-71969bc2b4b9
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
-source-wordcount: '135'
+source-wordcount: '179'
 ht-degree: 0%
 
 ---
 
 # Prisområde
 
-[!DNL Commerce] tillhandahåller konfiguration för [prissättning](https://docs.magento.com/user-guide/configuration/catalog/catalog.html#price){target="_blank"} to be set to `Global` or `Website`. If pricing is set to `Global`, there is a single price source for all websites. If pricing is set to `Website`, your websites can vary their pricing across and also have a fallback default pricing value. See [Catalog Price](https://docs.magento.com/user-guide/configuration/catalog/catalog.html#price){target="_blank"} i den centrala Commerce-användarhandboken.
+[!DNL Commerce] tillhandahåller konfiguration för [prissättning](https://experienceleague.adobe.com/docs/commerce-admin/config/catalog/catalog.html#price) som ska anges till `Global` eller `Website`. Om priset är inställt på `Global`, finns det en enda priskälla för alla webbplatser. Om priset är inställt på `Website`kan dina webbplatser variera sina priser mellan och dessutom ha ett standardpris i reserv (se [Prisområde](https://experienceleague.adobe.com/docs/commerce-admin/catalog/products/pricing/catalog-price-scope.html)).
 
-Om du ändrar katalogprisomfånget från `Global` till `Website`ändras också alla pristypattribut till `Website`. Se [Lägga till webbplatser](https://docs.magento.com/user-guide/stores/stores-all-create-website.html){target="_blank"}.
+Om du ändrar katalogprisomfånget från `Global` till `Website`ändras också alla pristypattribut till `Website`. Se [Lägga till webbplatser](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/site-store/stores.html#add-websites).
 
 När man väljer ett webbplatspris finns det två priskällor:
 

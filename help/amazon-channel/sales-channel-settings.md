@@ -1,15 +1,15 @@
 ---
-title: Inställningar för Sales Channel
+title: Inställningar för försäljningskanal
 description: Uppdatera Commerce-konfigurationen om du vill hantera loggning, referenskälla och synkronisering för Amazon säljkanalsfunktioner.
 exl-id: 69f83774-41de-4fde-a357-f100d1bcd9f0
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
-source-wordcount: '278'
+source-wordcount: '283'
 ht-degree: 0%
 
 ---
 
-# Inställningar för Sales Channel
+# Inställningar för försäljningskanal
 
 När [!DNL Amazon Sales Channel] tillägg är installerat, standardvärden anges i Admin for Amazon-försäljningskanalen. De här inställningarna kan ändras i konfigurationsinställningarna för din Amazon Store. Dessa inställningar inkluderar:
 
@@ -33,11 +33,11 @@ När [!DNL Amazon Sales Channel] tillägg är installerat, standardvärden anges
 
 1. För **[!UICONTROL Background Tasks (CRON) Source]**, välja `Magento CRON`.
 
-   Med det här alternativet kan Amazon försäljningskanal använda [!DNL Commerce] [Cron](https://docs.magento.com/user-guide/system/cron.html) inställningar för att bestämma kommunikations- och datasynkroniseringsintervall med [!DNL Amazon Seller Central].
+   Med det här alternativet kan Amazon försäljningskanal använda [!DNL Commerce] [Cron](https://experienceleague.adobe.com/docs/commerce-admin/systems/tools/cron.html) inställningar för att bestämma kommunikations- och datasynkroniseringsintervall med [!DNL Amazon Seller Central].
 
 1. För **[!UICONTROL Enable Debug Logging]**, välja `Enabled` för att samla in ytterligare synkroniseringsdata när felsökning behövs.
 
-   Loggning av Amazon-försäljningskanal skrivs till `{Commerce Root}/var/log/channel_amazon.log` och kan visas i [utvecklarläge](https://docs.magento.com/user-guide/magento/installation-modes.html){target="_blank"}. Loggning ska bara vara `Enabled` under felsökning och bör `Disabled` när felsökningen är klar.
+   Loggning av Amazon-försäljningskanal skrivs till `{Commerce Root}/var/log/channel_amazon.log` och kan visas i [utvecklarläge](https://experienceleague.adobe.com/docs/commerce-admin/systems/tools/developer-tools.html#operation-modes). Loggning ska bara vara `Enabled` under felsökning och bör `Disabled` när felsökningen är klar.
 
 1. För **[!UICONTROL Read-Only Mode]**, markera `Enabled` för att blockera alla utgående API-begäranden som ändrar tillstånd.
 
@@ -51,4 +51,4 @@ När [!DNL Amazon Sales Channel] tillägg är installerat, standardvärden anges
 
 1. Klicka **[!UICONTROL Save Config]**.
 
-![Konfigurationsinställningar för Sales Channel](assets/config-sales-channel-global-settings.png)
+![Konfigurationsinställningar för Sales Channel](assets/config-sales-channel-global-settings.png){width="600" zoomable="yes"}

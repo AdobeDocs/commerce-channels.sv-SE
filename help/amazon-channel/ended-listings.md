@@ -1,15 +1,15 @@
 ---
-title: Avslutade listor
+title: Avslutade Amazon-listor
 description: Amazon Sales Channel har fliken Slutför där du kan granska avslutade Amazon Marketplace-listor som kan publiceras igen när du vill.
 exl-id: 15107f08-4231-44b5-9390-44b5b709e3a5
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
-source-wordcount: '397'
+source-wordcount: '399'
 ht-degree: 0%
 
 ---
 
-# Avslutade listor
+# Avslutade Amazon-listor
 
 The _[!UICONTROL Ended]_visas alla Amazon-produkter som har avslutats (tagits bort) manuellt från [!DNL Amazon Seller Central] konto. Produkterna uppfyller alla krav och kan publiceras på nytt när som helst och kräver ingen ytterligare information. Om en produkt finns i_[!UICONTROL Ineligible]_ kan du ändra [listinställningar](./listing-settings.md) så att din produkt uppfyller kraven i listan.
 
@@ -33,7 +33,7 @@ Information om hur du avslutar listor finns i [Avsluta en Amazon-lista](./end-li
 
 Publiceringslistor finns på [Publicera en Amazon-lista manuellt](./publish-listings-manually.md).
 
-![Avslutade Amazon-listor](assets/amazon-ended-listings.png)
+![Avslutade Amazon-listor](assets/amazon-ended-listings.png){width="600" zoomable="yes"}
 
 Amazon hemsidor för försäljningskanaler delar några vanliga sidor [arbetsytekontroller](./workspace-controls.md) som gör att du kan anpassa de data som visas.
 

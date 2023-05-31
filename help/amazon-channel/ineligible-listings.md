@@ -1,15 +1,15 @@
 ---
-title: Ej berättigade listor
+title: Ej berättigade Amazon-listor
 description: Amazon försäljningskanal ger [!UICONTROL Ineligible] för att hjälpa dig att hantera objekt är inte berättigade som en lista baserat på dina aktuella listregler.
 exl-id: ae63898d-ff5c-43eb-b759-5bc80829d4d4
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
-source-wordcount: '492'
+source-wordcount: '494'
 ht-degree: 0%
 
 ---
 
-# Ej berättigade listor
+# Ej berättigade Amazon-listor
 
 The _[!UICONTROL Ineligible]_På den här fliken visas en lista med alla produkter som för närvarande är publicerade på Amazon, men som inte är berättigade som listade baserat på dina aktuella listregler. Om en tidigare produkt var berättigad och listreglerna ändras så att den nu inte längre är giltig, kommer den kvantitet som är associerad med en produkt att bli 0 och produkten markeras som_ ej berättigade _. Den finns dock fortfarande på [!DNL Amazon Seller Account].
 
@@ -40,7 +40,7 @@ Under **[!UICONTROL Select]** i _[!UICONTROL Action]_kolumn:
 >[!NOTE]
 >Om du har pågående listor visas antalet listor i ett meddelande ovanför flikarna.
 
-![Ej berättigade Amazon-listor](assets/amazon-ineligible-listings.png)
+![Ej berättigade Amazon-listor](assets/amazon-ineligible-listings.png){width="600" zoomable="yes"}
 
 Amazon hemsidor för försäljningskanaler delar några vanliga sidor [arbetsytekontroller](./workspace-controls.md) som gör att du kan anpassa de data som visas.
 

@@ -2,9 +2,9 @@
 user-guide-title: Användarhandbok för Amazon Sales Channel
 user-guide-description: Generera säljmaterial genom Amazon genom att integrera Adobe Commerce eller Magento Open Source med [!DNL Amazon Seller Central] konto.
 breadcrumb-title: Amazon försäljningskanal
-source-git-commit: 193f7bfc0c2373f9a79f9cdb7d01877971f31083
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
-source-wordcount: '317'
+source-wordcount: '315'
 ht-degree: 0%
 
 ---
@@ -12,13 +12,11 @@ ht-degree: 0%
 
 # Amazon försäljningskanal - [!DNL channel manager] för Adobe Commerce {#amazon}
 
-- [Guide overview](guide-overview.md)
+- [Användarhandbok för Amazon Sales Channel](guide-overview.md)
 - [Introduktion till Amazon försäljningskanal](overview.md)
-- [Versionsinformation](release-notes.md)
 - Komma igång {#getting-started}
-   - [Om Amazon försäljningskanal](about-amazon-sales-channel.md)
    - [Om Amazon Marketplace](about-amazon-marketplace.md)
-   - [Om Amazon och din Commerce-katalog](about-listings-and-catalog.md)
+   - [Amazon och Commerce-katalogen](about-listings-and-catalog.md)
    - [God praxis och begränsningar](amazon-best-practices.md)
    - [Installera tillägget](install.md)
 - Onboarding {#onboarding}
@@ -113,3 +111,4 @@ ht-degree: 0%
    - [Vanliga åtgärder för orderbehandling](common-order-processing.md)
    - [Arbetsflöden för uppfyllelse](fulfillment-workflows.md)
    - [Avbryt ej levererade order](cancel-unshipped-order.md)
+- [Versionsinformation](release-notes.md)

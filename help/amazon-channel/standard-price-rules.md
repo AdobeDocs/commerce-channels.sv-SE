@@ -1,15 +1,15 @@
 ---
-title: Standardprisregelåtgärder
+title: Amazon försäljningskanal - Standardprisregelåtgärder
 description: Använd standardprisregelåtgärder för att öka eller minska ett listpris för Amazon i förhållande till Commerce-katalogpriset (eller priskällan).
 exl-id: 91df6ef3-852b-478b-8b01-51dd437dd4f9
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: 077d680da3c98ef9a48958eb548a9d5c1612f74e
 workflow-type: tm+mt
-source-wordcount: '334'
+source-wordcount: '336'
 ht-degree: 0%
 
 ---
 
-# Standardprisregelåtgärder
+# Åtgärder för standardprisregel
 
 Med en standardprisregelåtgärd kan du öka eller minska ett Amazon-listpris med en viss procentandel eller ett fast belopp i förhållande till [!DNL Commerce] katalogpris (eller priskälla).
 
@@ -26,13 +26,13 @@ Avsnitt i en standardprisregelåtgärd är:
 
 1. Expandera _[!UICONTROL Price Adjustment]_vid behov.
 
-1. För **[!UICONTROL Price Action]** väljer du ett alternativ för att bestämma hur du vill ändra *[!UICONTROL Magento Price Source]* (definieras i [Listpris](./listing-price.md)).
+1. För **[!UICONTROL Price Action]** väljer du ett alternativ som bestämmer hur du vill ändra *[!UICONTROL Magento Price Source]* (definieras i [Listpris](./listing-price.md)).
 
    - `Decrease By` - Välj när du vill att värdet ska minskas innan det anges till Amazon.
 
    - `Increase By` - Välj när du vill att värdet ska ökas innan du publicerar till Amazon.
 
-1. För **[!UICONTROL Apply]** väljer du ett alternativ för att bestämma hur du vill definiera *[!UICONTROL Magento Price Source]* definieras i [Listpris](./listing-price.md) värde som ska justeras:
+1. För **[!UICONTROL Apply]** väljer du ett alternativ som bestämmer hur du vill ha den definierade *[!UICONTROL Magento Price Source]* definieras i [Listpris](./listing-price.md) värde som ska justeras:
 
    - `Apply as percentage` - Välj när du vill ha den definierade *[!UICONTROL Magento Price Source]* definieras i [Listpris](./listing-price.md) värde justerat med ett procenttal
 
@@ -46,7 +46,7 @@ Avsnitt i en standardprisregelåtgärd är:
 
 1. När du är klar klickar du på **[!UICONTROL Save pricing rule]**.
 
-![Standardprisregel](assets/ob-price-rule-action-standard-example.png)
+![Standardprisregel](assets/ob-price-rule-action-standard-example.png){width="600" zoomable="yes"}
 
 | Fält | Beskrivning |
 |---|---|

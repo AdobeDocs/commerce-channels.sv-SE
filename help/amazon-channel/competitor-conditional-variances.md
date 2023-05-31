@@ -2,9 +2,9 @@
 title: '"Intelligent Repricing Rule: Villkorsavvikelser för konkurrent'
 description: Bestäm priset på Amazon baserat på konkurrenternas priser och villkor genom att skapa en intelligent regel för omprissättning.
 exl-id: c52230e3-4e47-45bc-80e0-170530f58987
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: a3ae579c0eda0c27bf8eab9d0ac12919eaad494b
 workflow-type: tm+mt
-source-wordcount: '753'
+source-wordcount: '757'
 ht-degree: 0%
 
 ---
@@ -39,13 +39,13 @@ För **[!UICONTROL Conditional Variance]** väljer du ett alternativ:
 
    När _[!UICONTROL Apply Variance]_har valts visas ytterligare variansfält för var och en av dina Amazon-villkor. Med den här funktionen kan ni använda smarta regler för omprissättning när ni erbjuder produkter som är i ett annat skick än konkurrenterna. För att förstå beräkningen bakom villkorlig avvikelse måste du först förstå att alla avvikelser bestäms utifrån ett basmatchningspris.
 
-   Alternativen för villkorlig avvikelse som visas baseras på dina listinställningar för `Condition` som mappas till villkorsvärden med en [!DNL Commerce] [produktattribut](https://docs.magento.com/user-guide/catalog/product-attributes.html){target="_blank"}. För alla mappade villkor kan du definiera en avvikelseprocent på 1-100. Undantaget är samlarföremål, i vilket fall ett procenttal större än 100 kan tillämpas.
+   Alternativen för villkorlig avvikelse som visas baseras på dina listinställningar för `Condition` som mappas till villkorsvärden med en [!DNL Commerce] [produktattribut](https://experienceleague.adobe.com/docs/commerce-admin/catalog/product-attributes/product-attributes.html). För alla mappade villkor kan du definiera en avvikelseprocent på 1-100. Undantaget är samlarföremål, i vilket fall ett procenttal större än 100 kan tillämpas.
 
-![Regel för intelligent omprisering - villkorliga avvikelser för konkurrenter](assets/amazon-competitor-cond-variances.png)
+![Regel för intelligent omprisering - villkorliga avvikelser för konkurrenter](assets/amazon-competitor-cond-variances.png){width="500" zoomable="yes"}
 
 | Fält | Beskrivning |
 |--- |--- |
-| [!UICONTROL Competitor Conditional Variances] | Alternativ: <ul><li>**[!UICONTROL Use all competitor's product conditions]** - Om det inte finns någon matchning för villkoret som du anger produkten med, matchar det här alternativet alla tillgängliga villkor. Först försöker den matcha ditt tillstånd och sedan fungerar den från `New` villkor till `Used; Acceptable`.</li><li>**[!UICONTROL Use only matching competitor's product condition]** - Det här alternativet matchar produktens villkor. Om det inte finns någon matchning får du produktpriserna på _[!UICONTROL Magento Price Source]_.</li><li>>**[!UICONTROL Apply variance (if competitor's product condition differs)]** - Det här alternativet försöker först matcha mot ditt produktvillkor. Om det inte finns något matchande villkor tillämpas en avvikelse (i procent) i förhållande till ditt produktvillkor och den lägsta konkurrentens villkor.</li></ul><br><br>Alternativen för villkorlig avvikelse som visas baserat på listinställningarna för Villkor som mappas till villkorsvärden med en [!DNL Commerce] [produktattribut](https://docs.magento.com/user-guide/catalog/product-attributes.html){target="_blank"}. För alla mappade villkor kan du ange en avvikelseprocent på 1-100. Undantaget är samlarföremål, i vilket fall ett procenttal större än 100 kan tillämpas.<br><br>Med den här funktionen kan ni använda smarta regler för omprissättning när ni erbjuder produkter som är i ett annat skick än konkurrenterna. För att förstå beräkningen bakom villkorlig avvikelse måste du först förstå att alla avvikelser bestäms utifrån ett basmatchningspris. |
+| [!UICONTROL Competitor Conditional Variances] | Alternativ: <ul><li>**[!UICONTROL Use all competitor's product conditions]** - Om det inte finns någon matchning för villkoret som du anger produkten med, matchar det här alternativet alla tillgängliga villkor. Först försöker den matcha ditt tillstånd och sedan fungerar den från `New` villkor till `Used; Acceptable`.</li><li>**[!UICONTROL Use only matching competitor's product condition]** - Det här alternativet matchar produktens villkor. Om det inte finns någon matchning får du produktpriserna på _[!UICONTROL Magento Price Source]_.</li><li>>**[!UICONTROL Apply variance (if competitor's product condition differs)]** - Det här alternativet försöker först matcha mot ditt produktvillkor. Om det inte finns något matchande villkor tillämpas en avvikelse (i procent) i förhållande till ditt produktvillkor och den lägsta konkurrentens villkor.</li></ul><br><br>Alternativen för villkorlig avvikelse som visas baserat på listinställningarna för Villkor som mappas till villkorsvärden med en [!DNL Commerce] [produktattribut](https://experienceleague.adobe.com/docs/commerce-admin/catalog/product-attributes/product-attributes.html). För alla mappade villkor kan du ange en avvikelseprocent på 1-100. Undantaget är samlarföremål, i vilket fall ett procenttal större än 100 kan tillämpas.<br><br>Med den här funktionen kan ni använda smarta regler för omprissättning när ni erbjuder produkter som är i ett annat skick än konkurrenterna. För att förstå beräkningen bakom villkorlig avvikelse måste du först förstå att alla avvikelser bestäms utifrån ett basmatchningspris. |
 
 ## Beräkna basen för villkorlig avvikelse
 
@@ -55,18 +55,18 @@ För **[!UICONTROL Conditional Variance]** väljer du ett alternativ:
 
 Formeln för beräkning av villkorlig avvikelsebas är följande:
 
-![beräkningsformel för villkorlig avvikelsebas](assets/amazon-cond-variance-calc-1.png)
+![beräkningsformel för villkorlig avvikelsebas](assets/amazon-cond-variance-calc-1.png){width="300"}
 
 ## Exempel
 
 Inställningar för villkorlig avvikelse är följande:
 
-![exempel på inställningar för villkorlig avvikelse](assets/amazon-cond-variances.png)
+![exempel på inställningar för villkorlig avvikelse](assets/amazon-cond-variances.png){width="500" zoomable="yes"}
 
 - BMC = 100 (konkurrentvillkor = Nytt)
 - MCV = 80 (affärsvillkor = Använt; Bra)
 - BMP = 7,99 USD (basmatchningspris = det lägsta priset för matchande konkurrentvillkor)
 
-![exempel på beräkning av villkorlig avvikelsebas](assets/amazon-cond-variance-calc-2.png)
+![exempel på beräkning av villkorlig avvikelsebas](assets/amazon-cond-variance-calc-2.png){width="300"}
 
 Med hjälp av den villkorliga avvikelsebasberäkningen ovan är din villkorliga avvikelsebas = $6,39. Beräkningen är den priskälla som konkurrenten använde för prisregelåtgärder, vilket förklaras ytterligare i [Prisjustering](./price-adjustment.md).

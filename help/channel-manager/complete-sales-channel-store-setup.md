@@ -2,7 +2,7 @@
 title: Slutför kanalinställning
 description: När du har skapat en försäljningskanal som ansluter en [!DNL Commerce] Lagra vy till [!DNL Walmart Marketplace]öppnar du kanalen och slutför kanalkonfigurationen. Börja sedan med att lägga till produkter, hantera listor, lager, priser och beställningar från [!DNL Channel Manager].'
 exl-id: 12127e3b-55c1-4db6-98b2-6dc8bdaae139
-source-git-commit: aeeaca20cb54528f77e457d54a194d6603c08654
+source-git-commit: a3ae579c0eda0c27bf8eab9d0ac12919eaad494b
 workflow-type: tm+mt
 source-wordcount: '200'
 ht-degree: 0%
@@ -15,7 +15,7 @@ När du har anslutit en [!DNL Commerce] lagra till [!DNL Walmart Marketplace], f
 
 1. Välj **[!UICONTROL Marketing** > **Kanalhanteraren**].
 
-   ![Hantera Channel Manager-butiker](assets/channel-manager-setup-first-store.png)
+   ![Hantera Channel Manager-butiker](assets/channel-manager-setup-first-store.png){width="500" zoomable="yes"}
 
 1. Öppna butiken för säljkanaler genom att välja en ögonikon för butiken.
 

@@ -1,15 +1,15 @@
 ---
-title: Hantera order
+title: Hantera Amazon-beställningar
 description: Du kan aktivera orderimport i dina orderinställningar för att enklare hantera dina Amazon-beställningar från din Commerce Admin.
 exl-id: 018a8936-2f03-4a2d-b9af-6b72729ca709
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
-source-wordcount: '509'
+source-wordcount: '556'
 ht-degree: 0%
 
 ---
 
-# Hantera order
+# Hantera Amazon-beställningar
 
 Du kan se din beställningsinformation från Amazon i _[!UICONTROL Recent Orders]_i [instrumentpanel för butik](./amazon-store-dashboard.md) eller på_[!UICONTROL Amazon orders]_ (kallas även _[!UICONTROL All Orders]_vy).
 
@@ -17,13 +17,13 @@ Hur du hanterar dina Amazon-beställningar beror på om orderimporten är aktive
 
 ## Med orderimport aktiverad
 
-Efter [butiksintegrering](./store-integration.md), [**[!UICONTROL Import Amazon Orders]**](./order-settings.md#configure-order-settings) inställningen är `Enabled` som standard. Med den här inställningen motsvarar [!DNL Commerce] beställningar skapas för dina Amazon-beställningar och kan hanteras i [[!DNL Commerce] Beställningar](https://docs.magento.com/user-guide/sales/orders.html){target="_blank"} arbetsflöde.
+Efter [butiksintegrering](./store-integration.md), [**[!UICONTROL Import Amazon Orders]**](./order-settings.md#configure-order-settings) inställningen är `Enabled` som standard. Med den här inställningen motsvarar [!DNL Commerce] beställningar skapas för dina Amazon-beställningar och kan hanteras i [[!DNL Commerce] Beställningar](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/order-management/orders/orders.html) arbetsflöde.
 
 >[!NOTE]
 >
 >Oberoende av inställningarna för orderimport beställer Amazon som fanns i [!DNL Amazon Seller Central] kontot före [butiksintegrering](./store-integration.md) importeras inte.
 
-Importerade Amazon-order hanteras i [[!DNL Commerce] Beställningar](https://docs.magento.com/user-guide/sales/orders.html){target="_blank"} workflow, just like your other [!DNL Commerce] stores. Click the Amazon order number in the *[!UICONTROL Order Number]* column to open the order in the [[!DNL Commerce] order process](https://docs.magento.com/user-guide/sales/order-processing.html#order-view-descriptions){target="_blank"}. Se [Visa Amazon-beställningar](./amazon-orders-all.md).
+Importerade Amazon-order hanteras i [[!DNL Commerce] Beställningar](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/order-management/orders/orders.html) arbetsflöde, precis som ditt andra [!DNL Commerce] butiker. Klicka på Amazon ordernummer i dialogrutan *[!UICONTROL Order Number]* kolumn för att öppna ordningen i [[!DNL Commerce] orderprocess](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/order-management/orders/order-processing.html#process-an-order#order-view-descriptions). Se [Visa Amazon-beställningar](./amazon-orders-all.md).
 
 ### Beställningsimportprocess
 
@@ -32,8 +32,8 @@ När en beställning görs på Amazon och [beställ import](./order-settings.md)
 | Ändra | Åtgärder |
 |---|---|
 | En beställning görs på Amazon. | <ul><li>Amazon anger orderstatus till `Pending`.</li><li>Orderinformation skickas till [!DNL Commerce].</li><li>Ordern läggs till i [_Amazon beställningar_ table](./amazon-orders-all.md) med `Pending` status.</li></ul> |
-| Amazon ändrar orderstatus till `Unshipped`. | <ul><li>Statusändringen skickas till [!DNL Commerce].</li><li>I [_Amazon beställningar_ table](./amazon-orders-all.md), ändras orderstatusen till `Unshipped`.</li><li>I [[!DNL Commerce] orderarbetsflöde](https://docs.magento.com/user-guide/sales/orders.html){target="_blank"}, en motsvarande [!DNL Commerce] order skapas med `Processing` status.</li></ul> |
-| I [[!DNL Commerce] orderarbetsflöde](https://docs.magento.com/user-guide/sales/orders.html){target="_blank"}, [!DNL Commerce] ordern behandlas och statusen ändras till `Shipped`. | <ul><li>I [_Amazon beställningar_ table](./amazon-orders-all.md), ändras orderstatusen till `Shipped`.</li><li>Vid nästa kronjobb ändras orderstatusen till `Complete` i [[!DNL Commerce] orderarbetsflöde](https://docs.magento.com/user-guide/sales/orders.html){target="_blank"}.</li></ul> |
+| Amazon ändrar orderstatus till `Unshipped`. | <ul><li>Statusändringen skickas till [!DNL Commerce].</li><li>I [_Amazon beställningar_ table](./amazon-orders-all.md), ändras orderstatusen till `Unshipped`.</li><li>I [[!DNL Commerce] orderarbetsflöde](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/order-management/orders/orders.html), en motsvarande [!DNL Commerce] order skapas med `Processing` status.</li></ul> |
+| I [[!DNL Commerce] orderarbetsflöde](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/order-management/orders/orders.html), [!DNL Commerce] ordern behandlas och statusen ändras till `Shipped`. | <ul><li>I [_Amazon beställningar_ table](./amazon-orders-all.md), ändras orderstatusen till `Shipped`.</li><li>Vid nästa kronjobb ändras orderstatusen till `Complete` i [[!DNL Commerce] orderarbetsflöde](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/order-management/orders/orders.html).</li></ul> |
 
 ### Orderspärrar
 
@@ -42,8 +42,8 @@ Det finns några scenarier som förhindrar att motsvarande [!DNL Commerce] best�
 | Scenario | Lösning |
 |---|---|
 | Objektet finns inte i [!DNL Commerce] katalog. | [Skapa produkten](./creating-assigning-catalog-products.md) i [!DNL Commerce] katalog och [matcha manuellt](./creating-assigning-catalog-products.md) till produkten. |
-| Objektet i katalogen är inaktiverat. | Se till att [produktstatus](https://docs.magento.com/user-guide/catalog/inventory-product-stock-options.html){target="_blank"} är aktiverat. |
-| Den beställda artikeln är inte i lager. | Uppdatera eller konfigurera [produktalternativ](https://docs.magento.com/user-guide/catalog/inventory-product-stock-options.html){target="_blank"} för kvantitet och källa. |
+| Objektet i katalogen är inaktiverat. | Se till att [produktstatus](https://experienceleague.adobe.com/docs/commerce-admin/inventory/configuration/product-options.html) är aktiverat. |
+| Den beställda artikeln är inte i lager. | Uppdatera eller konfigurera [produktalternativ](https://experienceleague.adobe.com/docs/commerce-admin/inventory/configuration/product-options.html) för kvantitet och källa. |
 
 När det inte går att importera beställningar visas ett systemmeddelande som liknar följande längst upp på skärmen:
 

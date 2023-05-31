@@ -1,15 +1,15 @@
 ---
-title: Åtgärder före installation
+title: Förinställda uppgifter för [!DNL Amazon sales channel]
 description: Granska de uppgifter som ska utföras innan du integrerar din Adobe Commerce- eller Magento Open Source-butik i Amazon Sales Channel.
 exl-id: eb9d9136-925f-4b20-9d65-b166173f434b
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
-source-wordcount: '871'
+source-wordcount: '910'
 ht-degree: 0%
 
 ---
 
-# Åtgärder före installation
+# Förinställda uppgifter för [!DNL Amazon sales channel]
 
 Före [Butiksintegrering](./store-integration.md)måste du se till att [!DNL Amazon Seller Central] konto och [!DNL Commerce] kontot är klart för integrering. Det finns några nödvändiga förinställningsuppgifter för att integrera.
 
@@ -17,11 +17,11 @@ När du ställer in din första Amazon-butik i Amazon försäljningskanal visas 
 
 ## 1. Aktivera bakgrundsuppgifter i [!DNL Commerce]
 
-Alla produkter och data synkroniserade mellan [!DNL Commerce] och Amazon hanteras av en [cron](https://docs.magento.com/user-guide/system/cron.html){target="_blank"}. När du slutför uppgifter som att lägga till eller uppdatera listor och ta emot beställningar skickas och tar emot data mellan [!DNL Commerce] backend och din [!DNL Amazon Seller Central] konto.
+Alla produkter och data synkroniserade mellan [!DNL Commerce] och Amazon hanteras av en [cron](https://experienceleague.adobe.com/docs/commerce-admin/systems/tools/cron.html). När du slutför uppgifter som att lägga till eller uppdatera listor och ta emot beställningar skickas och tar emot data mellan [!DNL Commerce] backend och din [!DNL Amazon Seller Central] konto.
 
-- [Aktivera [!DNL Commerce] cron](https://docs.magento.com/user-guide/system/cron.html){target="_blank"}.
+- [Aktivera [!DNL Commerce] cron](https://experienceleague.adobe.com/docs/commerce-admin/systems/tools/cron.html).
 
-- För maximala prestanda [set [!DNL Commerce] cron](https://docs.magento.com/user-guide/configuration/advanced/system.html){target="_blank"} att köras en gång var femte minut.
+- För maximala prestanda [set [!DNL Commerce] cron](https://experienceleague.adobe.com/docs/commerce-admin/config/advanced/system.html) att köras en gång var femte minut.
 
 ## 2. Skapa [!DNL Amazon Seller Central] konto
 
@@ -57,7 +57,7 @@ Att ha det högsta antalet [!DNL Commerce] produkter som automatiskt matchar Ama
 
 ## 6. Konfigurera valuta och konvertering (efter behov)
 
-Om din Amazon-butik använder en annan valuta än den som konfigurerats för din [!DNL Commerce] butik, [aktivera valutan](https://docs.magento.com/user-guide/configuration/general/currency-setup.html){target="_blank"} and set the [currency conversion rate](https://docs.magento.com/user-guide/stores/currency-update.html){target="_blank"}.
+Om din Amazon-butik använder en annan valuta än den som konfigurerats för din [!DNL Commerce] butik, [aktivera valutan](https://experienceleague.adobe.com/docs/commerce-admin/config/general/currency-setup.html) och ange [valutakurs](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/site-store/currency/currency-update.html).
 
 ## 7. Skapa ett produktvillkorsattribut (efter behov)
 
@@ -65,7 +65,7 @@ Om dina Amazon-listor innehåller mer än ett produktvillkor (t.ex. _new_, _anv�
 
 ## 8. Konfigurera [!DNL Amazon Seller Central] leveranssätt
 
-Information om hur du ställer in leveransmetoder för att utföra dina Amazon-beställningar finns i [Inställningar och leveransinställningar][10] i [!DNL Amazon Seller Central] konto.
+Information om hur du ställer in leveransmetoder för att utföra dina Amazon-beställningar finns i _Inställningar och leveransinställningar_ i [!DNL Amazon Seller Central] konto.
 
 ## Ytterligare konfigurationer
 
@@ -73,10 +73,10 @@ När ditt Amazon-konto är konfigurerat och aktivt finns det flera [!DNL Commerc
 
 ### Granska och notera produkter som du vill utesluta
 
-Du kanske inte vill att vissa produkter ska listas på Amazon. Amazon försäljningskanal har en listregelmotor som används för att avgöra vilka produkter som är berättigade att publicera till Amazon. [Listregler](./listing-rules.md) kan du välja vilka delmängder av produkter som ska publiceras (eller inte publiceras) till [!DNL Amazon Seller Central] konto, t.ex. per kategori eller genom att definiera ett eller flera produktattribut. Gilla [!DNL Commerce] [katalog](https://docs.magento.com/user-guide/marketing/price-rules-catalog.html){target="_blank"} or [shopping cart](https://docs.magento.com/user-guide/marketing/price-rules-cart.html){target="_blank"} price rules, product attributes used for Amazon listing eligibility must have **[!UICONTROL Use for Promo Rule Conditions]** set to `Yes`. See the **[!UICONTROL Use for Promo Rule Conditions]** in [Product Attributes](https://docs.magento.com/user-guide/stores/attributes-product.html){target="_blank"}.
+Du kanske inte vill att vissa produkter ska listas på Amazon. Amazon försäljningskanal har en listregelmotor som används för att avgöra vilka produkter som är berättigade att publicera till Amazon. [Listregler](./listing-rules.md) kan du välja vilka delmängder av produkter som ska publiceras (eller inte publiceras) till [!DNL Amazon Seller Central] konto, t.ex. per kategori eller genom att definiera ett eller flera produktattribut. Gilla [!DNL Commerce] [katalog](https://experienceleague.adobe.com/docs/commerce-admin/marketing/promotions/catalog-rules/price-rules-catalog.html) eller [kundvagn](https://experienceleague.adobe.com/docs/commerce-admin/marketing/promotions/cart-rules/price-rules-cart.html) prisregler, produktattribut som används för att räkna upp Amazon måste ha **[!UICONTROL Use for Promo Rule Conditions]** ange till `Yes`. Se **[!UICONTROL Use for Promo Rule Conditions]** in [Produktattribut](https://experienceleague.adobe.com/docs/commerce-admin/catalog/product-attributes/product-attributes.html).
 
 ### Ange [!DNL Amazon Seller Central] region till inaktiv
 
-För att underlätta felfri dataövergång under integreringen rekommenderar vi att du ställer in Amazon-regionen på `Inactive` status i Inställningar > Kontoinformation > Seminstationsinställningar. Se [Amazon: Liststatus för semester][11]. När installationen är klar ändrar du status tillbaka till `Active` i Amazon.
+För att underlätta felfri dataövergång under integreringen rekommenderar vi att du ställer in Amazon-regionen på `Inactive` status i Inställningar > Kontoinformation > Seminstationsinställningar. När installationen är klar ändrar du status tillbaka till `Active` i Amazon.
 
 ![Nästa ikon](assets/btn-next.png) [**Fortsätt till Skapa [!DNL Commerce] Attribut**](./ob-creating-magento-attributes.md)

@@ -4,9 +4,9 @@ description: "Lär dig hur du installerar och använder [!DNL Channel Manager] a
 role: User
 level: Intermediate
 exl-id: 91265973-d2ad-4925-aa10-260d7e186f20
-source-git-commit: aeeaca20cb54528f77e457d54a194d6603c08654
+source-git-commit: a3ae579c0eda0c27bf8eab9d0ac12919eaad494b
 workflow-type: tm+mt
-source-wordcount: '707'
+source-wordcount: '710'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 [!DNL Channel Manager] hjälper handlare att öka försäljningen, nå nya kunder, effektivisera sin försäljning och spara tid genom att integrera en Adobe Commerce- eller Magento Open Source-produktkatalog med [!DNL Walmart Marketplace].
 
-![[!DNL Channel Manager] tilläggsadministratörsvy](assets/channel-manager-home.png)
+![[!DNL Channel Manager] tilläggsadministratörsvy](assets/channel-manager-home.png){width="700" zoomable="yes"}
 
 [!DNL Channel Manager] stöder de handlare i Adobe Commerce och Magento Open Source som vill sälja vidare [!DNL Walmart Marketplace] genom att utöka [!DNL Commerce] Admin. Med [!DNL Channel Manager] installerat kan arkivadministratörer och driftspersonal hantera [!DNL Walmart Marketplace] försäljning, lager och produktpriser sömlöst från Commerce-miljön.
 
@@ -36,7 +36,7 @@ När du har installerat och konfigurerat [!DNL Channel Manager]kan du använda f
 
 * **Annulleringar**- När beställningar annulleras i Adobe Commerce, [!DNL Channel Manager] skickar uppdaterad orderinformation till marknadsplatsen för att replikera åtgärden för motsvarande marknadsplatsorder. När ordern har annullerats [!DNL Commerce] Uppdateringar av lagerkvantitet för att spegla returnerade artiklar och lageruppdateringar synkroniseras automatiskt till [!DNL Walmart Marketplace].
 
-* **Returer och återbetalningar**- När Walmart Marketplace begär en retur av artiklar som beställts via Adobe Commerce eller Magento Open Source, [!DNL Channel Manager] skickar returbegärandeinformationen till butiken för Commerce-försäljningskanalen för att replikera returbegäran. Därefter kan bidraget bearbetas med [!DNL Commerce] [arbetsflöde för återbetalning](https://docs.magento.com/user-guide/sales/credit-memos.html#refund-workflow), offline-metod. När återbetalningen är slutförd [!DNL Channel Manager] synkroniserar uppdateringen till Walmart så att returstatusen på marknadsplatssäljarkontot kan uppdateras för att återspegla återbetalningen.
+* **Returer och återbetalningar**- När Walmart Marketplace begär en retur av artiklar som beställts via Adobe Commerce eller Magento Open Source, [!DNL Channel Manager] skickar returbegärandeinformationen till butiken för Commerce-försäljningskanalen för att replikera returbegäran. Därefter kan bidraget bearbetas med [!DNL Commerce] [arbetsflöde för återbetalning](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/order-management/credit-memos/credit-memos.html#refund-workflow), offline-metod. När återbetalningen är slutförd [!DNL Channel Manager] synkroniserar uppdateringen till Walmart så att returstatusen på marknadsplatssäljarkontot kan uppdateras för att återspegla återbetalningen.
 
 ## Förväntad fördröjning för [!DNL Channel Manager] operationer
 

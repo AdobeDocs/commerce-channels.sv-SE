@@ -1,15 +1,15 @@
 ---
-title: '"Onboarding: Skapa listregel'
+title: Skapa en listregel för Amazon
 description: Skapa de inledande listreglerna för hur du genererar Amazon-listor när du slutför processen för registrering av Amazon-försäljningskanal [!DNL Commerce] produkter.
 exl-id: b318823e-a726-4a59-b117-9838562c7d8b
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
-source-wordcount: '389'
+source-wordcount: '391'
 ht-degree: 0%
 
 ---
 
-# Onboarding: Skapa listregel
+# Skapa en listregel för Amazon
 
 Listregler kan definieras under introduktionen, men kan också ändras när som helst. Efter introduktionen har du tillgång till [listregler](./listing-rules.md) i butiken [kontrollpanel](./amazon-store-dashboard.md).
 
@@ -29,7 +29,7 @@ Listregler kan definieras under introduktionen, men kan också ändras när som 
 
 1. Granska dina listor i Förhandsgranska lista:
 
-   ![Förhandsgranskning av lista](assets/amazon-ob-listing-preview.png)
+   ![Förhandsgranskning av lista](assets/amazon-ob-listing-preview.png){width="600" zoomable="yes"}
 
    - **[!UICONTROL Ineligible Listings]** - Produkter som listas på den här fliken är inte berättigade till Amazon-listning baserat på dina aktuella listregelinställningar.
 

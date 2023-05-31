@@ -1,15 +1,15 @@
 ---
-title: Visa Amazon-beställningar
+title: Visa Amazon-order
 description: Visa dina order på Amazon Marketplace i Adobe Commerce eller Magento Open Source Admin.
 exl-id: d7811604-8e15-4d1a-a0e7-9fa61c61ef5d
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
 source-wordcount: '587'
 ht-degree: 0%
 
 ---
 
-# Visa Amazon-beställningar
+# Visa Amazon-order
 
 Det finns två sätt att visa dina Amazon-beställningar: _[!UICONTROL Recent Orders]_och_[!UICONTROL All Orders]_.
 
@@ -32,7 +32,7 @@ _[!UICONTROL All Orders]_vy lägger till filtreringsalternativ för sökningar e
 
 Du kan visa dina senaste beställningar i _[!UICONTROL Recent Orders]_i [instrumentpanel för butik](./amazon-store-dashboard.md).
 
-![Senaste order](assets/amazon-recent-orders-imported.png)
+![Senaste order](assets/amazon-recent-orders-imported.png){width="600" zoomable="yes"}
 
 ### Visa de senaste Amazon-beställningarna
 
@@ -54,7 +54,7 @@ Du kan se alla dina Amazon-beställningar på _[!UICONTROL Amazon orders]_(kalla
 - [!UICONTROL Total (range)]
 - [!UICONTROL Status]
 
-![Amazon beställningar](assets/amazon-orders-list-all.png)
+![Amazon beställningar](assets/amazon-orders-list-all.png){width="600" zoomable="yes"}
 
 ### Se alla Amazon-order
 
@@ -72,7 +72,7 @@ Du kan se alla dina Amazon-beställningar på _[!UICONTROL Amazon orders]_(kalla
 
 Du kan använda filter i din orderlista i _[!UICONTROL Filter by]_-avsnitt. Gör dina val och klicka **[!UICONTROL Apply filters]**. De filter du använder visas ovanför stödrastret för beställningar.
 
-![Filter för att visa Amazon-order](assets/amazon-orders-filter-view.png)
+![Filter för att visa Amazon-order](assets/amazon-orders-filter-view.png){width="600" zoomable="yes"}
 
 ### Ändra använda filter
 

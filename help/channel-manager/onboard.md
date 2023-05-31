@@ -4,9 +4,9 @@ description: '''Anslut instansen till [!DNL Channel Manager] genom att slutföra
 role: User
 level: Intermediate
 exl-id: 7c4ccd9e-ae32-4511-8d1e-baa690604612
-source-git-commit: aeeaca20cb54528f77e457d54a194d6603c08654
+source-git-commit: a3ae579c0eda0c27bf8eab9d0ac12919eaad494b
 workflow-type: tm+mt
-source-wordcount: '518'
+source-wordcount: '547'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 När du är klar med Channel Manager-introduktionsprocessen kan du få åtkomst till, konfigurera och hantera kanalförsäljningsåtgärder på Walmart Marketplace från Adobe Commerce. Kanalhanteraren är tillgänglig från [!UICONTROL Channel Manager] på [!UICONTROL Commerce Admin Marketing] -menyn.
 
-![[!DNL Channel Manager] i administrationsvyn](assets/channel-manager-admin-view.png)
+![[!DNL Channel Manager] i administrationsvyn](assets/channel-manager-admin-view.png){width="500"}
 
 ## Krav
 
@@ -24,17 +24,17 @@ Granska kraven för att använda Channel Manager och samla in kontoinformation o
 
 - **[Krav på Walmart Marketplace](walmart-requirements.md)**-Verifiera att ni uppfyller kraven för att integrera med Channel Manager, inklusive [konfigurera ditt säljarkonto](https://sellerhelp.walmart.com/seller/s/guide?article=000008219) och generera API-nyckeln för att aktivera integreringen.
 
-- **Information om handelskonto**-Hämta och installera [!DNL Channel Manager] kräver [Handelskonto](https://docs.magento.com/user-guide/magento/magento-account.html){target="_blank"}. Du behöver ett konto-ID och autentiseringsuppgifter med ägar- eller administratörsåtkomst till [!DNL Adobe Commerce] eller [!DNL Magento Open Source] -instans.
+- **Information om handelskonto**-Hämta och installera [!DNL Channel Manager] kräver [Handelskonto](https://experienceleague.adobe.com/docs/commerce-admin/start/commerce-account/commerce-account-create.html). Du behöver ett konto-ID och autentiseringsuppgifter med ägar- eller administratörsåtkomst till [!DNL Adobe Commerce] eller [!DNL Magento Open Source] -instans.
 
    - **BILD-ID**-[Logga in](https://account.magento.com/customer/account/login/) till [!DNL Commerce] konto att hämta ID från **[!UICONTROL My Account - Magento settings]**.
 
-      ![[!DNL MAGEID] på [!DNL Commerce] kontoinställningar](assets/mageid-my-commerce-account.png)
+      ![[!DNL MAGEID] på [!DNL Commerce] kontoinställningar](assets/mageid-my-commerce-account.png){width="250"}
 
    - **Åtkomstnycklar-** Hämta autentiseringsnycklar att hämta [!DNL Commerce] tillägg från [!DNL Commerce] Dispositionsdatabas `([!DNL repo.magento.com]`).
 
-      ![[!UICONTROL Commerce Marketplace access keys]](assets/commerce-marketplace-access-keys.png)
+      ![[!UICONTROL Commerce Marketplace access keys]](assets/commerce-marketplace-access-keys.png){width="400"}
 
-      I Adobe Commerce- och Magento Open Source-projekt kan ägaren konfigurera [Delad åtkomst](https://docs.magento.com/user-guide/magento/magento-account-share.html) för att tillåta betrodda anställda och tjänsteleverantörer att hämta tillägg med hjälp av autentiseringsuppgifter från ägar- eller licenshållarkontot.
+      I Adobe Commerce- och Magento Open Source-projekt kan ägaren konfigurera [Delad åtkomst](https://experienceleague.adobe.com/docs/commerce-admin/start/commerce-account/commerce-account-share.html) för att tillåta betrodda anställda och tjänsteleverantörer att hämta tillägg med hjälp av autentiseringsuppgifter från ägar- eller licenshållarkontot.
 
       För [!DNL Adobe Commerce] i molninfrastrukturprojekt måste programinstallerare ha följande åtkomst till [!DNL Commerce] instans:
 
@@ -42,10 +42,10 @@ Granska kraven för att använda Channel Manager och samla in kontoinformation o
       - Administratörsåtkomst till en viss miljö
       - en [!DNL Adobe Commerce] konto med behörighet att komma åt Composer-databasen
 
-      Se [Hantera användaråtkomst](https://devdocs.magento.com/cloud/project/user-admin.html).
+      Se [Hantera användaråtkomst](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/user-access.html) i *Handbok för Commerce on Cloud Infrastructure*.
 
 
-- **Upplevelse med Composer och[!DNL Commerce CLI]**-See [Allmän CLI-installation](https://devdocs.magento.com/extensions/install/){target="_blank"} om du vill ha information om hur du använder verktygen för att installera och hantera tillägg på [!DNL Adobe Commerce] eller [!DNL Magento Open Source] -plattformar.
+- **Upplevelse med Composer och[!DNL Commerce CLI]**-See [Installera ett tillägg](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/tutorials/extensions.html) i *Installationshandbok* om du vill ha information om hur du använder verktygen för att installera och hantera tillägg på [!DNL Adobe Commerce] eller [!DNL Magento Open Source] -plattformar.
 
 - **[[!DNL Amazon Sales Channel] version 4.4.2 eller senare](https://experienceleague.adobe.com/docs/commerce-channels/amazon/release-notes.html)**-Om du har aktiverat [!DNL Amazon Sales Channel] för [!DNL Commerce] webbplatser, verifiera att [!DNL Commerce] har version 4.4.2 eller senare installerad innan du installerar [!DNL Channel Manager].
 
@@ -53,15 +53,15 @@ Granska kraven för att använda Channel Manager och samla in kontoinformation o
 
    Om du tänker använda Channel Manager för lager- och orderhantering måste du ha Inventory management-tillägget installerat och aktiverat på din Adobe Commerce- och Magento Open Source-instans. Tillägget installeras och aktiveras som standard i Adobe Commerce och [!DNL Magento Open Source] 2.3.x och senare.
 
-   Om du har uppgraderat Commerce från 2.2.x eller om du har inaktiverat Inventory management ska du uppdatera din installation så att den innehåller de moduler som krävs. Se [Installera Inventory management](https://devdocs.magento.com/extensions/inventory-management/) i Adobe Commerce Developer-dokumentationen.
+   Om du har uppgraderat Commerce från 2.2.x eller om du har inaktiverat Inventory management ska du uppdatera din installation så att den innehåller de moduler som krävs. Se [Installera Inventory management](https://experienceleague.adobe.com/docs/commerce-admin/inventory/get-started/install-update.html) i *Inventory management Guide*.
 
 ### Systemkrav
 
-- [Adobe Commerce 2.4.x](https://devdocs.magento.com/release/released-versions.html)
-- [PHP 7.3/7.4](https://devdocs.magento.com/guides/v2.4/install-gde/prereq/php-settings.html)
-- [Composer 1.x eller senare](https://devdocs.magento.com/cloud/reference/cloud-composer.html)
+- [Adobe Commerce 2.4.x](https://experienceleague.adobe.com/docs/commerce-operations/release/versions.html)
+- [PHP 7.3/7.4](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/php-settings.html)
+- [Composer 1.x eller senare](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/overview.html)
 - [[!DNL Amazon Sales Channel] version 4.4.2 eller senare](https://experienceleague.adobe.com/docs/commerce-channels/amazon/release-notes.html)-Om du har aktiverat [!DNL Amazon Sales Channel] för [!DNL Commerce] webbplatser, verifiera att [!DNL Commerce] har version 4.4.2 installerad innan du installerar [!DNL Channel Manager].
-- [[!DNL Inventory Management]](https://devdocs.magento.com/extensions/inventory-management/)
+- [[!DNL Inventory Management]](https://experienceleague.adobe.com/docs/commerce-admin/inventory/get-started/install-update.html)
 
 ### Plattformar som stöds
 

@@ -2,7 +2,7 @@
 title: Beställningsinformation för Amazon
 description: Läs mer om dina Amazon Marketplace-beställningar i Adobe Commerce eller Magento Open Source Admin.
 exl-id: a85bb6b3-817d-4859-a815-41777f4b8667
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
 source-wordcount: '185'
 ht-degree: 0%
@@ -11,7 +11,7 @@ ht-degree: 0%
 
 # Beställningsinformation för Amazon
 
-![Beställningsinformation för Amazon](assets/amazon-order-details-header.png)
+![Beställningsinformation för Amazon](assets/amazon-order-details-header.png){width="600" zoomable="yes"}
 
 ## Visa beställningsinformation för Amazon
 
@@ -55,16 +55,16 @@ The _[!UICONTROL Order and Shipping Details]_På -fliken visas detaljerad bestä
 >
 >Glöm inte att klicka **Spara ordning** när du har redigerat.
 
-![Beställnings- och leveransinformation](assets/amazon-order-details.png)
+![Beställnings- och leveransinformation](assets/amazon-order-details.png){width="600" zoomable="yes"}
 
 ### Fliken Orderposter
 
 The _[!UICONTROL Order Items]_På -fliken visas alla objekt som är kopplade till Amazon-beställningen, enligt Amazon.
 
-![Orderartikelinformation](assets/amazon-order-item-details.png)
+![Orderartikelinformation](assets/amazon-order-item-details.png){width="600" zoomable="yes"}
 
 ### Fliken Spårning
 
 The _[!UICONTROL Tracking]_-fliken visar spårningsinformation som är kopplad till Amazon-beställningen.
 
-![Spårningsinformation](assets/amazon-order-tracking-details.png)
+![Spårningsinformation](assets/amazon-order-tracking-details.png){width="600" zoomable="yes"}

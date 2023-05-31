@@ -1,15 +1,15 @@
 ---
-title: Lagringsinställningar
+title: Granska butiksinställningar för Amazon försäljningskanal
 description: När du är klar med Amazon introduktionsprocess för säljkanaler granskar och uppdaterar du [!DNL Commerce] lagringsinställningar.
 exl-id: 7f1ea19b-f473-4a8e-9a91-b06d6b733664
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
-source-wordcount: '135'
+source-wordcount: '145'
 ht-degree: 0%
 
 ---
 
-# Lagringsinställningar
+# Granska butiksinställningar för Amazon försäljningskanal
 
 När du har skapat och integrerat din Amazon-butik kan du kontrollera standardinställningarna för din butik och se till att din produkt, lista, priser och andra inställningar är korrekta.
 
@@ -27,4 +27,4 @@ När du har skapat och integrerat din Amazon-butik kan du kontrollera standardin
    - **[!UICONTROL Logs]** - [Ändringar i listan](./listing-changes-log.md) och [kommunikationsfel](./communication-errors-log.md).
    - [**[!UICONTROL Store integration setting]s **](./store-integration-settings.md)- Granska inställningarna för e-post och Amazon-butiksnamn i [!DNL Commerce] Admin.
 
-![Instrumentpanel för butik](assets/ob-store-review.png)
+![Instrumentpanel för butik](assets/ob-store-review.png){width="600" zoomable="yes"}

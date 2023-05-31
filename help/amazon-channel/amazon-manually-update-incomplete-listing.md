@@ -1,10 +1,10 @@
 ---
-title: Uppdatera obligatorisk information (ofullständig lista)
+title: Uppdatera nödvändig information för Amazon
 description: Amazon försäljningskanal innehåller fliken Ofullständig för att övervaka Commerce Catalog-produkter som saknar information som krävs av Amazon.
 exl-id: f278cd50-8f04-452e-b9c2-c87820f9faf2
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
-source-wordcount: '473'
+source-wordcount: '465'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,7 @@ Listor som visas på _[!UICONTROL Incomplete]_-fliken innehåller [!DNL Commerce
 
 Listan matchar nu din katalog, och sedan uppdateras den och publiceras till Amazon utifrån dina inställningar för kron och lista. Den tas också bort från _[!UICONTROL Incomplete]_-fliken.
 
-![Tilldela ASIN manuellt utan matchning](assets/amazon-listing-update-assign-asin.png)
+![Tilldela ASIN manuellt utan matchning](assets/amazon-listing-update-assign-asin.png){width="600" zoomable="yes"}
 
 ## Uppdatera nödvändig information (flera träffar hittades) {#update-required-info-multiple-matches-found}
 
@@ -45,7 +45,7 @@ Listan matchar nu din katalog, och sedan uppdateras den och publiceras till Amaz
 
 1. Om du vill spara produktmatchningen klickar du på **[!UICONTROL Save Listing Update]**.
 
-![Välj ASIN manuellt från flera möjliga matchningar](assets/amazon-listing-update-multiple-matches.png)
+![Välj ASIN manuellt från flera möjliga matchningar](assets/amazon-listing-update-multiple-matches.png){width="600" zoomable="yes"}
 
 ## Uppdatera obligatorisk information (har varianter) {#update-required-info-has-variants}
 
@@ -63,8 +63,6 @@ Listan matchar nu din katalog, och sedan uppdateras den och publiceras till Amaz
 
 1. Om du vill spara produktmatchningen klickar du på **[!UICONTROL Save Listing Update]**.
 
-![Välj ASIN manuellt från möjliga variantmatchningar](assets/amazon-listing-update-multiple-matches.png)
-
 ## Uppdatera nödvändig information (villkor saknas) {#update-required-info-missing-condition}
 
 1. Visa listorna på _[!UICONTROL Incomplete]_tabba in [Hantera listor](./managing-product-listings.md).
@@ -79,4 +77,4 @@ Listan matchar nu din katalog, och sedan uppdateras den och publiceras till Amaz
 
 1. Om du vill spara produktmatchningen klickar du på **[!UICONTROL Save Listing Update]** .
 
-![Uppdatera saknat villkor manuellt](assets/amazon-update-listing-missing-condition.png)
+![Uppdatera saknat villkor manuellt](assets/amazon-update-listing-missing-condition.png){width="600" zoomable="yes"}

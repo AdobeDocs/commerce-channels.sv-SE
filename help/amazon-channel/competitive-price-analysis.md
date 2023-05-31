@@ -1,19 +1,19 @@
 ---
-title: Konkurrenskraftprisanalys
+title: Analysrapport för konkurrentpris
 description: I prisanalysen visas dina Amazon-listor per marknadsplats med respektive Buy Box och lägsta konkurrentpris.
 exl-id: 9e1e72f6-6917-4db4-bc32-09569a028b11
-source-git-commit: 2c753ec5f6f4cd509e61b4875e09e9a1a2577ee7
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
-source-wordcount: '260'
+source-wordcount: '262'
 ht-degree: 0%
 
 ---
 
-# Konkurrenskraftprisanalys
+# Analysrapport för konkurrentpris
 
 Prisanalysrapporten visar dina Amazon-listor per marknadsplats med respektive [Buy Box](./buy-box-competitor-pricing.md) pris och [lägsta konkurrent](./lowest-competitor-pricing.md) Prisvärden. Inga åtgärder är tillgängliga för loggen. Det är en funktion som bara är till för granskning.
 
-![Analysrapport för konkurrentpris](assets/amazon-competitive-price-analysis.png)
+![Analysrapport för konkurrentpris](assets/amazon-competitive-price-analysis.png){width="600" zoomable="yes"}
 
 ## Standardkolumner
 

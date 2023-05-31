@@ -2,9 +2,9 @@
 title: Visa Amazon-attributmappning
 description: Verifiera värden för dina länkade Commerce-attribut så att de synkroniseras korrekt mellan Commerce och Amazon.
 exl-id: 11a1fb25-6aa8-43d3-b5d8-772bbe1a5d53
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: 077d680da3c98ef9a48958eb548a9d5c1612f74e
 workflow-type: tm+mt
-source-wordcount: '349'
+source-wordcount: '348'
 ht-degree: 0%
 
 ---
@@ -23,17 +23,17 @@ The _Amazon Value_ varierar beroende på vilken attributtyp och vilket Amazon-at
 
 1. Klicka på **[!UICONTROL Matching Attribute Values]** -fliken.
 
-   Listor som har en motsvarande [!DNL Commerce] katalogprodukten visar ett länkat värde i _Magento, SKU_ kolumn. Om du klickar på en länk öppnas motsvarande katalogproduktinformationssida. Ändringar av Amazon-attribut på produktinformationssidan synkroniseras inte tillbaka till Amazon försäljningskanal.
+   Listor som har en motsvarande [!DNL Commerce] katalogprodukten visar ett länkat värde i _[!UICONTROL Magento Product SKU]_kolumn. Om du klickar på en länk öppnas motsvarande katalogproduktinformationssida. Ändringar av Amazon-attribut på produktinformationssidan synkroniseras inte tillbaka till Amazon försäljningskanal.
 
 >[!TIP]
 >Information om hur du redigerar eller tilldelar mappning för en lista till en katalogprodukt finns i [Uppdatera obligatorisk information](./amazon-manually-update-incomplete-listing.md).
 
-![Visa attributvärden](assets/amazon-managing-attribute-values.png)
+![Visa attributvärden](assets/amazon-managing-attribute-values.png){width="600" zoomable="yes"}
 
 | Fält | Beskrivning |
 |--- |--- |
 | [!UICONTROL Region] | Regionen för försäljningsaktivitet som definieras i **[!DNL Amazon Marketplace]Land** under butiksintegrering. |
 | [!UICONTROL Magento Product SKU] | Anger [!DNL Commerce] produkter som synkroniseras med Amazon Store. Värdet är ett produkt-ID som tilldelats av [!DNL Commerce] och länkas till en produkt i katalogen. Öppna produkten i [!DNL Commerce]klickar du på länken. |
 | [!UICONTROL ASIN] | Anger den 10-ställiga alfanumeriska unika identifierare som Amazon har tilldelat produkten för att identifiera produkten. |
-| [!UICONTROL Amazon Value] | Anger värdet för det valda attributet. Amazon-värdet varierar beroende på vilken attributtyp och vilket Amazon-attribut du ser. Till exempel ett Amazon-värde i listan för `Label` skulle vara ett textvärde medan `AmazonListPrice` skulle vara ett numeriskt belopp. Statusen anger om Amazon-värdet har importerats. |
+| [!UICONTROL Amazon Value] | Anger värdet för det valda attributet. Amazon-värdet varierar beroende på vilken attributtyp och vilket Amazon-attribut du visar. Till exempel ett Amazon-värde i listan för `Label` skulle vara ett textvärde medan `AmazonListPrice` skulle vara ett numeriskt belopp. Statusen anger om Amazon-värdet har importerats. |
 | [!UICONTROL Status] | Anger om attributvärdena har importerats till [!DNL Commerce] och länkas till en [!DNL Commerce] -attribut. Alternativ: `Not Imported` / `Imported` |

@@ -1,11 +1,11 @@
 ---
-title: Produktlistningsåtgärder
+title: Amazon försäljningskanal - Produktlistningsåtgärder
 description: Använd inställningarna för Produktlistningsåtgärder för att definiera hur din Commerce-katalog interagerar med Amazon.
 redirect_from: /sales-channels/asc/ob-product-listing-actions.html
 exl-id: c7d3f22c-05c6-4826-99eb-543bac462cf8
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
-source-wordcount: '568'
+source-wordcount: '571'
 ht-degree: 0%
 
 ---
@@ -42,7 +42,7 @@ De här inställningarna definierar hur katalogen interagerar med Amazon. Dessa 
 
 1. När du är klar klickar du på **[!UICONTROL Save listing settings]**.
 
-![Produktlistningsåtgärder](assets/amazon-product-listing-actions.png)
+![Produktlistningsåtgärder](assets/amazon-product-listing-actions.png){width="600" zoomable="yes"}
 
 | Fält | Beskrivning |
 |--- |--- |

@@ -1,15 +1,15 @@
 ---
-title: Loggar och arkivrapporter
+title: Loggar och lagra rapporter för Amazon-listor
 description: Använd loggarna och lagra rapporter för att se vad som händer i din Adobe Commerce- eller Magento Open Source-butik och i era Amazon Marketplace-listor.
 exl-id: 4654f718-d15f-4c3b-b984-ac7b9c29e6c4
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
-source-wordcount: '234'
+source-wordcount: '243'
 ht-degree: 0%
 
 ---
 
-# Loggar och arkivrapporter
+# Loggar och lagra rapporter för Amazon-listor
 
 Tillägget för Amazon-försäljningskanalen innehåller värdefulla loggar och butiksrapporter som gör att du kan se ändringarna som påverkar dina Amazon listor och beställningar. Du kan använda de här rapporterna för att se vad som händer i din butik och för att förstå olika liststatusar.
 
@@ -29,4 +29,4 @@ Följande butiksspecifika rapporter finns på [instrumentpanel för butik](./ama
 
 >[!TIP]
 >
->Du kan även kontrollera loggfilen för ytterligare information när felsökning behövs. Se [administratörsinställningar för försäljningskanal](./sales-channel-settings.md). Synkroniseringsloggning för Amazon-försäljningskanal skrivs till `{Commerce Root}/var/log/channel_amazon.log` och kan visas i [utvecklarläge](https://docs.magento.com/user-guide/magento/installation-modes.html){target="_blank"}.
+>Du kan även kontrollera loggfilen för ytterligare information när felsökning behövs. Se [administratörsinställningar för försäljningskanal](./sales-channel-settings.md). Synkroniseringsloggning för Amazon-försäljningskanal skrivs till `{Commerce Root}/var/log/channel_amazon.log` och kan visas i [utvecklarläge](https://experienceleague.adobe.com/docs/commerce-admin/systems/tools/developer-tools.html#operation-modes).

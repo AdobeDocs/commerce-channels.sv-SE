@@ -1,15 +1,15 @@
 ---
-title: Inaktiva listor
+title: Inaktiva Amazon-listor
 description: Amazon försäljningskanal ger [!UICONTROL Inactive] flik för att övervaka din inaktiva [!DNL Amazon Marketplace] listor.
 exl-id: 1d20e75f-3346-48cb-83f7-a9e7acb26a96
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
-source-wordcount: '503'
+source-wordcount: '505'
 ht-degree: 0%
 
 ---
 
-# Inaktiva listor
+# Inaktiva Amazon-listor
 
 The _[!UICONTROL Inactive]_-fliken visar de produkter som har publicerats till Amazon men som inte är aktiva på [!DNL Amazon Marketplace]. Listorna kan vara inaktiva av olika anledningar. Du kanske inte är berättigad att lista just det varumärket. Inaktiva listor styrs av Amazon liststandarder och [!DNL Amazon Seller Central] kontobehörigheter.
 
@@ -37,7 +37,7 @@ Under **[!UICONTROL Select]** i _[!UICONTROL Action]_kolumn:
 >
 >Om du har pågående listor visas ett meddelande ovanför flikarna som anger antalet listor.
 
-![Inaktiva Amazon-listor](assets/amazon-inactive-listings.png)
+![Inaktiva Amazon-listor](assets/amazon-inactive-listings.png){width="600" zoomable="yes"}
 
 Amazon hemsidor för försäljningskanaler delar några vanliga sidor [arbetsytekontroller](./workspace-controls.md) som gör att du kan anpassa de data som visas.
 

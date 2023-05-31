@@ -1,15 +1,15 @@
 ---
-title: Visa listinformation
+title: Visa Amazon listinformation
 description: Om du vill veta mer om konkurrensstatistik för dina Amazon-listor och om enskilda SKU-/produktändringar kan du gå till sidan Produktlistningsinformation.
 exl-id: faece1b1-b4fb-4506-bf77-576ae445ed28
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
-source-wordcount: '488'
+source-wordcount: '490'
 ht-degree: 0%
 
 ---
 
-# Visa listinformation
+# Visa Amazon listinformation
 
 The _[!UICONTROL Product Listing Details]_på sidan visas ytterligare information om din aktiva produktlista, inklusive aktivitetsloggen för listning som visar ändringarna för en enskild SKU/produkt. Denna information kan hjälpa er att förstå konkurrensstatistik för era produkter och om individuella SKU-/produktförändringar. Ytterligare information på denna sida omfattar:
 
@@ -28,7 +28,7 @@ Den produktinformation som visas omfattar:
 - _[!UICONTROL Catalog (Magento) SKU]_
 - _[!UICONTROL Amazon Seller SKU]_
 
-![Listinformation](assets/amazon-product-listing-details.png)
+![Listinformation](assets/amazon-product-listing-details.png){width="600" zoomable="yes"}
 
 ## Logg för listningsaktivitet {#listing-activity-log}
 
@@ -40,7 +40,7 @@ Visar alla senaste aktiviteter för Amazon-listan. Följande information visas:
 - Kommentarer: Ger ytterligare information om vilken typ av liståtgärd som har utförts.
 - Körd: Identifierar datum och tid då åtgärden utfördes.
 
-![Produktlistningsinformation - Listaktivitetslogg](assets/amazon-listing-activity-log.png)
+![Produktlistningsinformation - Listaktivitetslogg](assets/amazon-listing-activity-log.png){width="600" zoomable="yes"}
 __
 
 ## Buy Boxens konkurrentpriser {#buy-box-competitor-pricing}
@@ -55,7 +55,7 @@ På den här fliken visas information om den Amazon-handlare som har [[!DNL Buy 
 - Lanserat pris: Identifierar listpriset plus leveranspriset för noteringen.
 - Senast uppdaterad: Identifierar datum och tid då prisinformationen uppdaterades från Amazon.
 
-![Produktlistningsinformation: Buy Boxens konkurrentpriser](assets/amazon-listing-details-buy-box-2.png)
+![Produktlistningsinformation: Buy Boxens konkurrentpriser](assets/amazon-listing-details-buy-box-2.png){width="600" zoomable="yes"}
 
 ## Lägsta konkurrentpris {#lowest-competitor-pricing}
 
@@ -71,4 +71,4 @@ På den här fliken visas information om Amazon konkurrenter för samma lista. D
 - Antal feedback: Identifierar Amazon feedback-antal för den lägsta återförsäljaren.
 - Senast uppdaterad: Identifierar datum och tid då prisinformationen uppdaterades från Amazon.
 
-![Produktlistningsinformation - lägsta konkurrentpris](assets/amazon-listing-details-lowest-comp.png)
+![Produktlistningsinformation - lägsta konkurrentpris](assets/amazon-listing-details-lowest-comp.png){width="600" zoomable="yes"}

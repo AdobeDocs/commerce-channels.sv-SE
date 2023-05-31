@@ -1,15 +1,15 @@
 ---
-title: Buy Boxens konkurrentpriser
+title: "[!DNL Buy Box] konkurrentpriser för Amazon listor"
 description: Amazon Sales Channel tillhandahåller [!UICONTROL Buy Box Competitor Pricing] som hjälper dig att förstå prisplaceringen för dina konkurrenter på Amazon.
 exl-id: 2d03565a-5246-435a-8da8-55b7e67c4ad8
-source-git-commit: 2c753ec5f6f4cd509e61b4875e09e9a1a2577ee7
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
-source-wordcount: '271'
+source-wordcount: '275'
 ht-degree: 0%
 
 ---
 
-# [!DNL Buy Box] Konkurrentpriser
+# [!DNL Buy Box] konkurrentpriser för Amazon listor
 
 The [!DNL Buy Box] delas ut av Amazon till den säljare som har den produkt som oftast anges till det bästa priset, tillsammans med andra faktorer som FBA/Prime-leverans, tillgänglighet och säljarens resultat.
 
@@ -17,9 +17,9 @@ The _[!UICONTROL Buy Box Competitor Pricing]_på_[!UICONTROL Product Listing Det
 
 [Intelligenta omprissättningsregler](./intelligent-repricing-rules.md) kan konfigureras för att justera dina priser baserat på [!DNL Amazon Buy Box] pris.
 
-![Information om Buy Boxens konkurrentpriser](assets/amazon-listing-details-buy-box.png)
+![Information om Buy Boxens konkurrentpriser](assets/amazon-listing-details-buy-box.png){width="600" zoomable="yes"}
 
-## Åtkomst [!DNL Buy Box] Information om konkurrentpriser
+## Åtkomst [!DNL Buy Box] information om konkurrentpriser
 
 1. Klicka **[!UICONTROL Manage Listings]** på butikens kontrollpanel.
 

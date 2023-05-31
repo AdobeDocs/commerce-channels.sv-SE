@@ -1,16 +1,16 @@
 ---
-title: Tredjepartslistor
+title: Amazon försäljningskanal - [!UICONTROL Third-party Listings]
 description: Uppdatera inställningarna för tredjepartslistan avgör om din Commerce-katalog importerar produkter från dina befintliga Amazon Seller Central-listor.
 redirect_from: /sales-channels/asc/ob-third-party-listings.html
 exl-id: bc82775a-6f29-49b5-a80b-20e171eaf8f4
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
-source-wordcount: '515'
+source-wordcount: '518'
 ht-degree: 0%
 
 ---
 
-# Tredjepartslistor
+# [!UICONTROL Third-party Listings]
 
 Inställningarna för tredjepartslistan ingår i inställningarna för din butikslista. Du kommer åt listinställningarna via [instrumentpanel för butik](./amazon-store-dashboard.md).
 
@@ -32,7 +32,7 @@ Den inledande listimporten startar när [butiksintegrering](./store-integration.
 
    - `Import Listing` - (Standard) Välj när du vill att produktinformation från dina Amazon-listor ska importeras till [!DNL Commerce] produktkatalog. Det här alternativet är standard och rekommenderas.
 
-   - `Do Not Import Listing` - Välj när du vill manuellt [skapa och tilldela nya produkter](https://docs.magento.com/user-guide/catalog/products.html){target="_blank"} till [!DNL Commerce] katalog för dina Amazon-listor.
+   - `Do Not Import Listing` - Välj när du vill manuellt [skapa och tilldela nya produkter](https://experienceleague.adobe.com/docs/commerce-admin/catalog/products/products-list.html) till [!DNL Commerce] katalog för dina Amazon-listor.
    >[!NOTE]
    >Följande alternativfält är bara aktiva när de är inställda på `Import Listing`.
 
@@ -45,11 +45,11 @@ Den inledande listimporten startar när [butiksintegrering](./store-integration.
 
 1. När du är klar klickar du på **[!UICONTROL Save listing settings]**.
 
-![Tredjepartslistor](assets/amazon-third-party-listings.png)
+![Tredjepartslistor](assets/amazon-third-party-listings.png){width="600" zoomable="yes"}
 
 | Fält | Beskrivning |
 |---|---|
-| [!UICONTROL Import Third Party Listings] | Obligatoriskt. Alternativ:<ul><li>**[!UICONTROL Import Listing]** - (Standard) Välj när du vill att produktinformation från dina Amazon-listor ska importeras till [!DNL Commerce] produktkatalog. </li><li>**[!UICONTROL Do Not Import Listing]** - Välj när du vill manuellt [skapa och tilldela nya produkter](https://docs.magento.com/user-guide/catalog/products.html){target="_blank"} till [!DNL Commerce] katalog för dina Amazon-listor.</li></ul> |
+| [!UICONTROL Import Third Party Listings] | Obligatoriskt. Alternativ:<ul><li>**[!UICONTROL Import Listing]** - (Standard) Välj när du vill att produktinformation från dina Amazon-listor ska importeras till [!DNL Commerce] produktkatalog. </li><li>**[!UICONTROL Do Not Import Listing]** - Välj när du vill manuellt [skapa och tilldela nya produkter](https://experienceleague.adobe.com/docs/commerce-admin/catalog/products/products-list.html) till [!DNL Commerce] katalog för dina Amazon-listor.</li></ul> |
 | [!UICONTROL Attribute That Contains Amazon Seller SKU] | Endast aktiv när den är inställd på `Import Listing`.<br>Välj [!DNL Commerce] som en matchning till Amazon-attributet för Amazon Seller SKU. Om attributet inte finns, se [Skapa Amazon produktattribut för Amazon Matching](./ob-creating-magento-attributes.md). Granska [!DNL Commerce] [attributes](./managing-attributes.md) och skapa eller redigera ett attribut som matchar dessa Amazon-data. |
 | [!UICONTROL Attribute That Contains Amazon ASIN] | Endast aktiv när den är inställd på `Import Listing`.<br>Välj [!DNL Commerce] som matchar Amazon-attributet för Amazon ASIN. Om attributet inte finns, se [Skapa Amazon produktattribut för Amazon Matching](./ob-creating-magento-attributes.md). Granska [!DNL Commerce] [attributes](./managing-attributes.md) och skapa eller redigera ett attribut som matchar dessa Amazon-data. |
 

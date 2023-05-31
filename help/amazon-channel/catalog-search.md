@@ -1,16 +1,16 @@
 ---
-title: Katalogsökning
+title: Katalogsökning efter Amazon-listor
 description: Om du vill ange attributmatchning som hjälper dig att mappa kvalificerade Commerce-katalogprodukter med Amazon-listor uppdaterar du inställningarna för katalogsökning.
 redirect_from: /sales-channels/asc/ob-catalog-search.html
 exl-id: 9fcaa924-cba3-498f-8e21-1a1f91b1ad04
-source-git-commit: 632157839130461869345724bdfc03b306a4f613
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
-source-wordcount: '981'
+source-wordcount: '987'
 ht-degree: 0%
 
 ---
 
-# Katalogsökning
+# Katalogsökning efter Amazon-listor
 
 _Katalogsökning_ -inställningarna ingår i inställningarna för din butikslista. Du kommer åt listinställningarna via [instrumentpanel för butik](./amazon-store-dashboard.md).
 
@@ -60,7 +60,7 @@ Om du vill lägga till attribut finns mer information i [Skapa produktattribut f
 
 1. När du är klar klickar du på **[!UICONTROL Save listing settings]**.
 
-![Katalogsökning](assets/amazon-catalog-search.png)
+![Katalogsökning](assets/amazon-catalog-search.png){width="500" zoomable="yes"}
 
 | Fält | Beskrivning |
 |--- |--- |

@@ -1,10 +1,10 @@
 ---
-title: Skapa och redigera attribut
+title: Skapa och redigera attribut för Amazon försäljningskanal
 description: Amazon Sales Channel tillhandahåller vyn Attribut som hjälper dig att granska aktuella Amazon-attribut och länkade Commerce-attribut.
 exl-id: 3cd5fb7e-68a3-45fd-8f50-72d3cc0244b5
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: 077d680da3c98ef9a48958eb548a9d5c1612f74e
 workflow-type: tm+mt
-source-wordcount: '1053'
+source-wordcount: '1072'
 ht-degree: 0%
 
 ---
@@ -51,7 +51,7 @@ De här stegen skapar en [!DNL Commerce] och mappa det till ett Amazon-attribut.
 
 1. För **[!UICONTROL Comparable on Storefront]**, ställs in på `Yes` om attributvärdet kan användas i Amazon funktion&quot;Jämför med&quot;.
 
-1. Välj [!DNL Commerce] [omfång](https://docs.magento.com/user-guide/configuration/scope.html){target="_blank"} för attributet och välj sedan en eller flera butiksvyer att importera Amazon-värden till.
+1. Välj [!DNL Commerce] [omfång](https://experienceleague.adobe.com/docs/commerce-admin/start/setup/websites-stores-views.html#scope-settings) för attributet och välj sedan en eller flera butiksvyer att importera Amazon-värden till.
 
    Om omfånget är inställt på `Global`, _[!UICONTROL Store View]_kan inte ändras efter att attributet har skapats.
 
@@ -61,13 +61,13 @@ De här stegen skapar en [!DNL Commerce] och mappa det till ett Amazon-attribut.
 
 När du har sparat kan du redigera attributet för att granska inställningarna och matcha Amazon och [!DNL Commerce] värden för attributet. Du kan även ange om Amazon-värden ska skrivas över [!DNL Commerce] värden.
 
-![skapa attributinställningar](assets/amazon-attribute-settings-create.png)
+![skapa attributinställningar](assets/amazon-attribute-settings-create.png){width="600" zoomable="yes"}
 
 | Fält | Beskrivning |
 |--- |--- |
 | [!UICONTROL Is Active] | Anger om attributet är live och synkroniseras aktivt mellan Amazon och [!DNL Commerce]. Ange till `Yes` för att säkerställa attributvärdena från Amazon och [!DNL Commerce] Håll dig synkad för det valda attributet. |
 | Välj produktattribut för Magento | Anger det markerade attribut som du vill länka till det angivna Amazon-attributnamnet. När du skapar ett attribut väljer du `Create New Magento Attribute`. |
-| [!UICONTROL Amazon Attribute Name] | Visar namnet på det Amazon-attribut du valde. Det markerade attributet länkar till det här Amazon-attributet. Du kan inte redigera det här värdet via [!DNL Commerce]. |
+| [!UICONTROL Amazon Attribute Name] | Visar namnet på det Amazon-attribut som du har valt. Det markerade attributet länkar till det här Amazon-attributet. Du kan inte redigera det här värdet via [!DNL Commerce]. |
 | [!UICONTROL Magento Product Attribute Name] | Anger attributnamnet eller etiketten. |
 | [!UICONTROL Magento Product Attribute Code] | Anger attributkoden, alla med gemener utan blanksteg. |
 | [!UICONTROL Attribute Set Ids] | Anger den attributuppsättning som attributet ska tilldelas till. Attribut är ofta en del av en attributuppsättning, till exempel en uppsättning för färger som har attribut för blått, grönt, gult och rött. |
@@ -75,8 +75,8 @@ När du har sparat kan du redigera attributet för att granska inställningarna 
 | [!UICONTROL Use for Promo Rule Conditions] | Växla till `Yes` för att attributet ska vara tillgängligt för en parameter inom dina kampanjvillkor. |
 | [!UICONTROL Used in Search] | Anger om attributet och värdet kan användas vid produktsökningar. |
 | [!UICONTROL Comparable on Storefront] | Anger om attributvärdet kan användas i Amazon&quot;Jämför med&quot;-funktionen. |
-| [!UICONTROL Magento Product Attribute Scope] | Anger [omfång](https://docs.magento.com/user-guide/configuration/scope.html){target="_blank"} för attributet. Alternativ: Global/butiksvy<br>När inställt på `Global`kan inte butiksvyn redigeras efter att attributet har skapats. |
-| [!UICONTROL Store Views (to import values into to)] | Visas bara när omfånget är inställt på `Store View`. Välj [butiksvy](https://docs.magento.com/user-guide/stores/websites-stores-views.html){target="_blank"} som Amazon-attributvärdena synkroniseras till. Välja `All Store Views (Global)` uppdaterar värdet för alla [!DNL Commerce] butiksvyer. |
+| [!UICONTROL Magento Product Attribute Scope] | Anger [omfång](https://experienceleague.adobe.com/docs/commerce-admin/start/setup/websites-stores-views.html#scope-settings) för attributet. Alternativ: Global/butiksvy<br>När inställt på `Global`kan inte butiksvyn redigeras efter att attributet har skapats. |
+| [!UICONTROL Store Views (to import values into to)] | Visas bara när omfånget är inställt på `Store View`. Välj [butiksvy](https://experienceleague.adobe.com/docs/commerce-admin/start/setup/websites-stores-views.html) som Amazon-attributvärdena synkroniseras till. Välja `All Store Views (Global)` uppdaterar värdet för alla [!DNL Commerce] butiksvyer. |
 
 ## Redigera ett attribut {#edit-an-attribute}
 
@@ -106,7 +106,7 @@ När du har sparat kan du redigera attributet för att granska inställningarna 
 
 1. När du är klar klickar du på **[!UICONTROL Save Attribute Settings]**.
 
-![redigera attributinställningar](assets/amazon-attribute-settings-edit.png)
+![redigera attributinställningar](assets/amazon-attribute-settings-edit.png){width="600" zoomable="yes"}
 
 | Fält | Beskrivning |
 |--- |--- |
@@ -114,5 +114,5 @@ När du har sparat kan du redigera attributet för att granska inställningarna 
 | [!UICONTROL Select Magento Product Attribute] | Anger det markerade [!DNL Commerce] som du vill länka till det angivna Amazon-attributnamnet. Om du vill ändra den länkade [!DNL Commerce] väljer du ett annat attribut i listrutan. Värden synkroniseras enligt konfigurationer. |
 | [!UICONTROL Amazon Attribute Name] | Visar namnet på Amazon-attributet enligt definitionen i [!DNL Amazon Seller Central]. Den markerade [!DNL Commerce] attributlänkar till det här Amazon-attributet. Du kan inte redigera det här värdet via [!DNL Commerce]. |
 | [!UICONTROL Overwrite Existing Value] | Anger om Amazon-attributvärdena skriver över befintliga [!DNL Commerce] värden, som påverkar alla produkter med detta [!DNL Commerce] -attribut.<ul><li>**Skriv inte över befintliga Magento-värden** - (Standard) Behåller [!DNL Commerce] värde, behålla olika värden för [!DNL Commerce] och Amazon butiker.</li><li>**Skriv över befintliga Magento-värden** - Sparar Amazon-värdet över [!DNL Commerce] värdet i [!DNL Commerce] produktkatalog.</li></ul> |
-| [!UICONTROL Magento Product Attribute Scope] | Visas inte när ett attribut redigeras om attributet har skapats med `Global` omfång. Anger [!DNL Commerce] [omfång](https://docs.magento.com/user-guide/configuration/scope.html){target="_blank"} skapades och angavs till `Store View`. |
-| [!UICONTROL Store Views (to import values into to)] | Välj [!DNL Commerce] [butiksvy](https://docs.magento.com/user-guide/stores/websites-stores-views.html){target="_blank"} som Amazon-attributvärdena ska synkroniseras med. Välja `All Store Views (Global)` uppdaterar värdet i alla butiksvyer. |
+| [!UICONTROL Magento Product Attribute Scope] | Visas inte när ett attribut redigeras om attributet har skapats med `Global` omfång. Anger att [!DNL Commerce] [omfång](https://experienceleague.adobe.com/docs/commerce-admin/start/setup/websites-stores-views.html#scope-settings) skapades och angavs till `Store View`. |
+| [!UICONTROL Store Views (to import values into to)] | Välj [!DNL Commerce] [butiksvy](https://experienceleague.adobe.com/docs/commerce-admin/start/setup/websites-stores-views.html) som Amazon-attributvärdena ska synkroniseras med. Välja `All Store Views (Global)` uppdaterar värdet i alla butiksvyer. |

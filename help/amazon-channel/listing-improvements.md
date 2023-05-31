@@ -1,21 +1,21 @@
 ---
-title: Förbättringar av listor
+title: Amazon försäljningskanal - [!UICONTROL Listing Improvements]
 description: Amazon Sales Channel tillhandahåller en rapport om listförbättring som ger dig förslag på förbättringar av Amazon listkvalitet.
 exl-id: 880f4ede-6e2b-4727-a8cb-3798568980dd
-source-git-commit: 2c753ec5f6f4cd509e61b4875e09e9a1a2577ee7
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
-source-wordcount: '226'
+source-wordcount: '225'
 ht-degree: 0%
 
 ---
 
-# Förbättringar av listor
+# [!UICONTROL Listing Improvements]
 
 The [!UICONTROL Listing Improvements] rapporten visar produkter med förslag från Amazon för att förbättra listkvaliteten. Du kan läsa dessa förslag, som kan hjälpa dig att förbättra prestandan för produkter i Amazon. Inga åtgärder är tillgängliga för loggen. Det är en funktion som bara är till för granskning.
 
 En listförbättring från Amazon förhindrar inte att din produkt listas i Amazon.
 
-![Förbättringar av listor](assets/amazon-listing-improvements.png)
+![Förbättringar av listor](assets/amazon-listing-improvements.png){width="600" zoomable="yes"}
 
 ## Standardkolumner
 

@@ -1,15 +1,15 @@
 ---
-title: Amazon Store Dashboard
+title: Amazon Store-instrumentpanel
 description: Visa aktiviteten för dina Amazon-butiker från Commerce Admin med hjälp av Amazon butikspanel.
 exl-id: b86220c6-8350-474e-8faa-988a9a575ac4
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
 source-wordcount: '343'
 ht-degree: 0%
 
 ---
 
-# Amazon Store Dashboard
+# Amazon Store-instrumentpanel
 
 I _[!UICONTROL Amazon Stores]_se på startsidan för Amazon försäljningskanal klickar du **[!UICONTROL View Store]**på ett butikskort för att öppna butiksinstrumentpanelen.
 
@@ -17,7 +17,7 @@ Den primära platsen där du kan visa aktiviteten för var och en av dina Amazon
 
 Du kan även komma åt [lagringsinställningar](./ob-store-review.md), [hantera dina listor](./managing-product-listings.md)och visa säljdata och information om senaste order.
 
-![Amazon Store-instrumentpanel](assets/amazon-store-dashboard.png)
+![Amazon Store-instrumentpanel](assets/amazon-store-dashboard.png){width="600" zoomable="yes"}
 
 Huvudet på butikspanelen visar samma grundläggande butiksinformation som visas på butikskortet:
 

@@ -1,16 +1,16 @@
 ---
-title: Fullgjord av
+title: Inställningarna för Amazon-listor har följts
 description: Använd inställningarna för Fulifyllt av för att bestämma hur beställningarna från Amazon-listorna uppfylls (skickas).
 redirect_from: /sales-channels/asc/ob-fulfilled-by.html
 exl-id: 240c2198-e23d-40e7-be39-b9a4f78565d2
-source-git-commit: 632157839130461869345724bdfc03b306a4f613
+source-git-commit: 077d680da3c98ef9a48958eb548a9d5c1612f74e
 workflow-type: tm+mt
-source-wordcount: '618'
+source-wordcount: '627'
 ht-degree: 0%
 
 ---
 
-# Fullgjord av
+# Inställningarna för Amazon-listor har följts
 
 _[!UICONTROL Fulfilled By]_-inställningarna ingår i inställningarna för din butikslista. Du kommer åt listinställningarna via [instrumentpanel för butik](./amazon-store-dashboard.md).
 
@@ -46,12 +46,12 @@ Fullgörandemetoden är ett regionalt attribut och baseras på **[!UICONTROL Ama
 
 1. När du är klar klickar du på **[!UICONTROL Save listing settings]**.
 
-![Inställningarna Fulifyllda](assets/amazon-fulfilled-by.png)
+![Inställningarna Fulifyllda](assets/amazon-fulfilled-by.png){width="500" zoomable="yes"}
 
 | Fält | Beskrivning |
 |--- |--- |
 | [!UICONTROL Product Fulfilled By] | Alternativ:<ul><li>**[!UICONTROL Fulfilled by Merchant]** - (FBM) Välj om du har slutfört beställningarna. När en order läggs dras lagret från [!DNL Commerce] katalog. När en ny produkt skapas tilldelas leveransmetoden för Merchant Fulfill.</li><li>**[!UICONTROL Fulfilled by Amazon]** - (FBA) Välj om Amazon uppfyller beställningarna. Med den här leveransmetoden dras produktlager inte av från din [!DNL Commerce] katalog när en order placeras. När en produkt skapas skapas den med _[!UICONTROL Fulfilled by Amazon (FBA)]_som uppfyllandetyp. Se till att dina produkter är berättigade till FBA-leverans inifrån [!DNL Amazon Seller Central] konto. FBA-inventeringen hanteras också direkt via [!DNL Amazon Seller Central] konto. Med den här leveransmetoden skickas inte kvantitetsuppdateringar ut i förhållande till din [!DNL Commerce] så du inte kan använda några av de marknadsföringsverktyg som beskrivs i [Inställningar för lager/kvantitet](./stock-quantity.md).</li><li>**[!UICONTROL Assign Fulfilled By Using Magento Product Attribute]** - Välj om du har en befintlig [!DNL Commerce] som avgör om den uppfylls av handlaren eller uppfylls av Amazon. När du väljer **[!UICONTROL Fulfilled by Attribute]** aktiverar.</li></ul> |
-| [!UICONTROL Fulfilled By Attribute] | Välj [!DNL Commerce] attribut som används för att fastställa leveransmetoden.<br><br>Om attributet till exempel är _Fullgjord av_ och du väljer attributvärdet som _[!UICONTROL Fulfilled By Merchant]_eller_[!UICONTROL Fulfilled By Amazon (FBA)]_ används det värdet som hämtningstyp för en ny produkt. Som handlare bör du se till att dina produkter är berättigade till FBA-leveranser inom din [!DNL Amazon Seller Central] konto. FBA-inventering hanteras även direkt via ditt Amazon-säljarkonto.<br><br>Alternativen beror på vilka attribut du har konfigurerat för dina Amazon-produkter. |
+| [!UICONTROL Fulfilled By Attribute] | Välj [!DNL Commerce] attribut som används för att fastställa leveransmetoden.<br><br>Om attributet till exempel är _Fullgjord av_ och du väljer attributvärdet som `Fulfilled By Merchant` eller `Fulfilled By Amazon (FBA)`används det värdet som hämtningstyp för en ny produkt. Som handlare bör du se till att dina produkter är berättigade till FBA-leveranser inom din [!DNL Amazon Seller Central] konto. FBA-inventering hanteras även direkt via ditt Amazon-säljarkonto.<br><br>Alternativen beror på vilka attribut du har konfigurerat för dina Amazon-produkter. |
 
 **Snabb åtkomst** - [!UICONTROL Listing Settings] avsnitt
 

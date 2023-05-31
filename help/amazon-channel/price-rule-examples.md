@@ -1,10 +1,10 @@
 ---
-title: Exempel på prisregler
+title: Amazon säljkanal - Exempel på prisregel
 description: Se de här exemplen baserat på vanliga scenarier för att få hjälp med att utforma prisregler för listor från Amazon.
 exl-id: 4d9717ba-4ad6-468d-b4ca-99f8620b60b4
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
-source-wordcount: '922'
+source-wordcount: '925'
 ht-degree: 2%
 
 ---
@@ -231,7 +231,7 @@ Slutpris efter att standardprisregeln har tillämpats: $13.75 + $5.00 = $18.75
 
 I det här exemplet definieras det mest konkurrenskraftiga priset genom att titta på Amazon [konkurrentens lägsta pris](./lowest-competitor-pricing.md) med 95 % positiv feedback och minst 1 000 feedback-granskningar.
 
-![Exempel på prisjustering](assets/amazon-price-adjustment-example.png)
+![Exempel på prisjustering](assets/amazon-price-adjustment-example.png){width="600" zoomable="yes"}
 
 När sökningen har utförts baserat på de här parametrarna återgår priset till 25 dollar.
 

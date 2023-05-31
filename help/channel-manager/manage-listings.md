@@ -2,7 +2,7 @@
 title: Hantera listor
 description: Hantera säljkanalslistor för en [!DNL Commerce] lagra med Channel Manager för Adobe Commerce och Magento Open Source.'
 exl-id: 70999552-9ba7-4b10-a8ee-ee99bc4fe837
-source-git-commit: aeeaca20cb54528f77e457d54a194d6603c08654
+source-git-commit: a3ae579c0eda0c27bf8eab9d0ac12919eaad494b
 workflow-type: tm+mt
 source-wordcount: '715'
 ht-degree: 0%
@@ -15,7 +15,7 @@ Hantera produktlistor för [!DNL Walmart Marketplace] försäljningskanal från 
 
 Statusen för en enskild lista visar var produkten finns i [!DNL Channel Manager] arbetsflöde så att du kan avgöra vilka steg som ska utföras och åtgärda eventuella fel.
 
-![Listsida för en ansluten försäljningskanal](assets/listings-dashboard-view.png)
+![Listsida för en ansluten försäljningskanal](assets/listings-dashboard-view.png){width="500" zoomable="yes"}
 
 Du kan utföra följande uppgifter i listvyn.
 

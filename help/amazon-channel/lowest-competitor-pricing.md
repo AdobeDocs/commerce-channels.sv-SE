@@ -1,21 +1,21 @@
 ---
-title: Lägsta konkurrentpris
+title: Amazon försäljningskanal - [!UICONTROL Lowest Competitor Pricing]
 description: The [!UICONTROL Amazon Sales Channel] ger [!UICONTROL Lowest Competitor Pricing] som hjälper dig att förstå prisplaceringen för dina konkurrenter på Amazon.
 exl-id: 7784d36a-1286-4f92-9f67-b0fef04ad112
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
-source-wordcount: '254'
+source-wordcount: '251'
 ht-degree: 0%
 
 ---
 
-# Lägsta konkurrentpris
+# [!UICONTROL Lowest Competitor Pricing]
 
 The _[!UICONTROL Lowest Competitor Pricing]_på_[!UICONTROL Product Listing Details]_ visas det lägsta slutliga landningspriset, men delas upp i fraktpris och listpris. Denna information kan användas för att förstå prisplaceringen för dina konkurrenter på Amazon.
 
 [Intelligenta omprissättningsregler](./intelligent-repricing-rules.md) kan konfigureras för att justera priset baserat på konkurrentpriserna.
 
-![Lägsta konkurrentpris](assets/amazon-listing-details-lowest-comp.png)
+![Lägsta konkurrentpris](assets/amazon-listing-details-lowest-comp.png){width="600" zoomable="yes"}
 
 ## Få tillgång till information om lägsta konkurrentpris
 

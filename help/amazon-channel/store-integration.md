@@ -1,17 +1,17 @@
 ---
-title: Butiksintegrering
+title: Integrering med en [!DNL Amazon Seller Account]
 description: Innan du börjar med introduktionsprocessen måste du skapa (lägga till) en Amazon Sales Channel store och ansluta den till ditt Amazon-återförsäljarkonto.
 exl-id: ea79e91d-7d92-4992-a921-7ac7632a0519
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
-source-wordcount: '554'
+source-wordcount: '555'
 ht-degree: 0%
 
 ---
 
-# Butiksintegrering
+# Integrering med en [!DNL Amazon Seller Account]
 
-För att komma igång med Amazon säljkanal måste du skapa (lägga till) en Amazon-återförsäljarbutik och ansluta den till ditt Amazon-återförsäljarkonto. Dessa två steg integrerar [!DNL Commerce] och Amazon-konton för att dela data, synkronisera produkter med mera.
+Om du vill komma igång med Amazon försäljningskanal måste du skapa (lägga till) en Amazon försäljningskanalbutik och ansluta den till din [!DNL Amazon Seller Account]. Dessa två steg integrerar [!DNL Commerce] och Amazon-konton för att dela data, synkronisera produkter med mera.
 
 _Du behöver de primära inloggningsuppgifterna för din [!DNL Amazon Seller Central] konto (den e-postadress eller telefon som används för att skapa säljarkontot) för att ansluta butiken._
 
@@ -29,7 +29,7 @@ _Du behöver de primära inloggningsuppgifterna för din [!DNL Amazon Seller Cen
 
    The _[!UICONTROL Add Amazon sales channel]_sidan öppnas.
 
-   ![Lägg till Amazon säljkanalsbutik](assets/amazon-store-integration.png)
+   ![Lägg till Amazon säljkanalsbutik](assets/amazon-store-integration.png){width="500" zoomable="yes"}
 
 1. För **[!UICONTROL Magento Website to use for Amazon Listing]** väljer du vilken av dina [!DNL Commerce] webbplatser att ansluta till denna Amazon-återförsäljarkanalbutik.
 
@@ -84,7 +84,7 @@ _Du behöver de primära inloggningsuppgifterna för din [!DNL Amazon Seller Cen
 
    Om du vill visa kontrollpanelen för butiker klickar du på **[!UICONTROL View Store]** på butikskortet.
 
-![Amazon säljkanalshem med nytt butikskort](assets/asc-dashboard-after-2fa.png)
+![Amazon säljkanalshem med nytt butikskort](assets/asc-dashboard-after-2fa.png){width="600" zoomable="yes"}
 
 Din nya Amazon-butik är nu ansluten till din [!DNL Amazon Seller Central] konto.
 

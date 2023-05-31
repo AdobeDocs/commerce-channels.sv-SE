@@ -2,7 +2,7 @@
 title: Visa och hantera order från [!DNL Channel Manager]'
 description: Visa och hantera [!DNL Walmart Marketplace] order med [!DNL Channel Manager] för Adobe Commerce och Magento Open Source."
 exl-id: c2779c72-4793-445c-858a-867ea8389662
-source-git-commit: aeeaca20cb54528f77e457d54a194d6603c08654
+source-git-commit: a3ae579c0eda0c27bf8eab9d0ac12919eaad494b
 workflow-type: tm+mt
 source-wordcount: '1025'
 ht-degree: 0%
@@ -23,7 +23,7 @@ På [!DNL Commerce] en lyckad synkronisering utlöser följande åtgärder:
 
 I storefront Admin kan du visa orderdata från [!DNL Channel Manager] genom att öppna säljkanalsbutiken och välja **[!UICONTROL Orders]**.
 
-![Vyn Kanalhanterarorder som ska hanteras [!DNL Walmart Marketplace] order](assets/orders-dashboard-view.png)
+![Vyn Kanalhanterarorder som ska hanteras [!DNL Walmart Marketplace] order](assets/orders-dashboard-view.png){width="600" zoomable="yes"}
 
 >[!NOTE]
 >
@@ -151,7 +151,7 @@ När en beställning har tagits emot från marknadsplatsen och importerats till 
 
 Från **[!UICONTROL Orders]** väljer du **[!UICONTROL Commerce Order Number]** för att öppna [!DNL Commerce] orderdetaljer.
 
-![Detaljvy för handelsorder för en [!DNL Walmart Marketplace] order](assets/order-detail-with-external-order-id.png)
+![Detaljvy för handelsorder för en [!DNL Walmart Marketplace] order](assets/order-detail-with-external-order-id.png){width="600" zoomable="yes"}
 
 I Commerce Store importerar man order från [!DNL Walmart Marketplace] ha följande ytterligare information i orderuppgifterna:
 
@@ -172,6 +172,6 @@ I Commerce Store importerar man order från [!DNL Walmart Marketplace] ha följa
 
 - **Beställda artiklar**- I det här avsnittet visas orderartiklarna på alla handelsorder. The [!UICONTROL Qty] -kolumnen innehåller statushistorik för orderartiklar. Om en order till exempel har fakturerats, skickats och återbetalats kan du se statusövergångarna.
 
-   ![Statushistorik för sorterad artikel för orderdetaljer [!DNL Walmart Marketplace] order](assets/order-detail-status-history.png)
+   ![Statushistorik för sorterad artikel för orderdetaljer [!DNL Walmart Marketplace] order](assets/order-detail-status-history.png){width="600" zoomable="yes"}
 
 Visa artikelfaktura och återbetalningsinformation genom att välja [!UICONTROL Invoice] och [!UICONTROL Credit Memo] på navigeringsmenyn. Du kan även komma åt kreditnotan direkt från [[!UICONTROL Returns]](return-refund-orders.md) kontrollpanelen i din säljkanalsbutik.

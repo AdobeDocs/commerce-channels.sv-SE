@@ -1,10 +1,10 @@
 ---
-title: Skapa och redigera åsidosättningar
+title: Skapa och redigera åsidosättningar av Amazon-försäljningskanaler
 description: Använd åsidosättningar av Amazon Sales Channel för att tillämpa ändringarna på en enstaka Amazon-lista eller på flera listor.
 exl-id: 3a254883-b88c-4c94-b4d5-8d7754b9afd2
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
-source-wordcount: '899'
+source-wordcount: '902'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ The _[!UICONTROL Create Override]_är tillgänglig när du visar listor på_[!UI
 
 1. I _[!UICONTROL Action]_kolumn, klicka **[!UICONTROL Select]**>**[!UICONTROL Create Override]**om du vill öppna sidan Åsidosättningar av produktlistor.
 
-   ![skapa åsidosättning av Amazon-lista](assets/amazon-select-create-override.png)
+   ![skapa åsidosättning av Amazon-lista](assets/amazon-select-create-override.png){width="220"}
 
 1. För att vara säker på att du visar rätt lista bör du kontrollera _[!UICONTROL Listing Details]_.
 
@@ -40,7 +40,7 @@ The _[!UICONTROL Create Override]_är tillgänglig när du visar listor på_[!UI
 
 I följande exempel visas en åsidosättning som definierar ett nytt pris på `$55`, en ny hanteringstid på `1 day`, ett nytt villkor för `Used; Like New`och ny text.
 
-![Exempel på åsidosättning av Amazon-lista](assets/amazon-overrides-edit.png)
+![Exempel på åsidosättning av Amazon-lista](assets/amazon-overrides-edit.png){width="600" zoomable="yes"}
 
 ## Redigera eller ta bort en åsidosättning för en enstaka lista {#edit-override-single-listing}
 
@@ -52,7 +52,7 @@ The _[!UICONTROL Edit Overrides]_är tillgänglig när du visar listor på_[!UIC
 
    The _[!UICONTROL Product Listing Overrides]_sidan öppnas.
 
-   ![Markera en åsidosättning av Amazon-lista](assets/amazon-select-edit-overrides.png)
+   ![Markera en åsidosättning av Amazon-lista](assets/amazon-select-edit-overrides.png){width="125"}
 
 1. För att vara säker på att du åsidosätter rätt lista bör du kontrollera _[!UICONTROL Listing Details]_.
 
@@ -73,7 +73,7 @@ The _[!UICONTROL Edit Overrides]_är tillgänglig när du visar listor på_[!UIC
 
 Piggybacking på _Skapa en åsidosättning_ exempel. I följande exempel visas en redigering av den tidigare skapade åsidosättningen som definierar det nya priset för `$50`, tar bort åsidosättningen av Hanteringstid och behåller de föregående villkors- och säljanteckningarna.
 
-![Redigera eller ta bort en åsidosättning](assets/amazon-overrides-edit-2.png)
+![Redigera eller ta bort en åsidosättning](assets/amazon-overrides-edit-2.png){width="600" zoomable="yes"}
 __
 
 ## Redigera eller ta bort en åsidosättning för flera listor {#edit-override-multiple-listings}
@@ -92,7 +92,7 @@ The _[!UICONTROL Edit Listing Overrides]_finns på_[!UICONTROL Inactive]_, _[!UI
 
    The _[!UICONTROL Product Listing Overrides]_sidan öppnas.
 
-   ![Markera en åsidosättning av Amazon-lista](assets/amazon-actions-edit-listing-overrides.png)
+   ![Markera en åsidosättning av Amazon-lista](assets/amazon-actions-edit-listing-overrides.png){width="200"}
 
 1. Så här redigerar du _[!UICONTROL Override]_inställningar definierar du avsnitten för den typ som du vill ändra (Pris, Hanteringstid, Villkor, Seller Notes).
 

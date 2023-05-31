@@ -1,23 +1,23 @@
 ---
-title: Logg för kommunikationsfel
+title: Amazon fellogg för kommunikationsfel
 description: I loggen för kommunikationsfel visas alla kommunikationsfel mellan Amazon och [!DNL Commerce].
 exl-id: 0d9f54ba-0fb7-4cd8-a18e-3335f37097a4
-source-git-commit: 2c753ec5f6f4cd509e61b4875e09e9a1a2577ee7
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
 source-wordcount: '133'
 ht-degree: 0%
 
 ---
 
-# Logg för kommunikationsfel
+# Amazon fellogg för kommunikationsfel
 
-I loggen för kommunikationsfel visas alla rapporterade kommunikationsfel med Amazon. Informationen innehåller information om Amazon säljkanalsbutik, felkod och kortfattad beskrivning samt datum och tid för felet.
+The [!UICONTROL Communication Errors] Logg visar rapporterade kommunikationsfel med Amazon. Informationen innehåller information om Amazon säljkanalsbutik, felkod och kortfattad beskrivning samt datum och tid för felet.
 
 Inga åtgärder är tillgängliga för loggen. Det är en funktion som bara är till för granskning.
 
 Amazon hemsidor för försäljningskanaler delar några vanliga sidor [arbetsytekontroller](./workspace-controls.md) som gör att du kan anpassa de data som visas.
 
-![Logg för kommunikationsfel](assets/amazon-comm-errors-log.png)
+![Logg för kommunikationsfel](assets/amazon-comm-errors-log.png){width="600" zoomable="yes"}
 
 ## Standardkolumner
 

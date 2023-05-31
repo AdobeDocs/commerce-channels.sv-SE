@@ -1,15 +1,15 @@
 ---
-title: '''[!DNL Amazon Sales Channel] Versionsinformation'
+title: '''[!DNL Amazon Sales Channel] versionsinformation'
 description: Läs versionsinformationen om du vill ha information om alla [!DNL Amazon Sales Channel] releaser.
 exl-id: 792782e0-9097-42f7-9fc0-509ece02e407
-source-git-commit: 3b2f60ad2796ee1fdc8808fc0941d76a603b2213
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
-source-wordcount: '1924'
+source-wordcount: '1933'
 ht-degree: 0%
 
 ---
 
-# Versionsinformation
+# [!DNL Amazon Sales Channel] versionsinformation
 
 >[!IMPORTANT]
 >
@@ -23,7 +23,7 @@ I versionsinformationen beskrivs den första versionen av [!DNL Amazon sales cha
 ![Korrigerat problem](../assets/fix.svg) Korrigeringar och förbättringar
 ![Känt fel](../assets/bug.svg) Kända fel
 
-Se [Kommande versioner](https://devdocs.magento.com/release/){target="_blank"} för versionshantering, support och kompatibilitet.
+Se [Kommande versioner](https://experienceleague.adobe.com/docs/commerce-operations/release/planning/schedule.html) för versionshantering, support och kompatibilitet.
 
 ## v4.4.4
 
@@ -116,13 +116,13 @@ Se [Kommande versioner](https://devdocs.magento.com/release/){target="_blank"} f
 
 Om du har en tidigare [!DNL Amazon sales channel] version som är installerad och som försöker uppdatera din Adobe Commerce till version 2.4.0, uppmanas du att uppdatera tillägget innan du kan slutföra Adobe Commerce-uppdateringen.
 
-![Känt fel](../assets/bug.svg) När [!DNL Amazon sales channel] 4.2.0 är integrerat med version 2.4.0 och [Inventory management](https://docs.magento.com/user-guide/catalog/inventory.html) är aktiverat finns det ett känt fel som förhindrar att produkter läggs till i din Commerce-katalog. Detta problem kommer att åtgärdas i en framtida version av Commerce.
+![Känt fel](../assets/bug.svg) När [!DNL Amazon sales channel] 4.2.0 är integrerat med version 2.4.0 och [Inventory management](https://experienceleague.adobe.com/docs/commerce-admin/inventory/introduction.html?lang=en) är aktiverat finns det ett känt fel som förhindrar att produkter läggs till i din Commerce-katalog. Detta problem kommer att åtgärdas i en framtida version av Commerce.
 
 ![Nytt](../assets/new.svg) [!DNL Amazon sales channel] har förbättrats för att kunna ta emot textbaserade adressdata och matcha dem med standardiserade adressformat, inklusive ort, delstat och postnummer. Med den här uppdateringen kan beställningar och leveranser av data synkroniseras (synkroniseras) med Amazon utan adressfel.<br/>En kund anger till exempel ort, delstat och postnummer som `Escondido, californiA 92025-1501`. Amazon Sales Channel importerar och matchar data enligt standardformatet som `Escondido, CA 92025`och sedan synkroniserar det tillbaka till Amazon i detta standardiserade format.
 
 ![Nytt](../assets/new.svg) Stöd för PHP 7.4 har lagts till.
 
-![Nytt](../assets/new.svg) <!--CHAN-4334-->Stöd för Adobe Commerce 2.4.x har lagts till. Tidigare versioner kan vara kompatibla med Commerce 2.4.x, men stöds inte. Se [Kommande versioner](https://devdocs.magento.com/release/){:target=&quot;_blank&quot;} för versionskompatibilitet. Amazon Sales Channel måste uppdateras till 4.2.0 innan Adobe Commerce 2.4.0-uppdateringen kan slutföras.
+![Nytt](../assets/new.svg) <!--CHAN-4334-->Stöd för Adobe Commerce 2.4.x har lagts till. Tidigare versioner kan vara kompatibla med Commerce 2.4.x, men stöds inte. Se [Kommande versioner](https://experienceleague.adobe.com/docs/commerce-operations/release/planning/schedule.html) för versionskompatibilitet. Amazon Sales Channel måste uppdateras till 4.2.0 innan Adobe Commerce 2.4.0-uppdateringen kan slutföras.
 
 ![Korrigera](../assets/fix.svg) <!--CHAN-4431-->Ett problem som orsakade ett _Åtkomst nekad_ fel för kunder i Storbritannien.
 
@@ -210,7 +210,7 @@ Om du har en tidigare [!DNL Amazon sales channel] version som är installerad oc
 
 - [Produktmomskod](https://sellercentral.amazon.com/gp/help/help.html?itemID=G200794510&amp;language=en_US){target="_blank"} information.
 
-![Nytt](../assets/new.svg) **Förbättrad loggning**: <!--CHAN-3642, 3672-->Implementerat **Aktivera felsökningsloggning** för att samla in ytterligare synkroniseringsdata när felsökning behövs. Se [Inställningar för Sales Channel](https://docs.magento.com/user-guide/configuration/sales-channels/global-settings.html) i konfigurationsreferensen.
+![Nytt](../assets/new.svg) **Förbättrad loggning**: <!--CHAN-3642, 3672-->Implementerat **Aktivera felsökningsloggning** för att samla in ytterligare synkroniseringsdata när felsökning behövs. Se [Inställningar för Sales Channel](https://experienceleague.adobe.com/docs/commerce-admin/config/sales-channels.html) i konfigurationsreferensen.
 
 ![Korrigera](../assets/fix.svg) **Produktkatalog**: <!--CHAN-3687-->Ett problem som gjorde att bilder som importerats med en Amazon-lista inte kunde användas i motsvarande Commerce-katalogprodukt har korrigerats.
 

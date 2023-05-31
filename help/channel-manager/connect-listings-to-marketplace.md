@@ -2,9 +2,9 @@
 title: Anslut listor till Walmart
 description: '''Anslut listor för [!DNL Commerce] produkter till [!DNL Walmart Marketplace]att börja sälja."'
 exl-id: 78078b14-ebdd-415d-9486-66b0150167aa
-source-git-commit: aeeaca20cb54528f77e457d54a194d6603c08654
+source-git-commit: a3ae579c0eda0c27bf8eab9d0ac12919eaad494b
 workflow-type: tm+mt
-source-wordcount: '1096'
+source-wordcount: '1095'
 ht-degree: 0%
 
 ---
@@ -35,7 +35,7 @@ Innan du matchar produkter måste du kontrollera att produktkatalogattributvärd
 
 1. Från **[!UICONTROL Listings]** väljer du produkter för matchning i *[!UICONTROL Draft]* status.
 
-   ![Välj produkter från listor och skicka för matchning](assets/products-in-marketplace-sales-channel.png)
+   ![Välj produkter från listor och skicka för matchning](assets/products-in-marketplace-sales-channel.png){width="500" zoomable="yes"}
 
 1. Välj **[!UICONTROL Match Products]**.
 
@@ -115,9 +115,9 @@ Om du vill se nya produktlistor kontrollerar du i produktkatalogen att de produk
 
 - Kontrollera att cron-jobbet körs för att slutföra exportåtgärden.
 
-   - Information om lokala instanser finns i [Konfigurera och kör cron](https://devdocs.magento.com/guides/v2.4/config-guide/cli/config-cli-subcommands-cron.html).
+   - Information om lokala instanser finns i [Konfigurera och kör cron](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/configure-cron-jobs.html).
 
-   - Information om molninfrastrukturen i Adobe finns på [Ställ in cron-jobb](https://devdocs.magento.com/cloud/configure/setup-cron-jobs.html).
+   - Information om molninfrastrukturen i Adobe finns på [Ställ in cron-jobb](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/app/properties/crons-property.html).
 
 ### Skapa produktdatafilen som ska överföras
 
@@ -125,11 +125,11 @@ Om du vill se nya produktlistor kontrollerar du i produktkatalogen att de produk
 
    - På sidan Produktkatalogobjekt väljer du **[!UICONTROL Add Items]**. Välj sedan **[!UICONTROL Add items in bulk]**.
 
-      ![Lägg till objekt i grupp, alternativ i Objektkonfiguration på Walmart Marketplace](assets/walmart-seller-account-add-items-bulk.png)
+      ![Lägg till objekt i grupp, alternativ i Objektkonfiguration på Walmart Marketplace](assets/walmart-seller-account-add-items-bulk.png){width="600" zoomable="yes"}
 
    - På nedladdningssidan väljer du **[!UICONTROL Full Setup]**. Välj sedan en artikelkategori och hämta kategorimallen.
 
-      ![Hämta kategorimallsalternativ i Objektkonfiguration på Walmart Marketplace](assets/walmart-seller-account-full-setup-download.png)
+      ![Hämta kategorimallsalternativ i Objektkonfiguration på Walmart Marketplace](assets/walmart-seller-account-full-setup-download.png){width="600" zoomable="yes"}
 
    - Kontrollera att mallen innehåller de obligatoriska och rekommenderade attributen för produktlistan.
 
@@ -140,15 +140,14 @@ Om du vill se nya produktlistor kontrollerar du i produktkatalogen att de produk
    - På [!UICONTROL Export] sidan i [!UICONTROL Entity Type] fält, markera [!UICONTROL **Produkter**].
 
    - I [!UICONTROL Entity Attributes] konfigurera urvalskriterierna för export av produktdata.
-   ![Exportera produktdatasidan i [!UICONTROL [!DNL Commerce] Admin]](assets/walmart-seller-account-full-setup-download.png)
 
-   Använd filter för att välja och konfigurera attributvärden som gäller för de produktkategorier som du säljer in. Se till att du inkluderar de attribut som krävs och rekommenderas för Walmart. (Se [Exportera data](https://docs.magento.com/user-guide/system/data-export.html) i Adobe [!DNL Commerce] Användarhandbok för detaljerade anvisningar.)
+      Använd filter för att välja och konfigurera attributvärden som gäller för de produktkategorier som du säljer in. Se till att du inkluderar de attribut som krävs och rekommenderas för Walmart. (Se [Exportera data](https://experienceleague.adobe.com/docs/commerce-admin/systems/data-transfer/data-export.html) i Adobe [!DNL Commerce] Användarhandbok för detaljerade anvisningar.)
 
-   Om du vill utesluta ett attribut från exporten markerar du [!UICONTROL **Exkludera**] i början av raden.
+      Om du vill utesluta ett attribut från exporten markerar du [!UICONTROL **Exkludera**] i början av raden.
 
 1. Bläddra till slutet av attributtabellen och markera [!UICONTROL **Fortsätt**] för att starta dataexporten.
 
-   CSV-exportfilen bearbetas via en meddelandekö med hjälp av cron-jobb och sparas i `var/export/folder`. (Se [Hantera meddelandeköer](https://devdocs.magento.com/guides/v2.4/config-guide/mq/manage-message-queues.html) i *Handbok för Commerce Developer*.)
+   CSV-exportfilen bearbetas via en meddelandekö med hjälp av cron-jobb och sparas i `var/export/folder`. (Se [Hantera meddelandeköer](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/message-queues/manage-message-queues.html) i *Konfigurationshandbok*.)
 
 1. Öppna Excel-mallen för produktkategorin Walmart Marketplace och använd Excel-makrofunktionerna för att sammanfoga exporterade produktdata med Excel-mallen.
 

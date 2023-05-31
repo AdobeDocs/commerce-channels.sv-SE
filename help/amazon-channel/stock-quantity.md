@@ -1,16 +1,15 @@
 ---
-title: Lager/kvantitet
+title: Amazon försäljningskanal - [!UICONTROL Stock/Quantity]
 description: Så här styr du synkroniseringen av produktkvantitetsinformation från din Commerce Store till din [!DNL Amazon Seller Central] ska du uppdatera inställningarna för Stock/Kvantitet.
-redirect_from: /sales-channels/asc/ob-stock-quantity.html
 exl-id: a8b7ab6c-393c-43c6-b5ef-68845177edff
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
-source-wordcount: '769'
+source-wordcount: '768'
 ht-degree: 0%
 
 ---
 
-# Lager/kvantitet
+# [!UICONTROL Stock/Quantity]
 
 *[!UICONTROL Stock/Quantity]* -inställningarna ingår i inställningarna för din butikslista. Du kommer åt listinställningarna via [instrumentpanel för butik](./amazon-store-dashboard.md).
 
@@ -42,7 +41,7 @@ Kvantitet är ett regionalt attribut och baseras på **[!UICONTROL Amazon Market
 
 1. När du är klar klickar du på **[!UICONTROL Save listing settings]**.
 
-![Inställningar för lager/kvantitet](assets/amazon-stock-quantity.png)
+![Inställningar för lager/kvantitet](assets/amazon-stock-quantity.png){width="600" zoomable="yes"}
 
 | Fält | Beskrivning |
 |---|---|
@@ -67,10 +66,10 @@ När en artikel säljs är den här kvantiteten försedd med Amazon lista.
 
 Om du till exempel anger *[!UICONTROL Maximum Listed Quantity]* as `12`visas i Amazon lista 12 trots att produkten har en [!DNL Commerce] Kvantitet av 80:
 
-![Exempel på maximal listats kvantitet 1](assets/amazon-max-listed-quantity.png)
+![Exempel på maximal listats kvantitet 1](assets/amazon-max-listed-quantity.png){width="300"}
 
 Om du ställer in *[!UICONTROL Maximum Listed Quantity]* as `1`, listas alla produkter med en kvantitet `1`. När en artikel säljs ser systemet ut som [!DNL Commerce] produkten och, om det finns ytterligare lager, är den i Amazon tillförlitlig med en kvantitet `1`.
 
 Det här alternativet kan vara värdefullt för produkter som vanligtvis beställs med en kvantitet på 1. Det är också mycket angeläget för kunderna när de tittar på din Amazon-lista.
 
-![Exempel på maximal listats kvantitet 2](assets/amazon-max-listed-quantity-1.png)
+![Exempel på maximal listats kvantitet 2](assets/amazon-max-listed-quantity-1.png){width="300"}

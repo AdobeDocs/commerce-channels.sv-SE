@@ -4,9 +4,9 @@ description: Ansluta kanalhanteraren till [!DNL Commerce] tjänster för att mö
 role: User
 level: Intermediate
 exl-id: 97da2142-ecef-44dc-91d8-5dc55c713d31
-source-git-commit: aeeaca20cb54528f77e457d54a194d6603c08654
+source-git-commit: a3ae579c0eda0c27bf8eab9d0ac12919eaad494b
 workflow-type: tm+mt
-source-wordcount: '270'
+source-wordcount: '280'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 The [!DNL Commerce Services Connector] integrerar Channel Manager-tjänsten med instanser från Adobe Commerce och Magento Open Source. Kopplingen möjliggör datasynkronisering och kommunikation mellan [!DNL Commerce] instans, [!DNL Channel Manager]och andra stödtjänster.
 
-[!DNL Commerce Services Connector] installation är en engångsprocess som krävs för att använda [Adobe Commerce SaaS-tjänster](https://experienceleague.adobe.com/docs/commerce-merchant-services/user-guides/home.html){target="_blank"} som [!DNL Channel Manager], [!DNL Live Search]och [!DNL Product Recommendations]. Om du redan har konfigurerat anslutningen för en annan tjänst hoppar du över det här steget.
+[!DNL Commerce Services Connector] installation är en engångsprocess som krävs för att använda [Adobe Commerce SaaS-tjänster](https://experienceleague.adobe.com/docs/commerce-merchant-services/user-guides/home.html) som [!DNL Channel Manager], [!DNL Live Search]och [!DNL Product Recommendations]. Om du redan har konfigurerat anslutningen för en annan tjänst hoppar du över det här steget.
 
 ## Krav
 
@@ -24,11 +24,11 @@ The [!DNL Commerce Services Connector] integrerar Channel Manager-tjänsten med 
 
    Kontoägare och superanvändare kan skapa administratörskonton från [!DNL Commerce] -instans eller från kommandoraden med [!DNL Commerce] CLI, kommando `admin:user:create`.
 
-- **Adobe Commerce Production API Key**-Den [key](https://docs.magento.com/user-guide/system/saas.html#apikey){target="_blank"} aktiverar API-åtkomst till tjänster som krävs av Channel Manager. Du behöver offentliga och privata autentiseringsuppgifter för den här nyckeln.
+- **Adobe Commerce Production API Key**-Den [key](https://experienceleague.adobe.com/docs/commerce-merchant-services/user-guides/integration-services/saas.html#genapikey) aktiverar API-åtkomst till tjänster som krävs av Channel Manager. Du behöver offentliga och privata autentiseringsuppgifter för den här nyckeln.
 
 >[!TIP]
 >
->Om du vill ange inloggningsuppgifterna [!DNL Commerce] licensinnehavare eller kontoägare har möjlighet att [dela åtkomst](https://docs.magento.com/user-guide/magento/magento-account-share.html){target="_blank"}, or give the [API Key](https://docs.magento.com/user-guide/system/saas.html#apikey){target="_blank"} autentiseringsuppgifter för en betrodd utvecklare.
+>Om du vill ange inloggningsuppgifterna [!DNL Commerce] licensinnehavare eller kontoägare har möjlighet att [dela åtkomst](https://experienceleague.adobe.com/docs/commerce-admin/start/commerce-account/commerce-account-share.html)eller ge [API-nyckel](https://experienceleague.adobe.com/docs/commerce-merchant-services/user-guides/integration-services/saas.html) autentiseringsuppgifter för en betrodd utvecklare.
 
 ## Konfigurera [!DNL Commerce Services Connector]
 
@@ -42,7 +42,7 @@ The [!DNL Commerce Services Connector] integrerar Channel Manager-tjänsten med 
 
 1. Lägg till autentiseringsuppgifter för Production API-nyckel från ditt Adobe Commerce-konto.
 
-   ![[!DNL Commerce Services Connector] i [!DNL Admin] visa](assets/commerce-services-connector-admin-service-view.png)
+   ![[!DNL Commerce Services Connector] i [!DNL Admin] visa](assets/commerce-services-connector-admin-service-view.png){width="600" zoomable="yes"}
 
 
    >[!NOTE]
@@ -51,5 +51,5 @@ The [!DNL Commerce Services Connector] integrerar Channel Manager-tjänsten med 
 
 1. Konfigurera SaaS-projektet och dataområdet så att Commerce Services kan skicka data till Channel Manager-tjänsten.
 
-   ![[!DNL Commerce Services Connector] Konfiguration av SaaS-identifierare i [!DNL Admin] visa](assets/commerce-services-connector-saas-config.png)
+   ![[!DNL Commerce Services Connector] Konfiguration av SaaS-identifierare i [!DNL Admin] visa](assets/commerce-services-connector-saas-config.png){width="600" zoomable="yes"}
 

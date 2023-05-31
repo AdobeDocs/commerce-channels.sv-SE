@@ -1,11 +1,11 @@
 ---
-title: Villkor för produktlista
+title: Amazon försäljningskanal - villkor för produktlista
 description: Använd inställningarna för produktlistvillkor för att mappa dina Commerce-produkter till ett Amazon-produktvillkor, till exempel"Nytt" eller"Renoverat".
 redirect_from: /sales-channels/asc/ob-product-listing-condition.html
 exl-id: f37ce3cf-7bfc-4dee-931e-a603008a71b8
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
-source-wordcount: '526'
+source-wordcount: '529'
 ht-degree: 0%
 
 ---
@@ -57,7 +57,7 @@ Under [Åtgärder före installation](./amazon-pre-setup-tasks.md)uppmuntras du 
 
 1. När du är klar klickar du på **[!UICONTROL Save listing settings]**.
 
-![Villkor för produktlista](assets/amazon-product-listing-condition.png)
+![Villkor för produktlista](assets/amazon-product-listing-condition.png){width="600" zoomable="yes"}
 
 | Fält | Beskrivning |
 |---|---|

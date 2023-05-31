@@ -2,9 +2,9 @@
 title: Lägg till eller verifiera Amazon API-nyckeln
 description: I din Commerce-konfiguration gör den validerade Amazon API-nyckeln att du kan integrera dina butiker med ditt Amazon Seller-konto.
 exl-id: 2257b64d-309d-4efd-ba79-6e0cdeed63cb
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: 077d680da3c98ef9a48958eb548a9d5c1612f74e
 workflow-type: tm+mt
-source-wordcount: '410'
+source-wordcount: '412'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,7 @@ API-nyckeln valideras varje gång du öppnar din Amazon-försäljningskanal.
 
    Om det är första gången du använder Amazon försäljningskanal eller om API-nyckeln måste uppdateras, får du en fråga från systemet.
 
-   ![Hämta och lägg till nyckelfråga för Amazon API](assets/amazon-api-verification-prompt.png)
+   ![Hämta och lägg till nyckelfråga för Amazon API](assets/amazon-api-verification-prompt.png){width="500"}
 
 1. Klicka **[!UICONTROL Sign in]** för att få tillgång till [!DNL Commerce] webbkonto.
 
@@ -41,7 +41,7 @@ API-nyckeln valideras varje gång du öppnar din Amazon-försäljningskanal.
 
    Om du vill skapa en API-nyckel anger du en beskrivning som `Amazon Sales Channel` och klicka **[!UICONTROL Add New]**. Den nya nyckeln genereras och visas med det namn du angav. Klicka **[!UICONTROL Copy]** för att kopiera den nya nyckeln.
 
-   ![Generera eller kopiera en API-nyckel](assets/amazon-add-api-key.png)
+   ![Generera eller kopiera en API-nyckel](assets/amazon-add-api-key.png){width="500" zoomable="yes"}
 
 1. När den nya nyckeln har genererats och kopierats går du tillbaka till _[!UICONTROL Amazon Sales Channel]_i webbläsaren.
 
@@ -53,11 +53,11 @@ API-nyckeln valideras varje gång du öppnar din Amazon-försäljningskanal.
 
 1. Klicka **[!UICONTROL Save Config]**. Nu kan du gå tillbaka till Amazon försäljningskanal.
 
-   ![Lägga till API-nyckeln i butikskonfigurationen](assets/config-magento-services-api-screen.png)
+   ![Lägga till API-nyckeln i butikskonfigurationen](assets/config-magento-services-api-screen.png){width="600" zoomable="yes"}
 
 1. På _[!UICONTROL Admin]_sidebar, gå till **[!UICONTROL Marketing]**>_[!UICONTROL Channels]_ > **[!UICONTROL Amazon Sales Channel]**.
 
-   Återåtkomst till utlösare för Amazon-försäljningskanal [!DNL Commerce] verifiera och validera API-nyckeln så att du kan fortsätta.
+   Reaccessing Amazon sales channel triggers [!DNL Commerce] verifiera och validera API-nyckeln så att du kan fortsätta.
 
    Om du uppmanas att verifiera nyckeln igen upprepar du detta _Lägg till och verifiera_ -processen.
 

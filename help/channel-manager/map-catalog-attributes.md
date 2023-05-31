@@ -2,9 +2,9 @@
 title: Mappa katalogattribut
 description: 'Mappningsattribut för matchning av [DNL! Commerce]-produkter till befintlig [!DNL Walmart Marketplace] listor och synkronisera data mellan [!DNL Channel Manager] och [!DNL Walmart].'
 exl-id: 6678d81f-d167-460d-b656-d082d56f670c
-source-git-commit: aeeaca20cb54528f77e457d54a194d6603c08654
+source-git-commit: a3ae579c0eda0c27bf8eab9d0ac12919eaad494b
 workflow-type: tm+mt
-source-wordcount: '217'
+source-wordcount: '219'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ Det här steget krävs för att matcha [!DNL Commerce] produkter till befintliga
 | ISSN | Internationellt standardserienummer | 8-siffrigt serienummer som används för att identifiera tidskrifter, tidningar, tidningar och tidskrifter av alla slag som levereras i alla slags medier och elektroniska | 8 siffror |
 | UPC | Universell produktkod | Standardspårningskod | 12 siffror |
 
-Om katalogen inte har något matchande attribut, [lägga till eller konvertera ett befintligt katalogattribut](https://docs.magento.com/user-guide/catalog/product-attributes.html).
+Om katalogen inte har något matchande attribut, [lägga till eller konvertera ett befintligt katalogattribut](https://experienceleague.adobe.com/docs/commerce-admin/catalog/product-attributes/product-attributes.html).
 
 ## Mappa unika identifierare
 
@@ -38,6 +38,6 @@ Om katalogen inte har något matchande attribut, [lägga till eller konvertera e
 
       Följande exempel mappar [!UICONTROL Walmart Marketplace UPC] attribut till UPC-attributet i produktkatalogen.
 
-      ![Mappningsattribut för produktmatchningsvillkor](assets/products-map-attributes-for-match.png)
+      ![Mappningsattribut för produktmatchningsvillkor](assets/products-map-attributes-for-match.png){width="600" zoomable="yes"}
 
    - Välj **[!UICONTROL Save]**.

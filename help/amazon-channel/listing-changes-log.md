@@ -1,15 +1,15 @@
 ---
-title: Ändringslogg för lista
+title: Amazon försäljningskanal - [!UICONTROL Listing Changes Log]
 description: Amazon Sales Channel tillhandahåller en logg över liständringar som hjälper dig att övervaka ändringarna i Amazon Seller-kontot.
 exl-id: 9c4db5ac-cbfb-4584-b216-4aead2a28189
-source-git-commit: 2c753ec5f6f4cd509e61b4875e09e9a1a2577ee7
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
-source-wordcount: '189'
+source-wordcount: '186'
 ht-degree: 0%
 
 ---
 
-# Ändringslogg för lista
+# [!UICONTROL Listing Changes Log]
 
 Loggen med liständringar visar de ändringar som har gjorts i [!DNL Amazon Seller Account] som en spegling av dina inställningar för Amazon-försäljningskanaler. Den här loggen anger de globala ändringar som har synkroniserats mellan Amazon och Amazon försäljningskanal. Den här loggen innehåller en lista över ändringar för en produkt, t.ex. typ av åtgärd (ändring), kort beskrivning av ändringen och datum för ändringen.
 
@@ -17,7 +17,7 @@ Inga åtgärder är tillgängliga för loggen. Det är en funktion som bara är 
 
 Amazon hemsidor för försäljningskanaler delar några vanliga sidor [arbetsytekontroller](./workspace-controls.md) som gör att du kan anpassa de data som visas.
 
-![Ändringslogg för lista](assets/amazon-listing-changes-log.png)
+![Ändringslogg för lista](assets/amazon-listing-changes-log.png){width="600" zoomable="yes"}
 
 ## Standardkolumner
 

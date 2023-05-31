@@ -1,16 +1,16 @@
 ---
-title: Anmäl dig till Amazon Sales Channel
+title: "Inbyggt [!DNL Amazon Sales Channel]"
 description: Läs mer om förinstallationsuppgifter, introduktionssteg och hur Amazon fungerar med Amazon Sales Channel i Adobe Commerce och Magento Open Source.
 redirect_from: /sales-channels/amazon/amazon-onboarding-home.html
 exl-id: 99b64083-36e6-442e-9d20-4676e78ec3ae
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
-source-wordcount: '388'
+source-wordcount: '382'
 ht-degree: 0%
 
 ---
 
-# Anmäl dig till Amazon Sales Channel
+# Inbyggt [!DNL Amazon Sales Channel]
 
 I det här avsnittet beskrivs förinstallationsuppgifter, steg för introduktion och några viktiga begrepp för hur Amazon fungerar med Amazon försäljningskanal i Adobe Commerce och Magento Open Source.
 

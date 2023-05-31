@@ -1,15 +1,15 @@
 ---
-title: Åsidosättningar
+title: Amazon försäljningskanal - [!UICONTROL Overrides]
 description: På fliken Åsidosättningar i Amazon kan du identifiera och hantera hur du tillämpar åsidosättningar i dina Amazon-listor.
 exl-id: e31bbbf9-b20d-42fd-a419-93d596e40be2
-source-git-commit: 2c753ec5f6f4cd509e61b4875e09e9a1a2577ee7
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
-source-wordcount: '898'
+source-wordcount: '899'
 ht-degree: 0%
 
 ---
 
-# Åsidosättningar
+# [!UICONTROL Overrides]
 
 The _[!UICONTROL Overrides]_visas de Amazon-listor som du har tillämpat en åsidosättning på. En åsidosättning är en listspecifik inställning som kan användas för att ange ett definierat värde till en lista. En åsidosättning som tillämpas på en lista definierar listans inställning, oavsett andra definierade listinställningar eller regler som listan är tillämplig för. När en åsidosättning tillämpas på en lista visas listan på_[!UICONTROL Overrides]_ -fliken. Värdet som definieras i åsidosättningen visas i rätt kolumn för listan. Det finns fyra typer av åsidosättningar: Price, Handling Time, Condition och Seller Notes.
 
@@ -36,7 +36,7 @@ Se [Skapa och redigera åsidosättningar](./creating-editing-overrides.md).
 >
 >Om du har pågående listor visas antalet listor i ett meddelande ovanför flikarna.
 
-![Fliken Åsidosättningar](assets/amazon-overrides.png)
+![Fliken Åsidosättningar](assets/amazon-overrides.png){width="600" zoomable="yes"}
 
 Amazon hemsidor för försäljningskanaler delar några vanliga sidor [arbetsytekontroller](./workspace-controls.md) som gör att du kan anpassa de data som visas.
 

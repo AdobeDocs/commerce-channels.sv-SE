@@ -1,15 +1,15 @@
 ---
-title: Nya tredjepartslistor
+title: Nya Amazon-listor från tredje part
 description: Hantera nya Amazon-listor genom att matcha dem med en produkt i din Commerce-katalog.
 exl-id: ace9d334-d1d1-4f4b-88c8-60a9e7d1d17c
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
-source-wordcount: '458'
+source-wordcount: '460'
 ht-degree: 0%
 
 ---
 
-# Nya tredjepartslistor
+# Nya Amazon-listor från tredje part
 
 The _[!UICONTROL New Third Party]_visas dina befintliga Amazon-listor som inte har matchats mot en produkt i [!DNL Commerce] katalog. Om du vill använda listhantering för kvantitet, priser, hanteringstid med mera måste alla dina Amazon-listor matchas (tilldelas) till en produkt i din [!DNL Commerce] katalog. Du kan tilldela en produkt i din [!DNL Commerce] katalog.
 
@@ -31,7 +31,7 @@ Under _[!UICONTROL Select]_:
 >
 >Om du har pågående listor visas ett meddelande ovanför flikarna som anger antalet listor.
 
-![Nya listor från tredje part](assets/amazon-listings-new-third-party.png)
+![Nya listor från tredje part](assets/amazon-listings-new-third-party.png){width="600" zoomable="yes"}
 
 Amazon hemsidor för försäljningskanaler delar några vanliga sidor [arbetsytekontroller](./workspace-controls.md) som gör att du kan anpassa de data som visas.
 

@@ -1,15 +1,15 @@
 ---
-title: Lägg till prisregler
+title: Lägg till Amazon prisregler
 description: Använd prisregler för att hantera listpriser på Amazon Marketplace för din Commerce-produktkatalog.
 exl-id: 37ecf25a-7b47-4f6d-a4bb-2f306f7b5997
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
-source-wordcount: '176'
+source-wordcount: '178'
 ht-degree: 0%
 
 ---
 
-# Lägg till prisregler
+# Lägg till Amazon prisregler
 
 Prisreglerna kan konfigureras och ändras när som helst efter att butiken har integrerats. Prisreglerna ingår i [Listinställningar](./listing-settings.md) och kan öppnas i [instrumentpanel för butik](./amazon-store-dashboard.md).
 

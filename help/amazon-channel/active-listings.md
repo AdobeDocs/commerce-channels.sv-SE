@@ -1,15 +1,15 @@
 ---
-title: Aktiva listor
+title: Aktiva Amazon-listor
 description: Amazon försäljningskanal innehåller fliken Aktiv för att övervaka aktiva Amazon-listor och som matchas mot en produkt i din Adobe Commerce-katalog.
 exl-id: c9105abc-74d6-442b-8d7a-e5aaea8872e4
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
-source-wordcount: '439'
+source-wordcount: '441'
 ht-degree: 0%
 
 ---
 
-# Aktiva listor
+# Aktiva Amazon-listor
 
 The _[!UICONTROL Active]_visas dina Amazon-listor som är aktiva på fliken [!DNL Amazon Marketplace] och som har matchats mot en produkt i [!DNL Commerce] katalog.
 
@@ -39,7 +39,7 @@ Under **[!UICONTROL Select]** i _[!UICONTROL Action]_kolumn:
 >
 >Om du har pågående listor visas antalet listor i ett meddelande ovanför flikarna.
 
-![Aktiva listor](assets/amazon-active-listings.png)
+![Aktiva listor](assets/amazon-active-listings.png){width="700" zoomable="yes"}
 
 Amazon hemsidor för försäljningskanaler delar några vanliga sidor [arbetsytekontroller](./workspace-controls.md) som gör att du kan anpassa de data som visas.
 

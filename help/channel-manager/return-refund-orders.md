@@ -2,9 +2,9 @@
 title: Retur- och återbetalningsorder
 description: Instruktioner för att helt eller delvis återbetala returansökningar som mottagits från [!DNL Walmart Marketplace] från [!DNL Channel Manager] för Adobe Commerce och Magento Open Source.
 exl-id: 45617011-4add-444c-819b-6bb4164d03e4
-source-git-commit: aeeaca20cb54528f77e457d54a194d6603c08654
+source-git-commit: a3ae579c0eda0c27bf8eab9d0ac12919eaad494b
 workflow-type: tm+mt
-source-wordcount: '1180'
+source-wordcount: '1184'
 ht-degree: 0%
 
 ---
@@ -17,13 +17,13 @@ På Commerce-sidan startar returbegäran följande arbetsflöde:
 
 1. Channel Manager skapar en motsvarande returbegäran med mottagen status och lägger till det returnerade ID-numret ([!UICONTROL RMA #]) till [!UICONTROL Returns] kontrollpanel. På [!DNL Orders] kontrollpanelen, statusinformation för den order som är associerad med returuppdateringarna som innehåller en [!UICONTROL Return requested] för att visa och bearbeta returen.
 
-1. Handläggarna bearbetar den återbetalning som är kopplad till returen genom att skapa en kreditnota efter [Adobe Commerce arbetsflöde för återbetalning](https://docs.magento.com/user-guide/sales/credit-memos.html#refund-workflow). Alla återbetalningar behandlas med offlinemetoden.
+1. Handläggarna bearbetar den återbetalning som är kopplad till returen genom att skapa en kreditnota efter [Adobe Commerce arbetsflöde för återbetalning](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/order-management/credit-memos/credit-memos.html). Alla återbetalningar behandlas med offlinemetoden.
 
 1. [!DNL Channel Manager] skickar en återbetalningsuppdatering till Walmart Marketplace så att returstatusen kan uppdateras för att återspegla den slutförda återbetalningen från Adobe Commerce.
 
 I Store Admin kan du visa och bearbeta returer från Channel Manager genom att öppna butiken för säljkanaler och välja **[!UICONTROL Returns]**.
 
-![Kanalhanteraren returnerar kontrollpanelen för att bearbeta återbetalningar för returbegäranden som tagits emot från [!DNL Walmart Marketplace]](assets/returns-dashboard-view.png)
+![Kanalhanteraren returnerar kontrollpanelen för att bearbeta återbetalningar för returbegäranden som tagits emot från [!DNL Walmart Marketplace]](assets/returns-dashboard-view.png){width="600" zoomable="yes"}
 
 >[!NOTE]
 >
@@ -148,7 +148,7 @@ I följande scenarier beskrivs hur du utfärdar återbetalningar för olika type
 
    * Från [!UICONTROL Status Details] kolumn, markera **[!UICONTROL Create credit memo]** för att öppna sidan Orderinformation i [!DNL Commerce].
 
-      Om ordern inte har fakturerats visas ett felmeddelande på sidan Orderinformation som uppmanar dig att skapa en. Välj **[!UICONTROL Create invoice]**. Sedan [skapa och spara fakturan](https://docs.magento.com/user-guide/sales/invoices.html).
+      Om ordern inte har fakturerats visas ett felmeddelande på sidan Orderinformation som uppmanar dig att skapa en. Välj **[!UICONTROL Create invoice]**. Sedan [skapa och spara fakturan](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/order-management/invoices.html).
 
    * På sidan Orderinformation väljer du **[!UICONTROL Credit Memo]**.
 
@@ -179,7 +179,7 @@ Du kan visa information om returbegäranden och återbetalningsbehandling från 
 
 1. Visa återbetalningsinformation för en retur genom att välja **[!UICONTROL View credit memo]**.
 
-   ![Kreditnota som återför returnerade artiklar för en [!DNL Walmart Marketplace] order](assets/refund-credit-memo-for-marketplace-order.png)
+   ![Kreditnota som återför returnerade artiklar för en [!DNL Walmart Marketplace] order](assets/refund-credit-memo-for-marketplace-order.png){width="600" zoomable="yes"}
 
 >[!NOTE]
 >

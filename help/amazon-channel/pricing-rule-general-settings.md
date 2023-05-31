@@ -1,11 +1,10 @@
 ---
-title: Allmänna inställningar för prisregel
+title: Amazon försäljningskanal - allmänna inställningar för prisregel
 description: Använd de allmänna inställningarna för prisregel för att definiera de primära egenskaperna för en listprisregel.
-redirect_from: /sales-channels/asc/ob-pricing-rules-general-settings.html
 exl-id: 915b3eed-997e-4f94-a23f-0553a9dfe30c
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
-source-wordcount: '711'
+source-wordcount: '714'
 ht-degree: 0%
 
 ---
@@ -48,7 +47,7 @@ Definiera regelns namn, beskrivning, aktiva datum och prioritet.
 >
 >Om du vill ignorera efterföljande regler måste en prisregel ha en definierad **Prioritet** värde.
 
-![Allmänna inställningar för prisregel](assets/amazon-pricing-rule-general.png)
+![Allmänna inställningar för prisregel](assets/amazon-pricing-rule-general.png){width="600" zoomable="yes"}
 
 | Fält | Beskrivning |
 |---|---|

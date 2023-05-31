@@ -1,18 +1,18 @@
 ---
-title: '''[!DNL Channel Manager] Stödlinjeöversikt'
+title: '''[!DNL Channel Manager] Guide'
 description: '''Omfattande information om [!DNL Channel Manager] för administratörer av Adobe Commerce och Magento Open Source, inklusive installation och introduktion."'
 seo-title: Adobe Commerce Channel Manager Guide
 seo-description: Describes how to use [!DNL Channel Manager] with Adobe Commerce or Magento Open Source.
 exl-id: 0703741b-77e0-47b0-917f-b25d14afa7ae
-source-git-commit: aeeaca20cb54528f77e457d54a194d6603c08654
+source-git-commit: a3ae579c0eda0c27bf8eab9d0ac12919eaad494b
 workflow-type: tm+mt
-source-wordcount: '206'
+source-wordcount: '302'
 ht-degree: 0%
 
 ---
 
 
-# Översikt
+# Channel Manager Guide
 
 Den här handboken är avsedd för administratörer av Adobe Commerce och Magento Open Source. Den innehåller detaljerad information om [!DNL Channel Manager] installation, introduktion, konfiguration och hantering. Handboken förutsätter en grundläggande förståelse av kärnan [!DNL Commerce] konfiguration och funktionalitet.
 
@@ -30,10 +30,14 @@ Mer information om hur du hanterar [!DNL Commerce] plattform, projekt och webbpl
 
 ## Ytterligare dokumentation
 
-| Guide | Beskrivning |
-|----------------------------------------------------------------------|----------------------------------------------------------------------------------------------------|
-| [Användarhandbok för Adobe Commerce 2.4](https://docs.magento.com/user-guide) | Handläggning för både Adobe Commerce och Magento Open Source |
-| [Adobe Commerce 2.4 Developer Guide](https://devdocs.magento.com) | Dokumentation för utvecklare som används för att skapa och anpassa Adobe Commerce eller Magento Open Source |
+
+| Dokumentationsresurs | Beskrivning |
+|----------------------- | ----------- |
+| [Adobe Commerce 2.4 Merchant Documentation](https://experienceleague.adobe.com/docs/commerce-admin/user-guides/home.html) | Handläggning för både Adobe Commerce och Magento Open Source |
+| [Services for Adobe Commerce Documentation](https://experienceleague.adobe.com/docs/commerce-merchant-services/user-guides/home.html) | Dokumentation till stöd för en samling tjänster som hjälper handlare att integrera viktiga komponenter i sin verksamhet med sin butik. |
+| [Handbok för Commerce on Cloud Infrastructure](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/overview.html) | Stegvisa procedurer för att distribuera Adobe Commerce på en hanterad, automatiserad värdmolnplattform. |
+| [Handböcker för Adobe Commerce 2.4](https://experienceleague.adobe.com/docs/commerce-operations/operational-guides/home.html) | Systemdokumentation om koncept, processer, verktyg och bästa metoder för att utveckla, driftsätta och underhålla projekt som körs på Adobe Commerce och Magento Open Source. |
+| [Adobe Commerce 2.4 Developer Documentation](https://developer.adobe.com/commerce/docs) | Dokumentation för utvecklare som används för att skapa och anpassa Adobe Commerce eller Magento Open Source |
 
 ## Support
 

@@ -2,16 +2,16 @@
 title: Bearbeta order
 description: Instruktioner för frakt och annullering [!DNL Walmart Marketplace] beställningar från Adobe Commerce och Magento Open Source."
 exl-id: 2fdcb348-5c02-464f-a114-16ec657bed6b
-source-git-commit: aeeaca20cb54528f77e457d54a194d6603c08654
+source-git-commit: a3ae579c0eda0c27bf8eab9d0ac12919eaad494b
 workflow-type: tm+mt
-source-wordcount: '574'
+source-wordcount: '571'
 ht-degree: 0%
 
 ---
 
 # Bearbeta order
 
-Efter [!DNL Walmart Marketplace] beställningar har bekräftats och skickats till [!DNL Channel Manager]använder du [Hantering av handelsorder](https://docs.magento.com/user-guide/sales/orders-workspace.html) för att bearbeta ordern.
+Efter [!DNL Walmart Marketplace] beställningar har bekräftats och skickats till [!DNL Channel Manager]använder du [Hantering av handelsorder](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/order-management/orders/orders.html#orders-workspace) för att bearbeta ordern.
 
 Channel Manager synkroniserar uppdateringar med [!DNL Walmart Marketplace] för att säkerställa orderstatus och leveransinformation från [!DNL Commerce] matchar data som spåras i [!DNL Walmart Marketplace].
 
@@ -37,22 +37,21 @@ När handelsorder bearbetas och [!DNL Channel Manager] har synkroniserat försä
 
 1. Visa [!DNL Walmart Marketplace] order, välja **[!UICONTROL Orders]**.
 
-1. Öppna beställningen som ska levereras i tabellen Order (Beställningar) genom att välja **Handelsordernummer**.
+1. Öppna beställningen som ska levereras i tabellen Order (Beställningar) genom att välja **[!UICONTROL Commerce Order Number]**.
 
 1. Skapa och skicka en leverans för hela eller delar av en order genom att välja **[!UICONTROL Ship]**.
 
-   ![Detaljvy för handelsorder för en [!DNL Walmart Marketplace] order](assets/order-detail-with-external-order-id.png)
+   ![Detaljvy för handelsorder för en [!DNL Walmart Marketplace] order](assets/order-detail-with-external-order-id.png){width="600" zoomable="yes"}
 
    * Välj en fraktfirma och lägg till ett spårningsnummer genom att välja **[!UICONTROL Add tracking number]**.
 
-      ![Detaljvy för handelsorder för en [!DNL Walmart Marketplace] order](assets/order-shipment-add-tracking-number.png)
+      ![Detaljvy för handelsorder för en [!DNL Walmart Marketplace] order](assets/order-shipment-add-tracking-number.png){width="600" zoomable="yes"}
 
-
-   * Fyll i resten av leveransformuläret efter behov. Se [[!DNL Shipping an Order]](https://docs.magento.com/user-guide/sales/order-ship.html) för detaljerade anvisningar.
+   * Fyll i resten av leveransformuläret efter behov. Se [[!DNL Shipping an Order]](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/order-management/orders/order-ship.html) för detaljerade anvisningar.
 
 1. Håll koll på [orderstatus](manage-orders.md#about-order-status) in [!DNL Channel Manager] för att verifiera att uppdateringar skickades till [!DNL Walmart Marketplace].
 
-När en beställning har skickats kan du bearbeta hela eller delar av återbetalningar från [!DNL Channel Manager] för artiklar som ingår i ordern baserat på returbegäranden som mottagits från [!DNL Walmart Marketplace]. Se [returorder och återbetalningsorder](return-refund-orders.md).
+När en beställning har skickats kan du bearbeta hela eller delar av återbetalningar från [!DNL Channel Manager] för artiklar som ingår i ordern baserat på returbegäranden som mottagits från [!DNL Walmart Marketplace]. Se [Retur- och återbetalningsorder](return-refund-orders.md).
 
 ## Avbryt en beställning
 
@@ -60,20 +59,20 @@ När en beställning har skickats kan du bearbeta hela eller delar av återbetal
 
 1. Öppna butiksvyn genom att välja ögonikonen för en butikskanal.
 
-1. Visa [!DNL Walmart Marketplace] order, välj *[!UICONTROL *Orders]**.
+1. Visa [!DNL Walmart Marketplace] order, välj *[!UICONTROL Orders]**.
 
-1. I tabellen Order (Beställningar) öppnar du [orderdetaljsida](manage-orders.md#view-order-detail) genom att välja **Handelsordernummer** för ordern att annullera.
+1. I tabellen Order (Beställningar) öppnar du [orderdetaljsida](manage-orders.md#view-order-detail) genom att välja **[!UICONTROL Commerce Order Number]** för ordern att annullera.
 
-   ![Detaljvy för handelsorder för en[!DNL Walmart Marketplace]order](assets/order-detail-with-external-order-id.png)
+   ![Detaljvy för handelsorder för en[!DNL Walmart Marketplace]order](assets/order-detail-with-external-order-id.png){width="600" zoomable="yes"}
 
 1. Avbryt ordern.
 
    * Välj **Avbryt** på menyn Ordningsinformation.
 
-   * På [!UICONTROL Cancel Order] formulär väljer du **Orsak till annullering**.
-   ![Detaljvy för handelsorder för en [!DNL Walmart Marketplace] order](assets/cancel-order-reason-selector.png)
+   * På [!UICONTROL Cancel Order] formulär väljer du **[!UICONTROL Cancellation reason]**.
+   ![Detaljvy för handelsorder för en [!DNL Walmart Marketplace] order](assets/cancel-order-reason-selector.png){width="600" zoomable="yes"}
 
-   * Välj **Avbryt beställning**.
+   * Välj **[!UICONTROL Cancel Order]**.
 
 
 1. När du har skickat annulleringen spårar du [orderstatus](manage-orders.md#about-order-status) in [!DNL Channel Manager] för att verifiera att uppdateringar skickades till [!DNL Walmart Marketplace].

@@ -2,7 +2,7 @@
 title: '''[!DNL Walmart] Krav'
 description: '''Verifiera att du har rätt [!DNL Walmart Marketplace]information och resurser som kan integreras med Channel Manager."'
 exl-id: c4f247e8-280a-4595-a6c8-cf8b732d7aab
-source-git-commit: aeeaca20cb54528f77e457d54a194d6603c08654
+source-git-commit: a3ae579c0eda0c27bf8eab9d0ac12919eaad494b
 workflow-type: tm+mt
 source-wordcount: '335'
 ht-degree: 0%
@@ -57,7 +57,7 @@ När du kopplar produkter till marknadsplatsen beror listningstillgängligheten 
 
 * För butiker som inte är direktsända är era erbjudanden testade och inte synliga för kunderna. När [!DNL Walmart Marketplace] butiken publiceras, mellanlagrade listor skickas automatiskt till livebutiken.
 
-![[!DNL Walmart Seller Central] mellanlagrade produkter](assets/walmart-seller-central-staged.png)
+![[!DNL Walmart Seller Central] mellanlagrade produkter](assets/walmart-seller-central-staged.png){width="600" zoomable="yes"}
 
 >[!IMPORTANT]
 >

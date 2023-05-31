@@ -1,17 +1,17 @@
 ---
-title: Skapa [!DNL Commerce] Attribut för Amazon
+title: Skapa handelsattribut för Amazon
 description: Innan du slutför Amazon process för registrering av säljkanaler måste du se till att du har de [!UICONTROL Commerce] produktattribut.
 exl-id: eebad794-c171-40a3-aa24-d5509e2b5797
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
-source-wordcount: '522'
+source-wordcount: '526'
 ht-degree: 0%
 
 ---
 
-# Skapa [!DNL Commerce] Attribut för Amazon
+# Skapa handelsattribut för Amazon
 
-Innan du börjar prenumerera på [!DNL Amazon Seller Central] konton, det är bäst att lägga till [!DNL Commerce] [produktattribut](https://docs.magento.com/user-guide/stores/attributes-product.html){target="_blank"} för att kartlägga produktlistor. När du är klar med introduktionen kan du hantera dina produktattribut via [Attribut](./managing-attributes.md) -fliken i [Amazon säljkanal - startsida](./amazon-sales-channel-home.md) sida.
+Innan du börjar prenumerera på [!DNL Amazon Seller Central] konton, det är bäst att lägga till [!DNL Commerce] [produktattribut](https://experienceleague.adobe.com/docs/commerce-admin/catalog/product-attributes/product-attributes.html) för att kartlägga produktlistor. När du är klar med introduktionen kan du hantera dina produktattribut via [Attribut](./managing-attributes.md) -fliken i [Amazon säljkanal - startsida](./amazon-sales-channel-home.md) sida.
 
 Dessa instruktioner beskriver hur du skapar [!DNL Commerce] för Amazon ASIN och Amazon Condition. Vi rekommenderar att du skapar ytterligare attribut som Amazon EAN, Amazon ISBN och Amazon UPC. Du kan också skapa ett Amazon Price-attribut om du vill använda ditt Amazon-pris som en priskälla för prisregler. Dessa attribut används när du konfigurerar dina lista- och prisinställningar under introduktionen. Använd även dessa attribut när du skapar Amazon-listor och när du uppdaterar och synkroniserar [!DNL Commerce] katalogisera med dina Amazon-listor.
 
@@ -59,7 +59,7 @@ Om du bara skapar attributet Amazon ASIN (utan att lägga till ASIN-värden per 
 
 1. Klicka **[!UICONTROL Save Attribute]**.
 
-![Amazon ASIN-attribut](assets/creating-asin-attribute.png)
+![Amazon ASIN-attribut](assets/creating-asin-attribute.png){width="600" zoomable="yes"}
 
 ## Skapa Amazon Condition-produktattributet
 
@@ -116,6 +116,6 @@ Om du bara skapar attributet Amazon ASIN (utan att lägga till ASIN-värden per 
 
 1. Klicka **[!UICONTROL Save Attribute]**.
 
-![Amazon Condition-attribut](assets/creating-amazon-condition-attribute.png)
+![Amazon Condition-attribut](assets/creating-amazon-condition-attribute.png){width="600" zoomable="yes"}
 
 ![Nästa ikon](assets/btn-next.png) [**Fortsätt lägga till eller verifiera API-nyckel**](./amazon-verify-api-key.md)

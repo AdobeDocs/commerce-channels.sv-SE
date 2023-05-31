@@ -1,15 +1,15 @@
 ---
-title: Hantera produktlistor efter status/flik
+title: Hantera Amazon produktlistor efter status/flik
 description: När du hanterar dina Amazon-listor kan du tillämpa åtgärder på dina listor enligt status.
 exl-id: 33effdd8-baa9-4fc5-8c7e-313175eb7e9c
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
-source-wordcount: '361'
+source-wordcount: '363'
 ht-degree: 0%
 
 ---
 
-# Hantera produktlistor efter status/flik
+# Hantera Amazon produktlistor efter status/flik
 
 The _[!UICONTROL Product Listings]_-sidan innehåller flera flikar från vilka du kan visa status för alla dina listor och matcha dina produkter med Amazon-listor.
 
@@ -19,7 +19,7 @@ Alternativ under **[!UICONTROL Actions]** kan tillämpa åtgärden på flera lis
 
 Se även [Hantera listor efter åtgärd](./managing-listings-by-action.md).
 
-![Flikar för produktlistor](assets/amazon-product-listings-tabs.png)
+![Flikar för produktlistor](assets/amazon-product-listings-tabs.png){width="600" zoomable="yes"}
 
 | Tabb | Beskrivning | Åtgärder |
 |--- |--- |--- |
