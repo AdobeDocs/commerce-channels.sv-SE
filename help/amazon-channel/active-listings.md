@@ -1,17 +1,18 @@
 ---
 title: Aktiva Amazon-listor
 description: Amazon försäljningskanal innehåller fliken Aktiv för att övervaka aktiva Amazon-listor och som matchas mot en produkt i din Adobe Commerce-katalog.
+feature: Sales Channels, Products, Merchandising, Catalogs
 exl-id: c9105abc-74d6-442b-8d7a-e5aaea8872e4
-source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
+source-git-commit: 801d4eee9e84b5c5f8b53397fbe8023ad54281e6
 workflow-type: tm+mt
-source-wordcount: '441'
+source-wordcount: '436'
 ht-degree: 0%
 
 ---
 
 # Aktiva Amazon-listor
 
-The _[!UICONTROL Active]_visas dina Amazon-listor som är aktiva på fliken [!DNL Amazon Marketplace] och som har matchats mot en produkt i [!DNL Commerce] katalog.
+The _[!UICONTROL Active]_-fliken visar aktiva listor på [!DNL Amazon Marketplace] som har matchats mot en produkt i [!DNL Commerce] katalog.
 
 Tillgängliga åtgärder på _[!UICONTROL Active]_-fliken innehåller:
 
@@ -44,7 +45,7 @@ Under **[!UICONTROL Select]** i _[!UICONTROL Action]_kolumn:
 Amazon hemsidor för försäljningskanaler delar några vanliga sidor [arbetsytekontroller](./workspace-controls.md) som gör att du kan anpassa de data som visas.
 
 | Kolumn | Beskrivning |
-|--- |--- |
+|-----------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Amazon Seller SKU] | SKU (Stock Keeping Unit) som Amazon har tilldelat en produkt för att identifiera produkt, alternativ, pris och tillverkare. |
 | [!UICONTROL ASIN] | Ett unikt block med 10 bokstäver och/eller siffror som identifierar objekt. <br><br>ASIN står för [!DNL Amazon Standard Identification Number]. Ett ASIN är ett unikt block med 10 bokstäver och/eller siffror som identifierar objekt. För böcker är ASIN samma som ISBN-numret, men för alla andra produkter skapas ett nytt ASIN när artikeln överförs till sin katalog. Du hittar ett ASIN-objekt på produktinformationssidan på Amazon, tillsammans med mer information om artikeln. |
 | [!UICONTROL Product Listing Name] | Produktens namn. |

@@ -1,8 +1,9 @@
 ---
 title: Loggar och lagra rapporter för Amazon-listor
 description: Använd loggarna och lagra rapporter för att se vad som händer i din Adobe Commerce- eller Magento Open Source-butik och i era Amazon Marketplace-listor.
+feature: Sales Channels, Logs
 exl-id: 4654f718-d15f-4c3b-b984-ac7b9c29e6c4
-source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
+source-git-commit: 7fff4c463551089fb64f2d5bf7bf23f272ce4663
 workflow-type: tm+mt
 source-wordcount: '243'
 ht-degree: 0%

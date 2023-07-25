@@ -1,9 +1,10 @@
 ---
 title: "Inbyggt [!DNL Amazon Sales Channel]"
 description: Läs mer om förinstallationsuppgifter, introduktionssteg och hur Amazon fungerar med Amazon Sales Channel i Adobe Commerce och Magento Open Source.
-redirect_from: /sales-channels/amazon/amazon-onboarding-home.html
+role: Leader, Admin, User
+feature: Sales Channels, Integration, Tools and External Services
 exl-id: 99b64083-36e6-442e-9d20-4676e78ec3ae
-source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
+source-git-commit: 6321f17c0e6f9e86bb3f5755dc7710fa68d68b0d
 workflow-type: tm+mt
 source-wordcount: '382'
 ht-degree: 0%
@@ -24,7 +25,7 @@ The [!DNL Amazon Sales Channel] tillägg kan användas i flera Amazon-butiker. F
 >Dina inställningar för Amazon-försäljningskanal påverkar dina Amazon-listor. Som standard används din första lista, dina priser och produktinställningar. Du kan ändra dina [lagringsinställningar](./ob-store-review.md) (lista, prissättning, beställning och rapportering) när din butik är ansluten till din [!DNL Amazon Seller Central] konto.
 
 | Steg | Vad som händer |
-|--- |--- |
+|---------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [Åtgärder före installation](./amazon-pre-setup-tasks.md) | Innan du går med måste du se till att du har en aktiv och godkänd [!DNL Amazon Seller Central] konto. Det finns också några [!DNL Commerce] krav och rekommendationer att slutföra innan introduktionen. |
 | [Verifiera Amazon API-nyckeln](./amazon-verify-api-key.md) | Vid åtkomst till Amazon försäljningskanal [!DNL Commerce] kontrollerar och validerar automatiskt Amazon API-nyckeln som du har lagt till i din butikskonfiguration. Om API-nyckeln inte har lagts till eller är ogiltig uppmanas du att [lägg till eller uppdatera din Amazon API-nyckel](./amazon-verify-api-key.md). |
 | [Butiksintegrering](./store-integration.md) | I det här steget ska du skapa en Amazon-återförsäljarkanalbutik och sedan ansluta den till din [!DNL Amazon Seller Central] konto. Du behöver de primära inloggningsuppgifterna för din [!DNL Amazon Seller Central] konto (den e-postadress eller telefon som används för att skapa säljarkontot) för det här steget. |

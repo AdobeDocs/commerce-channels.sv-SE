@@ -1,8 +1,10 @@
 ---
 title: Lager- och prisuppdateringar
 description: '''[!DNL Channel Manager] synkroniserar lager- och prisuppdateringar mellan [!DNL Commerce] lagra och [!DNL Walmart Marketplace] så att du kan hantera dina säljkanalsåtgärder via [!DNL Commerce] Administratör'
+feature: Sales Channels, Merchandising, Inventory, Tools and External Services
+role: Leader, Admin, User
 exl-id: 4dd9fa4a-b12f-4795-a7b2-84ea0fc26aa5
-source-git-commit: a3ae579c0eda0c27bf8eab9d0ac12919eaad494b
+source-git-commit: 8a1f95cdb8817cfcc6ffa96b584c66e680a1c282
 workflow-type: tm+mt
 source-wordcount: '354'
 ht-degree: 0%

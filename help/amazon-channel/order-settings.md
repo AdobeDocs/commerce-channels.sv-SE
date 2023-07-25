@@ -1,10 +1,11 @@
 ---
 title: Amazon orderinställningar
 description: Använd orderinställningarna för att bestämma hur Amazon-beställningar importeras till och bearbetas i din Commerce Store.
+feature: Sales Channels, Orders, Inventory, Configuration
 exl-id: dc8d0ce1-86a8-4949-b49a-73c5cf62db16
-source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
+source-git-commit: a93ba31a95f32cc6ea285aed2399255021985693
 workflow-type: tm+mt
-source-wordcount: '1542'
+source-wordcount: '1473'
 ht-degree: 0%
 
 ---
@@ -35,9 +36,9 @@ Beställningar som importeras från Amazon kan hanteras i [!DNL Commerce] [order
 
    - `Enabled` - (Standard) Välj när du vill skapa motsvarande [!DNL Commerce] beställningar när nya beställningar tas emot från Amazon. [!DNL Commerce] beställningar skapas baserat på Amazon status och lagernivåer.
 
-      >[!NOTE]
-      >
-      >Importera Amazon-order måste anges till `Enabled` för att hantera Amazon-beställningar i [!DNL Commerce] [order](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/order-management/orders/orders.html) arbetsflöde. När inställt på `Disabled`har dina Amazon-beställningar inte motsvarande [!DNL Commerce] ordernummer och kan inte hanteras i [!DNL Commerce]. Du hanterar beställningarna i [!DNL Amazon Seller Central] konto.
+     >[!NOTE]
+     >
+     >Importera Amazon-order måste anges till `Enabled` för att hantera Amazon-beställningar i [!DNL Commerce] [order](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/order-management/orders/orders.html) arbetsflöde. När inställt på `Disabled`har dina Amazon-beställningar inte motsvarande [!DNL Commerce] ordernummer och kan inte hanteras i [!DNL Commerce]. Du hanterar beställningarna i [!DNL Amazon Seller Central] konto.
 
 1. För **[!UICONTROL Import Amazon Orders Into Magento Store]**, välja vilken [!DNL Commerce] lagra de Amazon-order som är kopplade till när motsvarande order skapas i [!DNL Commerce].
 
@@ -54,6 +55,7 @@ Beställningar som importeras från Amazon kan hanteras i [!DNL Commerce] [order
    - `Build Using Magento Order Number` - (Standard) Välj när du vill skapa en unik [!DNL Commerce] ordernummer för motsvarande Amazon-order med [!DNL Commerce] inkrementellt tilldelat order-ID.
 
    - `Build Using Amazon Order Number` - Välj när du vill skapa [!DNL Commerce] ordernummer med motsvarande ordernummer som tilldelats av Amazon.
+
    >[!NOTE]
    >
    >När en beställning har importerats visas Amazon ordernummer i _[!UICONTROL Recent Orders]_-listan på butikspanelen. The [!DNL Commerce] ordernumret visas när beställningsinformationen visas i [!DNL Commerce] [Beställningar](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/order-management/orders/orders.html) arbetsyta.
@@ -71,15 +73,14 @@ Beställningar som importeras från Amazon kan hanteras i [!DNL Commerce] [order
 ![Orderinställningar](assets/amazon-order-settings.png){width="600" zoomable="yes"}
 
 | Fält | Beskrivning |
-|---|---|
+|------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Import Amazon Orders] | Alternativ:<ul><li>**[!UICONTROL Disabled]** - Välj när du inte vill skapa motsvarande order i [!DNL Commerce] när nya order tas emot från Amazon. När du väljer det här alternativet inaktiveras alla andra fält på den här sidan.</li><li>**[!UICONTROL Enabled]** - (Standard) Välj när du vill skapa motsvarande [!DNL Commerce] beställningar när nya beställningar tas emot från Amazon. [!DNL Commerce] beställningar skapas baserat på Amazon status och lagernivåer.</li></ul><br><br>`Enabled` måste väljas för att hantera Amazon-beställningar i [!DNL Commerce]. När `Disabled` väljs visas dina Amazon-beställningar på kontrollpanelen, men beställningarna måste hanteras i [!DNL Amazon Seller Central] konto. |
 | [!UICONTROL Import Amazon Orders Into Magento Store] | Välj vilken [!DNL Commerce] lagra de Amazon-order som är kopplade till när de skapas i [!DNL Commerce] [Beställningar](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/order-management/orders/orders.html) arbetsyta. Den här inställningen används som standard för butiksvyn för [!DNL Commerce] webbplatsen väljs när du [lade till Amazon Store](./store-integration.md). Om du vill ändra den här inställningen beror listan med alternativ på [!DNL Commerce] lagrar som du har konfigurerat i konfigurationen. Se [Lager](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/site-store/stores.html). |
 | [!UICONTROL Customer Creation] | Alternativ:<ul><li>**[!UICONTROL No Customer Creation (guest)]** - (Standard) Välj när du inte vill skapa ett kundkonto i [!DNL Commerce] med importerade kunddata från Amazon-beställningen. När det här alternativet väljs visas [!DNL Commerce] om du vill bearbeta en importerad Amazon-beställning på samma sätt som en gästutcheckning.</li><li>**[!UICONTROL Build New Customer Account]** - Välj när du vill skapa ett nytt kundkonto i ditt [!DNL Commerce] kunddatabas med kunddata som importerats med Amazon-beställningen. Det här alternativet hjälper dig att bygga [!DNL Commerce] kunddatabas från dina Amazon-beställningar.</li></ul> |
 | Källa för ordernummer | Alternativ:<ul><li>**[!UICONTROL Build Using Magento Order Number]** - (Standard) Välj när du vill skapa en unik [!DNL Commerce] ordernummer för motsvarande Amazon-order med [!DNL Commerce] inkrementellt tilldelat order-ID. </li><li>**Bygg med Amazon ordernummer** - Välj när du vill skapa [!DNL Commerce] ordernummer med motsvarande ordernummer som tilldelats av Amazon.</li></ul> |
 | Väntande order | Alternativ:<ul><li>**[!UICONTROL Do Not Reserve Quantity]** - Välj när du inte vill ha [!DNL Commerce] Lagerkvantitet som påverkas av dina Amazon-beställningar. Välj om du vill använda Amazon för din leveransprocess (FBA). När du väljer och får en Amazon-beställning påverkar beställningen inte din [!DNL Commerce] lagerkvantitet.</li><li>**[!UICONTROL Reserve Quantity]** - Välj när du vill att orderkvantiteten i Amazon-ordern ska &quot;reserveras&quot; i din [!DNL Commerce] lagerkvantitet. När du väljer att göra en Amazon-beställning kommer den beställda kvantiteten att &quot;reservera&quot; i din [!DNL Commerce] Lagerkvantitet för att förhindra [!DNL Commerce] aktie från&quot;over selling&quot;. Den reserverade kvantiteten kan inte köpas via din [!DNL Commerce] storefront.</li></ul> |
-| [!UICONTROL Order Status] | Alternativ:<ul><li>**[!UICONTROL Default Order Status]** - (Standard) Välj när du vill att nyligen skapade order som importerats från Amazon ska tilldelas standardorderstatus för nya order. Standardstatusen för nya order (såvida du inte har skapat en anpassad orderstatus för nya order) är `Pending`. Se [Bearbetar order](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/order-management/orders/order-processing.html#process-an-order).</li><li>>**[!UICONTROL Custom Order Status]** - Välj när du vill att nyligen skapade order som importerats från Amazon ska tilldelas en annan status än standardinställningen. När du väljer **[!UICONTROL Processing Order Status]** Med kan du välja vilken status du vill använda för nya order som importeras från Amazon.</li></ul> |
-| [!UICONTROL Processing Orders Status] | Aktiverad när _[!UICONTROL Order Status]_är inställd på `Custom Order Status`. Välj den orderstatus som du vill tilldela nya order. Alternativen i det här fältet beror på standardstatusalternativen i [!DNL Commerce]. Se [Orderstatus](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/order-management/orders/order-status.html). Du kan också skapa en anpassad orderstatus som visas här. Information om hur du skapar en anpassad orderstatus finns i [Anpassad orderstatus]( | [!UICONTROL Processing Orders Status] | Aktiverad när _[!UICONTROL Order Status]_är inställd på `Custom Order Status`. Välj den orderstatus som du vill tilldela nya order. Alternativen i det här fältet beror på standardstatusalternativen i [!DNL Commerce]. Se [Orderstatus](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/order-management/orders/order-status.html). Du kan också skapa en anpassad orderstatus som visas här. Information om hur du skapar en anpassad orderstatus finns i [Anpassad orderstatus](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/order-management/orders/order-status.html#custom-order-status). |
-| ). |
+| [!UICONTROL Order Status] | Alternativ:<ul><li>**[!UICONTROL Default Order Status]** - (Standard) Välj när du vill att nyligen skapade order som importerats från Amazon ska tilldelas standardorderstatus för nya order. Standardstatusen för nya order (såvida du inte har skapat en anpassad orderstatus för nya order) är `Pending`. Se [Bearbetar order](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/order-management/orders/order-processing.html#process-an-order).</li><li>**[!UICONTROL Custom Order Status]** - Välj när du vill att nyligen skapade order som importerats från Amazon ska tilldelas en annan status än standardinställningen. När du väljer **[!UICONTROL Processing Order Status]** Med kan du välja vilken status du vill använda för nya order som importeras från Amazon.</li></ul> |
+| [!UICONTROL Processing Orders Status] | Aktiverad när _[!UICONTROL Order Status]_är inställd på `Custom Order Status`. Välj den orderstatus som du vill tilldela nya order. Alternativen i det här fältet beror på standardstatusalternativen i [!DNL Commerce]. Se [Orderstatus](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/order-management/orders/order-status.html). Du kan också skapa en anpassad orderstatus som visas här. Information om hur du skapar en anpassad orderstatus finns i [Anpassad orderstatus] |
 
 ## [!DNL Commerce] orderskapande
 
@@ -92,7 +93,7 @@ Beställningar som importeras från Amazon kan hanteras i [!DNL Commerce] [order
 >Stöds endast i integreringar med Adobe Commerce och Magento Open Source 2.3.x.
 
 | Fulfillment Channel | [!DNL Commerce] Lagerstatus | Amazon orderstatus | [!UICONTROL Create Magento Order] Inställning | Reserverat lager |
-|---|---|---|---|---|
+|---------------------|-------------------------------------------|---------------------|-------------------------------------------|--------------------|
 | FBA | I lager<br>Utanför lager<br>Hantera inte | Väntande | Nej | Nej |
 | FBA | I lager<br>Utanför lager<br>Hantera inte | PendingAvailability | Nej | Nej |
 | FBA | I lager<br>Utanför lager<br>Hantera inte | Avbruten | Nej | Nej |

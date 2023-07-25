@@ -1,8 +1,9 @@
 ---
 title: Amazon försäljningskanal - [!UICONTROL Overrides]
 description: På fliken Åsidosättningar i Amazon kan du identifiera och hantera hur du tillämpar åsidosättningar i dina Amazon-listor.
+feature: Sales Channels, Price Rules
 exl-id: e31bbbf9-b20d-42fd-a419-93d596e40be2
-source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
+source-git-commit: 7fff4c463551089fb64f2d5bf7bf23f272ce4663
 workflow-type: tm+mt
 source-wordcount: '899'
 ht-degree: 0%
@@ -16,7 +17,7 @@ The _[!UICONTROL Overrides]_visas de Amazon-listor som du har tillämpat en åsi
 ## Typer av åsidosättningar
 
 | Typ | Beskrivning |
-|---|---|
+|---------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Pris | En åsidosättning som anger priset på listan och ignorerar alla andra prisinställningar för listan. <br><br>**Exempel**: Du har definierat en regel för 20 % rabatt som gäller för alla produkter i en viss kategori i katalogen. Du har en produkt som är ny på marknaden och efterfrågan är hög, så du vill inte att det rabatterade priset ska tillämpas på listan trots att produkten tillhör den kategorin. Du kan välja listan, [skapa en prisåsidosättning](./creating-editing-overrides.md#edit-override-single-listing)och definiera listpriset i en prisåsidosättning. |
 | Hanteringstid | En åsidosättning som anger hanteringstiden för en lista och ignorerar den standardhanteringstid som angetts i listinställningarna.<br><br>**Exempel**: Standardhanteringstiden för dina listor är 2 dagar. Du har en produkt som är bräcklig och som kräver en extra dag för att vara säker på att den är packad för leverans. Du kan visa listan, [skapa en åsidosättning av hanteringstid](./creating-editing-overrides.md#edit-override-single-listing)och definiera hanteringstiden i tre dagar.<br><br>**Obs!** Ej tillgängligt för produkter som är inställda på `Fulfilled by Amazon`. |
 | Villkor | En åsidosättning som anger villkorsvärdet för en lista, oavsett vilket villkorsattribut som har tilldelats till listan.<br><br>**Exempel**: De flesta produkterna i din katalog är nya villkor, men du har en produkt som är i Refurbished-läge. Du kan visa listan, [skapa en villkorsåsidosättning](./creating-editing-overrides.md#edit-override-single-listing)och definierar villkoren för återköp för listan.<br><br>**Obs!** Ej tillgängligt för produkter som är inställda på `Fulfilled by Amazon`. |
@@ -43,7 +44,7 @@ Amazon hemsidor för försäljningskanaler delar några vanliga sidor [arbetsyte
 ## Standardkolumner
 
 | Kolumn | Beskrivning |
-|---|---|
+|------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Amazon Seller SKU] | SKU (Stock Keeping Unit) som Amazon har tilldelat en produkt för att identifiera produkt, alternativ, pris och tillverkare. |
 | [!UICONTROL ASIN] | Ett unikt block med 10 bokstäver och/eller siffror som identifierar objekt.<br><br>ASIN står för Amazon Standard Identification Numbers. Ett ASIN är ett unikt block med 10 bokstäver och/eller siffror som identifierar objekt. För böcker är ASIN samma som ISBN-numret, men för alla andra produkter skapas ett nytt ASIN när artikeln överförs till sin katalog. Du hittar ett ASIN-objekt på produktinformationssidan på Amazon, tillsammans med mer information om artikeln. |
 | [!UICONTROL Condition Override] | Det nya villkoret som definieras i åsidosättningen. Om den åsidosättning som tillämpas på listan inte är en villkorsåsidosättning, `Not Selected` visas i den här kolumnen. |

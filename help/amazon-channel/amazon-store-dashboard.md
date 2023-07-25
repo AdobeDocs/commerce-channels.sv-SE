@@ -1,8 +1,9 @@
 ---
 title: Amazon Store-instrumentpanel
 description: Visa aktiviteten för dina Amazon-butiker från Commerce Admin med hjälp av Amazon butikspanel.
+feature: Sales Channels, Orders, Storefront
 exl-id: b86220c6-8350-474e-8faa-988a9a575ac4
-source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
+source-git-commit: 7fff4c463551089fb64f2d5bf7bf23f272ce4663
 workflow-type: tm+mt
 source-wordcount: '343'
 ht-degree: 0%
@@ -47,10 +48,10 @@ På kontrollpanelen för butiker finns även information om arkivdata och länka
 
 - **[!UICONTROL Store Listings]** - Visar en grafisk representation av butikens försäljning under de senaste 7 eller 30 dagarna tillsammans med livstidsdata för försäljning.
 
-   I det här avsnittet visas även listantal för [aktiva listor](./active-listings.md), [inaktiva listor](./inactive-listings.md)och pågående listor tillsammans med länkar till deras motsvarande _[!UICONTROL Product Listings]_sida. Du kan också klicka **[!UICONTROL Manage Listings]**för att öppna_[!UICONTROL Product Listings]_ sida. Se [Hantera Amazon-listor](./managing-product-listings.md).
+  I det här avsnittet visas även listantal för [aktiva listor](./active-listings.md), [inaktiva listor](./inactive-listings.md)och pågående listor tillsammans med länkar till deras motsvarande _[!UICONTROL Product Listings]_sida. Du kan också klicka **[!UICONTROL Manage Listings]**för att öppna_[!UICONTROL Product Listings]_ sida. Se [Hantera Amazon-listor](./managing-product-listings.md).
 
 - **[!UICONTROL Recent Orders]** - Visar information om dina senaste Amazon-beställningar. Den information som anges baseras på den information som erhållits från Amazon. Det här registret uppdateras inte med [!DNL Commerce] beställningsinformation, även när [beställ import](./order-settings.md) är aktiverat. Om du vill se alla dina Amazon-beställningar klickar du **Alla order**.
 
-   Se [Visa Amazon-beställningar](./amazon-orders-all.md) för kolumnbeskrivningar och se [Hantera order](./managing-orders.md) för mer information.
+  Se [Visa Amazon-beställningar](./amazon-orders-all.md) för kolumnbeskrivningar och se [Hantera order](./managing-orders.md) för mer information.
 
 - **[!UICONTROL Seller Central links]** - Tillhandahåller länkar till viktiga [!DNL Amazon Seller Central] information.

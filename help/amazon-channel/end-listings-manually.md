@@ -1,8 +1,9 @@
 ---
 title: Avsluta en Amazon-lista
 description: I Commerce Admin kan du avsluta en Amazon-lista från kontrollpanelen Amazon Sales Channel.
+feature: Sales Channels, Products
 exl-id: 178c878b-89fb-4239-8d57-733d0884a73a
-source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
+source-git-commit: 7fff4c463551089fb64f2d5bf7bf23f272ce4663
 workflow-type: tm+mt
 source-wordcount: '157'
 ht-degree: 0%

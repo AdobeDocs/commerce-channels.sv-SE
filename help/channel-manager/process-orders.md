@@ -1,8 +1,9 @@
 ---
 title: Bearbeta order
 description: Instruktioner för frakt och annullering [!DNL Walmart Marketplace] beställningar från Adobe Commerce och Magento Open Source."
+feature: Sales Channels, Orders, Shipping/Delivery, Customer Service
 exl-id: 2fdcb348-5c02-464f-a114-16ec657bed6b
-source-git-commit: a3ae579c0eda0c27bf8eab9d0ac12919eaad494b
+source-git-commit: 8a1f95cdb8817cfcc6ffa96b584c66e680a1c282
 workflow-type: tm+mt
 source-wordcount: '571'
 ht-degree: 0%
@@ -19,7 +20,7 @@ Channel Manager synkroniserar uppdateringar med [!DNL Walmart Marketplace] för 
 
 * **Orderannulleringar**-När du avbryter en [!DNL Walmart Marketplace] order kräver Walmart en orsak till annullering som ingår i det beställningsmeddelande som skickas till kunden. Orsaken till annulleringen visas också i [!DNL Commerce] beställa betalningsinformation. När du har skickat annulleringen synkroniseras lageruppdateringarna med [!DNL Walmart Marketplace]. Sedan meddelar Walmart sina kunder om orderstatus och leveransinformation.
 
-   I butiken måste du annullera hela ordern. [!DNL Commerce] tillåter inte partiella annulleringar.
+  I butiken måste du annullera hela ordern. [!DNL Commerce] tillåter inte partiella annulleringar.
 
 * **Återbetalningsbegäran**-Om en Walmart Marketplace-retur begärs för en levererad order, [!UICONTROL Status details] innehåller en länk till returen. Returer och återbetalningar hanteras från [Returnerar](return-refund-orders.md) kontrollpanel.
 
@@ -45,7 +46,7 @@ När handelsorder bearbetas och [!DNL Channel Manager] har synkroniserat försä
 
    * Välj en fraktfirma och lägg till ett spårningsnummer genom att välja **[!UICONTROL Add tracking number]**.
 
-      ![Detaljvy för handelsorder för en [!DNL Walmart Marketplace] order](assets/order-shipment-add-tracking-number.png){width="600" zoomable="yes"}
+     ![Detaljvy för handelsorder för en [!DNL Walmart Marketplace] order](assets/order-shipment-add-tracking-number.png){width="600" zoomable="yes"}
 
    * Fyll i resten av leveransformuläret efter behov. Se [[!DNL Shipping an Order]](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/order-management/orders/order-ship.html) för detaljerade anvisningar.
 
@@ -70,10 +71,10 @@ När en beställning har skickats kan du bearbeta hela eller delar av återbetal
    * Välj **Avbryt** på menyn Ordningsinformation.
 
    * På [!UICONTROL Cancel Order] formulär väljer du **[!UICONTROL Cancellation reason]**.
+
    ![Detaljvy för handelsorder för en [!DNL Walmart Marketplace] order](assets/cancel-order-reason-selector.png){width="600" zoomable="yes"}
 
    * Välj **[!UICONTROL Cancel Order]**.
-
 
 1. När du har skickat annulleringen spårar du [orderstatus](manage-orders.md#about-order-status) in [!DNL Channel Manager] för att verifiera att uppdateringar skickades till [!DNL Walmart Marketplace].
 

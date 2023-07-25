@@ -1,8 +1,10 @@
 ---
 title: Förinställda uppgifter för [!DNL Amazon sales channel]
 description: Granska de uppgifter som ska utföras innan du integrerar din Adobe Commerce- eller Magento Open Source-butik i Amazon Sales Channel.
+role: Admin, Developer
+feature: Sales Channels, Install, Configuration
 exl-id: eb9d9136-925f-4b20-9d65-b166173f434b
-source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
+source-git-commit: 801d4eee9e84b5c5f8b53397fbe8023ad54281e6
 workflow-type: tm+mt
 source-wordcount: '910'
 ht-degree: 0%

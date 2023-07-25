@@ -1,8 +1,10 @@
 ---
 title: Integrering med en [!DNL Amazon Seller Account]
 description: Innan du börjar med introduktionsprocessen måste du skapa (lägga till) en Amazon Sales Channel store och ansluta den till ditt Amazon-återförsäljarkonto.
+role: Admin, Developer
+feature: Sales Channels, Configuration, Integration, Tools and External Services
 exl-id: ea79e91d-7d92-4992-a921-7ac7632a0519
-source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
+source-git-commit: 801d4eee9e84b5c5f8b53397fbe8023ad54281e6
 workflow-type: tm+mt
 source-wordcount: '555'
 ht-degree: 0%
@@ -54,11 +56,11 @@ _Du behöver de primära inloggningsuppgifterna för din [!DNL Amazon Seller Cen
 
    - För **[!UICONTROL Product ID on the Amazon market]** väljer du det Amazon-attribut som ska mappas till [!DNL Commerce] attribut valt nedan.
 
-      Detta ID hjälper dig att matcha motsvarande produkter i din [!DNL Commerce] katalog.
+     Detta ID hjälper dig att matcha motsvarande produkter i din [!DNL Commerce] katalog.
 
    - För **[!UICONTROL Map a Magento attribute]** väljer du [!DNL Commerce] produktattribut att mappa till det Amazon-attribut som valts ovan.
 
-      [Mappningsattribut](./ob-creating-magento-attributes.md) hjälper dig att se till att din Amazon-lista matchar motsvarande produkt i din [!DNL Commerce] katalog.
+     [Mappningsattribut](./ob-creating-magento-attributes.md) hjälper dig att se till att din Amazon-lista matchar motsvarande produkt i din [!DNL Commerce] katalog.
 
 1. Klicka **[!UICONTROL Connect]**.
 

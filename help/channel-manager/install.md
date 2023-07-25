@@ -1,8 +1,10 @@
 ---
 title: Installera [!DNL Channel Manager]'
 description: Installera[!DNL Channel Manager] tillägg.'
+role: Admin, Developer
+feature: Sales Channels, Install
 exl-id: cb593ebd-f077-4a79-a661-bedf4cc70f97
-source-git-commit: a3ae579c0eda0c27bf8eab9d0ac12919eaad494b
+source-git-commit: 4670e9b25a840f86862c9cadaf9e6d3e70330b7d
 workflow-type: tm+mt
 source-wordcount: '698'
 ht-degree: 0%
@@ -64,15 +66,15 @@ Följ dessa anvisningar för att installera [!DNL Channel Manager] på Adobe Com
 
    - Kontrollera modulens status.
 
-      ```bash
-      bin/magento module:status Magento_SalesChannels
-      ```
+     ```bash
+     bin/magento module:status Magento_SalesChannels
+     ```
 
-      Exempelsvar:
+     Exempelsvar:
 
-      ```terminal
-      Module is enabled
-      ```
+     ```terminal
+     Module is enabled
+     ```
 
    - Aktivera modulen om den inte är aktiverad.
 
@@ -208,15 +210,15 @@ Använd någon av följande metoder för att lösa minnesproblemet:
 
 - Ange minnesgränsen från kommandoraden.
 
-   ```bash
-   $ php -d memory_limit=-1 \[path to composer]/composer require magento/payment-services.
-   ```
+  ```bash
+  $ php -d memory_limit=-1 \[path to composer]/composer require magento/payment-services.
+  ```
 
-   Till exempel:
+  Till exempel:
 
-   ```bash
-   $ php-d memory_limit=-1 vendor/bin/composer require magento/channel-manager
-   ```
+  ```bash
+  $ php-d memory_limit=-1 vendor/bin/composer require magento/channel-manager
+  ```
 
 ### Vyn saknas
 

@@ -1,8 +1,9 @@
 ---
 title: Inaktiva Amazon-listor
 description: Amazon försäljningskanal ger [!UICONTROL Inactive] flik för att övervaka din inaktiva [!DNL Amazon Marketplace] listor.
+feature: Sales Channels, Products
 exl-id: 1d20e75f-3346-48cb-83f7-a9e7acb26a96
-source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
+source-git-commit: 7fff4c463551089fb64f2d5bf7bf23f272ce4663
 workflow-type: tm+mt
 source-wordcount: '505'
 ht-degree: 0%
@@ -42,7 +43,7 @@ Under **[!UICONTROL Select]** i _[!UICONTROL Action]_kolumn:
 Amazon hemsidor för försäljningskanaler delar några vanliga sidor [arbetsytekontroller](./workspace-controls.md) som gör att du kan anpassa de data som visas.
 
 | Kolumn | Beskrivning |
-|--- |--- |
+|------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Amazon Seller SKU] | SKU (Stock Keeping Unit) som Amazon har tilldelat en produkt för att identifiera produkt, alternativ, pris och tillverkare. |
 | [!UICONTROL ASIN] | Ett unikt block med 10 bokstäver och/eller siffror som identifierar objekt.<br><br>ASIN står för Amazon Standard Identification Numbers. Ett ASIN är ett unikt block med 10 bokstäver och/eller siffror som identifierar objekt. För böcker är ASIN samma som ISBN-numret, men för alla andra produkter skapas ett nytt ASIN när artikeln överförs till sin katalog. Du hittar ett ASIN-objekt på produktinformationssidan på Amazon, tillsammans med mer information om artikeln. |
 | [!UICONTROL Product Listing Name] | Produktens namn. |

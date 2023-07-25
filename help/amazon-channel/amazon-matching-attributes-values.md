@@ -1,8 +1,9 @@
 ---
 title: Visa Amazon-attributmappning
 description: Verifiera värden för dina länkade Commerce-attribut så att de synkroniseras korrekt mellan Commerce och Amazon.
+feature: Sales Channels, Products, Configuration
 exl-id: 11a1fb25-6aa8-43d3-b5d8-772bbe1a5d53
-source-git-commit: 077d680da3c98ef9a48958eb548a9d5c1612f74e
+source-git-commit: 7fff4c463551089fb64f2d5bf7bf23f272ce4663
 workflow-type: tm+mt
 source-wordcount: '348'
 ht-degree: 0%
@@ -31,7 +32,7 @@ The _Amazon Value_ varierar beroende på vilken attributtyp och vilket Amazon-at
 ![Visa attributvärden](assets/amazon-managing-attribute-values.png){width="600" zoomable="yes"}
 
 | Fält | Beskrivning |
-|--- |--- |
+|----------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Region] | Regionen för försäljningsaktivitet som definieras i **[!DNL Amazon Marketplace]Land** under butiksintegrering. |
 | [!UICONTROL Magento Product SKU] | Anger [!DNL Commerce] produkter som synkroniseras med Amazon Store. Värdet är ett produkt-ID som tilldelats av [!DNL Commerce] och länkas till en produkt i katalogen. Öppna produkten i [!DNL Commerce]klickar du på länken. |
 | [!UICONTROL ASIN] | Anger den 10-ställiga alfanumeriska unika identifierare som Amazon har tilldelat produkten för att identifiera produkten. |

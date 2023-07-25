@@ -1,8 +1,9 @@
 ---
-title: Amazon försäljningskanal - allmänna inställningar för prisregel
+title: Amazon Sales Channel - Allmänna inställningar för prisregel
 description: Använd de allmänna inställningarna för prisregel för att definiera de primära egenskaperna för en listprisregel.
+feature: Sales Channels, Price Rules, Configuration
 exl-id: 915b3eed-997e-4f94-a23f-0553a9dfe30c
-source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
+source-git-commit: 7fff4c463551089fb64f2d5bf7bf23f272ce4663
 workflow-type: tm+mt
 source-wordcount: '714'
 ht-degree: 0%
@@ -50,7 +51,7 @@ Definiera regelns namn, beskrivning, aktiva datum och prioritet.
 ![Allmänna inställningar för prisregel](assets/amazon-pricing-rule-general.png){width="600" zoomable="yes"}
 
 | Fält | Beskrivning |
-|---|---|
+|---------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Rule Name] | (Obligatoriskt) Ange ett namn för regeln som används för intern identifiering. Ju mer beskrivande regelnamnet är, desto bättre. Exempel:&quot;25 % rabatt på årsboksförsäljningen.&quot; |
 | [!UICONTROL Description] | Ange en detaljerad beskrivning som förklarar regeln (används även för interna syften). Exempel:&quot;Årsslutsförsäljning, 25 % rabatt på alla artiklar i bokkategorin.&quot; |
 | [!UICONTROL Status] | Alternativ:<ul><li>**[!UICONTROL Inactive]** - Prisregeln gäller inte för dina listor. Det här alternativet kan användas när du ändrar en prisregel eller inaktiverar den efter en begränsad befordran.</li><li>**[!UICONTROL Active]** - Prisregeln gäller för dina listor och justera dina priser innan du publicerar till Amazon.</li></ul> |

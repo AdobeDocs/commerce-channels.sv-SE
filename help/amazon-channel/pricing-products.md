@@ -1,9 +1,9 @@
 ---
 title: Hantera Amazon priser
 description: Du kan ange priser för dina Amazon-listor som skiljer sig från din mmerce-butik genom att använda prisreglerna.
-redirect_from: /sales-channels/asc/ob-pricing-rules.html
+feature: Sales Channels, Price Rules
 exl-id: 5c990206-ac72-4ef5-9ed0-ff8d816096eb
-source-git-commit: 077d680da3c98ef9a48958eb548a9d5c1612f74e
+source-git-commit: 7fff4c463551089fb64f2d5bf7bf23f272ce4663
 workflow-type: tm+mt
 source-wordcount: '863'
 ht-degree: 0%
@@ -19,11 +19,11 @@ Det finns två typer av prissättningsregler:
 - [Standardprisregel](./standard-price-rules.md)
 - [Intelligent regel för omprissättning](./intelligent-repricing-rules.md)
 
-   >[!IMPORTANT]
-   >
-   >Regler för intelligent omprisering fungerar inte korrekt om Amazon är inställt på `Inactive` som vid introduktionen. Prisberäkningarna beror på fraktkostnaderna och regionen måste vara `Active` status för dina fraktpriser att synkronisera från Amazon.
-   >
-   >Om du vill uppdatera regionens status i ditt Amazon-konto går du till Inställningar > Kontoinformation > Semesterinställningar. Se [Amazon: Liststatus för semester](https://sellercentral.amazon.com/gp/help/help.html?itemID=200135620) (Inloggning till Seller Central krävs).
+  >[!IMPORTANT]
+  >
+  >Regler för intelligent omprisering fungerar inte korrekt om Amazon är inställt på `Inactive` som vid introduktionen. Prisberäkningarna beror på fraktkostnaderna och regionen måste vara `Active` status för dina fraktpriser att synkronisera från Amazon.
+  >
+  >Om du vill uppdatera regionens status i ditt Amazon-konto går du till Inställningar > Kontoinformation > Semesterinställningar. Se [Amazon: Liststatus för semester](https://sellercentral.amazon.com/gp/help/help.html?itemID=200135620) (Inloggning till Seller Central krävs).
 
 Med den här funktionen kan du ändra dina Amazon-priser på ett sätt som liknar [!DNL Commerce] [katalogprisregler](https://experienceleague.adobe.com/docs/commerce-admin/catalog/products/pricing/pricing-advanced.html). Du kan skapa komplexa regler som gör att du kan ändra priser för specifika produkter, produkter inom specifika kategorier eller till och med med särskilda attribut.
 
@@ -58,7 +58,7 @@ Ett annat prisalternativ är [prisåsidosättning](./overrides.md), som anges p�
 ## Standardkolumner
 
 | Kolumn | Beskrivning |
-|---|---|
+|--------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Name] | Namnet på prisregeln enligt [Allmänna inställningar för prisregel](./pricing-rule-general-settings.md) |
 | [!UICONTROL Rule Type] | Regeltypen enligt [Prisregelåtgärder](./pricing-rule-actions.md) (antingen Standard price rule eller Intelligent repricing rule) |
 | [!UICONTROL Is Active] | Om regeln är aktiv, enligt inställningen i [Allmänna inställningar för prisregel](./pricing-rule-general-settings.md) |

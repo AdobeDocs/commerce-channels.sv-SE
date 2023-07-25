@@ -4,7 +4,8 @@ description: '''Omfattande information om [!DNL Channel Manager] för administra
 seo-title: Adobe Commerce Channel Manager Guide
 seo-description: Describes how to use [!DNL Channel Manager] with Adobe Commerce or Magento Open Source.
 exl-id: 0703741b-77e0-47b0-917f-b25d14afa7ae
-source-git-commit: a3ae579c0eda0c27bf8eab9d0ac12919eaad494b
+recommendations: noCatalog
+source-git-commit: 850aece134084e108b324a964d7d834042c7ddfd
 workflow-type: tm+mt
 source-wordcount: '302'
 ht-degree: 0%
@@ -32,7 +33,7 @@ Mer information om hur du hanterar [!DNL Commerce] plattform, projekt och webbpl
 
 
 | Dokumentationsresurs | Beskrivning |
-|----------------------- | ----------- |
+|---------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [Adobe Commerce 2.4 Merchant Documentation](https://experienceleague.adobe.com/docs/commerce-admin/user-guides/home.html) | Handläggning för både Adobe Commerce och Magento Open Source |
 | [Services for Adobe Commerce Documentation](https://experienceleague.adobe.com/docs/commerce-merchant-services/user-guides/home.html) | Dokumentation till stöd för en samling tjänster som hjälper handlare att integrera viktiga komponenter i sin verksamhet med sin butik. |
 | [Handbok för Commerce on Cloud Infrastructure](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/overview.html) | Stegvisa procedurer för att distribuera Adobe Commerce på en hanterad, automatiserad värdmolnplattform. |

@@ -1,8 +1,9 @@
 ---
 title: Skapa och redigera åsidosättningar av Amazon-försäljningskanaler
 description: Använd åsidosättningar av Amazon Sales Channel för att tillämpa ändringarna på en enstaka Amazon-lista eller på flera listor.
+feature: Sales Channels, Products, Configuration
 exl-id: 3a254883-b88c-4c94-b4d5-8d7754b9afd2
-source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
+source-git-commit: 7fff4c463551089fb64f2d5bf7bf23f272ce4663
 workflow-type: tm+mt
 source-wordcount: '902'
 ht-degree: 0%
@@ -112,7 +113,7 @@ The _[!UICONTROL Edit Listing Overrides]_finns på_[!UICONTROL Inactive]_, _[!UI
 ### Åsidosättningstyper
 
 | Åsidosätt | Beskrivning |
-|--- |--- |
+|-------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Price Override] | En prisåsidosättning definierar priset för listorna. Åsidosättningen har högre prioritet än alla automatiska inställningar tills åsidosättningen tas bort.<br><br>Om du vill åsidosätta priset på din produkt väljer du **[!UICONTROL Change Listing Price]** och ange det nya priset för **[!UICONTROL Price Override]**. |
 | [!UICONTROL Handling Time Override] | En åsidosättning av hanteringstid definierar den tid det tar (i dagar) att bearbeta och leverera produkter. Åsidosättning av hanteringstid har högre prioritet än alla automatiska inställningar och standardinställningar för hanteringstid tills åsidosättningen tas bort.<br><br>Värdet som finns i _[!UICONTROL Handling Time Override]_är antingen den standardhanteringstid som definieras i [listinställningar](./listing-settings.md) eller din definierade tid för åsidosättningshantering. Om du tar bort en åsidosättning av hanteringstid används som standard den hanteringstid som definieras i listinställningarna.<br><br>Om du vill definiera en åsidosättning av hanteringstid väljer du **[!UICONTROL Change Handling Time]**och ange den nya hanteringstiden (i dagar) för **[!UICONTROL Handling Time Override]**. |
 | [!UICONTROL Condition Override] | Om du vill åsidosätta listvillkoren väljer du **[!UICONTROL Change Condition]** och välj det nya villkoret från **Åsidosätt villkor**. |

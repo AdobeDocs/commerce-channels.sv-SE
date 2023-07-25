@@ -1,8 +1,9 @@
 ---
 title: '"Intelligent Repricing Rule: Pris på golv'
 description: Använd inställningarna för lägsta pris för att fastställa det lägsta priset för en intelligent prisregel för att hantera dina Amazon-listor.
+feature: Sales Channels, Price Rules
 exl-id: e00cac95-eef8-4d4d-b578-287a91f54bdf
-source-git-commit: a3ae579c0eda0c27bf8eab9d0ac12919eaad494b
+source-git-commit: 7fff4c463551089fb64f2d5bf7bf23f272ce4663
 workflow-type: tm+mt
 source-wordcount: '404'
 ht-degree: 0%
@@ -50,7 +51,7 @@ I det här exemplet sätts minimipriset till 3 % över kostnaden för artikeln.
 ![Exempel på regel för intelligent omprissättning - lägsta pris](assets/ob-intelligent-pricde-rule-floor-price.png){width="600" zoomable="yes"}
 
 | Fält | Beskrivning |
-|--- |--- |
+|--------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Floor Price Source] | Välj [!DNL Commerce] attribut som anger relativ golvgräns (lägsta pris). Om du t.ex. inte vill att priset på ditt Amazon ska gå under kostnaden för ditt objekt väljer du `Cost` -attribut. |
 | [!UICONTROL Floor Price Action] | Välj en prisjusteringsåtgärd. Alternativ:<ul><li>**[!UICONTROL Decrease By]** - Välj när du vill ha den definierade _[!UICONTROL Floor Price Source]_det värde som ska justeras nedåt, vilket skapar ett lägre minimipris för regeln, innan den tas upp i Amazon.</li><li>**[!UICONTROL Increase By]** - Välj när du vill ha den definierade _[!UICONTROL Floor Price Source]_värdet som ska justeras uppåt, vilket skapar ett högre minimipris för regeln, innan den tas upp i Amazon.</li><li>**[!UICONTROL Match]** - Välj när du inte vill att listpriset ska fluktuera under det definierade _[!UICONTROL Floor Price Source]_värde. När du väljer det här alternativet visas_[!UICONTROL Apply]_ och _[!UICONTROL Floor Adjustment Amount]_fält är inaktiverade.</li></ul> |
 | [!UICONTROL Apply] | **[!UICONTROL Apply as percentage]** - en procentuell justering i förhållande till _[!UICONTROL Floor Price Source]_värde. |

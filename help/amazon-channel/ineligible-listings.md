@@ -1,8 +1,9 @@
 ---
 title: Ej berättigade Amazon-listor
 description: Amazon försäljningskanal ger [!UICONTROL Ineligible] för att hjälpa dig att hantera objekt är inte berättigade som en lista baserat på dina aktuella listregler.
+feature: Sales Channels, Products
 exl-id: ae63898d-ff5c-43eb-b759-5bc80829d4d4
-source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
+source-git-commit: 7fff4c463551089fb64f2d5bf7bf23f272ce4663
 workflow-type: tm+mt
 source-wordcount: '494'
 ht-degree: 0%
@@ -47,7 +48,7 @@ Amazon hemsidor för försäljningskanaler delar några vanliga sidor [arbetsyte
 ## Standardkolumner
 
 | Kolumn | Beskrivning |
-|--- |--- |
+|-----------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Amazon Seller SKU] | SKU (Stock Keeping Unit) som Amazon har tilldelat en produkt för att identifiera produkt, alternativ, pris och tillverkare. |
 | [!UICONTROL ASIN] | Ett unikt block med 10 bokstäver och/eller siffror som identifierar objekt.<br><br>ASIN står för [!DNL Amazon Standard Identification Number]. Ett ASIN är ett unikt block med 10 bokstäver och/eller siffror som identifierar objekt. För böcker är ASIN samma som ISBN-numret, men för alla andra produkter skapas ett nytt ASIN när artikeln överförs till sin katalog. Du hittar ett ASIN-objekt på produktinformationssidan på Amazon, tillsammans med mer information om artikeln. |
 | [!UICONTROL Product Listing Name] | Produktens namn. |

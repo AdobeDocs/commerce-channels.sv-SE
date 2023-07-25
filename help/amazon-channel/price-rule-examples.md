@@ -1,8 +1,9 @@
 ---
 title: Amazon säljkanal - Exempel på prisregel
 description: Se de här exemplen baserat på vanliga scenarier för att få hjälp med att utforma prisregler för listor från Amazon.
+feature: Sales Channels, Price Rules
 exl-id: 4d9717ba-4ad6-468d-b4ca-99f8620b60b4
-source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
+source-git-commit: 7fff4c463551089fb64f2d5bf7bf23f272ce4663
 workflow-type: tm+mt
 source-wordcount: '925'
 ht-degree: 2%
@@ -22,7 +23,7 @@ If **[!UICONTROL Discard Subsequent Rules]** är inställd på `Yes`gäller dock
 Det finns till exempel tre prisregler:
 
 | Exempel | Regelnamn | Prioritet | Ignorera efterföljande regel |
-|----------|----|----|----|
+|---------|-----------------------|----------|-------------------------|
 | 1 | 10 % rabatt på produkter | 1 | Nej |
 | 2 | $2 av försäljningen | 2 | Ja |
 | 3 | 5 % rabatt på alla produkter | 3 | Nej |
@@ -32,7 +33,7 @@ I det här scenariot gäller regel 1 och 2 för de produkter som omfattas. Regel
 ### Använda två standardprisregler
 
 | Fält | Inställning - regel 1 | Inställning - regel 2 |
-|----------|----|----|
+|--------------------------------|---------------------|-----------------------|
 | [!UICONTROL Rule Name] | Regel-1 | Regel 2 |
 | [!UICONTROL Priority] | 1 | 2 |
 | [!UICONTROL Rule Type] | Standardprisregel | Standardprisregel |
@@ -65,7 +66,7 @@ Slutpriset efter regel 1 och regel 2 ska tillämpas: 32,98 USD
 ### Buy Box pris med rörlig priskälla = pris
 
 | Fält | Inställning |
-|----------|----|
+|--------------------------------------|----------------------------|
 | [!UICONTROL Rule Name] | Regel-1 |
 | [!UICONTROL Priority] | 1 |
 | [!UICONTROL Rule Type] | Intelligent regel för omprissättning |
@@ -97,7 +98,7 @@ Det slutliga priset efter att regeln har tillämpats: 10 dollar
 ### Buy Box pris med rörlig priskälla = Pris och en prissänkning på 20 %
 
 | Fält | Inställning |
-|----------|----|
+|--------------------------------------|----------------------------|
 | [!UICONTROL Rule Name] | Regel-1 |
 | [!UICONTROL Priority] | 1 |
 | [!UICONTROL Rule Type] | Intelligent regel för omprissättning |
@@ -147,7 +148,7 @@ Det slutliga priset efter att regeln har tillämpats: $15
 ### Lägsta pris med alla konkurrenters priser och använd alla konkurrenters produktvillkor
 
 | Fält | Inställning |
-|----------|-----|
+|----------------------------------------|-----------------------------------------|
 | [!UICONTROL Rule Name] | Regel-1 |
 | [!UICONTROL Priority] | 1 |
 | [!UICONTROL Rule Type] | Intelligent regel för omprissättning |
@@ -159,7 +160,7 @@ Det slutliga priset efter att regeln har tillämpats: $15
 | [!UICONTROL Floor Price Action] | Matcha |
 
 | Pris | Villkor |
-|----------|----|
+|-------|-----------------|
 | $17 | Nytt |
 | $15 | Nytt |
 | $14 | Används. Mycket bra |
@@ -188,7 +189,7 @@ Det slutliga priset efter att regeln har tillämpats: $13
 ### Intelligent regel för omprissättning som kombinerar takpris, valutakonvertering och moms
 
 | Fält | Inställning |
-|----------|-----|
+|-----------------------------------|---------------|
 | [!UICONTROL VAT] | 10% |
 | [!UICONTROL Ceiling price source] | $10 |
 | [!UICONTROL Currency conversion] | 1,25 euro:1 USD |
@@ -204,7 +205,7 @@ Slutpris efter moms: $12.50 x (1.1) = $13.75
 #### Intelligent prisregel (från föregående exempel)
 
 | Fält | Inställning |
-|----------|----|
+|----------------------|---------------|
 | Prioritet | 1 |
 | moms | 10% |
 | Tak priskälla | $10 |
@@ -217,7 +218,7 @@ Slutpris efter moms: $12.50 x (1.1) = $13.75
 #### Standardprisregel
 
 | Fält | Inställning |
-|----------|-----|
+|--------------------------------|-----------------------|
 | [!UICONTROL Priority] | 2 |
 | [!UICONTROL Price Action] | Öka med |
 | [!UICONTROL Apply] | Använd som fast belopp |
@@ -238,7 +239,7 @@ När sökningen har utförts baserat på de här parametrarna återgår priset t
 Här är tre olika [prisregelåtgärd](./pricing-rule-actions.md) baserat på det lägsta priset.
 
 | Fält | Beskrivning |
-|--- |--- |
+|--------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Price Action] | Alternativ:<ul><li>**[!UICONTROL Decrease By]** - Det här alternativet minskar ditt listpris i förhållande till [lägsta konkurrentpris](./lowest-competitor-pricing.md).</li><li>**[!UICONTROL Increase By]** - Det här alternativet ökar ditt listpris i förhållande till [lägsta konkurrentpris](./lowest-competitor-pricing.md).</li><li>**[!UICONTROL Match Competitor Price]** - Det här alternativet ändrar ditt Amazon-pris så att det matchar det lägsta priset baserat på parametrarna. I exemplet är Amazon listpris 25 dollar.</li></ul> |
 | [!UICONTROL Apply] | Alternativ: Använd som procentsats / Använd som fast belopp |
 | [!UICONTROL Adjustment Amount] | Numeriskt värde för att definiera procentandelen eller det fasta beloppet för den rabatt som ska tillämpas. <br>Dessa val resulterar i att det lägsta priset sätts till 0,01 USD lägre. |
@@ -246,7 +247,7 @@ Här är tre olika [prisregelåtgärd](./pricing-rule-actions.md) baserat på de
 ### Golvpris
 
 | Fält | Inställning |
-|----------|----|
+|--------------------------------------|---------------------|
 | [!UICONTROL Floor Price Source] | Kostnad = $5 |
 | [!UICONTROL Floor Price Action] | Öka med |
 | [!UICONTROL Apply] | Använd som procentsats |

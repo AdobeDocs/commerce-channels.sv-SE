@@ -1,8 +1,9 @@
 ---
 title: Hantera Amazon produktlistor efter status/flik
 description: När du hanterar dina Amazon-listor kan du tillämpa åtgärder på dina listor enligt status.
+feature: Sales Channels, Products
 exl-id: 33effdd8-baa9-4fc5-8c7e-313175eb7e9c
-source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
+source-git-commit: 7fff4c463551089fb64f2d5bf7bf23f272ce4663
 workflow-type: tm+mt
 source-wordcount: '363'
 ht-degree: 0%
@@ -22,7 +23,7 @@ Se även [Hantera listor efter åtgärd](./managing-listings-by-action.md).
 ![Flikar för produktlistor](assets/amazon-product-listings-tabs.png){width="600" zoomable="yes"}
 
 | Tabb | Beskrivning | Åtgärder |
-|--- |--- |--- |
+|---------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [[!UICONTROL Incomplete]](./incomplete-listings.md) | Visar dina [!DNL Commerce] katalogprodukter som uppfyller dina definierade listinställningar men som saknar information som krävs av Amazon för en lista.<br><br>If _[!UICONTROL Automatic List Action]_är inställd på `Automatically List Eligible Products` i [_[!UICONTROL Product Listing Actions]_](./product-listing-actions.md) inställningar, dessa objekt är **[!UICONTROL In Progress Listings]**. | [!UICONTROL Reattempt auto match to Amazon Listing]<br>[[!UICONTROL Update Required Info]](./amazon-manually-update-incomplete-listing.md)<br>[[!UICONTROL View Details]](./product-listing-details.md) |
 | [[!UICONTROL New Third Party]](./new-third-party-listings.md) | Visar dina befintliga Amazon-listor (baserat på information som du fått från Amazon) som inte matchar någon produkt i din [!DNL Commerce] katalog. | [[!UICONTROL Create New Catalog Product(s)]](./creating-assigning-catalog-products.md)<br>Försök att matcha automatiskt<br>[[!UICONTROL Assign Catalog Product]](./creating-assigning-catalog-products.md)<br>[[!UICONTROL Create New Catalog Product]](./creating-assigning-catalog-products.md)<br>[[!UICONTROL View Details]](./product-listing-details.md) |
 | [[!UICONTROL Ready to List]](./ready-to-list.md) | Visar katalogprodukter som är klara att skapa Amazon-listor, men butiken är inställd på att inte automatiskt publicera nya listor. Den här fliken används för att publicera dina nya listor manuellt.<br><br>If _[!UICONTROL Automatic List Action]_är inställd på `Do Not Automatically List Eligible Products` i [_[!UICONTROL Product Listing Actions]_](./product-listing-actions.md) inställningar, dessa objekt är **[!UICONTROL In Progress Listings]**. | [[!UICONTROL Publish Product to Amazon]](./publish-listings-manually.md)<br>[[!UICONTROL Publish On Amazon]](./publish-listings-manually.md)<br>[[!UICONTROL View Details]](./product-listing-details.md) |

@@ -1,8 +1,10 @@
 ---
 title: Bästa praxis och begränsningar för [!DNL Amazon sales channel]
 description: Läs om de bästa metoderna och begränsningarna när du använder Amazon försäljningskanal för Adobe Commerce och Magento Open Source.
+role: Leader, Admin, User
+feature: Sales Channels, Best Practices
 exl-id: 7f7faae1-7aa7-413c-b534-1039e6a35173
-source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
+source-git-commit: 801d4eee9e84b5c5f8b53397fbe8023ad54281e6
 workflow-type: tm+mt
 source-wordcount: '461'
 ht-degree: 0%
@@ -23,10 +25,9 @@ De bästa sätten är att
 
 - För regioner i Storbritannien är det bäst att anmäla sig till [Amazon momskalkyleringstjänst](https://sell.amazon.co.uk/learn/vat-resources/){target="_blank"} innan Amazon introducerar sin försäljningskanal.
 
-
-   >[!NOTE]
-   >
-   >Det kan ta 10-14 dagar för Amazon att verifiera och aktivera momsberäkningstjänstkontot.
+  >[!NOTE]
+  >
+  >Det kan ta 10-14 dagar för Amazon att verifiera och aktivera momsberäkningstjänstkontot.
 
 Begränsningarna är:
 

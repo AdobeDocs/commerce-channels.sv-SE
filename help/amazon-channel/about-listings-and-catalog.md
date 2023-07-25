@@ -1,8 +1,10 @@
 ---
 title: Amazon och Commerce-katalogen
 description: Amazon försäljningskanal importerar dina Amazon-listor till din Commerce-server och synkroniserar dem kontinuerligt med produkter och försäljning.
+role: Leader, Admin, User
+feature: Sales Channels, Integration, Tools and External Services, Merchandising, Catalogs
 exl-id: 659c9830-0a1d-4a0d-bb9c-afb609c0fbba
-source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
+source-git-commit: 801d4eee9e84b5c5f8b53397fbe8023ad54281e6
 workflow-type: tm+mt
 source-wordcount: '619'
 ht-degree: 0%

@@ -1,8 +1,9 @@
 ---
 title: Hantera listor
 description: Hantera säljkanalslistor för en [!DNL Commerce] lagra med Channel Manager för Adobe Commerce och Magento Open Source.'
+feature: Sales Channels, Merchandising, Products
 exl-id: 70999552-9ba7-4b10-a8ee-ee99bc4fe837
-source-git-commit: a3ae579c0eda0c27bf8eab9d0ac12919eaad494b
+source-git-commit: 4670e9b25a840f86862c9cadaf9e6d3e70330b7d
 workflow-type: tm+mt
 source-wordcount: '715'
 ht-degree: 0%
@@ -92,9 +93,9 @@ På arbetsytan Lista visas statusetiketten var en produkt finns i [!DNL Channel 
 
 * **[!UICONTROL Match]**-Identifierar produkter som matchades korrekt [!DNL Walmart].
 
-   En matchning inträffar när produktattributvärdet - till exempel UPC-koden - matchar UPC-värdet i ett befintligt [!DNL Walmart Marketplace] lista. När en produkt matchar läggs erbjudandet om Commerce-produkt till i den befintliga listan.
+  En matchning inträffar när produktattributvärdet - till exempel UPC-koden - matchar UPC-värdet i ett befintligt [!DNL Walmart Marketplace] lista. När en produkt matchar läggs erbjudandet om Commerce-produkt till i den befintliga listan.
 
-   Kontrollera [[!UICONTROL Walmart Marketplace Seller Account Items]](https://seller.walmart.com/items-and-inventory/manage-items) kontrollpanel för att granska den uppdaterade produktlistan och verifiera produktinformation, pris och lagerkvantitet.
+  Kontrollera [[!UICONTROL Walmart Marketplace Seller Account Items]](https://seller.walmart.com/items-and-inventory/manage-items) kontrollpanel för att granska den uppdaterade produktlistan och verifiera produktinformation, pris och lagerkvantitet.
 
 * **[!UICONTROL Match - Match in Stage]**—Identifierar produkter som matchar [!DNL Walmart] som inte kan anslutas förrän [!DNL Walmart Marketplace] butiken är live. Produkter med den här statusen ansluts automatiskt när [!DNL Walmart Marketplace] butiken publiceras.
 
@@ -102,4 +103,4 @@ På arbetsytan Lista visas statusetiketten var en produkt finns i [!DNL Channel 
 
 * **[!UICONTROL Error description]**—Innehåller detaljerad information om listfelet.
 
-   När du har åtgärdat felet skickar du produkten igen för matchning. Se [Felsöka produktmatchningsfel](connect-listings-to-marketplace.md#troubleshoot-product-match-errors).
+  När du har åtgärdat felet skickar du produkten igen för matchning. Se [Felsöka produktmatchningsfel](connect-listings-to-marketplace.md#troubleshoot-product-match-errors).

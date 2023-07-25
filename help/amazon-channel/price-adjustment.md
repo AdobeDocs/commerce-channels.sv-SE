@@ -1,8 +1,9 @@
 ---
 title: Amazon försäljningskanal - [!UICONTROL Price Adjustment]
 description: Konfigurera prisjusteringar för att definiera prisberäkningen när du har identifierat priskällan för Amazon-konkurrenten.
+feature: Sales Channels, Price Rules
 exl-id: 60569b37-2a6d-40ef-bcec-2c3a132a07e0
-source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
+source-git-commit: 7fff4c463551089fb64f2d5bf7bf23f272ce4663
 workflow-type: tm+mt
 source-wordcount: '418'
 ht-degree: 0%
@@ -52,7 +53,7 @@ Definiera prisjusteringen i _[!UICONTROL Price Adjustment]_-avsnitt.
 ![Intelligent regel för omprissättning - prisjustering](assets/amazon-price-adjustment.png){width="600" zoomable="yes"}
 
 | Fält | Beskrivning |
-|---|---|
+|--------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Price Action] | Välj en prisjusteringsåtgärd. Alternativ:<br>**[!UICONTROL Decrease By]**- Välj när du vill ha den definierade _[!UICONTROL Magento Price Source]_definieras i [Listpris](./listing-price.md) som ska justeras ned, vilket skapar ett lägre pris för regeln, innan den tas upp på Amazon.<br>**[!UICONTROL Increase By]**- Välj när du vill ha den definierade_[!UICONTROL Magento Price Source]_ definieras i [Listpris](./listing-price.md) som ska justeras upp, vilket skapar ett högre pris för regeln, innan den tas upp i Amazon.<br>**[!UICONTROL Match Competitor Price]**- (Endast regel för intelligent omprissättning) Välj när du vill ändra ditt Amazon-pris så att det matchar [lägsta konkurrent](./lowest-competitor-pricing.md) baserat på konkurrentens feedback och avvikelseparametrar. När du väljer det här alternativet visas _Använd_ och _Justeringsbelopp_ fält tas bort. |
 | [!UICONTROL Apply] | Alternativ:<br>**[!UICONTROL Apply as percentage]**- Välj när du vill ha den definierade _[!UICONTROL Magento Price Source]_definieras i [Listpris](./listing-price.md) justeras med ett procenttal.<br>**[!UICONTROL Apply as fixed amount]**- Välj när du vill ha den definierade_[!UICONTROL Magento Price Source]_ definieras i [Listpris](./listing-price.md) justerat med ett fast belopp. |
 | [!UICONTROL Adjustment Amount] | Obligatoriskt.<br>Om du valde `Apply as percentage` for **[!UICONTROL Apply]** anger du procentvärdet (exempel: enter `25` för en justering på 25 %).<br>Om du valde `Apply as fixed amount` for **[!UICONTROL Apply]** anger du det numeriska värdet för det fasta beloppet (exempel: enter `25` för en fast justering på 25 USD). |

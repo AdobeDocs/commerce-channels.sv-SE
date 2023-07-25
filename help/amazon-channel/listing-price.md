@@ -1,9 +1,10 @@
 ---
 title: Amazon försäljningskanal - [!UICONTROL Listing Price]
 description: Använd inställningarna för listpris för att bestämma priskällan och basprisvärdet (standardpriset) för dina Amazon-listor.
+feature: Sales Channels, Products, Price Rules
 redirect_from: sales-channels/asc/ob-listing-price.html
 exl-id: d97d81fa-c298-423f-9072-050ee72e707e
-source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
+source-git-commit: 7fff4c463551089fb64f2d5bf7bf23f272ce4663
 workflow-type: tm+mt
 source-wordcount: '1503'
 ht-degree: 0%
@@ -49,6 +50,7 @@ De alternativ som visas i _[!UICONTROL Magento Price Source]_,_[!UICONTROL Minim
    - `Disabled` - (Standard) Välj när du inte vill tillgodoräkna dig moms.
 
    - `Enabled` - Välj när du vill tillgodoräkna dig moms. moms används vanligtvis som moms i europeiska länder och läggs till i det slutliga priset i Amazon. moms inte tillämpas på slutpriset för listor som används inom en regel för intelligent prissättning, såvida inte [lägsta pris](./floor-price.md) är träffad.
+
    >[!NOTE]
    >
    >Företag i EU måste skicka fakturor till köpare, så att kunden kan överföra skatt. Du kan antingen generera dessa fakturor och beräkna momsen själv eller använda en momsberäkningstjänst som Amazon momsberäkningstjänst. Amazon rekommenderar att du registrerar dig för [Amazon momskalkyleringstjänst](https://sell.amazon.co.uk/learn/vat-resources?ref_=asuk_soa_rd&amp;). Om du väljer en annan metod ansvarar du för att momssatsen efterlevs.>
@@ -66,6 +68,7 @@ De alternativ som visas i _[!UICONTROL Magento Price Source]_,_[!UICONTROL Minim
    - `Set Default PTC` - Välj om du har en universell produktskattekod (PTC) som du vill använda för alla dina produkter. När du väljer det här alternativet måste du slutföra _[!UICONTROL Default PTC]_.
 
       - För **[!UICONTROL Default PTC]** anger du den PTC som ska användas som standard för alla Amazon-listor. Om din standard-PTC är inställd i [!DNL Amazon Seller Central] lämna fältet tomt. Ändringar som görs i det här fältet påverkar inte befintliga Amazon-listor. Om du vill ändra standard-PTC för en befintlig lista måste listan vara [avslutad](./end-listings-manually.md) och en ny lista skapas.
+
    >[!NOTE]
    >
    >Om du använder Amazon momsberäkningstjänst måste du känna till momskategorin för dina produkter. En PTC-kod är Amazon ID-kod för skattekategori för B2B-inköp i EU. Se [Amazon produktskattekod](https://sellercentral.amazon.com/gp/help/help.html?itemID=G200794510&amp;language=en_US){target="_blank"}.
@@ -79,7 +82,7 @@ De alternativ som visas i _[!UICONTROL Magento Price Source]_,_[!UICONTROL Minim
 ![Listpris](assets/amazon-listing-price.png){width="500" zoomable="yes"}
 
 | Fält | Beskrivning |
-|--- |--- |
+|---------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Magento Price Source] | Bestämmer priskällan som används när du skapar dina Amazon-listor. Standardvärdet är `Price`. Om du väljer ett annat attribut, till exempel `Amazon Price` eller `Special Price`används det definierade värdet för attributet för din Amazon-lista. Om det valda attributet inte är definierat, `Price` används. |
 | [!UICONTROL Minimum Advertised Price (MAP)] | The [!DNL Commerce] för MAP-priser. Om du väljer MAP-alternativet anges ditt Amazon-pris automatiskt till MAP-priset om listpriset är lägre än MAP-priset. |
 | [!UICONTROL Strike Through Price (MSRP)] | The [!DNL Commerce] som representerar MSRP-priser. Om ditt Amazon listpris är lägre än MSRP visas en genomgång av MSRP-priset och listpriset. Den här inställningen används även för att beräkna&quot;Spara&quot;-beloppet och procentandelen, men den här funktionen gäller bara för listor som har vunnit [Buy Box](./buy-box-competitor-pricing.md) position. |

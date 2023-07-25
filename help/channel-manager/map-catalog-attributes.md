@@ -1,8 +1,9 @@
 ---
 title: Mappa katalogattribut
 description: 'Mappningsattribut för matchning av [DNL! Commerce]-produkter till befintlig [!DNL Walmart Marketplace] listor och synkronisera data mellan [!DNL Channel Manager] och [!DNL Walmart].'
+feature: Sales Channels, Merchandising, Products
 exl-id: 6678d81f-d167-460d-b656-d082d56f670c
-source-git-commit: a3ae579c0eda0c27bf8eab9d0ac12919eaad494b
+source-git-commit: 4670e9b25a840f86862c9cadaf9e6d3e70330b7d
 workflow-type: tm+mt
 source-wordcount: '219'
 ht-degree: 0%
@@ -36,8 +37,8 @@ Om katalogen inte har något matchande attribut, [lägga till eller konvertera e
 
    - Välj motsvarande attribut i dialogrutan [!DNL Commerce] lagringskatalog.
 
-      Följande exempel mappar [!UICONTROL Walmart Marketplace UPC] attribut till UPC-attributet i produktkatalogen.
+     Följande exempel mappar [!UICONTROL Walmart Marketplace UPC] attribut till UPC-attributet i produktkatalogen.
 
-      ![Mappningsattribut för produktmatchningsvillkor](assets/products-map-attributes-for-match.png){width="600" zoomable="yes"}
+     ![Mappningsattribut för produktmatchningsvillkor](assets/products-map-attributes-for-match.png){width="600" zoomable="yes"}
 
    - Välj **[!UICONTROL Save]**.

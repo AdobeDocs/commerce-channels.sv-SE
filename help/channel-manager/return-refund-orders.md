@@ -1,8 +1,9 @@
 ---
 title: Retur- och återbetalningsorder
 description: Instruktioner för att helt eller delvis återbetala returansökningar som mottagits från [!DNL Walmart Marketplace] från [!DNL Channel Manager] för Adobe Commerce och Magento Open Source.
+feature: Sales Channels, Orders, Shipping/Delivery, Customer Service
 exl-id: 45617011-4add-444c-819b-6bb4164d03e4
-source-git-commit: a3ae579c0eda0c27bf8eab9d0ac12919eaad494b
+source-git-commit: 8a1f95cdb8817cfcc6ffa96b584c66e680a1c282
 workflow-type: tm+mt
 source-wordcount: '1184'
 ht-degree: 0%
@@ -138,7 +139,7 @@ I följande scenarier beskrivs hur du utfärdar återbetalningar för olika type
 
    * Du kan granska returerna genom att välja **[!UICONTROL Returns]** -fliken.
 
-      Du kan även komma åt returinformation från [!UICONTROL Orders] sida. Sök efter [!UICONTROL Shipped] order som har en returbegäran. Välj sedan `Return requested` i [!UICONTROL Status Details] -kolumn för att visa och bearbeta begäran.
+     Du kan även komma åt returinformation från [!UICONTROL Orders] sida. Sök efter [!UICONTROL Shipped] order som har en returbegäran. Välj sedan `Return requested` i [!UICONTROL Status Details] -kolumn för att visa och bearbeta begäran.
 
 1. Hitta en retur med *[!UICONTROL Received]* status.
 
@@ -148,13 +149,13 @@ I följande scenarier beskrivs hur du utfärdar återbetalningar för olika type
 
    * Från [!UICONTROL Status Details] kolumn, markera **[!UICONTROL Create credit memo]** för att öppna sidan Orderinformation i [!DNL Commerce].
 
-      Om ordern inte har fakturerats visas ett felmeddelande på sidan Orderinformation som uppmanar dig att skapa en. Välj **[!UICONTROL Create invoice]**. Sedan [skapa och spara fakturan](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/order-management/invoices.html).
+     Om ordern inte har fakturerats visas ett felmeddelande på sidan Orderinformation som uppmanar dig att skapa en. Välj **[!UICONTROL Create invoice]**. Sedan [skapa och spara fakturan](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/order-management/invoices.html).
 
    * På sidan Orderinformation väljer du **[!UICONTROL Credit Memo]**.
 
    * I [!UICONTROL Items to Refund] i [!UICONTROL Credit Memo], uppdatera **[!UICONTROL Qty to refund]** och **[!UICONTROL Return to Stock]** Information om de artiklar som ingår i returbegäran.
 
-      Se till att bara returnera de objekt som anges i returbegäran.
+     Se till att bara returnera de objekt som anges i returbegäran.
 
    * Om du vill lägga till en kommentar anger du texten i **[!UICONTROL Credit Memo Comments]**
 

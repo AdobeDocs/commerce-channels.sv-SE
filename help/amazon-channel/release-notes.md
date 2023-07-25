@@ -1,8 +1,9 @@
 ---
 title: '''[!DNL Amazon Sales Channel] versionsinformation'
 description: Läs versionsinformationen om du vill ha information om alla [!DNL Amazon Sales Channel] releaser.
+feature: Sales Channels, Release Notes
 exl-id: 792782e0-9097-42f7-9fc0-509ece02e407
-source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
+source-git-commit: 7fff4c463551089fb64f2d5bf7bf23f272ce4663
 workflow-type: tm+mt
 source-wordcount: '1933'
 ht-degree: 0%
@@ -16,6 +17,7 @@ ht-degree: 0%
 > [!DNL Amazon sales channel] kan installeras på instanser med Magento Open Source, Adobe Commerce och Adobe Commerce i molninfrastrukturversionerna 2.3.x och 2.4.x. Tillägget stöds inte längre i Adobe Commerce 2.1, Magento Open Source 2.2 eller Magento 1.
 > <br>Support finns för [!DNL Amazon sales channel]  version 4.0.0 och 4.1.0 endast i Adobe Commerce 2.3.x.
 > <br>[!DNL Amazon sales channel] version 4.2.0+ är kompatibel med Adobe Commerce 2.3.x, men support finns endast för Adobe Commerce 2.4.x.
+>
 
 I versionsinformationen beskrivs den första versionen av [!DNL Amazon sales channel] och innehåller:
 

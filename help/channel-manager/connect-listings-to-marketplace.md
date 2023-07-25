@@ -1,8 +1,9 @@
 ---
 title: Anslut listor till Walmart
 description: '''Anslut listor för [!DNL Commerce] produkter till [!DNL Walmart Marketplace]att börja sälja."'
+feature: Sales Channels, Integration, Products, Tools and External Services
 exl-id: 78078b14-ebdd-415d-9486-66b0150167aa
-source-git-commit: a3ae579c0eda0c27bf8eab9d0ac12919eaad494b
+source-git-commit: 8a1f95cdb8817cfcc6ffa96b584c66e680a1c282
 workflow-type: tm+mt
 source-wordcount: '1095'
 ht-degree: 0%
@@ -125,11 +126,11 @@ Om du vill se nya produktlistor kontrollerar du i produktkatalogen att de produk
 
    - På sidan Produktkatalogobjekt väljer du **[!UICONTROL Add Items]**. Välj sedan **[!UICONTROL Add items in bulk]**.
 
-      ![Lägg till objekt i grupp, alternativ i Objektkonfiguration på Walmart Marketplace](assets/walmart-seller-account-add-items-bulk.png){width="600" zoomable="yes"}
+     ![Lägg till objekt i grupp, alternativ i Objektkonfiguration på Walmart Marketplace](assets/walmart-seller-account-add-items-bulk.png){width="600" zoomable="yes"}
 
    - På nedladdningssidan väljer du **[!UICONTROL Full Setup]**. Välj sedan en artikelkategori och hämta kategorimallen.
 
-      ![Hämta kategorimallsalternativ i Objektkonfiguration på Walmart Marketplace](assets/walmart-seller-account-full-setup-download.png){width="600" zoomable="yes"}
+     ![Hämta kategorimallsalternativ i Objektkonfiguration på Walmart Marketplace](assets/walmart-seller-account-full-setup-download.png){width="600" zoomable="yes"}
 
    - Kontrollera att mallen innehåller de obligatoriska och rekommenderade attributen för produktlistan.
 
@@ -141,9 +142,9 @@ Om du vill se nya produktlistor kontrollerar du i produktkatalogen att de produk
 
    - I [!UICONTROL Entity Attributes] konfigurera urvalskriterierna för export av produktdata.
 
-      Använd filter för att välja och konfigurera attributvärden som gäller för de produktkategorier som du säljer in. Se till att du inkluderar de attribut som krävs och rekommenderas för Walmart. (Se [Exportera data](https://experienceleague.adobe.com/docs/commerce-admin/systems/data-transfer/data-export.html) i Adobe [!DNL Commerce] Användarhandbok för detaljerade anvisningar.)
+     Använd filter för att välja och konfigurera attributvärden som gäller för de produktkategorier som du säljer in. Se till att du inkluderar de attribut som krävs och rekommenderas för Walmart. (Se [Exportera data](https://experienceleague.adobe.com/docs/commerce-admin/systems/data-transfer/data-export.html) i Adobe [!DNL Commerce] Användarhandbok för detaljerade anvisningar.)
 
-      Om du vill utesluta ett attribut från exporten markerar du [!UICONTROL **Exkludera**] i början av raden.
+     Om du vill utesluta ett attribut från exporten markerar du [!UICONTROL **Exkludera**] i början av raden.
 
 1. Bläddra till slutet av attributtabellen och markera [!UICONTROL **Fortsätt**] för att starta dataexporten.
 

@@ -1,8 +1,9 @@
 ---
 title: Amazon försäljningskanal - [!UICONTROL Listing Changes Log]
 description: Amazon Sales Channel tillhandahåller en logg över liständringar som hjälper dig att övervaka ändringarna i Amazon Seller-kontot.
+feature: Sales Channels, Logs
 exl-id: 9c4db5ac-cbfb-4584-b216-4aead2a28189
-source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
+source-git-commit: 7fff4c463551089fb64f2d5bf7bf23f272ce4663
 workflow-type: tm+mt
 source-wordcount: '186'
 ht-degree: 0%
@@ -22,7 +23,7 @@ Amazon hemsidor för försäljningskanaler delar några vanliga sidor [arbetsyte
 ## Standardkolumner
 
 | Kolumn | Beskrivning |
-|--- |--- |
+|--------------------------------|-------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Amazon Store Name] | Namnet på butiken som definierades när Amazon Store konfigurerades. Se [Butiksintegrering](./store-integration.md). |
 | [!UICONTROL Seller SKU] | SKU (Stock Keeping Unit) som Amazon har tilldelat en produkt för att identifiera produkt, alternativ, pris och tillverkare. |
 | [!UICONTROL Listing Action] | Den typ av ändring som gjordes i listan. |

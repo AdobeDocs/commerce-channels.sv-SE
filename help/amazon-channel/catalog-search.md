@@ -1,9 +1,9 @@
 ---
 title: Katalogsökning efter Amazon-listor
 description: Om du vill ange attributmatchning som hjälper dig att mappa kvalificerade Commerce-katalogprodukter med Amazon-listor uppdaterar du inställningarna för katalogsökning.
-redirect_from: /sales-channels/asc/ob-catalog-search.html
+feature: Sales Channels, Search, Catalogs, Products, Configuration
 exl-id: 9fcaa924-cba3-498f-8e21-1a1f91b1ad04
-source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
+source-git-commit: 801d4eee9e84b5c5f8b53397fbe8023ad54281e6
 workflow-type: tm+mt
 source-wordcount: '987'
 ht-degree: 0%
@@ -63,7 +63,7 @@ Om du vill lägga till attribut finns mer information i [Skapa produktattribut f
 ![Katalogsökning](assets/amazon-catalog-search.png){width="500" zoomable="yes"}
 
 | Fält | Beskrivning |
-|--- |--- |
+|--------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL ASIN] | Ett unikt block med 10 bokstäver och/eller siffror som identifierar objekt.<br><br>ASIN står för [!DNL Amazon Standard Identification Number]. Ett ASIN är ett unikt block med 10 bokstäver och/eller siffror som identifierar objekt. För böcker är ASIN samma som ISBN-numret, men för alla andra produkter skapas ett nytt ASIN när artikeln överförs till sin katalog. Du hittar ett ASIN-objekt på produktinformationssidan på Amazon, tillsammans med mer information om artikeln. |
 | [!UICONTROL EAN (European Article Number)] | En 12- eller 13-siffrig produktidentifieringskod. Det europeiska artikelnumret (EAN) är en streckkodsstandard, en 12- eller 13-siffrig produktidentifieringskod. Varje EAN är unik för att identifiera produkten, tillverkaren och dess attribut. EAN skrivs vanligtvis ut på en produktetikett eller förpackning som streckkod. Amazon kräver EAN-koder för att förbättra kvaliteten på sökresultaten och på katalogen. Du kan få EAN-nummer från tillverkaren. |
 | [!UICONTROL GCID (Global Catalog Identifier)] | GCID (Global Catalog Identifier) är ett ID för produkter som inte har någon UPC-kod eller ISBN. Med Amazon varumärkestrogister kan du registrera dig som varumärkesägare och skapa ett unikt ID för produkter som inte har en UPC eller ISBN. |

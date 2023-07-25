@@ -9,7 +9,7 @@ feature-set: Commerce
 git-repo: https://github.com/AdobeDocs/commerce-channels.sv-SE
 role: User
 index: true
-source-git-commit: da94226111c658048824453bb8f448b0f1e4c3b8
+source-git-commit: 850aece134084e108b324a964d7d834042c7ddfd
 workflow-type: tm+mt
 source-wordcount: '127'
 ht-degree: 0%
@@ -22,7 +22,7 @@ ht-degree: 0%
 The `metadata.md` -filen innehåller metadata på postnivå som skickas till användarhandboken `TOC.md` i svaret. Om du vill ändra metadata.md-innehåll för en användarhandbok gör du det i alla `TOC.md` -fil.
 
 | metadata | vad den gör |
-|--- |--- |
+|---------------------|---------------------------------------------------------------------------------|
 | solution-title | Används i artikelrubriken som länk |
 | solution-hub-url | Öppnar navet för hjälpfunktioner |
 | solution-icon | Visar lösningsikonen bredvid lösningsrubriken. Inte implementerat ännu |
@@ -34,6 +34,6 @@ The `metadata.md` -filen innehåller metadata på postnivå som skickas till anv
 I filen TOC.md
 
 | metadata | vad den gör |
-|--- |--- |
+|------------------|--------------------------------|
 | user-guide-title | Används i artikelrubriken som länk |
 | user-guide-url | Öppnar navet för hjälpfunktioner |

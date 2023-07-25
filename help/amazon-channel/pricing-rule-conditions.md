@@ -1,9 +1,9 @@
 ---
 title: Amazon försäljningskanal - Prisregelvillkor
 description: Använd prisregelvillkoren för att avgöra vilka produkter som är berättigade till listprisregeln.
-redirect_from: /sales-channels/asc/ob-pricing-rules-conditions.html
+feature: Sales Channels, Price Rules
 exl-id: 39b03a2e-15c6-4c56-b0e0-7c6823e95fa8
-source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
+source-git-commit: 7fff4c463551089fb64f2d5bf7bf23f272ce4663
 workflow-type: tm+mt
 source-wordcount: '756'
 ht-degree: 0%
@@ -54,27 +54,27 @@ Du kan skapa olika villkor genom att ändra kombinationen av dessa värden. I de
 
    - För **[!UICONTROL Product Attribute]** väljer du det attribut som du vill definiera som bas för villkoret. I det här exemplet är det markerade villkoret `Category`.
 
-      ![Prisregelvillkor - rad 2, del 2](assets/ob-price-rule-condition-2.png){width="500"}
+     ![Prisregelvillkor - rad 2, del 2](assets/ob-price-rule-condition-2.png){width="500"}
 
-      Det markerade villkoret visas i programsatsen, följt av ytterligare två feta länkar. Alternativen varierar beroende på vilket produktattribut du väljer.
+     Det markerade villkoret visas i programsatsen, följt av ytterligare två feta länkar. Alternativen varierar beroende på vilket produktattribut du väljer.
 
-      När du har angett attributet kan det inte redigeras. Om du vill ändra attributet måste du ta bort raden och lägga till det nya attributet. Du kan ta bort en villkorslinje genom att klicka på Ta bort (![Ikonen Ta bort](assets/btn-del-red.png) ikonen i slutet av raden.
+     När du har angett attributet kan det inte redigeras. Om du vill ändra attributet måste du ta bort raden och lägga till det nya attributet. Du kan ta bort en villkorslinje genom att klicka på Ta bort (![Ikonen Ta bort](assets/btn-del-red.png) ikonen i slutet av raden.
 
    - Klicka **[!UICONTROL is]** och välj den jämförelseoperator som beskriver villkoren för att produkterna ska uppfylla villkoren.
 
-      I det här exemplet är jämförelseoperatorn `is`. Vilka alternativ som är tillgängliga beror på vilket attribut du valde i föregående steg och kan innehålla olika jämförelsealternativ. Alternativen kan innehålla matchande värden, som inte inkluderar eller innehåller minst ett av värdena, och större än, lika med och mindre än ett numeriskt värde. I det här exemplet är alternativen `is` och `is not`.
+     I det här exemplet är jämförelseoperatorn `is`. Vilka alternativ som är tillgängliga beror på vilket attribut du valde i föregående steg och kan innehålla olika jämförelsealternativ. Alternativen kan innehålla matchande värden, som inte inkluderar eller innehåller minst ett av värdena, och större än, lika med och mindre än ett numeriskt värde. I det här exemplet är alternativen `is` och `is not`.
 
    - Klicka **[!UICONTROL ...]** och välj det attributvärde som villkoret baseras på. Alternativen beror på attributets inställning.
 
-      Du kan uppmanas att välja ett alternativ eller ange ett värde för villkoret. I det här exemplet visas fältet tomt. Om du vill välja kategori(er) för regeln klickar du på väljarikonen (![Väljarikon](assets/btn-chooser.png)) för att visa dina markeringsalternativ. Den här regeln gäller för _Böcker_ väljer du **[!UICONTROL Books]** kryssrutan. Kategorinumret fylls i. Klicka på den gröna bockmarkeringsikonen (![Kryssmarkeringsikon](assets/btn-check-mark-green.png)).
+     Du kan uppmanas att välja ett alternativ eller ange ett värde för villkoret. I det här exemplet visas fältet tomt. Om du vill välja kategori(er) för regeln klickar du på väljarikonen (![Väljarikon](assets/btn-chooser.png)) för att visa dina markeringsalternativ. Den här regeln gäller för _Böcker_ väljer du **[!UICONTROL Books]** kryssrutan. Kategorinumret fylls i. Klicka på den gröna bockmarkeringsikonen (![Kryssmarkeringsikon](assets/btn-check-mark-green.png)).
 
-      ![Prisregelvillkor - rad 2, del 3](assets/ob-price-rule-condition-3.png){width="500"}
+     ![Prisregelvillkor - rad 2, del 3](assets/ob-price-rule-condition-3.png){width="500"}
 
-      Det markerade objektet visas i satsen för att slutföra villkoret.
+     Det markerade objektet visas i satsen för att slutföra villkoret.
 
-      ![Prisregelvillkor - rad 2, del 4](assets/ob-price-rule-condition-4.png){width="500"}
+     ![Prisregelvillkor - rad 2, del 4](assets/ob-price-rule-condition-4.png){width="500"}
 
-      Detta exempelvillkor är klart. Detta innebär, som sagt, att alla produkter i [!DNL Commerce] katalog som har en definierad kategori med böcker (`4`) omfattas av denna prisregel. Du kan lägga till fler villkorslinjer för att ytterligare begränsa vilka produkter som omfattas.
+     Detta exempelvillkor är klart. Detta innebär, som sagt, att alla produkter i [!DNL Commerce] katalog som har en definierad kategori med böcker (`4`) omfattas av denna prisregel. Du kan lägga till fler villkorslinjer för att ytterligare begränsa vilka produkter som omfattas.
 
 1. Om du vill lägga till ytterligare en villkorslinje till satsen går du tillbaka till steg 1 och upprepar processen tills alla önskade villkor är klara.
 

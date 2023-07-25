@@ -1,8 +1,9 @@
 ---
 title: Skapa och redigera attribut för Amazon försäljningskanal
 description: Amazon Sales Channel tillhandahåller vyn Attribut som hjälper dig att granska aktuella Amazon-attribut och länkade Commerce-attribut.
+feature: Sales Channels, Products, Configuration
 exl-id: 3cd5fb7e-68a3-45fd-8f50-72d3cc0244b5
-source-git-commit: 077d680da3c98ef9a48958eb548a9d5c1612f74e
+source-git-commit: b2e608a633b760672044653a22be757ecffc9540
 workflow-type: tm+mt
 source-wordcount: '1072'
 ht-degree: 0%
@@ -64,7 +65,7 @@ När du har sparat kan du redigera attributet för att granska inställningarna 
 ![skapa attributinställningar](assets/amazon-attribute-settings-create.png){width="600" zoomable="yes"}
 
 | Fält | Beskrivning |
-|--- |--- |
+|-----------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Is Active] | Anger om attributet är live och synkroniseras aktivt mellan Amazon och [!DNL Commerce]. Ange till `Yes` för att säkerställa attributvärdena från Amazon och [!DNL Commerce] Håll dig synkad för det valda attributet. |
 | Välj produktattribut för Magento | Anger det markerade attribut som du vill länka till det angivna Amazon-attributnamnet. När du skapar ett attribut väljer du `Create New Magento Attribute`. |
 | [!UICONTROL Amazon Attribute Name] | Visar namnet på det Amazon-attribut som du har valt. Det markerade attributet länkar till det här Amazon-attributet. Du kan inte redigera det här värdet via [!DNL Commerce]. |
@@ -109,7 +110,7 @@ När du har sparat kan du redigera attributet för att granska inställningarna 
 ![redigera attributinställningar](assets/amazon-attribute-settings-edit.png){width="600" zoomable="yes"}
 
 | Fält | Beskrivning |
-|--- |--- |
+|-----------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Is Active] | Anger om attributet är live och synkroniseras aktivt mellan Amazon och [!DNL Commerce]. Ange till `Yes` för att säkerställa attributvärdena från Amazon och [!DNL Commerce] Håll dig synkad för det valda attributet. |
 | [!UICONTROL Select Magento Product Attribute] | Anger det markerade [!DNL Commerce] som du vill länka till det angivna Amazon-attributnamnet. Om du vill ändra den länkade [!DNL Commerce] väljer du ett annat attribut i listrutan. Värden synkroniseras enligt konfigurationer. |
 | [!UICONTROL Amazon Attribute Name] | Visar namnet på Amazon-attributet enligt definitionen i [!DNL Amazon Seller Central]. Den markerade [!DNL Commerce] attributlänkar till det här Amazon-attributet. Du kan inte redigera det här värdet via [!DNL Commerce]. |

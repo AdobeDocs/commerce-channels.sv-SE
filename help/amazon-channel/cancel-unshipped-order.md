@@ -1,8 +1,9 @@
 ---
 title: Avbryta en olevererad Amazon-order
 description: Avbryta en väntande eller delvis levererad beställning via din Amazon [!DNL Seller Central] konto.
+feature: Sales Channels, Orders, Shipping/Delivery
 exl-id: a6df09b7-7f62-47e5-a2d3-1761802255d0
-source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
+source-git-commit: 7fff4c463551089fb64f2d5bf7bf23f272ce4663
 workflow-type: tm+mt
 source-wordcount: '191'
 ht-degree: 0%
@@ -19,7 +20,6 @@ Beställningar från Amazon kan bara avbrytas om de finns i en `Unshipped` statu
 >
 >- Om du har [beställ import](./order-settings.md) aktiverad, beställningar hanteras i [[!DNL Commerce] orderarbetsflöde](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/order-management/orders/orders.html).
 >- If [beställ import](./order-settings.md) är inaktiverat måste du hantera dina beställningar i [!DNL Amazon Seller Central].
-
 
 ## Avbryt en beställning i `Unshipped` status
 

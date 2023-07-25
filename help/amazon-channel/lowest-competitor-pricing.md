@@ -1,8 +1,9 @@
 ---
 title: Amazon försäljningskanal - [!UICONTROL Lowest Competitor Pricing]
 description: The [!UICONTROL Amazon Sales Channel] ger [!UICONTROL Lowest Competitor Pricing] som hjälper dig att förstå prisplaceringen för dina konkurrenter på Amazon.
+feature: Sales Channels, Price Rules
 exl-id: 7784d36a-1286-4f92-9f67-b0fef04ad112
-source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
+source-git-commit: 7fff4c463551089fb64f2d5bf7bf23f272ce4663
 workflow-type: tm+mt
 source-wordcount: '251'
 ht-degree: 0%
@@ -32,7 +33,7 @@ The _[!UICONTROL Lowest Competitor Pricing]_på_[!UICONTROL Product Listing Deta
    Visar en lista över konkurrerande handlare på Amazon och deras respektive priser.
 
 | Kolumn | Beskrivning |
-|---|---|
+|----------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL ASIN] | Ett unikt block med 10 bokstäver och/eller siffror som identifierar objekt.<br><br>För böcker är ASIN samma som ISBN-numret, men för alla andra produkter skapas ett nytt ASIN när objektet överförs till din katalog. Du hittar ett objekts ASIN på produktinformationssidan tillsammans med ytterligare information om objektet (till exempel storlek, antal sidor eller antal skivor). |
 | [!UICONTROL Condition] | The [villkor](./product-listing-condition.md) av produkten. |
 | [!UICONTROL Fulfillment Channel] | Uppfyllandemetoden. |

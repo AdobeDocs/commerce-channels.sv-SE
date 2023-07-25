@@ -1,8 +1,9 @@
 ---
 title: Amazon försäljningskanal - förnyade produkter
 description: Om ditt Seller Central-konto är registrerat för det förnyade programmet kan du hantera dina förnyade listor i Amazon Sales Channel.
+feature: Sales Channels, Products
 exl-id: 1f828893-ca56-4457-bf8f-8e2d056515e8
-source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
+source-git-commit: 7fff4c463551089fb64f2d5bf7bf23f272ce4663
 workflow-type: tm+mt
 source-wordcount: '166'
 ht-degree: 0%

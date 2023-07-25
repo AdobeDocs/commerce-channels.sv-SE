@@ -1,8 +1,9 @@
 ---
 title: Ofullständiga Amazon-listor
 description: Amazon försäljningskanal ger [!UICONTROL Incomplete] kan du identifiera och uppfylla behörighetskraven för dina ofullständiga Amazon-listor.
+feature: Sales Channels, Products
 exl-id: f943c9cc-fa1d-4f3e-a3de-3a8d00f87890
-source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
+source-git-commit: 7fff4c463551089fb64f2d5bf7bf23f272ce4663
 workflow-type: tm+mt
 source-wordcount: '606'
 ht-degree: 0%
@@ -16,7 +17,7 @@ The _[!UICONTROL Incomplete]_-flikar [!DNL Commerce] katalogprodukter som uppfyl
 Det finns fyra möjliga orsaker till en ofullständig lista, som alla identifieras av dess status.
 
 | Status | Orsak | Åtgärd |
-|--- |--- |--- |
+|------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Villkor saknas | Amazon accepterar listor under olika förhållanden (som _Nytt_, _Renoverad_, _Används: Gilla nytt_) kräver ett definierat villkor. | Uppdatera nödvändig information manuellt [tilldela ett villkor](./amazon-manually-update-incomplete-listing.md#update-required-info-missing-condition) till en lista. |
 | Det går inte att tilldela till Amazon-listan | Det gick inte att matcha den här listan automatiskt med katalogen. Om ingen matchning hittas kan listan inte hanteras av Amazon Sales Channel | Uppdatera nödvändig information manuellt [tilldela ett ASIN](./amazon-manually-update-incomplete-listing.md#update-required-info-unable-to-assign-to-amazon-listing) till katalogprodukten för matchning till listan. |
 | Flera träffar hittades | Det gick inte att matcha den här listan automatiskt med katalogen. Om det finns flera möjliga matchningar måste du välja rätt matchning för produkten. | Uppdatera nödvändig information manuellt [välj en produktmatchning](./amazon-manually-update-incomplete-listing.md#update-required-info-multiple-matches-found) för produkten och dess lista. |
@@ -46,7 +47,7 @@ Under **[!UICONTROL Select]** i _[!UICONTROL Action]_kolumn:
 Amazon hemsidor för försäljningskanaler delar några vanliga sidor [arbetsytekontroller](./workspace-controls.md) som gör att du kan anpassa de data som visas.
 
 | Kolumn | Beskrivning |
-|--- |--- |
+|-----------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Amazon Seller SKU] | SKU (Stock Keeping Unit) som Amazon har tilldelat en produkt för att identifiera produkt, alternativ, pris och tillverkare. |
 | [!UICONTROL ASIN] | Ett unikt block med 10 bokstäver och/eller siffror som identifierar objekt.<br><br>ASIN står för [!DNL Amazon Standard Identification Number]. Ett ASIN är ett unikt block med 10 bokstäver och/eller siffror som identifierar objekt. För böcker är ASIN samma som ISBN-numret, men för alla andra produkter skapas ett nytt ASIN när artikeln överförs till sin katalog. Du hittar ett ASIN-objekt på produktinformationssidan på Amazon, tillsammans med mer information om artikeln. |
 | [!UICONTROL Product Listing Name] | Produktens namn. |

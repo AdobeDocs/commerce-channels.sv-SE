@@ -1,8 +1,9 @@
 ---
 title: Visa Amazon-order
 description: Visa dina order på Amazon Marketplace i Adobe Commerce eller Magento Open Source Admin.
+feature: Sales Channels, Orders
 exl-id: d7811604-8e15-4d1a-a0e7-9fa61c61ef5d
-source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
+source-git-commit: 7fff4c463551089fb64f2d5bf7bf23f272ce4663
 workflow-type: tm+mt
 source-wordcount: '587'
 ht-degree: 0%
@@ -91,11 +92,10 @@ Du kan använda filter i din orderlista i _[!UICONTROL Filter by]_-avsnitt. Gör
 >- Beroende på bredden på visningsfönstret kan överlappande text visas i kolumnerna. Om du vill expandera kolumnerna så att texten radbryts, breddar du fönstervyn.
 >- Vid filtrering med _[!UICONTROL Total]_, filtrera efter heltal. Om du anger ett decimalvärde kan det orsaka fel i resultatet.
 
-
 ### Standardkolumner
 
 | Kolumn | Beskrivning |
-|---|---|
+|----------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Filter by] | Finns endast i _[!UICONTROL All Orders]_vy.<br>Beställningslistan begränsas av:<ul><li>`Purchase Date (range)`</li><li>`Order Number`</li><li>`Buyer's Name`</li><li>`Total (range)`</li><li>`Status`</li></ul> |
 | [!UICONTROL Purchase Date] | Datum för köpet, enligt Amazon. |
 | [!UICONTROL Order Number] | Ordernumret som genereras av och tas emot från Amazon. Klicka på länken om du vill visa skärmen för beställningsinformation för Amazon. |

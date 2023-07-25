@@ -1,8 +1,9 @@
 ---
 title: Amazon försäljningskanal - Standardprisregelåtgärder
 description: Använd standardprisregelåtgärder för att öka eller minska ett listpris för Amazon i förhållande till Commerce-katalogpriset (eller priskällan).
+feature: Sales Channels, Price Rules
 exl-id: 91df6ef3-852b-478b-8b01-51dd437dd4f9
-source-git-commit: 077d680da3c98ef9a48958eb548a9d5c1612f74e
+source-git-commit: 7fff4c463551089fb64f2d5bf7bf23f272ce4663
 workflow-type: tm+mt
 source-wordcount: '336'
 ht-degree: 0%
@@ -49,7 +50,7 @@ Avsnitt i en standardprisregelåtgärd är:
 ![Standardprisregel](assets/ob-price-rule-action-standard-example.png){width="600" zoomable="yes"}
 
 | Fält | Beskrivning |
-|---|---|
+|--------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Rule Type] | Välj `Standard price rule`. |
 | [!UICONTROL Price Action] | Alternativ:<ul><li>**[!UICONTROL Decrease By]** - Välj när du vill ha den definierade [!DNL Commerce] Priskällvärdet som ska minskas innan det anges i Amazon.</li><li>**[!UICONTROL Increase By]** - Välj när du vill ha den definierade [!DNL Commerce] Priskällvärde som ska ökas innan det anges till Amazon.</li></ul> |
 | [!UICONTROL Apply] | Alternativ:<ul><li>**[!UICONTROL Apply as percentage]** - Välj när du vill ha den definierade [!DNL Commerce] priskällvärdet justerat med ett procenttal.</li><li>**[!UICONTROL Apply as fixed amount]** - Välj när du vill ha den definierade [!DNL Commerce] Priskällvärdet justerat med ett fast belopp.</li></ul> |

@@ -1,8 +1,9 @@
 ---
-title: Amazon försäljningskanal - [!UICONTROL Stock/Quantity]
+title: Amazon Sales Channel - [!UICONTROL Stock/Quantity]
 description: Så här styr du synkroniseringen av produktkvantitetsinformation från din Commerce Store till din [!DNL Amazon Seller Central] ska du uppdatera inställningarna för Stock/Kvantitet.
+feature: Sales Channels, Inventory
 exl-id: a8b7ab6c-393c-43c6-b5ef-68845177edff
-source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
+source-git-commit: 7fff4c463551089fb64f2d5bf7bf23f272ce4663
 workflow-type: tm+mt
 source-wordcount: '768'
 ht-degree: 0%
@@ -44,7 +45,7 @@ Kvantitet är ett regionalt attribut och baseras på **[!UICONTROL Amazon Market
 ![Inställningar för lager/kvantitet](assets/amazon-stock-quantity.png){width="600" zoomable="yes"}
 
 | Fält | Beskrivning |
-|---|---|
+|---------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Out-of-Stock Threshold] | Ange ett numeriskt värde för den lägsta kvantiteten av en produkt för att produkten ska kunna tas upp i Amazon (standardvärdet är `0`).<br><br>Om [!DNL Commerce] Produkten blir mindre än detta nummer, respektive Amazon-lista är inte tillgänglig för försäljning via Amazon. |
 | [!UICONTROL Maximum Listed Quantity] | Ange ett numeriskt värde för den kvantitet du vill visa i din Amazon-lista.<br><br>När en artikel säljs återpubliceras den kvantitet som anges här. Den här inställningen används vanligtvis när du inte hanterar produktlager.<br><br>Du kan t.ex. ange värdet för Högsta antal listade antal som `10`. Din faktiska kvantitet för en produkt är `80`. Eftersom du har angett det här värdet till `10`visas alltid den tillgängliga kvantiteten `10`. Tillgänglig kvantitet visas alltid med det definierade värdet, även när lagerkvantiteten är lägre. |
 | [!UICONTROL "Do Not Manage Stock" Quantity] | Ange ett värde för visningsmängden för dina Amazon-listor.<br><br>Amazon kräver att du publicerar en tillgänglig kvantitet. För [!DNL Commerce] produkter som inte är inställda på att hantera stockar men som du vill visa en lista på Amazon, publiceras listan med den tillgängliga kvantiteten av värdet som anges här. |

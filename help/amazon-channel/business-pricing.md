@@ -1,9 +1,11 @@
 ---
 title: "[!DNL (B2B) Business Price] för Amazon-listor"
 description: Du kan lista dina [!DNL Commerce] lagra produkter på Amazon Business-sajten (B2B) genom att göra affärer i din Amazon [!DNL Seller Central] konto.
-redirect_from: /sales-channels/asc/ob-business-pricing.html
+role: Admin
+level: Intermediate
+feature: Sales Channels, Configuration, B2B, Tools and External Services, Merchandising, Integration
 exl-id: 12a6cb2d-7a22-4b6d-9e94-ce91d564f42f
-source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
+source-git-commit: 7fff4c463551089fb64f2d5bf7bf23f272ce4663
 workflow-type: tm+mt
 source-wordcount: '547'
 ht-degree: 0%
@@ -47,7 +49,7 @@ För att dina produkter ska kunna listas på [!DNL Amazon Business (B2B)] måste
 ![Amazon företagspris (B2B)](assets/amazon-business-pricing.png){width="500" zoomable="yes"}
 
 | Fält | Beskrivning |
-|--- |--- |
+|----------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Enable Business Pricing] | Alternativ: <ul><li>**[!UICONTROL Disabled]** - (Standard) Välj när du inte vill aktivera försäljning för företag. När du väljer det här alternativet inaktiveras alla andra fält i det här avsnittet.</li><li>**[!UICONTROL Enabled]** - Välj när du vill att ditt företag ska kunna sälja. När du väljer det här alternativet sätts företagspriset till samma pris som listpriset när alla prisregler har tillämpats. Affärspriset följer webbplatsens prisnivå, om detta är aktiverat. Ett företagspris får inte vara mindre än $1.</li></ul> |
 | [!UICONTROL Enable Tiered Pricing] | (Obligatoriskt) Alternativ: <ul><li>**[!UICONTROL Disabled]** - (Standard) Välj när du vill ha samma listpris för alla orderkvantiteter. När du väljer det här alternativet, alla _[!UICONTROL Pricing Level]_fält i det här avsnittet är inaktiverade.</li><li>**[!UICONTROL Enabled]** - Välj när du vill aktivera priser som justeras baserat på orderkvantitet. När du väljer det här alternativet visas _[!UICONTROL Pricing Level]_fält är aktiverade.</li></ul> |
 | [!UICONTROL Pricing Level One-Five (qty/discount)] | När nivåpriser är aktiverade kan du definiera upp till fem kvantitet-/rabattinställningar som anger nivåpriset för dina företagslistor. På varje rad anger du tröskelvärdet för kvantitet och den rabattprocent som ska användas. Om du till exempel skriver `5` i första fältet på första raden och `5` i det andra fältet ger priset 5 % rabatt när ett annat företag köper minst fem. |

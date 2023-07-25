@@ -2,8 +2,9 @@
 title: Visa listinställningar för Amazon
 description: Använd listinställningarna för att definiera hur [!DNL Commerce] katalogprodukter listas på [!DNL Amazon Marketplace].
 redirect_from: /sales-channels/asc/ob-listing-settings.html
+feature: Sales Channels, Products, Merchandising, Configuration
 exl-id: 939babd0-8e6d-40b8-a42a-fc5c7dc3f98b
-source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
+source-git-commit: 7fff4c463551089fb64f2d5bf7bf23f272ce4663
 workflow-type: tm+mt
 source-wordcount: '247'
 ht-degree: 0%

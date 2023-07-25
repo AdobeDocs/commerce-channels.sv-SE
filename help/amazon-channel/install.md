@@ -1,8 +1,9 @@
 ---
 title: "Installera [!DNL Amazon Sales Channel] extension"
 description: Integrera [!DNL Commerce] katalog med [!DNL Amazon Seller Accounts] och sälja genom [!DNL Amazon Marketplace]hämtar och installerar tillägget Amazon Sales Channel.
-exl-id: ebf22e28-b6a2-420b-80ca-2d750839286c
-source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
+role: Admin, Developer
+feature: Sales Channels, Install, Integration, Tools and External Services
+source-git-commit: 801d4eee9e84b5c5f8b53397fbe8023ad54281e6
 workflow-type: tm+mt
 source-wordcount: '496'
 ht-degree: 0%
@@ -39,7 +40,7 @@ Mer information om hur du använder Composer för den här processen finns i [in
 
 1. Använd namn- och versionsinformation för att uppdatera tjänstanslutningsinformationen i din `composer.json` -fil.
 
-   - Lägg till tilläggets namn och version i din `composer.json` -fil.
+   - Lägg till tilläggets namn och version i `composer.json` -fil.
 
    - Navigera till [!DNL Commerce] projektkatalog och uppdatera `composer.json` -fil.
 
@@ -50,7 +51,6 @@ Mer information om hur du använder Composer för den här processen finns i [in
    - Ange [autentiseringsnycklar](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/authentication-keys.html). Din offentliga nyckel är ditt användarnamn; din privata nyckel är ditt lösenord.
 
    - Vänta tills Composer har uppdaterat dina projektberoenden och kontrollera att inga fel uppstår.
-
 
 1. [Verifiera tillägget](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/tutorials/extensions.html).
 

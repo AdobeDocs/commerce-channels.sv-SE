@@ -1,8 +1,10 @@
 ---
 title: Standardinställningar för Amazon-listor
 description: Ändra standardinställningarna för Commerce för att anpassa Amazon Sales Channel för din butik.
+role: Admin
+feature: Sales Channels, Integration, Configuration
 exl-id: 368e5e8e-2bf9-4f9c-86c6-6d375f8a8720
-source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
+source-git-commit: 801d4eee9e84b5c5f8b53397fbe8023ad54281e6
 workflow-type: tm+mt
 source-wordcount: '468'
 ht-degree: 0%
@@ -32,7 +34,7 @@ Lagringsinställningarna inkluderar:
 ## Vissa viktiga standardinställningar
 
 | Inställning | Standard | Beskrivning | Plats |
-|--- |--- |--- |--- |
+|----------------------------------------|----------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------|
 | [!UICONTROL Import Amazon Orders] | `Enabled` | Skapar motsvarande [!DNL Commerce] beställningar när nya beställningar tas emot från Amazon, vilket gör att beställningar kan hanteras i [[!DNL Commerce] Beställningar](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/order-management/orders/orders.html) arbetsflöde. När `Disabled`beställer Amazon importorderinformation för granskning, men beställningarna måste hanteras i [!DNL Amazon Seller Central] konto. | [Orderinställningar](./order-settings.md) |
 | [!UICONTROL Customer Creation] | `No Customer Creation (guest)` | Kunddata från Amazon beställningar importeras inte till [!DNL Commerce] databas. Importerade Amazon-beställningar behandlas som en gästutcheckning. Om du vill skapa [!DNL Commerce] kunddatabas bör du ändra den här inställningen till `Build New Customer Account`. | [Orderinställningar](./order-settings.md) |
 | [!UICONTROL Automatic List Action] | `Automatically List Eligible Products` | [!DNL Commerce] katalogprodukter (som uppfyller Amazon behörighetskrav) för att automatiskt publicera till Amazon och skapa Amazon-listor. Om du vill granska och publicera dina produkter manuellt bör du ändra den här inställningen till `Do Not Automatically List Eligible Products`. Produkter som väntar på manuell publicering visas på [_Klar för lista_](./ready-to-list.md) -fliken. | [Produktlistningsåtgärder](./product-listing-actions.md) |

@@ -1,8 +1,9 @@
 ---
 title: 'Exempel: Definiera ett villkor för Amazon listregler'
 description: När du skapar dina listregler definierar du villkor för att identifiera de Commerce-katalogprodukter som ska listas på Amazon Marketplace.
+feature: Sales Channels, Products, Configuration
 exl-id: 8a48acfc-d31b-4919-bef7-8c300f0f9d94
-source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
+source-git-commit: 7fff4c463551089fb64f2d5bf7bf23f272ce4663
 workflow-type: tm+mt
 source-wordcount: '747'
 ht-degree: 0%
@@ -51,17 +52,17 @@ Du kan skapa olika villkor genom att ändra kombinationen av dessa värden. I de
 
    - **[!UICONTROL Conditions Combination]** - Välj att låta dig skapa en annan uppsättning `All/Any` och `True/False` villkor i den befintliga uppsättningen.
 
-      ![Villkorskombination](assets/ob-conditions-combinations.png){width="500"}
+     ![Villkorskombination](assets/ob-conditions-combinations.png){width="500"}
 
    - **[!UICONTROL Product Attribute]** - Produktattributen beror på attributets inställning. För att ett attribut ska visas i listan måste det konfigureras för användning i kampanjregelvillkor. Se _Använd för villkor för kampanjregel_ in [Produktattribut](https://experienceleague.adobe.com/docs/commerce-admin/catalog/product-attributes/product-attributes.html).
 
-      I listan under **[!UICONTROL Product Attribute]** väljer du det attribut som du vill använda som grund för villkoret. I det här exemplet är det markerade villkoret `Amazon FBA`.
+     I listan under **[!UICONTROL Product Attribute]** väljer du det attribut som du vill använda som grund för villkoret. I det här exemplet är det markerade villkoret `Amazon FBA`.
 
-      ![Villkorslinje 2, del 2](assets/ob-condition-attribute-dropdown.png){width="350"}
+     ![Villkorslinje 2, del 2](assets/ob-condition-attribute-dropdown.png){width="350"}
 
-      Det markerade villkoret visas i programsatsen, följt av ytterligare två feta länkar. Alternativen varierar beroende på vilket produktattribut du väljer.
+     Det markerade villkoret visas i programsatsen, följt av ytterligare två feta länkar. Alternativen varierar beroende på vilket produktattribut du väljer.
 
-      När du har angett attributet kan det inte ändras. Om du vill ändra attributet måste du ta bort raden och lägga till det nya attributet. Du kan ta bort en villkorslinje genom att klicka på Ta bort (![Ikonen Ta bort](assets/btn-del-red.png)) i slutet av raden.
+     När du har angett attributet kan det inte ändras. Om du vill ändra attributet måste du ta bort raden och lägga till det nya attributet. Du kan ta bort en villkorslinje genom att klicka på Ta bort (![Ikonen Ta bort](assets/btn-del-red.png)) i slutet av raden.
 
       1. Klicka **[!UICONTROL is]** och välj den jämförelseoperator som beskriver villkoren för att produkterna ska uppfylla villkoren.
 
@@ -74,6 +75,7 @@ Du kan skapa olika villkor genom att ändra kombinationen av dessa värden. I de
          Det markerade objektet visas i satsen för att slutföra villkoret.
 
          ![Villkorsrad 2, del 3](assets/ob-listing-rule-condition-is.png){width="500"}
+
    Detta villkor är uppfyllt. Detta innebär, som sagt, att alla produkter i [!DNL Commerce] katalog som har Amazon FBA-attributet inställt på värdet `Yes` är berättigade att föras till Amazon för att vara med i respektive butik. Du kan lägga till fler villkorslinjer för att ytterligare begränsa vilka produkter som omfattas.
 
 1. Om du vill lägga till ytterligare en villkorslinje i satsen, går du tillbaka till steg 1 och upprepar processen tills alla önskade villkor är klara.

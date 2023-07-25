@@ -3,8 +3,11 @@ title: '''[!DNL Amazon Sales Channel] Guide'
 description: Omfattande information om [!DNL Amazon sales channel] för Adobe Commerce- och Magento Open Source-administratörer, inklusive installation och introduktion
 seo-title: Adobe Commerce Amazon Sales Channel Guide
 seo-description: Describes how to use [!DNL Amazon sales channel] with Adobe Commerce or Magento Open Source.
+role: Leader, Admin, User
+level: Intermediate
+recommendations: noCatalog
 exl-id: ad3e2353-313b-4c40-800a-b1ef5f0d8235
-source-git-commit: 901d856067cd9d236727edc8bde354820791c411
+source-git-commit: 7fff4c463551089fb64f2d5bf7bf23f272ce4663
 workflow-type: tm+mt
 source-wordcount: '542'
 ht-degree: 0%
@@ -27,7 +30,7 @@ Den här guiden granskar några grundläggande [!DNL Amazon Seller Central] info
 >Handboken behandlar inte kärnfunktionerna i Adobe Commerce och Magento Open Source.
 
 | Yta | Beskrivning |
-|----|----|
+|-------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [Introduktion till Amazon försäljningskanal](./overview.md) | Läs mer om grunderna för Amazon försäljningskanaler, viktiga funktioner, metodtips med mera. |
 | [Införliva Amazon försäljningskanal](./amazon-onboarding-home.md) | Skapa snabbt Amazon-butiker och integrera med [!DNL Amazon Seller Central]. Få igång er Amazon-försäljningskanal och börja sälja. |
 | [Amazon säljkanal - startsida](./amazon-sales-channel-home.md) | Läs mer om startsidan för din Amazon-försäljningskanal och vilka alternativ och uppgifter som finns. Se översiktsinformation om Amazon butiker och få tillgång till butiksinformation och inställningar. |
@@ -40,7 +43,7 @@ Den här guiden granskar några grundläggande [!DNL Amazon Seller Central] info
 ## Ytterligare dokumentation
 
 | Dokumentationsresurs | Beskrivning |
-|----------------------- | ----------- |
+|---------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [Adobe Commerce 2.4 Merchant Documentation](https://experienceleague.adobe.com/docs/commerce-admin/user-guides/home.html) | Handläggning för både Adobe Commerce och Magento Open Source |
 | [Services for Adobe Commerce Documentation](https://experienceleague.adobe.com/docs/commerce-merchant-services/user-guides/home.html) | Dokumentation till stöd för en samling tjänster som hjälper handlare att integrera viktiga komponenter i sin verksamhet med sin butik. |
 | [Handbok för Commerce on Cloud Infrastructure](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/overview.html) | Stegvisa procedurer för att distribuera Adobe Commerce på en hanterad, automatiserad värdmolnplattform. |

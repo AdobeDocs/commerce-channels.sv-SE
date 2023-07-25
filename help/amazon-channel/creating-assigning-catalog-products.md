@@ -1,8 +1,9 @@
 ---
 title: Skapa och tilldela produkter för Amazon försäljningskanal
 description: Amazon Sales Channel tillhandahåller [!UICONTROL New Third Party] för att skapa och tilldela matchande Commerce-katalogprodukter med Amazon-listor.
+feature: Sales Channels, Products, Configuration
 exl-id: de000e80-7546-44d2-905e-28664b24f028
-source-git-commit: 077d680da3c98ef9a48958eb548a9d5c1612f74e
+source-git-commit: 7fff4c463551089fb64f2d5bf7bf23f272ce4663
 workflow-type: tm+mt
 source-wordcount: '1094'
 ht-degree: 0%
@@ -51,27 +52,27 @@ Produkten och listan överensstämmer nu. Amazon försäljningskanal kan nu dela
 
    - Ange **[!UICONTROL Enable Product(s)]** växla till `Yes` eller `No` (obligatoriskt).
 
-      |Ja|Välj om du vill att produkten ska vara berättigad till din [!DNL Commerce] butiksförsäljning.| |Nej|Välj att inte göra produkten tillgänglig för din [!DNL Commerce] butiksförsäljning.|
+     |Ja|Välj om du vill att produkten ska vara berättigad till din [!DNL Commerce] butiksförsäljning.| |Nej|Välj att inte göra produkten tillgänglig för din [!DNL Commerce] butiksförsäljning.|
 
    - För **[!UICONTROL Categories]**, tilldela en kategori för produkten (valfritt).
 
-      Klicka på nedpilen och markera en kategorikryssruta för att välja produktkategori. Klicka **[!UICONTROL Done]** när du är klar.
+     Klicka på nedpilen och markera en kategorikryssruta för att välja produktkategori. Klicka **[!UICONTROL Done]** när du är klar.
 
    - För **[!UICONTROL Website Ids]** väljer du den webbplats (storefront) som produkten ska kopplas till.
 
-      Vilka alternativ som finns i listan beror på [!DNL Commerce] [lagringskonfiguration](https://experienceleague.adobe.com/docs/commerce-admin/start/setup/websites-stores-views.html) inställningar.
+     Vilka alternativ som finns i listan beror på [!DNL Commerce] [lagringskonfiguration](https://experienceleague.adobe.com/docs/commerce-admin/start/setup/websites-stores-views.html) inställningar.
 
    - För **[!UICONTROL Attribute Set Id]** (obligatoriskt) väljer du ett alternativ.
 
-      `Default` är standardvalet. Vilka alternativ som finns i listan beror på [!DNL Commerce] [attributuppsättningar](https://experienceleague.adobe.com/docs/commerce-admin/catalog/product-attributes/create/attribute-sets.html) du har konfigurerat.
+     `Default` är standardvalet. Vilka alternativ som finns i listan beror på [!DNL Commerce] [attributuppsättningar](https://experienceleague.adobe.com/docs/commerce-admin/catalog/product-attributes/create/attribute-sets.html) du har konfigurerat.
 
    - För **[!UICONTROL Visibility]** väljer du ett alternativ för den nya produkten.
 
-      |**[!UICONTROL Not Visible Individually]** (standard)|Produkten ingår inte i din butikslista, men den kan finnas som en variant av en annan produkt.| |**[!UICONTROL Catalog]**|Produkten visas i kataloglistorna.| |**[!UICONTROL Search]**|Produkten är tillgänglig för sökåtgärder.| |**[!UICONTROL Catalog and Search]**|Produkten ingår i kataloglistor och är tillgänglig för sökåtgärder.|
+     |**[!UICONTROL Not Visible Individually]** (standard)|Produkten ingår inte i din butikslista, men den kan finnas som en variant av en annan produkt.| |**[!UICONTROL Catalog]**|Produkten visas i kataloglistorna.| |**[!UICONTROL Search]**|Produkten är tillgänglig för sökåtgärder.| |**[!UICONTROL Catalog and Search]**|Produkten ingår i kataloglistor och är tillgänglig för sökåtgärder.|
 
    - För **[!UICONTROL Assign Tax Class]** väljer du ett alternativ för produkten.
 
-      Vilka alternativ som visas i den här listan beror på [momsklasser](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/site-store/taxes/tax-class.html) du har konfigurerat.
+     Vilka alternativ som visas i den här listan beror på [momsklasser](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/site-store/taxes/tax-class.html) du har konfigurerat.
 
    - När du är klar klickar du på **[!UICONTROL Create Catalog Products]**.
 
@@ -96,27 +97,27 @@ Katalogprodukten skapas i [!DNL Commerce] och tilldelas till den Amazon-lista so
 
    - Ange **[!UICONTROL Enable Product(s)]** växla till `Yes` eller `No` (obligatoriskt).
 
-      |Ja|Välj om du vill att produkten ska vara berättigad till din [!DNL Commerce] butiksförsäljning.| |Nej|Välj att inte göra produkten tillgänglig för din [!DNL Commerce] butiksförsäljning.|
+     |Ja|Välj om du vill att produkten ska vara berättigad till din [!DNL Commerce] butiksförsäljning.| |Nej|Välj att inte göra produkten tillgänglig för din [!DNL Commerce] butiksförsäljning.|
 
    - För **[!UICONTROL Categories]**, tilldela en kategori för produkten (valfritt).
 
-      Klicka på nedpilen och markera en kategorikryssruta för att välja produktkategori. Klicka **Klar** när du är klar.
+     Klicka på nedpilen och markera en kategorikryssruta för att välja produktkategori. Klicka **Klar** när du är klar.
 
    - För **[!UICONTROL Website Ids]** väljer du den webbplats (storefront) som produkten ska kopplas till.
 
-      Vilka alternativ som finns i listan beror på [!DNL Commerce] [lagringskonfiguration](https://experienceleague.adobe.com/docs/commerce-admin/start/setup/websites-stores-views.html) inställningar.
+     Vilka alternativ som finns i listan beror på [!DNL Commerce] [lagringskonfiguration](https://experienceleague.adobe.com/docs/commerce-admin/start/setup/websites-stores-views.html) inställningar.
 
    - För **[!UICONTROL Attribute Set Id]** (obligatoriskt) väljer du ett alternativ.
 
-      `Default` är standardvalet. Vilka alternativ som finns i listan beror på [!DNL Commerce] [attributuppsättningar](https://experienceleague.adobe.com/docs/commerce-admin/catalog/product-attributes/create/attribute-sets.html) du har konfigurerat.
+     `Default` är standardvalet. Vilka alternativ som finns i listan beror på [!DNL Commerce] [attributuppsättningar](https://experienceleague.adobe.com/docs/commerce-admin/catalog/product-attributes/create/attribute-sets.html) du har konfigurerat.
 
    - För **[!UICONTROL Visibility]** väljer du ett alternativ för den nya produkten.
 
-      |**[!UICONTROL Not Visible Individually]** (standard)|Produkten ingår inte i din butikslista, men den kan finnas som en variant av en annan produkt.| |**[!UICONTROL Catalog]**|Produkten visas i kataloglistorna.| |**[!UICONTROL Search]**|Produkten är tillgänglig för sökåtgärder.| |**[!UICONTROL Catalog and Search]**|Produkten ingår i kataloglistor och är tillgänglig för sökåtgärder.|
+     |**[!UICONTROL Not Visible Individually]** (standard)|Produkten ingår inte i din butikslista, men den kan finnas som en variant av en annan produkt.| |**[!UICONTROL Catalog]**|Produkten visas i kataloglistorna.| |**[!UICONTROL Search]**|Produkten är tillgänglig för sökåtgärder.| |**[!UICONTROL Catalog and Search]**|Produkten ingår i kataloglistor och är tillgänglig för sökåtgärder.|
 
    - För **[!UICONTROL Assign Tax Class]** väljer du ett alternativ för produkten.
 
-      Vilka alternativ som visas i den här listan beror på [momsklasser](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/site-store/taxes/tax-class.html) du har konfigurerat.
+     Vilka alternativ som visas i den här listan beror på [momsklasser](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/site-store/taxes/tax-class.html) du har konfigurerat.
 
    - När du är klar klickar du på **[!UICONTROL Create Catalog Products]**.
 
@@ -125,7 +126,7 @@ Katalogprodukterna skapas i [!DNL Commerce] och tilldelas till den Amazon-lista 
 ![Skapa Commerce Catalog-produkt](assets/amazon-magento-catalog-product.png){width="600" zoomable="yes"}
 
 | Fält | Beskrivning |
-|--- |--- |
+|--------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Enable Product(s)] | (Obligatoriskt) Om det här alternativet är aktiverat visas produkten i [!DNL Commerce] storefront. Om den är inaktiverad visas inte produkten i [!DNL Commerce] storefront. |
 | [!UICONTROL Categories] | Du kan ange namnet på kategorin för den nya produkten eller välja en kategori genom att klicka på nedpilen för att visa dina alternativ. Alternativen beror på [kategorier](https://experienceleague.adobe.com/docs/commerce-admin/catalog/categories/create/category-create.html) konfiguration. |
 | [!UICONTROL Website Ids] | (Obligatoriskt) Välj den webbplats (storefront) som produkten ska kopplas till. Alternativen beror på [!DNL Commerce] [lagringskonfiguration](https://experienceleague.adobe.com/docs/commerce-admin/start/setup/websites-stores-views.html) inställningar |

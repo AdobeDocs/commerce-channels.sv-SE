@@ -1,10 +1,11 @@
 ---
 title: '''Anslut till [!DNL Commerce] Tjänster'
 description: Ansluta kanalhanteraren till [!DNL Commerce] tjänster för att möjliggöra datasynkronisering och kommunikation mellan [!DNL Commerce] -instans, Channel Manager och andra stödtjänster.'
-role: User
+role: Admin, Developer
 level: Intermediate
+feature: Sales Channels, Install, Integration
 exl-id: 97da2142-ecef-44dc-91d8-5dc55c713d31
-source-git-commit: a3ae579c0eda0c27bf8eab9d0ac12919eaad494b
+source-git-commit: 4670e9b25a840f86862c9cadaf9e6d3e70330b7d
 workflow-type: tm+mt
 source-wordcount: '280'
 ht-degree: 0%
@@ -22,7 +23,7 @@ The [!DNL Commerce Services Connector] integrerar Channel Manager-tjänsten med 
 
 - **Handelskonto**-Installera programvaran på [!DNL Commerce] -instanser måste du ha ett konto med ägar- eller administratörsåtkomst till [!DNL Commerce] plattform.
 
-   Kontoägare och superanvändare kan skapa administratörskonton från [!DNL Commerce] -instans eller från kommandoraden med [!DNL Commerce] CLI, kommando `admin:user:create`.
+  Kontoägare och superanvändare kan skapa administratörskonton från [!DNL Commerce] -instans eller från kommandoraden med [!DNL Commerce] CLI, kommando `admin:user:create`.
 
 - **Adobe Commerce Production API Key**-Den [key](https://experienceleague.adobe.com/docs/commerce-merchant-services/user-guides/integration-services/saas.html#genapikey) aktiverar API-åtkomst till tjänster som krävs av Channel Manager. Du behöver offentliga och privata autentiseringsuppgifter för den här nyckeln.
 

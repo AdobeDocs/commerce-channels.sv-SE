@@ -1,8 +1,9 @@
 ---
 title: Amazon försäljningskanal - [!UICONTROL Listing Rules]
 description: Använd listregler för att bestämma vilka Commerce-katalogprodukter som publiceras som Amazon Marketplace-listor.
+feature: Sales Channels, Products
 exl-id: b28a625b-64cf-4119-98bb-f1ea33043c8f
-source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
+source-git-commit: 7fff4c463551089fb64f2d5bf7bf23f272ce4663
 workflow-type: tm+mt
 source-wordcount: '954'
 ht-degree: 0%
@@ -38,7 +39,7 @@ Dina listregler synkroniseras kontinuerligt med din [!DNL Commerce] katalog. Nä
 Se [Exempel: Definiera ett villkor](./ob-define-condition-example.md).
 
 | Fält | Beskrivning |
-|---|---|
+|-------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Websites] | Vilka alternativ som är tillgängliga beror på [webbplatser](https://experienceleague.adobe.com/docs/commerce-admin/start/setup/websites-stores-views.html) du har konfigurerat i [!DNL Commerce] konfiguration. Välj webbplats för de produkter som ingår i listan på Amazon. Det går bara att välja en webbplats eftersom varje webbplats kräver en unik Amazon-butik som skapats i Amazon försäljningskanal. |
 | [!UICONTROL Conditions] | Används för att definiera [!DNL Commerce] attribut för produktberättigande i Amazon. Se [Exempel: Definiera ett villkor](./ob-define-condition-example.md). |
 
@@ -67,7 +68,7 @@ De potentiella Amazon-listorna finns på _[!UICONTROL Listing Preview]_sida på 
 
 - **[!UICONTROL Ineligible Listings]** - De listade produkterna kan inte tas upp i Amazon baserat på dina nuvarande regler och villkor.
 
-   Ej berättigade produkter publiceras inte till Amazon. Om en produkt som inte uppfyller kraven redan finns i Amazon och du matchar Amazon lista med [!DNL Commerce] katalogprodukt, kvantiteten för Amazon-listan ändras till `0` för att förhindra försäljning av produkten. Information om hur du tar bort en lista manuellt finns i [Avslutar en Amazon-lista](./end-listings-manually.md). Produkter som inte uppfyller Amazon krav listas inte här. Dessa produkter är listade på [Fliken Inaktiva listor](./inactive-listings.md).
+  Ej berättigade produkter publiceras inte till Amazon. Om en produkt som inte uppfyller kraven redan finns i Amazon och du matchar Amazon lista med [!DNL Commerce] katalogprodukt, kvantiteten för Amazon-listan ändras till `0` för att förhindra försäljning av produkten. Information om hur du tar bort en lista manuellt finns i [Avslutar en Amazon-lista](./end-listings-manually.md). Produkter som inte uppfyller Amazon krav listas inte här. Dessa produkter är listade på [Fliken Inaktiva listor](./inactive-listings.md).
 
 - **[!UICONTROL Eligible Listings]** - De listade produkterna kan komma i fråga för Amazon baserat på dina nuvarande regler och villkor och kan också komma i fråga enligt Amazon krav. Den här listan innehåller befintliga Amazon-listor som importeras (om du har **Importera tredjepartslistor** ange till `Import Listing` in [Listinställningar](./third-party-listing-settings.md)).
 
@@ -94,7 +95,7 @@ De potentiella Amazon-listorna finns på _[!UICONTROL Listing Preview]_sida på 
 ### Visar poster för förhandsgranskning
 
 | Fält | Beskrivning |
-|--- |--- |
+|----------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Product ID] | Det unika, sekventiella numret som tilldelas till en [!DNL Commerce] katalogprodukt när den läggs till. |
 | [!UICONTROL Thumbnail] | Visar en miniatyrbild av huvudproduktbilden. |
 | [!UICONTROL Name] | Namnet på produkten som hanteras i [!DNL Commerce] [produktrutnät](https://experienceleague.adobe.com/docs/commerce-admin/catalog/products/products-list.html). |

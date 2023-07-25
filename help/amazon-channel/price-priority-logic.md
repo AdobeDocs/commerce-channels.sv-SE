@@ -1,8 +1,9 @@
 ---
 title: Amazon försäljningskanal - Prioritetslogik
 description: Amazon försäljningskanal prioriterar när det gäller att fastställa det publicerade priset för en Amazon-lista.
+feature: Sales Channels, Price Rules
 exl-id: 3aa5ce5e-bb8b-4f9e-ae95-d961565474bd
-source-git-commit: 077d680da3c98ef9a48958eb548a9d5c1612f74e
+source-git-commit: 7fff4c463551089fb64f2d5bf7bf23f272ce4663
 workflow-type: tm+mt
 source-wordcount: '414'
 ht-degree: 4%
@@ -23,8 +24,8 @@ Om produktpriset är inställt på `Use Default`, används standardpriset istäl
 
 ## Exempel 1
 
-|  | Webbplatsprioritet | Pris (webbplats) | Använd standard |
-|---|---|---|---|
+|         | Webbplatsprioritet | Pris (webbplats) | Använd standard |
+|---------|------------------|-----------------|-------------|
 | Standard | 0 | $31.99 | -- |
 | Butik 1 | 1 | $24.99 | Nej |
 | Butik 2 | 2 | $27.99 | Ja |
@@ -35,8 +36,8 @@ Om produktpriset är inställt på `Use Default`, används standardpriset istäl
 
 ## Exempel 2
 
-|  | Webbplatsprioritet | Priswebbplats | Använd standard |
-|---|---|---|---|
+|         | Webbplatsprioritet | Priswebbplats | Använd standard |
+|---------|------------------|---------------|-------------|
 | Standard | 0 | $31.99 | -- |
 | Butik 1 | 1 | $24.99 | Ja |
 | Butik 2 | 2 | $27.99 | Nej |
@@ -48,8 +49,8 @@ Om produktpriset är inställt på `Use Default`, används standardpriset istäl
 
 ## Exempel 3
 
-|  | Webbplatsprioritet | Priswebbplats | Använd standard |
-|---|---|---|---|
+|         | Webbplatsprioritet | Priswebbplats | Använd standard |
+|---------|------------------|---------------|-------------|
 | Standard | 0 | $31.99 | $30.00 |
 | Butik 1 | 1 | $24.99 | -- |
 | Butik 2 | 2 | $27.99 | $20.00 |

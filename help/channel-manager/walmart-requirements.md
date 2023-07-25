@@ -1,8 +1,10 @@
 ---
 title: '''[!DNL Walmart] Krav'
 description: '''Verifiera att du har rätt [!DNL Walmart Marketplace]information och resurser som kan integreras med Channel Manager."'
+role: Leader, Admin, Developer
+feature: Sales Channels, Install, User Account, Tools and External Services
 exl-id: c4f247e8-280a-4595-a6c8-cf8b732d7aab
-source-git-commit: a3ae579c0eda0c27bf8eab9d0ac12919eaad494b
+source-git-commit: 4670e9b25a840f86862c9cadaf9e6d3e70330b7d
 workflow-type: tm+mt
 source-wordcount: '335'
 ht-degree: 0%
@@ -17,7 +19,7 @@ ht-degree: 0%
 
 * En API-nyckel för att ansluta Adobe Commerce eller Magento Open Source till [!DNL Walmart Marketplace]
 
-   The [!DNL Walmart Marketplace] API-nyckeln möjliggör integrering mellan [!DNL Channel Manager] för Adobe [!DNL Commerce] eller Magento Open Source och Walmart Marketplace. Konfigurera API-nyckeln i Seller Central innan du startar Channel Manager-introduktionsprocessen.
+  The [!DNL Walmart Marketplace] API-nyckeln möjliggör integrering mellan [!DNL Channel Manager] för Adobe [!DNL Commerce] eller Magento Open Source och Walmart Marketplace. Konfigurera API-nyckeln i Seller Central innan du startar Channel Manager-introduktionsprocessen.
 
 ## Konfigurera en [!DNL Walmart Seller] konto
 

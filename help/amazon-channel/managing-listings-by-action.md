@@ -1,8 +1,9 @@
 ---
 title: Hantera Amazon produktlistor efter åtgärd
 description: När du hanterar dina Amazon-listor kan du använda en åtgärd på en eller flera listor.
+feature: Sales Channels, Products
 exl-id: 1cbf16fb-15eb-484b-bea7-28017a0d0c60
-source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
+source-git-commit: 7fff4c463551089fb64f2d5bf7bf23f272ce4663
 workflow-type: tm+mt
 source-wordcount: '654'
 ht-degree: 0%
@@ -20,7 +21,7 @@ Alternativ under **[!UICONTROL Actions]** kan tillämpa åtgärden på flera lis
 Se även [Hantera listor efter status/flik](./managing-listings-by-tab.md).
 
 | Åtgärd | Beskrivning | Tabbar |
-|--- |--- |--- |
+|----------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [[!UICONTROL Re-attempt auto match to Amazon Listing]](./amazon-manually-update-incomplete-listing.md#update-required-info-unable-to-assign-to-amazon-listing) | Används för att flytta de ofullständiga produkterna tillbaka genom matchningsprocessen. Om du vill försöka matcha igen måste du ändra [Lista](./listing-settings.md) och [Katalogsökning](./catalog-search.md) för att öka möjligheten till automatisk matchning. | [[!UICONTROL Incomplete]](./incomplete-listings.md) |
 | [[!UICONTROL Update Required Info]](./amazon-manually-update-incomplete-listing.md) | Matcha katalogprodukterna manuellt med Amazon-listor genom att välja en lista som ska matchas, ange ett ASIN-nummer som ska matchas eller tilldela ett saknat villkor. | [[!UICONTROL Incomplete]](./incomplete-listings.md) |
 | [[!UICONTROL View Details]](./product-listing-details.md) | Visa ytterligare information om dina aktiva produkter, inklusive aktivitetsloggen för listning, som visar ändringarna för en enskild SKU/produkt. | [[!UICONTROL Incomplete]](./incomplete-listings.md)<br>[[!UICONTROL New Third Party]](./new-third-party-listings.md)<br>[[!UICONTROL Ready to List]](./ready-to-list.md)<br>[[!UICONTROL Inactive]](./inactive-listings.md)<br>[[!UICONTROL Active]](./active-listings.md)<br>[[!UICONTROL Overrides]](./overrides.md)<br>[[!UICONTROL Ineligible]](./ineligible-listings.md)<br>[[!UICONTROL Ended]](./ended-listings.md) |

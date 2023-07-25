@@ -1,8 +1,9 @@
 ---
 title: Visa och hantera order från [!DNL Channel Manager]'
 description: Visa och hantera [!DNL Walmart Marketplace] order med [!DNL Channel Manager] för Adobe Commerce och Magento Open Source."
+feature: Sales Channels, Orders
 exl-id: c2779c72-4793-445c-858a-867ea8389662
-source-git-commit: a3ae579c0eda0c27bf8eab9d0ac12919eaad494b
+source-git-commit: 8a1f95cdb8817cfcc6ffa96b584c66e680a1c282
 workflow-type: tm+mt
 source-wordcount: '1025'
 ht-degree: 0%
@@ -123,7 +124,7 @@ I följande tabeller beskrivs de kontroller och kolumner som är tillgängliga f
 
 - **[!UICONTROL Canceled]**—Beställningar som har annullerats från [!DNL Commerce] butik.
 
-   När ordern har annullerats [!DNL Commerce] Uppdateringar av lagerkvantitet för att spegla returnerade artiklar. Sedan [!DNL Channel Manager] synkroniserar uppdateringen till [!DNL Walmart Marketplace].
+  När ordern har annullerats [!DNL Commerce] Uppdateringar av lagerkvantitet för att spegla returnerade artiklar. Sedan [!DNL Channel Manager] synkroniserar uppdateringen till [!DNL Walmart Marketplace].
 
 - **[!UICONTROL Return requested]**—Om Walmart Marketplace begär en retur för orderartiklar som har skickats, en `Return requested` länken visas i [!UICONTROL Status details] kolumn. När du väljer länken öppnas [!UICONTROL Returns] kontrollpanelen för att visa returen och hantera återbetalningsprocessen.
 
@@ -172,6 +173,6 @@ I Commerce Store importerar man order från [!DNL Walmart Marketplace] ha följa
 
 - **Beställda artiklar**- I det här avsnittet visas orderartiklarna på alla handelsorder. The [!UICONTROL Qty] -kolumnen innehåller statushistorik för orderartiklar. Om en order till exempel har fakturerats, skickats och återbetalats kan du se statusövergångarna.
 
-   ![Statushistorik för sorterad artikel för orderdetaljer [!DNL Walmart Marketplace] order](assets/order-detail-status-history.png){width="600" zoomable="yes"}
+  ![Statushistorik för sorterad artikel för orderdetaljer [!DNL Walmart Marketplace] order](assets/order-detail-status-history.png){width="600" zoomable="yes"}
 
 Visa artikelfaktura och återbetalningsinformation genom att välja [!UICONTROL Invoice] och [!UICONTROL Credit Memo] på navigeringsmenyn. Du kan även komma åt kreditnotan direkt från [[!UICONTROL Returns]](return-refund-orders.md) kontrollpanelen i din säljkanalsbutik.
