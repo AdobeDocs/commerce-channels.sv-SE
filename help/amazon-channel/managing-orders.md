@@ -24,7 +24,7 @@ Efter [butiksintegrering](./store-integration.md), [**[!UICONTROL Import Amazon 
 >
 >Oberoende av inställningarna för orderimport beställer Amazon som fanns i [!DNL Amazon Seller Central] kontot före [butiksintegrering](./store-integration.md) importeras inte.
 
-Importerade Amazon-order hanteras i [[!DNL Commerce] Beställningar](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/order-management/orders/orders.html) arbetsflöde, precis som ditt andra [!DNL Commerce] butiker. Klicka på Amazon ordernummer i dialogrutan *[!UICONTROL Order Number]* kolumn för att öppna ordningen i [[!DNL Commerce] orderprocess](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/order-management/orders/order-processing.html#process-an-order#order-view-descriptions). Se [Visa Amazon-beställningar](./amazon-orders-all.md).
+Importerade Amazon-beställningar hanteras i [[!DNL Commerce] Beställningar](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/order-management/orders/orders.html) arbetsflöde, precis som ditt andra [!DNL Commerce] butiker. Klicka på Amazon ordernummer i dialogrutan *[!UICONTROL Order Number]* kolumn för att öppna ordningen i [[!DNL Commerce] orderprocess](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/order-management/orders/order-processing.html#process-an-order#order-view-descriptions). Se [Visa Amazon-beställningar](./amazon-orders-all.md).
 
 ### Beställningsimportprocess
 
@@ -34,7 +34,7 @@ När en beställning görs på Amazon och [beställ import](./order-settings.md)
 |----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | En beställning görs på Amazon. | <ul><li>Amazon anger orderstatus till `Pending`.</li><li>Orderinformation skickas till [!DNL Commerce].</li><li>Ordern läggs till i [_Amazon beställningar_ table](./amazon-orders-all.md) med `Pending` status.</li></ul> |
 | Amazon ändrar orderstatus till `Unshipped`. | <ul><li>Statusändringen skickas till [!DNL Commerce].</li><li>I [_Amazon beställningar_ table](./amazon-orders-all.md), ändras orderstatusen till `Unshipped`.</li><li>I [[!DNL Commerce] orderarbetsflöde](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/order-management/orders/orders.html), en motsvarande [!DNL Commerce] order skapas med `Processing` status.</li></ul> |
-| I [[!DNL Commerce] orderarbetsflöde](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/order-management/orders/orders.html), [!DNL Commerce] ordern behandlas och statusen ändras till `Shipped`. | <ul><li>I [_Amazon beställningar_ table](./amazon-orders-all.md), ändras orderstatusen till `Shipped`.</li><li>Vid nästa kronjobb ändras orderstatusen till `Complete` i [[!DNL Commerce] orderarbetsflöde](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/order-management/orders/orders.html).</li></ul> |
+| I [[!DNL Commerce] orderarbetsflöde](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/order-management/orders/orders.html), [!DNL Commerce] ordern behandlas och statusen ändras till `Shipped`. | <ul><li>I [_Amazon beställningar_ table](./amazon-orders-all.md), ändras orderstatusen till `Shipped`.</li><li>Vid nästa kron-jobb ändras orderstatusen till `Complete` i [[!DNL Commerce] orderarbetsflöde](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/order-management/orders/orders.html).</li></ul> |
 
 ### Orderspärrar
 
@@ -42,7 +42,7 @@ Det finns några scenarier som förhindrar att motsvarande [!DNL Commerce] best�
 
 | Scenario | Lösning |
 |---------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Objektet finns inte i [!DNL Commerce] katalog. | [Skapa produkten](./creating-assigning-catalog-products.md) i [!DNL Commerce] katalog och [matcha manuellt](./creating-assigning-catalog-products.md) till produkten. |
+| Objektet finns inte i [!DNL Commerce] katalog. | [Skapa produkten](./creating-assigning-catalog-products.md) i [!DNL Commerce] och [matcha manuellt](./creating-assigning-catalog-products.md) till produkten. |
 | Objektet i katalogen är inaktiverat. | Se till att [produktstatus](https://experienceleague.adobe.com/docs/commerce-admin/inventory/configuration/product-options.html) är aktiverat. |
 | Den beställda artikeln är inte i lager. | Uppdatera eller konfigurera [produktalternativ](https://experienceleague.adobe.com/docs/commerce-admin/inventory/configuration/product-options.html) för kvantitet och källa. |
 

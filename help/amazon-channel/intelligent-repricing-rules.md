@@ -1,5 +1,5 @@
 ---
-title: '"Intelligent Repricing Rule: Välj regeltyp'
+title: 'Intelligent Repricing Rule: Select Rule Type'
 description: Bestäm Amazon listpris enligt konkurrentpriser genom att skapa en intelligent regel för omprissättning.
 feature: Sales Channels, Products, Price Rules
 exl-id: 2690323a-a076-484b-a437-adadb08094f5
@@ -10,11 +10,11 @@ ht-degree: 0%
 
 ---
 
-# Regel för intelligent omprisering: Välj regeltyp
+# Intelligent regel för omprissättning: Välj regeltyp
 
 >[!IMPORTANT]
 >
->Regler för intelligent omprisering fungerar inte korrekt om Amazon är inställt på `Inactive` som vid introduktionen. Prisberäkningarna beror på fraktkostnaderna och regionen måste vara `Active` status för dina fraktpriser att synkronisera från Amazon.<br><br>
+>Regler för intelligent omprisering fungerar inte korrekt om Amazon är inställt på `Inactive` som vid introduktionen. Prisberäkningarna beror på fraktkostnaderna och regionen måste vara i `Active` status för dina fraktpriser att synkronisera från Amazon.<br><br>
 >
 >Om du vill uppdatera regionens status i ditt Amazon-konto går du till Inställningar > Kontoinformation > Semesterinställningar. Se [Amazon: Liststatus för semester](https://sellercentral.amazon.com/gp/help/help.html?itemID=200135620/&quot;target=&quot;_blank)
 
@@ -34,7 +34,7 @@ Definiera regeltypen i _[!UICONTROL Select Rule Type]_-avsnitt.
 
 1. För **[!UICONTROL Rule Type]**, välja `Intelligent repricing rule`.
 
-   Den här inställningen aktiverar _[!UICONTROL Competitor Price Source]_fält och [_[!UICONTROL Competitor Conditional Variances]_](./competitor-conditional-variances.md), [_[!UICONTROL Floor Price]_](./floor-price.md)och [_[!UICONTROL Optional Ceiling Price]_](./optional-ceiling-price.md) -avsnitt.
+   Den här inställningen aktiverar _[!UICONTROL Competitor Price Source]_-fältet och [_[!UICONTROL Competitor Conditional Variances]_](./competitor-conditional-variances.md), [_[!UICONTROL Floor Price]_](./floor-price.md)och [_[!UICONTROL Optional Ceiling Price]_](./optional-ceiling-price.md) -avsnitt.
 
 1. För **[!UICONTROL Competitor Price Source]** väljer du ett alternativ:
 

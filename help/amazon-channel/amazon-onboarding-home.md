@@ -15,7 +15,7 @@ ht-degree: 0%
 
 I det här avsnittet beskrivs förinstallationsuppgifter, steg för introduktion och några viktiga begrepp för hur Amazon fungerar med Amazon försäljningskanal i Adobe Commerce och Magento Open Source.
 
-The [!DNL Amazon Sales Channel] tillägg kan användas i flera Amazon-butiker. För en [!DNL Amazon Seller Central] för Amazon i USA/Kanada/Mexico och skapa tre Amazon-butiker (en för USA:s försäljning, försäljning i Mexiko och försäljning i Kanada). Var och en av de tre butikerna definierar landet när det skapades. Om du har fler än en [!DNL Amazon Seller Central] kan du ha upp till tre Amazon-butiker för var och en av dina [!DNL Amazon Seller Central] konton. Om du även säljer i Storbritannien har du en fjärde Amazon-butik.
+The [!DNL Amazon Sales Channel] tillägg kan användas i flera Amazon-butiker. För en enstaka [!DNL Amazon Seller Central] som finns i Amazon USA/Kanada/Mexico och skapar tre Amazon-butiker (en för försäljning i USA, Mexiko och Kanada). Var och en av de tre butikerna definierar landet när det skapades. Om du har fler än en [!DNL Amazon Seller Central] kan du ha upp till tre Amazon-butiker för varje [!DNL Amazon Seller Central] konton. Om du även säljer i Storbritannien har du en fjärde Amazon-butik.
 
 >[!TIP]
 >

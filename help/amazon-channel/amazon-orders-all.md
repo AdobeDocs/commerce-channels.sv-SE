@@ -41,13 +41,13 @@ Du kan visa dina senaste beställningar i _[!UICONTROL Recent Orders]_i [instrum
 
 1. Visa dina beställningar i _[!UICONTROL Recent Orders]_-avsnitt.
 
-1. Om du vill se orderinformationen klickar du på Amazon ordernummer i _[!UICONTROL Order Number]_kolumn.
+1. Om du vill se orderinformationen klickar du på Amazon ordernummer i dialogrutan _[!UICONTROL Order Number]_kolumn.
 
    The _[!UICONTROL Amazon Order Details]_sidan för ordern öppnas.
 
 ## Visa alla order
 
-Du kan se alla dina Amazon-beställningar på _[!UICONTROL Amazon orders]_(kallas även_[!UICONTROL All Orders]_ vy). Registret Amazon Orders liknar _[!UICONTROL Recent Orders]_på kontrollpanelen, men du kan visa alla dina Amazon-beställningar och begränsa din beställningslista med följande filteralternativ:
+Du kan se alla dina Amazon-beställningar på _[!UICONTROL Amazon orders]_sida (kallas även_[!UICONTROL All Orders]_ vy). Registret Amazon Orders liknar _[!UICONTROL Recent Orders]_på kontrollpanelen, men du kan visa alla dina Amazon-beställningar och begränsa din beställningslista med följande filteralternativ:
 
 - [!UICONTROL Purchase Date (range)]
 - [!UICONTROL Order Number]
@@ -65,13 +65,13 @@ Du kan se alla dina Amazon-beställningar på _[!UICONTROL Amazon orders]_(kalla
 
 1. Om du vill begränsa listan eller söka efter ett visst ordernummer fyller du i **[!UICONTROL Filter by]** parametrar och klicka på **[!UICONTROL Apply filters]**.
 
-1. Om du vill se orderinformationen klickar du på Amazon ordernummer i _[!UICONTROL Order Number]_kolumn.
+1. Om du vill se orderinformationen klickar du på Amazon ordernummer i dialogrutan _[!UICONTROL Order Number]_kolumn.
 
    The _[!UICONTROL Amazon Order Details]_sidan för ordern öppnas.
 
 ## Använda filter
 
-Du kan använda filter i din orderlista i _[!UICONTROL Filter by]_-avsnitt. Gör dina val och klicka **[!UICONTROL Apply filters]**. De filter du använder visas ovanför stödrastret för beställningar.
+Du kan använda filter i din orderlista i _[!UICONTROL Filter by]_-avsnitt. Markera och klicka **[!UICONTROL Apply filters]**. De filter du använder visas ovanför stödrastret för beställningar.
 
 ![Filter för att visa Amazon-order](assets/amazon-orders-filter-view.png){width="600" zoomable="yes"}
 
@@ -79,7 +79,7 @@ Du kan använda filter i din orderlista i _[!UICONTROL Filter by]_-avsnitt. Gör
 
 - Du kan lägga till eller ändra dina filter i _[!UICONTROL Filter by]_-avsnitt. Klicka **[!UICONTROL Apply filters]**om du vill uppdatera ordningslistan och de filteralternativ som visas ovanför rutnätet för order.
 
-- Du kan ta bort filter, antingen ett i taget, genom att klicka på `x` för filtret eller alla på en gång genom att klicka **[!UICONTROL Clear all filters]**. När du tar bort ett filter uppdateras sorteringslistan och filteralternativen som visas ovanför rutnätet för order.
+- Du kan ta bort filter, antingen ett i taget, genom att klicka på `x` för filtret eller alla samtidigt genom att klicka **[!UICONTROL Clear all filters]**. När du tar bort ett filter uppdateras sorteringslistan och filteralternativen som visas ovanför rutnätet för order.
 
 - Om orderlistan är lång kan du använda sidnumreringskontrollerna under rutnätet för att visa fler order.
 
@@ -97,9 +97,9 @@ Du kan använda filter i din orderlista i _[!UICONTROL Filter by]_-avsnitt. Gör
 | Kolumn | Beskrivning |
 |----------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Filter by] | Finns endast i _[!UICONTROL All Orders]_vy.<br>Beställningslistan begränsas av:<ul><li>`Purchase Date (range)`</li><li>`Order Number`</li><li>`Buyer's Name`</li><li>`Total (range)`</li><li>`Status`</li></ul> |
-| [!UICONTROL Purchase Date] | Datum för köpet, enligt Amazon. |
+| [!UICONTROL Purchase Date] | Datum för köpet, som det kommer från Amazon. |
 | [!UICONTROL Order Number] | Ordernumret som genereras av och tas emot från Amazon. Klicka på länken om du vill visa skärmen för beställningsinformation för Amazon. |
 | [!UICONTROL Status] | Beställningens status, enligt Amazon. Alternativ: `Error` / `Pending` / `Shipped` / `Canceled` / `Completed` / `Unshipped` / `PartiallyShipped` / `PendingAvailability` |
 | [!UICONTROL Buyer's Name] | Namnet på den person som beställde, enligt Amazon. |
 | [!UICONTROL Grand Total] | Orderns totala valutavärde, enligt Amazon. |
-| [!UICONTROL Order Notes] | Den senaste åtgärden som spelats in för ordern när den bearbetas i [!DNL Commerce]. Informationen omfattar, men är inte begränsad till, beställningsfel och uppdateringar av orderbearbetning.<br>**Anteckning**: Det här fältet uppdateras av [!DNL Commerce] som orderprocesserna. |
+| [!UICONTROL Order Notes] | Den senaste åtgärden som spelats in för ordern när den bearbetas i [!DNL Commerce]. Informationen omfattar, men är inte begränsad till, beställningsfel och uppdateringar av beställningsbearbetning.<br>**Anteckning**: Det här fältet uppdateras av [!DNL Commerce] som orderprocesserna. |

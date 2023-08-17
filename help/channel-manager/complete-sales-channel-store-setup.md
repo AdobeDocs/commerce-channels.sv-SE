@@ -11,7 +11,7 @@ ht-degree: 0%
 
 ---
 
-# Slutför installationen av Sales Channel
+# Slutför Sales Channel
 
 När du har anslutit en [!DNL Commerce] lagra till [!DNL Walmart Marketplace], fullständig butikskonfiguration från [!DNL Channel Manager] hemsida.
 
@@ -35,7 +35,7 @@ När du har anslutit en [!DNL Commerce] lagra till [!DNL Walmart Marketplace], f
 
    - [Hantera orderreturer och återbetalningar](return-refund-orders.md)
 
-När du har skapat försäljningskanalen och matchat produkter med [!DNL Walmart Marketplace]kan du hantera alla produktlistor, lager, priser, order, frakt, annulleringar, returer och återbetalningar från [!DNL Commerce]. Lista-, lager-, prissättnings- och orderdata synkroniseras automatiskt från [!DNL Commerce] till [!DNL Walmart Marketplace]. Förebygga konflikter eller avvikelser mellan [!DNL Commerce] och [!DNL Walmart Marketplace] uppdateringar, uppdatera inte produkt- eller orderdata för [!DNL Commerce] produkter från [!DNL Walmart Marketplace] konto.
+När du har skapat försäljningskanalen och matchat produkter med [!DNL Walmart Marketplace]kan du hantera alla produktlistor, lager, priser, order, frakt, annulleringar, returer och återbetalningar från [!DNL Commerce]. Listor, lager, priser och orderdata synkroniseras automatiskt från [!DNL Commerce] till [!DNL Walmart Marketplace]. Förebygga konflikter eller avvikelser mellan [!DNL Commerce] och [!DNL Walmart Marketplace] uppdateringar, uppdatera inte produkt- eller orderdata för [!DNL Commerce] produkter från [!DNL Walmart Marketplace] konto.
 
 >[!IMPORTANT]
 >

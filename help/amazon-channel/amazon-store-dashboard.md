@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Amazon Store-instrumentpanel
 
-I _[!UICONTROL Amazon Stores]_se på startsidan för Amazon försäljningskanal klickar du **[!UICONTROL View Store]**på ett butikskort för att öppna butiksinstrumentpanelen.
+I _[!UICONTROL Amazon Stores]_se på startsidan för Amazon försäljningskanal kan du klicka **[!UICONTROL View Store]**på ett butikskort för att öppna butiksinstrumentpanelen.
 
 Den primära platsen där du kan visa aktiviteten för var och en av dina Amazon butiker. Med [!DNL Amazon Seller] lagrar som lagts till och integrerats, beställningar och säljspår via datavyn i din butik. På kontrollpanelen kan du visa intäkter, följa upp trender och granska försäljningsdata för dina listor. Listor och försäljning grupperas och spåras ytterligare efter listtyp, inklusive aktiv, inaktiv och pågående.
 

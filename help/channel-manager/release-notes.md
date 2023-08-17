@@ -1,12 +1,12 @@
 ---
-title: '''[!DNL Channel Manager] Versionsinformation'
+title: '[!DNL Channel Manager] Versionsinformation'
 description: Den senaste versionsinformationen för [!DNL Channel Manager] från Adobe Commerce.
 feature: Sales Channels, Release Notes
 exl-id: 8f40ace1-6587-4185-955a-91bc16dee8ce
 source-git-commit: 8a1f95cdb8817cfcc6ffa96b584c66e680a1c282
 workflow-type: tm+mt
 source-wordcount: '161'
-ht-degree: 1%
+ht-degree: 4%
 
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: "Installera [!DNL Amazon Sales Channel] extension"
-description: Integrera [!DNL Commerce] katalog med [!DNL Amazon Seller Accounts] och sälja genom [!DNL Amazon Marketplace]hämtar och installerar tillägget Amazon Sales Channel.
+description: Integrera [!DNL Commerce] katalog med [!DNL Amazon Seller Accounts] och sälja genom [!DNL Amazon Marketplace], hämtar och installerar tillägget för Amazon Sales Channel.
 role: Admin, Developer
 feature: Sales Channels, Install, Integration, Tools and External Services
 source-git-commit: 801d4eee9e84b5c5f8b53397fbe8023ad54281e6
@@ -20,8 +20,8 @@ The [!UICONTROL Amazon Sales Channel] tillägg installerar och lägger till funk
 
 ## Krav
 
-- **Commerce-instans**: The [!DNL Amazon Sales Channel] tillägg kan installeras på instanser med Magento Open Source, Adobe Commerce och Adobe Commerce i molninfrastrukturversionerna 2.3.x eller senare. Det stöds inte längre i version 2.1, 2.2 eller 1.x.
-- **Commerce-webbkonto**: Du bör ha ett Commerce-webbkonto som används för att skapa och spåra en API-nyckel.
+- **Commerce-instans**: [!DNL Amazon Sales Channel] tillägg kan installeras på instanser med Magento Open Source, Adobe Commerce och Adobe Commerce i molninfrastrukturversionerna 2.3.x eller senare. Det stöds inte längre i version 2.1, 2.2 eller 1.x.
+- **Commerce-webbkonto**: Du bör ha ett Commerce-webbkonto, som används för att skapa och spåra en API-nyckel.
 - **API-nyckel**: Skapa en API-nyckel för Amazon-försäljningskanal via ditt Commerce-webbkonto. Följande instruktioner innehåller dessa steg.
 
 ## Installera
@@ -38,7 +38,7 @@ Mer information om hur du använder Composer för den här processen finns i [in
 
 1. För komponentnamnet och versionen klickar du på **[!UICONTROL Technical Details]**.
 
-1. Använd namn- och versionsinformation för att uppdatera tjänstanslutningsinformationen i din `composer.json` -fil.
+1. Använd namn- och versionsinformation för att uppdatera tjänstkopplingsposten i din `composer.json` -fil.
 
    - Lägg till tilläggets namn och version i `composer.json` -fil.
 
@@ -48,7 +48,7 @@ Mer information om hur du använder Composer för den här processen finns i [in
    composer require magento/services-connector:~1.0.3
    ```
 
-   - Ange [autentiseringsnycklar](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/authentication-keys.html). Din offentliga nyckel är ditt användarnamn; din privata nyckel är ditt lösenord.
+   - Ange [autentiseringsnycklar](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/authentication-keys.html). Din offentliga nyckel är ditt användarnamn. Din privata nyckel är ditt lösenord.
 
    - Vänta tills Composer har uppdaterat dina projektberoenden och kontrollera att inga fel uppstår.
 
@@ -58,15 +58,15 @@ Mer information om hur du använder Composer för den här processen finns i [in
 
 Efter installationen anger du [API-nyckel](./amazon-verify-api-key.md) för att slutföra konfigurationen.
 
-## Ange konfigurationsalternativ för Amazon-kanaler
+## Ange alternativ för kanalkonfiguration för Amazon
 
-Du har följande alternativ för att konfigurera Amazon försäljningskanal. Du behöver inte ändra de här inställningarna för att börja prenumerera och sälja på Amazon. Vi rekommenderar att avancerade administratörer tar hänsyn till dessa alternativ.
+Du har följande alternativ för att konfigurera Amazon försäljningskanal. Du behöver inte ändra de här inställningarna för att börja prenumerera och sälja på Amazon. Vi rekommenderar att avancerade administratörer överväger dessa alternativ.
 
 1. Logga in i Admin.
 
 1. På _Administratör_ sidebar, gå till **Lager** > _Inställningar_ > **Konfiguration**.
 
-1. Klicka **Sales Channel** sedan **Globala inställningar**.
+1. Klicka **Sales Channeler** sedan **Globala inställningar**.
 
 1. För **Rensa logghistorik** anger du intervallet för rensning av de insamlade loggarna.
 
@@ -76,7 +76,7 @@ Du har följande alternativ för att konfigurera Amazon försäljningskanal. Du 
 
    Den här inställningen rekommenderas för **_avancerade användare/administratörer_**.
 
-1. Klicka **[!UICONTROL Save Config]**.
+1. Klicka på **[!UICONTROL Save Config]**.
 
 ## Uppdatera tillägget
 

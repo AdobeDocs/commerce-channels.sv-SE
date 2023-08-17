@@ -1,6 +1,6 @@
 ---
 title: Visa och hantera order från [!DNL Channel Manager]'
-description: Visa och hantera [!DNL Walmart Marketplace] order med [!DNL Channel Manager] för Adobe Commerce och Magento Open Source."
+description: Visa och hantera [!DNL Walmart Marketplace] beställningar med [!DNL Channel Manager] för Adobe Commerce och Magento Open Source."
 feature: Sales Channels, Orders
 exl-id: c2779c72-4793-445c-858a-867ea8389662
 source-git-commit: 8a1f95cdb8817cfcc6ffa96b584c66e680a1c282
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Visa och spåra beställningar från [!DNL Channel Manager]
 
-[!DNL Walmart Marketplace] orderdata för [!DNL Commerce] produkter synkroniseras automatiskt till [!DNL Channel Manager] efter [!DNL Walmart] bearbetar ordern.
+[!DNL Walmart Marketplace] beställa data för [!DNL Commerce] produkter synkroniseras automatiskt till [!DNL Channel Manager] efter [!DNL Walmart] bearbetar ordern.
 
 På [!DNL Commerce] en lyckad synkronisering utlöser följande åtgärder:
 
@@ -134,7 +134,7 @@ I följande tabeller beskrivs de kontroller och kolumner som är tillgängliga f
 
 >[!NOTE]
 >
->Om orderartiklar skickas i flera leveranser visas orderstatusen i [!DNL Channel Manager] återspeglar den senaste tillgängliga orderstatusen. Om till exempel det första objektet skickas och inga fel returneras när orderuppdateringarna synkroniseras med [!DNL Channel Manager] och [!DNL Walmart Marketplace], [!DNL Channel Manager] orderstatus är _[!UICONTROL Partially Shipped]_. Om en andra artikel har levererats och [!DNL Channel Manager] returnerar ett fel, orderstatusen uppdateras till_[!UICONTROL Error]_.
+>Om orderartiklar skickas i flera leveranser visas orderstatusen i [!DNL Channel Manager] återspeglar den senaste tillgängliga orderstatusen. Om till exempel det första objektet skickas och inga fel returneras när orderuppdateringarna synkroniseras med [!DNL Channel Manager] och [!DNL Walmart Marketplace], [!DNL Channel Manager] orderstatus är _[!UICONTROL Partially Shipped]_. Om en andra artikel skickas och [!DNL Channel Manager] returnerar ett fel, orderstatusen uppdateras till_[!UICONTROL Error]_.
 
 ## Granska beställningar
 
@@ -152,7 +152,7 @@ När en beställning har tagits emot från marknadsplatsen och importerats till 
 
 Från **[!UICONTROL Orders]** väljer du **[!UICONTROL Commerce Order Number]** för att öppna [!DNL Commerce] orderdetaljer.
 
-![Detaljvy för handelsorder för en [!DNL Walmart Marketplace] order](assets/order-detail-with-external-order-id.png){width="600" zoomable="yes"}
+![Detaljvy för handelsorder för en [!DNL Walmart Marketplace] beställa](assets/order-detail-with-external-order-id.png){width="600" zoomable="yes"}
 
 I Commerce Store importerar man order från [!DNL Walmart Marketplace] ha följande ytterligare information i orderuppgifterna:
 
@@ -164,7 +164,7 @@ I Commerce Store importerar man order från [!DNL Walmart Marketplace] ha följa
 
    - **[!UICONTROL Channel Shipping - Value]**-Anger att fraktkostnader hanteras genom [!DNL Walmart Marketplace].
 
-   - **[!UICONTROL Cancellation Reason]**-Det här fältet visas bara om en ordning har importerats från [!DNL Walmart Marketplace] har avbrutits. Orsaker till annullering är:
+   - **[!UICONTROL Cancellation Reason]**-Det här fältet visas bara om en ordning har importerats från [!DNL Walmart Marketplace] avbryts. Orsaker till annullering är:
 
       - [!UICONTROL Price or other listing errors.]
       - [!UICONTROL The item is out of stock.]

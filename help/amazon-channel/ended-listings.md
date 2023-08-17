@@ -1,6 +1,6 @@
 ---
 title: Avslutade Amazon-listor
-description: Amazon Sales Channel har fliken Slutför där du kan granska avslutade Amazon Marketplace-listor som kan publiceras igen när du vill.
+description: I Amazon Sales Channel finns fliken Slutför där du kan granska avslutade Amazon Marketplace-listor, som du kan publicera igen när du vill.
 feature: Sales Channels, Products
 exl-id: 15107f08-4231-44b5-9390-44b5b709e3a5
 source-git-commit: 7fff4c463551089fb64f2d5bf7bf23f272ce4663

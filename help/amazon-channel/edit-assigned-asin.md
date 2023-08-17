@@ -27,10 +27,10 @@ När ett tilldelat ASIN ändras:
 
 1. Under _[!UICONTROL Actions]_, klicka **[!UICONTROL Edit Assigned ASIN]**.
 
-   Den här åtgärden öppnar _[!UICONTROL Product Listing Update]_sida.
+   Åtgärden öppnar _[!UICONTROL Product Listing Update]_sida.
 
 1. För **[!UICONTROL Assign ASIN]** anger du det nya ASIN-värdet.
 
-1. Spara ändringarna genom att klicka på **[!UICONTROL Save Listing Update]**.
+1. Klicka på **[!UICONTROL Save Listing Update]**.
 
 ![Redigera en tilldelad ASIN](assets/amazon-assigned-asin-edit.png){width="600" zoomable="yes"}

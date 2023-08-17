@@ -55,7 +55,7 @@ Du kan skapa produkterbjudanden på [!DNL Walmart Marketplace] genom att använd
 
 * **[Matcha produkter på Walmart](connect-listings-to-marketplace.md)**—Koppla samman produktlistor från er kanal till [!DNL Walmart Marketplace] genom att uppdatera befintliga listor som säljer samma produkt. Matchningskriterierna bestäms av [konfiguration för attributmappning](map-catalog-attributes.md) för er kanal.
 
-* **[Överför nya listor manuellt](connect-listings-to-marketplace.md#upload-new-product-listings)**—För produkter som inte matchar en befintlig lista på [!DNL Walmart Marketplace], använder [!DNL Walmart] produktkategorimall för att ladda upp produktlistor gruppvis.
+* **[Ladda upp nya listor manuellt](connect-listings-to-marketplace.md#upload-new-product-listings)**—För produkter som inte matchar en befintlig lista på [!DNL Walmart Marketplace], använd en [!DNL Walmart] produktkategorimall för att ladda upp produktlistor gruppvis.
 
 ## Listkontroller och kolumnbeskrivningar
 

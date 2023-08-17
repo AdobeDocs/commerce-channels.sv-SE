@@ -1,5 +1,5 @@
 ---
-title: Amazon Sales Channel - [!UICONTROL Third-party Listings]
+title: AMAZON SALES CHANNEL - [!UICONTROL Third-party Listings]
 description: Uppdatera inställningarna för tredjepartslistan avgör om din Commerce-katalog importerar produkter från dina befintliga Amazon Seller Central-listor.
 feature: Sales Channels, Products
 exl-id: bc82775a-6f29-49b5-a80b-20e171eaf8f4
@@ -18,7 +18,7 @@ Dessa inställningar avgör om [!DNL Commerce] kataloger importerar produkter fr
 
 När du har konfigurerat den för att importera dina Amazon-listor importerar Amazon försäljningskanal dina Amazon-listor till din [!DNL Commerce] katalog, försöker matcha dem med befintliga produkter. Om ingen matchning hittas automatiskt kan du importera Amazon-listan som en ny [!DNL Commerce] produkten eller manuellt matcha listningen mot en produkt.
 
-Om du väljer att importera dina Amazon-listor väljer du [!DNL Commerce] attribut med värden för Amazon Seller SKU och Amazon ASIN. Om du inte har [!DNL Commerce] [produktattribut](./ob-creating-magento-attributes.md)kan du skapa och tilldela dem. Genom att mappa dessa attribut kan du matcha importerade Amazon-listor korrekt med dina [!DNL Commerce] produkter.
+Om du vill importera dina Amazon-listor väljer du [!DNL Commerce] för Amazon Seller SKU och Amazon ASIN. Om du inte har [!DNL Commerce] [produktattribut](./ob-creating-magento-attributes.md)kan du skapa och tilldela dem. Genom att mappa dessa attribut kan du matcha importerade Amazon-listor korrekt med dina [!DNL Commerce] produkter.
 
 Den inledande listimporten startar när [butiksintegrering](./store-integration.md) är klar. Efteråt och baserat på dina kroninställningar [!DNL Commerce] söker kontinuerligt efter nya Amazon-listor (som inte har skapats i Amazon Sales Channel) och uppdaterar [!DNL Commerce] katalogen enligt inställningarna för tredjepartslistor.
 
@@ -26,7 +26,7 @@ Den inledande listimporten startar när [butiksintegrering](./store-integration.
 
 1. Klicka **[!UICONTROL Listing Settings]** på butikens kontrollpanel.
 
-1. Expandera _[!UICONTROL Third Party Listings]_-avsnitt.
+1. Expandera avsnittet _[!UICONTROL Third Party Listings]_.
 
 1. För **[!UICONTROL Import Third Party Listings]** (obligatoriskt) väljer du ett alternativ:
 

@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Aktiva Amazon-listor
 
-The _[!UICONTROL Active]_-fliken visar aktiva listor på [!DNL Amazon Marketplace] som har matchats mot en produkt i [!DNL Commerce] katalog.
+The _[!UICONTROL Active]_-fliken visar aktiva listor på [!DNL Amazon Marketplace] som matchar en produkt i [!DNL Commerce] katalog.
 
 Tillgängliga åtgärder på _[!UICONTROL Active]_-fliken innehåller:
 

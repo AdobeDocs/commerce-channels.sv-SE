@@ -28,15 +28,15 @@ Båda metoderna kräver att du använder kommandoradsgränssnittet (CLI).
 
 >[!NOTE]
 >
->Om du behöver hjälp med att installera [!DNL Commerce] med CLI, se [Installera ett tillägg](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/tutorials/extensions.html).
+>Hjälp med installation [!DNL Commerce] med CLI, se [Installera ett tillägg](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/tutorials/extensions.html).
 
-### Installera på en lokal instans
+### Installera på lokal instans
 
 Följ dessa anvisningar för att installera [!DNL Channel Manager] på Adobe Commerce och Magento Open Source till en lokal instans.
 
 1. Logga in på [!DNL Commerce] server som [användare med behörigheter](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/file-system/configure-permissions.html) för att skriva till [!DNL Commerce] filsystem.
 
-1. Lägg in webbsajten i [underhållsläge](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/tutorials/maintenance-mode.html).
+1. Lägg in webbsidor i [underhållsläge](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/tutorials/maintenance-mode.html).
 
    ```bash
    $ bin/magento maintenance:enable
@@ -50,7 +50,7 @@ Följ dessa anvisningar för att installera [!DNL Channel Manager] på Adobe Com
 
 1. Ange nycklarna från din [!DNL Commerce] konto.
 
-   Din offentliga nyckel är ditt användarnamn; din privata nyckel är ditt lösenord.
+   Din offentliga nyckel är ditt användarnamn. Din privata nyckel är ditt lösenord.
 
 1. Uppdatera beroendena och installera tillägget.
 
@@ -174,7 +174,7 @@ Använd följande information för att åtgärda fel som inträffar under instal
 
 ### Felaktiga dispositionsnycklar
 
-Om [åtkomstnycklar](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/authentication-keys.html) som används för att autentisera till Composer-databasen är ogiltiga eller inte länkade till [!DNL MAGE ID] har använt [!DNL Channel Manager] visas följande fel.
+Om [åtkomstnycklar](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/authentication-keys.html) som används för att autentisera till Composer-databasen är ogiltiga eller inte länkade till [!DNL MAGE ID] som har registrerat sig för [!DNL Channel Manager] visas följande fel.
 
 ```terminal
 Could not find a matching version of package magento/channel-manager. Check the package spelling, your version constraint and that the package is available in a stability which matches your minimum-stability (stable).
@@ -194,7 +194,7 @@ Kontrollera nyckelkonfigurationen:
    $ cat /path/to/auth.json
    ```
 
-1. Kontrollera att autentiseringsuppgifterna i auth.json matchar [nycklarna som är kopplade till MAGE-ID](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/authentication-keys.html) används för att registrera för Channel Manager-tjänsten.
+1. Verifiera att autentiseringsuppgifterna i auth.json matchar [nycklarna som är kopplade till MAGE-ID](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/authentication-keys.html) används för att registrera för Channel Manager-tjänsten.
 
 ### Otillräckligt minne för PHP
 
@@ -214,7 +214,7 @@ Använd någon av följande metoder för att lösa minnesproblemet:
   $ php -d memory_limit=-1 \[path to composer]/composer require magento/payment-services.
   ```
 
-  Till exempel:
+  Exempel:
 
   ```bash
   $ php-d memory_limit=-1 vendor/bin/composer require magento/channel-manager

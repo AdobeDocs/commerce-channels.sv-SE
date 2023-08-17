@@ -31,15 +31,15 @@ Innan du börjar konfigurera din Amazon-försäljningskanal måste du ha en akti
 
 Amazon försäljningskanal kräver [!DNL Professional Seller] konto på [!DNL Amazon Seller Central]. Amazon debiterar en månadsprenumeration och tar ut avgifter för försäljningen. Se [Amazon: Välj din säljplan](https://sell.amazon.com/pricing.html){target="_blank"}.
 
-## 3. Se till att du är en godkänd Amazon-återförsäljare
+## 3. Kontrollera att du är en godkänd Amazon-återförsäljare
 
-För att kunna integrera måste du ha en godkänd [!DNL Amazon Seller Central] konto. Ditt konto får inte ha några begränsningar för produkter eller kategorier. Vissa produkter och kategorier måste godkännas innan du kan skapa listor. Granska Amazon policyer för godkännande av kategori och produkt för att säkerställa att produkterna godkänns. Se [Amazon: Kategorier och produkter som kräver godkännande](https://sellercentral.amazon.com/gp/help/200333160){target="_blank"} (Inloggning till Seller Central krävs).
+För att kunna integrera måste du ha en godkänd [!DNL Amazon Seller Central] konto. Ditt konto får inte ha några begränsningar för produkter eller kategorier. Vissa produkter och kategorier måste godkännas innan du kan skapa listor. Granska Amazon policyer för godkännande av kategori och produkt för att säkerställa att produkterna godkänns. Se [Amazon: Kategorier och produkter som måste godkännas](https://sellercentral.amazon.com/gp/help/200333160){target="_blank"} (Inloggning till Seller Central krävs).
 
 Det är också viktigt att du har konfigurerat följande i [!DNL Amazon Seller Central] konto:
 
 - Se till att returpolicyn är lika bra som eller bättre än Amazon returpolicy. Se [Amazon: Returpolicy](https://www.amazon.com/gp/help/customer/display.html){target="_blank"}.
 
-- Kontrollera att skatteinställningarna är konfigurerade. Se [Amazon: Skattepolicyer](https://sellercentral.amazon.com/gp/help/external/help.html){target="_blank"} (Inloggning till Seller Central krävs).
+- Kontrollera att skatteinställningarna är konfigurerade. Se [Amazon: Skattepolicy](https://sellercentral.amazon.com/gp/help/external/help.html){target="_blank"} (Inloggning till Seller Central krävs).
 
 - Kontrollera att leveransmetoderna är korrekt konfigurerade. Så här ställer du in leveransmetoder som [!DNL Commerce] erbjuds kunderna att utföra dina Amazon-beställningar, uppdatera [Amazon: Leveransinställningar](https://sellercentral.amazon.com/sbr/ref=xx_shipset_dnav_xx#shipping_templates){target="_blank"} i [!DNL Amazon Seller Central] konto.
 
@@ -53,7 +53,7 @@ Det är också viktigt att du har konfigurerat följande i [!DNL Amazon Seller C
 
 ## 5. Öka antalet automatiska katalogmatchningar
 
-Vid introduktionen använder Amazon säljkanal produktattribut för att matcha dina befintliga Amazon-listor (om tillämpligt) med befintliga produkter i din [!DNL Commerce] katalog. Efter introduktionen används dessa produktattribut för att publicera [!DNL Commerce] katalogobjekt till en Amazon-lista och synkronisera produktdata mellan [!DNL Commerce] och Amazon.
+Vid introduktionen använder Amazon säljkanal produktattribut för att matcha dina befintliga Amazon-listor (om tillämpligt) med befintliga produkter i din [!DNL Commerce] katalog. Efter introduktionen används dessa produktattribut för att publicera [!DNL Commerce] katalogobjekt till en Amazon-lista och för att synkronisera produktdata mellan [!DNL Commerce] och Amazon.
 
 Att ha det högsta antalet [!DNL Commerce] produkter som automatiskt matchar Amazon listor bör du skapa en uppsättning produktattribut för [!DNL Commerce] katalog. Innan du konfigurerar din Amazon-återförsäljare bör du lägga till [!DNL Commerce] produktattribut som matchar dessa Amazon-attribut, till exempel: ASIN, EAN, ISBN, UPC eller GCID. Se [Skapa ett produktattribut i [!DNL Commerce]](./ob-creating-magento-attributes.md).
 
@@ -63,7 +63,7 @@ Om din Amazon-butik använder en annan valuta än den som konfigurerats för din
 
 ## 7. Skapa ett produktvillkorsattribut (efter behov)
 
-Om dina Amazon-listor innehåller mer än ett produktvillkor (t.ex. _new_, _används_, eller _gillar nya_), skapa [!DNL Commerce] och tilldela villkorsvärden. Du måste mappa det här attributet under introduktionen till Amazon Condition-produktattributet. Se [Skapa attribut för Amazon](./ob-creating-magento-attributes.md).
+Om dina Amazon-listor innehåller mer än ett produktvillkor (till exempel _new_, _används_, eller _gillar nya_), skapa en [!DNL Commerce] och tilldela villkorsvärden. Du måste mappa det här attributet under introduktionen till Amazon Condition-produktattributet. Se [Skapa attribut för Amazon](./ob-creating-magento-attributes.md).
 
 ## 8. Konfigurera [!DNL Amazon Seller Central] leveranssätt
 
@@ -75,10 +75,10 @@ När ditt Amazon-konto är konfigurerat och aktivt finns det flera [!DNL Commerc
 
 ### Granska och notera produkter som du vill utesluta
 
-Du kanske inte vill att vissa produkter ska listas på Amazon. Amazon försäljningskanal har en listregelmotor som används för att avgöra vilka produkter som är berättigade att publicera till Amazon. [Listregler](./listing-rules.md) kan du välja vilka delmängder av produkter som ska publiceras (eller inte publiceras) till [!DNL Amazon Seller Central] konto, t.ex. per kategori eller genom att definiera ett eller flera produktattribut. Gilla [!DNL Commerce] [katalog](https://experienceleague.adobe.com/docs/commerce-admin/marketing/promotions/catalog-rules/price-rules-catalog.html) eller [kundvagn](https://experienceleague.adobe.com/docs/commerce-admin/marketing/promotions/cart-rules/price-rules-cart.html) prisregler, produktattribut som används för att räkna upp Amazon måste ha **[!UICONTROL Use for Promo Rule Conditions]** ange till `Yes`. Se **[!UICONTROL Use for Promo Rule Conditions]** in [Produktattribut](https://experienceleague.adobe.com/docs/commerce-admin/catalog/product-attributes/product-attributes.html).
+Du kanske inte vill att vissa produkter ska listas på Amazon. Amazon försäljningskanal har en listregelmotor som används för att avgöra vilka produkter som är berättigade att publicera till Amazon. [Listregler](./listing-rules.md) kan du välja vilka delmängder av produkter som ska publiceras (eller inte publiceras) till [!DNL Amazon Seller Central] konto, t.ex. per kategori eller genom att definiera ett eller flera produktattribut. Gilla [!DNL Commerce] [katalog](https://experienceleague.adobe.com/docs/commerce-admin/marketing/promotions/catalog-rules/price-rules-catalog.html) eller [kundvagn](https://experienceleague.adobe.com/docs/commerce-admin/marketing/promotions/cart-rules/price-rules-cart.html) prisregler, produktattribut som används för att ta upp Amazon-produkter måste ha **[!UICONTROL Use for Promo Rule Conditions]** ange till `Yes`. Se **[!UICONTROL Use for Promo Rule Conditions]** in [Produktattribut](https://experienceleague.adobe.com/docs/commerce-admin/catalog/product-attributes/product-attributes.html).
 
-### Ange [!DNL Amazon Seller Central] region till inaktiv
+### Ställ in [!DNL Amazon Seller Central] region till inaktiv
 
-För att underlätta felfri dataövergång under integreringen rekommenderar vi att du ställer in Amazon-regionen på `Inactive` status i Inställningar > Kontoinformation > Seminstationsinställningar. När installationen är klar ändrar du status tillbaka till `Active` i Amazon.
+För att underlätta felfri dataövergång under integreringen rekommenderar vi att du ställer in Amazon-regionen på `Inactive` status i Inställningar > Kontoinformation > Semesterinställningar. När installationen är klar ändrar du status tillbaka till `Active` i Amazon.
 
 ![Nästa ikon](assets/btn-next.png) [**Fortsätt till Skapa [!DNL Commerce] Attribut**](./ob-creating-magento-attributes.md)

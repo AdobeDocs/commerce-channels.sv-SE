@@ -37,6 +37,6 @@ Se även [Hantera listor efter åtgärd](./managing-listings-by-action.md).
 
 1. På _Administratör_ sidebar, gå till **[!UICONTROL Marketing]** > _[!UICONTROL Channels]_>**[!UICONTROL Amazon Sales Channel]**.
 
-1. Klicka **[!UICONTROL View Store]** på butikskortet.
+1. Klicka **[!UICONTROL View Store]** på kortet.
 
 1. Klicka på **[!UICONTROL Manage Listings]** i _[!UICONTROL Store Listings]_-avsnitt.

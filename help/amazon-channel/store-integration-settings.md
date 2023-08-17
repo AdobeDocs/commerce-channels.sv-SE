@@ -1,5 +1,5 @@
 ---
-title: Amazon Sales Channel - [!UICONTROL Store Integration Settings]
+title: AMAZON SALES CHANNEL - [!UICONTROL Store Integration Settings]
 description: När du är klar med Amazon introduktionsprocess för säljkanaler granskar och konfigurerar du inställningarna för butiksintegrering via [!UICONTROL Amazon Store] kontrollpanel
 feature: Sales Channels, Integration
 exl-id: 58fc8e62-ce66-497f-8f55-f70aafa8d791
@@ -28,7 +28,7 @@ När du har integrerat din butik kan du granska och konfigurera inställningarna
 
    Det används som en [!DNL Commerce] bara referera till och identifierar butiken i listan på startsidan för Amazon-försäljningskanalen. Det ska vara något ditt team lätt kan identifiera. Din Amazon-butik som säljer i USA kan till exempel heta `Amazon Store USA`.
 
-1. Klicka **[!UICONTROL Save]**.
+1. Klicka på **[!UICONTROL Save]**.
 
 >[!NOTE]
 >

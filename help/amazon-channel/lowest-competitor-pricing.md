@@ -34,7 +34,7 @@ The _[!UICONTROL Lowest Competitor Pricing]_på_[!UICONTROL Product Listing Deta
 
 | Kolumn | Beskrivning |
 |----------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [!UICONTROL ASIN] | Ett unikt block med 10 bokstäver och/eller siffror som identifierar objekt.<br><br>För böcker är ASIN samma som ISBN-numret, men för alla andra produkter skapas ett nytt ASIN när objektet överförs till din katalog. Du hittar ett objekts ASIN på produktinformationssidan tillsammans med ytterligare information om objektet (till exempel storlek, antal sidor eller antal skivor). |
+| [!UICONTROL ASIN] | Ett unikt block med 10 bokstäver och/eller siffror som identifierar objekt.<br><br>För böcker är ASIN samma som ISBN-numret, men för alla andra produkter skapas ett nytt ASIN när objektet överförs till katalogen. Du hittar ett objekts ASIN på produktinformationssidan tillsammans med ytterligare information om objektet (till exempel storlek, antal sidor eller antal skivor). |
 | [!UICONTROL Condition] | The [villkor](./product-listing-condition.md) av produkten. |
 | [!UICONTROL Fulfillment Channel] | Uppfyllandemetoden. |
 | [!UICONTROL Listing Price] | Priset som används för dina Amazon-listor. |

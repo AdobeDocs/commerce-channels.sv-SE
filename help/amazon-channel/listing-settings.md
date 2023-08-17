@@ -31,15 +31,15 @@ Expandera alla avsnitt och konfigurera efter behov.
 
 1. Expandera varje avsnitt för att granska och konfigurera dina listinställningar. Fyll i alla obligatoriska fält för att fortsätta.
 
-   - [[!UICONTROL Product Listing Actions]](./product-listing-actions.md): Definierar om relevant [!DNL Commerce] -produkter publiceras automatiskt på Amazon och standardtiden för leveranser.
+   - [[!UICONTROL Product Listing Actions]](./product-listing-actions.md): Definierar om den är giltig [!DNL Commerce] -produkter publiceras automatiskt på Amazon och standardtiden för försändelser.
    - [[!UICONTROL Third Party Listings]](./third-party-listing-settings.md): Definierar om [!DNL Amazon Seller Account] produktlistor ska importeras till [!DNL Commerce] katalog.
    - [[!UICONTROL Listing Price]](./listing-price.md): Definiera [!DNL Commerce] prisattribut och konfigurera prisinställningar.
-   - [[!UICONTROL (B2B) Business Price]](./business-pricing.md): Definiera era nivåindelade prisinställningar när du säljer till ett annat företag.
+   - [[!UICONTROL (B2B) Business Price]](./business-pricing.md): Ange prissättningsinställningar när du säljer till ett annat företag.
    - [[!UICONTROL Stock / Quantity]](./stock-quantity.md): Definiera tröskelvärden för lagerhantering.
    - [[!UICONTROL Fulfilled By]](./fulfilled-by.md)\: Definiera vem som slutför beställningar.
-   - [[!UICONTROL Catalog Search]](./catalog-search.md): Definiera dina sökparametrar för att säkerställa en tillförlitlig process för att matcha dina [!DNL Commerce] katalogprodukter med Amazon produktlistor.
-   - [[!UICONTROL Product Listing Condition]](./product-listing-condition.md): Definiera inställningar och värden för &quot;villkor&quot; för produkten. Villkor är en produktinformation som krävs av Amazon, men som inte krävs för din [!DNL Commerce] katalogprodukter.
+   - [[!UICONTROL Catalog Search]](./catalog-search.md): Definiera sökparametrar för att säkerställa en tillförlitlig process för att matcha [!DNL Commerce] katalogprodukter med Amazon produktlistor.
+   - [[!UICONTROL Product Listing Condition]](./product-listing-condition.md): Definiera inställningar och värden för&quot;villkor&quot; för produkten. Villkor är en produktinformation som krävs av Amazon, men som inte krävs för din [!DNL Commerce] katalogprodukter.
 
-1. Klicka **[!UICONTROL Save]**.
+1. Klicka på **[!UICONTROL Save]**.
 
 ![Listinställningar](assets/amazon-listing-settings.png){width="600" zoomable="yes"}

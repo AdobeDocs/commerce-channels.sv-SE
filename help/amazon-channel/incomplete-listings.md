@@ -12,16 +12,16 @@ ht-degree: 0%
 
 # Ofullständiga Amazon-listor
 
-The _[!UICONTROL Incomplete]_-flikar [!DNL Commerce] katalogprodukter som uppfyller kraven för Amazon (definieras i [listregler](./listing-rules.md)), men saknar information som krävs av Amazon (t.ex. Amazon ASIN eller ett definierat produktvillkor).
+The _[!UICONTROL Incomplete]_-flikar [!DNL Commerce] katalogprodukter som uppfyller kraven för Amazon (definieras i [listregler](./listing-rules.md)), men saknar information som krävs av Amazon (till exempel Amazon ASIN eller ett definierat produktvillkor).
 
 Det finns fyra möjliga orsaker till en ofullständig lista, som alla identifieras av dess status.
 
 | Status | Orsak | Åtgärd |
 |------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Villkor saknas | Amazon accepterar listor under olika förhållanden (som _Nytt_, _Renoverad_, _Används: Gilla nytt_) kräver ett definierat villkor. | Uppdatera nödvändig information manuellt [tilldela ett villkor](./amazon-manually-update-incomplete-listing.md#update-required-info-missing-condition) till en lista. |
+| Villkor saknas | Amazon accepterar listor under olika förhållanden (som _Nytt_, _Renoverad_, _Används: Som nytt_) kräver ett definierat villkor. | Uppdatera nödvändig information manuellt [tilldela ett villkor](./amazon-manually-update-incomplete-listing.md#update-required-info-missing-condition) till en lista. |
 | Det går inte att tilldela till Amazon-listan | Det gick inte att matcha den här listan automatiskt med katalogen. Om ingen matchning hittas kan listan inte hanteras av Amazon Sales Channel | Uppdatera nödvändig information manuellt [tilldela ett ASIN](./amazon-manually-update-incomplete-listing.md#update-required-info-unable-to-assign-to-amazon-listing) till katalogprodukten för matchning till listan. |
 | Flera träffar hittades | Det gick inte att matcha den här listan automatiskt med katalogen. Om det finns flera möjliga matchningar måste du välja rätt matchning för produkten. | Uppdatera nödvändig information manuellt [välj en produktmatchning](./amazon-manually-update-incomplete-listing.md#update-required-info-multiple-matches-found) för produkten och dess lista. |
-| Har varianter | Om din produkt har varianter, t.ex. en t-shirt som är tillgänglig i olika storlekar eller färger, måste du välja varianten i din katalog för att kunna tilldelas och matchas korrekt med listan | Uppdatera nödvändig information manuellt [välj rätt variant](./amazon-manually-update-incomplete-listing.md#update-required-info-has-variants) för att tilldela och matcha den här listan. |
+| Har varianter | Om din produkt har varianter, t.ex. en t-shirt som är tillgänglig i olika storlekar eller färger, måste du välja varianten i din katalog för att kunna tilldelas och matchas korrekt med listan | Uppdatera nödvändig information manuellt [välj rätt variant](./amazon-manually-update-incomplete-listing.md#update-required-info-has-variants) om du vill tilldela och matcha den här listan. |
 
 >[!NOTE]
 >När ofullständiga listor matchas korrekt med dina katalogprodukter flyttas listan från _[!UICONTROL Incomplete]_och publiceras till Amazon baserat på [_[!UICONTROL Product Listing Actions]_](./product-listing-actions.md) inställningar.
@@ -30,11 +30,11 @@ Tillgängliga åtgärder på _[!UICONTROL Incomplete]_-fliken innehåller:
 
 Under _[!UICONTROL Actions]_:
 
-- **[!UICONTROL Re-attempt to auto match to Amazon listings]**: Välj att starta den automatiska processen för att matcha dina Amazon listdata med [!DNL Commerce] katalog. Om produkterna inte matchar automatiskt kan du gå tillbaka till [_[!UICONTROL Catalog Search]_](./catalog-search.md) alternativ i dina listor. Om listor inte matchar automatiskt efter att du har uppdaterat _[!UICONTROL Catalog Search]_kan du matcha produkter manuellt i [[!UICONTROL Update Required Info]](./amazon-manually-update-incomplete-listing.md#update-required-info-multiple-matches-found) åtgärd.
+- **[!UICONTROL Re-attempt to auto match to Amazon listings]**: Välj att starta den automatiska processen för att matcha dina Amazon listdata med dina [!DNL Commerce] katalog. Om produkterna inte matchar automatiskt kan du gå tillbaka till [_[!UICONTROL Catalog Search]_](./catalog-search.md) alternativ i dina listor. Om listor inte matchar automatiskt efter att du har uppdaterat _[!UICONTROL Catalog Search]_kan du matcha produkter manuellt i [[!UICONTROL Update Required Info]](./amazon-manually-update-incomplete-listing.md#update-required-info-multiple-matches-found) åtgärd.
 
 Under **[!UICONTROL Select]** i _[!UICONTROL Action]_kolumn:
 
-- **[!UICONTROL Update Required Info]**: Välj när listor inte automatiskt matchar din katalog. Du kan göra det manuellt [matcha katalogprodukter med listor](./amazon-manually-update-incomplete-listing.md#update-required-info-multiple-matches-found), manuellt [tilldela ett ASIN](./amazon-manually-update-incomplete-listing.md#update-required-info-unable-to-assign-to-amazon-listing) till en katalogmatchning, eller [tilldelar ett saknat villkor](./amazon-manually-update-incomplete-listing.md#update-required-info-missing-condition) för notering.
+- **[!UICONTROL Update Required Info]**: Välj när listor inte automatiskt matchar katalogen. Du kan göra manuellt [matcha katalogprodukter med listor](./amazon-manually-update-incomplete-listing.md#update-required-info-multiple-matches-found), manuellt [tilldela ett ASIN](./amazon-manually-update-incomplete-listing.md#update-required-info-unable-to-assign-to-amazon-listing) till en katalogmatchning, eller [tilldelar ett saknat villkor](./amazon-manually-update-incomplete-listing.md#update-required-info-missing-condition) för notering.
 
 - **[!UICONTROL View Details]**: Välj om du vill visa listinformation, inklusive [Logg för listaktivitet](./product-listing-details.md#listing-activity-log), [Buy Boxens konkurrentpriser](./product-listing-details.md#buy-box-competitor-pricing)och [Lägsta konkurrentpris](./product-listing-details.md#lowest-competitor-pricing). Den här åtgärden är endast avsedd för visning. Inga ändringar kan göras i listinformationen. Se [Visa detaljer](./product-listing-details.md).
 

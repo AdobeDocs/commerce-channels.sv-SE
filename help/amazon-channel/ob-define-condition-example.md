@@ -20,13 +20,13 @@ Alla områden i villkoren som är feta kan klickas för att visa de olika altern
 
 >[!NOTE]
 >
->Det finns en komplex uppsättning back-end-processer som kommunicerar direkt med Amazon system. Beroende på hur många objekt du försöker lista och hur upptagna Amazon-system kan vara (t.ex. Black Friday) kan det ta tid för dina objekt att listas på Amazon.
+>Det finns en komplex uppsättning back-end-processer för direktkommunikation med Amazon system. Beroende på hur många objekt du försöker lista och hur upptagna Amazon-system kan vara (t.ex. Black Friday) kan det ta tid för dina objekt att listas på Amazon.
 
 Se avsnittet Villkor i [Skapa en kundprisregel](https://experienceleague.adobe.com/docs/commerce-admin/marketing/promotions/catalog-rules/price-rules-catalog-create.html).
 
 ## Definiera ett villkor
 
-Den här processen kan vara enkel eller detaljerad, beroende på vilken katalogkonfiguration du har. Du kan ställa in dina villkor så att när `ALL` eller `ANY` de definierade villkoren antingen `TRUE` eller `FALSE` för en produkt kan produkten listas på Amazon.
+Den här processen kan vara enkel eller detaljerad, beroende på vilken katalogkonfiguration du har. Du kan ställa in dina villkor så att när `ALL` eller `ANY` av de definierade villkoren antingen `TRUE` eller `FALSE` för en produkt kan produkten listas på Amazon.
 
 Villkoren baseras på befintliga produktattributvärden. Om du vill tillämpa regeln på alla produkter lämnar du villkorsavsnittet tomt.
 
@@ -64,19 +64,19 @@ Du kan skapa olika villkor genom att ändra kombinationen av dessa värden. I de
 
      När du har angett attributet kan det inte ändras. Om du vill ändra attributet måste du ta bort raden och lägga till det nya attributet. Du kan ta bort en villkorslinje genom att klicka på Ta bort (![Ikonen Ta bort](assets/btn-del-red.png)) i slutet av raden.
 
-      1. Klicka **[!UICONTROL is]** och välj den jämförelseoperator som beskriver villkoren för att produkterna ska uppfylla villkoren.
+      1. Klicka **[!UICONTROL is]** och välj den jämförelseoperator som beskriver villkoren för produkterna att uppfylla.
 
-         I det här exemplet är jämförelseoperatorn `is`. Vilka alternativ som är tillgängliga beror på vilket attribut du valde i föregående steg. Alternativ kan innehålla olika jämförelsealternativ, t.ex. matchningsvärden, som inte inkluderar eller omfattar minst ett av värdena, och större än, lika med och mindre än ett numeriskt värde. I det här exemplet är alternativen `is` och `is not`.
+         I detta exempel är jämförelseoperatorn `is`. Vilka alternativ som är tillgängliga beror på vilket attribut du valde i föregående steg. Alternativ kan innehålla olika jämförelsealternativ, t.ex. matchningsvärden, som inte inkluderar eller inkluderar minst ett av värdena, och större än, lika med och mindre än ett numeriskt värde. I det här exemplet är alternativen `is` och `is not`.
 
       1. Klicka **[!UICONTROL ...]** och välj det attributvärde som villkoret baseras på.
 
-         Alternativen beror på attributets inställning. Du kan uppmanas att välja ett alternativ eller att ange text eller numeriska värden för villkoret. I det här exemplet är markeringen `Yes`.
+         Alternativen beror på attributets inställning. Du kan uppmanas att välja ett alternativ eller att ange text eller numeriska värden för villkoret. I detta exempel är markeringen `Yes`.
 
          Det markerade objektet visas i satsen för att slutföra villkoret.
 
-         ![Villkorsrad 2, del 3](assets/ob-listing-rule-condition-is.png){width="500"}
+         ![Villkorslinje 2, del 3](assets/ob-listing-rule-condition-is.png){width="500"}
 
-   Detta villkor är uppfyllt. Detta innebär, som sagt, att alla produkter i [!DNL Commerce] katalog som har Amazon FBA-attributet inställt på värdet `Yes` är berättigade att föras till Amazon för att vara med i respektive butik. Du kan lägga till fler villkorslinjer för att ytterligare begränsa vilka produkter som omfattas.
+   Detta villkor är klart. Detta innebär, som sagt, att alla produkter i [!DNL Commerce] katalog som har Amazon FBA-attributet inställt på värdet `Yes` är berättigade att föras till Amazon för att vara med i respektive butik. Du kan lägga till fler villkorslinjer för att ytterligare begränsa vilka produkter som omfattas.
 
 1. Om du vill lägga till ytterligare en villkorslinje i satsen, går du tillbaka till steg 1 och upprepar processen tills alla önskade villkor är klara.
 

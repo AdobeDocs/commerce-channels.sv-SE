@@ -20,7 +20,7 @@ Commerce-transportföretag som inte mappar till en föredragen leverantör är m
 
 **Förutsättningar**
 
-Utför följande uppgifter innan du mappar transportföretag:
+Utför följande uppgifter innan du kartlägger transportföretag:
 
 1. Granska [Bärarmetoder och bästa leveransmetoder för leverans i tid](https://sellerhelp.walmart.com/s/guide?article=000009473) for [!DNL Walmart Marketplace].
 

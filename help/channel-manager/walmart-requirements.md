@@ -27,7 +27,7 @@ Gå till [!DNL Walmart Seller Center] för att konfigurera [Walmart Seller-konto
 
 ## Generera en [!DNL Walmart Marketplace] Production API-nyckel
 
-1. Gå till [!DNL Walmart Marketplace] för att generera [API-nyckel för lösningsleverantörsproduktion för Adobe](https://developer.walmart.com/#preloginModal?redirectUri=https%3A%2F%2Fdeveloper.walmart.com%2Faccount%2FgenerateKey).
+1. Gå till [!DNL Walmart Marketplace] för att generera en [API-nyckel för lösningsleverantörsproduktion för Adobe](https://developer.walmart.com/#preloginModal?redirectUri=https%3A%2F%2Fdeveloper.walmart.com%2Faccount%2FgenerateKey).
 
 1. Skapa nyckeln och konfigurera behörigheter:
 
@@ -44,7 +44,7 @@ Gå till [!DNL Walmart Seller Center] för att konfigurera [Walmart Seller-konto
    | Lager | Fullständig åtkomst |
    | Objekt | Fullständig åtkomst |
    | Sena tiden | Fullständig åtkomst |
-   | Order | Fullständig åtkomst |
+   | Beställning | Fullständig åtkomst |
    | Pris | Fullständig åtkomst |
    | Rapporter | Visa endast |
    | Returnerar | Fullständig åtkomst |
@@ -63,5 +63,5 @@ När du kopplar produkter till marknadsplatsen beror listningstillgängligheten 
 
 >[!IMPORTANT]
 >
->Efter [!DNL Channel Manager] installeras och konfigureras, synkroniseras alla lager-, pris- och orderuppdateringar automatiskt. Anslut inte [!DNL Channel Manager] till en live Walmart Marketplace-butik tills du har inaktiverat andra integreringar som uppdaterar produkt- och orderdata. Om du har konfigurerat andra integreringar kontrollerar du att artikelkvantiteten och priserna [!DNL Commerce] matchar kvantiteterna i [!DNL Walmart Marketplace] innan du ansluter till en livebutik.
+>Efter [!DNL Channel Manager] installeras och konfigureras, synkroniseras alla lager-, pris- och orderuppdateringar automatiskt. Anslut inte [!DNL Channel Manager] till en live Walmart Marketplace-butik tills du har inaktiverat andra integreringar som uppdaterar produkt- och orderdata. Om du har konfigurerat andra integreringar kontrollerar du att artikelkvantiteten och artikelpriserna [!DNL Commerce] matchar kvantiteterna i [!DNL Walmart Marketplace] innan du ansluter till en livebutik.
 

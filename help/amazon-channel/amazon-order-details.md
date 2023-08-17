@@ -16,7 +16,7 @@ ht-degree: 0%
 
 ## Visa beställningsinformation för Amazon
 
-1. Klicka **[!UICONTROL View Store]** på butikskortet.
+1. Klicka **[!UICONTROL View Store]** på kortet.
 
 1. I _[!UICONTROL Recent Orders]_klickar du på ett ordernummer.
 

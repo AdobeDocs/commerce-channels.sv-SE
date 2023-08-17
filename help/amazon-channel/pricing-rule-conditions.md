@@ -50,7 +50,7 @@ Du kan skapa olika villkor genom att ändra kombinationen av dessa värden. I de
 
    ![Kombination av prisregelvillkor](assets/ob-conditions-combinations.png){width="500"}
 
-   **[!UICONTROL Product Attribute]** - De tillgängliga produktattributen beror på [inställning av attributet](https://experienceleague.adobe.com/docs/commerce-admin/catalog/product-attributes/create/attribute-product-create.html). För ett attribut som ska visas i listan *[!UICONTROL Use for Promo Rule Conditions]* för attributet måste anges till `Yes` i butiksegenskaperna.
+   **[!UICONTROL Product Attribute]** - Vilka produktattribut som är tillgängliga beror på [inställning av attributet](https://experienceleague.adobe.com/docs/commerce-admin/catalog/product-attributes/create/attribute-product-create.html). För ett attribut som ska visas i listan *[!UICONTROL Use for Promo Rule Conditions]* för attributet måste anges till `Yes` i butiksegenskaperna.
 
    - För **[!UICONTROL Product Attribute]** väljer du det attribut som du vill definiera som bas för villkoret. I det här exemplet är det markerade villkoret `Category`.
 
@@ -60,9 +60,9 @@ Du kan skapa olika villkor genom att ändra kombinationen av dessa värden. I de
 
      När du har angett attributet kan det inte redigeras. Om du vill ändra attributet måste du ta bort raden och lägga till det nya attributet. Du kan ta bort en villkorslinje genom att klicka på Ta bort (![Ikonen Ta bort](assets/btn-del-red.png) ikonen i slutet av raden.
 
-   - Klicka **[!UICONTROL is]** och välj den jämförelseoperator som beskriver villkoren för att produkterna ska uppfylla villkoren.
+   - Klicka **[!UICONTROL is]** och välj den jämförelseoperator som beskriver villkoren för produkterna att uppfylla.
 
-     I det här exemplet är jämförelseoperatorn `is`. Vilka alternativ som är tillgängliga beror på vilket attribut du valde i föregående steg och kan innehålla olika jämförelsealternativ. Alternativen kan innehålla matchande värden, som inte inkluderar eller innehåller minst ett av värdena, och större än, lika med och mindre än ett numeriskt värde. I det här exemplet är alternativen `is` och `is not`.
+     I detta exempel är jämförelseoperatorn `is`. Vilka alternativ som är tillgängliga beror på vilket attribut du valde i föregående steg och kan innehålla olika jämförelsealternativ. Alternativen kan innehålla matchande värden, som inte inkluderar eller innehåller minst ett av värdena, och större än, lika med och mindre än ett numeriskt värde. I det här exemplet är alternativen `is` och `is not`.
 
    - Klicka **[!UICONTROL ...]** och välj det attributvärde som villkoret baseras på. Alternativen beror på attributets inställning.
 

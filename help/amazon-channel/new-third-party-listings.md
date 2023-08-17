@@ -15,15 +15,15 @@ The _[!UICONTROL New Third Party]_visas dina befintliga Amazon-listor som inte h
 
 Under _[!UICONTROL Actions]_:
 
-- **[!UICONTROL Create New Catalog Product(s)]**: Välj om du vill använda informationen i Amazon lista för att automatiskt skapa en produkt i [!DNL Commerce] katalog. Den här processen matchar Amazon lista automatiskt med den nya katalogprodukten. Se [Skapa och tilldela katalogprodukter](./creating-assigning-catalog-products.md).
+- **[!UICONTROL Create New Catalog Product(s)]**: Använd informationen i Amazon lista för att automatiskt skapa en produkt i [!DNL Commerce] katalog. Den här processen matchar Amazon lista automatiskt med den nya katalogprodukten. Se [Skapa och tilldela katalogprodukter](./creating-assigning-catalog-products.md).
 
-- **[!UICONTROL Attempt Automatic Match]**: Välj om du vill försöka matcha automatiskt de markerade listorna mot din katalog baserat på din aktuella [Katalogsökning](./catalog-search.md) i listinställningarna. Om du ändrar dina _[!UICONTROL Catalog Search]_kan du med den här åtgärden försöka matcha processen igen.
+- **[!UICONTROL Attempt Automatic Match]**: Välj om du vill försöka matcha automatiskt de markerade listorna mot din katalog baserat på din aktuella [Katalogsökning](./catalog-search.md) i dina listinställningar. Om du ändrar dina _[!UICONTROL Catalog Search]_kan du med den här åtgärden försöka matcha processen igen.
 
 Under _[!UICONTROL Select]_:
 
 - **[!UICONTROL Assign Catalog Product]**: Välj om du vill matcha listan med en produkt i din [!DNL Commerce] katalog manuellt. Se [Skapa och tilldela katalogprodukter](./creating-assigning-catalog-products.md).
 
-- **[!UICONTROL Create New Catalog Product]**: Välj om du vill använda informationen i Amazon lista för att automatiskt skapa en produkt i [!DNL Commerce] katalog. Den här processen matchar Amazon lista automatiskt med den nya katalogprodukten. Se [Skapa och tilldela katalogprodukter](./creating-assigning-catalog-products.md).
+- **[!UICONTROL Create New Catalog Product]**: Använd informationen i Amazon lista för att automatiskt skapa en produkt i [!DNL Commerce] katalog. Den här processen matchar Amazon lista automatiskt med den nya katalogprodukten. Se [Skapa och tilldela katalogprodukter](./creating-assigning-catalog-products.md).
 
 - **[!UICONTROL View Details]**: Välj om du vill visa listinformation, inklusive [Logg för listaktivitet](./product-listing-details.md#listing-activity-log), [Buy Boxens konkurrentpriser](./product-listing-details.md#buy-box-competitor-pricing)och [Lägsta konkurrentpris](./product-listing-details.md#lowest-competitor-pricing). Den här åtgärden är endast avsedd för visning. Inga ändringar kan göras i listinformationen. Se [Visa detaljer](./product-listing-details.md).
 

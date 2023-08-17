@@ -13,11 +13,11 @@ ht-degree: 0%
 
 # Anslut [!DNL Channel Manager] till [!DNL Walmart Marketplace]
 
-När du har installerat Channel Manager på din [!DNL Commerce] skapa en försäljningskanal i Channel Manager och konfigurera autentiseringsuppgifterna för att ansluta [!DNL Channel Manager] till [!DNL Walmart Marketplace].
+Efter installationen av Channel Manager på [!DNL Commerce] skapa en försäljningskanal i Channel Manager och konfigurera autentiseringsuppgifterna för att ansluta [!DNL Channel Manager] till [!DNL Walmart Marketplace].
 
 1. [Skapa försäljningskanalen](#create-the-sales-channel) genom att välja [!DNL Commerce] lagra produktlistor.
 
-1. [Ansluta kanalen till [!DNL Walmart Marketplace] genom att lägga till [!UICONTROL Walmart API credentials]](#connect-the-channel-to-walmart-marketplace).
+1. [Ansluta kanalen till [!DNL Walmart Marketplace] med tillägg [!UICONTROL Walmart API credentials]](#connect-the-channel-to-walmart-marketplace).
 
 1. [Slutför konfiguration av försäljningskanal](#complete-sales-channel-store-setup) för att hantera listor, lager, priser och beställningar för [!DNL Walmart Marketplace] produktsortiment.
 
@@ -33,7 +33,7 @@ När du har installerat Channel Manager på din [!DNL Commerce] skapa en försä
 
    ![Anslut nytt [!DNL Walmart] lagra till [!DNL Channel Manager]](assets/channel-manager-home.png){width="700" zoomable="yes"}
 
-1. Konfigurera [!DNL Walmart Marketplace Seller] konto.
+1. Om det behövs kan du konfigurera [!DNL Walmart Marketplace Seller] konto.
 
 1. Konfigurera arkivet och anslutningen:
 
@@ -85,4 +85,4 @@ Om anslutningen till [!DNL Walmart] misslyckas, se [Frågor och svar om Walmart 
 
 - Verifiera att åtkomstkonfigurationen för [!UICONTROL Walmart Adobe API key] har rätt behörigheter. Se [[!DNL Walmart Requirements]](walmart-requirements.md##generate-a-walmart-marketplace-api-key).
 
-- Bekräfta att [!DNL Walmart API] är tillgänglig från [WWART API-statussida](https://developer.walmart.com/us/whats-new/new-api-status-information-now-available/){target="_blank"}.
+- Bekräfta att [!DNL Walmart API] tjänsten är tillgänglig från [WWART API-statussida](https://developer.walmart.com/us/whats-new/new-api-status-information-now-available/){target="_blank"}.

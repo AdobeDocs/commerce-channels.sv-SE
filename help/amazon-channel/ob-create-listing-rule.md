@@ -21,7 +21,7 @@ Listregler kan definieras under introduktionen, men kan också ändras när som 
 
    Butiken [kontrollpanel](./amazon-store-dashboard.md) visas med `No products listed to Amazon` meddelande.
 
-1. Klicka **[!UICONTROL Preview and List Eligible Products]**.
+1. Klicka på **[!UICONTROL Preview and List Eligible Products]**.
 
    The _[!UICONTROL Listing Rules]_visas.
 

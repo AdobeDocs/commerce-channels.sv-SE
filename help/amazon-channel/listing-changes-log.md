@@ -1,6 +1,6 @@
 ---
 title: Amazon försäljningskanal - [!UICONTROL Listing Changes Log]
-description: Amazon Sales Channel tillhandahåller en logg över liständringar som hjälper dig att övervaka ändringarna i Amazon Seller-kontot.
+description: I Amazon Sales Channel finns en logg över liständringar som gör det lättare att övervaka ändringarna i Amazon Seller-kontot.
 feature: Sales Channels, Logs
 exl-id: 9c4db5ac-cbfb-4584-b216-4aead2a28189
 source-git-commit: 7fff4c463551089fb64f2d5bf7bf23f272ce4663

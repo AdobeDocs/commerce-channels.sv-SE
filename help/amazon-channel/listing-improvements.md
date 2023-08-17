@@ -1,6 +1,6 @@
 ---
 title: Amazon försäljningskanal - [!UICONTROL Listing Improvements]
-description: Amazon Sales Channel tillhandahåller en rapport om listförbättring som ger dig förslag på förbättringar av Amazon listkvalitet.
+description: Amazon Sales Channel innehåller rapporten Listing Improvements som ger förslag på förbättringar av Amazon listkvalitet.
 feature: Sales Channels, Products
 exl-id: 880f4ede-6e2b-4727-a8cb-3798568980dd
 source-git-commit: 7fff4c463551089fb64f2d5bf7bf23f272ce4663

@@ -1,6 +1,6 @@
 ---
 title: Skapa och tilldela produkter för Amazon försäljningskanal
-description: Amazon Sales Channel tillhandahåller [!UICONTROL New Third Party] för att skapa och tilldela matchande Commerce-katalogprodukter med Amazon-listor.
+description: Amazon Sales Channel innehåller [!UICONTROL New Third Party] för att skapa och tilldela matchande Commerce-katalogprodukter med Amazon-listor.
 feature: Sales Channels, Products, Configuration
 exl-id: de000e80-7546-44d2-905e-28664b24f028
 source-git-commit: 7fff4c463551089fb64f2d5bf7bf23f272ce4663
@@ -30,13 +30,13 @@ När listor skapas och matchas tas de bort från _[!UICONTROL New Third Party]_o
 
 1. Visa dina produktlistor på [_[!UICONTROL New Third Party]_](./new-third-party-listings.md) -fliken.
 
-1. Sök efter den lista du vill tilldela i listan genom att klicka på **[!UICONTROL Select]** i _[!UICONTROL Action]_kolumn och klicka på&#x200B;**[!UICONTROL Assign Catalog Product]**.
+1. Klicka på den lista du vill tilldela i listan. **[!UICONTROL Select]** i _[!UICONTROL Action]_kolumn och klicka på&#x200B;**[!UICONTROL Assign Catalog Product]**.
 
-   Den här åtgärden öppnar _[!UICONTROL Assign Magento Catalog Product]_sida.
+   Åtgärden öppnar _[!UICONTROL Assign Magento Catalog Product]_sida.
 
-1. Bläddra efter eller filtrera listan med [arbetsytekontroller](./workspace-controls.md) och hitta rätt katalogprodukt som matchar listan.
+1. Sök efter eller filtrera listan med [arbetsytekontroller](./workspace-controls.md) och hitta rätt katalogprodukt som matchar listan.
 
-1. När rätt produkt visas i listan klickar du på **[!UICONTROL Assign Catalog Product]** i _[!UICONTROL Action]_kolumn.
+1. När rätt produkt visas i listan klickar du **[!UICONTROL Assign Catalog Product]** i _[!UICONTROL Action]_kolumn.
 
 Produkten och listan överensstämmer nu. Amazon försäljningskanal kan nu dela produkt- och listdata med Amazon och hantera din lista och information om den, inklusive listpris, fraktpris, aktie/kvantitet, orderinformation och status med mera.
 
@@ -46,7 +46,7 @@ Produkten och listan överensstämmer nu. Amazon försäljningskanal kan nu dela
 
 1. Hitta den lista du vill skapa i [!DNL Commerce] katalog, klicka på **[!UICONTROL Select]** i _[!UICONTROL Action]_kolumn och klicka på&#x200B;**[!UICONTROL Create New Catalog Product]**.
 
-   Den här åtgärden öppnar _[!UICONTROL Create Magento Catalog Product]_sida.
+   Åtgärden öppnar _[!UICONTROL Create Magento Catalog Product]_sida.
 
 1. Slutför produktens kataloginställningar.
 
@@ -56,7 +56,7 @@ Produkten och listan överensstämmer nu. Amazon försäljningskanal kan nu dela
 
    - För **[!UICONTROL Categories]**, tilldela en kategori för produkten (valfritt).
 
-     Klicka på nedpilen och markera en kategorikryssruta för att välja produktkategori. Klicka **[!UICONTROL Done]** när du är klar.
+     Om du vill välja produktkategori klickar du på nedpilen och markerar en kategorikryssruta. Klicka **[!UICONTROL Done]** när du är klar.
 
    - För **[!UICONTROL Website Ids]** väljer du den webbplats (storefront) som produkten ska kopplas till.
 
@@ -72,7 +72,7 @@ Produkten och listan överensstämmer nu. Amazon försäljningskanal kan nu dela
 
    - För **[!UICONTROL Assign Tax Class]** väljer du ett alternativ för produkten.
 
-     Vilka alternativ som visas i den här listan beror på [momsklasser](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/site-store/taxes/tax-class.html) du har konfigurerat.
+     Vilka alternativ som visas i listan beror på [momsklasser](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/site-store/taxes/tax-class.html) du har konfigurerat.
 
    - När du är klar klickar du på **[!UICONTROL Create Catalog Products]**.
 
@@ -101,7 +101,7 @@ Katalogprodukten skapas i [!DNL Commerce] och tilldelas till den Amazon-lista so
 
    - För **[!UICONTROL Categories]**, tilldela en kategori för produkten (valfritt).
 
-     Klicka på nedpilen och markera en kategorikryssruta för att välja produktkategori. Klicka **Klar** när du är klar.
+     Om du vill välja produktkategori klickar du på nedpilen och markerar en kategorikryssruta. Klicka **Klar** när du är klar.
 
    - För **[!UICONTROL Website Ids]** väljer du den webbplats (storefront) som produkten ska kopplas till.
 
@@ -117,7 +117,7 @@ Katalogprodukten skapas i [!DNL Commerce] och tilldelas till den Amazon-lista so
 
    - För **[!UICONTROL Assign Tax Class]** väljer du ett alternativ för produkten.
 
-     Vilka alternativ som visas i den här listan beror på [momsklasser](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/site-store/taxes/tax-class.html) du har konfigurerat.
+     Vilka alternativ som visas i listan beror på [momsklasser](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/site-store/taxes/tax-class.html) du har konfigurerat.
 
    - När du är klar klickar du på **[!UICONTROL Create Catalog Products]**.
 
@@ -127,9 +127,9 @@ Katalogprodukterna skapas i [!DNL Commerce] och tilldelas till den Amazon-lista 
 
 | Fält | Beskrivning |
 |--------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [!UICONTROL Enable Product(s)] | (Obligatoriskt) Om det här alternativet är aktiverat visas produkten i [!DNL Commerce] storefront. Om den är inaktiverad visas inte produkten i [!DNL Commerce] storefront. |
+| [!UICONTROL Enable Product(s)] | (Obligatoriskt) Om den är aktiverad visas produkten i [!DNL Commerce] storefront. Om den är inaktiverad visas inte produkten i [!DNL Commerce] storefront. |
 | [!UICONTROL Categories] | Du kan ange namnet på kategorin för den nya produkten eller välja en kategori genom att klicka på nedpilen för att visa dina alternativ. Alternativen beror på [kategorier](https://experienceleague.adobe.com/docs/commerce-admin/catalog/categories/create/category-create.html) konfiguration. |
 | [!UICONTROL Website Ids] | (Obligatoriskt) Välj den webbplats (storefront) som produkten ska kopplas till. Alternativen beror på [!DNL Commerce] [lagringskonfiguration](https://experienceleague.adobe.com/docs/commerce-admin/start/setup/websites-stores-views.html) inställningar |
 | Attributuppsättnings-ID | Välj en attributuppsättning. Alternativen beror på din konfiguration [!DNL Commerce] [attributuppsättningar](https://experienceleague.adobe.com/docs/commerce-admin/catalog/product-attributes/create/attribute-sets.html). |
-| [!UICONTROL Visibility] | Alternativ:<ul><li>**[!UICONTROL Not Visible Individually]** - produkten inte syns i [!DNL Commerce] storefront (vanligaste för variantprodukter).</li><li>**[!UICONTROL Catalog]** - Tillåter att produkten kan nås via den kategori den är kopplad till på webbplatsen.</li><li>**Sök** - Tillåter att produkten bara hittas via sökverktyget.</li><li>**[!UICONTROL Catalog and Search]** - Tillåter att produkterna kan nås via kategoristrukturen och sökverktyget.</li></ul> |
+| [!UICONTROL Visibility] | Alternativ:<ul><li>**[!UICONTROL Not Visible Individually]** - produkten inte syns i [!DNL Commerce] storefront (vanligaste för variantprodukter).</li><li>**[!UICONTROL Catalog]** - Tillåter att produkten kan nås via den kategori den är kopplad till på webbplatsen.</li><li>**Sök** - Tillåter att produkten bara hittas via sökverktyget.</li><li>**[!UICONTROL Catalog and Search]** - Tillåter att produkterna kan nås via kategoristrukturen och med sökverktyget.</li></ul> |
 | [!UICONTROL Assign Tax Class] | Tilldela en momsklass till den nya produkten. Alternativen beror på din konfiguration [momsklasser](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/site-store/taxes/tax-class.html). |

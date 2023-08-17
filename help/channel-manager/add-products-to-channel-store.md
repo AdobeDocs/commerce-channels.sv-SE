@@ -40,13 +40,13 @@ Importprocessen kan ta upp till 30 minuter eller mer beroende på hur många pro
 
 ## Lägg till produkter
 
-1. Välj **Lägg till produkter** för att öppna produktkatalogen.
+1. I en ansluten säljkanalbutik väljer du **Lägg till produkter** för att öppna produktkatalogen.
 
    ![Lägg till produkter i säljkanalsbutiken](assets/add-initial-products-to-connected-channel.png){width="600" zoomable="yes"}
 
    Katalogen öppnas på en ny flik.
 
-1. Välj produkter att sälja på i katalogproduktrutnätet [!DNL Walmart Marketplace].
+1. I katalogproduktrutnätet väljer du produkter att sälja på [!DNL Walmart Marketplace].
 
    ![Skicka produkter till säljkanalsbutiken](assets/select-products-from-catalog.png){width="600" zoomable="yes"}
 
@@ -72,7 +72,7 @@ Importprocessen kan ta upp till 30 minuter eller mer beroende på hur många pro
 
 1. När importen är klar kontrollerar du de produkter som du har lagt till genom att gå tillbaka till [!DNL Channel Manager] och markera **[!UICONTROL Listings]**.
 
-   Till att börja med finns produkterna i *Utkast* status. Välj **[!UICONTROL Refresh products]** för att uppdatera tabellen.
+   Produkterna finns i *Utkast* status. Välj **[!UICONTROL Refresh products]** för att uppdatera tabellen.
 
 1. Uppdatera vyn för att visa de nya produkterna som lagts till i Channel Manager genom att välja **[!UICONTROL Draft]** statuskort.
 

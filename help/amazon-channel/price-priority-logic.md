@@ -18,7 +18,7 @@ I följande exempel, hur avgör systemet om du ska publicera $31.99, $24.99 elle
 
 Använd prisprioritetslogik (som bestäms av [Sorteringsordning](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/site-store/store-views.html) värde).
 
-Om du vill visa butikernas sorteringsordning går du till **[!UICONTROL Stores]** > **[!UICONTROL All Stores]** i _Administratör_ sidofält. I _[!UICONTROL Web Site]_klickar du på webbplatsens namn. The_[!UICONTROL Web Site Information]_ visas _[!UICONTROL Sort Order]_för webbplatsen, vilket avgör webbplatsens prioritet. Värdet för `1` anger högsta prioritet.
+Om du vill visa butikernas sorteringsordning går du till **[!UICONTROL Stores]** > **[!UICONTROL All Stores]** i _Administratör_ sidofält. I _[!UICONTROL Web Site]_klickar du på webbplatsens namn. The_[!UICONTROL Web Site Information]_ sidan visar _[!UICONTROL Sort Order]_för webbplatsen, vilket avgör webbplatsens prioritet. Värdet för `1` anger högsta prioritet.
 
 Om produktpriset är inställt på `Use Default`, används standardpriset istället för webbplatsens prisvärde.
 
@@ -26,7 +26,7 @@ Om produktpriset är inställt på `Use Default`, används standardpriset istäl
 
 |         | Webbplatsprioritet | Pris (webbplats) | Använd standard |
 |---------|------------------|-----------------|-------------|
-| Standard | 0 | $31.99 | -- |
+| Standard | 0 | $31.99 | — |
 | Butik 1 | 1 | $24.99 | Nej |
 | Butik 2 | 2 | $27.99 | Ja |
 
@@ -57,7 +57,7 @@ Om produktpriset är inställt på `Use Default`, används standardpriset istäl
 
 I det här exemplet läggs det icke-prisvärde som används om du väljer ett annat värde för _[!UICONTROL Magento Price Source_] (definieras i [Listpris](./listing-price.md) inställningar). Icke-prisvärdet använder alltid pris som reservpris.
 
-- The **[!UICONTROL Magento Price Source]** (definieras i [[!UICONTROL Listing Price]](./listing-price.md) inställningar) anges till `Non-Price`.
+- The **[!UICONTROL Magento Price Source]** (definieras i [[!UICONTROL Listing Price]](./listing-price.md) inställningar) är inställda på `Non-Price`.
 - Webbplatsen har högsta webbplatsprioritet, vilket är `Store 1`(definieras av [Sorteringsordning](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/site-store/store-views.html) värde).
-- Sedan butik 1 **är inte** ange för att använda `Non-Price` -attribut, se nästa webbplats i sorteringsordningen.
-- Sedan butik 2 **är** ange för att använda `Non-Price` attribute (Non-Price [Webbplats] = 20,00 USD) är det publicerade priset 20,00 USD.
+- Sedan butik 1 **är inte** ange att `Non-Price` -attribut, se nästa webbplats i sorteringsordningen.
+- Sedan butik 2 **är** ange att `Non-Price` attribute (Non-Price [Webbplats] = 20,00 USD) är det publicerade priset 20,00 USD.

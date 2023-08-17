@@ -1,5 +1,5 @@
 ---
-user-guide-title: Användarhandbok för Amazon Sales Channel
+user-guide-title: Amazon Sales Channel User Guide
 user-guide-description: Generera säljmaterial genom Amazon genom att integrera Adobe Commerce eller Magento Open Source med [!DNL Amazon Seller Central] konto.
 breadcrumb-title: Amazon försäljningskanal
 role: Admin, User
@@ -15,16 +15,16 @@ ht-degree: 0%
 
 # Amazon försäljningskanal - [!DNL channel manager] för Adobe Commerce {#amazon}
 
-- [Användarhandbok för Amazon Sales Channel](guide-overview.md)
+- [Amazon Sales Channel User Guide](guide-overview.md)
 - [Introduktion till Amazon försäljningskanal](overview.md)
 - Komma igång {#getting-started}
    - [Om Amazon Marketplace](about-amazon-marketplace.md)
    - [Amazon och Commerce-katalogen](about-listings-and-catalog.md)
-   - [God praxis och begränsningar](amazon-best-practices.md)
+   - [Bästa praxis och begränsningar](amazon-best-practices.md)
    - [Installera tillägget](install.md)
 - Onboarding {#onboarding}
    - [Införliva Amazon försäljningskanal](amazon-onboarding-home.md)
-   - [Åtgärder före installation](amazon-pre-setup-tasks.md)
+   - [Förinställda uppgifter](amazon-pre-setup-tasks.md)
    - [Skapa [!DNL Commerce] attribut för Amazon](ob-creating-magento-attributes.md)
    - [Verifiera Amazon API-nyckeln](amazon-verify-api-key.md)
    - [Integrering med Store](store-integration.md)
@@ -50,7 +50,7 @@ ht-degree: 0%
    - [Listpris](listing-price.md)
    - [(B2B) företagspriser](business-pricing.md)
    - [Lager/kvantitet](stock-quantity.md)
-   - [Fullgjord av](fulfilled-by.md)
+   - [Fulifyllt av](fulfilled-by.md)
    - [Katalogsökning](catalog-search.md)
    - [Villkor för produktlista](product-listing-condition.md)
    - [Förnyade produkter](renewed-products.md)
@@ -107,8 +107,8 @@ ht-degree: 0%
       - [Publicera en Amazon-lista](publish-listings-manually.md)
       - [Uppdatera nödvändig information](amazon-manually-update-incomplete-listing.md)
       - [Visa detaljer](product-listing-details.md)
-- Hantera order {#admin-orders}
-   - [Hantera order](managing-orders.md)
+- Hantera beställningar {#admin-orders}
+   - [Hantera beställningar](managing-orders.md)
    - [Visa Amazon-order](amazon-orders-all.md)
    - [Visa beställningsinformation för Amazon](amazon-order-details.md)
    - [Vanliga åtgärder för orderbehandling](common-order-processing.md)

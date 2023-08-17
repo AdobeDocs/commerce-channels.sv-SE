@@ -7,7 +7,7 @@ exl-id: 37ecf25a-7b47-4f6d-a4bb-2f306f7b5997
 source-git-commit: 7fff4c463551089fb64f2d5bf7bf23f272ce4663
 workflow-type: tm+mt
 source-wordcount: '178'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -17,13 +17,13 @@ Prisreglerna kan konfigureras och ändras när som helst efter att butiken har i
 
 ## Standardprisregel
 
-Med en standardprisregelåtgärd kan du öka eller minska ett Amazon-listpris med en viss procentandel eller ett fast belopp i förhållande till **[!UICONTROL Magento Price Source*]* definieras i [Listpris](./listing-price.md).
+Med en standardprisregelåtgärd kan du öka eller minska ett Amazon-listpris med en viss procentandel eller ett fast belopp i förhållande till **[!UICONTROL Magento Price Source*]* som definieras i [Listpris](./listing-price.md).
 
 ### Lägg till en standardprisregel
 
 1. Klicka **[!UICONTROL Pricing rules]** på butikens kontrollpanel.
 
-1. Klicka **[!UICONTROL Add new pricing rule]**.
+1. Klicka på **[!UICONTROL Add new pricing rule]**.
 
 1. Slutför **[[!UICONTROL General Settings]](./pricing-rule-general-settings.md)** för regeln.
 
@@ -41,7 +41,7 @@ En intelligent regel för omprissättning använder Amazon konkurrenters priser 
 
 1. Klicka **[!UICONTROL Pricing rules]** på butikens kontrollpanel.
 
-1. Klicka **[!UICONTROL Add new pricing rule]**.
+1. Klicka på **[!UICONTROL Add new pricing rule]**.
 
 1. Slutför **[[!UICONTROL General Settings]](./pricing-rule-general-settings.md)** för regeln.
 

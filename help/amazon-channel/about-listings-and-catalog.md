@@ -15,7 +15,7 @@ ht-degree: 0%
 
 Adobe Commerce eller Magento Open Source har en katalog med alla produkter och tillhörande inställningar och information (bilder, alternativ, priser med mera) samt beställnings- och leveranskonfigurationer. Dina [!DNL Amazon Seller Central] kontot har också en katalog- och orderkonfiguration som strikt följer din försäljning via [!DNL Amazon Marketplace].
 
-För att kunna hantera och granska produktkataloger och försäljning på ett och samma ställe importerar Amazon försäljningskanal dina Amazon-listor till [!DNL Commerce] i ryggen, synkroniseras kontinuerligt med produkter och försäljning, och rapporterar problem och trender. Den stöder integrering med flera [!DNL Amazon Seller Central] konton, spåra alla data via ett enda gränssnitt för flera butiker.
+För att hantera och granska produktkataloger och försäljning på ett och samma ställe importerar Amazon försäljningskanal dina Amazon-listor till [!DNL Commerce] i ryggen, synkroniseras kontinuerligt med produkter och försäljning, och rapporterar problem och trender. Den stöder integrering med flera [!DNL Amazon Seller Central] konton, spåra alla data via ett enda gränssnitt för flera butiker.
 
 ## Produktattribut
 
@@ -33,18 +33,18 @@ När du har skapat en lista [!DNL Commerce] de skickas till Amazon för godkänn
 
 - [Aktiv](./active-listings.md): Visar godkända produktlistor som är tillgängliga via Marketplace.
 
-- [Klar för lista](./ready-to-list.md): Listar produkter som uppfyller listkraven och som är klara att publiceras till Amazon.
+- [Klar för lista](./ready-to-list.md): Visar produkter som uppfyller alla krav och som är klara att publiceras till Amazon.
 
-- [Inaktiv](./inactive-listings.md): Listar produkter som inte är tillgängliga på marknaden på grund av att de blockerats av en viss anledning (t.ex. ett brandingproblem), stängts och måste listas om osv.
+- [Inaktiv](./inactive-listings.md): Visar produkter som inte är tillgängliga på marknaden på grund av att de blockerats av en viss anledning (t.ex. ett brandingproblem), stängts och måste listas om osv.
 
 - [Ej giltiga](./ineligible-listings.md): På grund av listreglerna listas produkter som inte kan listas aktivt på marknaden (till exempel `0` antal eller försäljningsdatum).
 
-- [Ofullständig](./incomplete-listings.md): Visar produkter som saknar nödvändig information. Uppdatera produktdata för en annan granskning.
+- [Ofullständig](./incomplete-listings.md): Listar produkter som saknar nödvändig information. Uppdatera produktdata för en annan granskning.
 
-- [Avslutade](./ended-listings.md): Visar en lista över produkter som kan listas i listan men som manuellt tagits bort från Amazon. Du kan ändra listan över de här produkterna.
+- [Avslutade](./ended-listings.md): Visar en lista över produkter som kan listas men tas bort manuellt från Amazon. Du kan ändra listan över de här produkterna.
 
 ## Synkroniserar data
 
 Adobe Commerce och Magento Open Source kommunicerar produkt- och orderdata mellan [!DNL Amazon Seller Central] konto och [!DNL Commerce] serverdel. De kontinuerliga uppdateringarna utgör en enda källa via [!DNL Commerce] för att hantera och underhålla lager, utföra beställningar, hålla koll på försäljningen och minska omkostnader och dubbelarbete. Rapporteringen innehåller de senaste data för att spåra trender och lösa kommunikationsproblem som fångats upp mellan de två systemen.
 
-All synkronisering hanteras av en [cron](https://experienceleague.adobe.com/docs/commerce-admin/systems/tools/cron.html), konfigurerad att uppdateras var femte minut i [Åtgärder före installation](./amazon-pre-setup-tasks.md).
+All synkronisering hanteras av en [cron](https://experienceleague.adobe.com/docs/commerce-admin/systems/tools/cron.html), som uppdateras var femte minut i [Åtgärder före installation](./amazon-pre-setup-tasks.md).

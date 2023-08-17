@@ -1,6 +1,6 @@
 ---
 title: Attribut för Amazon-listor
-description: Amazon Sales Channel tillhandahåller [!UICONTROL Attributes] för att övervaka listan över Amazon- och Commerce-attribut och hur de mappas för produktmatchning.
+description: Amazon Sales Channel innehåller [!UICONTROL Attributes] för att övervaka listan över Amazon- och Commerce-attribut och hur de mappas för produktmatchning.
 feature: Sales Channels, Products, Configuration
 exl-id: fc08cd6e-eef9-4e71-82b1-5443e14800ce
 source-git-commit: 7fff4c463551089fb64f2d5bf7bf23f272ce4663
@@ -34,7 +34,7 @@ Från _[!UICONTROL Attributes]_visa, du och granska dina attributinställningar 
 
 | Fält | Beskrivning |
 |---------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [!UICONTROL Country] | Land för försäljningsaktivitet definierad i  **[!DNL Amazon Marketplace]Land** under [butiksintegrering](./store-integration.md). |
+| [!UICONTROL Country] | Det land för försäljningsaktivitet som definieras i  **[!DNL Amazon Marketplace]Land** under [butiksintegrering](./store-integration.md). |
 | [!UICONTROL ID] | Allmänt attributvärde genererat av [!DNL Commerce] när attributet skapas. |
 | [!UICONTROL Amazon Attribute Name] | Namnet på attributet som har importerats från Amazon. |
 | [!UICONTROL Product Catalog Attribute Code] | Om den mappas visas [!DNL Commerce] attribut som tilldelats mappningen till _[!UICONTROL Amazon Attribute Name]_för matchning av katalog- och listprodukter. |

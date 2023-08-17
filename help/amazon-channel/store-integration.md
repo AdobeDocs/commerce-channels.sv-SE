@@ -1,6 +1,6 @@
 ---
 title: Integrering med en [!DNL Amazon Seller Account]
-description: Innan du börjar med introduktionsprocessen måste du skapa (lägga till) en Amazon Sales Channel store och ansluta den till ditt Amazon-återförsäljarkonto.
+description: Innan du kan påbörja introduktionsprocessen måste du skapa (lägga till) en Amazon Sales Channel store och ansluta den till ditt Amazon Seller-konto.
 role: Admin, Developer
 feature: Sales Channels, Configuration, Integration, Tools and External Services
 exl-id: ea79e91d-7d92-4992-a921-7ac7632a0519
@@ -27,13 +27,13 @@ _Du behöver de primära inloggningsuppgifterna för din [!DNL Amazon Seller Cen
 
    När du lägger till din första Amazon-butik _Åtgärder före installation_ modal visas. När din första butik har lagts till kan du få åtkomst till förinställningsuppgifterna på [Amazon säljkanal - startsida](./amazon-sales-channel-home.md) sida under _Utbildning och förberedelser_ i den vänstra menyn.
 
-1. Klicka **[!UICONTROL Add Amazon Store]**.
+1. Klicka på **[!UICONTROL Add Amazon Store]**.
 
    The _[!UICONTROL Add Amazon sales channel]_sidan öppnas.
 
    ![Lägg till Amazon säljkanalsbutik](assets/amazon-store-integration.png){width="500" zoomable="yes"}
 
-1. För **[!UICONTROL Magento Website to use for Amazon Listing]** väljer du vilken av dina [!DNL Commerce] webbplatser att ansluta till denna Amazon-återförsäljarkanalbutik.
+1. För **[!UICONTROL Magento Website to use for Amazon Listing]** väljer du vilken av dina [!DNL Commerce] webbplatser att ansluta till den här Amazon-butiken för säljkanaler.
 
    Den här inställningen definierar också standardinställningen [!DNL Commerce] lagra för [importera Amazon-order](./order-settings.md).
 
@@ -50,7 +50,7 @@ _Du behöver de primära inloggningsuppgifterna för din [!DNL Amazon Seller Cen
    - Amerikas förenta stater
    - Kanada
    - Mexico
-   - Storbritannien
+   - Förenade kungariket
 
 1. I _[!UICONTROL Map your Magento attributes to Amazon]_gör du följande:
 
@@ -62,7 +62,7 @@ _Du behöver de primära inloggningsuppgifterna för din [!DNL Amazon Seller Cen
 
      [Mappningsattribut](./ob-creating-magento-attributes.md) hjälper dig att se till att din Amazon-lista matchar motsvarande produkt i din [!DNL Commerce] katalog.
 
-1. Klicka **[!UICONTROL Connect]**.
+1. Klicka på **[!UICONTROL Connect]**.
 
    Dialogrutan stängs och den nya butiken visas på [Amazon säljkanal - startsida](./amazon-sales-channel-home.md) sida med ett bekräftelsemeddelande.
 
@@ -84,7 +84,7 @@ _Du behöver de primära inloggningsuppgifterna för din [!DNL Amazon Seller Cen
 
    The [Amazon säljkanal - startsida](./amazon-sales-channel-home.md) öppnas en sida med dina Amazon Store-kort.
 
-   Om du vill visa kontrollpanelen för butiker klickar du på **[!UICONTROL View Store]** på butikskortet.
+   Om du vill visa kontrollpanelen för butiker klickar du på **[!UICONTROL View Store]** på kortet.
 
 ![Amazon säljkanalshem med nytt butikskort](assets/asc-dashboard-after-2fa.png){width="600" zoomable="yes"}
 

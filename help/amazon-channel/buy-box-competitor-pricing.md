@@ -1,6 +1,6 @@
 ---
-title: "[!DNL Buy Box] konkurrentpriser för Amazon listor"
-description: Amazon Sales Channel tillhandahåller [!UICONTROL Buy Box Competitor Pricing] som hjälper dig att förstå prisplaceringen för dina konkurrenter på Amazon.
+title: "[!DNL Buy Box] konkurrentpriser för Amazon-listor"
+description: Amazon Sales Channel innehåller [!UICONTROL Buy Box Competitor Pricing] som hjälper dig att förstå prisplaceringen för dina konkurrenter på Amazon.
 role: Admin
 level: Intermediate
 feature: Sales Channels, B2B, Tools and External Services, Merchandising, Integration
@@ -38,7 +38,7 @@ The _[!UICONTROL Buy Box Competitor Pricing]_på_[!UICONTROL Product Listing Det
 
 | Kolumn | Beskrivning |
 |-----------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [!UICONTROL ASIN] | Ett unikt block med 10 bokstäver och/eller siffror som identifierar objekt.<br><br>För böcker är ASIN samma som ISBN-numret, men för alla andra produkter skapas ett nytt ASIN när objektet överförs till din katalog. Du hittar ett objekts ASIN på produktinformationssidan tillsammans med ytterligare information om objektet (till exempel storlek, antal sidor eller antal skivor). |
+| [!UICONTROL ASIN] | Ett unikt block med 10 bokstäver och/eller siffror som identifierar objekt.<br><br>För böcker är ASIN samma som ISBN-numret, men för alla andra produkter skapas ett nytt ASIN när objektet överförs till katalogen. Du hittar ett objekts ASIN på produktinformationssidan tillsammans med ytterligare information om objektet (till exempel storlek, antal sidor eller antal skivor). |
 | [!UICONTROL Is Seller] | Anger om säljaren har vunnit Buy Box för noteringen. |
 | [!UICONTROL Condition] | The [villkor](./product-listing-condition.md) av produkten. |
 | [!UICONTROL Listing Price] | Priset som används för dina Amazon-listor. |

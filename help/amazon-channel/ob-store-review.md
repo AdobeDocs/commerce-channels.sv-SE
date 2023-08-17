@@ -18,7 +18,7 @@ När du har skapat och integrerat din Amazon-butik kan du kontrollera standardin
 
 1. Markera den butik som du vill visa och klicka på **[!UICONTROL View Store]**.
 
-1. Klicka på en lagringsinställning på den vänstra menyn på butikspanelen.
+1. Klicka på en lagringsinställning på den vänstra menyn på kontrollpanelen för butiker.
 
    - [**[!UICONTROL Listing settings]**](./listing-settings.md) - Styr hur produktkatalogen interagerar med [!DNL Amazon Marketplace].
    - [**[!UICONTROL Order settings]**](./order-settings.md) - Styr hur Amazon beställningar hanteras.

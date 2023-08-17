@@ -17,9 +17,9 @@ Hemsidan för Amazon-försäljningskanalen är din landningssida när du öppnar
 
 De vyer som är tillgängliga på den vänstra menyn är bland annat:
 
-- [[!UICONTROL Amazon Stores]](./managing-stores.md) - (Standardvy) Visa sammanfattningsinformation för var och en av Amazon säljkanalsbutiker. Visa butiken [kontrollpanel](./amazon-store-dashboard.md), klicka **[!UICONTROL View Store]**.
+- [[!UICONTROL Amazon Stores]](./managing-stores.md) - (Standardvy) Visa sammanfattningsinformation för var och en av Amazon säljkanalsbutiker. Så här visar du butiken [kontrollpanel](./amazon-store-dashboard.md), klicka **[!UICONTROL View Store]**.
 - [[!UICONTROL Learning and Preparation]](./learning-preparation.md) - Visa din Amazon och [!DNL Commerce] rekommenderade inställningsuppgifter och tillgängligt utbildningsmaterial.
-- [[!UICONTROL Attributes]](./managing-attributes.md) - Visa och hantera länkade [!DNL Commerce] och Amazon-attribut för din produktkatalog. Om du vill synkronisera automatiskt med Amazon redigerar eller skapar du och länkar attribut direkt via [!DNL Commerce].
+- [[!UICONTROL Attributes]](./managing-attributes.md) - Visa och hantera länkade [!DNL Commerce] och Amazon-attribut för produktkatalogen. Om du vill synkronisera automatiskt med Amazon redigerar eller skapar du och länkar attribut direkt via [!DNL Commerce].
 
 ## Få tillgång till Amazon försäljningskanal
 

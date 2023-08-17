@@ -42,7 +42,7 @@ Innan du matchar produkter måste du kontrollera att produktkatalogattributvärd
 
    Ett meddelande anger antalet produkter som skickats för matchning.
 
-   Status för valda produkter ändras till [!UICONTROL *Bearbetar*] tills matchningsåtgärden har slutförts. Det kan ta upp till 30 minuter för Walmart Marketplace att slutföra matchningsåtgärden.
+   Statusen för de valda produkterna ändras till [!UICONTROL *Bearbetar*] tills matchningsåtgärden har slutförts. Det kan ta upp till 30 minuter för Walmart Marketplace att slutföra matchningsåtgärden.
 
 ### Kontrollera matchningsstatus
 
@@ -142,7 +142,7 @@ Om du vill se nya produktlistor kontrollerar du i produktkatalogen att de produk
 
    - I [!UICONTROL Entity Attributes] konfigurera urvalskriterierna för export av produktdata.
 
-     Använd filter för att välja och konfigurera attributvärden som gäller för de produktkategorier som du säljer in. Se till att du inkluderar de attribut som krävs och rekommenderas för Walmart. (Se [Exportera data](https://experienceleague.adobe.com/docs/commerce-admin/systems/data-transfer/data-export.html) i Adobe [!DNL Commerce] Användarhandbok för detaljerade anvisningar.)
+     Använd filter för att välja och konfigurera attributvärden som gäller för de produktkategorier som du säljer in. Se till att du inkluderar de attribut som krävs och rekommenderas för Walmart. (Se [Exportera data](https://experienceleague.adobe.com/docs/commerce-admin/systems/data-transfer/data-export.html) i ADOBE [!DNL Commerce] Användarhandbok för detaljerade anvisningar.)
 
      Om du vill utesluta ett attribut från exporten markerar du [!UICONTROL **Exkludera**] i början av raden.
 

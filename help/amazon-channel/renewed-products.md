@@ -22,7 +22,7 @@ När du har godkänts och [!DNL Seller Central] kontot uppdateras, kan du hanter
 
 >[!IMPORTANT]
 >
->De förnyade produktlistor som inte uppfyller de krav som ställs av Amazon ändras till `Inactive` status och flytta från *[[!UICONTROL Active Listings]](./active-listings.md)* till *[[!UICONTROL Inactive Listings]](./inactive-listings.md)* -fliken. Dessutom [[!UICONTROL Listings Changes] logg](./listing-changes-log.md) visar en `Refurbished` felmeddelande.
+>De förnyade produktlistor som inte uppfyller de krav som ställs av Amazon ändras till `Inactive` status och flytta från *[[!UICONTROL Active Listings]](./active-listings.md)* till *[[!UICONTROL Inactive Listings]](./inactive-listings.md)* -fliken. Dessutom finns [[!UICONTROL Listings Changes] logg](./listing-changes-log.md) visar en `Refurbished` felmeddelande.
 
 Mer information finns i relaterad Amazon-dokumentation:
 

@@ -26,7 +26,7 @@ För att dina produkter ska kunna listas på [!DNL Amazon Business (B2B)] måste
 
 1. Klicka **[!UICONTROL Listing Settings]** på butikens kontrollpanel.
 
-1. Expandera _[!UICONTROL (B2B) Business Price]_-avsnitt.
+1. Expandera avsnittet _[!UICONTROL (B2B) Business Price]_.
 
 1. För **[!UICONTROL Enable Business Pricing]** väljer du ett alternativ.
 

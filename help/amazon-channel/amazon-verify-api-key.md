@@ -53,7 +53,7 @@ API-nyckeln valideras varje gång du öppnar din Amazon-försäljningskanal.
 
 1. Klistra in den kopierade nyckeln för **[!UICONTROL Production Api key]**.
 
-1. Klicka **[!UICONTROL Save Config]**. Nu kan du gå tillbaka till Amazon försäljningskanal.
+1. Klicka på **[!UICONTROL Save Config]**. Nu kan du gå tillbaka till Amazon försäljningskanal.
 
    ![Lägga till API-nyckeln i butikskonfigurationen](assets/config-magento-services-api-screen.png){width="600" zoomable="yes"}
 

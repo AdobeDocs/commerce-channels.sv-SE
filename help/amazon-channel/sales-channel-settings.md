@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # Inställningar för försäljningskanal
 
-När [!DNL Amazon Sales Channel] tillägg är installerat, standardvärden anges i Admin for Amazon-försäljningskanalen. De här inställningarna kan ändras i konfigurationsinställningarna för din Amazon Store. Dessa inställningar inkluderar:
+När [!DNL Amazon Sales Channel] tillägg är installerat, standardvärden anges i Admin for Amazon-försäljningskanalen. De här inställningarna kan ändras i konfigurationsinställningarna för din Amazon Store. De här inställningarna är:
 
 - Intervall för rensning av aktivitetslogghistorik
 - Källval för kron
@@ -51,6 +51,6 @@ När [!DNL Amazon Sales Channel] tillägg är installerat, standardvärden anges
    >
    >När en databas migreras till en ny kopia av instansen (identifieras när en butiks URL ändras i konfigurationen), [!UICONTROL Read-Only Mode] aktiveras automatiskt.
 
-1. Klicka **[!UICONTROL Save Config]**.
+1. Klicka på **[!UICONTROL Save Config]**.
 
 ![Konfigurationsinställningar för Sales Channel](assets/config-sales-channel-global-settings.png){width="600" zoomable="yes"}

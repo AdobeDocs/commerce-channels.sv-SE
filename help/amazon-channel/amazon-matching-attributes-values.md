@@ -14,7 +14,7 @@ ht-degree: 0%
 
 När du mappar Amazon-attribut till [!DNL Commerce] attribut, Amazon säljkanalsspår och en filterbar lista med alla Amazon-värden. Använd den här sidan om du vill verifiera värden för den länkade [!DNL Commerce] attribut synkroniseras korrekt mellan [!DNL Commerce] och Amazon. Du kan granska synkroniserade värden för Amazon-attribut som är länkade eller inte länkade till en [!DNL Commerce] -attribut. Information om hur du skapar eller redigerar Amazon-attribut finns i [Skapa och redigera attribut](./creating-attributes.md).
 
-The _Amazon Value_ varierar beroende på vilken attributtyp och vilket Amazon-attribut du ser. Till exempel ett Amazon-värde i listan för `Label` skulle vara ett textvärde medan `AmazonListPrice` skulle vara ett numeriskt belopp. Statusen anger om Amazon-värdet har importerats.
+The _Amazon Value_ varierar beroende på vilken attributtyp och vilket Amazon-attribut du ser. Till exempel ett Amazon-värde i listan `Label` skulle vara ett textvärde medan `AmazonListPrice` skulle vara ett numeriskt belopp. Statusen anger om Amazon-värdet har importerats.
 
 ## Visa dina attributvärden
 
@@ -36,5 +36,5 @@ The _Amazon Value_ varierar beroende på vilken attributtyp och vilket Amazon-at
 | [!UICONTROL Region] | Regionen för försäljningsaktivitet som definieras i **[!DNL Amazon Marketplace]Land** under butiksintegrering. |
 | [!UICONTROL Magento Product SKU] | Anger [!DNL Commerce] produkter som synkroniseras med Amazon Store. Värdet är ett produkt-ID som tilldelats av [!DNL Commerce] och länkas till en produkt i katalogen. Öppna produkten i [!DNL Commerce]klickar du på länken. |
 | [!UICONTROL ASIN] | Anger den 10-ställiga alfanumeriska unika identifierare som Amazon har tilldelat produkten för att identifiera produkten. |
-| [!UICONTROL Amazon Value] | Anger värdet för det valda attributet. Amazon-värdet varierar beroende på vilken attributtyp och vilket Amazon-attribut du visar. Till exempel ett Amazon-värde i listan för `Label` skulle vara ett textvärde medan `AmazonListPrice` skulle vara ett numeriskt belopp. Statusen anger om Amazon-värdet har importerats. |
+| [!UICONTROL Amazon Value] | Anger värdet för det valda attributet. Amazon-värdet skiljer sig åt beroende på vilken attributtyp och vilket Amazon-attribut du ser. Till exempel ett Amazon-värde i listan `Label` skulle vara ett textvärde medan `AmazonListPrice` skulle vara ett numeriskt belopp. Statusen anger om Amazon-värdet har importerats. |
 | [!UICONTROL Status] | Anger om attributvärdena har importerats till [!DNL Commerce] och länkas till en [!DNL Commerce] -attribut. Alternativ: `Not Imported` / `Imported` |

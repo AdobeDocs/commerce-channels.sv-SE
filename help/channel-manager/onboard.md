@@ -69,7 +69,7 @@ Granska kraven för att använda Channel Manager och samla in kontoinformation o
 - Adobe Commerce lokalkontor: 2.4.x
 - Magento Open Source 2.4.x
 
-## Inledande steg
+## Onboarding-steg
 
 1. [Konfigurera ditt Walmart Seller-konto](https://seller.walmart.com/signup?q=&amp;origin=solution_provider&amp;src=0014M00001zivMp).
 

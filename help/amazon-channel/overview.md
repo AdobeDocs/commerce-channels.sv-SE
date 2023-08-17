@@ -15,15 +15,15 @@ ht-degree: 0%
 
 Som Adobe Commerce eller Magento Open Source kan du använda [!DNL Amazon Sales Channel] för att integrera butikerna med världens största globala shoppingplats. Det här tillägget möjliggör Amazon försäljning genom att ansluta [!DNL Commerce] med [!DNL Amazon Seller Central] och erbjuder både automatisering och synkronisering av katalog- och orderdata. Hantera alla Amazon-listor, implementera enkla eller intelligenta prisregler och underhålla order och lager i en enda [!DNL Commerce] kontrollpanel.
 
-Efter [onboarding](./amazon-onboarding-home.md), [!DNL Commerce] blir ett&quot;centralt kommandocentral&quot; för hantering och styrning av dina Amazon-listor, -beställningar och -lager samt priser för din Amazon-butik. [Integrering med Store](./store-integration.md) ansluter [!DNL Commerce] -instans och Amazon för att synkronisera data mellan båda plattformarna. Amazon säljkanal:
+Efter [onboarding](./amazon-onboarding-home.md), [!DNL Commerce] blir ett&quot;centralt kommandocentral&quot; för hantering och styrning av Amazon listor, beställningar och lager samt priser för din Amazon Store. [Integrering med Store](./store-integration.md) ansluter [!DNL Commerce] -instans och Amazon för att synkronisera data mellan båda plattformarna. Med Amazon säljkanal kan ni
 
 - [Inbyggt](./amazon-onboarding-home.md) och integrera en eller flera [!DNL Amazon Seller Central] konton hos Adobe Commerce eller Magento Open Source.
 
 - Importera och synkronisera befintliga Amazon-listor och matcha med produkter i [!DNL Commerce] katalog, skapa en centraliserad produktkatalog.
 
-- Skapa och hantera Amazon-listor för produkter i [!DNL Commerce] katalog.
+- Skapa och hantera Amazon produktlistor i [!DNL Commerce] katalog.
 
-- Visa och leverera (leverans) order i [!DNL Commerce] och Amazon, synkning av orderstatus, betalning och återbetalningsinformation.
+- Visa och leverera (leverans) order i [!DNL Commerce] och Amazon, synkning av orderstatus, betalning och återbetalning.
 
 - Visa loggar för analys och fel för [konkurrenskraftiga priser](./competitive-price-analysis.md), [liständringar](./listing-changes-log.md)och [kommunikationsfrågor](./communication-errors-log.md).
 
@@ -85,7 +85,7 @@ Med [!DNL Amazon Sales Channel] kan du:
 
 - Support och bearbetning av beställningar i Amazon och [!DNL Commerce].
 
-- [Importera](./order-settings.md#configure-order-settings) dina Amazon-order [!DNL Commerce] eller lämna dem i Amazon.
+- [Importera](./order-settings.md#configure-order-settings) dina Amazon-order på [!DNL Commerce] eller lämna dem i Amazon.
 
 - Ange vilken av dina [!DNL Commerce] webbutiker som kan kopplas till dina Amazon-beställningar för import och hantering av beställningar.
 
@@ -111,7 +111,7 @@ Med [!DNL Amazon Sales Channel] kan du granska rapportinformation om:
 
 - De senaste beställningarna.
 
-- Amazon [blogg om ändringar](./listing-changes-log.md) för att granska produkt-/listningsändringar (såsom pris och kvantitet).
+- Amazon [blogg om ändringar](./listing-changes-log.md) för att granska produkt-/listningsändringar (t.ex. pris och kvantitet).
 
 - Produkt [Buy Box](./buy-box-competitor-pricing.md) Konkurrentpriser.
 
@@ -129,7 +129,7 @@ Med [!DNL Amazon Sales Channel] kan du:
 
 ## Kundhantering
 
-Bygg [!DNL Commerce] kunddatabas per [importera kunddata](./order-settings.md#configure-order-settings) som är kopplade till dina Amazon-beställningar. Utöka er marknadsföringspotential med hjälp av den här utökade listan över kunder i er [!DNL Amazon Marketplace] listor och [!DNL Commerce] storefront.
+Skapa [!DNL Commerce] kunddatabas per [importera kunddata](./order-settings.md#configure-order-settings) som är kopplade till dina Amazon-beställningar. Utöka er marknadsföringspotential med hjälp av den här utökade listan över kunder i er [!DNL Amazon Marketplace] listor och [!DNL Commerce] storefront.
 
 
 Det är enkelt att komma igång. En kort introduktionsprocess hjälper dig att skapa en [!DNL Amazon Seller Central] och integrera med er Amazon-återförsäljare och [!DNL Commerce] katalog för att hantera Amazon listor, beställningar, lager och leveranser. En central kontrollpanel visar statusuppdateringar för alla era Amazon-butiker-integreringar och Amazon-listor. Nå nya kunder globalt [!DNL Amazon Marketplace] med förenklade och automatiserade processer - allt till lite eller ingen del av kostnaden och arbetet med att skapa ett nytt system.

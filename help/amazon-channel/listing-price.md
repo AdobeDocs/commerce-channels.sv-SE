@@ -15,7 +15,7 @@ ht-degree: 0%
 
 [!UICONTROL Listing Price] -inställningarna ingår i inställningarna för din butikslista. Du kommer åt listinställningarna via [instrumentpanel för butik](./amazon-store-dashboard.md).
 
-Dessa inställningar definierar vilka [!DNL Commerce] prisattribut att använda som priskälla, vilket är basprisvärdet (standardvärdet) för dina Amazon-listor. Dessa inställningar används av [prisregler](./pricing-rule-general-settings.md) för att automatiskt justera ditt Amazon-pris i förhållande till det värde som angetts för _[!UICONTROL Magento Price Source]_.
+Dessa inställningar definierar vilka [!DNL Commerce] prisattribut att använda som priskälla, vilket är basprisvärdet (standardvärdet) för dina Amazon-listor. De här inställningarna används av [prisregler](./pricing-rule-general-settings.md) för att automatiskt justera ditt Amazon-pris i förhållande till det värde som angetts för _[!UICONTROL Magento Price Source]_.
 
 Du kan konfigurera [prissättning](./price-scope.md) som global eller webbplats. Om ditt prisomfång är inställt på `Global`, finns det en enda priskälla för alla dina butiker/webbplatser. Om ditt prisomfång är inställt på `Website`, använder priskällan reservlogik för webbplatsens pris (om tillgängligt) följt av standardpriset (globalt).
 
@@ -27,7 +27,7 @@ De alternativ som visas i _[!UICONTROL Magento Price Source]_,_[!UICONTROL Minim
 
 1. Klicka **[!UICONTROL Listing Settings]** på butikens kontrollpanel.
 
-1. Expandera _[!UICONTROL Listing Price]_-avsnitt.
+1. Expandera avsnittet _[!UICONTROL Listing Price]_.
 
 1. För **[!UICONTROL Magento Price Source]** (obligatoriskt) väljer du ett alternativ.
 
@@ -39,13 +39,13 @@ De alternativ som visas i _[!UICONTROL Magento Price Source]_,_[!UICONTROL Minim
 
 1. För **[!UICONTROL Strike Through Price (MSRP)]** väljer du ett alternativ.
 
-   Standardvärdet är ingen markering. Den här inställningen avgör vilket prisattribut som används som tillverkarens rekommenderade detaljhandelspris (MSRP) för en produkt. Om ditt listpris är lägre än det angivna minimipriset (MSRP) visas din lista i Amazon med en genomgång av minimipriset (MSRP) med det lägre listpriset tillsammans med det beräknade&quot;Spara&quot;-beloppet och procentandelen. Om det valda prisfältet inte är definierat för en produkt, beräknas dock inte MSRP.
+   Standardvärdet är ingen markering. Den här inställningen avgör vilket prisattribut som används som tillverkarens rekommenderade försäljningspris för en produkt. Om ditt listpris är lägre än det angivna minimipriset (MSRP) visas din lista i Amazon med en genomgång av minimipriset (MSRP) med det lägre listpriset tillsammans med det beräknade&quot;Spara&quot;-beloppet och procentandelen. Om det valda prisfältet inte är definierat för en produkt, beräknas dock inte MSRP.
 
    >[!NOTE]
    >
    >Den här inställningen gäller endast listor som har vunnit [Buy Box](./buy-box-competitor-pricing.md) position. Buy Boxen delas ut av Amazon till den säljare som har den produkt som vanligtvis anges till det bästa priset, tillsammans med andra faktorer som FBA/Prime-leverans, tillgänglighet och säljarens resultat.
 
-1. För **Använd mervärdesskatt (moms)** väljer du ett alternativ:
+1. För **Tillämpa mervärdesskatt (moms)** väljer du ett alternativ:
 
    - `Disabled` - (Standard) Välj när du inte vill tillgodoräkna dig moms.
 
@@ -63,9 +63,9 @@ De alternativ som visas i _[!UICONTROL Magento Price Source]_,_[!UICONTROL Minim
 
 1. **(Endast UK Stores)** För **[!UICONTROL Amazon Product Tax Code (PTC)]** väljer du ett alternativ:
 
-   - `Do Not Manage PTC` - (Standard) Välj om du använder en momsberäkningstjänst från tredje part eller redan har alla dina skatteberäkningar konfigurerade i [!DNL Amazon Seller Central] konto. När du väljer det här alternativet skickar Amazon försäljningskanal ingen information om produktskattekod till din [!DNL Amazon Seller Central] konto.
+   - `Do Not Manage PTC` - (Standard) Välj om du använder en momsberäkningstjänst från tredje part eller redan har alla dina skatteberäkningar konfigurerade i [!DNL Amazon Seller Central] konto. När du väljer det här alternativet skickar Amazon försäljningskanal ingen produktskattekod till din [!DNL Amazon Seller Central] konto.
 
-   - `Set Default PTC` - Välj om du har en universell produktskattekod (PTC) som du vill använda för alla dina produkter. När du väljer det här alternativet måste du slutföra _[!UICONTROL Default PTC]_.
+   - `Set Default PTC` - Välj om du har en universell produktskattekod (PTC) som du vill använda för alla produkter. När du väljer det här alternativet måste du slutföra _[!UICONTROL Default PTC]_.
 
       - För **[!UICONTROL Default PTC]** anger du den PTC som ska användas som standard för alla Amazon-listor. Om din standard-PTC är inställd i [!DNL Amazon Seller Central] lämna fältet tomt. Ändringar som görs i det här fältet påverkar inte befintliga Amazon-listor. Om du vill ändra standard-PTC för en befintlig lista måste listan vara [avslutad](./end-listings-manually.md) och en ny lista skapas.
 
@@ -88,7 +88,7 @@ De alternativ som visas i _[!UICONTROL Magento Price Source]_,_[!UICONTROL Minim
 | [!UICONTROL Strike Through Price (MSRP)] | The [!DNL Commerce] som representerar MSRP-priser. Om ditt Amazon listpris är lägre än MSRP visas en genomgång av MSRP-priset och listpriset. Den här inställningen används även för att beräkna&quot;Spara&quot;-beloppet och procentandelen, men den här funktionen gäller bara för listor som har vunnit [Buy Box](./buy-box-competitor-pricing.md) position. |
 | [!UICONTROL Apply Value Added Tax (VAT)] | moms används av säljare i EU.<br><br>Välj `Disabled` om du inte vill att moms ska läggas till listpriserna.<br><br>Välj `Enabled` och ange momsprocenten för moms på dina noteringspriser. |
 | [!UICONTROL VAT Percentage] | Definiera den procentandel som ska användas för att beräkna momsbeloppet som ska läggas till i listpriset för dina Amazon-listor. <br><br>Om du anger `5`kommer en moms på 5 % att tillämpas på det slutliga börspriset när alla prisregler har tillämpats. Moms gäller inte slutpriset för listor som används inom en regel för intelligent prissättning, såvida inte [floor](./floor-price.md) eller [tak](./optional-ceiling-price.md) är träffad. |
-| [!UICONTROL Amazon Product Tax Code (PTC)] | (Visas endast för butiker i Storbritannien) Anger om Amazon försäljningskanal skickar produktskattekodsinformation till din [!DNL Amazon Seller Central] konto. <br><br>Välj **Hantera inte PTC** om du använder en tredjepartstjänst för momsberäkning eller redan har alla dina momsberäkningar konfigurerade i [!DNL Amazon Seller Central] konto. När du väljer det här alternativet skickar Amazon försäljningskanal ingen produktskattekodsinformation till din [!DNL Amazon Seller Central] konto.<br><br>Välj **Ange standard-PTC** om du har en universell produktskattekod som du vill använda för alla dina produkter.<br><br>Se [Amazon produktskattekod](https://sellercentral.amazon.com/gp/help/help.html?itemID=G200794510&amp;language=en_US){target="_blank"}. |
+| [!UICONTROL Amazon Product Tax Code (PTC)] | (Visas endast för butiker i Storbritannien) Anger om Amazon försäljningskanal skickar produktskattekodsinformation till din [!DNL Amazon Seller Central] konto. <br><br>Välj **Hantera inte PTC** om du använder en tredjepartstjänst för momsberäkning eller redan har alla dina momsberäkningar konfigurerade i [!DNL Amazon Seller Central] konto. När du väljer det här alternativet skickar Amazon försäljningskanal ingen information om produktskattekod till din [!DNL Amazon Seller Central] konto.<br><br>Välj **Ange standard-PTC** om du har en universell produktskattekod som du vill använda för alla dina produkter.<br><br>Se [Amazon produktskattekod](https://sellercentral.amazon.com/gp/help/help.html?itemID=G200794510&amp;language=en_US){target="_blank"}. |
 | [!UICONTROL Default PTC] | Endast visas när **Amazon Product Tax Code (PTC)** är inställd på `Set Default PTC`. Ange den PTC som ska användas som standard för alla Amazon-listor. Om din standard-PTC är inställd i [!DNL Amazon Seller Central] lämna fältet tomt. <br><br>Ändringar som görs i det här fältet påverkar inte befintliga listor. Listan måste vara [avslutad](./end-listings-manually.md) och en ny lista som skapats för att ändringen ska börja gälla. |
 | [!UICONTROL Currency Conversion] | Tillåter [!DNL Commerce] lagra standardvaluta för att konvertera till din standardvaluta i Amazon och publicera dina priser i rätt valuta. Valutakonverteringen baseras alltid på din [!DNL Commerce] standardvaluta.<br><br>Du kan fortfarande visa din standardinställning [!DNL Commerce] och Amazon-valutor när andra valutor är tillgängliga. Om din standard [!DNL Commerce] Valutan matchar din standardvaluta för Amazon. Lämna Valutakonvertering inaktiverat.<br><br>Om [!DNL Commerce] Standardvalutan är CAD (Canadian Dollars) och Amazon standardvaluta är USD. Du måste aktivera valutakonvertering och välja Konverteringsgrad CAD till USD. Alternativen som presenteras baseras på den inbyggda [!DNL Commerce] valutakonverteringar. Om du inte ser det alternativ du letar efter [ställa in valutan i [!DNL Commerce]](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/site-store/currency/currency-configuration.html). |
 

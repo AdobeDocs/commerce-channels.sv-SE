@@ -26,7 +26,7 @@ När du har installerat och konfigurerat [!DNL Channel Manager]kan du använda f
 
 * **Listhantering**-Koppla enkelt upp produktlistor genom att matcha produkter från [!DNL Commerce] katalog till befintlig [!DNL Walmart Marketplace] listor.
 
-* **Inventory management**-Artiklar i säljarens säljarkonto synkroniseras automatiskt och uppdateras från [!DNL Commerce] för att säkerställa korrekta lagernivåer.
+* **Inventory management**-Artiklar i säljarens säljarkonto synkroniseras automatiskt och uppdateras från [!DNL Commerce] säkerställa korrekta lagernivåer.
 
 * **Prisuppdateringar**- Behåll korrekt prissättning för marknadsplatslistor med automatisk prissynkronisering. När priset ändras i Adobe Commerce återspeglas ändringarna på marknaden.
 

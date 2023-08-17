@@ -1,5 +1,5 @@
 ---
-title: Amazon Sales Channel - [!UICONTROL Stock/Quantity]
+title: AMAZON SALES CHANNEL - [!UICONTROL Stock/Quantity]
 description: Så här styr du synkroniseringen av produktkvantitetsinformation från din Commerce Store till din [!DNL Amazon Seller Central] ska du uppdatera inställningarna för Stock/Kvantitet.
 feature: Sales Channels, Inventory
 exl-id: a8b7ab6c-393c-43c6-b5ef-68845177edff
@@ -26,7 +26,7 @@ Kvantitet är ett regionalt attribut och baseras på **[!UICONTROL Amazon Market
 
 1. Klicka **[!UICONTROL Listing Settings]** på butikens kontrollpanel.
 
-1. Expandera **[!UICONTROL Stock / Quantity]** -avsnitt.
+1. Expandera avsnittet **[!UICONTROL Stock / Quantity]**.
 
 1. För **[!UICONTROL Out-of-Stock Threshold]** (obligatoriskt), ange ett numeriskt värde för den lägsta kvantiteten av en produkt för att produkten ska kunna tas upp i förteckningen över Amazon.
 
@@ -61,15 +61,15 @@ Kvantitet är ett regionalt attribut och baseras på **[!UICONTROL Amazon Market
 - [[!UICONTROL Catalog Search]](./catalog-search.md)
 - [[!UICONTROL Product Listing Condition]](./product-listing-condition.md)
 
-## Exempel: Maximal kvantitet
+## Exempel: Maximal listat kvantitet
 
 När en artikel säljs är den här kvantiteten försedd med Amazon lista.
 
-Om du till exempel anger *[!UICONTROL Maximum Listed Quantity]* as `12`visas i Amazon lista 12 trots att produkten har en [!DNL Commerce] Kvantitet av 80:
+Om du till exempel anger *[!UICONTROL Maximum Listed Quantity]* as `12`, visas i Amazon lista 12 trots att produkten har en [!DNL Commerce] Kvantitet av 80:
 
 ![Exempel på maximal listats kvantitet 1](assets/amazon-max-listed-quantity.png){width="300"}
 
-Om du ställer in *[!UICONTROL Maximum Listed Quantity]* as `1`, listas alla produkter med en kvantitet `1`. När en artikel säljs ser systemet ut som [!DNL Commerce] produkten och, om det finns ytterligare lager, är den i Amazon tillförlitlig med en kvantitet `1`.
+Om du ställer in *[!UICONTROL Maximum Listed Quantity]* as `1`, listas alla produkter med en kvantitet `1`. När en artikel säljs ser systemet ut som [!DNL Commerce] produkten och, om det finns ytterligare lager, är den i Amazon försedd med en kvantitet `1`.
 
 Det här alternativet kan vara värdefullt för produkter som vanligtvis beställs med en kvantitet på 1. Det är också mycket angeläget för kunderna när de tittar på din Amazon-lista.
 

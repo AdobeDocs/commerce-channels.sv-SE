@@ -16,7 +16,7 @@ ht-degree: 0%
 >
 > [!DNL Amazon sales channel] kan installeras på instanser med Magento Open Source, Adobe Commerce och Adobe Commerce i molninfrastrukturversionerna 2.3.x och 2.4.x. Tillägget stöds inte längre i Adobe Commerce 2.1, Magento Open Source 2.2 eller Magento 1.
 > <br>Support finns för [!DNL Amazon sales channel]  version 4.0.0 och 4.1.0 endast i Adobe Commerce 2.3.x.
-> <br>[!DNL Amazon sales channel] version 4.2.0+ är kompatibel med Adobe Commerce 2.3.x, men support finns endast för Adobe Commerce 2.4.x.
+> <br>[!DNL Amazon sales channel] version 4.2.0+ är kompatibel med Adobe Commerce 2.3.x, men support finns endast för Adobe Commerce 2.4.x-versioner.
 >
 
 I versionsinformationen beskrivs den första versionen av [!DNL Amazon sales channel] och innehåller:
@@ -86,7 +86,7 @@ Se [Kommande versioner](https://experienceleague.adobe.com/docs/commerce-operati
 
 ![Korrigera](../assets/fix.svg) Dataflödet har ändrats så att flera kopior av samma instans kan hämta uppdateringar samtidigt.
 
-![Korrigera](../assets/fix.svg) Synkroniseringsprocessen för synkronisering av kontoinformation har ändrats. Ett cron-jobb som ska synkroniseras med fjärrkontot har lagts till och samma funktioner har lagts till i CLI-kommandona.
+![Korrigera](../assets/fix.svg) Synkroniseringsprocessen för kontoinformation har ändrats. Ett cron-jobb som ska synkroniseras med fjärrkontot har lagts till och samma funktioner har lagts till i CLI-kommandona.
 
 ![Korrigera](../assets/fix.svg) CLI-kommandoargument och flaggor har lagts till för mer exakt kontroll.
 
@@ -108,7 +108,7 @@ Se [Kommande versioner](https://experienceleague.adobe.com/docs/commerce-operati
 
 - Amazon cron-processer i `error` läge
 - Installation med Commerce 2.4.0 misslyckas när arkiv skapas i databasen
-- Det går inte att skapa produkten när MSI är installerat
+- Det går inte att skapa produkten när MSI installeras
 
 ## v4.2.0
 
@@ -126,7 +126,7 @@ Om du har en tidigare [!DNL Amazon sales channel] version som är installerad oc
 
 ![Nytt](../assets/new.svg) <!--CHAN-4334-->Stöd för Adobe Commerce 2.4.x har lagts till. Tidigare versioner kan vara kompatibla med Commerce 2.4.x, men stöds inte. Se [Kommande versioner](https://experienceleague.adobe.com/docs/commerce-operations/release/planning/schedule.html) för versionskompatibilitet. Amazon Sales Channel måste uppdateras till 4.2.0 innan Adobe Commerce 2.4.0-uppdateringen kan slutföras.
 
-![Korrigera](../assets/fix.svg) <!--CHAN-4431-->Ett problem som orsakade ett _Åtkomst nekad_ fel för kunder i Storbritannien.
+![Korrigera](../assets/fix.svg) <!--CHAN-4431-->Ett problem som orsakade ett fel har korrigerats _Åtkomst nekad_ fel för kunder i Storbritannien.
 
 ![Korrigera](../assets/fix.svg) <!--CHAN-4394-->Ett problem som gjorde att Amazon leveransstatus inte kunde synkroniseras med motsvarande handelsorder har korrigerats, vilket innebar att orderns leveransstatus låstes som `Pending` inom handel och `Unshipped` i Amazon. Med den nya standardiserade adressfunktionen har dessa leveransstatusfel åtgärdats.
 
@@ -138,7 +138,7 @@ Om du har en tidigare [!DNL Amazon sales channel] version som är installerad oc
 
 ![Korrigera](../assets/fix.svg) <!--CHAN-4410-->Korrigerade problem som orsakade filtreringsfel i _Amazon beställningar_ när datumintervallfältet lämnas tomt.
 
-![Korrigera](../assets/fix.svg) <!--CHAN-4439-->Ett problem som orsakade kvantitetsrelaterade fel i lager- och leveranssynkronisering har korrigerats. Tillägget rundar nu av kvantitetsvärden som anges i decimalform före synkronisering med Amazon.<br/> Om en handlare till exempel manuellt matar in en kvantitet `2.5`, avrundas värdet nedåt till `2` och sedan synkroniserar den uppdaterade kvantiteten med Amazon.
+![Korrigera](../assets/fix.svg) <!--CHAN-4439-->Ett problem som orsakade kvantitetsrelaterade fel i lager- och leveranssynkronisering har korrigerats. Tillägget avrundar nu kvantitetsvärden som anges i decimalform innan de synkroniseras med Amazon.<br/> Om en handlare till exempel manuellt anger en kvantitet `2.5`, avrundas värdet nedåt till `2` och sedan synkroniserar den uppdaterade kvantiteten med Amazon.
 
 ## v4.1.0
 
@@ -148,13 +148,13 @@ Om du har en tidigare [!DNL Amazon sales channel] version som är installerad oc
 
 ![Nytt](../assets/new.svg) <!--4247, 4230-->Processen för orderimport har ändrats så att den överensstämmer med kraven för handelsorder. Dessa ändringar åtgärdar problem som hindrade Commerce från att skapa motsvarande order för en importerad order. Se [Hantera order](managing-orders.md) för information om orderblockerare och lösningar.
 
-![Nytt](../assets/new.svg) <!--CHAN-CHAN-4167, 4297, 4311, 4312, 4324-->Uppdaterade _Senaste order_ -avsnittet på butikspanelen och lade till ett nytt _Alla order_ som visar alla dina Amazon-beställningar, inklusive filteralternativ och sidnumrering för att visa fler beställningar. Se [Amazon Store Dashboard](amazon-store-dashboard.md) och [Visa Amazon-beställningar](amazon-orders-all.md).
+![Nytt](../assets/new.svg) <!--CHAN-CHAN-4167, 4297, 4311, 4312, 4324-->Uppdaterade _Senaste order_ -avsnittet på butikspanelen och lade till ett nytt _Alla order_ som visar alla dina Amazon-order, inklusive filteralternativ och sidnumrering för att visa fler order. Se [Amazon Store Dashboard](amazon-store-dashboard.md) och [Visa Amazon-beställningar](amazon-orders-all.md).
 
-![Nytt](../assets/new.svg) Lagt till _[!UICONTROL Order Notes]_den omdesignade kolumnen_[!UICONTROL Amazon Orders]_ tabell i båda _[!UICONTROL Recent Orders]_och_[!UICONTROL All Orders]_ vyer. _[!UICONTROL Order Notes]_meddela handlaren att det är något problem med orderns import. Se [Visa Amazon-beställningar](amazon-orders-all.md).
+![Nytt](../assets/new.svg) Lagt till _[!UICONTROL Order Notes]_kolumn för den omdesignade_[!UICONTROL Amazon Orders]_ tabell i båda _[!UICONTROL Recent Orders]_och_[!UICONTROL All Orders]_ vyer. _[!UICONTROL Order Notes]_meddela handlaren att det är något problem med orderns import. Se [Visa Amazon-beställningar](amazon-orders-all.md).
 
 ![Nytt](../assets/new.svg) <!--CHAN-4013-->Uppdaterade produktvillkorsparametrar som är anpassade till [Amazon förnyat](https://sell.amazon.com/programs/renewed) program. Se [Förnyade produkter](renewed-products.md).
 
-![Nytt](../assets/new.svg) <!--CHAN-3680-->Uppdaterat [Beställningsinformation för Amazon](amazon-order-details.md) att inkludera&quot;generiska data&quot; för order som levereras av Amazon. Se [Fullgjord av](fulfilled-by.md).
+![Nytt](../assets/new.svg) <!--CHAN-3680-->Uppdaterat [Beställningsinformation för Amazon](amazon-order-details.md) att inkludera&quot;generiska data&quot; för order som levereras av Amazon. Se [Fulifyllt av](fulfilled-by.md).
 
 ![Korrigera](../assets/fix.svg) <!--CHAN-4069-->Ett problem som orsakade förvrängning av ikoner på butikskortet har korrigerats.
 
@@ -180,9 +180,9 @@ Om du har en tidigare [!DNL Amazon sales channel] version som är installerad oc
 >
 >Amazon Sales Channel 4.0.0 stöds inte för Adobe Commerce 2.3.5. För support med Adobe Commerce 2.3.5, uppgradera till Amazon Sales Channel 4.1.0.
 
-![Nytt](../assets/new.svg) Introducerade en ny [Amazon Sales Channel](amazon-sales-channel-home.md) hemsida med förbättrad&quot;kortvy&quot; för din butiksinformation.
+![Nytt](../assets/new.svg) En ny introduktion [Amazon Sales Channel](amazon-sales-channel-home.md) hemsida med förbättrad&quot;kortvy&quot; för din butiksinformation.
 
-![Nytt](../assets/new.svg) Introducerade en ny [instrumentpanel för butik](amazon-store-dashboard.md) med lista, beställningar och information om lagringsinställningar.
+![Nytt](../assets/new.svg) En ny introduktion [instrumentpanel för butik](amazon-store-dashboard.md) med lista, beställningar och information om lagringsinställningar.
 
 ![Nytt](../assets/new.svg) En enklare och smidigare [introduktionsprocess](amazon-onboarding-home.md) och [standardinställningar för lagring](default-store-settings.md) så att ni kan integrera butikerna snabbare.
 
@@ -194,7 +194,7 @@ Om du har en tidigare [!DNL Amazon sales channel] version som är installerad oc
 
 [!BADGE Kompatibilitet]{type=Informative tooltip="Kompatibilitet"}
 
-![Korrigera](../assets/fix.svg) **Inställningar för numeriskt fält**: <!--CHAN-3779-->Fält som kräver ett numeriskt värde har uppdaterats så att endast numeriska tecken accepteras. Exempel: Inställningar för prisregel > Justeringsbelopp
+![Korrigera](../assets/fix.svg) **Inställningar för numeriskt fält**: <!--CHAN-3779-->Fält som kräver ett numeriskt värde har uppdaterats så att endast numeriska tecken accepteras. Exempel: Prisregelinställningar > Justeringsbelopp
 
 ![Korrigera](../assets/fix.svg) **Länkar till användarhandboken**: <!--CHAN-3778-->Felaktig _Användarhandbok_ länkarna har korrigerats.
 
@@ -212,7 +212,7 @@ Om du har en tidigare [!DNL Amazon sales channel] version som är installerad oc
 
 - [Produktmomskod](https://sellercentral.amazon.com/gp/help/help.html?itemID=G200794510&amp;language=en_US){target="_blank"} information.
 
-![Nytt](../assets/new.svg) **Förbättrad loggning**: <!--CHAN-3642, 3672-->Implementerat **Aktivera felsökningsloggning** för att samla in ytterligare synkroniseringsdata när felsökning behövs. Se [Inställningar för Sales Channel](https://experienceleague.adobe.com/docs/commerce-admin/config/sales-channels.html) i konfigurationsreferensen.
+![Nytt](../assets/new.svg) **Förbättrad loggning**: <!--CHAN-3642, 3672-->Implementerat **Aktivera felsökningsloggning** för att samla in ytterligare synkroniseringsdata när felsökning behövs. Se [Inställningar för Sales Channeler](https://experienceleague.adobe.com/docs/commerce-admin/config/sales-channels.html) i konfigurationsreferensen.
 
 ![Korrigera](../assets/fix.svg) **Produktkatalog**: <!--CHAN-3687-->Ett problem som gjorde att bilder som importerats med en Amazon-lista inte kunde användas i motsvarande Commerce-katalogprodukt har korrigerats.
 
@@ -228,17 +228,17 @@ Om du har en tidigare [!DNL Amazon sales channel] version som är installerad oc
 >
 >Version 1.0.0 fanns endast i begränsad version.
 
-![Nytt](../assets/new.svg)  **Förenklad registrering och underhåll**: Lägg till och integrera med ditt Amazon Seller-konto genom en stegvis process med detaljerade instruktioner som är tillgängliga via administratören. Underhåll butiker, konton och listade produkter via en och samma kontrollpanel.
+![Nytt](../assets/new.svg)  **Förenklad registrering och underhåll**: Lägg till och integrera med ditt Amazon Seller-konto genom en stegvis process med detaljerade instruktioner från administratören. Underhåll butiker, konton och listade produkter via en och samma kontrollpanel.
 
 ![Nytt](../assets/new.svg)  **Stöd för flera konton**: Hantera och övervaka flera Amazon-varumärken och marknadsplatsregioner via Admin.
 
-![Nytt](../assets/new.svg)  **Intelligent prissättning**: Ställ in automatiska regler för omprissättning för att öka era chanser att få tag på den avtalade Buy Boxen. Ställ in priser för att dynamiskt justera till Buy Boxens aktuella pris eller lägsta konkurrentpris. Ange gränser för omprissättning för att skydda din marginal.
+![Nytt](../assets/new.svg)  **Intelligent prissättning**: Ställ in automatiska regler för omprissättning för att öka chanserna till den avtalade Buy Boxen. Ställ in priser för att dynamiskt justera till Buy Boxens aktuella pris eller lägsta konkurrentpris. Ange gränser för omprissättning för att skydda din marginal.
 
 ![Nytt](../assets/new.svg)  **Listhantering**: Automatisera produktlistor och synkronisera din Commerce-katalog med Amazon Marketplace med hjälp av listregler. Lägg till specifika åsidosättningar för att exakt kontrollera dina erbjudanden. Övervaka och hantera alla listor direkt från administratören.
 
-![Nytt](../assets/new.svg)  **Enhetliga Inventory management**: Se till att lagerinställningarna för Commerce och Amazon synkroniseras kontinuerligt.
+![Nytt](../assets/new.svg)  **Enhetliga Inventory management**: Håll lagerkvantiteterna i Commerce och Amazon synkroniserade.
 
-![Nytt](../assets/new.svg)  **Hantering av order och uppfyllelse**: Spåra Amazon-beställningar via kontrollpanelen med smidig kommunikation och inventeringsuppdateringar. Slutför och spåra orderleveranser som utförts av Amazon, handlaren har uppfyllt eller en blandning av metoder.
+![Nytt](../assets/new.svg)  **Hantering av order och uppfyllelse**: Spåra Amazon-beställningar via kontrollpanelen med smidig kommunikation och lageruppdateringar. Slutför och spåra orderleveranser som utförts av Amazon, handlaren har uppfyllt eller en blandning av metoder.
 
 ![Känt fel](../assets/bug.svg)  Du kan få längre väntetider för att uppdatera produktkvantiteter. Uppdateringar för produktkvantitet kan ta ~två timmar att synkronisera.
 

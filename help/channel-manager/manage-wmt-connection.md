@@ -21,13 +21,13 @@ Commerce-transportföretag som inte mappar till en föredragen leverantör är m
 
 Granska [Krav för Walmart](walmart-requirements.md) för [!DNL Marketplace Seller account].
 
-## Uppdatera anslutningsreferenser
+## Uppdatera anslutningsautentiseringsuppgifter
 
 1. På [!UICONTROL Listings] sidan för säljkanalsbutiken, välj **[!UICONTROL Channel Settings]**.
 
 1. På **[!UICONTROL Channel Settings]**, markera **[!UICONTROL Walmart Connection]**.
 
-1. Om du vill ändra inloggningsuppgifterna väljer du **[!UICONTROL Change Credentials]**
+1. Om du vill ändra autentiseringsuppgifterna väljer du **[!UICONTROL Change Credentials]**
 
    ![Uppdatera Walmart API-autentiseringsuppgifter för att auktorisera anslutningen](assets/update-connection-credentials.png){width="700" zoomable="yes"}
 

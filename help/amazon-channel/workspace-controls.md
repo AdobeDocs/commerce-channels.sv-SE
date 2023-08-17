@@ -1,6 +1,6 @@
 ---
 title: Amazon försäljningskanal - Arbetsytekontroller
-description: Amazon Sales Channel har arbetsytekontroller som hjälper dig att hitta listor, visa information och enkelt utföra åtgärder.
+description: Amazon Sales Channel innehåller arbetsytekontroller som hjälper dig att hitta listor, visa information och enkelt utföra åtgärder.
 feature: Sales Channels
 exl-id: 4f76b1d0-ae58-435b-bd6d-50155a023421
 source-git-commit: 7fff4c463551089fb64f2d5bf7bf23f272ce4663
@@ -14,11 +14,11 @@ ht-degree: 0%
 
 Amazon försäljningskanal [hemsida](./amazon-sales-channel-home.md) har vissa vanliga kontroller för arbetsytan, bland annat Filter, Standardvy, Kolumner och Exportera. Alla sidor har inte samma kontrollalternativ.
 
-![Exempel på arbetsytekontroll i Amazon Sales Channel](assets/amazon-workspace-controls.png){width="600" zoomable="yes"}
+![Exempel på kontroll på arbetsytan i Amazon Sales Channel](assets/amazon-workspace-controls.png){width="600" zoomable="yes"}
 
 ## Åtgärder
 
-The _[!UICONTROL Actions]_väljaren innehåller en lista med åtgärder som är tillgängliga för en användare för en sida. När du väljer det här alternativet används åtgärden på alla markerade objekt. Om du vill använda en åtgärd på ett visst objekt markerar du kryssrutan i den första kolumnen för varje objekt och väljer ett alternativ under_[!UICONTROL Actions]_.
+The _[!UICONTROL Actions]_-väljaren innehåller en lista med åtgärder som är tillgängliga för en användare för en sida. När du väljer det här alternativet används åtgärden på alla markerade objekt. Om du vill använda en åtgärd på ett visst objekt markerar du kryssrutan i den första kolumnen för varje objekt och väljer ett alternativ under_[!UICONTROL Actions]_.
 
 När väljaren till exempel visas på _[!UICONTROL Attributes]_sidan innehåller_[!UICONTROL Re-import Product Attribute Values]_ åtgärd. Om du väljer den här åtgärden skickas motsvarande [!DNL Amazon Seller Central] kontot och uppdaterar [!DNL Commerce] data för var och en av Amazon-lagringsobjekten som har checkats in i den vänstra kolumnen.
 
@@ -32,15 +32,15 @@ Filterkontroller kan innehålla dynamiska kalendrar för att begränsa data för
 
 I följande exempel visas inställningarna för filtrering av listan med order så att endast order som uppfyller följande villkor visas:
 
-- beställningar som gjorts mellan 2019-02-01 och 07-02-07 2019, och
+- beställningar som gjorts mellan 2019-02-01 och 2-07-02 2019, och
 - Beställningar med en köpare som heter `Smith`och
 - Beställningar med statusen `Shipped`.
 
-När du har angett filtreringsalternativ klickar du på **[!UICONTROL Apply Filters]** för att filtrera de data som visas. Klicka på Avbryt om du vill avsluta filterkontrollen utan att använda.
+När du har angett filteralternativ klickar du på **[!UICONTROL Apply Filters]** för att filtrera de data som visas. Klicka på Avbryt om du vill avsluta filterkontrollen utan att använda.
 
 ![Exempel på filterkontroll](assets/workspace-controls-filters.png){width="600" zoomable="yes"}
 
-När du har tillämpat filter på dina data **[!UICONTROL Active Filters]** visas. Du kan klicka på ![Ikonen Rensa filter](assets/x-icon-clear-filters.png) om du vill ta bort ett visst filteralternativ eller klicka på **[!UICONTROL Clear All]** för att rensa alla använda filter.
+När du har tillämpat filter på dina data **[!UICONTROL Active Filters]** information visas. Du kan klicka på ![Ikonen Rensa filter](assets/x-icon-clear-filters.png) om du vill ta bort ett visst filteralternativ eller klicka på **[!UICONTROL Clear All]** för att rensa alla använda filter.
 
 ![Exempel på aktiva filter](assets/applied-filters-line.png){width="700"}
 
@@ -50,7 +50,7 @@ Vykontrollen baseras på standardkolumnerna för sidan och kallas därför stand
 
 När du har lagt till eller tagit bort kolumner från sidvisningen:
 
-1. Klicka **[!UICONTROL Default View]** > **[!UICONTROL Save View As...]**.
+1. Klicka på **[!UICONTROL Default View]** > **[!UICONTROL Save View As...]**.
 
 1. Ange ett namn för vyn.
 
@@ -77,7 +77,7 @@ I följande exempel visas en kolumnkontroll. De markerade alternativen motsvarar
 
 Kryssrutan visas omedelbart. Om du gör ändringar och avslutar sidan återgår sidan till standardkolumnvisningen. För ändringar som du gör regelbundet kan du spara kolumnändringarna som en anpassad vy i kontrollen Visa. Sedan kan du växla i kontrollen Visa utan att behöva lägga till eller ta bort kolumner manuellt.
 
-Du kan klicka **[!UICONTROL Reset]** för att återställa standardinställningarna eller så kan du klicka på **[!UICONTROL Cancel]** för att avsluta utan ändringar.
+Klicka **[!UICONTROL Reset]** för att återställa standardinställningarna eller så kan du klicka på **[!UICONTROL Cancel]** för att avsluta utan ändringar.
 
 ## Exportera
 

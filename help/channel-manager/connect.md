@@ -29,15 +29,15 @@ The [!DNL Commerce Services Connector] integrerar Channel Manager-tjänsten med 
 
 >[!TIP]
 >
->Om du vill ange inloggningsuppgifterna [!DNL Commerce] licensinnehavare eller kontoägare har möjlighet att [dela åtkomst](https://experienceleague.adobe.com/docs/commerce-admin/start/commerce-account/commerce-account-share.html)eller ge [API-nyckel](https://experienceleague.adobe.com/docs/commerce-merchant-services/user-guides/integration-services/saas.html) autentiseringsuppgifter för en betrodd utvecklare.
+>Om du vill ange autentiseringsuppgifterna, kan du [!DNL Commerce] licensinnehavare eller kontoägare har möjlighet att [dela åtkomst](https://experienceleague.adobe.com/docs/commerce-admin/start/commerce-account/commerce-account-share.html), eller ge [API-nyckel](https://experienceleague.adobe.com/docs/commerce-merchant-services/user-guides/integration-services/saas.html) autentiseringsuppgifter för en betrodd utvecklare.
 
 ## Konfigurera [!DNL Commerce Services Connector]
 
-1. Öppna Store Services Configuration.
+1. Öppna konfigurationen för Store-tjänster.
 
    - Välj **[!UICONTROL Stores]**.
 
-   - Under *[!UICONTROL Settings]*, markera **[!UICONTROL Configuration]**.
+   - Under *[!UICONTROL Settings]* väljer du **[!UICONTROL Configuration]**.
 
    - Expandera **[!UICONTROL Services]** och markera **[!UICONTROL Commerce Services Connector]**.
 

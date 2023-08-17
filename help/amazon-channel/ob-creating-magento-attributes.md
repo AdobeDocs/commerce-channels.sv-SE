@@ -13,9 +13,9 @@ ht-degree: 0%
 
 # Skapa handelsattribut för Amazon
 
-Innan du börjar prenumerera på [!DNL Amazon Seller Central] konton, det är bäst att lägga till [!DNL Commerce] [produktattribut](https://experienceleague.adobe.com/docs/commerce-admin/catalog/product-attributes/product-attributes.html) för att kartlägga produktlistor. När du är klar med introduktionen kan du hantera dina produktattribut via [Attribut](./managing-attributes.md) -fliken i [Amazon säljkanal - startsida](./amazon-sales-channel-home.md) sida.
+Innan du börjar använda [!DNL Amazon Seller Central] konton, det är bäst att lägga till [!DNL Commerce] [produktattribut](https://experienceleague.adobe.com/docs/commerce-admin/catalog/product-attributes/product-attributes.html) för att kartlägga produktlistor. När du är klar med introduktionen kan du hantera dina produktattribut via [Attribut](./managing-attributes.md) -fliken i [Amazon säljkanal - startsida](./amazon-sales-channel-home.md) sida.
 
-Dessa instruktioner beskriver hur du skapar [!DNL Commerce] för Amazon ASIN och Amazon Condition. Vi rekommenderar att du skapar ytterligare attribut som Amazon EAN, Amazon ISBN och Amazon UPC. Du kan också skapa ett Amazon Price-attribut om du vill använda ditt Amazon-pris som en priskälla för prisregler. Dessa attribut används när du konfigurerar dina lista- och prisinställningar under introduktionen. Använd även dessa attribut när du skapar Amazon-listor och när du uppdaterar och synkroniserar [!DNL Commerce] katalogisera med dina Amazon-listor.
+I dessa instruktioner beskrivs hur du skapar [!DNL Commerce] för Amazon ASIN och Amazon Condition. Vi rekommenderar att du skapar ytterligare attribut som Amazon EAN, Amazon ISBN och Amazon UPC. Du kan också skapa ett Amazon Price-attribut om du vill använda ditt Amazon-pris som en priskälla för prisregler. Dessa attribut används när du konfigurerar dina lista- och prisinställningar under introduktionen. Använd även dessa attribut när du skapar Amazon-listor och när du uppdaterar och synkroniserar [!DNL Commerce] katalogisera med dina Amazon-listor.
 
 Med inställningarna för katalogsökning kan du ange matchande sökparametrar som hjälper dig att mappa berättigande [!DNL Commerce] produkter med Amazon. När det mappas aktiverar Amazon åtgärder som rör priser, kvantitet, åsidosättningar samt order- och produktsynkronisering.
 
@@ -25,7 +25,7 @@ Om du bara skapar attributet Amazon ASIN (utan att lägga till ASIN-värden per 
 
 >[!IMPORTANT]
 >
->Om du uppdaterar ett ASIN, UPC eller något annat dataelement för en manuellt matchad produkt måste du uppdatera informationen på båda platserna: din [!DNL Commerce] katalogen och listan i [!DNL Amazon Seller Central] konto.
+>Om du uppdaterar ett ASIN, UPC eller något annat dataelement för en manuellt matchad produkt måste du uppdatera informationen på båda platserna: [!DNL Commerce] katalogen och listan i [!DNL Amazon Seller Central] konto.
 
 ## Skapa produktattributet för Amazon ASIN
 
@@ -59,7 +59,7 @@ Om du bara skapar attributet Amazon ASIN (utan att lägga till ASIN-värden per 
 
    - För **[!UICONTROL Use in Filter Options]**, välja `Yes`.
 
-1. Klicka **[!UICONTROL Save Attribute]**.
+1. Klicka på **[!UICONTROL Save Attribute]**.
 
 ![Amazon ASIN-attribut](assets/creating-asin-attribute.png){width="600" zoomable="yes"}
 
@@ -71,7 +71,7 @@ Om du bara skapar attributet Amazon ASIN (utan att lägga till ASIN-värden per 
 
 1. I _[!UICONTROL Attributes]_avsnitt, klicka **[!UICONTROL Product]**.
 
-1. Om du vill öppna attributegenskaperna klickar du på **[!UICONTROL Add New Attribute]**.
+1. Klicka på för att öppna attributegenskaperna **[!UICONTROL Add New Attribute]**.
 
 1. För **[!UICONTROL Default Label]**, ange `Amazon Condition` (namnet på attributet).
 
@@ -94,7 +94,7 @@ Om du bara skapar attributet Amazon ASIN (utan att lägga till ASIN-värden per 
    - `Very Good: Collectible`
    - `Good: Collectible; Acceptable`
 
-1. Klicka **[!UICONTROL Add Option]**.
+1. Klicka på **[!UICONTROL Add Option]**.
 
 1. Välj **[!UICONTROL Is Default]** för villkoret som du vill använda som standardval.
 
@@ -116,7 +116,7 @@ Om du bara skapar attributet Amazon ASIN (utan att lägga till ASIN-värden per 
 
    - För **[!UICONTROL Use in Filter Options]**, välja `Yes`.
 
-1. Klicka **[!UICONTROL Save Attribute]**.
+1. Klicka på **[!UICONTROL Save Attribute]**.
 
 ![Amazon Condition-attribut](assets/creating-amazon-condition-attribute.png){width="600" zoomable="yes"}
 

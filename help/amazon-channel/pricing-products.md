@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Hantera Amazon priser
 
-Med Amazon försäljningskanal kan du ange prisregler som gör att du kan ange ett annat listpris för Amazon än det definierade **[!UICONTROL Magento Price Source]** i [pris](./listing-price.md). Du kan också stapla flera regler och till och med använda smarta priser för att justera priset på Amazon baserat på konkurrenternas [[!DNL Buy Box]](./buy-box-competitor-pricing.md) priset eller [lägsta konkurrentpris](./lowest-competitor-pricing.md).
+Med Amazon försäljningskanal kan du ange prisregler som gör att du kan ange ett annat listpris för Amazon än det definierade **[!UICONTROL Magento Price Source]** i [börspris](./listing-price.md). Du kan också stapla flera regler och till och med använda smarta priser för att justera priset på Amazon baserat på konkurrenternas [[!DNL Buy Box]](./buy-box-competitor-pricing.md) priset eller [lägsta konkurrentpris](./lowest-competitor-pricing.md).
 
 Det finns två typer av prissättningsregler:
 
@@ -21,7 +21,7 @@ Det finns två typer av prissättningsregler:
 
   >[!IMPORTANT]
   >
-  >Regler för intelligent omprisering fungerar inte korrekt om Amazon är inställt på `Inactive` som vid introduktionen. Prisberäkningarna beror på fraktkostnaderna och regionen måste vara `Active` status för dina fraktpriser att synkronisera från Amazon.
+  >Regler för intelligent omprisering fungerar inte korrekt om Amazon är inställt på `Inactive` som vid introduktionen. Prisberäkningarna beror på fraktkostnaderna och regionen måste vara i `Active` status för dina fraktpriser att synkronisera från Amazon.
   >
   >Om du vill uppdatera regionens status i ditt Amazon-konto går du till Inställningar > Kontoinformation > Semesterinställningar. Se [Amazon: Liststatus för semester](https://sellercentral.amazon.com/gp/help/help.html?itemID=200135620) (Inloggning till Seller Central krävs).
 
@@ -31,17 +31,17 @@ Du kan lägga till prisregler för dina Amazon-listor. Prisregler kan användas 
 
 >[!NOTE]
 >
->Priskällan för dina Amazon-listor definieras för **[!UICONTROL Magento Price Source]** i [pris](./listing-price.md) inställningar. Alla justeringsberäkningar som definieras i prisregeln använder priskällan som startvärde.
+>Priskällan för dina Amazon-listor definieras för **[!UICONTROL Magento Price Source]** i [börspris](./listing-price.md) inställningar. Alla justeringsberäkningar som definieras i prisregeln använder priskällan som startvärde.
 
-Med prisreglerna kan du ange ett annat pris än ditt för Amazon **[!UICONTROL Magento Price Source]** i [pris](./listing-price.md) inställningar. Du kan också stapla flera regler som fungerar tillsammans för att justera priset.
+Med prisreglerna kan du ange ett annat pris än ditt för Amazon **[!UICONTROL Magento Price Source]** i [börspris](./listing-price.md) inställningar. Du kan också stapla flera regler som fungerar tillsammans för att justera priset.
 
 En regel för prissättning/omprissättning kräver tre uppsättningar information under installationen:
 
-- [Allmänna inställningar](./pricing-rule-general-settings.md): Definierar namn, beskrivning, aktiva datum, prioritet för en regel och ställer in beteendet för efterföljande regler baserat på dess prioritetsinställning.
+- [Allmänna inställningar](./pricing-rule-general-settings.md): Definierar namn, beskrivning, aktiva datum, prioritet för en regel och anger beteendet för efterföljande regler baserat på dess prioritetsinställning.
 - [Villkor](./pricing-rule-conditions.md): Bestäm vilka produkter som är berättigade till prisregeln.
 - [Åtgärder](./pricing-rule-actions.md): Definiera justeringsberäkningarna som tillämpas på priskällan för att bestämma listpriset.
 
-Du kan skapa [standardprisregler](./standard-price-rules.md) som automatiskt justerar ditt Amazon-pris i förhållande till det valda **[!UICONTROL Magento Price Source]** i [pris](./listing-price.md) inställningar. Med den här funktionen kan du ändra dina Amazon-priser på ett sätt som liknar [!DNL Commerce] [katalogprisregler](https://experienceleague.adobe.com/docs/commerce-admin/marketing/promotions/catalog-rules/price-rules-catalog.html). Du kan skapa komplexa regler som automatiskt ändrar priser för specifika produkter, produkter i specifika kategorier eller produkter med specifika attribut. Du kan slutföra traditionella inställningar och prissätta dina produkter för att öka eller minska dem baserat på ett fast belopp eller en procentandel.
+Du kan [standardprisregler](./standard-price-rules.md) som automatiskt justerar ditt Amazon-pris i förhållande till det valda **[!UICONTROL Magento Price Source]** i [börspris](./listing-price.md) inställningar. Med den här funktionen kan du ändra dina Amazon-priser på ett sätt som liknar [!DNL Commerce] [katalogprisregler](https://experienceleague.adobe.com/docs/commerce-admin/marketing/promotions/catalog-rules/price-rules-catalog.html). Du kan skapa komplexa regler som automatiskt ändrar priser för specifika produkter, produkter i specifika kategorier eller produkter med specifika attribut. Du kan slutföra traditionella inställningar och prissätta dina produkter för att öka eller minska dem baserat på ett fast belopp eller en procentandel.
 
 Ett annat kraftfullt verktyg är [Intelligent omprisering](./intelligent-repricing-rules.md) funktioner som justerar ditt Amazon-pris baserat på konkurrent [[!DNL Buy Box]](./buy-box-competitor-pricing.md) pris eller [Lägsta konkurrentpris](./lowest-competitor-pricing.md). Liknar [!DNL Commerce] [katalogprisregler](https://experienceleague.adobe.com/docs/commerce-admin/marketing/promotions/catalog-rules/price-rules-catalog.html)kan du med den här avancerade funktionen ändra dina Amazon-priser genom att skapa komplexa regler. Regler kan definiera omfattningen av en prisändring för specifika produkter, produkter inom specifika kategorier eller till och med med specifika produktattribut.
 
@@ -66,4 +66,4 @@ Ett annat prisalternativ är [prisåsidosättning](./overrides.md), som anges p�
 | [!UICONTROL Stop Further Rules Processing] | Anger om några ytterligare prisregler bearbetas för produkter som omfattas av denna regel, enligt inställningen i [allmänna inställningar för prisregel](./pricing-rule-general-settings.md) |
 | [!UICONTROL From Date] | Början av tidsperioden då regeln är aktiv |
 | [!UICONTROL To Date] | Slutet på tidsperioden då regeln är aktiv |
-| [!UICONTROL Action] | Visar alla åtgärder som kan tillämpas på en viss lista. Om du vill använda en åtgärd klickar du på **[!UICONTROL Select]** i _[!UICONTROL Action]_kolumn. Alternativ: `Edit Price Rule` / `Delete Price Rule` |
+| [!UICONTROL Action] | Listar alla åtgärder som kan tillämpas på en viss lista. Om du vill använda en åtgärd klickar du på **[!UICONTROL Select]** i _[!UICONTROL Action]_kolumn. Alternativ: `Edit Price Rule` / `Delete Price Rule` |

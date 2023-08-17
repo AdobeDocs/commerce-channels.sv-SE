@@ -16,15 +16,15 @@ När du tittar på startsidan för Amazon försäljningskanal kan du _Amazon Sto
 
 ![Amazon Stores-vyn](assets/amazon-sales-channel-home-tabs.png){width="600" zoomable="yes"}
 
-The _[!UICONTROL Amazon Stores]_visar ett butikskort för var och en av Amazon butiker tillsammans med grundläggande statistik och hanteringsalternativ. I sammanfattningsinformationen som visas på varje kort finns information om butiksstatus, skapad den, uppdaterat datum och listor som behöver åtgärdas (exempel: Ofullständiga listor) och tilldelade [!DNL Commerce] webbplats.
+The _[!UICONTROL Amazon Stores]_visar ett butikskort för var och en av Amazon butiker tillsammans med grundläggande statistik och hanteringsalternativ. Sammanfattningsinformation som visas på varje kort omfattar status för varje butik, skapad den, senaste uppdaterat datum, listor som behöver åtgärdas (exempel: Ofullständiga listor) och den tilldelade [!DNL Commerce] webbplats.
 
-När du visar _[!UICONTROL Amazon Store]_kan du göra följande med varje butikskort:
+När du visar _[!UICONTROL Amazon Store]_för varje butikskort kan du:
 
 - Öppna en butik [kontrollpanel](./amazon-store-dashboard.md), klicka **[!UICONTROL View Store]**.
 
 - Om du vill ändra en butiks status eller ta bort en butik klickar du på **[!UICONTROL Action]** och välj:
 
-   - **[!UICONTROL Activate]** / **[!UICONTROL Deactivate]** - Välj att ändra status för butiken till `Active` eller `Inactive`, respektive.
+   - **[!UICONTROL Activate]** / **[!UICONTROL Deactivate]** - Välj att ändra status för butiken till `Active` eller `Inactive`, respektive
 
      Ändra en `Inactive` lagra till `Active` status aktiverar listor och orderaktivitet för butiken med hjälp av butikens aktuella butiksinställningar (till exempel listinställningar, prisregler och åsidosättningar).
 
@@ -40,5 +40,5 @@ När du visar _[!UICONTROL Amazon Store]_kan du göra följande med varje butiks
 | Butikskort | Beskrivning |
 |----------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Övre sektion | Innehåller: <br>Regionikonen för butiken, definierad under [butiksintegrering](./store-integration.md).<br> Den tilldelade _[!UICONTROL Magento Website]_, som definieras under butiksintegrering.<br>The_[!UICONTROL Status]_ i din butik. Alternativ: **[!UICONTROL Active]** - Integreringen i Store är klar och verifierad med Amazon och kan köpas via säljarna. **[!UICONTROL Inactive]** - Butiksintegreringen är klar, men används inte eller är inte tillgänglig för försäljningsaktiviteter. När `Inactive`, din Amazon-försäljning är pausad. När `Active`, försäljningsintäkter och ytterligare inställningar sparas för uppdatering innan aktivering.<br>The *[!UICONTROL Last Updated]* datum för den senaste ändringen av Amazon Store-konfigurationen.<br>The *[!UICONTROL Created]* det datum då Amazon Store skapades i Amazon försäljningskanal. |
-| Mitten | Innehåller ett diagram över butiksaktivitetssammanfattning för de senaste 30 dagarna och innehåller och varnar för alla listor som behöver åtgärdas. |
-| Nedre delen | Innehåller alternativen Visa butik och Åtgärd.<br>Öppna butiken [kontrollpanel](./amazon-store-dashboard.md), klicka **[!UICONTROL View Store]**.<br>Om du vill aktivera, inaktivera eller ta bort en butik klickar du på **[!UICONTROL Actions]**. |
+| Mittsektion | Innehåller ett diagram över butiksaktivitetssammanfattning för de senaste 30 dagarna och innehåller och varnar för alla listor som behöver åtgärdas. |
+| Nedre delen | Innehåller alternativen Visa butik och Åtgärd.<br>Så här öppnar du butiken [kontrollpanel](./amazon-store-dashboard.md), klicka **[!UICONTROL View Store]**.<br>Om du vill aktivera, inaktivera eller ta bort en butik klickar du på **[!UICONTROL Actions]**. |

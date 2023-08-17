@@ -50,7 +50,7 @@ Visa listan på _[!UICONTROL Product Listings]_sida (_[!UICONTROL Inactive]_, _A
 
    - `No` - Välj att skapa en lista och behålla den gamla listan oförändrad.
 
-1. Klicka **[!UICONTROL Save Listing Update]**.
+1. Klicka på **[!UICONTROL Save Listing Update]**.
 
 ## Används för att matcha en enskild katalogprodukt med två Amazon-listor
 
@@ -70,9 +70,9 @@ Visa listan på _[!UICONTROL Product Listings]_sida (_[!UICONTROL Inactive]_, _A
 
    - `Yes` - Välj att ta bort listan och skapa en lista med den nya informationen.
 
-   - `No` - Välj om du vill skapa en annan lista och behålla den gamla listan oförändrad.
+   - `No` - Välj att skapa en annan lista och behålla den gamla listan oförändrad.
 
-1. Klicka **[!UICONTROL Save Listing Update]**.
+1. Klicka på **[!UICONTROL Save Listing Update]**.
 
 ![skapa en Alias Amazon Seller SKU](assets/amazon-alias-sku-create.png){width="600" zoomable="yes"}
 
@@ -80,4 +80,4 @@ Visa listan på _[!UICONTROL Product Listings]_sida (_[!UICONTROL Inactive]_, _A
 |-----------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Assign New Seller SKU] | Ange ett nytt, unikt alfanumeriskt värde som ska länkas till den ursprungliga SKU:n för Amazon Seller. Det här numret används endast av Amazon försäljningskanal för att matcha din katalogprodukt. Du kan använda valfritt SKU-värde, men värdet kan bara användas en gång i katalogen. |
 | [!UICONTROL Assign New ASIN] | Ange ASIN-värdet för den lista som du vill matcha katalogprodukten med. Ändra bara det här fältet när du matchar en enskild katalogprodukt till ASIN för en annan lista för samma produkt. Detta värde måste matcha det ASIN som tilldelats av Amazon, annars avvisas inte listan av Amazon. |
-| [!UICONTROL Remove Existing Seller SKU] | Alternativ:<ul><li>**[!UICONTROL Yes]** - Välj att ta bort listan och skapa en lista med den nya informationen. Den nya listan visas i _[!UICONTROL Active]_och den gamla listan flyttas till_ Avslutade _-fliken.</li><li>**[!UICONTROL No]** - Välj om du vill skapa en annan lista och behålla den gamla listan oförändrad. Båda listorna visas på fliken Aktiv när den nya listan har skapats.</li></ul> |
+| [!UICONTROL Remove Existing Seller SKU] | Alternativ:<ul><li>**[!UICONTROL Yes]** - Välj att ta bort listan och skapa en lista med den nya informationen. Den nya listan visas i _[!UICONTROL Active]_och den gamla listan flyttas till_ Avslutade _-fliken.</li><li>**[!UICONTROL No]** - Välj att skapa en annan lista och behålla den gamla listan oförändrad. Båda listorna visas på fliken Aktiv när den nya listan har skapats.</li></ul> |

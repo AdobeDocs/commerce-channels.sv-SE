@@ -40,7 +40,7 @@ Se [Exempel: Definiera ett villkor](./ob-define-condition-example.md).
 
 | Fält | Beskrivning |
 |-------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [!UICONTROL Websites] | Vilka alternativ som är tillgängliga beror på [webbplatser](https://experienceleague.adobe.com/docs/commerce-admin/start/setup/websites-stores-views.html) du har konfigurerat i [!DNL Commerce] konfiguration. Välj webbplats för de produkter som ingår i listan på Amazon. Det går bara att välja en webbplats eftersom varje webbplats kräver en unik Amazon-butik som skapats i Amazon försäljningskanal. |
+| [!UICONTROL Websites] | Vilka alternativ som är tillgängliga beror på [webbplatser](https://experienceleague.adobe.com/docs/commerce-admin/start/setup/websites-stores-views.html) du har konfigurerat i [!DNL Commerce] konfiguration. Välj webbplats för de produkter som ingår i Amazon. Det går bara att välja en webbplats eftersom varje webbplats kräver en unik Amazon-butik som skapats i Amazon försäljningskanal. |
 | [!UICONTROL Conditions] | Används för att definiera [!DNL Commerce] attribut för produktberättigande i Amazon. Se [Exempel: Definiera ett villkor](./ob-define-condition-example.md). |
 
 ## Arbetsytan Villkor
@@ -48,7 +48,7 @@ Se [Exempel: Definiera ett villkor](./ob-define-condition-example.md).
 Alla områden i villkoren som är feta kan klickas för att visa de olika alternativen.
 
 - Lägg inte till villkor om alla produkter på de valda webbplatserna är berättigade.
-- Det finns en komplex uppsättning back-end-processer som kommunicerar direkt med Amazon system. Beroende på hur många objekt du försöker lista och hur upptagna Amazon-system kan vara (t.ex. Black Friday) kan det ta tid för dina objekt att listas på Amazon.
+- Det finns en komplex uppsättning back-end-processer för direktkommunikation med Amazon system. Beroende på hur många objekt du försöker lista och hur upptagna Amazon-system kan vara (t.ex. Black Friday) kan det ta tid för dina objekt att listas på Amazon.
 
 Mer information om villkor finns i [Beskriv villkoren](https://experienceleague.adobe.com/docs/commerce-admin/marketing/promotions/cart-rules/price-rules-cart.html).
 
@@ -80,9 +80,9 @@ De potentiella Amazon-listorna finns på _[!UICONTROL Listing Preview]_sida på 
 
 1. Visa eller lägg till [listregler](./listing-rules.md).
 
-1. Ändra [Villkor för listregel](./ob-define-condition-example.md).
+1. Ändra dina [Villkor för listregel](./ob-define-condition-example.md).
 
-1. Klicka **[!UICONTROL Preview Changes]**.
+1. Klicka på **[!UICONTROL Preview Changes]**.
 
 1. Granska och bekräfta dina listor i _[!UICONTROL Ineligible Listings]_,_[!UICONTROL Eligible Listings]_ och _[!UICONTROL New Listings]_-tabbar.
 

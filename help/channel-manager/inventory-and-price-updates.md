@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # Uppdatera lager och priser
 
-[!DNL Channel Manager] spårar lager och priser för produkter i [!DNL Commerce] produktkatalog och synkroniserar uppdateringar till den anslutna försäljningskanalen och [!DNL Walmart Marketplace]. Synkroniseringsåtgärden säkerställer att produktlistor återspeglar aktuell lagerkvantitet och aktuella priser.
+[!DNL Channel Manager] spårar lager och priser för produkter i [!DNL Commerce] produktkatalog och synkroniserar uppdateringar till den anslutna försäljningskanalen och [!DNL Walmart Marketplace]. Synkroniseringsåtgärden ser till att produktlistor återspeglar aktuell lagerkvantitet och aktuella priser.
 
 
 >[!IMPORTANT]
@@ -27,7 +27,7 @@ När produktlagernivåer ändras i [!DNL Commerce], [!DNL Channel Manager] synkr
 
 * **Uppdateringar av lagerkvantitet i produktkatalog**—When [!DNL Commerce] lagerkvantitet ändras på grund av [manuella ändringar av lagerkvantitet](https://experienceleague.adobe.com/docs/commerce-admin/inventory/quantities/quantities-assign-per-product.html), återbetalningar eller uppsägningar, [!DNL Channel Manager] synkroniserar ändringen till anslutna kanaler och [!DNL Walmart Marketplace].
 
-* **Minska lagerkvantiteten för att spegla [!DNL Walmart Marketplace] order**—Efter [!DNL Walmart Marketplace] order synkas till [!DNL Channel Manager], [!DNL Channel Manager] skickar uppdateringen till [!DNL Commerce] ordersystem. [!DNL Commerce] justerar lagerkvantiteter baserat på ordern. Sedan synkroniseras den uppdaterade kvantiteten till [!DNL Walmart Marketplace]. Tills synkroniseringsåtgärderna är slutförda kan du se olika kvantiteter i säljkanalslistorna och [!DNL Walmart].
+* **Minska lagerkvantiteten för att spegla [!DNL Walmart Marketplace] order**—Efter [!DNL Walmart Marketplace] order synkas till [!DNL Channel Manager], [!DNL Channel Manager] skickar uppdateringen till [!DNL Commerce] ordersystem. [!DNL Commerce] justerar lagerkvantiteter baserat på ordern. Sedan synkroniseras den uppdaterade kvantiteten till [!DNL Walmart Marketplace]. Tills synkroniseringsåtgärderna är slutförda kan du se olika kvantiteter i säljkanalslistan och [!DNL Walmart].
 
 >[!IMPORTANT]
 >

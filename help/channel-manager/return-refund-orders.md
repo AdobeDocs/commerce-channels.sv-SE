@@ -28,7 +28,7 @@ I Store Admin kan du visa och bearbeta returer från Channel Manager genom att �
 
 >[!NOTE]
 >
->Du kan bara bearbeta återbetalningar för levererade order. I [!DNL Channel Manager]måste orderstatusen vara [!UICONTROL Shipped]. I [!DNL Walmart Marketplace] Säljarkonto, ordern måste vara [!UICONTROL Delivered].
+>Du kan bara bearbeta återbetalningar för levererade order. I [!DNL Channel Manager]måste orderstatusen vara [!UICONTROL Shipped]. I [!DNL Walmart Marketplace] Försäljarkonto, ordern måste vara [!UICONTROL Delivered].
 
 ## Returnerar kontroller och kolumnbeskrivningar
 
@@ -51,7 +51,7 @@ I följande tabeller beskrivs de kontroller och kolumner som är tillgängliga f
 </tr>
 <tr>
 <td>[!UICONTROL View order detail]</td>
-<td>Om du vill visa orderdetaljer väljer du [!DNL Commerce] ordernummer i [!UICONTROL Order] för att öppna handelsordern.</td>
+<td>Om du vill visa orderdetaljer väljer du [!DNL Commerce] ordernummer i [!UICONTROL Order] register för att öppna handelsordern.</td>
 </tr>
 <tr>
 <td>[!UICONTROL Channel Settings]</td>
@@ -97,7 +97,7 @@ konverteras till lokal tid.</td>
 </tr>
 <tr>
 <td>[!UICONTROL Status Details]</td>
-<td>För mottagna och återbetalningsbara returtransaktioner ger statusinformation en länk för att komma åt kreditnotan för bearbetning av återbetalning. Om ett fel inträffar under [!DNL Channel Manager] synkroniseringsprocess mellan Adobe Commerce och [!DNL Walmart marketplace], innehåller det här fältet felbeskrivningen.</td>
+<td>För mottagna och återbetalningsbara returtransaktioner ger statusinformation en länk för att komma åt kreditnotan för bearbetning av återbetalningar. Om ett fel inträffar under [!DNL Channel Manager] synkroniseringsprocess mellan Adobe Commerce och [!DNL Walmart marketplace], innehåller det här fältet felbeskrivningen.</td>
 </tr>
 </table>
 
@@ -119,11 +119,11 @@ Returer kan ha följande statusar:
 
 I följande scenarier beskrivs hur du utfärdar återbetalningar för olika typer av returbegäranden från [!DNL Channel Manager].
 
-* **Fullständig radbrytning**- Om returbegäran från Walmart Marketplace gäller alla artiklar i ordern ska du uppdatera kreditfakturakvantiteten så att alla artiklar återbetalas.
+* **Fullständig avkastning**- Om returbegäran från Walmart Marketplace gäller alla artiklar i ordern ska du uppdatera kreditfakturakvantiteten så att alla artiklar återbetalas.
 
 * **Delvis retur**-Om returbegäran från Walmart Marketplace bara gäller vissa orderartiklar, ska du bara uppdatera kreditfakturakvantiteten för de artiklar som ska återbetalas.
 
-* **Återbetalning har redan återbetalats genom Walmart Marketplace**-I vissa fall behandlas en återbetalning på [!DNL Walmart Marketplace] innan du bearbetar returen i Channel Manager. Om en handelsorder t.ex. inte återbetalas inom den 48-timmars bearbetningsperiod för återbetalning som krävs av Walmart, återbetalar Walmart ordern automatiskt. När detta inträffar synkroniserar Channel Manager fortfarande returbegäran till Adobe Commerce så att du kan bearbeta returen och utfärda kreditnotan. Det här arbetsflödet ser till att orderdetaljerna i [!DNL Commerce] matchar orderinformationen i Walmart Marketplace.
+* **Återbetalning har redan återbetalats genom Walmart Marketplace**-I vissa fall behandlas en återbetalning på [!DNL Walmart Marketplace] innan du bearbetar avkastningen i Channel Manager. Om en handelsorder t.ex. inte återbetalas inom den 48-timmars bearbetningsperiod för återbetalning som krävs av Walmart, återbetalar Walmart ordern automatiskt. När detta inträffar synkroniserar Channel Manager fortfarande returbegäran till Adobe Commerce så att du kan bearbeta returen och utfärda kreditnotan. Det här arbetsflödet ser till att orderdetaljerna i [!DNL Commerce] matchar orderinformationen i Walmart Marketplace.
 
 >[!NOTE]
 >
@@ -139,9 +139,9 @@ I följande scenarier beskrivs hur du utfärdar återbetalningar för olika type
 
    * Du kan granska returerna genom att välja **[!UICONTROL Returns]** -fliken.
 
-     Du kan även komma åt returinformation från [!UICONTROL Orders] sida. Sök efter [!UICONTROL Shipped] order som har en returbegäran. Välj sedan `Return requested` i [!UICONTROL Status Details] -kolumn för att visa och bearbeta begäran.
+     Du kan även komma åt returinformation från [!UICONTROL Orders] sida. Leta efter [!UICONTROL Shipped] order som har en returbegäran. Välj sedan `Return requested` i [!UICONTROL Status Details] -kolumn för att visa och bearbeta begäran.
 
-1. Hitta en retur med *[!UICONTROL Received]* status.
+1. Hitta en retur i tabellen Returnerar med *[!UICONTROL Received]* status.
 
 1. Granska listan över orderartiklar och kvantitet som ska återbetalas i kolumnen Artiklar.
 
@@ -157,7 +157,7 @@ I följande scenarier beskrivs hur du utfärdar återbetalningar för olika type
 
      Se till att bara returnera de objekt som anges i returbegäran.
 
-   * Om du vill lägga till en kommentar anger du texten i **[!UICONTROL Credit Memo Comments]**
+   * Skriv texten i **[!UICONTROL Credit Memo Comments]**
 
    * Välj **[!UICONTROL Refund Offline]**.
 
@@ -180,11 +180,11 @@ Du kan visa information om returbegäranden och återbetalningsbehandling från 
 
 1. Visa återbetalningsinformation för en retur genom att välja **[!UICONTROL View credit memo]**.
 
-   ![Kreditnota som återför returnerade artiklar för en [!DNL Walmart Marketplace] order](assets/refund-credit-memo-for-marketplace-order.png){width="600" zoomable="yes"}
+   ![Kreditnota som återför returnerade artiklar för en [!DNL Walmart Marketplace] beställa](assets/refund-credit-memo-for-marketplace-order.png){width="600" zoomable="yes"}
 
 >[!NOTE]
 >
->När en order har återbetalats [!UICONTROL Orders] Kontrollpanelen visar inte returinformation. Om du vill visa returinformation använder du [!DNL Channel Manager] Returnerar instrumentpanelen. Mer detaljerad information om retur och återbetalning finns också på sidan Orderdetaljer.
+>När en order har återbetalats [!UICONTROL Orders] Kontrollpanelen visar inte returinformation. Använd knappen [!DNL Channel Manager] Returnerar instrumentpanelen. Mer detaljerad information om retur och återbetalning finns också på sidan Orderdetaljer.
 
 ## Åtgärda returfel
 

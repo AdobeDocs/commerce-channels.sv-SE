@@ -15,7 +15,7 @@ ht-degree: 0%
 
 [[!DNL Amazon Marketplace]](https://sell.amazon.com/){target="_blank"} är en e-handelsplattform som ägs och drivs av Amazon och som gör det möjligt för tredjepartssäljare att sälja nya eller använda produkter. Använda [!DNL Amazon Marketplace], tredjepartsförsäljare får tillgång till Amazon världsomspännande kundbas. Merchants som listar produkter på Amazon som ska säljas, inklusive Adobe Commerce och Magento Open Source, definieras av Amazon som&quot;tredjepartsförsäljare&quot;.
 
-Tredjepartsförsäljare av alla storlekar kan skapa en [!DNL Amazon Seller Central] konto och använd [!DNL Amazon Marketplace] för att nå Amazon globala kundbas. När ett konto har skapats och aktiverats kan säljarna lägga till och lista produkter för försäljning, hantera order och lager samt slutföra order.
+Tredjepartsförsäljare av alla storlekar kan skapa [!DNL Amazon Seller Central] konto och använd [!DNL Amazon Marketplace] för att nå Amazon globala kundbas. När ett konto har skapats och aktiverats kan säljarna lägga till och lista produkter för försäljning, hantera order och lager samt slutföra order.
 
 ## Amazon - listor
 
@@ -35,7 +35,7 @@ Om du vill bidra med produktinformation eller korrigera felaktig information på
 
 Amazon erbjuder två alternativ för orderhantering och leverans:
 
-- **Fylls i av handlaren (FBM)**: Tredjepartsförsäljare lagrar sitt eget lager. När en kund lägger en order hanterar säljaren förpackningen och leveransen till kunden. Med det här alternativet kan du slutföra leveranser via Adobe Commerce och Magento Open Source, eller någon annan tredje part.
+- **Fylls i av handlaren**: Tredjepartsförsäljare lagrar sitt eget lager. När en kund lägger en order hanterar säljaren förpackningen och leveransen till kunden. Med det här alternativet kan du slutföra leveranser via Adobe Commerce och Magento Open Source, eller någon annan tredje part.
 
 - **Fylls i av Amazon (FBA)**: Tredjepartsförsäljare lagrar lager i Amazon leveranscentra över hela världen. När en kund lägger en order hanterar Amazon förpackningen och leveransen till kunden. Beställningsinformation och status skickas till Adobe Commerce eller Magento Open Source.
 

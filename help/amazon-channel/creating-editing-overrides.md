@@ -1,6 +1,6 @@
 ---
 title: Skapa och redigera åsidosättningar av Amazon-försäljningskanaler
-description: Använd åsidosättningar av Amazon Sales Channel för att tillämpa ändringarna på en enstaka Amazon-lista eller på flera listor.
+description: Använd åsidosättningar av Amazon-Sales Channeler för att tillämpa ändringarna på en enstaka Amazon-lista eller på flera listor.
 feature: Sales Channels, Products, Configuration
 exl-id: 3a254883-b88c-4c94-b4d5-8d7754b9afd2
 source-git-commit: 7fff4c463551089fb64f2d5bf7bf23f272ce4663
@@ -35,7 +35,7 @@ The _[!UICONTROL Create Override]_är tillgänglig när du visar listor på_[!UI
    - **Villkor** - Klicka **[!UICONTROL Change Condition]** och välj rätt alternativ för **[!UICONTROL Condition Override]**.
    - **Säljaranteckningar** - Klicka **[!UICONTROL Change Seller Notes]** och ange din anteckningstext för **[!UICONTROL Seller Notes Override]**.
 
-1. Klicka **[!UICONTROL Save Listing Override]**.
+1. Klicka på **[!UICONTROL Save Listing Override]**.
 
    The _[!UICONTROL Product Listing Overrides]_sidan stängs. Listans status ändras till `Relist in Progress`. Ändringen kommer att publiceras till Amazon med nästa datasynkronisering (som konfigureras i cron-inställningarna). Listan läggs också till i_[!UICONTROL Overrides]_ -fliken.
 
@@ -55,9 +55,9 @@ The _[!UICONTROL Edit Overrides]_är tillgänglig när du visar listor på_[!UIC
 
    ![Markera en åsidosättning av Amazon-lista](assets/amazon-select-edit-overrides.png){width="125"}
 
-1. För att vara säker på att du åsidosätter rätt lista bör du kontrollera _[!UICONTROL Listing Details]_.
+1. Kontrollera att du åsidosätter rätt lista genom att kontrollera _[!UICONTROL Listing Details]_.
 
-1. Så här redigerar du _[!UICONTROL Override]_inställningar definierar du avsnitten för den typ som du vill ändra (Pris, Hanteringstid, Villkor, Seller Notes).
+1. Redigera dina _[!UICONTROL Override]_inställningar definierar du avsnitten för den typ som du vill ändra (Pris, Hanteringstid, Villkor, Seller Notes).
 
    Om du vill behålla samma typ av åsidosättning väljer du `No Change To <override type>` (standard). Med den här inställningen ändras inte det tidigare definierade åsidosättningsvärdet.
 
@@ -68,7 +68,7 @@ The _[!UICONTROL Edit Overrides]_är tillgänglig när du visar listor på_[!UIC
 
 1. Om du vill ta bort en åsidosättningstyp klickar du på **Ta bort** för varje typ som du vill ta bort. Om det inte tas bort finns det tidigare definierade värdet kvar i åsidosättningen.
 
-1. Klicka **[!UICONTROL Save Listing Override]**.
+1. Klicka på **[!UICONTROL Save Listing Override]**.
 
    The _[!UICONTROL Product Listing Overrides]_sidan stängs. Listans status ändras till `Relist in Progress`. Ändringen kommer att publiceras till Amazon med nästa datasynkronisering (som konfigureras i cron-inställningarna). Om den inte redan finns med i listan läggs även listorna till i_[!UICONTROL Overrides]_ -fliken.
 
@@ -95,9 +95,9 @@ The _[!UICONTROL Edit Listing Overrides]_finns på_[!UICONTROL Inactive]_, _[!UI
 
    ![Markera en åsidosättning av Amazon-lista](assets/amazon-actions-edit-listing-overrides.png){width="200"}
 
-1. Så här redigerar du _[!UICONTROL Override]_inställningar definierar du avsnitten för den typ som du vill ändra (Pris, Hanteringstid, Villkor, Seller Notes).
+1. Redigera dina _[!UICONTROL Override]_inställningar definierar du avsnitten för den typ som du vill ändra (Pris, Hanteringstid, Villkor, Seller Notes).
 
-   Om du vill att åsidosättningen ska vara densamma väljer du `No Change To <override type>` (standard). Med den här inställningen ändras inte det tidigare definierade åsidosättningsvärdet.
+   Om du vill behålla en åsidosättning väljer du `No Change To <override type>` (standard). Med den här inställningen ändras inte det tidigare definierade åsidosättningsvärdet.
 
    - **Pris** - Klicka **[!UICONTROL Change Listing Price]** och ange ett definierat prisvärde för **[!UICONTROL Price Override]**.
    - **Hanteringstid** - Klicka **[!UICONTROL Change Handling Time]** och ange det definierade tidsvärdet (i dagar) för **[!UICONTROL Handling Time Override]**.
@@ -106,7 +106,7 @@ The _[!UICONTROL Edit Listing Overrides]_finns på_[!UICONTROL Inactive]_, _[!UI
 
 1. Om du vill ta bort en åsidosättningstyp klickar du på **[!UICONTROL Remove]** för varje typ som du vill ta bort. Om det inte tas bort finns det tidigare definierade värdet kvar i åsidosättningen.
 
-1. Klicka **[!UICONTROL Save Listing Override]**.
+1. Klicka på **[!UICONTROL Save Listing Override]**.
 
    The _[!UICONTROL Product Listing Overrides]_sidan stängs. Status för listorna ändras till `Relist in Progress`. Ändringen kommer att publiceras till Amazon med nästa datasynkronisering (som konfigureras i cron-inställningarna). Om den inte redan finns med i listan läggs även listorna till i_[!UICONTROL Overrides]_ -fliken.
 
@@ -114,7 +114,7 @@ The _[!UICONTROL Edit Listing Overrides]_finns på_[!UICONTROL Inactive]_, _[!UI
 
 | Åsidosätt | Beskrivning |
 |-------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [!UICONTROL Price Override] | En prisåsidosättning definierar priset för listorna. Åsidosättningen har högre prioritet än alla automatiska inställningar tills åsidosättningen tas bort.<br><br>Om du vill åsidosätta priset på din produkt väljer du **[!UICONTROL Change Listing Price]** och ange det nya priset för **[!UICONTROL Price Override]**. |
+| [!UICONTROL Price Override] | En prisåsidosättning definierar priset för listorna. Åsidosättningen har högre prioritet än alla automatiska inställningar tills åsidosättningen tas bort.<br><br>Om du vill åsidosätta priset på produkten väljer du **[!UICONTROL Change Listing Price]** och ange det nya priset för **[!UICONTROL Price Override]**. |
 | [!UICONTROL Handling Time Override] | En åsidosättning av hanteringstid definierar den tid det tar (i dagar) att bearbeta och leverera produkter. Åsidosättning av hanteringstid har högre prioritet än alla automatiska inställningar och standardinställningar för hanteringstid tills åsidosättningen tas bort.<br><br>Värdet som finns i _[!UICONTROL Handling Time Override]_är antingen den standardhanteringstid som definieras i [listinställningar](./listing-settings.md) eller din definierade tid för åsidosättningshantering. Om du tar bort en åsidosättning av hanteringstid används som standard den hanteringstid som definieras i listinställningarna.<br><br>Om du vill definiera en åsidosättning av hanteringstid väljer du **[!UICONTROL Change Handling Time]**och ange den nya hanteringstiden (i dagar) för **[!UICONTROL Handling Time Override]**. |
 | [!UICONTROL Condition Override] | Om du vill åsidosätta listvillkoren väljer du **[!UICONTROL Change Condition]** och välj det nya villkoret från **Åsidosätt villkor**. |
-| [!UICONTROL Seller Notes Override] | För produkter i din katalog som har definierats med ett annat villkor än `New`, kan en säljaranteckning läggas till för att ytterligare beskriva din produkt och dess tillstånd för potentiella köpare. Du kan ange åsidosättning av en säljarfaktura för en `New` villkorsprodukten, men Amazon visar inte anteckningen.<br><br>Om du vill åsidosätta Seller Notes väljer du **[!UICONTROL Change Seller Notes]** och ange den nya anteckningen för **[!UICONTROL Seller Notes Override]**. |
+| [!UICONTROL Seller Notes Override] | För produkter i katalogen som har definierats med ett annat villkor än `New`, kan en säljaranteckning läggas till för att ytterligare beskriva din produkt och dess tillstånd för potentiella köpare. Du kan ange en åsidosättning av en säljarfaktura för en `New` villkorsprodukten, men Amazon visar inte anteckningen.<br><br>Om du vill åsidosätta Seller Notes väljer du **[!UICONTROL Change Seller Notes]** och ange den nya anteckningen för **[!UICONTROL Seller Notes Override]**. |

@@ -30,7 +30,7 @@ An [intelligent repriseringsregel](./intelligent-repricing-rules.md) använder A
 | Avsnitt | Beskrivning |
 |----------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------|
 | [[!UICONTROL Select Rule Type]](./intelligent-repricing-rules.md) | Ange regeltypen till `Intelligent repricing rule` tillsammans med konkurrenternas krav på priskälla och feedback. |
-| [[!UICONTROL Competitor Conditional Variances]](./competitor-conditional-variances.md) | Definiera avvikelser för villkor för samma produkt som säljs av konkurrenter. |
+| [[!UICONTROL Competitor Conditional Variances]](./competitor-conditional-variances.md) | Definiera avvikelser för villkoren för samma produkt som säljs av konkurrenter. |
 | [[!UICONTROL Price Adjustment]](./price-adjustment.md) | Definiera justeringsberäkningarna som tillämpas på priskällan för att fastställa listpriset |
 | [[!UICONTROL Floor Price]](./floor-price.md) | Definiera det lägsta priset för en produkt för att förhindra att flera prisregler ställer in ett listpris för lågt. |
 | [[!UICONTROL Optional Ceiling Price]](./optional-ceiling-price.md) | Definiera det högsta priset för en produkt för att säkerställa att dina priser förblir konkurrenskraftiga. |

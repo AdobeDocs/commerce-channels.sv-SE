@@ -45,21 +45,21 @@ I det här scenariot gäller regel 1 och 2 för de produkter som omfattas. Regel
 
 Pris: 45,49 USD
 
-Tillämpad regel 1: $45,49 x (0,9) = $40,94
+Regel 1 tillämpad: $45,49 x (0,9) = $40,94
 
-Tillämpad regel 2: $40.94 - $10.00 = $30.94
+Regel 2 tillämpad: $40.94 - $10.00 = $30.94
 
-Slutpriset efter regel 1 och regel 2 ska tillämpas: 30,94 USD
+Slutpriset efter regel 1 och regel 2 gäller: $30,94
 
 #### Produkt 2
 
 Pris: 47,76 USD
 
-Tillämpad regel 1: $47.76 x (0.9) = $42.98
+Regel 1 tillämpad: $47.76 x (0.9) = $42.98
 
-Tillämpad regel 2: $42.98 - $10.00 = $32.98
+Regel 2 tillämpad: $42.98 - $10.00 = $32.98
 
-Slutpriset efter regel 1 och regel 2 ska tillämpas: 32,98 USD
+Slutpriset efter regel 1 och regel 2 gäller: $32.98
 
 ## Exempel på regel för intelligent omprissättning
 
@@ -70,7 +70,7 @@ Slutpriset efter regel 1 och regel 2 ska tillämpas: 32,98 USD
 | [!UICONTROL Rule Name] | Regel-1 |
 | [!UICONTROL Priority] | 1 |
 | [!UICONTROL Rule Type] | Intelligent regel för omprissättning |
-| [!UICONTROL Competitor Price Source] | Använd&quot;Buy Box&quot;-pris |
+| [!UICONTROL Competitor Price Source] | Använd Buy Box-pris |
 | [!UICONTROL Price Action] | Matcha konkurrentpris |
 | [!UICONTROL Floor Price Source] | Pris |
 | [!UICONTROL Floor Price Action] | Matcha |
@@ -83,7 +83,7 @@ Pris: $15
 
 På grund av [Buy Box](./buy-box-competitor-pricing.md) priset är lägre än det ursprungliga priset, produkten anges till det ursprungliga priset.
 
-Det slutliga priset efter att regeln har tillämpats: $15
+Slutpriset efter att regeln har tillämpats: $15
 
 #### Produkt 2
 
@@ -93,7 +93,7 @@ Pris: $5
 
 På grund av [Buy Box](./buy-box-competitor-pricing.md) priset är högre än det ursprungliga priset, produkten anges på [Buy Box](./buy-box-competitor-pricing.md) pris.
 
-Det slutliga priset efter att regeln har tillämpats: 10 dollar
+Slutpriset efter att regeln har tillämpats: $10
 
 ### Buy Box pris med rörlig priskälla = Pris och en prissänkning på 20 %
 
@@ -102,7 +102,7 @@ Det slutliga priset efter att regeln har tillämpats: 10 dollar
 | [!UICONTROL Rule Name] | Regel-1 |
 | [!UICONTROL Priority] | 1 |
 | [!UICONTROL Rule Type] | Intelligent regel för omprissättning |
-| [!UICONTROL Competitor Price Source] | Använd&quot;Buy Box&quot;-pris |
+| [!UICONTROL Competitor Price Source] | Använd Buy Box-pris |
 | [!UICONTROL Price Action] | Matcha konkurrentpris |
 | [!UICONTROL Floor Price Source] | Pris |
 | [!UICONTROL Floor Price Action] | Minska med |
@@ -119,7 +119,7 @@ Beräknat golvpris: $16
 
 På grund av [Buy Box](./buy-box-competitor-pricing.md) priset är lägre än beräknat [Baspris](./floor-price.md)finns produkten på Beräknad [Baspris](./floor-price.md).
 
-Det slutliga priset efter att regeln har tillämpats: $16
+Slutpriset efter att regeln har tillämpats: $16
 
 #### Produkt 2
 
@@ -131,7 +131,7 @@ Beräknat [Baspris](./floor-price.md): $12
 
 På grund av [Buy Box](./buy-box-competitor-pricing.md) priset är större än beräknat [Baspris](./floor-price.md), visas produkten på [Buy Box](./buy-box-competitor-pricing.md) pris.
 
-Det slutliga priset efter att regeln har tillämpats: $15
+Slutpriset efter att regeln har tillämpats: $15
 
 #### Produkt 3
 
@@ -143,7 +143,7 @@ Beräknat golvpris: 13,60 USD
 
 På grund av [Buy Box](./buy-box-competitor-pricing.md) priset är större än beräknat [Baspris](./floor-price.md), visas produkten på [Buy Box](./buy-box-competitor-pricing.md) pris.
 
-Det slutliga priset efter att regeln har tillämpats: $15
+Slutpriset efter att regeln har tillämpats: $15
 
 ### Lägsta pris med alla konkurrenters priser och använd alla konkurrenters produktvillkor
 
@@ -163,28 +163,28 @@ Det slutliga priset efter att regeln har tillämpats: $15
 |-------|-----------------|
 | $17 | Nytt |
 | $15 | Nytt |
-| $14 | Används. Mycket bra |
-| $13 | Används. Bra |
+| $14 | Används; Mycket bra |
+| $13 | Används; bra |
 
 #### Produkt 1
 
-Pris: 10 dollar
+Pris: $10
 
 Villkor: Nytt
 
 Eftersom det lägsta konkurrentpriset för det nya villkoret är 15 USD anges produkten till 15 USD.
 
-Det slutliga priset efter att regeln har tillämpats: $15
+Slutpriset efter att regeln har tillämpats: $15
 
 #### Produkt 2
 
-Pris: 10 dollar
+Pris: $10
 
-Villkor: Används. Godtagbart
+Villkor: Används; Godtagbart
 
 På grund av [lägsta konkurrentpris](./lowest-competitor-pricing.md) för villkoret Använt är 13 USD anges produkten till 13 USD.
 
-Det slutliga priset efter att regeln har tillämpats: $13
+Slutpriset efter att regeln har tillämpats: $13
 
 ### Intelligent regel för omprissättning som kombinerar takpris, valutakonvertering och moms
 
@@ -194,9 +194,9 @@ Det slutliga priset efter att regeln har tillämpats: $13
 | [!UICONTROL Ceiling price source] | $10 |
 | [!UICONTROL Currency conversion] | 1,25 euro:1 USD |
 
-[Takpris](./optional-ceiling-price.md) På den europeiska (moms) marknaden: $10 x 1.25 = $12.50
+[Takpris](./optional-ceiling-price.md) på den europeiska (moms) marknaden: 10 x 1,25 USD = 12,50 USD
 
-När [tak](./optional-ceiling-price.md) på den europeiska marknaden (moms) beräknas och läggs momsen till.
+När [tak](./optional-ceiling-price.md) på den europeiska (moms) marknaden påverkas, beräknas och läggs momsen till.
 
 Slutpris efter moms: $12.50 x (1.1) = $13.75
 
@@ -211,7 +211,7 @@ Slutpris efter moms: $12.50 x (1.1) = $13.75
 | Tak priskälla | $10 |
 | Valutakonvertering | 1,25 euro:1 USD |
 
-[Takpris](./optional-ceiling-price.md) På den europeiska (moms) marknaden: $10 x 1.25 = $12.50
+[Takpris](./optional-ceiling-price.md) på den europeiska (moms) marknaden: 10 x 1,25 USD = 12,50 USD
 
 Slutpris efter moms: $12.50 x (1.1) = $13.75
 
@@ -234,14 +234,14 @@ I det här exemplet definieras det mest konkurrenskraftiga priset genom att titt
 
 ![Exempel på prisjustering](assets/amazon-price-adjustment-example.png){width="600" zoomable="yes"}
 
-När sökningen har utförts baserat på de här parametrarna återgår priset till 25 dollar.
+När sökningen har utförts baserat på de här parametrarna återgår det konkurrenskraftiga priset till 25 dollar.
 
 Här är tre olika [prisregelåtgärd](./pricing-rule-actions.md) baserat på det lägsta priset.
 
 | Fält | Beskrivning |
 |--------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Price Action] | Alternativ:<ul><li>**[!UICONTROL Decrease By]** - Det här alternativet minskar ditt listpris i förhållande till [lägsta konkurrentpris](./lowest-competitor-pricing.md).</li><li>**[!UICONTROL Increase By]** - Det här alternativet ökar ditt listpris i förhållande till [lägsta konkurrentpris](./lowest-competitor-pricing.md).</li><li>**[!UICONTROL Match Competitor Price]** - Det här alternativet ändrar ditt Amazon-pris så att det matchar det lägsta priset baserat på parametrarna. I exemplet är Amazon listpris 25 dollar.</li></ul> |
-| [!UICONTROL Apply] | Alternativ: Använd som procentsats / Använd som fast belopp |
+| [!UICONTROL Apply] | Alternativ: Använd som procentsats/Använd som fast belopp |
 | [!UICONTROL Adjustment Amount] | Numeriskt värde för att definiera procentandelen eller det fasta beloppet för den rabatt som ska tillämpas. <br>Dessa val resulterar i att det lägsta priset sätts till 0,01 USD lägre. |
 
 ### Golvpris
