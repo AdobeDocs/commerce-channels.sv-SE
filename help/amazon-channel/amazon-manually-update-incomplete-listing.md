@@ -1,9 +1,9 @@
 ---
 title: Uppdatera nödvändig information för Amazon
 description: Amazon försäljningskanal innehåller fliken Ofullständig för att övervaka Commerce Catalog-produkter som saknar information som krävs av Amazon.
-feature: Sales Channels, Merchandising, Catalogs, Products
+feature: Sales Channels, Merchandising, Catalog Management, Products
 exl-id: f278cd50-8f04-452e-b9c2-c87820f9faf2
-source-git-commit: 801d4eee9e84b5c5f8b53397fbe8023ad54281e6
+source-git-commit: 8c72b7db5472a573bd8c26acafdf7a3400875477
 workflow-type: tm+mt
 source-wordcount: '465'
 ht-degree: 0%
