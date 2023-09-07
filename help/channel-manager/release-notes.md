@@ -3,10 +3,10 @@ title: '[!DNL Channel Manager] Versionsinformation'
 description: Den senaste versionsinformationen för [!DNL Channel Manager] från Adobe Commerce.
 feature: Sales Channels, Release Notes
 exl-id: 8f40ace1-6587-4185-955a-91bc16dee8ce
-source-git-commit: 8a1f95cdb8817cfcc6ffa96b584c66e680a1c282
+source-git-commit: df8bbec23d34b53a0e694c924aca5b1ed41e4d08
 workflow-type: tm+mt
-source-wordcount: '161'
-ht-degree: 4%
+source-wordcount: '196'
+ht-degree: 3%
 
 ---
 
@@ -18,12 +18,15 @@ I versionsinformationen beskrivs den första versionen av [!DNL Channel Manager]
 ![Korrigerat problem](../assets/fix.svg) Korrigeringar och förbättringar
 ![Känt fel](../assets/bug.svg) Kända fel
 
+Se [Kommande versioner](https://experienceleague.adobe.com/docs/commerce-operations/release/planning/schedule.html) om du vill veta mer om releasescheman och support.
+
+Se [Produkttillgänglighet](https://experienceleague.adobe.com/docs/commerce-operations/release/product-availability.html) om du vill veta vilka Adobe Commerce-versioner som stöder det här tillägget.
 
 ## v2.0.0
 
 *20 mars 2023*
 
-[!BADGE Kompatibilitet]{type=Informative tooltip="Kompatibilitet"}
+[!BADGE Stöds]{type=Informative tooltip="Stöds"}
 
 ![Nytt](../assets/new.svg)<!--CHAN-5893--> Channel Manager är nu kompatibelt med Adobe Commerce version 2.4.6.
 
@@ -31,7 +34,7 @@ I versionsinformationen beskrivs den första versionen av [!DNL Channel Manager]
 
 *23 november 2022*
 
-[!BADGE Kompatibilitet]{type=Informative tooltip="Kompatibilitet"}
+[!BADGE Stöds]{type=Informative tooltip="Stöds"}
 
 ![Nytt](../assets/new.svg)<!--CHAN-5204--> **Returer och återbetalningar**- Nu kan du bearbeta returleveranser och återbetalningsprocesser på Walmart Marketplace för beställningar som skickas via en Adobe Commerce- och Magento Open Source Channel Manager-butik. Information och uppdateringar om returer och återbetalningar synkroniseras mellan Walmart och Adobe Commerce så att aktuella data är tillgängliga i båda [!DNL Commerce] storefront och [!DNL Walmart Marketplace]. Se [Retur- och återbetalningsorder](return-refund-orders.md).
 
@@ -41,7 +44,7 @@ I versionsinformationen beskrivs den första versionen av [!DNL Channel Manager]
 
 *14 januari 2022*
 
-[!BADGE Kompatibilitet]{type=Informative tooltip="Kompatibilitet"}
+[!BADGE Stöds]{type=Informative tooltip="Stöds"}
 
 ![Nytt](../assets/new.svg) Inledande version av Channel Manager för allmän tillgänglighet
 

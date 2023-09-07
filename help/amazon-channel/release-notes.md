@@ -3,9 +3,9 @@ title: '''[!DNL Amazon Sales Channel] versionsinformation'
 description: Läs versionsinformationen om du vill ha information om alla [!DNL Amazon Sales Channel] releaser.
 feature: Sales Channels, Release Notes
 exl-id: 792782e0-9097-42f7-9fc0-509ece02e407
-source-git-commit: fd9423ba7030ce15f47fdead6854487bc0c29f11
+source-git-commit: df8bbec23d34b53a0e694c924aca5b1ed41e4d08
 workflow-type: tm+mt
-source-wordcount: '2006'
+source-wordcount: '2024'
 ht-degree: 0%
 
 ---
@@ -27,11 +27,13 @@ I versionsinformationen beskrivs den första versionen av [!DNL Amazon sales cha
 
 Se [Kommande versioner](https://experienceleague.adobe.com/docs/commerce-operations/release/planning/schedule.html) för versionshantering, support och kompatibilitet.
 
+Se [Produkttillgänglighet](https://experienceleague.adobe.com/docs/commerce-operations/release/product-availability.html) om du vill veta vilka Adobe Commerce-versioner som stöder det här tillägget.
+
 ## v4.5.0
 
 *30 augusti 2023*
 
-[!BADGE Kompatibilitet]{type=Informative tooltip="Kompatibilitet"}
+[!BADGE Stöds]{type=Informative tooltip="Stöds"}
 
 ![Nytt](../assets/new.svg) API-gatewayen Adobe.IO har lagts till, från MAGI, för förbättrad autentiseringssäkerhet. `ServicesId` har ett nytt användargränssnitt för att hantera dina Adobe.IO-inloggningsuppgifter, liknande andra [Adobe Commerce Services](https://experienceleague.adobe.com/docs/commerce-admin/config/services/saas.html).
 
@@ -46,7 +48,7 @@ Se [Kommande versioner](https://experienceleague.adobe.com/docs/commerce-operati
 
 *7 mars 2023*
 
-[!BADGE Kompatibilitet]{type=Informative tooltip="Kompatibilitet"}
+[!BADGE Stöds]{type=Informative tooltip="Stöds"}
 
 ![Korrigerat problem](../assets/fix.svg) Stöd för Adobe Commerce 2.4.6 och PHP 8.2 har lagts till.
 
@@ -70,7 +72,7 @@ Se [Kommande versioner](https://experienceleague.adobe.com/docs/commerce-operati
 
 *7 mars 2023*
 
-[!BADGE Kompatibilitet]{type=Informative tooltip="Kompatibilitet"}
+[!BADGE Stöds]{type=Informative tooltip="Stöds"}
 
 ![Korrigera](../assets/fix.svg) Stöd för Adobe Commerce 2.4.4 har lagts till.
 
@@ -78,7 +80,7 @@ Se [Kommande versioner](https://experienceleague.adobe.com/docs/commerce-operati
 
 *11 november 2021*
 
-[!BADGE Kompatibilitet]{type=Informative tooltip="Kompatibilitet"}
+[!BADGE Stöds]{type=Informative tooltip="Stöds"}
 
 ![Korrigera](../assets/fix.svg) Uppdaterade beroenden som stöder andra uppdaterade tillägg.
 ![Korrigera](../assets/fix.svg) Stöd för PHP 8.1 har lagts till.
@@ -87,7 +89,7 @@ Se [Kommande versioner](https://experienceleague.adobe.com/docs/commerce-operati
 
 *11 november 2021*
 
-[!BADGE Kompatibilitet]{type=Informative tooltip="Kompatibilitet"}
+[!BADGE Stöds]{type=Informative tooltip="Stöds"}
 
 ![Korrigera](../assets/fix.svg) Förändrade hur Adobe Commerce tar emot _Användarnamn_ från Amazon. Tidigare uppstod ett fel när beställningen skapades när _Användarnamn_ fältet innehåller specialtecken. Adobe Commerce får nu _Användarnamn_ data och filtrerar bort specialtecknen så att ordningen kan skapas.
 
@@ -95,7 +97,7 @@ Se [Kommande versioner](https://experienceleague.adobe.com/docs/commerce-operati
 
 *9 april 2021*
 
-[!BADGE Kompatibilitet]{type=Informative tooltip="Kompatibilitet"}
+[!BADGE Stöds]{type=Informative tooltip="Stöds"}
 
 ![Nytt](../assets/new.svg) Stöd för skrivskyddat läge har lagts till i konfigurationen. Se [inställningar för försäljningskanal](sales-channel-settings.md).
 
@@ -113,7 +115,7 @@ Se [Kommande versioner](https://experienceleague.adobe.com/docs/commerce-operati
 
 *3 mars 2021*
 
-[!BADGE Kompatibilitet]{type=Informative tooltip="Kompatibilitet"}
+[!BADGE Stöds]{type=Informative tooltip="Stöds"}
 
 ![Korrigera](../assets/fix.svg) <!--CHAN-xxxx-->The _Beställningsinformation_ funktionen har fått en ny design och är inte längre beroende av _Importera order_ inställning. Beställningsinformationen visas nu i Amazon Sales Channel-gränssnittet för alla beställningar.
 
@@ -129,7 +131,7 @@ Se [Kommande versioner](https://experienceleague.adobe.com/docs/commerce-operati
 
 *3 mars 2021*
 
-[!BADGE Kompatibilitet]{type=Informative tooltip="Kompatibilitet"}
+[!BADGE Stöds]{type=Informative tooltip="Stöds"}
 
 Om du har en tidigare [!DNL Amazon sales channel] version som är installerad och som försöker uppdatera din Adobe Commerce till version 2.4.0, uppmanas du att uppdatera tillägget innan du kan slutföra Adobe Commerce-uppdateringen.
 
@@ -159,7 +161,7 @@ Om du har en tidigare [!DNL Amazon sales channel] version som är installerad oc
 
 *7 maj 2020*
 
-[!BADGE Kompatibilitet]{type=Informative tooltip="Kompatibilitet"}
+[!BADGE Stöds]{type=Informative tooltip="Stöds"}
 
 ![Nytt](../assets/new.svg) <!--4247, 4230-->Processen för orderimport har ändrats så att den överensstämmer med kraven för handelsorder. Dessa ändringar åtgärdar problem som hindrade Commerce från att skapa motsvarande order för en importerad order. Se [Hantera order](managing-orders.md) för information om orderblockerare och lösningar.
 
@@ -189,7 +191,7 @@ Om du har en tidigare [!DNL Amazon sales channel] version som är installerad oc
 
 *25 mars 2020*
 
-[!BADGE Kompatibilitet]{type=Informative tooltip="Kompatibilitet"}
+[!BADGE Stöds]{type=Informative tooltip="Stöds"}
 
 >[!IMPORTANT]
 >
@@ -207,7 +209,7 @@ Om du har en tidigare [!DNL Amazon sales channel] version som är installerad oc
 
 *11 november 2019*
 
-[!BADGE Kompatibilitet]{type=Informative tooltip="Kompatibilitet"}
+[!BADGE Stöds]{type=Informative tooltip="Stöds"}
 
 ![Korrigera](../assets/fix.svg) **Inställningar för numeriskt fält**: <!--CHAN-3779-->Fält som kräver ett numeriskt värde har uppdaterats så att endast numeriska tecken accepteras. Exempel: Prisregelinställningar > Justeringsbelopp
 
@@ -219,7 +221,7 @@ Om du har en tidigare [!DNL Amazon sales channel] version som är installerad oc
 
 *7 oktober 2019*
 
-[!BADGE Kompatibilitet]{type=Informative tooltip="Kompatibilitet"}
+[!BADGE Stöds]{type=Informative tooltip="Stöds"}
 
 ![Nytt](../assets/new.svg) **Amazon UK Marketplace ute nu**: Användare kan välja den brittiska marknadsplatsen när de skapar och integrerar en Commerce Store. Den här uppgraderingen i Storbritannien innehåller ytterligare support för:
 
@@ -237,7 +239,7 @@ Om du har en tidigare [!DNL Amazon sales channel] version som är installerad oc
 
 ## v2.0.0
 
-[!BADGE Kompatibilitet]{type=Informative tooltip="Kompatibilitet"}
+[!BADGE Stöds]{type=Informative tooltip="Stöds"}
 
 >[!NOTE]
 >
