@@ -3,9 +3,9 @@ title: Lägg till produkter i kanalhanteraren
 description: Skapa produktsortiment för [!DNL Walmart Marketplace] försäljning genom att lägga till produkter från katalogen i den försäljningskanal som konfigurerats i Channel Manager.'
 feature: Sales Channels, Merchandising, Products
 exl-id: 00932df7-bdc7-42a1-b269-88dffcc918bc
-source-git-commit: 8a1f95cdb8817cfcc6ffa96b584c66e680a1c282
+source-git-commit: 0087d60791cf00e4ed2bffe992447ee8e592fd9b
 workflow-type: tm+mt
-source-wordcount: '344'
+source-wordcount: '329'
 ht-degree: 0%
 
 ---
@@ -64,7 +64,7 @@ Importprocessen kan ta upp till 30 minuter eller mer beroende på hur många pro
 
      ![Produktimport från katalog till bekräftelsemeddelande för försäljningskanal](assets/product-import-from-catalog-confirmation.png){width="400"}
 
-     Om meddelandet anger att uppdateringen är schemalagd använder du [kö:consumers:start](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/start-message-queues.html) [!DNL CLI] om du vill bearbeta uppdateringen direkt.
+     Om meddelandet anger att uppdateringen är schemalagd använder du [`queue:consumers:start`](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/start-message-queues.html) [!DNL CLI] om du vill bearbeta uppdateringen direkt.
 
      ```bash
      $ bin/magento queue:consumers:start product_action_attribute.update
