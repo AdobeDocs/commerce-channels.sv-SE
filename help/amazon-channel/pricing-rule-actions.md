@@ -16,7 +16,7 @@ Prisregelåtgärder definierar de justeringsberäkningar som tillämpas på pris
 
 ## Standardprisregel
 
-A [standardprisregel](./standard-price-rules.md) ger dig möjlighet att öka eller minska ett Amazon-pris med en viss procentandel eller ett fast belopp i förhållande till [!DNL Commerce] katalogpris (eller priskälla).
+Med en [standardprisregel](./standard-price-rules.md) kan du öka eller minska ett listpris i Amazon med en viss procentandel eller ett fast belopp i förhållande till katalogpriset [!DNL Commerce] (eller priskällan).
 
 | Avsnitt | Beskrivning |
 |------------------------------------------------------------|--------------------------------------------------------------------------------------------------------|
@@ -25,11 +25,11 @@ A [standardprisregel](./standard-price-rules.md) ger dig möjlighet att öka ell
 
 ## Intelligent regel för omprissättning
 
-An [intelligent repriseringsregel](./intelligent-repricing-rules.md) använder Amazon konkurrenters priser för att fastställa ert pris. Konkurrenterna är andra säljare som listar samma produkter som du listar på Amazon.
+En [intelligent regel för omprissättning](./intelligent-repricing-rules.md) använder Amazon konkurrenters priser för att fastställa ditt listpris. Konkurrenterna är andra säljare som listar samma produkter som du listar på Amazon.
 
 | Avsnitt | Beskrivning |
 |----------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------|
-| [[!UICONTROL Select Rule Type]](./intelligent-repricing-rules.md) | Ange regeltypen till `Intelligent repricing rule` tillsammans med konkurrenternas krav på priskälla och feedback. |
+| [[!UICONTROL Select Rule Type]](./intelligent-repricing-rules.md) | Ange regeltypen till `Intelligent repricing rule` tillsammans med konkurrentprisets Source och feedbackkraven. |
 | [[!UICONTROL Competitor Conditional Variances]](./competitor-conditional-variances.md) | Definiera avvikelser för villkoren för samma produkt som säljs av konkurrenter. |
 | [[!UICONTROL Price Adjustment]](./price-adjustment.md) | Definiera justeringsberäkningarna som tillämpas på priskällan för att fastställa listpriset |
 | [[!UICONTROL Floor Price]](./floor-price.md) | Definiera det lägsta priset för en produkt för att förhindra att flera prisregler ställer in ett listpris för lågt. |

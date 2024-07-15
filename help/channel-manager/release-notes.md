@@ -1,24 +1,24 @@
 ---
-title: '[!DNL Channel Manager] Versionsinformation'
-description: Den senaste versionsinformationen för [!DNL Channel Manager] från Adobe Commerce.
+title: Versionsinformation för [!DNL Channel Manager]
+description: Den senaste versionsinformationen för  [!DNL Channel Manager] från Adobe Commerce.
 feature: Sales Channels, Release Notes
 exl-id: 8f40ace1-6587-4185-955a-91bc16dee8ce
 source-git-commit: 003efd3c1044284a7d2c86db5d3eb1abfb3898ea
 workflow-type: tm+mt
-source-wordcount: '218'
-ht-degree: 3%
+source-wordcount: '206'
+ht-degree: 0%
 
 ---
 
-# [!DNL Channel Manager] Versionsinformation
+# Versionsinformation för [!DNL Channel Manager]
 
-I versionsinformationen beskrivs den första versionen av [!DNL Channel Manager] och innehåller:
+Dessa versionsinformation beskriver den första versionen av [!DNL Channel Manager] och innehåller:
 
-![Nytt](../assets/new.svg) Nya funktioner
-![Korrigerat problem](../assets/fix.svg) Korrigeringar och förbättringar
-![Känt fel](../assets/bug.svg) Kända fel
+![Nya](../assets/new.svg) nya funktioner
+![ Åtgärdat problem ](../assets/fix.svg) Korrigeringar och förbättringar
+![Kända fel](../assets/bug.svg)
 
-Se [Kommande versioner](https://experienceleague.adobe.com/docs/commerce-operations/release/planning/schedule.html) om du vill veta mer om releasescheman och support.
+Läs [Kommande releaser](https://experienceleague.adobe.com/docs/commerce-operations/release/planning/schedule.html) om du vill veta mer om releasescheman och support.
 
 Se [Produkttillgänglighet](https://experienceleague.adobe.com/docs/commerce-operations/release/product-availability.html) om du vill veta vilka Adobe Commerce-versioner som stöder det här tillägget.
 
@@ -28,7 +28,7 @@ Se [Produkttillgänglighet](https://experienceleague.adobe.com/docs/commerce-ope
 
 [!BADGE Stöds]{type=Informative tooltip="Stöds"}
 
-![Nytt](../assets/new.svg) Channel Manager är nu kompatibelt med [Adobe Commerce version 2.4.7 beta](https://experienceleague.adobe.com/docs/commerce-operations/release/beta.html) releaser.
+![Ny](../assets/new.svg) kanalhanterare är nu kompatibel med [betaversioner av Adobe Commerce version 2.4.7](https://experienceleague.adobe.com/docs/commerce-operations/release/beta.html).
 
 ## v2.0.0
 
@@ -36,7 +36,7 @@ Se [Produkttillgänglighet](https://experienceleague.adobe.com/docs/commerce-ope
 
 [!BADGE Stöds]{type=Informative tooltip="Stöds"}
 
-![Nytt](../assets/new.svg)<!--CHAN-5893--> Channel Manager är nu kompatibelt med Adobe Commerce version 2.4.6.
+![Ny](../assets/new.svg)<!--CHAN-5893--> kanalhanterare är nu kompatibel med Adobe Commerce version 2.4.6.
 
 ## v1.1.0
 
@@ -44,9 +44,9 @@ Se [Produkttillgänglighet](https://experienceleague.adobe.com/docs/commerce-ope
 
 [!BADGE Stöds]{type=Informative tooltip="Stöds"}
 
-![Nytt](../assets/new.svg)<!--CHAN-5204--> **Returer och återbetalningar**- Nu kan du bearbeta returleveranser och återbetalningsprocesser på Walmart Marketplace för beställningar som skickas via en Adobe Commerce- och Magento Open Source Channel Manager-butik. Information och uppdateringar om returer och återbetalningar synkroniseras mellan Walmart och Adobe Commerce så att aktuella data är tillgängliga i båda [!DNL Commerce] storefront och [!DNL Walmart Marketplace]. Se [Retur- och återbetalningsorder](return-refund-orders.md).
+![Nytt](../assets/new.svg)<!--CHAN-5204--> **Returnerar och återbetalar** - Nu kan du bearbeta returnerings- och återbetalningsprocessen för Walmart Marketplace för order som levereras via en Adobe Commerce- och Magento Open Source Channel Manager-butik. Information och uppdateringar om returer och återbetalningar synkroniseras mellan Walmart och Adobe Commerce så att aktuella data är tillgängliga i både [!DNL Commerce]-butiken och [!DNL Walmart Marketplace]. Se [Retur- och återbetalningsorder](return-refund-orders.md).
 
-![Fast](../assets/fix.svg)<!--CHAN-5661--> Korrigerade `Class Magento\SalesDataExporter\MOdel\OrdersFeed does not exist` fel som uppstod vid omsynkronisering av kanalhanterarens orderdata med `bin/magento saas:resync --feed orders` -kommando. Felet löstes genom att kanalhanterarens paketberoenden uppdaterades för modulen Säljdataexport, som fick ett nytt namn `magento/module-sales-data-exporter` till `magento/module-sales-orders-data-exporter`.
+![Korrigerat](../assets/fix.svg)<!--CHAN-5661--> `Class Magento\SalesDataExporter\MOdel\OrdersFeed does not exist`-felet som inträffade när kanalhanterarens orderdata synkroniserades om med kommandot `bin/magento saas:resync --feed orders` har åtgärdats. Felet löstes genom att kanalhanterarens paketberoenden uppdaterades för modulen Säljdataexport, som fick ett nytt namn från `magento/module-sales-data-exporter` till `magento/module-sales-orders-data-exporter`.
 
 ## v1.0.0
 
@@ -54,5 +54,5 @@ Se [Produkttillgänglighet](https://experienceleague.adobe.com/docs/commerce-ope
 
 [!BADGE Stöds]{type=Informative tooltip="Stöds"}
 
-![Nytt](../assets/new.svg) Inledande version av Channel Manager för allmän tillgänglighet
+![Ny](../assets/new.svg) första version av Channel Manager för allmän tillgänglighet
 

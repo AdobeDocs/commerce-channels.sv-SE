@@ -1,42 +1,42 @@
 ---
 title: Avbryta en olevererad Amazon-beställning
-description: Avbryta en väntande eller delvis levererad beställning via din Amazon [!DNL Seller Central] konto.
+description: Avbryt en väntande eller delvis levererad beställning (ej levererad) via ditt Amazon [!DNL Seller Central] konto.
 feature: Sales Channels, Orders, Shipping/Delivery
 exl-id: a6df09b7-7f62-47e5-a2d3-1761802255d0
 source-git-commit: 7fff4c463551089fb64f2d5bf7bf23f272ce4663
 workflow-type: tm+mt
-source-wordcount: '191'
+source-wordcount: '184'
 ht-degree: 0%
 
 ---
 
 # Avbryta en olevererad Amazon-beställning
 
-Beställningar från Amazon kan bara avbrytas om de finns i en `Unshipped` status. Om ordern är väntande eller delvis levererad (ej levererad), kan beställningen endast annulleras via [!DNL Amazon Seller Central] konto. Om artikeln har levererats måste returer och utbyten också hanteras i [!DNL Amazon Seller Central] Konto.
+Amazon-beställningar kan bara avbrytas om de har statusen `Unshipped`. Om ordern är väntande eller delvis levererad (ej levererad), kan beställningen endast annulleras via ditt [!DNL Amazon Seller Central]-konto. Om artikeln har levererats måste returer och utbyten också hanteras i ditt [!DNL Amazon Seller Central]-konto.
 
 >[!NOTE]
 >
 >För andra uppgifter än att annullera en order:
 >
->- Om du har [beställ import](./order-settings.md) aktiverad, beställningar hanteras i [[!DNL Commerce] orderarbetsflöde](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/order-management/orders/orders.html).
->- If [beställ import](./order-settings.md) är inaktiverat måste du hantera dina beställningar i [!DNL Amazon Seller Central].
+>- Om du har [orderimport](./order-settings.md) aktiverat hanteras beställningar i arbetsflödet för [[!DNL Commerce] beställningar](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/order-management/orders/orders.html).
+>- Om [orderimport](./order-settings.md) är inaktiverad måste du hantera dina beställningar i [!DNL Amazon Seller Central].
 
-## Avbryt en beställning i `Unshipped` status
+## Avbryt en order i statusen `Unshipped`
 
-1. Klicka **[!UICONTROL View Store]** på kortet.
+1. Klicka på **[!UICONTROL View Store]** på butikskortet.
 
-1. I _[!UICONTROL Recent Orders]_klickar du på ett ordernummer i butikspanelen.
+1. Klicka på ett ordernummer i avsnittet _[!UICONTROL Recent Orders]_på kontrollpanelen för butik.
 
-   The _[!UICONTROL Amazon Order Details]_visas.
+   Sidan _[!UICONTROL Amazon Order Details]_visas.
 
-1. Klicka **[!UICONTROL Cancel Order]** i sidhuvudsfältet.
+1. Klicka på **[!UICONTROL Cancel Order]** i sidhuvudsfältet.
 
-   Det här alternativet visas bara för order i `Unshipped` status.
+   Det här alternativet visas bara för order med statusen `Unshipped`.
 
-1. För **[!UICONTROL Reason for cancellation]** väljer du ett alternativ.
+1. Välj ett alternativ för **[!UICONTROL Reason for cancellation]**.
 
 1. Klicka på **[!UICONTROL Confirm]**.
 
-   Ordern annulleras och statusen uppdateras till `Canceled` i orderinformationen.
+   Ordern avbryts och statusen uppdateras till `Canceled` i orderinformationen.
 
-Meddelandet om att du vill avbryta skickas till [!DNL Amazon Seller Central] och den kund som är kopplad till ordern också meddelas. Status för motsvarande [!DNL Commerce] i förekommande fall, ändra `Complete`.
+Annulleringsmeddelandet skickas till ditt [!DNL Amazon Seller Central]-konto och kunden som är kopplad till ordern meddelas också. Statusen för motsvarande [!DNL Commerce]-order, om någon, ändras till `Complete`.

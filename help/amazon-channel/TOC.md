@@ -1,19 +1,19 @@
 ---
 user-guide-title: Amazon Sales Channel User Guide
-user-guide-description: Generera säljmaterial genom Amazon genom att integrera Adobe Commerce eller Magento Open Source med [!DNL Amazon Seller Central] konto.
+user-guide-description: Generera försäljning genom Amazon genom att integrera Adobe Commerce eller Magento Open Source med ditt [!DNL Amazon Seller Central] konto.
 breadcrumb-title: Amazon försäljningskanal
 role: Admin, User
 feature: Sales Channels
 recommendations: noDisplay
 source-git-commit: 7fff4c463551089fb64f2d5bf7bf23f272ce4663
 workflow-type: tm+mt
-source-wordcount: '315'
+source-wordcount: '314'
 ht-degree: 0%
 
 ---
 
 
-# Amazon försäljningskanal - [!DNL channel manager] för Adobe Commerce {#amazon}
+# Amazon-försäljningskanal - [!DNL channel manager] för Adobe Commerce {#amazon}
 
 - [Amazon Sales Channel User Guide](guide-overview.md)
 - [Introduktion till Amazon försäljningskanal](overview.md)
@@ -33,7 +33,7 @@ ht-degree: 0%
 - Hantera försäljningskanalen {#manage}
    - [Startsida](amazon-sales-channel-home.md)
    - [Amazon butiker](managing-stores.md)
-   - [Arbetsytekontroller](workspace-controls.md)
+   - [Workspace](workspace-controls.md)
    - [Utbildning och förberedelse](learning-preparation.md)
    - Attribut {#attributes}
       - [Visa attribut](attributes-view.md)
@@ -56,7 +56,7 @@ ht-degree: 0%
    - [Förnyade produkter](renewed-products.md)
 - [Orderinställningar](order-settings.md)
 - [Inställningar för butiksintegrering](store-integration-settings.md)
-- Listregler och prissättningsregler {#rules}
+- Listing and pricing rules {#rules}
    - [Listregler](listing-rules.md)
    - Prisregler {#pricing-rules}
       - [Hantera priser](pricing-products.md)
@@ -97,17 +97,17 @@ ht-degree: 0%
       - [Åsidosättningar](overrides.md)
       - [Ej berättigade listor](ineligible-listings.md)
       - [Avslutade listor](ended-listings.md)
-   - Efter åtgärder {#actions}
+   - Efter åtgärd {#actions}
       - [Hantera efter åtgärder](managing-listings-by-action.md)
       - [Skapa och tilldela katalogprodukter](creating-assigning-catalog-products.md)
       - [Skapa och redigera åsidosättningar](creating-editing-overrides.md)
       - [Skapa en SKU för Aliasförsäljare](create-alias-seller-sku.md)
       - [Redigera en tilldelad ASIN](edit-assigned-asin.md)
       - [Avsluta en Amazon-lista](end-listings-manually.md)
-      - [Publicera en Amazon-lista](publish-listings-manually.md)
+      - [Publish och Amazon](publish-listings-manually.md)
       - [Uppdatera nödvändig information](amazon-manually-update-incomplete-listing.md)
       - [Visa detaljer](product-listing-details.md)
-- Hantera beställningar {#admin-orders}
+- Hantera order {#admin-orders}
    - [Hantera beställningar](managing-orders.md)
    - [Visa Amazon-order](amazon-orders-all.md)
    - [Visa beställningsinformation för Amazon](amazon-order-details.md)

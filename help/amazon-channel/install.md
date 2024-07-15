@@ -1,54 +1,55 @@
 ---
-title: "Installera [!DNL Amazon Sales Channel] extension"
-description: Integrera [!DNL Commerce] katalog med [!DNL Amazon Seller Accounts] och sälja genom [!DNL Amazon Marketplace], hämtar och installerar tillägget för Amazon Sales Channel.
+title: Installera tillägget  [!DNL Amazon Sales Channel]
+description: Om du vill integrera din [!DNL Commerce] katalog med [!DNL Amazon Seller Accounts] och sälja via  [!DNL Amazon Marketplace] hämtar och installerar du tillägget för Amazon-Sales Channel.
 role: Admin, Developer
 feature: Sales Channels, Install, Integration, Tools and External Services
-source-git-commit: 801d4eee9e84b5c5f8b53397fbe8023ad54281e6
+exl-id: ebf22e28-b6a2-420b-80ca-2d750839286c
+source-git-commit: 010a95d7be29354515cf4dcbf5d557eebaa40ed6
 workflow-type: tm+mt
-source-wordcount: '496'
+source-wordcount: '456'
 ht-degree: 0%
 
 ---
 
-# Installera [!DNL Amazon Sales Channel] extension
+# Installera tillägget [!DNL Amazon Sales Channel]
 
 >[!IMPORTANT]
 >
->Endast [!DNL Amazon Sales Channel] version 4.0+ stöds för Adobe Commerce och Magento Open Source 2.4.x. Om du kör en 2.3.x-version, se dokumentationen för [kompatibel version av Amazon-försäljningskanal](https://docs.magento.com/user-guide/v2.3/sales-channels/amazon/amazon-sales-channel.html). Mer information om versionskompatibilitet finns i [Tillgänglighet](https://experienceleague.adobe.com/docs/commerce-operations/release/product-availability.html) i utvecklardokumentationen.
+>Endast [!DNL Amazon Sales Channel] version av tillägg 4.0+ stöds för Adobe Commerce och Magento Open Source 2.4.x. Om du kör en version som är 2.3.x kan du läsa dokumentationen för den [kompatibla versionen av Amazon-försäljningskanalen](https://docs.magento.com/user-guide/v2.3/sales-channels/amazon/amazon-sales-channel.html). Mer information om versionskompatibilitet finns på sidan [Tillgänglighet](https://experienceleague.adobe.com/docs/commerce-operations/release/product-availability.html) i utvecklardokumentationen.
 
-The [!UICONTROL Amazon Sales Channel] tillägg installerar och lägger till funktioner för att integrera din Commerce-katalog med [!DNL Amazon Seller Accounts] att sälja genom [!DNL Amazon Marketplace]. Mer information finns i [Amazon Sales Channel](https://marketplace.magento.com/magento-module-amazon.html) sida in [!DNL Commerce Marketplace] och [versionsinformation](release-notes.md).
+Tillägget [!UICONTROL Amazon Sales Channel] installerar och lägger till funktioner för att integrera din Commerce-katalog med [!DNL Amazon Seller Accounts] och sälja via [!DNL Amazon Marketplace]. Mer information finns på sidan [Amazon-Sales Channel](https://marketplace.magento.com/magento-module-amazon.html) i [!DNL Commerce Marketplace] och i [versionsinformationen](release-notes.md).
 
 ## Krav
 
-- **Commerce-instans**: [!DNL Amazon Sales Channel] tillägg kan installeras på instanser med Magento Open Source, Adobe Commerce och Adobe Commerce i molninfrastrukturversionerna 2.3.x eller senare. Det stöds inte längre i version 2.1, 2.2 eller 1.x.
-- **Commerce-webbkonto**: Du bör ha ett Commerce-webbkonto, som används för att skapa och spåra en API-nyckel.
+- **Commerce-instans**: Tillägget [!DNL Amazon Sales Channel] kan installeras på instanser med Magento Open Source, Adobe Commerce och Adobe Commerce i molninfrastrukturversionerna 2.3.x eller senare. Det stöds inte längre i version 2.1, 2.2 eller 1.x.
+- **Commerce webbkonto**: Du bör ha ett Commerce-webbkonto som används för att skapa och spåra en API-nyckel.
 - **API-nyckel**: Skapa en API-nyckel för Amazon-försäljningskanal via ditt Commerce-webbkonto. Följande instruktioner innehåller dessa steg.
 
 ## Installera
 
-Mer information om hur du använder Composer för den här processen finns i [installation av tillägg](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/tutorials/extensions.html) instruktioner i utvecklardokumentationen.
+Mer detaljerad information om hur du använder Composer för den här processen finns i [installationsanvisningarna för tillägget](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/tutorials/extensions.html) i utvecklardokumentationen.
 
 1. Logga in på [Commerce Marketplace](https://marketplace.magento.com/customer/account/).
 
-1. Klicka på **[!UICONTROL Marketplace]** och sedan klicka på **[!UICONTROL My Purchases]**.
+1. Klicka på fliken **[!UICONTROL Marketplace]** och sedan på **[!UICONTROL My Purchases]**.
 
-1. Leta rätt på och markera **[!UICONTROL Amazon Sales Channel]**.
+1. Leta reda på och välj **[!UICONTROL Amazon Sales Channel]**.
 
 1. Välj version på tilläggssidan.
 
-1. För komponentnamnet och versionen klickar du på **[!UICONTROL Technical Details]**.
+1. Klicka på **[!UICONTROL Technical Details]** för komponentnamnet och versionen.
 
-1. Använd namn- och versionsinformation för att uppdatera tjänstkopplingsposten i din `composer.json` -fil.
+1. Använd namn- och versionsinformationen för att uppdatera tjänstkopplingsposten i din `composer.json`-fil.
 
-   - Lägg till tilläggets namn och version i `composer.json` -fil.
+   - Lägg till tilläggets namn och version i din `composer.json`-fil.
 
-   - Navigera till [!DNL Commerce] projektkatalog och uppdatera `composer.json` -fil.
+   - Navigera till din [!DNL Commerce]-projektkatalog och uppdatera `composer.json`-filen.
 
    ```bash
    composer require magento/services-connector:~1.0.3
    ```
 
-   - Ange [autentiseringsnycklar](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/authentication-keys.html). Din offentliga nyckel är ditt användarnamn. Din privata nyckel är ditt lösenord.
+   - Ange dina [autentiseringsnycklar](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/authentication-keys.html). Din offentliga nyckel är ditt användarnamn. Din privata nyckel är ditt lösenord.
 
    - Vänta tills Composer har uppdaterat dina projektberoenden och kontrollera att inga fel uppstår.
 
@@ -56,7 +57,7 @@ Mer information om hur du använder Composer för den här processen finns i [in
 
 ## Lägg till API-nyckeln för Amazon-försäljningskanal
 
-Efter installationen anger du [API-nyckel](./amazon-verify-api-key.md) för att slutföra konfigurationen.
+När du har installerat anger du en [API-nyckel](./amazon-verify-api-key.md) för att slutföra konfigurationen.
 
 ## Ange alternativ för kanalkonfiguration för Amazon
 
@@ -64,15 +65,15 @@ Du har följande alternativ för att konfigurera Amazon försäljningskanal. Du 
 
 1. Logga in i Admin.
 
-1. På _Administratör_ sidebar, gå till **Lager** > _Inställningar_ > **Konfiguration**.
+1. Gå till **Store** > _Settings_ > **Configuration** på sidofältet _Admin_.
 
-1. Klicka **Sales Channeler** sedan **Globala inställningar**.
+1. Klicka på **Sales Channeler** och sedan på **Globala inställningar**.
 
-1. För **Rensa logghistorik** anger du intervallet för rensning av de insamlade loggarna.
+1. För **Rensa logghistorik** definierar du intervallet för rensning av de insamlade loggarna.
 
-   Alternativen inkluderar `Once Daily`, `Once Weekly`och `Once Monthly` (standard).
+   Alternativen är `Once Daily`, `Once Weekly` och `Once Monthly` (standard).
 
-1. (valfritt) för **Källa för bakgrundsuppgifter (CRON)**, ändra inställningen till `Command Line (CLI) CRON`.
+1. (Valfritt) Ändra inställningen till `Command Line (CLI) CRON` för **Bakgrundsuppgifter (CRON) Source**.
 
    Den här inställningen rekommenderas för **_avancerade användare/administratörer_**.
 
@@ -82,12 +83,12 @@ Du har följande alternativ för att konfigurera Amazon försäljningskanal. Du 
 
 1. Logga in på [Commerce Marketplace](https://marketplace.magento.com/customer/account/).
 
-1. Klicka på **[!UICONTROL Marketplace]** och sedan klicka på **[!UICONTROL My Purchases]**.
+1. Klicka på fliken **[!UICONTROL Marketplace]** och sedan på **[!UICONTROL My Purchases]**.
 
-1. Leta rätt på och markera **[!UICONTROL Amazon Sales Channel]**.
+1. Leta reda på och välj **[!UICONTROL Amazon Sales Channel]**.
 
 1. Välj version på tilläggssidan.
 
-1. För komponentnamnet och versionen klickar du på **[!UICONTROL Technical Details]**.
+1. Klicka på **[!UICONTROL Technical Details]** för komponentnamnet och versionen.
 
-1. Slutför [instruktioner för uppgradering av tillägg](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/tutorials/extensions.html) i _Installationshandbok_.
+1. Fyll i uppgraderingsinstruktionerna för [tillägget](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/tutorials/extensions.html) i _installationshandboken_.

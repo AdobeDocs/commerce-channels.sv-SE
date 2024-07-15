@@ -1,6 +1,6 @@
 ---
 title: Publicera Amazon-listor manuellt
-description: Vid behov kan du manuellt publicera dina färdiga Amazon-listor från din Commerce Admin.
+description: Vid behov kan du manuellt publicera dina färdiga Amazon-listor från Commerce Admin.
 feature: Sales Channels, Products, Merchandising
 exl-id: ca3f674e-d93a-44a6-8c06-b417694a0f1e
 source-git-commit: 7fff4c463551089fb64f2d5bf7bf23f272ce4663
@@ -14,14 +14,14 @@ ht-degree: 0%
 
 Du kan publicera en eller flera Amazon-listor som har avslutats manuellt.
 
-1. Visa en eller flera listor på _[!UICONTROL Ended]_på [Produktlistor](./managing-product-listings.md) sida (_[!UICONTROL Inactive]_, _[!UICONTROL Active]_, eller_[!UICONTROL Ineligible]_ -fliken).
+1. Visa en eller flera listor på fliken _[!UICONTROL Ended]_på sidan [Produktlistor](./managing-product-listings.md) (_[!UICONTROL Inactive]_, _[!UICONTROL Active]_eller_[!UICONTROL Ineligible]_).
 
 1. I den vänstra kolumnen klickar du för att kontrollera alla listor som du vill publicera igen.
 
-1. Under _[!UICONTROL Actions]_, klicka **[!UICONTROL Publish Product to Amazon]**.
+1. Klicka på **[!UICONTROL Publish Product to Amazon]** under _[!UICONTROL Actions]_.
 
-1. Klicka **[!UICONTROL OK]** i bekräftelsemeddelandet.
+1. Klicka på **[!UICONTROL OK]** i bekräftelsemeddelandet.
 
    Ett meddelande visas som bekräftar att de markerade listorna bearbetas för publicering till Amazon.
 
-   Listinformation publiceras till Amazon baserat på dina kreditinställningar. Listinformation skickas till Amazon vid nästa datasynkronisering. Till dess att Amazon svarar med listbekräftelsen finns de manuellt publicerade listorna kvar på _Klar för lista_ tabb med en `List in Progress` status. När listningsbekräftelsen tas emot från Amazon flyttas listan till _Aktiv_ tabb med en `Active` status.
+   Listinformation publiceras till Amazon baserat på dina kreditinställningar. Listinformation skickas till Amazon vid nästa datasynkronisering. Till dess att Amazon svarar med listbekräftelsen finns de manuellt publicerade listorna kvar på fliken _Klar att lista_ med statusen `List in Progress`. När listbekräftelsen tas emot från Amazon flyttas listorna till fliken _Aktiv_ med statusen `Active`.

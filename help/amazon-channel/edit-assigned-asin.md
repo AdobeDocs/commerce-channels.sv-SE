@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Redigera en tilldelad ASIN
 
-Du kan redigera Amazon ASIN-värdet som tilldelats en produkt i [!DNL Commerce] katalog. Den här funktionen är användbar om en katalogprodukt inte matchar någon av dina Amazon-listor korrekt. Om du ändrar tilldelat ASIN för listan ändras inte det ASIN som tilldelats en produkt av Amazon. Det ändrar bara den Amazon-lista som katalogprodukten matchas mot.
+Du kan redigera det Amazon ASIN-värde som tilldelats en produkt i din [!DNL Commerce]-katalog. Den här funktionen är användbar om en katalogprodukt inte matchar någon av dina Amazon-listor korrekt. Om du ändrar tilldelat ASIN för listan ändras inte det ASIN som tilldelats en produkt av Amazon. Det ändrar bara den Amazon-lista som katalogprodukten matchas mot.
 
 När ett tilldelat ASIN ändras:
 
@@ -21,16 +21,16 @@ När ett tilldelat ASIN ändras:
 - Skapar en lista för det uppdaterade ASIN
 - Uppdateringar som listar information i Amazon försäljningskanal
 
-**_Så här redigerar du en tilldelad ASIN:_**
+**_Så här redigerar du ett tilldelat ASIN:_**
 
-1. Visa listan på _[!UICONTROL Product Listings]_sida (_[!UICONTROL Inactive]_, _[!UICONTROL Active]_, eller_[!UICONTROL Ineligible]_ -fliken).
+1. Visa listan på sidan _[!UICONTROL Product Listings]_(_[!UICONTROL Inactive]_, _[!UICONTROL Active]_eller fliken_[!UICONTROL Ineligible]_).
 
-1. Under _[!UICONTROL Actions]_, klicka **[!UICONTROL Edit Assigned ASIN]**.
+1. Klicka på **[!UICONTROL Edit Assigned ASIN]** under _[!UICONTROL Actions]_.
 
-   Åtgärden öppnar _[!UICONTROL Product Listing Update]_sida.
+   Åtgärden öppnar sidan _[!UICONTROL Product Listing Update]_.
 
-1. För **[!UICONTROL Assign ASIN]** anger du det nya ASIN-värdet.
+1. Ange det nya ASIN-värdet för **[!UICONTROL Assign ASIN]**.
 
-1. Klicka på **[!UICONTROL Save Listing Update]**.
+1. Klicka på **[!UICONTROL Save Listing Update]** om du vill spara ändringarna.
 
-![Redigera en tilldelad ASIN](assets/amazon-assigned-asin-edit.png){width="600" zoomable="yes"}
+![Redigera ett tilldelat ASIN](assets/amazon-assigned-asin-edit.png){width="600" zoomable="yes"}

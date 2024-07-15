@@ -5,7 +5,7 @@ feature: Sales Channels, Price Rules
 exl-id: edc40e6b-e71f-41a3-8d5f-8bb73ada42a3
 source-git-commit: b2e608a633b760672044653a22be757ecffc9540
 workflow-type: tm+mt
-source-wordcount: '387'
+source-wordcount: '376'
 ht-degree: 0%
 
 ---
@@ -24,31 +24,31 @@ De automatiska takprisinställningarna skyddar automatiskt ditt högsta produktp
 
 ## Konfigurera det valfria takpriset
 
-Definiera dina valfria inställningar för högsta pris i _[!UICONTROL Optional Ceiling Price]_-avsnitt.
+Definiera dina valfria inställningar för högsta pris i avsnittet _[!UICONTROL Optional Ceiling Price]_.
 
-1. För **[!UICONTROL Ceiling Price Source]** väljer du ett attribut.
+1. Välj ett attribut för **[!UICONTROL Ceiling Price Source]**.
 
-   Välj [!DNL Commerce] [produktattribut](https://experienceleague.adobe.com/docs/commerce-admin/catalog/product-attributes/product-attributes.html) som anger din relativa takgräns. Om du t.ex. inte vill att priset på Amazon ska ligga över minimipriset för ditt objekt väljer du `Manufacturer's Suggested Retail Price` -attribut.
+   Välj ditt [!DNL Commerce] [produktattribut](https://experienceleague.adobe.com/docs/commerce-admin/catalog/product-attributes/product-attributes.html) som anger din relativa takgräns. Om du t.ex. inte vill att ditt Amazon-pris ska gå över MSRP för ditt objekt väljer du attributet `Manufacturer's Suggested Retail Price`.
 
-1. För **[!UICONTROL Ceiling Price Action]** väljer du ett alternativ.
+1. Välj ett alternativ för **[!UICONTROL Ceiling Price Action]**.
 
-   - `Decrease By` - Välj när du vill ha den definierade _[!UICONTROL Ceiling Price Source]_värde som ska justeras nedåt, vilket skapar ett lägre takpris för regeln, innan den tas upp i Amazon.
+   - `Decrease By` - Välj när du vill att det definierade _[!UICONTROL Ceiling Price Source]_-värdet ska justeras nedåt, vilket skapar ett lägre takpris för regeln, innan det visas i Amazon.
 
-   - `Increase By` - Välj när du vill ha den definierade _[!UICONTROL Ceiling Price Source]_värde som ska justeras uppåt, vilket skapar ett högre takpris för regeln, innan den tas upp i Amazon.
+   - `Increase By` - Välj när du vill att det definierade _[!UICONTROL Ceiling Price Source]_-värdet ska justeras uppåt, vilket skapar ett högre takpris för regeln, innan det visas i Amazon.
 
-   - `Match` - Välj när du inte vill att listpriset ska fluktuera över det definierade _[!UICONTROL Ceiling Price Source]_värde. När inställt på `Match`,_[!UICONTROL Apply]_ och _[!UICONTROL Ceiling Adjustment Amount]_fält är inaktiverade.
+   - `Match` - Välj när du inte vill att listpriset ska fluktuera över det definierade _[!UICONTROL Ceiling Price Source]_-värdet. När `Match` anges inaktiveras fälten_[!UICONTROL Apply]_ och _[!UICONTROL Ceiling Adjustment Amount]_.
 
-1. Lämna **[!UICONTROL Apply]** standard som `Apply as percentage`.
+1. Använd **[!UICONTROL Apply]** som `Apply as percentage`.
 
-1. För **[!UICONTROL Ceiling Adjustment Price]**, ange det numeriska värdet för procentvärdet för att justera _[!UICONTROL Ceiling Price Source]_värde.
+1. För **[!UICONTROL Ceiling Adjustment Price]** anger du det numeriska värdet för procentvärdet för att justera ditt _[!UICONTROL Ceiling Price Source]_-värde.
 
 I det här exemplet sätts taket till 2 % under artikelns minimipris.
 
-![Intelligent regel för omprissättning - valfritt takpris](assets/ob-intelligent-price-rule-ceiling.png){width="600" zoomable="yes"}
+![Intelligent ompriseringsregel - valfritt takpris](assets/ob-intelligent-price-rule-ceiling.png){width="600" zoomable="yes"}
 
 | Fält | Beskrivning |
 |---------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [!UICONTROL Ceiling Price Source] | Välj [!DNL Commerce] [produktattribut](https://experienceleague.adobe.com/docs/commerce-admin/catalog/product-attributes/product-attributes.html) som anger din relativa takgräns. Om du t.ex. inte vill att priset på din produktlista ska ligga över minimipriset för din produkt väljer du `Manufacturer's Suggested Retail Price` -attribut. |
-| [!UICONTROL Ceiling Price Action] | Välj en prisjustering. Alternativ:<ul><li>**[!UICONTROL Decrease By]** - Välj när du vill ha den definierade _[!UICONTROL Ceiling Price Source]_värde som ska justeras nedåt, vilket skapar ett lägre takpris för regeln, innan den tas upp i Amazon.</li><li>**[!UICONTROL Increase By]** - Välj när du vill ha den definierade _[!UICONTROL Ceiling Price Source]_värde som ska justeras uppåt, vilket skapar ett högre takpris för regeln, innan den tas upp i Amazon.</li><li>**[!UICONTROL Match]** - Välj när du inte vill att listpriset ska fluktuera över det definierade _[!UICONTROL Ceiling Price Source]_värde. När inställt på `Match`,_[!UICONTROL Apply]_ och _[!UICONTROL Ceiling Adjustment Amount]_fält är inaktiverade.</li></ul> |
-| [!UICONTROL Apply] | **[!UICONTROL Apply as percentage]** - en procentuell justering i förhållande till _[!UICONTROL Ceiling Price Source]_värde. |
-| [!UICONTROL Ceiling Price Adjustment] | Ange det numeriska värdet för procentvärdet för att justera _[!UICONTROL Ceiling Price Source]_värde. |
+| [!UICONTROL Ceiling Price Source] | Välj det [!DNL Commerce] [produktattribut](https://experienceleague.adobe.com/docs/commerce-admin/catalog/product-attributes/product-attributes.html) som anger din relativa takgräns. Om du t.ex. inte vill att priset på din produktlista ska ligga över minimipriset för ditt objekt väljer du attributet `Manufacturer's Suggested Retail Price`. |
+| [!UICONTROL Ceiling Price Action] | Välj en prisjustering. Alternativ:<ul><li>**[!UICONTROL Decrease By]** - Välj när du vill att det definierade _[!UICONTROL Ceiling Price Source]_-värdet ska justeras nedåt, vilket skapar ett lägre takpris för regeln, innan det visas i Amazon.</li><li>**[!UICONTROL Increase By]** - Välj när du vill att det definierade _[!UICONTROL Ceiling Price Source]_-värdet ska justeras uppåt, vilket skapar ett högre takpris för regeln, innan det visas i Amazon.</li><li>**[!UICONTROL Match]** - Välj när du inte vill att listpriset ska fluktuera över det definierade _[!UICONTROL Ceiling Price Source]_-värdet. När `Match` anges inaktiveras fälten_[!UICONTROL Apply]_ och _[!UICONTROL Ceiling Adjustment Amount]_.</li></ul> |
+| [!UICONTROL Apply] | **[!UICONTROL Apply as percentage]** - en procentuell justering i förhållande till värdet _[!UICONTROL Ceiling Price Source]_. |
+| [!UICONTROL Ceiling Price Adjustment] | Ange det numeriska värdet för procentvärdet för att justera ditt _[!UICONTROL Ceiling Price Source]_-värde. |

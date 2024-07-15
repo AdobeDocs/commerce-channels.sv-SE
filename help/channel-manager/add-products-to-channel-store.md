@@ -1,6 +1,6 @@
 ---
 title: Lägg till produkter i kanalhanteraren
-description: Skapa produktsortiment för [!DNL Walmart Marketplace] försäljning genom att lägga till produkter från katalogen i den försäljningskanal som konfigurerats i Channel Manager.'
+description: 'Skapa produktsortiment för [!DNL Walmart Marketplace] försäljning genom att lägga till produkter från katalogen i den försäljningskanal som konfigurerats i Channel Manager.'
 feature: Sales Channels, Merchandising, Products
 exl-id: 00932df7-bdc7-42a1-b269-88dffcc918bc
 source-git-commit: 0087d60791cf00e4ed2bffe992447ee8e592fd9b
@@ -13,34 +13,34 @@ ht-degree: 0%
 
 # Lägg till produkter i [!DNL Channel Manager]
 
-Lägga till produkter i [!DNL Walmart Marketplace] försäljningskanal, välj dem i [!DNL Commerce] produktkatalog och importera dem till [!DNL Channel Manager].
+Om du vill lägga till produkter i försäljningskanalen [!DNL Walmart Marketplace] väljer du dem i produktkatalogen [!DNL Commerce] och importerar dem till [!DNL Channel Manager].
 Importprocessen kan ta upp till 30 minuter eller mer beroende på hur många produkter du väljer.
 
 ## Förutsättning
 
-**[Mappa katalogattribut](map-catalog-attributes.md)**—I [!DNL Channel Settings] konfiguration, mappa minst ett attribut från [!DNL Commerce] produktkatalog till någon av de Walmart-produktidentifierare som krävs - -GTIN, ISBN, ISSN, UPC, EAN.
+**[Mappa katalogattribut](map-catalog-attributes.md)** - I konfigurationen [!DNL Channel Settings] mappar du minst ett attribut från produktkatalogen [!DNL Commerce] till någon av de Walmart-produktidentifierare som krävs --GTIN, ISBN, ISSN, UPC, EAN.
 
 ## Listkrav
 
 [!DNL Commerce] produktlistor måste ha följande obligatoriska attributkonfiguration:
 
-- **[!UICONTROL Connect to Channel Manager]** attribut är aktiverat
+- Attributet **[!UICONTROL Connect to Channel Manager]** är aktiverat
 
 - Ange giltiga värden för de obligatoriska Walmart-attributen.
 
-   - Minst ett produktattribut som matchar ett av de obligatoriska [!DNL Walmart Marketplace] produktidentifierare - GTIN, ISBN, ISSN, UPC, EAN.
+   - Minst ett produktattribut som matchar en av de [!DNL Walmart Marketplace] produktidentifierare som krävs - GTIN, ISBN, ISSN, UPC, EAN.
 
-   - Produktpriset anges till högst två decimaler, till exempel `9.99`
+   - Produktpriset har angetts till högst två decimaler, till exempel `9.99`
 
    - Produktvikt angiven till högst två decimaler, till exempel `1.25`
 
 >[!TIP]
 >
->Mer information om hur du optimerar listor för din försäljningskanal finns i [Walmart Marketplace - guide för kvalitetsoptimering](https://marketplace.walmart.com/wp-content/uploads/2020/09/WMP_listing_quality_optimization_guide.pdf).
+>Mer information om hur du optimerar listor för din försäljningskanal finns i [guiden Optimering av kvalitet på Walmart Marketplace](https://marketplace.walmart.com/wp-content/uploads/2020/09/WMP_listing_quality_optimization_guide.pdf).
 
 ## Lägg till produkter
 
-1. I en ansluten säljkanalbutik väljer du **Lägg till produkter** för att öppna produktkatalogen.
+1. Välj **Lägg till produkter** från en ansluten försäljningskanalbutik för att öppna produktkatalogen.
 
    ![Lägg till produkter i säljkanalsbutiken](assets/add-initial-products-to-connected-channel.png){width="600" zoomable="yes"}
 
@@ -50,13 +50,13 @@ Importprocessen kan ta upp till 30 minuter eller mer beroende på hur många pro
 
    ![Skicka produkter till säljkanalsbutiken](assets/select-products-from-catalog.png){width="600" zoomable="yes"}
 
-1. Aktivera **[!UICONTROL Connect to Channel Manager]** för de markerade objekten.
+1. Aktivera attributet **[!UICONTROL Connect to Channel Manager]** för de markerade objekten.
 
-   - Från **[!UICONTROL Actions]**, markera **[!UICONTROL Update attributes]**.
+   - Välj **[!UICONTROL Update attributes]** från **[!UICONTROL Actions]**.
 
-   - Bläddra till **[!UICONTROL Connect to Channel Manager]** och aktivera det.
+   - Bläddra till attributet **[!UICONTROL Connect to Channel Manager]** och aktivera det.
 
-   - Kontrollera att produktattributen innehåller minst ett av de obligatoriska [!DNL Walmart Product IDs].
+   - Kontrollera att produktattributen innehåller minst en av de [!DNL Walmart Product IDs] som krävs.
 
    - Välj **[!UICONTROL Save]**.
 
@@ -64,17 +64,17 @@ Importprocessen kan ta upp till 30 minuter eller mer beroende på hur många pro
 
      ![Produktimport från katalog till bekräftelsemeddelande för försäljningskanal](assets/product-import-from-catalog-confirmation.png){width="400"}
 
-     Om meddelandet anger att uppdateringen är schemalagd använder du [`queue:consumers:start`](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/start-message-queues.html) [!DNL CLI] om du vill bearbeta uppdateringen direkt.
+     Om meddelandet anger att uppdateringen är schemalagd använder du kommandot [`queue:consumers:start`](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/start-message-queues.html) [!DNL CLI] för att bearbeta uppdateringen direkt.
 
      ```bash
      $ bin/magento queue:consumers:start product_action_attribute.update
      ```
 
-1. När importen är klar kontrollerar du de produkter som du har lagt till genom att gå tillbaka till [!DNL Channel Manager] och markera **[!UICONTROL Listings]**.
+1. När importen har slutförts kontrollerar du de produkter som du har lagt till genom att gå tillbaka till [!DNL Channel Manager] och välja **[!UICONTROL Listings]**.
 
-   Produkterna finns i *Utkast* status. Välj **[!UICONTROL Refresh products]** för att uppdatera tabellen.
+   Produkterna har till att börja med statusen *Utkast*. Välj **[!UICONTROL Refresh products]** om du vill uppdatera tabellen.
 
-1. Uppdatera vyn för att visa de nya produkterna som lagts till i Channel Manager genom att välja **[!UICONTROL Draft]** statuskort.
+1. Uppdatera vyn så att de nya produkterna som lagts till i Channel Manager visas genom att välja statuskortet **[!UICONTROL Draft]**.
 
    ![Produkter som importerats till en ansluten försäljningskanal](assets/products-in-marketplace-sales-channel.png){width="400" zoomable="yes"}
 

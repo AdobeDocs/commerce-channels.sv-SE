@@ -13,15 +13,15 @@ ht-degree: 1%
 
 # Lägg till Amazon prisregler
 
-Prisreglerna kan konfigureras och ändras när som helst efter att butiken har integrerats. Prisreglerna ingår i [Listinställningar](./listing-settings.md) och kan öppnas i [instrumentpanel för butik](./amazon-store-dashboard.md).
+Prisreglerna kan konfigureras och ändras när som helst efter att butiken har integrerats. Prisreglerna ingår i [listinställningarna](./listing-settings.md) och kan nås på [butikens kontrollpanel](./amazon-store-dashboard.md).
 
 ## Standardprisregel
 
-Med en standardprisregelåtgärd kan du öka eller minska ett Amazon-listpris med en viss procentandel eller ett fast belopp i förhållande till **[!UICONTROL Magento Price Source*]* som definieras i [Listpris](./listing-price.md).
+Med en standardprisregelåtgärd kan du öka eller minska ett Amazon-listpris med en viss procentandel eller ett fast belopp i förhållande till **[!UICONTROL Magento Price Source*]* som definieras i ditt [listpris](./listing-price.md).
 
 ### Lägg till en standardprisregel
 
-1. Klicka **[!UICONTROL Pricing rules]** på butikens kontrollpanel.
+1. Klicka på **[!UICONTROL Pricing rules]** på butikens kontrollpanel.
 
 1. Klicka på **[!UICONTROL Add new pricing rule]**.
 
@@ -31,7 +31,7 @@ Med en standardprisregelåtgärd kan du öka eller minska ett Amazon-listpris me
 
 1. Slutför **[[!UICONTROL Price Rule Actions]](./standard-price-rules.md)** för regeln.
 
-1. När du är klar klickar du på **[!UICONTROL Save pricing rule]**.
+1. Klicka på **[!UICONTROL Save pricing rule]** när du är klar.
 
 ## Intelligent regel för omprissättning
 
@@ -39,7 +39,7 @@ En intelligent regel för omprissättning använder Amazon konkurrenters priser 
 
 ### Lägg till en intelligent regel för omprissättning
 
-1. Klicka **[!UICONTROL Pricing rules]** på butikens kontrollpanel.
+1. Klicka på **[!UICONTROL Pricing rules]** på butikens kontrollpanel.
 
 1. Klicka på **[!UICONTROL Add new pricing rule]**.
 
@@ -59,4 +59,4 @@ En intelligent regel för omprissättning använder Amazon konkurrenters priser 
 
    - [[!UICONTROL Optional Ceiling Price]](./optional-ceiling-price.md)
 
-1. När du är klar klickar du på **[!UICONTROL Save pricing rule]**.
+1. Klicka på **[!UICONTROL Save pricing rule]** när du är klar.

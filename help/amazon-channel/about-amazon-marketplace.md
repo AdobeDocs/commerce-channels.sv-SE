@@ -6,20 +6,20 @@ feature: Sales Channels, Tools and External Services
 exl-id: d4943d40-773e-4635-aca4-ae40f8ada7bd
 source-git-commit: 7fff4c463551089fb64f2d5bf7bf23f272ce4663
 workflow-type: tm+mt
-source-wordcount: '513'
+source-wordcount: '478'
 ht-degree: 0%
 
 ---
 
 # Om [!DNL Amazon Marketplace]
 
-[[!DNL Amazon Marketplace]](https://sell.amazon.com/){target="_blank"} är en e-handelsplattform som ägs och drivs av Amazon och som gör det möjligt för tredjepartssäljare att sälja nya eller använda produkter. Använda [!DNL Amazon Marketplace], tredjepartsförsäljare får tillgång till Amazon världsomspännande kundbas. Merchants som listar produkter på Amazon som ska säljas, inklusive Adobe Commerce och Magento Open Source, definieras av Amazon som&quot;tredjepartsförsäljare&quot;.
+[[!DNL Amazon Marketplace]](https://sell.amazon.com/){target="_blank"} är en e-handelsplattform som ägs och drivs av Amazon och som gör det möjligt för tredjepartssäljare att sälja nya eller använda produkter. Om du använder [!DNL Amazon Marketplace] får tredjepartssäljare tillgång till Amazon världsomspännande kundbas. Merchants som listar produkter på Amazon som ska säljas, inklusive Adobe Commerce och Magento Open Source, definieras av Amazon som&quot;tredjepartsförsäljare&quot;.
 
-Tredjepartsförsäljare av alla storlekar kan skapa [!DNL Amazon Seller Central] konto och använd [!DNL Amazon Marketplace] för att nå Amazon globala kundbas. När ett konto har skapats och aktiverats kan säljarna lägga till och lista produkter för försäljning, hantera order och lager samt slutföra order.
+Tredjepartsförsäljare av alla storlekar kan skapa ett [!DNL Amazon Seller Central]-konto och använda [!DNL Amazon Marketplace] för att nå Amazon globala kundbas. När ett konto har skapats och aktiverats kan säljarna lägga till och lista produkter för försäljning, hantera order och lager samt slutföra order.
 
 ## Amazon - listor
 
-Amazon listor innehåller två informationskategorier: **produktinformation** och **listinformation**.
+Amazon-listor innehåller två informationskategorier: **produktinformation** och **listinformation**.
 
 ### Produktinformation
 
@@ -35,18 +35,18 @@ Om du vill bidra med produktinformation eller korrigera felaktig information på
 
 Amazon erbjuder två alternativ för orderhantering och leverans:
 
-- **Fylls i av handlaren**: Tredjepartsförsäljare lagrar sitt eget lager. När en kund lägger en order hanterar säljaren förpackningen och leveransen till kunden. Med det här alternativet kan du slutföra leveranser via Adobe Commerce och Magento Open Source, eller någon annan tredje part.
+- **Fullgjord av handlaren (FBM)**: Tredjepartssäljare lagrar sitt eget lager. När en kund lägger en order hanterar säljaren förpackningen och leveransen till kunden. Med det här alternativet kan du slutföra leveranser via Adobe Commerce och Magento Open Source, eller någon annan tredje part.
 
-- **Fylls i av Amazon (FBA)**: Tredjepartsförsäljare lagrar lager i Amazon leveranscentra över hela världen. När en kund lägger en order hanterar Amazon förpackningen och leveransen till kunden. Beställningsinformation och status skickas till Adobe Commerce eller Magento Open Source.
+- **Fullgjord av Amazon (FBA)**: Tredjepartssäljare lagrar lager i Amazon leveranscentra över hela världen. När en kund lägger en order hanterar Amazon förpackningen och leveransen till kunden. Beställningsinformation och status skickas till Adobe Commerce eller Magento Open Source.
 
-The [!DNL Amazon Sales Channel] tillägg har stöd för båda alternativen, att ta emot och spåra beställningar. När ni är klara uppdateras orderstatusarna automatiskt. Se [Arbetsflöden för uppfyllelse](./fulfillment-workflows.md).
+Tillägget [!DNL Amazon Sales Channel] stöder båda alternativen, tar emot och spårar dessa order. När ni är klara uppdateras orderstatusarna automatiskt. Se [Arbetsflöden för uppfyllelse](./fulfillment-workflows.md).
 
 ## Innan du säljer på Amazon
 
 Amazon följer ett antal policyer och arbetsflöden för att säkerställa att alla säljare och produkter följer angivna riktlinjer. För att vara säker på att dina produkter och konton är godkända och kvalificerade att upptas i förteckningen bör du läsa följande Amazon-information och -policyer:
 
 - [Hjälp för Amazon-försäljare](https://sellercentral.amazon.com/gp/help/external/help-page.html?itemID=2&amp;language=en_US/){target="_blank"}
-- [Leveransregler](https://sellercentral.amazon.com/gp/help/external/201901620?language=en-US){target="_blank"}
-- [Programpolicy](https://sellercentral.amazon.com/gp/help/external/521?language=en-US){target="_blank"}
-- [Försäljningspolitik och uppförandekod](https://sellercentral.amazon.com/gp/help/external/1801?language=en-US){target="_blank"}
+- [Leveransprofiler](https://sellercentral.amazon.com/gp/help/external/201901620?language=en-US){target="_blank"}
+- [Programprinciper](https://sellercentral.amazon.com/gp/help/external/521?language=en-US){target="_blank"}
+- [Säljpolicyer och uppförandekod](https://sellercentral.amazon.com/gp/help/external/1801?language=en-US){target="_blank"}
 - [Lista förnyade (renoverade, ägs och öppnas) produkter på Amazon](https://sell.amazon.com/programs/renewed){target="_blank"}

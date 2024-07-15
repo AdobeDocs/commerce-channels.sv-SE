@@ -1,6 +1,6 @@
 ---
 title: Hantera Walmart Marketplace-anslutning
-description: '''Uppdatera API-autentiseringsuppgifterna för att auktorisera anslutningen mellan en [DNL! Commerce]-butiksvyn och [!DNL Walmart Marketplace]. The connection is required to connect [!DNL Commerce] produktlistor och synkronisera lager, pris, order och leveransdata mellan [!DNL Commerce] och Walmart.'
+description: 'Uppdatera API-autentiseringsuppgifterna för att auktorisera anslutningen mellan en [DNL! Commerce] butiksvy och  [!DNL Walmart Marketplace]. The connection is required to connect [!DNL Commerce] produktlistor och synkronisera lager-, pris-, order- och leveransdata mellan [!DNL Commerce] och Walmart.'
 role: Admin, Developer
 feature: Sales Channels, Configuration, Shipping/Delivery, Integration
 exl-id: 817b1b58-a57e-4c8d-b08f-1ce3bec15bc3
@@ -13,19 +13,19 @@ ht-degree: 0%
 
 # Kartlägg transportföretag
 
-Innan du [processorderförsändelser](process-orders.md#ship-an-order) for [!DNL Walmart Marketplace] beställningar, karta Walmart rekommenderade fraktföretag till motsvarande fraktfirma i [!DNL Commerce] så att leveransdata kan synkroniseras mellan [!DNL Walmart] och [!DNL Commerce].
+Innan du [bearbetar orderleveranser](process-orders.md#ship-an-order) för [!DNL Walmart Marketplace] beställningar ska du mappa Walmart-prioriterade transportföretag till motsvarande transportföretag i [!DNL Commerce] så att leveransdata kan synkroniseras mellan [!DNL Walmart] och [!DNL Commerce].
 
-Commerce-transportföretag som inte mappar till en föredragen leverantör är märkta som *[!UICONTROL Other Carrier]* på [!DNL Walmart].
+Commerce-bärare som inte är mappade till en föredragen bärare får etiketten *[!UICONTROL Other Carrier]* på [!DNL Walmart].
 
 **Förutsättningar**
 
-Granska [Krav för Walmart](walmart-requirements.md) för [!DNL Marketplace Seller account].
+Granska [Gå igenom kraven](walmart-requirements.md) för [!DNL Marketplace Seller account].
 
 ## Uppdatera anslutningsautentiseringsuppgifter
 
-1. På [!UICONTROL Listings] sidan för säljkanalsbutiken, välj **[!UICONTROL Channel Settings]**.
+1. Välj **[!UICONTROL Channel Settings]** på sidan [!UICONTROL Listings] för säljkanalsbutiken.
 
-1. På **[!UICONTROL Channel Settings]**, markera **[!UICONTROL Walmart Connection]**.
+1. På **[!UICONTROL Channel Settings]** väljer du **[!UICONTROL Walmart Connection]**.
 
 1. Om du vill ändra autentiseringsuppgifterna väljer du **[!UICONTROL Change Credentials]**
 
@@ -33,4 +33,4 @@ Granska [Krav för Walmart](walmart-requirements.md) för [!DNL Marketplace Sell
 
 1. Ange **[!UICONTROL Walmart Client ID]** och **[!UICONTROL Walmart Client Secret]**.
 
-1. Välj **[!UICONTROL Save]** för att tillämpa konfigurationen.
+1. Välj **[!UICONTROL Save]** om du vill använda konfigurationen.
