@@ -4,7 +4,7 @@ description: 'Installera tillägget [!DNL Channel Manager].'
 role: Admin, Developer
 feature: Sales Channels, Install
 exl-id: cb593ebd-f077-4a79-a661-bedf4cc70f97
-source-git-commit: 4670e9b25a840f86862c9cadaf9e6d3e70330b7d
+source-git-commit: 1e74150e6ac88dbabb2e4bbb2fa2f243072eb03f
 workflow-type: tm+mt
 source-wordcount: '611'
 ht-degree: 0%
@@ -72,7 +72,7 @@ Använd de här instruktionerna för att installera [!DNL Channel Manager] på A
 
      Exempelsvar:
 
-     ```terminal
+     ```
      Module is enabled
      ```
 
@@ -154,7 +154,7 @@ Under installationen infogas tilläggets namn (`magento\channel-manager`) automa
 
 Exempelsvar:
 
-```terminal
+```
 Module is enabled
 ```
 
@@ -176,7 +176,7 @@ Använd följande information för att åtgärda fel som inträffar under instal
 
 Om [åtkomstnycklarna](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/authentication-keys.html) som används för att autentisera till Composer-databasen är ogiltiga eller inte är länkade till [!DNL MAGE ID] som används för att registrera sig för tjänsten [!DNL Channel Manager] visas följande fel.
 
-```terminal
+```
 Could not find a matching version of package magento/channel-manager. Check the package spelling, your version constraint and that the package is available in a stability which matches your minimum-stability (stable).
 ```
 
@@ -200,7 +200,7 @@ Kontrollera nyckelkonfigurationen:
 
 Följande fel visas om systemet inte har tillräckligt med minne för PHP.
 
-```terminal
+```
 Fatal error: Allowed memory size of 2146435072 bytes exhausted (tried to allocate 4096 bytes) in phar:///usr/local/bin/composer/src/Composer/DependencyResolver/RuleWatchGraph.php on line 52
 ```
 
